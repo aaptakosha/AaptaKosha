@@ -39,7 +39,10 @@ def test_duplicate_link_is_idempotent():
 
 def test_database_link_integrity_rejects_unknown_resource():
     conn = sqlite3.connect(":memory:")
-    content, svc = services()
+    content = SQLiteContentRepository(conn)
+    content.apply_migrations()
+    links = SQLiteCurriculumContentLinkRepository(conn)
+    links.apply_migrations()
     with pytest.raises(sqlite3.IntegrityError):
         conn.execute(
             "INSERT INTO curriculum_content_links "
