@@ -26,6 +26,7 @@ from .assessment_services import (
     AssessmentTransitionError,
 )
 from .api import CatalogApi
+from .learning_api import LearningCatalogApi
 from .auth import (
     AuthorizationDeniedError,
     AuthorizationService,
@@ -81,7 +82,7 @@ __all__ = [
     "CurriculumContentLinkService", "SQLiteCurriculumContentLinkRepository", "ContentApi",
     "ContentSearchIndex", "ContentSearchResult", "InMemoryContentSearchIndex",
     "ContentProvenance", "ContentResource", "ContentRepository", "SQLiteContentRepository",
-    "AuthorizationService", "CATALOG_ADMIN", "CATALOG_READ", "CatalogApi", "DRAFT",
+    "AuthorizationService", "CATALOG_ADMIN", "CATALOG_READ", "CatalogApi", "LearningCatalogApi", "DRAFT",
     "CatalogNotFoundError", "CatalogRepository", "CatalogService", "AutomationRule",
     "COMPLETED", "IN_PROGRESS", "NOT_STARTED", "Curriculum", "LearningProgress",
     "LearningProgressRepository", "LearningProgressService", "Notification",
