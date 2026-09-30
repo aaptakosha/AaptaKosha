@@ -15,12 +15,13 @@ Last updated: 2026-09-30
 - [x] API boundary
 - [x] Identity and authorization boundary
 - [x] Learning-progress model
-- [ ] Notifications/automation boundary
+- [x] Notifications/automation boundary
 - [ ] Product-facing test and CI expansion
 
 ### Latest completed work
 - Identity boundary: Principal, explicit permissions, default catalog role mappings, and AuthorizationService.
 - Learning-progress boundary: domain-neutral progress snapshot, repository protocol, and application service.
+- Notifications/automation boundary: provider-neutral notification queue, automation rules, channel senders, and dispatcher.
 - Authorization tests cover direct grants, role grants, denied permissions, missing principals, and duplicate grants.
 - Production authentication remains intentionally out of scope for this phase.
 
