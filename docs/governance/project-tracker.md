@@ -31,7 +31,7 @@ Last updated: 2026-09-30
 ## Phase 4 checklist
 - [x] Assessment domain contracts
 - [x] Assessment persistence boundary
-- [ ] Assessment application service and scoring
+- [x] Assessment application service and scoring
 - [ ] Learner attempt API boundary
 - [ ] Assessment analytics/progress integration
 - [ ] Phase 4 tests and CI expansion (verification pending)
@@ -43,7 +43,8 @@ Last updated: 2026-09-30
 - Added JSON snapshot persistence for questions, options, curriculum references, and learner answers.
 - Added Phase 4 persistence tests for round trips, status filtering, learner-attempt retrieval, and upserts.
 - Added a dedicated Phase 4 assessment migration and exported the persistence boundary from the package.
-- Implementation is complete for the persistence slice; test execution/CI verification is still pending.
+- Added the assessment application service with governed publish/archive lifecycle, published-only attempt starts, attempt submission, answer validation, and deterministic scoring integration.
+- Persistence and application-service implementation are complete for this slice; test execution/CI verification is still pending.
 
 ## Phase 3 checklist
 - [x] Content-resource contracts
