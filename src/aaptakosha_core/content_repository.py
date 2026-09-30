@@ -84,7 +84,7 @@ class SQLiteContentRepository:
                 resource.title,
                 resource.summary,
                 resource.status,
-                json.dumps([p.__dict__ for p in resource.provenance]),
+                json.dumps([{"source": p.source, "locator": p.locator, "attribution": p.attribution} for p in resource.provenance]),
                 json.dumps(list(resource.curriculum_refs)),
             ),
         )
