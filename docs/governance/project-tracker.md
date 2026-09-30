@@ -8,7 +8,7 @@ Last updated: 2026-10-01
 | Phase 1 | NCISM ingestion & reconciliation core | Complete | docs/governance/phase-1-exit-criteria.md |
 | Phase 2 | Application/product layer | Complete | docs/architecture/phase-2-product-layer.md |
 | Phase 3 | Knowledge & content layer | Complete | docs/architecture/phase-3-knowledge-content.md |
-| Phase 4 | Assessment & learner experience | Implementation complete; CI verified; analytics/progress integration pending | docs/architecture/phase-4-assessment-learner-experience.md |
+| Phase 4 | Assessment & learner experience | Complete | docs/architecture/phase-4-assessment-learner-experience.md |
 
 ## Phase 2 checklist
 - [x] Product-domain contracts and catalog read model
@@ -33,7 +33,7 @@ Last updated: 2026-10-01
 - [x] Assessment persistence boundary
 - [x] Assessment application service and scoring
 - [x] Learner attempt API boundary
-- [ ] Assessment analytics/progress integration
+- [x] Assessment analytics/progress integration
 - [x] Phase 4 tests and CI expansion
 
 ### Latest Phase 4 work
@@ -63,6 +63,6 @@ Last updated: 2026-10-01
 - Curriculum-to-content linking is separate and auditable; links require an existing content resource, duplicate links are idempotent, and the SQLite link table enforces a resource foreign key.
 - Content API and deterministic published-only search/index boundary are implemented.
 - Expanded CI to run Phase 2, Phase 3, and Phase 4 tests on Python 3.11 and 3.12.
-- GitHub Actions product workflow run #57 completed successfully on Python 3.11 and 3.12, verifying the combined Phase 2/3/4 test suite.
+- GitHub Actions product workflow run #61 completed successfully on Python 3.11 and 3.12, verifying the combined Phase 2/3/4 test suite including assessment analytics/progress integration.
 
 Tracker rule: update this file whenever a phase gate changes state.
