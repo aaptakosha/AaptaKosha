@@ -6,7 +6,8 @@ Last updated: 2026-09-30
 |---|---|---|---|
 | Phase 0 | Foundation & control plane | Complete | docs/governance/phase-0-exit-criteria.md |
 | Phase 1 | NCISM ingestion & reconciliation core | Complete | docs/governance/phase-1-exit-criteria.md |
-| Phase 2 | Application/product layer | In progress | docs/architecture/phase-2-product-layer.md |
+| Phase 2 | Application/product layer | Complete | docs/architecture/phase-2-product-layer.md |
+| Phase 3 | Knowledge & content layer | In progress | docs/architecture/phase-3-knowledge-content.md |
 
 ## Phase 2 checklist
 - [x] Product-domain contracts and catalog read model
@@ -25,5 +26,17 @@ Last updated: 2026-09-30
 - Product-facing test and CI expansion: dedicated Phase 2 test workflow across Python 3.11 and 3.12.
 - Authorization tests cover direct grants, role grants, denied permissions, missing principals, and duplicate grants.
 - Production authentication remains intentionally out of scope for this phase.
+
+## Phase 3 checklist
+- [x] Content-resource contracts
+- [ ] Content repository and persistence boundary
+- [ ] Content application service and publication rules
+- [ ] Curriculum-to-content linking
+- [ ] Content API boundary
+- [ ] Search/indexing boundary
+- [ ] Phase 3 tests and CI expansion
+
+### Latest Phase 3 work
+- Added domain-neutral ContentResource and ContentProvenance contracts with explicit lifecycle states.
 
 Tracker rule: update this file whenever a phase gate changes state.
