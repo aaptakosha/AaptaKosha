@@ -15,6 +15,7 @@ from .assessment import (
     score_attempt,
 )
 from .assessment_repository import AssessmentAttemptRepository, AssessmentRepository
+from .progress import LearningProgressService
 
 
 class AssessmentNotFoundError(LookupError):
@@ -38,9 +39,11 @@ class AssessmentService:
         self,
         assessment_repository: AssessmentRepository,
         attempt_repository: AssessmentAttemptRepository,
+        progress_service: LearningProgressService | None = None,
     ):
         self.assessment_repository = assessment_repository
         self.attempt_repository = attempt_repository
+        self.progress_service = progress_service
 
     def create(self, assessment: Assessment) -> Assessment:
         if assessment.status != DRAFT:
@@ -74,7 +77,9 @@ class AssessmentService:
         if attempt.status != IN_PROGRESS:
             raise AssessmentAttemptError("new attempts must start in progress")
         self._validate_answers(assessment, attempt)
-        return self.attempt_repository.save(attempt)
+        saved = self.attempt_repository.save(attempt)
+        self._sync_progress(saved)
+        return saved
 
     def submit_attempt(self, attempt_id: str) -> AssessmentAttempt:
         attempt = self._get_attempt(attempt_id)
@@ -89,7 +94,9 @@ class AssessmentService:
             status=SUBMITTED,
             answers=attempt.answers,
         )
-        return self.attempt_repository.save(submitted)
+        saved = self.attempt_repository.save(submitted)
+        self._sync_progress(saved)
+        return saved
 
     def get_attempt(self, attempt_id: str) -> AssessmentAttempt:
         return self._get_attempt(attempt_id)
@@ -124,6 +131,17 @@ class AssessmentService:
                 questions=assessment.questions,
             )
         )
+
+    def _sync_progress(self, attempt: AssessmentAttempt) -> None:
+        if self.progress_service is None:
+            return
+        from .assessment_analytics import AssessmentProgressService
+
+        AssessmentProgressService(
+            self.assessment_repository,
+            self.attempt_repository,
+            self.progress_service,
+        ).sync_attempt(attempt.attempt_id)
 
     @staticmethod
     def _validate_answers(assessment: Assessment, attempt: AssessmentAttempt) -> None:
