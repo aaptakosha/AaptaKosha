@@ -8,6 +8,15 @@ from .auth import (
     Principal,
 )
 from .catalog import Curriculum, Subject, Topic
+from .content import (
+    ARCHIVED,
+    DRAFT,
+    PUBLISHED,
+    REVIEW,
+    VALID_CONTENT_STATUSES,
+    ContentProvenance,
+    ContentResource,
+)
 from .notifications import (
     AutomationRule,
     Notification,
@@ -28,11 +37,15 @@ from .services import CatalogNotFoundError, CatalogRepository, CatalogService
 from .sqlite_repository import SQLiteCatalogRepository
 
 __all__ = [
+    "ARCHIVED",
     "AuthorizationDeniedError",
+    "ContentProvenance",
+    "ContentResource",
     "AuthorizationService",
     "CATALOG_ADMIN",
     "CATALOG_READ",
     "CatalogApi",
+    "DRAFT",
     "CatalogNotFoundError",
     "CatalogRepository",
     "CatalogService",
@@ -49,6 +62,9 @@ __all__ = [
     "NotificationRepository",
     "NotificationSender",
     "NotificationService",
+    "PUBLISHED",
+    "REVIEW",
+    "VALID_CONTENT_STATUSES",
     "Principal",
     "Subject",
     "Topic",
