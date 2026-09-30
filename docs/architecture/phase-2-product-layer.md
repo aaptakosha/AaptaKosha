@@ -16,8 +16,8 @@ Phase 1 remains the authoritative ingestion/reconciliation path for published cu
 1. Product-domain contracts and catalog read model — Complete
 2. Application use-case services — Complete
 3. Persistence adapter and migration baseline — Complete
-4. API boundary — Next
-5. Identity and authorization boundary
+4. API boundary — Complete
+5. Identity and authorization boundary — Next
 6. Learning-progress model
 7. Notifications/automation boundary
 8. Product-facing test and CI expansion
