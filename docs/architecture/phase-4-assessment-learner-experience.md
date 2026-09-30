@@ -46,7 +46,7 @@ The application service governs lifecycle transitions and learner operations. It
 
 ## Learner attempt API
 
-The framework-neutral `AssessmentApi` exposes assessment retrieval/listing plus learner-attempt start, retrieval, submission, and deterministic scoring. API serialization intentionally omits question answer keys so published assessments do not expose `is_correct` to learners. Domain/application errors are mapped to stable transport-neutral status codes without coupling the core to a web framework.
+The framework-neutral `AssessmentApi` exposes published assessment retrieval/listing plus learner-attempt start, retrieval, submission, and deterministic scoring. Attempt retrieval, submission, and scoring are scoped to the supplied learner identity. API serialization intentionally omits question answer keys so published assessments do not expose `is_correct` to learners. Domain/application errors are mapped to stable transport-neutral status codes without coupling the core to a web framework.
 
 ## Initial lifecycle
 
