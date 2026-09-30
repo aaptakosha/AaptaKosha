@@ -7,8 +7,8 @@ Last updated: 2026-10-01
 | Phase 0 | Foundation & control plane | Complete | docs/governance/phase-0-exit-criteria.md |
 | Phase 1 | NCISM ingestion & reconciliation core | Complete | docs/governance/phase-1-exit-criteria.md |
 | Phase 2 | Application/product layer | Complete | docs/architecture/phase-2-product-layer.md |
-| Phase 3 | Knowledge & content layer | Implementation complete; verification pending | docs/architecture/phase-3-knowledge-content.md |
-| Phase 4 | Assessment & learner experience | Implementation complete; verification pending | docs/architecture/phase-4-assessment-learner-experience.md |
+| Phase 3 | Knowledge & content layer | Complete | docs/architecture/phase-3-knowledge-content.md |
+| Phase 4 | Assessment & learner experience | Implementation complete; CI verified; analytics/progress integration pending | docs/architecture/phase-4-assessment-learner-experience.md |
 
 ## Phase 2 checklist
 - [x] Product-domain contracts and catalog read model
@@ -34,7 +34,7 @@ Last updated: 2026-10-01
 - [x] Assessment application service and scoring
 - [x] Learner attempt API boundary
 - [ ] Assessment analytics/progress integration
-- [ ] Phase 4 tests and CI expansion (verification pending)
+- [x] Phase 4 tests and CI expansion
 
 ### Latest Phase 4 work
 - Added domain-neutral assessment, question, option, and learner-attempt contracts.
@@ -46,7 +46,7 @@ Last updated: 2026-10-01
 - Added the assessment application service with governed publish/archive lifecycle, published-only attempt starts, attempt submission, answer validation, and deterministic scoring integration.
 - Added the framework-neutral learner assessment API for assessment reads, attempt start/retrieval/submission, and deterministic scoring.
 - API serialization intentionally excludes question answer keys; learner attempt retrieval, submission, and scoring are scoped to the learner identity; missing and invalid operations map to stable transport-neutral response codes.
-- Persistence, application-service, and learner-attempt API implementation are complete for this slice; test execution initially exposed a repository method-overwrite defect, which was corrected by dispatching assessment/attempt operations in the shared SQLite adapter and updating stale attempt fixtures to provide the required learner identity. CI verification is still pending.
+- Persistence, application-service, and learner-attempt API implementation are complete for this slice; test execution initially exposed a repository method-overwrite defect, which was corrected by dispatching assessment/attempt operations in the shared SQLite adapter and updating stale attempt fixtures to provide the required learner identity. GitHub Actions product workflow run #57 for commit 429c766 completed successfully on Python 3.11 and 3.12, verifying the Phase 4 test suite and combined product workflow.
 
 ## Phase 3 checklist
 - [x] Content-resource contracts
@@ -62,7 +62,7 @@ Last updated: 2026-10-01
 - Content application service and governed lifecycle: draft → review → published → archived, with provenance and curriculum-reference gates for publication.
 - Curriculum-to-content linking is separate and auditable; links require an existing content resource, duplicate links are idempotent, and the SQLite link table enforces a resource foreign key.
 - Content API and deterministic published-only search/index boundary are implemented.
-- Expanded CI to run Phase 2 and Phase 3 tests on Python 3.11 and 3.12; GitHub run verification is still pending.
-- Phase 3 is **not yet marked fully verified** because an observed GitHub Actions run has not been confirmed.
+- Expanded CI to run Phase 2, Phase 3, and Phase 4 tests on Python 3.11 and 3.12.
+- GitHub Actions product workflow run #57 completed successfully on Python 3.11 and 3.12, verifying the combined Phase 2/3/4 test suite.
 
 Tracker rule: update this file whenever a phase gate changes state.
