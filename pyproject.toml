@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aaptakosha-ingestion"
-version = "0.1.0"
-description = "AaptaKosha Phase 1 NCISM ingestion and reconciliation core"
+version = "0.2.0"
+description = "AaptaKosha ingestion and product-domain foundation"
 requires-python = ">=3.11"
 
 [tool.pytest.ini_options]
-pythonpath = ["."]
+pythonpath = ["src"]
 testpaths = ["tests"]
