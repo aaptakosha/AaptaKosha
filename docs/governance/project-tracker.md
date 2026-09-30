@@ -34,9 +34,10 @@ Last updated: 2026-09-30
 - [x] Curriculum-to-content linking
 - [x] Content API boundary
 - [x] Search/indexing boundary
-- [ ] Phase 3 tests and CI expansion
+- [x] Phase 3 tests and CI expansion (verification pending)
 
 ### Latest Phase 3 work
 - Added a deterministic, replaceable content search/index boundary with published-only indexing.
+- Expanded CI to run Phase 2 and Phase 3 tests on Python 3.11 and 3.12; GitHub run verification is still pending.
 
 Tracker rule: update this file whenever a phase gate changes state.
