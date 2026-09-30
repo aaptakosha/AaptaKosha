@@ -9,13 +9,15 @@ Phase 0 can transition to Phase 1 when each gate has recorded evidence.
 | G0.3 | Initial database/schema blueprint exists | Complete |
 | G0.4 | Connector/delegation strategy established | Complete |
 | G0.5 | Central project tracker exists | Complete |
-| G0.6 | Authoritative NCISM source registry frozen | Ongoing |
+| G0.6 | Authoritative NCISM source registry frozen | Complete |
 | G0.7 | Implementation baseline versioned | Complete |
 | G0.8 | Curriculum ingestion model mapped | Complete |
 | G0.9 | Automation/reconciliation design defined | Complete |
-| G0.10 | Phase 0 readiness review recorded | Pending |
+| G0.10 | Phase 0 readiness review recorded | Complete |
 
-The repository is not considered Phase 0 complete until G0.6 and G0.10 are evidenced in version control and the project tracker.
+## G0.6 evidence
+
+The Phase 0 NCISM source-entry registry is frozen as version 0.1.1 in `docs/sources/ncism-source-registry.md`. The official NCISM BAMS curriculum index and professional-year entry points were re-verified on 2026-09-30.
 
 ## G0.9 evidence
 
@@ -23,11 +25,8 @@ The repository is not considered Phase 0 complete until G0.6 and G0.10 are evide
 - The design covers source discovery, fingerprinting, capture, parsing, normalization, comparison, change classification, validation, review routing, publication, audit, failure recovery, and supersession.
 - Phase 1 implementation targets are explicitly separated from the Phase 0 design baseline.
 
-## Phase 0 readiness review
+## G0.10 evidence
 
-Before Phase 1 begins, record:
-1. final verification of all authoritative NCISM source entries;
-2. tracker synchronization;
-3. confirmation that G0.1-G0.9 evidence is versioned;
-4. confirmation that no unresolved Phase 0 blocker remains;
-5. approval to start Phase 1 implementation.
+The readiness review is recorded in `docs/governance/phase-0-readiness-review-2026-09-30.md`. It confirms that G0.1-G0.9 evidence is versioned and identifies only Phase 1 implementation work as remaining.
+
+**Phase 0 status: Complete. Transition to Phase 1 is authorized by the project baseline.**
