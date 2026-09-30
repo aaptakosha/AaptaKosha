@@ -30,7 +30,7 @@ Last updated: 2026-09-30
 
 ## Phase 4 checklist
 - [x] Assessment domain contracts
-- [ ] Assessment persistence boundary
+- [x] Assessment persistence boundary
 - [ ] Assessment application service and scoring
 - [ ] Learner attempt API boundary
 - [ ] Assessment analytics/progress integration
@@ -39,7 +39,11 @@ Last updated: 2026-09-30
 ### Latest Phase 4 work
 - Added domain-neutral assessment, question, option, and learner-attempt contracts.
 - Added deterministic scoring for submitted attempts with explicit answer matching.
-- Phase 4 test coverage has been added; execution/CI verification is pending.
+- Added SQLite assessment/attempt repository protocols and adapter with deterministic ordering.
+- Added JSON snapshot persistence for questions, options, curriculum references, and learner answers.
+- Added Phase 4 persistence tests for round trips, status filtering, learner-attempt retrieval, and upserts.
+- Added a dedicated Phase 4 assessment migration and exported the persistence boundary from the package.
+- Implementation is complete for the persistence slice; test execution/CI verification is still pending.
 
 ## Phase 3 checklist
 - [x] Content-resource contracts
