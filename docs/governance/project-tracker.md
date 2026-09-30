@@ -37,6 +37,6 @@ Last updated: 2026-09-30
 - [ ] Phase 3 tests and CI expansion
 
 ### Latest Phase 3 work
-- Added domain-neutral ContentResource and ContentProvenance contracts with explicit lifecycle states.
+- Added ContentService with governed draft → review → published → archived transitions and publication prerequisites.
 
 Tracker rule: update this file whenever a phase gate changes state.
