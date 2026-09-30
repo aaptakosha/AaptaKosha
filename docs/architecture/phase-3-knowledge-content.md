@@ -41,7 +41,7 @@ Publishing is an explicit lifecycle transition. The Phase 3 core does not yet pr
 3. Content application service and publication rules
 4. Curriculum-to-content linking — Complete
 5. Content API boundary — Complete
-6. Search/indexing boundary
+6. Search/indexing boundary — Complete
 7. Phase 3 tests and CI expansion
 
 ## Non-goals
