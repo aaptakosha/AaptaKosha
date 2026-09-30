@@ -8,6 +8,14 @@ from .auth import (
     Principal,
 )
 from .catalog import Curriculum, Subject, Topic
+from .notifications import (
+    AutomationRule,
+    Notification,
+    NotificationDispatcher,
+    NotificationRepository,
+    NotificationSender,
+    NotificationService,
+)
 from .progress import (
     COMPLETED,
     IN_PROGRESS,
@@ -28,6 +36,7 @@ __all__ = [
     "CatalogNotFoundError",
     "CatalogRepository",
     "CatalogService",
+    "AutomationRule",
     "COMPLETED",
     "IN_PROGRESS",
     "NOT_STARTED",
@@ -35,6 +44,11 @@ __all__ = [
     "LearningProgress",
     "LearningProgressRepository",
     "LearningProgressService",
+    "Notification",
+    "NotificationDispatcher",
+    "NotificationRepository",
+    "NotificationSender",
+    "NotificationService",
     "Principal",
     "Subject",
     "Topic",
