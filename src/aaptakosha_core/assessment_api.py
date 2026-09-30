@@ -10,7 +10,6 @@ from .assessment_services import (
     AssessmentAttemptNotFoundError,
     AssessmentNotFoundError,
     AssessmentService,
-    AssessmentTransitionError,
 )
 
 
