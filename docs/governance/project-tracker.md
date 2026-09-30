@@ -45,7 +45,7 @@ Last updated: 2026-09-30
 - Added a dedicated Phase 4 assessment migration and exported the persistence boundary from the package.
 - Added the assessment application service with governed publish/archive lifecycle, published-only attempt starts, attempt submission, answer validation, and deterministic scoring integration.
 - Added the framework-neutral learner assessment API for assessment reads, attempt start/retrieval/submission, and deterministic scoring.
-- API serialization intentionally excludes question answer keys; missing and invalid attempt operations map to stable transport-neutral response codes.
+- API serialization intentionally excludes question answer keys; learner attempt retrieval, submission, and scoring are scoped to the learner identity; missing and invalid operations map to stable transport-neutral response codes.
 - Persistence, application-service, and learner-attempt API implementation are complete for this slice; test execution/CI verification is still pending.
 
 ## Phase 3 checklist
@@ -60,7 +60,7 @@ Last updated: 2026-09-30
 ### Latest Phase 3 work
 - Added a deterministic, replaceable content search/index boundary with published-only indexing.
 - Content application service and governed lifecycle: draft → review → published → archived, with provenance and curriculum-reference gates for publication.
-- Curriculum-to-content linking is separate and auditable; links require an existing content resource and duplicate links are idempotent.
+- Curriculum-to-content linking is separate and auditable; links require an existing content resource, duplicate links are idempotent, and the SQLite link table enforces a resource foreign key.
 - Content API and deterministic published-only search/index boundary are implemented.
 - Expanded CI to run Phase 2 and Phase 3 tests on Python 3.11 and 3.12; GitHub run verification is still pending.
 - Phase 3 is **not yet marked fully verified** because an observed GitHub Actions run has not been confirmed.
