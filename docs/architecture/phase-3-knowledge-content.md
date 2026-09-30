@@ -1,6 +1,6 @@
 # Phase 3 — Knowledge & Content Layer
 
-**Status:** Content repository and persistence boundary implemented
+**Status:** Phase 3 implementation complete; final CI verification pending
 **Date:** 2026-09-30
 
 ## Purpose
@@ -37,12 +37,12 @@ Publishing is an explicit lifecycle transition. The Phase 3 core does not yet pr
 ## Implementation sequence
 
 1. Content-resource contracts — Complete
-2. Content repository and persistence boundary — Next
-3. Content application service and publication rules
+2. Content repository and persistence boundary — Complete
+3. Content application service and publication rules — Complete
 4. Curriculum-to-content linking — Complete
 5. Content API boundary — Complete
 6. Search/indexing boundary — Complete
-7. Phase 3 tests and CI expansion
+7. Phase 3 tests and CI expansion — Complete
 
 ## Non-goals
 
