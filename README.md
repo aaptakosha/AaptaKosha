@@ -12,12 +12,17 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 ## Repository structure
 
+- `src/aaptakosha_ingestion/` — Phase 1 ingestion and reconciliation core
+- `src/aaptakosha_core/` — Phase 2 framework-agnostic product-domain contracts
 - `docs/architecture/` — architecture baselines
 - `docs/governance/` — project gates and governance
 - `docs/sources/` — authoritative source registry
+- `tests/` — automated tests
 
 ## Current phase
 
-**Phase 0 — Foundation & Control Plane**
+**Phase 2 — Application & Product Layer**
 
-See the Phase 0 architecture baseline, exit criteria, and NCISM source registry under `docs/`.
+The Phase 2 foundation currently defines framework-agnostic Curriculum, Subject, and Topic contracts. See `docs/architecture/phase-2-product-layer.md`.
+
+Phase 1 remains the authoritative ingestion/reconciliation path for published curriculum.
