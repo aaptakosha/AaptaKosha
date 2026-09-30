@@ -35,3 +35,14 @@ def test_duplicate_link_is_idempotent():
     second = svc.link("subject:svt", "r-1")
     assert first == second
     assert svc.for_resource("r-1") == (first,)
+
+
+def test_database_link_integrity_rejects_unknown_resource():
+    conn = sqlite3.connect(":memory:")
+    content, svc = services()
+    with pytest.raises(sqlite3.IntegrityError):
+        conn.execute(
+            "INSERT INTO curriculum_content_links "
+            "(curriculum_ref, resource_id, relationship) VALUES (?, ?, ?)",
+            ("subject:svt", "missing", "supports"),
+        )
