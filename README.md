@@ -1,16 +1,23 @@
-## Hi there 👋
+# AaptaKosha
 
-<!--
-**aaptakosha/AaptaKosha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AaptaKosha is an extensible knowledge and learning platform designed around the NCISM BAMS curriculum as its academic backbone, while keeping the architecture open for future domains beyond study.
 
-Here are some ideas to get you started:
+## Project principles
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- NCISM-first academic backbone.
+- Extensible by design.
+- Automation-friendly operations.
+- Auditable changes.
+- Connector-first external integrations.
+
+## Repository structure
+
+- `docs/architecture/` — architecture baselines
+- `docs/governance/` — project gates and governance
+- `docs/sources/` — authoritative source registry
+
+## Current phase
+
+**Phase 0 — Foundation & Control Plane**
+
+See the Phase 0 architecture baseline, exit criteria, and NCISM source registry under `docs/`.
