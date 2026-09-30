@@ -67,7 +67,7 @@ class AssessmentApi:
     def list_assessments(self) -> dict[str, Any]:
         return {
             "status": 200,
-            "data": {"assessments": [_assessment_payload(x) for x in self.service.list(effective_status)]},
+            "data": {"assessments": [_assessment_payload(x) for x in self.service.list(PUBLISHED)]},
         }
 
     def start_attempt(self, attempt: AssessmentAttempt) -> dict[str, Any]:
