@@ -16,12 +16,13 @@ Last updated: 2026-09-30
 - [x] Identity and authorization boundary
 - [x] Learning-progress model
 - [x] Notifications/automation boundary
-- [ ] Product-facing test and CI expansion
+- [x] Product-facing test and CI expansion
 
 ### Latest completed work
 - Identity boundary: Principal, explicit permissions, default catalog role mappings, and AuthorizationService.
 - Learning-progress boundary: domain-neutral progress snapshot, repository protocol, and application service.
 - Notifications/automation boundary: provider-neutral notification queue, automation rules, channel senders, and dispatcher.
+- Product-facing test and CI expansion: dedicated Phase 2 test workflow across Python 3.11 and 3.12.
 - Authorization tests cover direct grants, role grants, denied permissions, missing principals, and duplicate grants.
 - Production authentication remains intentionally out of scope for this phase.
 
