@@ -8,6 +8,7 @@ from .auth import (
     Principal,
 )
 from .catalog import Curriculum, Subject, Topic
+from .content_repository import ContentRepository, SQLiteContentRepository
 from .content import (
     ARCHIVED,
     DRAFT,
@@ -41,6 +42,8 @@ __all__ = [
     "AuthorizationDeniedError",
     "ContentProvenance",
     "ContentResource",
+    "ContentRepository",
+    "SQLiteContentRepository",
     "AuthorizationService",
     "CATALOG_ADMIN",
     "CATALOG_READ",
