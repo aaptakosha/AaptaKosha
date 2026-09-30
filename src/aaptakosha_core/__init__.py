@@ -9,6 +9,7 @@ from .auth import (
 )
 from .catalog import Curriculum, Subject, Topic
 from .content_repository import ContentRepository, SQLiteContentRepository
+from .content_services import ContentNotFoundError, ContentService, ContentTransitionError
 from .content import (
     ARCHIVED,
     DRAFT,
@@ -40,6 +41,9 @@ from .sqlite_repository import SQLiteCatalogRepository
 __all__ = [
     "ARCHIVED",
     "AuthorizationDeniedError",
+    "ContentNotFoundError",
+    "ContentService",
+    "ContentTransitionError",
     "ContentProvenance",
     "ContentResource",
     "ContentRepository",
