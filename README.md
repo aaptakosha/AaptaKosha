@@ -23,6 +23,6 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 **Phase 2 — Application & Product Layer**
 
-The Phase 2 foundation currently defines framework-agnostic Curriculum, Subject, and Topic contracts, application services, persistence adapters, and a transport-neutral catalog API boundary. See `docs/architecture/phase-2-product-layer.md`.
+The Phase 2 foundation currently defines framework-agnostic Curriculum, Subject, and Topic contracts, application services, persistence adapters, a transport-neutral catalog API boundary, and framework-neutral identity/authorization contracts. Production authentication remains out of scope. See `docs/architecture/phase-2-product-layer.md`.
 
 Phase 1 remains the authoritative ingestion/reconciliation path for published curriculum.
