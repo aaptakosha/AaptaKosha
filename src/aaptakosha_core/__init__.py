@@ -18,6 +18,7 @@ from .assessment_repository import (
 )
 from .assessment_api import AssessmentApi
 from .assessment_http_api import AssessmentHttpApi
+from .http_server import AaptaKoshaRequestHandler, serve
 from .assessment_learning_api import AssessmentLearningApi
 from .assessment_analytics import AssessmentAnalytics, AssessmentAnalyticsService, AssessmentProgressService
 from .assessment_services import (
@@ -77,7 +78,7 @@ __all__ = [
     "AssessmentQuestion", "ASSESSMENT_DRAFT", "ATTEMPT_IN_PROGRESS",
     "ASSESSMENT_PUBLISHED", "QuestionOption", "SUBMITTED", "score_attempt",
     "AssessmentAttemptRepository", "AssessmentRepository", "SQLiteAssessmentRepository",
-    "AssessmentApi", "AssessmentHttpApi", "AssessmentLearningApi", "AssessmentAnalytics", "AssessmentAnalyticsService", "AssessmentProgressService", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
+    "AssessmentApi", "AssessmentHttpApi", "AssessmentLearningApi", "AaptaKoshaRequestHandler", "serve", "AssessmentAnalytics", "AssessmentAnalyticsService", "AssessmentProgressService", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
     "AssessmentNotFoundError", "AssessmentService", "AssessmentTransitionError",
     "AuthorizationDeniedError", "ContentNotFoundError", "ContentService",
     "ContentTransitionError", "CurriculumContentLink", "CurriculumContentLinkRepository",
