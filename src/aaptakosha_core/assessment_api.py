@@ -64,8 +64,7 @@ class AssessmentApi:
         except AssessmentNotFoundError as exc:
             return {"status": 404, "error": {"code": "not_found", "message": str(exc)}}
 
-    def list_assessments(self, status: str | None = None) -> dict[str, Any]:
-        effective_status = PUBLISHED if status is None else status
+    def list_assessments(self) -> dict[str, Any]:
         return {
             "status": 200,
             "data": {"assessments": [_assessment_payload(x) for x in self.service.list(effective_status)]},
@@ -80,14 +79,20 @@ class AssessmentApi:
         except AssessmentAttemptError as exc:
             return {"status": 409, "error": {"code": "invalid_attempt", "message": str(exc)}}
 
-    def get_attempt(self, attempt_id: str) -> dict[str, Any]:
+    def get_attempt(self, attempt_id: str, learner_id: str) -> dict[str, Any]:
         try:
-            return {"status": 200, "data": _attempt_payload(self.service.get_attempt(attempt_id))}
+            attempt = self.service.get_attempt(attempt_id)
+            if attempt.learner_id != learner_id:
+                return {"status": 404, "error": {"code": "not_found", "message": attempt_id}}
+            return {"status": 200, "data": _attempt_payload(attempt)}
         except AssessmentAttemptNotFoundError as exc:
             return {"status": 404, "error": {"code": "not_found", "message": str(exc)}}
 
-    def submit_attempt(self, attempt_id: str) -> dict[str, Any]:
+    def submit_attempt(self, attempt_id: str, learner_id: str) -> dict[str, Any]:
         try:
+            attempt = self.service.get_attempt(attempt_id)
+            if attempt.learner_id != learner_id:
+                return {"status": 404, "error": {"code": "not_found", "message": attempt_id}}
             submitted = self.service.submit_attempt(attempt_id)
             return {"status": 200, "data": _attempt_payload(submitted)}
         except AssessmentAttemptNotFoundError as exc:
@@ -97,8 +102,11 @@ class AssessmentApi:
         except AssessmentAttemptError as exc:
             return {"status": 409, "error": {"code": "invalid_attempt", "message": str(exc)}}
 
-    def score_attempt(self, attempt_id: str) -> dict[str, Any]:
+    def score_attempt(self, attempt_id: str, learner_id: str) -> dict[str, Any]:
         try:
+            attempt = self.service.get_attempt(attempt_id)
+            if attempt.learner_id != learner_id:
+                return {"status": 404, "error": {"code": "not_found", "message": attempt_id}}
             score = self.service.score_attempt(attempt_id)
             return {"status": 200, "data": {"attempt_id": attempt_id, "score": score}}
         except AssessmentAttemptNotFoundError as exc:
