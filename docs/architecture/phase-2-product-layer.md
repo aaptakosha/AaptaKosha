@@ -1,6 +1,6 @@
 # Phase 2 — Application & Product Layer
 
-**Status:** Application foundation implemented
+**Status:** Persistence foundation implemented
 **Date:** 2026-09-30
 
 ## Delivered
@@ -15,8 +15,8 @@ Phase 1 remains the authoritative ingestion/reconciliation path for published cu
 ## Implementation sequence
 1. Product-domain contracts and catalog read model — Complete
 2. Application use-case services — Complete
-3. Persistence adapter and migration baseline — Next
-4. API boundary
+3. Persistence adapter and migration baseline — Complete
+4. API boundary — Next
 5. Identity and authorization boundary
 6. Learning-progress model
 7. Notifications/automation boundary
