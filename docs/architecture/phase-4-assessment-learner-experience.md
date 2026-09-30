@@ -1,6 +1,6 @@
 # Phase 4 — Assessment & Learner Experience
 
-**Status:** Implementation complete for current slice; CI verified; analytics/progress integration pending  
+**Status:** Phase 4 implementation complete; CI verified  
 **Date:** 2026-09-30
 
 ## Purpose
@@ -26,7 +26,7 @@ Curriculum remains authoritative. Assessments may reference curriculum/content r
 2. Assessment persistence boundary — Implemented and CI verified
 3. Assessment application service and scoring — Implemented and CI verified
 4. Learner attempt API boundary — Implemented and CI verified
-5. Assessment analytics/progress integration
+5. Assessment analytics/progress integration — Complete
 6. Tests and CI expansion — Complete; GitHub Actions product workflow verified
 
 ## Persistence design
@@ -61,7 +61,9 @@ Attempt:
 
 Publishing requires at least one question. Scoring is deterministic and based on the submitted answers against the question answer keys. Lifecycle enforcement belongs in the application service rather than the raw persistence adapter.
 
-GitHub Actions product workflow run #57 for commit 429c766 completed successfully on Python 3.11 and 3.12, verifying the current Phase 4 implementation and test suite. Assessment analytics/progress integration remains the next Phase 4 implementation slice.
+GitHub Actions product workflow run #61 for commit 9427971 completed successfully on Python 3.11 and 3.12, verifying the assessment analytics/progress implementation and the combined product test suite.
+
+Assessment analytics now reports attempt counts, best/latest submitted scores, maximum score, and percentage without exposing answer keys. Assessment attempt lifecycle is integrated with the existing learning-progress boundary: started attempts become in-progress assessment resources and submitted attempts become completed assessment resources. Performance and completion remain separate concepts.
 
 ## Non-goals
 
