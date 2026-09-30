@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .assessment import Assessment, AssessmentAttempt
+from .assessment import Assessment, AssessmentAttempt, PUBLISHED
 from .assessment_services import (
     AssessmentAttemptError,
     AssessmentAttemptNotFoundError,
@@ -57,14 +57,18 @@ class AssessmentApi:
 
     def get_assessment(self, assessment_id: str) -> dict[str, Any]:
         try:
-            return {"status": 200, "data": _assessment_payload(self.service.get(assessment_id))}
+            assessment = self.service.get(assessment_id)
+            if assessment.status != PUBLISHED:
+                return {"status": 404, "error": {"code": "not_found", "message": assessment_id}}
+            return {"status": 200, "data": _assessment_payload(assessment)}
         except AssessmentNotFoundError as exc:
             return {"status": 404, "error": {"code": "not_found", "message": str(exc)}}
 
     def list_assessments(self, status: str | None = None) -> dict[str, Any]:
+        effective_status = PUBLISHED if status is None else status
         return {
             "status": 200,
-            "data": {"assessments": [_assessment_payload(x) for x in self.service.list(status)]},
+            "data": {"assessments": [_assessment_payload(x) for x in self.service.list(effective_status)]},
         }
 
     def start_attempt(self, attempt: AssessmentAttempt) -> dict[str, Any]:
