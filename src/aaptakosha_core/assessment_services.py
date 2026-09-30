@@ -81,6 +81,30 @@ class AssessmentService:
         self._sync_progress(saved)
         return saved
 
+    def save_answers(
+        self,
+        attempt_id: str,
+        learner_id: str,
+        answers: Tuple[Tuple[str, Tuple[str, ...]], ...],
+    ) -> AssessmentAttempt:
+        attempt = self._get_attempt(attempt_id)
+        if attempt.learner_id != learner_id:
+            raise AssessmentAttemptNotFoundError(attempt_id)
+        if attempt.status != IN_PROGRESS:
+            raise AssessmentAttemptError("only in-progress attempts can save answers")
+        assessment = self._get_assessment(attempt.assessment_id)
+        updated = AssessmentAttempt(
+            attempt_id=attempt.attempt_id,
+            assessment_id=attempt.assessment_id,
+            learner_id=attempt.learner_id,
+            status=IN_PROGRESS,
+            answers=answers,
+        )
+        self._validate_answers(assessment, updated)
+        saved = self.attempt_repository.save(updated)
+        self._sync_progress(saved)
+        return saved
+
     def submit_attempt(self, attempt_id: str) -> AssessmentAttempt:
         attempt = self._get_attempt(attempt_id)
         if attempt.status != IN_PROGRESS:
