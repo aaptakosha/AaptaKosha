@@ -11,7 +11,7 @@
 5. SQLite-backed reconciliation runs, immutable artifacts, review queue, change events, and published curriculum versions.
 6. Transactional publication: invalid or review-routed candidates are not published.
 7. Idempotent artifact storage through fingerprint primary keys.
-8. Automated tests covering normalization, validation, diffing, publication, and review blocking.
+8. Bounded exponential-backoff capture retries and durable run-status inspection.\n9. Automated tests covering normalization, validation, diffing, publication, and review blocking.
 
 ## Scope boundary
 The engine accepts normalized curriculum dictionaries. Source-specific HTML/PDF/table parsers are adapters at the capture/parse boundary and must preserve source wording and provenance before handing data to this engine.
@@ -20,5 +20,5 @@ The engine accepts normalized curriculum dictionaries. Source-specific HTML/PDF/
 Schedule -> Discover -> Capture -> Fingerprint -> Parse/Adapter -> Normalize -> Validate -> Diff -> Review or Publish -> Audit
 
 ## Verification
-Run: python -m pytest -q
+Run: python -m pytest -q\n\nCI: .github/workflows/phase1.yml
 Runtime dependencies: Python standard library only.
