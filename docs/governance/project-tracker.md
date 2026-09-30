@@ -8,6 +8,7 @@ Last updated: 2026-09-30
 | Phase 1 | NCISM ingestion & reconciliation core | Complete | docs/governance/phase-1-exit-criteria.md |
 | Phase 2 | Application/product layer | Complete | docs/architecture/phase-2-product-layer.md |
 | Phase 3 | Knowledge & content layer | Implementation complete; verification pending | docs/architecture/phase-3-knowledge-content.md |
+| Phase 4 | Assessment & learner experience | In progress | docs/architecture/phase-4-assessment-learner-experience.md |
 
 ## Phase 2 checklist
 - [x] Product-domain contracts and catalog read model
@@ -26,6 +27,19 @@ Last updated: 2026-09-30
 - Product-facing test and CI expansion: dedicated Phase 2 test workflow across Python 3.11 and 3.12.
 - Authorization tests cover direct grants, role grants, denied permissions, missing principals, and duplicate grants.
 - Production authentication remains intentionally out of scope for this phase.
+
+## Phase 4 checklist
+- [x] Assessment domain contracts
+- [ ] Assessment persistence boundary
+- [ ] Assessment application service and scoring
+- [ ] Learner attempt API boundary
+- [ ] Assessment analytics/progress integration
+- [ ] Phase 4 tests and CI expansion (verification pending)
+
+### Latest Phase 4 work
+- Added domain-neutral assessment, question, option, and learner-attempt contracts.
+- Added deterministic scoring for submitted attempts with explicit answer matching.
+- Phase 4 test coverage has been added; execution/CI verification is pending.
 
 ## Phase 3 checklist
 - [x] Content-resource contracts
