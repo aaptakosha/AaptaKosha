@@ -1,6 +1,6 @@
 # Phase 3 — Knowledge & Content Layer
 
-**Status:** Content-resource contracts implemented
+**Status:** Content repository and persistence boundary implemented
 **Date:** 2026-09-30
 
 ## Purpose
