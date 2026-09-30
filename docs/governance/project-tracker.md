@@ -32,11 +32,11 @@ Last updated: 2026-09-30
 - [x] Content repository and persistence boundary
 - [ ] Content application service and publication rules
 - [x] Curriculum-to-content linking
-- [ ] Content API boundary
+- [x] Content API boundary
 - [ ] Search/indexing boundary
 - [ ] Phase 3 tests and CI expansion
 
 ### Latest Phase 3 work
-- Added curriculum-to-content links with separate, auditable link storage and deterministic lookup.
+- Added framework-neutral ContentApi handlers with stable serialization and lifecycle error mapping.
 
 Tracker rule: update this file whenever a phase gate changes state.
