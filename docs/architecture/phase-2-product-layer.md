@@ -1,6 +1,6 @@
 # Phase 2 — Application & Product Layer
 
-**Status:** Persistence foundation implemented
+**Status:** Identity and authorization boundary implemented
 **Date:** 2026-09-30
 
 ## Delivered
@@ -8,22 +8,49 @@
 - CatalogService for curriculum, subject-list, and subject retrieval.
 - CatalogRepository protocol as the persistence boundary.
 - Explicit CatalogNotFoundError for missing resources.
-- Tests for service behavior.
+- SQLite persistence adapter and migration baseline.
+- Transport-neutral catalog API boundary.
+- Framework-neutral Principal and AuthorizationService contracts.
+- Explicit catalog permissions and role-to-permission mapping.
+- Authorization tests for direct grants, role grants, denied permissions, and missing principals.
 
 Phase 1 remains the authoritative ingestion/reconciliation path for published curriculum. Product services consume published data and do not mutate it directly.
+
+## Identity and authorization boundary
+
+Authentication answers **who the caller is** and remains an adapter/provider concern. This phase defines only the stable authorization contract for an already-authenticated caller.
+
+Principal carries:
+- stable subject_id
+- zero or more roles
+- zero or more direct permissions
+
+AuthorizationService evaluates a required permission from direct grants and configured role mappings. The initial catalog permissions are:
+- catalog:read
+- catalog:admin
+
+The default roles are:
+- catalog-reader → catalog:read
+- catalog-admin → catalog:read, catalog:admin
+
+A missing principal or missing permission is denied. No password storage, OAuth/OIDC provider, JWT library, session mechanism, or web framework is introduced at this boundary.
+
+Transport adapters can authenticate a request, construct a Principal, and call AuthorizationService.require(...) before protected application use cases. Existing catalog API handlers remain transport-neutral and are not forced to depend on an authentication provider.
 
 ## Implementation sequence
 1. Product-domain contracts and catalog read model — Complete
 2. Application use-case services — Complete
 3. Persistence adapter and migration baseline — Complete
 4. API boundary — Complete
-5. Identity and authorization boundary — Next
-6. Learning-progress model
+5. Identity and authorization boundary — Complete
+6. Learning-progress model — Next
 7. Notifications/automation boundary
 8. Product-facing test and CI expansion
 
 ## Non-goals
 - No production authentication.
+- No password storage.
+- No OAuth/OIDC/JWT/session implementation.
 - No frontend.
 - No vendor-specific database schema.
 - No direct mutation of published curriculum from product code.
