@@ -1,26 +1,33 @@
 name: Phase 1 tests
 
 on:
+  workflow_dispatch:
   push:
     paths:
-      - "src/**"
-      - "tests/**"
+      - "src/aaptakosha_ingestion/**"
+      - "tests/test_phase1_*.py"
       - "pyproject.toml"
       - ".github/workflows/phase1.yml"
   pull_request:
     paths:
-      - "src/**"
-      - "tests/**"
+      - "src/aaptakosha_ingestion/**"
+      - "tests/test_phase1_*.py"
       - "pyproject.toml"
       - ".github/workflows/phase1.yml"
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-      - run: python -m pip install --upgrade pip pytest
-      - run: python -m pytest -q
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -e .
+      - run: python -m pip install pytest
+      - run: python -m pytest -q tests/test_phase1_*.py
