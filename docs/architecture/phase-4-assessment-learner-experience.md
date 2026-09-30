@@ -25,7 +25,7 @@ Curriculum remains authoritative. Assessments may reference curriculum/content r
 1. Assessment domain contracts — Implemented; verification pending
 2. Assessment persistence boundary — Implemented; verification pending
 3. Assessment application service and scoring — Implemented; verification pending
-4. Learner attempt API boundary
+4. Learner attempt API boundary — Implemented; verification pending
 5. Assessment analytics/progress integration
 6. Tests and CI expansion
 
@@ -43,6 +43,10 @@ The repository boundary is framework-neutral so another storage adapter can repl
 ## Application service
 
 The application service governs lifecycle transitions and learner operations. It permits publication only for non-empty draft assessments, permits attempts only against published assessments, validates submitted question/option references, prevents re-submission, and delegates final scoring to the deterministic domain scorer.
+
+## Learner attempt API
+
+The framework-neutral `AssessmentApi` exposes assessment retrieval/listing plus learner-attempt start, retrieval, submission, and deterministic scoring. API serialization intentionally omits question answer keys so published assessments do not expose `is_correct` to learners. Domain/application errors are mapped to stable transport-neutral status codes without coupling the core to a web framework.
 
 ## Initial lifecycle
 
