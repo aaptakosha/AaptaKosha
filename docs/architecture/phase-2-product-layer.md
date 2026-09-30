@@ -1,6 +1,6 @@
 # Phase 2 — Application & Product Layer
 
-**Status:** Identity and authorization boundary implemented
+**Status:** Learning-progress model implemented
 **Date:** 2026-09-30
 
 ## Delivered
@@ -43,8 +43,8 @@ Transport adapters can authenticate a request, construct a Principal, and call A
 3. Persistence adapter and migration baseline — Complete
 4. API boundary — Complete
 5. Identity and authorization boundary — Complete
-6. Learning-progress model — Next
-7. Notifications/automation boundary
+6. Learning-progress model — Complete
+7. Notifications/automation boundary — Next
 8. Product-facing test and CI expansion
 
 ## Non-goals
