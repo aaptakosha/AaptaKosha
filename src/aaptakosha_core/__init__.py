@@ -57,6 +57,7 @@ from .notifications import (
     NotificationSender,
     NotificationService,
 )
+from .progress_repository import SQLiteProgressRepository
 from .progress import (
     COMPLETED,
     IN_PROGRESS,
