@@ -1,6 +1,6 @@
 # AaptaKosha Project Tracker
 
-Last updated: 2026-09-30
+Last updated: 2026-10-01
 
 | Phase | Workstream | Status | Evidence |
 |---|---|---|---|
@@ -8,7 +8,7 @@ Last updated: 2026-09-30
 | Phase 1 | NCISM ingestion & reconciliation core | Complete | docs/governance/phase-1-exit-criteria.md |
 | Phase 2 | Application/product layer | Complete | docs/architecture/phase-2-product-layer.md |
 | Phase 3 | Knowledge & content layer | Implementation complete; verification pending | docs/architecture/phase-3-knowledge-content.md |
-| Phase 4 | Assessment & learner experience | In progress | docs/architecture/phase-4-assessment-learner-experience.md |
+| Phase 4 | Assessment & learner experience | Implementation complete; verification pending | docs/architecture/phase-4-assessment-learner-experience.md |
 
 ## Phase 2 checklist
 - [x] Product-domain contracts and catalog read model
@@ -46,7 +46,7 @@ Last updated: 2026-09-30
 - Added the assessment application service with governed publish/archive lifecycle, published-only attempt starts, attempt submission, answer validation, and deterministic scoring integration.
 - Added the framework-neutral learner assessment API for assessment reads, attempt start/retrieval/submission, and deterministic scoring.
 - API serialization intentionally excludes question answer keys; learner attempt retrieval, submission, and scoring are scoped to the learner identity; missing and invalid operations map to stable transport-neutral response codes.
-- Persistence, application-service, and learner-attempt API implementation are complete for this slice; test execution/CI verification is still pending.
+- Persistence, application-service, and learner-attempt API implementation are complete for this slice; test execution initially exposed a repository method-overwrite defect, which was corrected by dispatching assessment/attempt operations in the shared SQLite adapter and updating stale attempt fixtures to provide the required learner identity. CI verification is still pending.
 
 ## Phase 3 checklist
 - [x] Content-resource contracts
