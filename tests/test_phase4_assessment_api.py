@@ -79,6 +79,6 @@ def test_api_maps_missing_and_invalid_attempts():
     assert api_instance.start_attempt(
         AssessmentAttempt("at1", "a1", "learner-1")
     )["status"] == 201
-    assert api_instance.submit_attempt("at1")["status"] == 200
+    assert api_instance.submit_attempt("at1", "learner-1")["status"] == 200
     assert api_instance.submit_attempt("at1")["status"] == 409
     assert api_instance.score_attempt("missing", "learner-1")["status"] == 404
