@@ -1,6 +1,6 @@
 # Phase 3 — Knowledge & Content Layer
 
-**Status:** Phase 3 implementation complete; CI verification pending
+**Status:** Phase 3 implementation complete; CI verified
 **Date:** 2026-09-30
 
 ## Purpose
@@ -42,7 +42,7 @@ Publishing is an explicit lifecycle transition. The Phase 3 core does not yet pr
 4. Curriculum-to-content linking — Complete
 5. Content API boundary — Complete
 6. Search/indexing boundary — Complete
-7. Phase 3 tests and CI expansion — Implemented; CI verification pending
+7. Phase 3 tests and CI expansion — Complete; GitHub Actions verified
 
 ## Non-goals
 
