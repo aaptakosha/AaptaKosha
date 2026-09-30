@@ -1,6 +1,6 @@
 # Phase 4 — Assessment & Learner Experience
 
-**Status:** In progress — assessment contracts implemented; verification pending
+**Status:** In progress — assessment persistence implemented; verification pending  
 **Date:** 2026-09-30
 
 ## Purpose
@@ -15,18 +15,30 @@ Initial assessment capabilities:
 - explicit assessment status
 - learner attempts and submitted responses
 - deterministic scoring rules
-- future adapters for persistence, APIs, analytics, and spaced practice
+- persistence adapters
+- future adapters for APIs, analytics, and spaced practice
 
 Curriculum remains authoritative. Assessments may reference curriculum/content resources but do not mutate them.
 
 ## Implementation sequence
 
 1. Assessment domain contracts — Implemented; verification pending
-2. Assessment persistence boundary
-3. Assessment application service and scoring
+2. Assessment persistence boundary — Implemented; verification pending
+3. Assessment application service and scoring — Next
 4. Learner attempt API boundary
 5. Assessment analytics/progress integration
 6. Tests and CI expansion
+
+## Persistence design
+
+The initial SQLite adapter stores assessment definitions and learner attempts as JSON snapshots:
+- assessment identity, title, status, curriculum references, questions, and options
+- attempt identity, assessment reference, learner identity, status, and selected answers
+- deterministic identifier ordering for list operations
+- foreign-key protection from orphaned attempts
+- a dedicated migration is provided under `migrations/002_assessment.sql`
+
+The repository boundary is framework-neutral so another storage adapter can replace SQLite without changing domain contracts.
 
 ## Initial lifecycle
 
@@ -39,7 +51,7 @@ Attempt:
 - in_progress
 - submitted
 
-Publishing requires at least one question. Scoring is deterministic and based on the submitted answers against the question answer keys.
+Publishing requires at least one question. Scoring is deterministic and based on the submitted answers against the question answer keys. Lifecycle enforcement belongs in the application service rather than the raw persistence adapter.
 
 ## Non-goals
 
