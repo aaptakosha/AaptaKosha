@@ -10,6 +10,8 @@ from .auth import (
 from .catalog import Curriculum, Subject, Topic
 from .content_repository import ContentRepository, SQLiteContentRepository
 from .content_services import ContentNotFoundError, ContentService, ContentTransitionError
+from .content_links import CurriculumContentLink, CurriculumContentLinkRepository, CurriculumContentLinkService
+from .content_link_repository import SQLiteCurriculumContentLinkRepository
 from .content import (
     ARCHIVED,
     DRAFT,
@@ -44,6 +46,10 @@ __all__ = [
     "ContentNotFoundError",
     "ContentService",
     "ContentTransitionError",
+    "CurriculumContentLink",
+    "CurriculumContentLinkRepository",
+    "CurriculumContentLinkService",
+    "SQLiteCurriculumContentLinkRepository",
     "ContentProvenance",
     "ContentResource",
     "ContentRepository",
