@@ -58,13 +58,13 @@ def test_attempt_lifecycle_and_score_api():
     assert started["status"] == 201
     assert started["data"]["status"] == "in_progress"
 
-    fetched = api_instance.get_attempt("at1")
+    fetched = api_instance.get_attempt("at1", "learner-1")
     assert fetched["status"] == 200
 
-    submitted = api_instance.submit_attempt("at1")
+    submitted = api_instance.submit_attempt("at1", "learner-1")
     assert submitted["status"] == 200
     assert submitted["data"]["status"] == "submitted"
-    assert api_instance.score_attempt("at1") == {
+    assert api_instance.score_attempt("at1", "learner-1") == {
         "status": 200,
         "data": {"attempt_id": "at1", "score": 2},
     }
@@ -73,7 +73,7 @@ def test_attempt_lifecycle_and_score_api():
 def test_api_maps_missing_and_invalid_attempts():
     api_instance = api()
     assert api_instance.get_assessment("missing")["status"] == 404
-    assert api_instance.get_attempt("missing")["status"] == 404
+    assert api_instance.get_attempt("missing", "learner-1")["status"] == 404
 
     publish(api_instance)
     assert api_instance.start_attempt(
@@ -81,4 +81,4 @@ def test_api_maps_missing_and_invalid_attempts():
     )["status"] == 201
     assert api_instance.submit_attempt("at1")["status"] == 200
     assert api_instance.submit_attempt("at1")["status"] == 409
-    assert api_instance.score_attempt("missing")["status"] == 404
+    assert api_instance.score_attempt("missing", "learner-1")["status"] == 404
