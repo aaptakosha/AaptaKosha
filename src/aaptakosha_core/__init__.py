@@ -13,6 +13,7 @@ from .content_services import ContentNotFoundError, ContentService, ContentTrans
 from .content_links import CurriculumContentLink, CurriculumContentLinkRepository, CurriculumContentLinkService
 from .content_link_repository import SQLiteCurriculumContentLinkRepository
 from .content_api import ContentApi
+from .content_search import ContentSearchIndex, ContentSearchResult, InMemoryContentSearchIndex
 from .content import (
     ARCHIVED,
     DRAFT,
@@ -52,6 +53,9 @@ __all__ = [
     "CurriculumContentLinkService",
     "SQLiteCurriculumContentLinkRepository",
     "ContentApi",
+    "ContentSearchIndex",
+    "ContentSearchResult",
+    "InMemoryContentSearchIndex",
     "ContentProvenance",
     "ContentResource",
     "ContentRepository",
