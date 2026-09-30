@@ -45,12 +45,12 @@ def test_deterministic_scoring_of_submitted_attempt():
 
 def test_partial_or_incorrect_answer_scores_zero_for_question():
     assessment = Assessment("a1", "Test", status=PUBLISHED, questions=(question(),))
-    attempt = AssessmentAttempt("at1", "a1", status=SUBMITTED, answers=(("q1", ("b",)),))
+    attempt = AssessmentAttempt("at1", "a1", "learner-1", status=SUBMITTED, answers=(("q1", ("b",)),))
     assert score_attempt(assessment, attempt) == 0
 
 
 def test_scoring_requires_submitted_matching_attempt():
     assessment = Assessment("a1", "Test", status=DRAFT, questions=(question(),))
-    attempt = AssessmentAttempt("at1", "a1", status="in_progress")
+    attempt = AssessmentAttempt("at1", "a1", "learner-1", status="in_progress")
     with pytest.raises(ValueError):
         score_attempt(assessment, attempt)
