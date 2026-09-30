@@ -29,7 +29,7 @@ Last updated: 2026-09-30
 
 ## Phase 3 checklist
 - [x] Content-resource contracts
-- [ ] Content repository and persistence boundary
+- [x] Content repository and persistence boundary
 - [ ] Content application service and publication rules
 - [ ] Curriculum-to-content linking
 - [ ] Content API boundary
