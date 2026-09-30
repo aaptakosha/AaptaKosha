@@ -1,6 +1,6 @@
 # Phase 2 — Application & Product Layer
 
-**Status:** Learning-progress model implemented
+**Status:** Notifications and automation boundary implemented
 **Date:** 2026-09-30
 
 ## Delivered
@@ -37,6 +37,12 @@ A missing principal or missing permission is denied. No password storage, OAuth/
 
 Transport adapters can authenticate a request, construct a Principal, and call AuthorizationService.require(...) before protected application use cases. Existing catalog API handlers remain transport-neutral and are not forced to depend on an authentication provider.
 
+## Notifications and automation boundary
+
+Notifications are represented by a provider-neutral `Notification` contract and queued through `NotificationRepository`. `NotificationSender` adapters isolate delivery providers such as in-app, email, push, or future channels. `AutomationRule` maps an event type and context to a notification, while `NotificationDispatcher` delivers pending records through the configured channel adapter and marks successful sends.
+
+Scheduling, retries, provider credentials, rate limits, and external messaging APIs remain adapter/operations concerns. Unknown channels are left pending rather than marked sent. This keeps automation extensible and auditable without coupling the core to a vendor.
+
 ## Implementation sequence
 1. Product-domain contracts and catalog read model — Complete
 2. Application use-case services — Complete
@@ -44,8 +50,8 @@ Transport adapters can authenticate a request, construct a Principal, and call A
 4. API boundary — Complete
 5. Identity and authorization boundary — Complete
 6. Learning-progress model — Complete
-7. Notifications/automation boundary — Next
-8. Product-facing test and CI expansion
+7. Notifications/automation boundary — Complete
+8. Product-facing test and CI expansion — Next
 
 ## Non-goals
 - No production authentication.
