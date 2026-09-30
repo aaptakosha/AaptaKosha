@@ -8,6 +8,14 @@ from .auth import (
     Principal,
 )
 from .catalog import Curriculum, Subject, Topic
+from .progress import (
+    COMPLETED,
+    IN_PROGRESS,
+    NOT_STARTED,
+    LearningProgress,
+    LearningProgressRepository,
+    LearningProgressService,
+)
 from .services import CatalogNotFoundError, CatalogRepository, CatalogService
 from .sqlite_repository import SQLiteCatalogRepository
 
@@ -20,7 +28,13 @@ __all__ = [
     "CatalogNotFoundError",
     "CatalogRepository",
     "CatalogService",
+    "COMPLETED",
+    "IN_PROGRESS",
+    "NOT_STARTED",
     "Curriculum",
+    "LearningProgress",
+    "LearningProgressRepository",
+    "LearningProgressService",
     "Principal",
     "Subject",
     "Topic",
