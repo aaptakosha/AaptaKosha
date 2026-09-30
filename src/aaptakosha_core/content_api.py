@@ -29,6 +29,6 @@ class ContentApi:
         except ContentTransitionError as exc: return {"status": 409, "error": {"code": "invalid_transition", "message": str(exc)}}
     def links_for_curriculum(self, curriculum_ref: str) -> dict[str, Any]:
         if self.links is None: return {"status": 501, "error": {"code": "linking_unavailable", "message": "content linking is not configured"}}
-        return {"status": 200, "data": {"links": [vars(x) for x in self.links.for_curriculum(curriculum_ref)]}}
+        return {"status": 200, "data": {"links": [{"curriculum_ref": x.curriculum_ref, "resource_id": x.resource_id, "relationship": x.relationship} for x in self.links.for_curriculum(curriculum_ref)]}}
 
 __all__=["ContentApi"]
