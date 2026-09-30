@@ -1,4 +1,14 @@
-"""AaptaKosha product-domain contracts and application services."""
+"""AaptaKosha product-domain contracts, services, and persistence adapters."""
 from .catalog import Curriculum, Subject, Topic
 from .services import CatalogNotFoundError, CatalogRepository, CatalogService
-__all__ = ["CatalogNotFoundError","CatalogRepository","CatalogService","Curriculum","Subject","Topic"]
+from .sqlite_repository import SQLiteCatalogRepository
+
+__all__ = [
+    "CatalogNotFoundError",
+    "CatalogRepository",
+    "CatalogService",
+    "Curriculum",
+    "Subject",
+    "Topic",
+    "SQLiteCatalogRepository",
+]
