@@ -39,6 +39,16 @@ def test_assessment_serialization_hides_answer_keys():
     assert "is_correct" not in response["data"]["questions"][0]["options"][0]
 
 
+def test_unpublished_assessments_are_hidden_from_learner_reads():
+    api_instance = api()
+    api_instance.service.create(Assessment("draft", "Draft", questions=(question(),)))
+    assert api_instance.get_assessment("draft")["status"] == 404
+    assert api_instance.list_assessments()["data"]["assessments"] == []
+
+    publish(api_instance)
+    assert [x["assessment_id"] for x in api_instance.list_assessments()["data"]["assessments"]] == ["a1"]
+
+
 def test_attempt_lifecycle_and_score_api():
     api_instance = api()
     publish(api_instance)
