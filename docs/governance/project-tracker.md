@@ -31,12 +31,12 @@ Last updated: 2026-09-30
 - [x] Content-resource contracts
 - [x] Content repository and persistence boundary
 - [ ] Content application service and publication rules
-- [ ] Curriculum-to-content linking
+- [x] Curriculum-to-content linking
 - [ ] Content API boundary
 - [ ] Search/indexing boundary
 - [ ] Phase 3 tests and CI expansion
 
 ### Latest Phase 3 work
-- Added ContentService with governed draft → review → published → archived transitions and publication prerequisites.
+- Added curriculum-to-content links with separate, auditable link storage and deterministic lookup.
 
 Tracker rule: update this file whenever a phase gate changes state.
