@@ -11,7 +11,7 @@ Last updated: 2026-09-30
 ## Phase 2 checklist
 - [x] Product-domain contracts and catalog read model
 - [x] Application use-case services
-- [ ] Persistence adapter and migration baseline
+- [x] Persistence adapter and migration baseline
 - [ ] API boundary
 - [ ] Identity and authorization boundary
 - [ ] Learning-progress model
