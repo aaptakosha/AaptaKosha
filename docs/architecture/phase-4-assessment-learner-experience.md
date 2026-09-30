@@ -1,6 +1,6 @@
 # Phase 4 — Assessment & Learner Experience
 
-**Status:** In progress — assessment persistence implemented; verification pending  
+**Status:** In progress — assessment application service implemented; verification pending  
 **Date:** 2026-09-30
 
 ## Purpose
@@ -24,7 +24,7 @@ Curriculum remains authoritative. Assessments may reference curriculum/content r
 
 1. Assessment domain contracts — Implemented; verification pending
 2. Assessment persistence boundary — Implemented; verification pending
-3. Assessment application service and scoring — Next
+3. Assessment application service and scoring — Implemented; verification pending
 4. Learner attempt API boundary
 5. Assessment analytics/progress integration
 6. Tests and CI expansion
@@ -39,6 +39,10 @@ The initial SQLite adapter stores assessment definitions and learner attempts as
 - a dedicated migration is provided under `migrations/002_assessment.sql`
 
 The repository boundary is framework-neutral so another storage adapter can replace SQLite without changing domain contracts.
+
+## Application service
+
+The application service governs lifecycle transitions and learner operations. It permits publication only for non-empty draft assessments, permits attempts only against published assessments, validates submitted question/option references, prevents re-submission, and delegates final scoring to the deterministic domain scorer.
 
 ## Initial lifecycle
 
