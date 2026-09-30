@@ -17,6 +17,7 @@ from .assessment_repository import (
     SQLiteAssessmentRepository,
 )
 from .assessment_api import AssessmentApi
+from .assessment_analytics import AssessmentAnalytics, AssessmentAnalyticsService, AssessmentProgressService
 from .assessment_services import (
     AssessmentAttemptError,
     AssessmentAttemptNotFoundError,
@@ -72,7 +73,7 @@ __all__ = [
     "AssessmentQuestion", "ASSESSMENT_DRAFT", "ATTEMPT_IN_PROGRESS",
     "ASSESSMENT_PUBLISHED", "QuestionOption", "SUBMITTED", "score_attempt",
     "AssessmentAttemptRepository", "AssessmentRepository", "SQLiteAssessmentRepository",
-    "AssessmentApi", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
+    "AssessmentApi", "AssessmentAnalytics", "AssessmentAnalyticsService", "AssessmentProgressService", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
     "AssessmentNotFoundError", "AssessmentService", "AssessmentTransitionError",
     "AuthorizationDeniedError", "ContentNotFoundError", "ContentService",
     "ContentTransitionError", "CurriculumContentLink", "CurriculumContentLinkRepository",
