@@ -12,7 +12,7 @@ Last updated: 2026-09-30
 - [x] Product-domain contracts and catalog read model
 - [x] Application use-case services
 - [x] Persistence adapter and migration baseline
-- [ ] API boundary
+- [x] API boundary
 - [ ] Identity and authorization boundary
 - [ ] Learning-progress model
 - [ ] Notifications/automation boundary
