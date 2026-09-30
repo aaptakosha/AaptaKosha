@@ -21,8 +21,8 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 ## Current phase
 
-**Phase 3 — Knowledge & Content Layer**
+**Phase 4 — Assessment & Learner Experience**
 
 Phase 2 is complete. Phase 3 currently defines domain-neutral content resources, provenance, and explicit content lifecycle states above the authoritative curriculum catalog. See `docs/architecture/phase-3-knowledge-content.md`.
 
-Phase 1 remains the authoritative ingestion/reconciliation path for published curriculum.
+Phase 1 remains the authoritative ingestion/reconciliation path for published curriculum. Phase 4 is currently implementing domain-neutral assessment contracts above the curriculum and content layers.
