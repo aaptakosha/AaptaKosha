@@ -33,10 +33,10 @@ Last updated: 2026-09-30
 - [ ] Content application service and publication rules
 - [x] Curriculum-to-content linking
 - [x] Content API boundary
-- [ ] Search/indexing boundary
+- [x] Search/indexing boundary
 - [ ] Phase 3 tests and CI expansion
 
 ### Latest Phase 3 work
-- Added framework-neutral ContentApi handlers with stable serialization and lifecycle error mapping.
+- Added a deterministic, replaceable content search/index boundary with published-only indexing.
 
 Tracker rule: update this file whenever a phase gate changes state.
