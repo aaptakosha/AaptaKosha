@@ -18,6 +18,8 @@ from aaptakosha_core.assessment_services import AssessmentService
 from aaptakosha_core.postgres_repository import PostgresAssessmentRepository
 
 DB_PATH = os.path.join("/tmp", "aaptakosha-assessment.sqlite3")
+DATABASE_BACKEND = "sqlite"
+DATABASE_CONNECTION = None
 
 
 def _seed_demo(service: AssessmentService, repo) -> None:
@@ -60,14 +62,19 @@ def _seed_demo(service: AssessmentService, repo) -> None:
 
 
 def build_api():
+    global DATABASE_BACKEND, DATABASE_CONNECTION
     database_url = os.environ.get("DATABASE_URL")
     if database_url:
         import psycopg
 
         conn = psycopg.connect(database_url)
+        DATABASE_BACKEND = "postgres"
+        DATABASE_CONNECTION = conn
         repo = PostgresAssessmentRepository(conn)
     else:
         conn = sqlite3.connect(DB_PATH)
+        DATABASE_BACKEND = "sqlite"
+        DATABASE_CONNECTION = conn
         repo = SQLiteAssessmentRepository(conn)
 
     repo.apply_migrations()
@@ -98,6 +105,25 @@ class handler(BaseHTTPRequestHandler):
         route = query.pop("route", None)
         if route is not None:
             path = "/" + route.lstrip("/")
+
+        if self.command == "GET" and path == "/health":
+            try:
+                cursor = DATABASE_CONNECTION.cursor()
+                cursor.execute("SELECT 1")
+                cursor.fetchone()
+                cursor.execute("SELECT COUNT(*) FROM assessments")
+                assessment_count = cursor.fetchone()[0]
+                self._reply(200, json.dumps({
+                    "status": "ok",
+                    "database": DATABASE_BACKEND,
+                    "assessment_count": assessment_count,
+                }))
+            except Exception:
+                self._reply(503, json.dumps({
+                    "status": "error",
+                    "database": DATABASE_BACKEND,
+                }))
+            return
 
         body = None
         length = int(self.headers.get("Content-Length", "0"))
