@@ -1,0 +1,610 @@
+{
+  "assessment_id": "charaka.sutra.07.revision",
+  "title_hi": "नवेगान्धारणीय अध्याय — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "q01",
+      "prompt": "अधारणीय वेगों का मूल सिद्धान्त क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.003"
+      ]
+    },
+    {
+      "question_id": "q02",
+      "prompt": "मूत्रवेगधारण के परिणाम किस श्लोक से प्रारम्भ होते हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.006"
+      ]
+    },
+    {
+      "question_id": "q03",
+      "prompt": "पुरीषवेगधारण से सम्बन्धित वर्णन किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.008"
+      ]
+    },
+    {
+      "question_id": "q04",
+      "prompt": "शुक्रवेगधारण का वर्णन किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.010"
+      ]
+    },
+    {
+      "question_id": "q05",
+      "prompt": "छर्दि-वेगधारण से सम्बन्धित विकार किस श्लोक में हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.014"
+      ]
+    },
+    {
+      "question_id": "q06",
+      "prompt": "क्षवथु-वेगधारण के परिणाम किस श्लोक में हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.016"
+      ]
+    },
+    {
+      "question_id": "q07",
+      "prompt": "उद्गार-वेगधारण का वर्णन किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.018"
+      ]
+    },
+    {
+      "question_id": "q08",
+      "prompt": "क्षुधा-वेगधारण का वर्णन किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.020"
+      ]
+    },
+    {
+      "question_id": "q09",
+      "prompt": "पिपासा-वेगधारण का वर्णन किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.021"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt": "धारणीय वेगों का सामान्य निर्देश किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.026"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt": "मानसिक धारणीय वेगों में कौन-से भाव आते हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.027"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt": "वाचिक धारणीय वेग किस प्रकार के भाषण से सम्बन्धित हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.028"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt": "व्यायाम की परिभाषा किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.031"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt": "व्यायाम के लाभ किस श्लोक में बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.032"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt": "अति-व्यायाम के दुष्परिणाम किस श्लोक में हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.033"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt": "अहित से हित की ओर क्रमशः जाने का सिद्धान्त किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.036"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt": "देहप्रकृति का वर्णन किस श्लोक-समूह में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.039"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt": "सात्म्य और स्वस्थवृत्त का सम्बन्ध किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.041"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt": "स्वस्थवृत्त के महत्व का निर्देश किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.045"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt": "हितकारी आहाराचारचेष्टा का समग्र उपदेश किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अध्याय के मूल सिद्धान्त और स्वस्थवृत्त के संदर्भ में समझना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक रोग का निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल औषधि-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.060"
+      ]
+    }
+  ]
+}
