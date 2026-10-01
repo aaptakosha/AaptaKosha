@@ -12,26 +12,24 @@ Last updated: 2026-10-01
 | Phase 5 | UI/UX presentation layer | Complete | docs/architecture/phase-5-ui.md |
 | Phase 6 | Durable application API & persistence | Complete | docs/architecture/phase-6-durable-api-persistence.md |
 | Phase 7 | Production identity, security & operations | Complete | docs/architecture/phase-7-production-identity-security-operations.md |
+| Phase 8 | Authenticated learner experience integration | In progress | docs/architecture/phase-8-authenticated-learner-experience.md |
 
-## Phase 7 checklist
-- [x] Production identity adapter
-- [x] Authenticated principal propagation
-- [x] Learner-resource authorization enforcement
-- [x] Production CORS and secure error handling
-- [x] Configuration/readiness validation
-- [x] Security-focused tests and CI
-- [x] Deployment verification
+## Phase 8 checklist
+- [ ] Frontend session/bootstrap contract and shared API client
+- [ ] Authenticated progress integration
+- [ ] Assessment/practice journey integration
+- [ ] Shared loading/error/empty states and navigation consistency
+- [ ] Integration tests and browser verification
+- [ ] Production deployment verification
 
-### Latest Phase 7 work
-- Added replaceable Clerk identity adapter with verified session tokens and authorized-party validation.
-- Wired authenticated principals into assessment and learning-progress ownership checks.
-- Removed wildcard CORS; production can allow one explicit frontend origin through `AAPTOKOSHA_ALLOWED_ORIGIN`.
-- Added structured JSON errors, CORS rejection, health/readiness reporting, and fail-closed production identity configuration.
-- Fixed progress-route parsing before ownership checks and added malformed-payload/security-path coverage.
-- Updated product CI so `api/**` changes trigger the Phase 2–7 test workflow.
-- Verified production deployment `dpl_Aybz47q3TB2GkEY1u9BdgjhMTYjw` is READY for commit `f157d0cf7da6acbd42a64b6ff6cf1a68b13a2bc8`; GitHub's Vercel status is successful.
-- Verified GitHub Actions product workflow run #122 completed successfully on Python 3.11 and 3.12 through PR #28.
-- Removed the temporary CI verification artifact after the successful gate.
-- Production requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
+### Latest Phase 8 work
+- Started Phase 8 after completing Phase 7 security and operations.
+- Defined the learner-facing integration boundary around the existing authenticated APIs.
+- Kept the frontend framework-neutral and reusable for future non-study modules.
+- Next implementation slice: shared frontend session/bootstrap contract and API client.
+
+### Phase 7 completion evidence
+- Production identity adapter, authenticated principal propagation, learner-resource authorization, CORS/error handling, configuration/readiness validation, security-focused tests, and deployment verification are complete.
+- GitHub Actions product workflow run #122 completed successfully on Python 3.11 and 3.12 through PR #28.
 
 Tracker rule: update this file whenever a phase gate changes state.
