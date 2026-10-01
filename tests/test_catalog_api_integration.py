@@ -384,3 +384,25 @@ def test_third_professional_shalya_topic_hierarchy_is_complete():
     assert len(nodes) == 49
     assert nodes[0]["name"] == "Cha.Chi.1.Rasayana Adhyaya"
     assert nodes[-1]["name"] == "Cha.Si.12.Uttara Basti Siddhi"
+\n\ndef test_third_professional_topic_coverage_contract():
+    _, hierarchy = _api()
+    expected = {
+        ("AyUG-KC", "y3-kc-paper1"): 10,
+        ("AyUG-KC", "y3-kc-paper2"): 6,
+        ("AyUG-KC", "y3-kc-paper3"): 9,
+        ("AyUG-PK", "y3-pk-paper1"): 10,
+        ("AyUG-ST", "y3-st-paper1"): 26,
+        ("AyUG-ST", "y3-st-paper2"): 28,
+        ("AyUG-SL", "y3-sl-paper1"): 29,
+        ("AyUG-SL", "y3-sl-paper2"): 34,
+        ("AyUG-PS", "y3-ps-paper1"): 11,
+        ("AyUG-PS", "y3-ps-paper2"): 17,
+        ("AyUG-KB", "y3-kb-paper1"): 22,
+        ("AyUG-SA3", "y3-sa3-paper1"): 49,
+        ("AyUG-RM", "y3-rm-paper1"): 21,
+        ("AyUG-EM", "y3-em-paper1"): 6,
+    }
+    for (subject_id, paper_id), count in expected.items():
+        result = hierarchy.list_nodes("bams_ncism_3", subject_id, "2021-22", paper_id)
+        assert result["status"] == 200
+        assert len(result["data"]["nodes"]) == count, (subject_id, paper_id, result)
