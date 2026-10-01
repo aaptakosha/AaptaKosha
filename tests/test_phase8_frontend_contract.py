@@ -54,3 +54,17 @@ def test_authenticated_flows_do_not_accept_browser_selected_learner_ids():
     assert '"/progress?subject_id=' not in progress
     assert 'window.AAPTAKOSHA_API_BASE || (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)' in flow
     assert 'subjectId: clerk.user ? clerk.user.id : null' in session
+
+def test_backend_identity_boundary_is_authoritative():
+    root = Path(__file__).parents[1]
+    assessment = (root / "src" / "aaptakosha_core" / "assessment_http_api.py").read_text(encoding="utf-8")
+    progress = (root / "src" / "aaptakosha_core" / "progress_http_api.py").read_text(encoding="utf-8")
+
+    assert "require_identity" in assessment
+    assert '"authentication_required"' in assessment
+    assert "principal.subject_id" in assessment
+    assert '"learner_identity_mismatch"' in assessment
+    assert "require_identity" in progress
+    assert '"authentication_required"' in progress
+    assert "principal.subject_id" in progress
+    assert '"learner_identity_mismatch"' in progress
