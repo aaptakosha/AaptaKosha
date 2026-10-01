@@ -44,6 +44,7 @@ else:
         "034_third_professional_research_methodology_topics.sql", "035_third_professional_shalya_paper1_topics.sql",
         "036_third_professional_kaumarabhritya_complete_paper1.sql", "037_third_professional_shalakya_complete_papers.sql",
         "038_third_professional_samhita_adhyayan3_complete.sql", "039_third_professional_shalya_complete_topics.sql",
+        "040_third_professional_source_locator_cleanup.sql", "041_curriculum_data_quality_normalization.sql",
     ):
         REPO.apply_migrations(ROOT / "migrations" / migration)
 

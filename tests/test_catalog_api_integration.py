@@ -357,6 +357,8 @@ def test_migration_chain_includes_third_professional_cleanup():
     assert "033_third_professional_source_quality_cleanup.sql" in source
     assert "038_third_professional_samhita_adhyayan3_complete.sql" in source
     assert "039_third_professional_shalya_complete_topics.sql" in source
+    assert "040_third_professional_source_locator_cleanup.sql" in source
+    assert "041_curriculum_data_quality_normalization.sql" in source
 
 
 def test_sa3_provisional_topic_rows_are_not_seeded_after_cleanup():
