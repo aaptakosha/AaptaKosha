@@ -72,9 +72,8 @@ class AssessmentLearningApi:
         ).for_learner(learner_id)
         submitted = [item for item in analytics if item.submitted_attempt_count]
         total_attempts = sum(item.submitted_attempt_count for item in analytics)
-        weighted_score = sum(item.latest_score or 0 for item in submitted)
-        weighted_maximum = sum(item.maximum_score for item in submitted)
-        average_percent = round(weighted_score * 100 / weighted_maximum) if weighted_maximum else 0
+        weighted_percent = sum(item.average_percent * item.submitted_attempt_count for item in submitted)
+        average_percent = round(weighted_percent / total_attempts) if total_attempts else 0
         return {
             "status": 200,
             "data": {
