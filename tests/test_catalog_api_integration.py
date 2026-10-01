@@ -32,6 +32,7 @@ def _api():
         "018_second_professional_agada_paper1.sql",
         "019_second_professional_roga_nidan_paper1.sql",
         "020_second_professional_dravyaguna_paper1.sql",
+        "021_second_professional_rasashastra_layout.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -300,3 +301,13 @@ def test_second_professional_dravyaguna_paper1_structure_is_present():
     assert len(result["data"]["nodes"]) == 22
     assert [n["name"] for n in result["data"]["nodes"][:7]] == ["Dravyaguna Vigyana", "Dravya", "Guna", "Rasa", "Vipaka", "Virya", "Prabhava"]
     assert result["data"]["nodes"][-1]["name"] == "Network pharmacology and Bioinformatics"
+
+
+def test_second_professional_rasashastra_layout_is_present():
+    _, hierarchy = _api()
+    p1 = hierarchy.list_nodes("bams_ncism_2", "AyUG-RB", "2021-22", "y2-rb-paper1")
+    p2 = hierarchy.list_nodes("bams_ncism_2", "AyUG-RB", "2021-22", "y2-rb-paper2")
+    assert len(p1["data"]["nodes"]) == 14
+    assert len(p2["data"]["nodes"]) == 12
+    assert p1["data"]["nodes"][0]["name"].startswith("Chronological development")
+    assert p2["data"]["nodes"][-1]["name"] == "Pharmacovigilance for Ayurveda drugs"
