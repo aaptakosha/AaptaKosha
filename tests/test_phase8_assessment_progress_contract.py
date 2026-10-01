@@ -42,3 +42,11 @@ def test_assessment_analytics_route_requires_authenticated_learner_identity():
     assert 'parts == ["analytics"] and method == "GET"' in source
     assert "analytics_learner_id = learner_id or query.get(\"learner_id\")" in source
     assert '"authentication_required"' in source
+
+
+def test_progress_ui_renders_live_overall_syllabus_metric():
+    source = (ROOT / "frontend" / "progress.js").read_text(encoding="utf-8")
+    html = (ROOT / "frontend" / "progress.html").read_text(encoding="utf-8")
+    assert 'data-overall-progress' in html
+    assert 'querySelector("[data-overall-progress]")' in source
+    assert "tracked syllabus resources" in source
