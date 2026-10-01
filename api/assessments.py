@@ -203,6 +203,7 @@ def build_api():
     progress_service = LearningProgressService(progress_repo)
     service = AssessmentService(repo, repo, progress_service)
     _seed_demo(service, repo)
+    _seed_samhita_chapter7_assessment(service, repo)
     _seed_samhita_ncism_assessment(service, repo)
     _seed_samhita_chapter2_assessment(service, repo)
     _seed_samhita_chapter3_assessment(service, repo)
