@@ -1,0 +1,24 @@
+from pathlib import Path
+
+ROOT = Path(__file__).parents[1]
+
+
+def test_vercel_entrypoint_wires_assessment_service_to_persistent_progress():
+    source = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
+    assert "progress_service = LearningProgressService(progress_repo)" in source
+    assert "AssessmentService(repo, repo, progress_service)" in source
+
+
+def test_assessment_service_syncs_attempt_lifecycle_when_progress_is_configured():
+    source = (ROOT / "src" / "aaptakosha_core" / "assessment_services.py").read_text(encoding="utf-8")
+    assert "self._sync_progress(saved)" in source
+    assert "AssessmentProgressService(" in source
+    assert 'RESOURCE_TYPE = "assessment"' in (ROOT / "src" / "aaptakosha_core" / "assessment_analytics.py").read_text(encoding="utf-8")
+
+
+def test_results_page_uses_real_progress_and_notes_routes():
+    html = (ROOT / "frontend" / "assessment-results.html").read_text(encoding="utf-8")
+    assert 'href="./progress.html"' in html
+    assert 'href="./notes.html"' in html
+    assert 'href="#progress"' not in html
+    assert 'href="#notes"' not in html
