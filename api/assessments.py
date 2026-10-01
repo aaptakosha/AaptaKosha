@@ -65,6 +65,41 @@ def _seed_demo(service: AssessmentService, repo) -> None:
     ))
     service.publish("demo-dravyaguna-3")
 
+def _seed_samhita_ncism_assessment(service: AssessmentService, repo) -> None:
+    assessment_id = "charaka.sutra.01.ncism-revision"
+    if repo.get(assessment_id) is not None:
+        return
+    path = os.path.join(
+        os.path.dirname(os.path.dirname(__file__)),
+        "content", "assessments", "charaka-sutra-01-ncism.json",
+    )
+    with open(path, encoding="utf-8") as fh:
+        payload = json.load(fh)
+    questions = []
+    for item in payload["questions"]:
+        questions.append(AssessmentQuestion(
+            item["question_id"],
+            item["prompt"],
+            tuple(
+                QuestionOption(
+                    option["option_id"],
+                    option["text"],
+                    option["is_correct"],
+                )
+                for option in item["options"]
+            ),
+            points=item["points"],
+            content_refs=tuple(item["content_refs"]),
+        ))
+    assessment = Assessment(
+        assessment_id,
+        payload["title_hi"],
+        curriculum_refs=tuple(payload["curriculum_refs"]),
+        questions=tuple(questions),
+    )
+    service.create(assessment)
+    service.publish(assessment_id)
+
 
 def build_api():
     global DATABASE_BACKEND, DATABASE_CONNECTION
@@ -86,6 +121,7 @@ def build_api():
     progress_service = LearningProgressService(progress_repo)
     service = AssessmentService(repo, repo, progress_service)
     _seed_demo(service, repo)
+    _seed_samhita_ncism_assessment(service, repo)
     return (
         AssessmentHttpApi(AssessmentLearningApi(service), require_identity=REQUIRE_IDENTITY),
         ProgressHttpApi(LearningProgressService(progress_repo), require_identity=REQUIRE_IDENTITY),
