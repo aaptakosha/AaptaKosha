@@ -88,7 +88,11 @@ def build_api():
     progress_repo.apply_migrations()
     service = AssessmentService(repo, repo)
     _seed_demo(service, repo)
-    return (\n        AssessmentHttpApi(AssessmentLearningApi(service), require_identity=REQUIRE_IDENTITY),\n        ProgressHttpApi(LearningProgressService(progress_repo), require_identity=REQUIRE_IDENTITY),\n    )\n
+    return (
+        AssessmentHttpApi(AssessmentLearningApi(service), require_identity=REQUIRE_IDENTITY),
+        ProgressHttpApi(LearningProgressService(progress_repo), require_identity=REQUIRE_IDENTITY),
+    )
+
 
 API, PROGRESS_API = build_api()
 
@@ -99,7 +103,11 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(data)))
-        origin = os.environ.get("AAPTOKOSHA_ALLOWED_ORIGIN", "").strip()\n        if origin:\n            self.send_header("Access-Control-Allow-Origin", origin)\n            self.send_header("Vary", "Origin")\n        self.end_headers()
+        origin = os.environ.get("AAPTOKOSHA_ALLOWED_ORIGIN", "").strip()
+        if origin:
+            self.send_header("Access-Control-Allow-Origin", origin)
+            self.send_header("Vary", "Origin")
+        self.end_headers()
         self.wfile.write(data)
 
     def _handle(self):
@@ -112,7 +120,19 @@ class handler(BaseHTTPRequestHandler):
         if route is not None:
             path = "/" + route.lstrip("/")
 
-        if self.command == "OPTIONS":\n            self.send_response(204)\n            self.send_header("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")\n            self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")\n            origin = os.environ.get("AAPTOKOSHA_ALLOWED_ORIGIN", "").strip()\n            if origin:\n                self.send_header("Access-Control-Allow-Origin", origin)\n                self.send_header("Vary", "Origin")\n            self.end_headers()\n            return\n\n        if self.command == "GET" and path == "/health":\n            try:
+        if self.command == "OPTIONS":
+            self.send_response(204)
+            self.send_header("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")
+            self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")
+            origin = os.environ.get("AAPTOKOSHA_ALLOWED_ORIGIN", "").strip()
+            if origin:
+                self.send_header("Access-Control-Allow-Origin", origin)
+                self.send_header("Vary", "Origin")
+            self.end_headers()
+            return
+
+        if self.command == "GET" and path == "/health":
+            try:
                 cursor = DATABASE_CONNECTION.cursor()
                 cursor.execute("SELECT 1")
                 cursor.fetchone()
@@ -121,7 +141,10 @@ class handler(BaseHTTPRequestHandler):
                 self._reply(200, json.dumps({
                     "status": "ok",
                     "database": DATABASE_BACKEND,
-                    "assessment_count": assessment_count,\n                    "identity_provider": "clerk" if IDENTITY_PROVIDER else "unconfigured",\n                    "identity_required": REQUIRE_IDENTITY,\n                }))
+                    "assessment_count": assessment_count,
+                    "identity_provider": "clerk" if IDENTITY_PROVIDER else "unconfigured",
+                    "identity_required": REQUIRE_IDENTITY,
+                }))
             except Exception:
                 self._reply(503, json.dumps({
                     "status": "error",
@@ -138,11 +161,24 @@ class handler(BaseHTTPRequestHandler):
                 self._reply(400, json.dumps({"error": {"code": "invalid_json"}}))
                 return
 
-        principal = None\n        if IDENTITY_PROVIDER is not None:\n            try:\n                principal = IDENTITY_PROVIDER.resolve(self)\n            except Exception:\n                self._reply(401, json.dumps({"error": {"code": "authentication_failed"}}))\n                return\n        if REQUIRE_IDENTITY and IDENTITY_PROVIDER is None:\n            self._reply(503, json.dumps({"error": {"code": "identity_provider_not_configured"}}))\n            return\n\n        if path == "/progress" or path.startswith("/progress/"):\n            result = PROGRESS_API.handle(self.command, path, body, query, principal=principal)
+        principal = None
+        if IDENTITY_PROVIDER is not None:
+            try:
+                principal = IDENTITY_PROVIDER.resolve(self)
+            except Exception:
+                self._reply(401, json.dumps({"error": {"code": "authentication_failed"}}))
+                return
+        if REQUIRE_IDENTITY and IDENTITY_PROVIDER is None:
+            self._reply(503, json.dumps({"error": {"code": "identity_provider_not_configured"}}))
+            return
+
+        if path == "/progress" or path.startswith("/progress/"):
+            result = PROGRESS_API.handle(self.command, path, body, query, principal=principal)
             self._reply(*PROGRESS_API.json_response(result))
             return
 
-        result = API.handle(self.command, path, body, query, principal=principal)\n        self._reply(*API.json_response(result))
+        result = API.handle(self.command, path, body, query, principal=principal)
+        self._reply(*API.json_response(result))
 
     def do_GET(self):
         self._handle()
@@ -156,8 +192,3 @@ class handler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):
         self._handle()
 
-    def do_OPTIONS(self):
-        self.send_response(204)
-        self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")
-        self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")\n        self.end_headers()
