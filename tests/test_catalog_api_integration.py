@@ -321,3 +321,12 @@ def test_second_professional_swasthavritta_paper1_structure_is_present():
     assert len(result["data"]["nodes"]) == 6
     assert result["data"]["nodes"][0]["code"] == "A"
     assert result["data"]["nodes"][-1]["code"] == "F"
+
+
+def test_third_professional_kaumarabhritya_paper1_structure_is_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes("bams_ncism_3", "AyUG-KB", "2021-22", "y3-kb-paper1")
+    assert result["status"] == 200
+    assert len(result["data"]["nodes"]) == 9
+    assert result["data"]["nodes"][0]["name"] == "Introduction to Kaumarabhritya"
+    assert result["data"]["nodes"][-1]["name"].startswith("Graha Rogas")
