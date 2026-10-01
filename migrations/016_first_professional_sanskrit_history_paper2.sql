@@ -1,4 +1,4 @@
--- Structural partitions for AyUG-SN & AI Paper II; detailed topic content remains source-ingestion work.
+-- Structural partitions for AyUG-SN & AI Paper II; detailed topic content remains source-ingestion work.\nINSERT OR IGNORE INTO curriculum_nodes\n(node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,sort_order)\nVALUES ('y1-snai-paper2','bams_ncism_1','2021-22','AyUG-SN-AI',NULL,'paper','II','Paper II','NCISM AyUG-SN & AI','Table 2: Paper II',NULL,20);
 INSERT OR IGNORE INTO curriculum_nodes
 (node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,sort_order)
 VALUES
