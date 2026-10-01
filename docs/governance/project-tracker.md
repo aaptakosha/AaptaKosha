@@ -15,18 +15,21 @@ Last updated: 2026-10-01
 | Phase 8 | Authenticated learner experience integration | In progress | docs/architecture/phase-8-authenticated-learner-experience.md |
 
 ## Phase 8 checklist
-- [ ] Frontend session/bootstrap contract and shared API client
-- [ ] Authenticated progress integration
-- [ ] Assessment/practice journey integration
+- [x] Frontend session/bootstrap contract and shared API client
+- [x] Authenticated progress integration
+- [x] Assessment/practice journey integration
 - [ ] Shared loading/error/empty states and navigation consistency
 - [ ] Integration tests and browser verification
 - [ ] Production deployment verification
 
 ### Latest Phase 8 work
-- Started Phase 8 after completing Phase 7 security and operations.
-- Defined the learner-facing integration boundary around the existing authenticated APIs.
-- Kept the frontend framework-neutral and reusable for future non-study modules.
-- Next implementation slice: shared frontend session/bootstrap contract and API client.
+- Added provider-neutral frontend session bootstrap.
+- Added reusable shared API client with optional bearer-token integration through the frontend auth provider hook.
+- Wired dashboard, progress, and assessment flows through the shared boundary.
+- Kept local/demo fallback behavior when no production API base is configured.
+- Kept authorization decisions at the API boundary rather than in UI code.
+- Production deployments for the integration commits are being generated; final Phase 8 verification remains open.
+- Next implementation slice: shared loading/error/empty states and navigation consistency across learner pages.
 
 ### Phase 7 completion evidence
 - Production identity adapter, authenticated principal propagation, learner-resource authorization, CORS/error handling, configuration/readiness validation, security-focused tests, and deployment verification are complete.
