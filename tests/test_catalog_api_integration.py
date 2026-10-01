@@ -370,6 +370,7 @@ def test_sa3_provisional_topic_rows_are_not_seeded_after_cleanup():
     source = Path("migrations/033_third_professional_source_quality_cleanup.sql").read_text(encoding="utf-8")
     assert "DELETE FROM curriculum_nodes" in source
     assert "y3-sa3-samhita-charaka" in source
+    assert "y3-em-1" in source
 
 
 def test_third_professional_shalya_topic_hierarchy_is_complete():
