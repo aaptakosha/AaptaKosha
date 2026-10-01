@@ -26,7 +26,7 @@ def test_charaka_sutra_07_canonical_contract():
         "charaka.sutra.07.035.1",
         "charaka.sutra.07.035.2",
     ]
-    assert all(v["sanskrit_original"] and v["translation_hi"] and v["tika_hi"] for v in chapter["verses"])
+    assert all(v["sanskrit_original"] and v["translation_hi"] and v["explanation_hi"] and v["tika_hi"] for v in chapter["verses"])
 
 
 def test_charaka_sutra_07_assessment_contract():
@@ -44,3 +44,13 @@ def test_charaka_sutra_07_assessment_contract():
         assert sum(o["is_correct"] for o in q["options"]) == 1
         assert q["content_refs"]
         assert set(q["content_refs"]).issubset(canonical)
+
+
+def test_charaka_sutra_07_reader_and_api_are_wired():
+    api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
+    reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
+    assert "chapter_no not in {1, 2, 3, 4, 5, 6, 7}" in api
+    assert "_seed_samhita_chapter7_assessment(service, repo)" in api
+    assert 'charaka.sutra.07.revision' in api
+    assert 'id==="charaka.sutra.07"' in reader
+    assert 'charaka.sutra.07.revision' in reader
