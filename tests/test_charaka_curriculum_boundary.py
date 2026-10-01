@@ -16,7 +16,11 @@ def test_charaka_sa1_content_boundary_is_explicit():
 
 
 def test_charaka_chapter7_is_the_next_sa1_content_target():
-    assert not CH7.exists(), "Chapter 7 should be added by the dedicated research-first content build, not bypassed by SA2 content."
+    if CH7.exists():
+        data = json.loads(CH7.read_text(encoding="utf-8"))
+        assert data["chapter_id"] == "charaka.sutra.07"
+        assert data["adhyaya_no"] == 7
+        assert data["curriculum_refs"] == ["AyUG-SA1"]
     assert "AyUG-SA2" not in CH6.read_text(encoding="utf-8")
 
 
