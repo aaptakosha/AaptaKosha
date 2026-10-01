@@ -51,7 +51,6 @@ Last updated: 2026-10-02
 - [x] Chapter 8 content/assessment regression contract
 - [x] Chapter 8 reader/API wiring
 - [ ] Chapter 8 end-to-end learner regression
-- [ ] Chapter 8 end-to-end learner regression
 - [ ] Chapter 9+ remaining SA-1 chapters
 - [ ] Chapter 13+ remains reserved for SA-2 / Second Professional
 
