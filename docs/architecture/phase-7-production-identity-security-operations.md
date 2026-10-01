@@ -10,7 +10,7 @@ Phase 7 hardens the deployed AaptaKosha application for real learners without co
 ## Scope
 
 ### Identity
-- Introduce a production authentication boundary.
+- Introduce a production authentication boundary. The current adapter uses Clerk session-token verification while keeping the core identity contract provider-neutral.
 - Resolve a stable learner identity at the HTTP boundary.
 - Keep learner identity separate from curriculum and content identifiers.
 - Preserve the existing authorization service as the policy boundary.
@@ -19,13 +19,13 @@ Phase 7 hardens the deployed AaptaKosha application for real learners without co
 - Remove anonymous access to learner-specific reads/writes where production identity is required.
 - Enforce learner ownership on assessment attempts and learning progress.
 - Validate request payloads and reject malformed or unsafe input consistently.
-- Define CORS policy for production rather than relying on a wildcard.
+- Define CORS policy for production rather than relying on a wildcard; `AAPTOKOSHA_ALLOWED_ORIGIN` controls the explicit allowed origin.
 - Add rate-limit hooks at the transport/deployment boundary.
 
 ### Secrets and configuration
 - Keep DATABASE_URL and future provider credentials out of source control.
-- Define environment-specific configuration expectations.
-- Add startup/configuration validation that does not reveal secret values.
+- Define environment-specific configuration expectations. Production identity uses `CLERK_SECRET_KEY` or `CLERK_JWT_KEY` plus a non-empty `CLERK_AUTHORIZED_PARTIES` allowlist.
+- Add startup/configuration validation that does not reveal secret values. Vercel deployments fail closed with a configuration error when identity is required but no provider is configured.
 
 ### Operations
 - Expand health/readiness checks without exposing sensitive data.
