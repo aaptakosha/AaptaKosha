@@ -27,6 +27,13 @@ def test_charaka_sutra_07_canonical_contract():
         "charaka.sutra.07.035.2",
     ]
     assert all(v["sanskrit_original"] and v["translation_hi"] and v["explanation_hi"] and v["tika_hi"] for v in chapter["verses"])
+    explanations = [v["explanation_hi"] for v in chapter["verses"]]
+    tikas = [v["tika_hi"] for v in chapter["verses"]]
+    assert len(set(explanations)) == len(explanations)
+    assert len(set(tikas)) == len(tikas)
+    assert all("यह श्लोक" not in text or len(text) > 45 for text in explanations)
+    assert all("इस पदसमूह में शास्त्रीय निर्देश/लक्षण/उपाय" not in text for text in tikas)
+    assert "2026-10-02" in chapter["recitation_policy"]
 
 
 def test_charaka_sutra_07_assessment_contract():
