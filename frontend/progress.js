@@ -6,6 +6,11 @@
     return window.AaptaKoshaApi.request("/progress");
   }
 
+  async function loadAnalytics() {
+    if (!window.AaptaKoshaApi) throw new Error("API client unavailable");
+    return window.AaptaKoshaApi.request("/analytics");
+  }
+
   function renderProgress(items) {
     const row = Array.from(document.querySelectorAll(".subject-row"))
       .find((el) => el.dataset.subject === SUBJECT);
@@ -24,9 +29,35 @@
     row.querySelector("[data-progress-bar]").style.width = percent + "%";
   }
 
+  function renderAnalytics(data) {
+    const metrics = data || {};
+    const average = document.querySelector("[data-assessment-average]");
+    const attempts = document.querySelector("[data-assessment-attempts]");
+    if (average) average.textContent = (metrics.average_percent || 0) + "%";
+    if (attempts) attempts.textContent = "Across " + (metrics.attempt_count || 0) + " submitted attempts";
+
+    const list = document.querySelector("[data-score-list]");
+    if (!list) return;
+    list.replaceChildren();
+    const assessments = metrics.assessments || [];
+    assessments.forEach((item) => {
+      const span = document.createElement("span");
+      span.textContent = item.assessment_id + " · " + (item.best_percent || 0) + "% best";
+      list.appendChild(span);
+    });
+    if (!assessments.length) {
+      const span = document.createElement("span");
+      span.textContent = "No submitted assessments yet";
+      list.appendChild(span);
+    }
+  }
+
   window.AaptaKoshaSessionReady
-    ?.then(loadProgress)
-    .then((data) => renderProgress(data.progress || []))
+    ?.then(async () => {
+      const [progress, analytics] = await Promise.all([loadProgress(), loadAnalytics()]);
+      renderProgress(progress.progress || []);
+      renderAnalytics(analytics);
+    })
     .catch((error) => {
       const state = document.querySelector("[data-ui-state]");
       const authenticated = window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated;
