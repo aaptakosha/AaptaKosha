@@ -1,9 +1,10 @@
-name: Product, Phase 2, 3, and 4 tests
+name: Product and Phase 2–7 tests
 
 on:
   workflow_dispatch:
   push:
     paths:
+      - "api/**"
       - "src/aaptakosha_core/**"
       - "tests/test_phase2_*.py"
       - "tests/test_phase3_*.py"
@@ -15,6 +16,7 @@ on:
       - ".github/workflows/product-tests.yml"
   pull_request:
     paths:
+      - "api/**"
       - "src/aaptakosha_core/**"
       - "tests/test_phase2_*.py"
       - "tests/test_phase3_*.py"
