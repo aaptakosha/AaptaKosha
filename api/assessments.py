@@ -78,7 +78,8 @@ def build_api():
     repo.apply_migrations()
     progress_repo = PostgresProgressRepository(conn) if database_url else SQLiteProgressRepository(conn)
     progress_repo.apply_migrations()
-    progress_service = LearningProgressService(progress_repo)\n    service = AssessmentService(repo, repo, progress_service)
+    progress_service = LearningProgressService(progress_repo)
+    service = AssessmentService(repo, repo, progress_service)
     _seed_demo(service, repo)
     return (
         AssessmentHttpApi(AssessmentLearningApi(service), require_identity=REQUIRE_IDENTITY),
