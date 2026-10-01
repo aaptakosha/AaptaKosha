@@ -60,6 +60,7 @@ class handler(BaseHTTPRequestHandler):
         if path.startswith("/api"):
             path=path[4:] or "/"
         # Vercel rewrites preserve the original route in the route query parameter.
+        # Keep this normalization at the transport boundary.
         route=query.pop("route", None)
         if route is not None:
             path="/" + route.lstrip("/")
