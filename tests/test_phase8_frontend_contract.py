@@ -52,4 +52,5 @@ def test_authenticated_flows_do_not_accept_browser_selected_learner_ids():
     assert 'requestLearnerPayload()' in flow
     assert '"/progress"' in progress
     assert '"/progress?subject_id=' not in progress
+    assert 'window.AAPTAKOSHA_API_BASE || (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)' in flow
     assert 'subjectId: clerk.user ? clerk.user.id : null' in session
