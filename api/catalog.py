@@ -13,37 +13,39 @@ from aaptakosha_core.curriculum_hierarchy_api import CurriculumHierarchyApi
 from aaptakosha_core.curriculum_hierarchy_services import CurriculumHierarchyService
 from aaptakosha_core.services import CatalogService
 from aaptakosha_core.sqlite_repository import SQLiteCatalogRepository
+from aaptakosha_core.postgres_curriculum_repository import PostgresCurriculumRepository
 
 DB_PATH = Path("/tmp") / "aaptakosha-catalog.sqlite3"
-CONNECTION = sqlite3.connect(str(DB_PATH), check_same_thread=False)
-REPO = SQLiteCatalogRepository(CONNECTION)
-
-for migration in (
-    "001_catalog.sql", "004_bams_content_layout.sql", "005_curriculum_hierarchy.sql",
-    "006_first_professional_hierarchy.sql", "007_first_professional_data_quality.sql",
-    "008_third_professional_paper_layout.sql", "009_second_professional_paper_layout.sql",
-    "010_first_professional_paper_layout.sql", "011_first_professional_padartha_paper2.sql",
-    "012_first_professional_rachana_paper2.sql", "013_first_professional_kriya_paper2.sql",
-    "014_correct_kriya_paper2_partb.sql", "015_first_professional_padartha_samhita_layout.sql",
-    "016_first_professional_sanskrit_history_paper2.sql", "017_second_professional_samhita_layout.sql",
-    "018_second_professional_agada_paper1.sql", "019_second_professional_roga_nidan_paper1.sql",
-    "020_second_professional_dravyaguna_paper1.sql", "021_second_professional_rasashastra_layout.sql",
-    "022_second_professional_swasthavritta_paper1.sql", "023_third_professional_verified_paper_metadata.sql",
-    "024_third_professional_kaumarabhritya_paper1.sql", "025_third_professional_prasuti_stree_roga_layout.sql",
-    "026_third_professional_kaumarabhritya_paper_metadata.sql",
-    "027_third_professional_kayachikitsa_paper_metadata.sql",
-    "028_third_professional_remaining_paper_metadata.sql",
-    "029_third_professional_kayachikitsa_panchakarma_topics.sql",
-    "030_third_professional_shalya_shalakya_metadata.sql",
-    "031_third_professional_sa3_rm_em_verified_metadata.sql",
-    "032_third_professional_sa3_structure.sql",
-    "033_third_professional_source_quality_cleanup.sql",
-    "034_third_professional_research_methodology_topics.sql",
-    "035_third_professional_shalya_paper1_topics.sql",
-    "036_third_professional_kaumarabhritya_complete_paper1.sql",
-    "037_third_professional_shalakya_complete_papers.sql",
-):
-    REPO.apply_migrations(ROOT / "migrations" / migration)
+DATABASE_URL = os.environ.get("DATABASE_URL")
+if DATABASE_URL:
+    import psycopg
+    CONNECTION = psycopg.connect(DATABASE_URL)
+    REPO = PostgresCurriculumRepository(CONNECTION)
+    REPO.apply_migrations()
+else:
+    CONNECTION = sqlite3.connect(str(DB_PATH), check_same_thread=False)
+    REPO = SQLiteCatalogRepository(CONNECTION)
+    for migration in (
+        "001_catalog.sql", "004_bams_content_layout.sql", "005_curriculum_hierarchy.sql",
+        "006_first_professional_hierarchy.sql", "007_first_professional_data_quality.sql",
+        "008_third_professional_paper_layout.sql", "009_second_professional_paper_layout.sql",
+        "010_first_professional_paper_layout.sql", "011_first_professional_padartha_paper2.sql",
+        "012_first_professional_rachana_paper2.sql", "013_first_professional_kriya_paper2.sql",
+        "014_correct_kriya_paper2_partb.sql", "015_first_professional_padartha_samhita_layout.sql",
+        "016_first_professional_sanskrit_history_paper2.sql", "017_second_professional_samhita_layout.sql",
+        "018_second_professional_agada_paper1.sql", "019_second_professional_roga_nidan_paper1.sql",
+        "020_second_professional_dravyaguna_paper1.sql", "021_second_professional_rasashastra_layout.sql",
+        "022_second_professional_swasthavritta_paper1.sql", "023_third_professional_verified_paper_metadata.sql",
+        "024_third_professional_kaumarabhritya_paper1.sql", "025_third_professional_prasuti_stree_roga_layout.sql",
+        "026_third_professional_kaumarabhritya_paper_metadata.sql", "027_third_professional_kayachikitsa_paper_metadata.sql",
+        "028_third_professional_remaining_paper_metadata.sql", "029_third_professional_kayachikitsa_panchakarma_topics.sql",
+        "030_third_professional_shalya_shalakya_metadata.sql", "031_third_professional_sa3_rm_em_verified_metadata.sql",
+        "032_third_professional_sa3_structure.sql", "033_third_professional_source_quality_cleanup.sql",
+        "034_third_professional_research_methodology_topics.sql", "035_third_professional_shalya_paper1_topics.sql",
+        "036_third_professional_kaumarabhritya_complete_paper1.sql", "037_third_professional_shalakya_complete_papers.sql",
+        "038_third_professional_samhita_adhyayan3_complete.sql", "039_third_professional_shalya_complete_topics.sql",
+    ):
+        REPO.apply_migrations(ROOT / "migrations" / migration)
 
 CATALOG_API = CatalogApi(CatalogService(REPO))
 HIERARCHY_API = CurriculumHierarchyApi(CurriculumHierarchyService(REPO))
