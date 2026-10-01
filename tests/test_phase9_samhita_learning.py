@@ -18,11 +18,11 @@ def test_samhita_reader_is_connected_to_canonical_content_and_progress():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     js = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
     assert 'path == "/content/samhita"' in api
-    assert 'content_id != "charaka.sutra.01"' in api
-    assert 'fetch("/api/progress")' in js
-    assert 'resource_type:"samhita_unit"' in js
-    assert 'resource_type:"samhita_recitation"' in js
-    assert 'resource_type:"samhita_chapter"' in js
+    assert 'chapter_no not in {1, 2, 3, 4, 5}' in api
+    assert 'api("/api/progress")' in js
+    assert 'saveProgress("samhita_unit"' in js
+    assert 'saveProgress("samhita_recitation"' in js
+    assert 'saveProgress("samhita_chapter"' in js
 
 
 def test_assessment_questions_can_reference_canonical_content():

@@ -1,0 +1,629 @@
+{
+  "assessment_id": "charaka.sutra.05.revision",
+  "title_hi": "चरक सूत्रस्थान अध्याय 5 · मात्राशितीय पुनरावृत्ति",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "questions": [
+    {
+      "question_id": "q01",
+      "prompt": "आहार की मात्रा मुख्यतः किस पर निर्भर मानी गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अग्निबल",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "ऋतु मात्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल आयु",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल देश",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.003",
+        "charaka.sutra.05.unit-01"
+      ]
+    },
+    {
+      "question_id": "q02",
+      "prompt": "गुरु आहार की मात्रा के विषय में कौन-सा सिद्धान्त दिया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अर्ध या त्रिभाग सौहित्य का विचार",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "असीमित सेवन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल उपवास",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल रात्रि सेवन",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.007",
+        "charaka.sutra.05.unit-01"
+      ]
+    },
+    {
+      "question_id": "q03",
+      "prompt": "मात्रावान् आहार का शास्त्रीय परिणाम क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "प्रकृति, बल, वर्ण, सुख और आयु का समर्थन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल तृष्णा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल स्वेद",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.008",
+        "charaka.sutra.05.unit-01"
+      ]
+    },
+    {
+      "question_id": "q04",
+      "prompt": "नित्यसेवन के लिए किन द्रव्यों का उदाहरण दिया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "षष्टिक, शालि, मुद्ग आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल माष",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल दधि",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल मत्स्य",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.012",
+        "charaka.sutra.05.unit-01"
+      ]
+    },
+    {
+      "question_id": "q05",
+      "prompt": "अञ्जन के नित्य प्रयोग के लिए कौन-सा नाम आता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "सौवीरमञ्जन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "रसाञ्जन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "मनःशिला",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "हरिताल",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.015",
+        "charaka.sutra.05.unit-02"
+      ]
+    },
+    {
+      "question_id": "q06",
+      "prompt": "तीक्ष्ण अञ्जन दिन में क्यों न लगाने को कहा गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "विरेक से दुर्बल दृष्टि सूर्य के प्रकाश में क्लान्त होती है",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "क्योंकि निद्रा आती है",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "क्योंकि भूख बढ़ती है",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "क्योंकि प्यास लगती है",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.017",
+        "charaka.sutra.05.unit-02"
+      ]
+    },
+    {
+      "question_id": "q07",
+      "prompt": "धूमवर्ति की तैयारी में वर्तिकरण का वर्णन किस क्रम में आता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "द्रव्यों को पीसकर वर्ति बनाना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल जल में उबालना",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल चूर्ण सेवन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल लेप करना",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.023",
+        "charaka.sutra.05.unit-03"
+      ]
+    },
+    {
+      "question_id": "q08",
+      "prompt": "धूमपान के शास्त्रीय प्रकारों में कौन-सा समूह मिलता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "प्रायोगिक, स्नैहिक और वैरेचनिक",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल शीत और उष्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल गुरु और लघु",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल दिवा और रात्रि",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.025",
+        "charaka.sutra.05.unit-03"
+      ]
+    },
+    {
+      "question_id": "q09",
+      "prompt": "प्रयोग-धूमपान के कालों का उल्लेख किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "श्लोक 33",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "श्लोक 23",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "श्लोक 43",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "श्लोक 53",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.033",
+        "charaka.sutra.05.unit-04"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt": "सम्यक् धूमपान के लक्षणों में क्या वर्णित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "हृदय-कण्ठेन्द्रिय-शुद्धि और शिरोलघुता",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "तीव्र तृष्णा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "मूर्च्छा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "रक्तस्राव",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.038",
+        "charaka.sutra.05.unit-04"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt": "धूमपान की निषिद्ध अवस्थाओं का विस्तृत वर्णन किस खण्ड में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "श्लोक 41 से आगे",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "श्लोक 11 से",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "श्लोक 71 से",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "श्लोक 101 से",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.041",
+        "charaka.sutra.05.unit-05"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt": "धूमनेत्र के लिए किस प्रकार के माप का उल्लेख है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "चतुर्विंशति तथा अन्य निर्दिष्ट अंगुल-माप",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल एक अंगुल",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल हस्त-माप",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "कोई माप नहीं",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.049",
+        "charaka.sutra.05.unit-05"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt": "सम्यक् धूमपान के बाद दोष-लघुता से सम्बन्धित संकेत किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "श्लोक 52",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "श्लोक 42",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "श्लोक 62",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "श्लोक 72",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.052",
+        "charaka.sutra.05.unit-05"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt": "अणुतैल के नस्य-कालों का उल्लेख किस ऋतु-समूह के साथ है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "प्रावृट्, शरद् और वसन्त",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "हेमन्त और शिशिर בלבד",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल ग्रीष्म",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल वर्षा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.057",
+        "charaka.sutra.05.unit-06"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt": "अणुतैल की मात्रा का उल्लेख किस श्लोक में है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "श्लोक 68",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "श्लोक 58",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "श्लोक 78",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "श्लोक 88",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.068",
+        "charaka.sutra.05.unit-06"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt": "दन्तपवन के प्रयोग में मुख्य उद्देश्य क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "गन्ध, वैरस्य और जिह्वा-दन्त-मुख के मल का निवारण",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल स्वेद",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल तृष्णा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.072",
+        "charaka.sutra.05.unit-07"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt": "जिह्वानिर्लेखन के लिए कैसा उपकरण कहा गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "अतीक्ष्ण और अनृजु नहीं, अर्थात् उपयुक्त कोमलता वाला",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "अत्यन्त तीक्ष्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "टेढ़ा और धारदार",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल काष्ठ का",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.075",
+        "charaka.sutra.05.unit-07"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt": "तैलगण्डूष के लाभों में क्या वर्णित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "दन्तों की सहनशीलता और मुख-स्वास्थ्य से सम्बन्धित लाभ",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल दृष्टि-वृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल ज्वर",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.080",
+        "charaka.sutra.05.unit-07"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt": "अभ्यङ्ग के सामान्य प्रभावों में क्या वर्णित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "शरीर को दृढ़ और त्वचा को सुस्थिर बनाने वाला",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल पाचन रोकना",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल तन्द्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल तृष्णा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.086",
+        "charaka.sutra.05.unit-08"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt": "पादाभ्यङ्ग के लाभ किस श्लोक-समूह में वर्णित हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "90–92",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "70–72",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "100–102",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "10–12",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.05.090",
+        "charaka.sutra.05.unit-08"
+      ]
+    }
+  ]
+}

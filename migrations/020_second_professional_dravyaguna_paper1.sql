@@ -1,4 +1,6 @@
 -- NCISM-verified AyUG-DG Paper I: Fundamental Dravyaguna, 22 topics.
+-- Remove the four provisional seed units from migration 005 before loading the verified 22-topic layout.
+DELETE FROM curriculum_nodes WHERE node_id IN ('y2-dg-1','y2-dg-2','y2-dg-3','y2-dg-4');
 INSERT OR IGNORE INTO curriculum_nodes
 (node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,marks,sort_order)
 VALUES

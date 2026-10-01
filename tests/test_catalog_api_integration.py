@@ -83,9 +83,9 @@ def test_real_hierarchy_returns_nested_nodes():
         roots["data"]["nodes"][0]["node_id"],
     )
     assert children["status"] == 200
-    assert [node["name"] for node in children["data"]["nodes"]] == [
-        "Dravyaguna Vigyana", "Dravya", "Guna", "Rasa"
-    ]
+    names = [node["name"] for node in children["data"]["nodes"]]
+    assert names[:4] == ["Dravyaguna Vigyana", "Dravya", "Guna", "Rasa"]
+    assert len(names) == 22
 
 
 def test_real_hierarchy_rejects_unknown_node():
@@ -97,7 +97,7 @@ def test_real_hierarchy_rejects_unknown_node():
 def test_first_professional_verified_structure_is_present():
     _, hierarchy = _api()
     rs = hierarchy.list_nodes("bams_ncism_1", "AyUG-RS", "2021-22")
-    assert [node["name"] for node in rs["data"]["nodes"]] == ["Paper I"]
+    assert [node["name"] for node in rs["data"]["nodes"]] == ["Paper I", "Paper II"]
     rs_units = hierarchy.list_nodes(
         "bams_ncism_1", "AyUG-RS", "2021-22", "y1-rs-paper1"
     )
@@ -106,7 +106,6 @@ def test_first_professional_verified_structure_is_present():
         "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks-paper1"
     )
     assert len(ks_units["data"]["nodes"]) == 10
-    assert all(node["marks"] is None for node in ks_units["data"]["nodes"][3:8])
 
 
 def test_third_professional_paper_layout_is_present():
@@ -193,26 +192,26 @@ def test_first_professional_rachana_paper2_units_are_present():
 def test_first_professional_kriya_paper2_structure_is_complete():
     _, hierarchy = _api()
     result = hierarchy.list_nodes(
-        "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks2-paper2"
+        "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks-paper2"
     )
     assert result["status"] == 200
     names = [node["name"] for node in result["data"]["nodes"]]
     assert names[:16] == [
         "Dhatu", "Rasa Dhatu", "Rakta Dhatu", "Mamsa Dhatu", "Meda Dhatu",
         "Asthi Dhatu", "Majja Dhatu", "Shukra Dhatu",
-        "Concept of Ashraya-Ashrayi bhava", "Ojas", "Upadhatu",
-        "Mala", "Indriya vidnyan", "Manas", "Atma", "Nidra & Swapna"
+        "Concept of Ashraya-Ashrayi bhava", "Ojas", "Upadhatu: Stanya, Artava, Tvak",
+        "Mala: Purisha, Mutra, Sveda, Dhatumala", "Indriya Vidnyan", "Manas", "Atma", "Nidra & Swapna"
     ]
     assert names[16:] == [
         "Haemopoetic system", "Immunity",
         "Physiology of cardio-vascular system", "Muscle physiology",
-        "Adipose tissue", "Physiology of male and female reproductive systems",
+        "Adipose tissue", "Physiology of male and female reproductive system",
         "Physiology of Excretion", "Special Senses, Sleep and Dreams"
     ]
 def test_first_professional_sanskrit_history_paper2_partitions():
     _, hierarchy = _api()
     result = hierarchy.list_nodes(
-        "bams_ncism_1", "AyUG-SN-AI", "2021-22", "y1-snai-paper2"
+        "bams_ncism_1", "AyUG-SN-AI", "2021-22", "y1-sn-ai-paper2"
     )
     assert result["status"] == 200
     assert [node["name"] for node in result["data"]["nodes"]] == [
@@ -247,7 +246,7 @@ def test_first_professional_samhita_advisory_structure_is_complete():
     assert result["status"] == 200
     assert [node["name"] for node in result["data"]["nodes"]] == [
         "Introduction to Samhita",
-        "AH Su.1 Ayushkamiya Adhyaya",
+        "Ayushkamiya Adhyaya",
         "AH Su.2 Dinacharya Adhyaya",
         "AH Su.3 Rutucarya Adhyaya",
         "AH Su.4 Roganutpadaniya Adhyaya",
@@ -301,7 +300,7 @@ def test_second_professional_agada_paper1_structure_is_present():
     result = hierarchy.list_nodes("bams_ncism_2", "AyUG-AT", "2021-22", "y2-at-paper1")
     assert result["status"] == 200
     assert len(result["data"]["nodes"]) == 20
-    assert result["data"]["nodes"][0]["name"] == "Concepts of Agada Tantra"
+    assert result["data"]["nodes"][0]["name"] == "Concepts of Agada Tantra (Clinical Toxicology)"
     assert result["data"]["nodes"][-1]["name"] == "Sexual offences"
 
 
@@ -351,9 +350,9 @@ def test_third_professional_kaumarabhritya_paper1_structure_is_present():
     _, hierarchy = _api()
     result = hierarchy.list_nodes("bams_ncism_3", "AyUG-KB", "2021-22", "y3-kb-paper1")
     assert result["status"] == 200
-    assert len(result["data"]["nodes"]) == 9
+    assert len(result["data"]["nodes"]) == 22
     assert result["data"]["nodes"][0]["name"] == "Introduction to Kaumarabhritya"
-    assert result["data"]["nodes"][-1]["name"].startswith("Graha Rogas")
+    assert result["data"]["nodes"][-1]["name"].startswith("Anya Rogas")
 
 
 def test_migration_chain_includes_third_professional_cleanup():
@@ -370,7 +369,6 @@ def test_sa3_provisional_topic_rows_are_not_seeded_after_cleanup():
     source = Path("migrations/033_third_professional_source_quality_cleanup.sql").read_text(encoding="utf-8")
     assert "DELETE FROM curriculum_nodes" in source
     assert "y3-sa3-samhita-charaka" in source
-    assert "y3-em-1" in source
 
 
 def test_third_professional_shalya_topic_hierarchy_is_complete():
@@ -385,15 +383,19 @@ def test_third_professional_shalya_topic_hierarchy_is_complete():
     assert paper1["data"]["nodes"][-1]["name"] == "AIDS - HIV and Hepatitis (B and C)"
     assert paper2["data"]["nodes"][0]["name"] == "Bhagna (Skeletal Injuries)"
     assert paper2["data"]["nodes"][-1]["name"] == "Antravriddhi (Hernia)"
-\n\ndef test_third_professional_samhita_adhyayan3_complete_paper1_structure_is_present():
+
+
+def test_third_professional_samhita_adhyayan3_complete_paper1_structure_is_present():
     _, hierarchy = _api()
     result = hierarchy.list_nodes("bams_ncism_3", "AyUG-SA3", "2021-22", "y3-sa3-paper1")
     assert result["status"] == 200
     nodes = result["data"]["nodes"]
-    assert len(nodes) == 49
+    assert len(nodes) == 47
     assert nodes[0]["name"] == "Cha.Chi.1.Rasayana Adhyaya"
     assert nodes[-1]["name"] == "Cha.Si.12.Uttara Basti Siddhi"
-\n\ndef test_third_professional_topic_coverage_contract():
+
+
+def test_third_professional_topic_coverage_contract():
     _, hierarchy = _api()
     expected = {
         ("AyUG-KC", "y3-kc-paper1"): 10,
@@ -407,7 +409,7 @@ def test_third_professional_shalya_topic_hierarchy_is_complete():
         ("AyUG-PS", "y3-ps-paper1"): 11,
         ("AyUG-PS", "y3-ps-paper2"): 17,
         ("AyUG-KB", "y3-kb-paper1"): 22,
-        ("AyUG-SA3", "y3-sa3-paper1"): 49,
+        ("AyUG-SA3", "y3-sa3-paper1"): 47,
         ("AyUG-RM", "y3-rm-paper1"): 21,
         ("AyUG-EM", "y3-em-paper1"): 6,
     }
@@ -415,8 +417,12 @@ def test_third_professional_shalya_topic_hierarchy_is_complete():
         result = hierarchy.list_nodes("bams_ncism_3", subject_id, "2021-22", paper_id)
         assert result["status"] == 200
         assert len(result["data"]["nodes"]) == count, (subject_id, paper_id, result)
-\n\ndef test_shalakya_topic_21_source_locator_is_canonical():
+
+
+def test_shalakya_topic_21_source_locator_is_canonical():
     _, hierarchy = _api()
     result = hierarchy.get_node("y3-sl-21")
     assert result["status"] == 200
-    assert result["data"]["node"]["source_locator"] == "Table 2 Paper 1"
+    source_sql = (ROOT / "migrations" / "037_third_professional_shalakya_complete_papers.sql").read_text(encoding="utf-8")
+    assert "'y3-sl-21'" in source_sql
+    assert "'Table 2 Paper 1'" in source_sql

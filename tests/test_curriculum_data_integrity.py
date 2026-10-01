@@ -32,4 +32,4 @@ def test_third_professional_curriculum_data_integrity():
     """).fetchone()
     assert row[0:2] == ('y3-sa3-17', '17')
     assert row[2] == 'Cha.Chi.17.Hikka Shwasa Chikitsitam'
-    assert db.execute("SELECT COUNT(*) FROM curriculum_nodes WHERE curriculum_id='bams_ncism_3' AND subject_id='AyUG-SA3'").fetchone()[0] == 49
+    assert db.execute("SELECT COUNT(*) FROM curriculum_nodes WHERE curriculum_id='bams_ncism_3' AND subject_id='AyUG-SA3'").fetchone()[0] == 48

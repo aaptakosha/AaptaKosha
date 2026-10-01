@@ -1,3 +1,5 @@
+DELETE FROM curriculum_nodes WHERE node_id IN ('y2-rb-1','y2-rb-2');
+
 INSERT OR IGNORE INTO curriculum_nodes
 (node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,marks,sort_order)
 VALUES

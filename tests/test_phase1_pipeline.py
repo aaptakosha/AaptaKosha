@@ -1,5 +1,5 @@
 import sqlite3
-from src.aaptakosha_ingestion.pipeline import Artifact,fingerprint_artifact,normalize_curriculum,validate_curriculum,diff_curriculum,reconcile
+from aaptakosha_ingestion.pipeline import Artifact,fingerprint_artifact,normalize_curriculum,validate_curriculum,diff_curriculum,reconcile
 
 def curriculum(name="A",topic="T1"):
     return {"curriculum_id":"BAMS","version":"1.0","professional_year":2,

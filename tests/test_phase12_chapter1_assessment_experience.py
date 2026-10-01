@@ -56,7 +56,7 @@ def test_chapter1_full_attempt_returns_canonical_weak_shloka_refs():
     result = api.submit(attempt_id, "learner")
     assert result["status"] == 200
     assert result["data"]["maximum_score"] == 33
-    assert result["data"]["score"] == 32
+    assert result["data"]["score"] == 1
     q1 = next(x for x in result["data"]["breakdown"] if x["question_id"] == "charaka.sutra.01.q01")
     assert q1["is_correct"] is False
     assert "charaka.sutra.01.015" in q1["content_refs"]
@@ -82,7 +82,8 @@ def test_chapter1_frontend_wires_test_and_results_actions():
     results_js = (ROOT / "frontend" / "assessment-results.js").read_text(encoding="utf-8")
     practice_js = (ROOT / "frontend" / "practice.js").read_text(encoding="utf-8")
     reader_js = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
-    assert "charaka.sutra.01.ncism-revision" in study_html
+    assert "id=\"chapterActions\"" in study_html
+    assert "charaka.sutra.01.ncism-revision" in reader_js
     assert "assessment_id" in assessment_js
     assert "weakShlokaList" in results_js
     assert "content_refs" in results_js

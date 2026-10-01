@@ -24,7 +24,7 @@ VALUES
 ('y3-sl-18','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','18','Krishnagata Roga -2','NCISM AyUG-SL','Table 2 Paper 1','2',NULL,2,4,180),
 ('y3-sl-19','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','19','Dravyas Used In Netrachikitsa-1','NCISM AyUG-SL','Table 2 Paper 1','2',NULL,0,4,190),
 ('y3-sl-20','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','20','Eye Donation','NCISM AyUG-SL','Table 2 Paper 1','2',NULL,0,4,200),
-('y3-sl-21','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','21','Sarvagata Roga -1','NCISM AyUG-SL','2',NULL,18,5,210),
+('y3-sl-21','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','21','Sarvagata Roga -1','NCISM AyUG-SL','Table 2 Paper 1','2',NULL,18,5,210),
 ('y3-sl-22','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','22','Sarvagata Roga -2','NCISM AyUG-SL','Table 2 Paper 1','3',NULL,3,3,220),
 ('y3-sl-23','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','23','Glaucoma','NCISM AyUG-SL','Table 2 Paper 1','3',NULL,1,3,230),
 ('y3-sl-24','bams_ncism_3','2021-22','AyUG-SL','y3-sl-paper1','topic','24','Drishtigata Roga-1','NCISM AyUG-SL','Table 2 Paper 1','3',18,7,5,240),
