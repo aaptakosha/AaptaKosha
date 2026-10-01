@@ -176,7 +176,8 @@ class handler(BaseHTTPRequestHandler):
                 result = PROGRESS_API.handle(self.command, path, body, query, principal=principal)
             else:
                 result = API.handle(self.command, path, body, query, principal=principal)
-            self._reply(*PROGRESS_API.json_response(result) if path == "/progress" or path.startswith("/progress/") else API.json_response(result))
+            response = PROGRESS_API.json_response(result) if path == "/progress" or path.startswith("/progress/") else API.json_response(result)
+            self._reply(*response)
         except Exception:
             self._reply(500, json.dumps({"error": {"code": "internal_server_error"}}))
 
