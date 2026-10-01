@@ -13,7 +13,9 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 ## Repository structure
 
 - `src/aaptakosha_ingestion/` — Phase 1 ingestion and reconciliation core
-- `src/aaptakosha_core/` — Phase 2 product contracts plus Phase 3 knowledge/content contracts
+- `src/aaptakosha_core/` — domain, application, persistence, and HTTP contracts
+- `frontend/` — Phase 5 framework-neutral responsive presentation layer
+- `api/` — deployed HTTP entrypoints
 - `docs/architecture/` — architecture baselines
 - `docs/governance/` — project gates and governance
 - `docs/sources/` — authoritative source registry
@@ -21,8 +23,8 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 ## Current phase
 
-**Phase 4 — Assessment & Learner Experience**
+**Phase 6 — Durable Application API & Persistence: Complete**
 
-Phase 2 is complete. Phase 3 currently defines domain-neutral content resources, provenance, and explicit content lifecycle states above the authoritative curriculum catalog. See `docs/architecture/phase-3-knowledge-content.md`.
+Phases 0–5 are complete. Phase 6 wires the learner-facing application path to durable PostgreSQL storage for deployed environments while retaining SQLite for local development/fallback. The deployed API exposes assessment, learner-progress, and health routes through the framework-neutral application boundaries.
 
-Phase 1 remains the authoritative ingestion/reconciliation path for published curriculum. Phase 4 is currently implementing domain-neutral assessment contracts above the curriculum and content layers.
+See `docs/architecture/phase-6-durable-api-persistence.md`.
