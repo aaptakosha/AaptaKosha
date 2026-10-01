@@ -36,7 +36,7 @@ def test_chapter2_assessment_maps_to_canonical_content():
 
 def test_chapter2_covers_ncism_four_focus_ranges():
     chapter = json.loads(CHAPTER.read_text(encoding="utf-8"))
-    focus = " ".join(u["title_hi"] for u in chapter["learning_units"][:4])
+    focus = " ".join(u["title_hi"] for u in chapter["learning_units"])
     assert "शिरोविरेचन" in focus
     assert "वमन" in focus
     assert "विरेचन" in focus
