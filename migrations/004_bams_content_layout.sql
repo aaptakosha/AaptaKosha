@@ -4,31 +4,31 @@ PRAGMA foreign_keys = ON;
 -- Detailed topics/content are intentionally populated in a later content-ingestion phase.
 
 INSERT OR IGNORE INTO curricula (curriculum_id, version, professional_year) VALUES
-  ('bams_ncism', '2021-22', 1),
-  ('bams_ncism', '2021-22', 2),
-  ('bams_ncism', '2021-22', 3);
+  ('bams_ncism_1', '2021-22', 1),
+  ('bams_ncism_2', '2021-22', 2),
+  ('bams_ncism_3', '2021-22', 3);
 
 INSERT OR IGNORE INTO subjects (curriculum_id, curriculum_version, subject_id, name) VALUES
-  ('bams_ncism', '2021-22', 'AyUG-SN-AI', 'Sanskrit evam Ayurved Itihas'),
-  ('bams_ncism', '2021-22', 'AyUG-PV', 'Padartha Vijnanam'),
-  ('bams_ncism', '2021-22', 'AyUG-SA1', 'Samhita Adhyayan-1'),
-  ('bams_ncism', '2021-22', 'AyUG-RS', 'Rachana Sharira'),
-  ('bams_ncism', '2021-22', 'AyUG-KS', 'Kriya Sharira'),
-  ('bams_ncism', '2021-22', 'AyUG-RB', 'Rasashastra evam Bhaishajyakalpana'),
-  ('bams_ncism', '2021-22', 'AyUG-AT', 'Agada Tantra evam Vidhi Vaidyaka'),
-  ('bams_ncism', '2021-22', 'AyUG-SA2', 'Samhita Adhyayan-2'),
-  ('bams_ncism', '2021-22', 'AyUG-DG', 'Dravyaguna Vijnana'),
-  ('bams_ncism', '2021-22', 'AyUG-RN', 'Roga Nidan evam Vikriti Vijnana'),
-  ('bams_ncism', '2021-22', 'AyUG-SW', 'Swasthavritta evam Yoga'),
-  ('bams_ncism', '2021-22', 'AyUG-KC', 'Kayachikitsa'),
-  ('bams_ncism', '2021-22', 'AyUG-PK', 'Panchakarma & Upakarma'),
-  ('bams_ncism', '2021-22', 'AyUG-ST', 'Shalya Tantra'),
-  ('bams_ncism', '2021-22', 'AyUG-SL', 'Shalakya Tantra'),
-  ('bams_ncism', '2021-22', 'AyUG-PS', 'Prasuti Tantra evam Stree Roga'),
-  ('bams_ncism', '2021-22', 'AyUG-KB', 'Kaumarabhritya'),
-  ('bams_ncism', '2021-22', 'AyUG-SA3', 'Samhita Adhyayan-3'),
-  ('bams_ncism', '2021-22', 'AyUG-EM', 'Atyaikachikitsa / Emergency Medicine'),
-  ('bams_ncism', '2021-22', 'AyUG-RM', 'Research Methodology and Medical Statistics');
+  ('bams_ncism_1', '2021-22', 'AyUG-SN-AI', 'Sanskrit evam Ayurved Itihas'),
+  ('bams_ncism_1', '2021-22', 'AyUG-PV', 'Padartha Vijnanam'),
+  ('bams_ncism_1', '2021-22', 'AyUG-SA1', 'Samhita Adhyayan-1'),
+  ('bams_ncism_1', '2021-22', 'AyUG-RS', 'Rachana Sharira'),
+  ('bams_ncism_1', '2021-22', 'AyUG-KS', 'Kriya Sharira'),
+  ('bams_ncism_2', '2021-22', 'AyUG-RB', 'Rasashastra evam Bhaishajyakalpana'),
+  ('bams_ncism_2', '2021-22', 'AyUG-AT', 'Agada Tantra evam Vidhi Vaidyaka'),
+  ('bams_ncism_2', '2021-22', 'AyUG-SA2', 'Samhita Adhyayan-2'),
+  ('bams_ncism_2', '2021-22', 'AyUG-DG', 'Dravyaguna Vijnana'),
+  ('bams_ncism_2', '2021-22', 'AyUG-RN', 'Roga Nidan evam Vikriti Vijnana'),
+  ('bams_ncism_2', '2021-22', 'AyUG-SW', 'Swasthavritta evam Yoga'),
+  ('bams_ncism_3', '2021-22', 'AyUG-KC', 'Kayachikitsa'),
+  ('bams_ncism_3', '2021-22', 'AyUG-PK', 'Panchakarma & Upakarma'),
+  ('bams_ncism_3', '2021-22', 'AyUG-ST', 'Shalya Tantra'),
+  ('bams_ncism_3', '2021-22', 'AyUG-SL', 'Shalakya Tantra'),
+  ('bams_ncism_3', '2021-22', 'AyUG-PS', 'Prasuti Tantra evam Stree Roga'),
+  ('bams_ncism_3', '2021-22', 'AyUG-KB', 'Kaumarabhritya'),
+  ('bams_ncism_3', '2021-22', 'AyUG-SA3', 'Samhita Adhyayan-3'),
+  ('bams_ncism_3', '2021-22', 'AyUG-EM', 'Atyaikachikitsa / Emergency Medicine'),
+  ('bams_ncism_3', '2021-22', 'AyUG-RM', 'Research Methodology and Medical Statistics');
 
 CREATE TABLE IF NOT EXISTS classical_texts (
     text_id TEXT PRIMARY KEY, canonical_name TEXT NOT NULL, display_name TEXT NOT NULL,
