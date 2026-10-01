@@ -68,3 +68,11 @@ def test_backend_identity_boundary_is_authoritative():
     assert '"authentication_required"' in progress
     assert "principal.subject_id" in progress
     assert '"learner_identity_mismatch"' in progress
+
+def test_vercel_entrypoint_requires_identity_and_keeps_secret_server_side():
+    root = Path(__file__).parents[1]
+    entrypoint = (root / "api" / "assessments.py").read_text(encoding="utf-8")
+    assert "REQUIRE_IDENTITY" in entrypoint
+    assert 'os.environ.get("VERCEL")' in entrypoint
+    assert 'CLERK_SECRET_KEY' not in entrypoint.split('publishable_key =', 1)[0]
+    assert '"identity_provider_not_configured"' in entrypoint
