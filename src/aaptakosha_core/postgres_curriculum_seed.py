@@ -27,7 +27,7 @@ MIGRATIONS = tuple(
         (32,"third_professional_sa3_structure"),(33,"third_professional_source_quality_cleanup"),
         (34,"third_professional_research_methodology_topics"),(35,"third_professional_shalya_paper1_topics"),
         (36,"third_professional_kaumarabhritya_complete_paper1"),(37,"third_professional_shalakya_complete_papers"),
-        (38,"third_professional_samhita_adhyayan3_complete"),(39,"third_professional_shalya_complete_topics"),\n        (40,"third_professional_source_locator_cleanup")
+        (38,"third_professional_samhita_adhyayan3_complete"),(39,"third_professional_shalya_complete_topics"),\n        (40,"third_professional_source_locator_cleanup"),(41,"curriculum_data_quality_normalization")
     ]
 )
 

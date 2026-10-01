@@ -52,6 +52,7 @@ def _api():
         "038_third_professional_samhita_adhyayan3_complete.sql",
         "039_third_professional_shalya_complete_topics.sql",
         "040_third_professional_source_locator_cleanup.sql",
+        "041_curriculum_data_quality_normalization.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
