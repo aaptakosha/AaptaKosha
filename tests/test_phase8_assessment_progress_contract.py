@@ -40,4 +40,5 @@ def test_progress_ui_loads_authenticated_assessment_analytics():
 def test_assessment_analytics_route_requires_authenticated_learner_identity():
     source = (ROOT / "src" / "aaptakosha_core" / "assessment_http_api.py").read_text(encoding="utf-8")
     assert 'parts == ["analytics"] and method == "GET"' in source
-    assert 'learner_id or str(query["learner_id"])' in source
+    assert "analytics_learner_id = learner_id or query.get(\"learner_id\")" in source
+    assert '"authentication_required"' in source
