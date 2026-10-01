@@ -57,6 +57,11 @@ def test_practice_flow_starts_persists_submits_and_returns_results():
     assert submitted["data"]["maximum_score"] == 4
     assert submitted["data"]["percent"] == 50
     assert submitted["data"]["breakdown"][0]["is_correct"] is True
+    assert submitted["data"]["breakdown"][0]["prompt"] == "Question q1"
+    assert submitted["data"]["breakdown"][0]["options"] == [
+        {"option_id": "a", "text": "First"},
+        {"option_id": "b", "text": "Second"},
+    ]
     assert submitted["data"]["breakdown"][1]["is_correct"] is False
     assert submitted["data"]["analytics"]["submitted_attempt_count"] == 1
 
