@@ -24,6 +24,8 @@ def _api():
         "010_first_professional_paper_layout.sql",
         "011_first_professional_padartha_paper2.sql",
         "012_first_professional_rachana_paper2.sql",
+        "013_first_professional_kriya_paper2.sql",
+        "014_correct_kriya_paper2_partb.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -160,4 +162,23 @@ def test_first_professional_rachana_paper2_units_are_present():
         "Indriya Shaarira",
         "Twacha Sharir",
         "Marma Sharira",
+    ]
+def test_first_professional_kriya_paper2_structure_is_complete():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes(
+        "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks2-paper2"
+    )
+    assert result["status"] == 200
+    names = [node["name"] for node in result["data"]["nodes"]]
+    assert names[:16] == [
+        "Dhatu", "Rasa Dhatu", "Rakta Dhatu", "Mamsa Dhatu", "Meda Dhatu",
+        "Asthi Dhatu", "Majja Dhatu", "Shukra Dhatu",
+        "Concept of Ashraya-Ashrayi bhava", "Ojas", "Upadhatu",
+        "Mala", "Indriya vidnyan", "Manas", "Atma", "Nidra & Swapna"
+    ]
+    assert names[16:] == [
+        "Haemopoetic system", "Immunity",
+        "Physiology of cardio-vascular system", "Muscle physiology",
+        "Adipose tissue", "Physiology of male and female reproductive systems",
+        "Physiology of Excretion", "Special Senses, Sleep and Dreams"
     ]
