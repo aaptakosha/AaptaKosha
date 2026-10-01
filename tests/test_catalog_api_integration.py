@@ -20,6 +20,7 @@ def _api():
         "006_first_professional_hierarchy.sql",
         "007_first_professional_data_quality.sql",
         "008_third_professional_paper_layout.sql",
+        "009_second_professional_paper_layout.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -91,6 +92,23 @@ def test_third_professional_paper_layout_is_present():
     }
     for subject_id, paper_codes in expected.items():
         roots = hierarchy.list_nodes("bams_ncism_3", subject_id, "2021-22")
+        assert roots["status"] == 200
+        assert [node["code"] for node in roots["data"]["nodes"]] == paper_codes
+        assert all(node["node_type"] == "paper" for node in roots["data"]["nodes"])
+
+
+def test_second_professional_paper_layout_is_present():
+    _, hierarchy = _api()
+    expected = {
+        "AyUG-RB": ["I", "II"],
+        "AyUG-AT": ["I"],
+        "AyUG-SA2": ["I"],
+        "AyUG-DG": ["I", "II"],
+        "AyUG-RN": ["I", "II"],
+        "AyUG-SW": ["I", "II"],
+    }
+    for subject_id, paper_codes in expected.items():
+        roots = hierarchy.list_nodes("bams_ncism_2", subject_id, "2021-22")
         assert roots["status"] == 200
         assert [node["code"] for node in roots["data"]["nodes"]] == paper_codes
         assert all(node["node_type"] == "paper" for node in roots["data"]["nodes"])
