@@ -127,6 +127,16 @@ class handler(BaseHTTPRequestHandler):
             self.end_headers()
             return
 
+        if self.command == "GET" and path == "/config":
+            # The publishable key is safe to expose to the browser;
+            # the Clerk secret key is never returned here.
+            publishable_key = os.environ.get("CLERK_PUBLISHABLE_KEY", "").strip()
+            self._reply(200, json.dumps({
+                "clerk_publishable_key": publishable_key,
+                "identity_provider": "clerk" if IDENTITY_PROVIDER is not None else "unconfigured",
+            }))
+            return
+
         if self.command == "GET" and path == "/health":
             try:
                 cursor = DATABASE_CONNECTION.cursor()
