@@ -31,6 +31,9 @@ from .assessment_services import (
     AssessmentTransitionError,
 )
 from .api import CatalogApi
+from .curriculum_hierarchy import CurriculumHierarchyRepository
+from .curriculum_hierarchy_services import CurriculumHierarchyNotFoundError, CurriculumHierarchyService
+from .curriculum_hierarchy_api import CurriculumHierarchyApi
 from .learning_api import LearningCatalogApi
 from .auth import (
     AuthorizationDeniedError,
@@ -89,7 +92,7 @@ __all__ = [
     "ContentSearchIndex", "ContentSearchResult", "InMemoryContentSearchIndex",
     "ContentProvenance", "ContentResource", "ContentRepository", "SQLiteContentRepository",
     "AuthorizationService", "CATALOG_ADMIN", "CATALOG_READ", "CatalogApi", "LearningCatalogApi", "DRAFT",
-    "CatalogNotFoundError", "CatalogRepository", "CatalogService", "AutomationRule",
+    "CatalogNotFoundError", "CatalogRepository", "CatalogService", "CurriculumHierarchyApi", "CurriculumHierarchyNotFoundError", "CurriculumHierarchyRepository", "CurriculumHierarchyService", "AutomationRule",
     "COMPLETED", "IN_PROGRESS", "NOT_STARTED", "Curriculum", "CurriculumNode", "LearningProgress",
     "LearningProgressRepository", "LearningProgressService", "Notification",
     "NotificationDispatcher", "NotificationRepository", "NotificationSender",
