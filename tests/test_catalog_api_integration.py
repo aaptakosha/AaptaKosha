@@ -1,0 +1,65 @@
+from pathlib import Path
+import sqlite3
+
+from aaptakosha_core.api import CatalogApi
+from aaptakosha_core.curriculum_hierarchy_api import CurriculumHierarchyApi
+from aaptakosha_core.curriculum_hierarchy_services import CurriculumHierarchyService
+from aaptakosha_core.services import CatalogService
+from aaptakosha_core.sqlite_repository import SQLiteCatalogRepository
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def _api():
+    connection = sqlite3.connect(":memory:")
+    repo = SQLiteCatalogRepository(connection)
+    for name in ("001_catalog.sql", "004_bams_content_layout.sql", "005_curriculum_hierarchy.sql"):
+        repo.apply_migrations(ROOT / "migrations" / name)
+    return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
+        CurriculumHierarchyService(repo)
+    )
+
+
+def test_real_catalog_contains_all_three_professional_years():
+    catalog, _ = _api()
+
+    for curriculum_id, year in (
+        ("bams_ncism_1", 1),
+        ("bams_ncism_2", 2),
+        ("bams_ncism_3", 3),
+    ):
+        result = catalog.get_curriculum(curriculum_id, "2021-22")
+        assert result["status"] == 200
+        assert result["data"]["professional_year"] == year
+        assert result["data"]["subjects"]
+
+
+def test_real_hierarchy_returns_nested_nodes():
+    _, hierarchy = _api()
+
+    roots = hierarchy.list_nodes("bams_ncism_2", "AyUG-DG", "2021-22")
+    assert roots["status"] == 200
+    assert roots["data"]["nodes"][0]["node_type"] == "paper"
+
+    children = hierarchy.list_nodes(
+        "bams_ncism_2",
+        "AyUG-DG",
+        "2021-22",
+        roots["data"]["nodes"][0]["node_id"],
+    )
+    assert children["status"] == 200
+    assert [node["name"] for node in children["data"]["nodes"]] == [
+        "Dravyaguna Vigyana",
+        "Dravya",
+        "Guna",
+        "Rasa",
+    ]
+
+
+def test_real_hierarchy_rejects_unknown_node():
+    _, hierarchy = _api()
+    result = hierarchy.get_node(
+        "does-not-exist", "bams_ncism_2", "2021-22"
+    )
+    assert result["status"] == 404
