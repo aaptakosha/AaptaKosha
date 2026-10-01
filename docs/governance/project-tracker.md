@@ -20,7 +20,7 @@ Last updated: 2026-10-01
 - [x] Assessment/practice journey integration
 - [x] Shared loading/error/empty states and navigation consistency
 - [ ] Integration tests and browser verification
-- [ ] Production deployment verification
+- [x] Production deployment verification
 
 ### Latest Phase 8 work
 - Added provider-neutral frontend session bootstrap.
@@ -29,7 +29,7 @@ Last updated: 2026-10-01
 - Kept local/demo fallback behavior when no production API base is configured.
 - Kept authorization decisions at the API boundary rather than in UI code.
 - Production deployments for the integration commits are being generated; final Phase 8 verification remains open.
-- Added shared UI state helpers for loading, error, and empty-state messaging.\n- Normalized learner navigation to real page routes across dashboard, learning, practice, assessment, progress, and notes surfaces.\n- Added Phase 8 frontend contract tests and expanded CI path coverage to run them.\n- Browser verification and production deployment verification remain open.
+- Added shared UI state helpers for loading, error, and empty-state messaging.\n- Normalized learner navigation to real page routes across dashboard, learning, practice, assessment, progress, and notes surfaces.\n- Added Phase 8 frontend contract tests and expanded CI path coverage to run them.\n- Production deployment verification completed against the latest READY production deployment; Vercel reported no runtime errors in the last 24 hours. Browser verification remains open because several learner routes require Vercel Authentication.
 
 ### Phase 7 completion evidence
 - Production identity adapter, authenticated principal propagation, learner-resource authorization, CORS/error handling, configuration/readiness validation, security-focused tests, and deployment verification are complete.
