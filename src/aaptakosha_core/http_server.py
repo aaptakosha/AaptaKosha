@@ -98,7 +98,14 @@ class AaptaKoshaRequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
     def log_message(self, format, *args): return
 
-def serve(\n    api: AssessmentHttpApi,\n    host="127.0.0.1",\n    port=8787,\n    *,\n    catalog: CatalogApi | None = None,\n    hierarchy: CurriculumHierarchyApi | None = None,\n):
+def serve(
+    api: AssessmentHttpApi,
+    host="127.0.0.1",
+    port=8787,
+    *,
+    catalog: CatalogApi | None = None,
+    hierarchy: CurriculumHierarchyApi | None = None,
+):
     routed_api = AaptaKoshaHttpApi(api, catalog, hierarchy) if catalog is not None or hierarchy is not None else api\n    handler=type("ConfiguredAaptaKoshaHandler",(AaptaKoshaRequestHandler,),{"api":routed_api})
     server=ThreadingHTTPServer((host,port),handler)
     server.serve_forever()
