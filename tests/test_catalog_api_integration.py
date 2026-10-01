@@ -23,6 +23,7 @@ def _api():
         "009_second_professional_paper_layout.sql",
         "010_first_professional_paper_layout.sql",
         "011_first_professional_padartha_paper2.sql",
+        "012_first_professional_rachana_paper2.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -142,4 +143,21 @@ def test_first_professional_padartha_paper2_units_are_present():
         "Yukti Pariksha/Pramana",
         "Upamana Pramana",
         "Karya-Karana Siddhanta",
+    ]
+def test_first_professional_rachana_paper2_units_are_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes(
+        "bams_ncism_1", "AyUG-RS", "2021-22", "y1-rs-paper2"
+    )
+    assert result["status"] == 200
+    assert [node["name"] for node in result["data"]["nodes"]] == [
+        "Pramana Sharira",
+        "Koshtha Evam Ashaya Sharira",
+        "Sira Sharir",
+        "Dhamani Sharir",
+        "Strotas Shaarira",
+        "Kala Shaarira",
+        "Indriya Shaarira",
+        "Twacha Sharir",
+        "Marma Sharira",
     ]
