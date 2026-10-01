@@ -71,6 +71,16 @@ def test_backend_identity_boundary_is_authoritative():
     assert "principal.subject_id" in progress
     assert '"learner_identity_mismatch"' in progress
 
+def test_results_refresh_prefers_authenticated_live_result_and_surfaces_failures():
+    js = read("assessment-results.js")
+    html = read("assessment-results.html")
+    assert "window.AaptaKoshaSessionReady" in js
+    assert "authenticated || !r" in js
+    assert "const live = await api.result(id)" in js
+    assert 'window.AaptaKoshaUi?.status' in js
+    assert 'src="./ui-state.js"' in html
+    assert 'data-ui-state' in html
+
 def test_vercel_entrypoint_requires_identity_and_keeps_secret_server_side():
     root = Path(__file__).parents[1]
     entrypoint = (root / "api" / "assessments.py").read_text(encoding="utf-8")
