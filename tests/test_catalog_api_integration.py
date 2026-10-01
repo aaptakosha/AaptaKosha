@@ -26,6 +26,8 @@ def _api():
         "012_first_professional_rachana_paper2.sql",
         "013_first_professional_kriya_paper2.sql",
         "014_correct_kriya_paper2_partb.sql",
+        "015_first_professional_padartha_samhita_layout.sql",
+        "016_first_professional_sanskrit_history_paper2.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -210,3 +212,41 @@ def test_first_professional_subjects_have_paper_roots():
             if node["node_type"] == "paper"
         ]
         assert roots == papers
+
+
+def test_first_professional_samhita_advisory_structure_is_complete():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes(
+        "bams_ncism_1", "AyUG-SA1", "2021-22", "y1-sa1-paper1"
+    )
+    assert result["status"] == 200
+    assert [node["name"] for node in result["data"]["nodes"]] == [
+        "Introduction to Samhita",
+        "AH Su.1 Ayushkamiya Adhyaya",
+        "AH Su.2 Dinacharya Adhyaya",
+        "AH Su.3 Rutucarya Adhyaya",
+        "AH Su.4 Roganutpadaniya Adhyaya",
+        "AH Su.5 Dravadravya Vijnaniya Adhyaya",
+        "AH Su.6 Annaswaroopa Vijnaneeya Adhyaya",
+        "AH Su.7 Annaraksha Adhyaya",
+        "AH Su.8 Matrashitiya Adhyaya",
+        "AH Su.9 Dravyaadi Vijnaniya Adhyaya",
+        "AH Su.10 Rasabhediya Adhyaya",
+        "AH Su.11 Doshadi Vijnaniya Adhyaya",
+        "AH Su.12 Doshabhediya Adhyaya",
+        "AH Su.13 Doshopakramaniya Adhyaya",
+        "AH Su.14 Dvividhopakramaniya Adhyaya",
+        "AH Su.15 Shodhanadigana Sangraha Adhyaya",
+        "Ch Su.1 Deerghanjiviteeya Adhyaya",
+        "Ch Su.2 Apamarga Tanduliya Adhyaya",
+        "Ch Su.3 Aragvadhiya Adhyaya",
+        "Ch Su.4 Shadvirechana-shatashritiya Adhyaya",
+        "Ch Su.5 Matrashiteeya Adhyaya",
+        "Ch Su.6 Tasyashiteeya Adhyaya",
+        "Ch Su.7 Naveganadharaniya Adhyaya",
+        "Ch Su.8 Indriyopakramaniya Adhyaya",
+        "Ch Su.9 Khuddakachatushpada Adhyaya",
+        "Ch Su.10 Mahachatushpada Adhyaya",
+        "Ch Su.11 Tisraishaniya Adhyaya",
+        "Ch Su.12 Vatakalakaliya Adhyaya",
+    ]
