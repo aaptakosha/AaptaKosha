@@ -8,11 +8,17 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from types import MappingProxyType
-from typing import Mapping, Tuple
+from typing import Any, Mapping, Protocol, Tuple
 
 
 CATALOG_READ = "catalog:read"
 CATALOG_ADMIN = "catalog:admin"
+
+
+class IdentityProvider(Protocol):
+    """Resolve a request into an already-authenticated principal."""
+
+    def resolve(self, request: Any) -> Principal | None: ...
 
 
 @dataclass(frozen=True)
@@ -71,6 +77,7 @@ class AuthorizationService:
 
 
 __all__ = [
+    "IdentityProvider",
     "AuthorizationDeniedError",
     "AuthorizationService",
     "CATALOG_ADMIN",
