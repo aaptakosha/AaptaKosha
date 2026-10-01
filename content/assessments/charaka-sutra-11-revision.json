@@ -1,0 +1,613 @@
+{
+  "assessment_id": "charaka.sutra.11.revision",
+  "title_hi": "चरक सूत्रस्थान अध्याय 11 — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "q1",
+      "prompt_hi": "तिस्रैषणाओं में कौन-से तीन आयाम आते हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "प्राणैषणा, धनैषणा, परलोकैषणा",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "वात, पित्त, कफ",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "शाखा, कोष्ठ, मध्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "आहार, निद्रा, ब्रह्मचर्य",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.003"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "prompt_hi": "प्राणैषणा को पहले रखने का मुख्य कारण क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "प्राण-त्याग में अन्य त्याग भी निहित है",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "धन के बिना जीवन असंभव है",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "पुनर्भव प्रमाणित है",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "रोगमार्ग तीन हैं",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.004"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "prompt_hi": "धनैषणा में किन प्रकार के सत्कर्मों से आजीविका/पोषण का विचार जुड़ा है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "कृषि, पशुपालन, वाणिज्य आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल युद्ध",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल तपस्या",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.005"
+      ]
+    },
+    {
+      "question_id": "q4",
+      "prompt_hi": "परलोकैषणा के संदर्भ में मुख्य प्रश्न क्या उठाया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "पुनर्भव है या नहीं",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "रोगमार्ग कितने हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "बल कितने प्रकार का है",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "भिषक कितने प्रकार का है",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.006"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "prompt_hi": "चतुर्विध परीक्षा में कौन-सा समूह है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "आप्तोपदेश, प्रत्यक्ष, अनुमान, युक्ति",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "वात, पित्त, कफ, रस",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "आहार, स्वप्न, ब्रह्मचर्य, बल",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "भिषक, औषध, रोगी, परिचारक",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.017"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "prompt_hi": "प्रत्यक्ष ज्ञान के लिए किनका सन्निकर्ष बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "आत्मा, इन्द्रिय, मन और अर्थ",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल मन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल इन्द्रिय",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल आत्मा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.020"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "prompt_hi": "युक्ति का उदाहरण किससे दिया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "षड्धातु-संयोग से गर्भसम्भव",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल धूम से अग्नि",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल शब्द से रोग",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल निद्रा से बल",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.023"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "prompt_hi": "तीन उपस्तम्भ कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "आहार, स्वप्न, ब्रह्मचर्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "वात, पित्त, कफ",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "शाखा, मध्य, कोष्ठ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "दैव, युक्ति, सत्त्वावजय",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.035"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "prompt_hi": "त्रिविध बल में कौन-से प्रकार बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "सहज, कालज, युक्तिकृत",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "बाह्य, मध्य, आभ्यन्तर",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "सुखसाध्य, कृच्छ्रसाध्य, याप्य",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.036"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt_hi": "तीन आयतन किसके अतियोग, अयोग और मिथ्यायोग से जुड़े हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "अर्थ, कर्म और काल",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "आहार, स्वप्न और ब्रह्मचर्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "भिषक, औषध और रोगी",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "शाखा, कोष्ठ और मर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.037",
+        "charaka.sutra.11.042"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt_hi": "प्रज्ञापराध को किन तीन विकल्पों के साथ कारणरूप में रखा गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "असात्म्येन्द्रियार्थसंयोग, प्रज्ञापराध, परिणाम",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "आहार, निद्रा, ब्रह्मचर्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "सहज, कालज, युक्तिकृत",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.043"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt_hi": "त्रिविध रोग कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "सुखसाध्य, कृच्छ्रसाध्य, याप्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "शाखा, मध्य, कोष्ठ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "दैव, युक्ति, सत्त्वावजय",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.045"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt_hi": "त्रिविध रोगमार्ग कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "शाखा, मर्मास्थिसन्धि, कोष्ठ",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "आहार, स्वप्न, ब्रह्मचर्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "आप्त, प्रत्यक्ष, अनुमान",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.048"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt_hi": "त्रिविध भिषक में कौन-सा विभाजन है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "भिषक्छद्मचर, सिद्धसाधित, वैद्यगुणयुक्त",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "सहज, कालज, युक्तिकृत",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "दैव, युक्ति, सत्त्वावजय",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.050"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt_hi": "जीविताभिसर वैद्य किस विशेषता से जुड़े हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "प्रयोग, ज्ञान, विज्ञान और सिद्धि से सम्पन्न",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल बाहरी उपकरणों से",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल प्रसिद्धि से",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल ग्रन्थों के नाम से",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.053"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt_hi": "त्रिविध औषध में कौन-सा वर्गीकरण है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दैवव्यपाश्रय, युक्तिव्यपाश्रय, सत्त्वावजय",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "आहार, स्वप्न, ब्रह्मचर्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "शाखा, मध्य, कोष्ठ",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.054"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt_hi": "मानसिक चिकित्सा में सत्त्वावजय का मूल आशय क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "अहित विषयों से मन का निग्रह",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल शस्त्रकर्म",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल आहार बढ़ाना",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल निद्रा बढ़ाना",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.054"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt_hi": "रोग की आरम्भिक अवस्था के बारे में क्या चेतावनी दी गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "रोग आरम्भ में सूक्ष्म होकर बाद में बढ़ सकता है",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "हर रोग तुरंत समाप्त हो जाता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "रोग केवल वृद्धों में होता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "रोग का परीक्षण आवश्यक नहीं",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.057",
+        "charaka.sutra.11.058"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt_hi": "चिकित्सकीय प्रयत्न कब करने की सलाह दी गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "रोगों से पहले या रोग के आरम्भिक चरण में",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल अन्तिम अवस्था में",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल स्वस्थ व्यक्ति में",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "कभी नहीं",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.063"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt_hi": "अध्याय-सार में कितने त्रिविध वर्गों का समाहार बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "आठ",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "चार",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "दस",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.11.064",
+        "charaka.sutra.11.065"
+      ]
+    }
+  ]
+}
