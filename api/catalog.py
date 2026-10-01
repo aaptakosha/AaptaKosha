@@ -36,6 +36,7 @@ REPO.apply_migrations(ROOT / "migrations" / "013_first_professional_kriya_paper2
 REPO.apply_migrations(ROOT / "migrations" / "014_correct_kriya_paper2_partb.sql")
 REPO.apply_migrations(ROOT / "migrations" / "015_first_professional_padartha_samhita_layout.sql")
 REPO.apply_migrations(ROOT / "migrations" / "016_first_professional_sanskrit_history_paper2.sql")
+        "017_second_professional_samhita_layout.sql",
 
 CATALOG_API = CatalogApi(CatalogService(REPO))
 HIERARCHY_API = CurriculumHierarchyApi(CurriculumHierarchyService(REPO))
