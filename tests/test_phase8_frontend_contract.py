@@ -42,3 +42,14 @@ def test_clerk_session_bootstrap_uses_safe_config_and_sdk():
     assert 'CLERK_PUBLISHABLE_KEY' in api
     assert 'CLERK_SECRET_KEY' not in session
     assert 'clerk_publishable_key' in api
+
+
+def test_authenticated_flows_do_not_accept_browser_selected_learner_ids():
+    flow = read("assessment-flow.js")
+    progress = read("progress.js")
+    session = read("session.js")
+    assert "AAPTAKOSHA_LEARNER_ID" not in flow
+    assert 'requestLearnerPayload()' in flow
+    assert '"/progress"' in progress
+    assert '"/progress?subject_id=' not in progress
+    assert 'subjectId: clerk.user ? clerk.user.id : null' in session
