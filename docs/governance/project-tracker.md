@@ -11,7 +11,7 @@ Last updated: 2026-10-01
 | Phase 4 | Assessment & learner experience | Complete | docs/architecture/phase-4-assessment-learner-experience.md |
 | Phase 5 | UI/UX presentation layer | Complete | docs/architecture/phase-5-ui.md |
 | Phase 6 | Durable application API & persistence | Complete | docs/architecture/phase-6-durable-api-persistence.md |
-| Phase 7 | Production identity, security & operations | In progress | docs/architecture/phase-7-production-identity-security-operations.md |
+| Phase 7 | Production identity, security & operations | Complete | docs/architecture/phase-7-production-identity-security-operations.md |
 
 ## Phase 7 checklist
 - [x] Production identity adapter
@@ -19,7 +19,7 @@ Last updated: 2026-10-01
 - [x] Learner-resource authorization enforcement
 - [x] Production CORS and secure error handling
 - [x] Configuration/readiness validation
-- [ ] Security-focused tests and CI
+- [x] Security-focused tests and CI
 - [x] Deployment verification
 
 ### Latest Phase 7 work
@@ -30,7 +30,8 @@ Last updated: 2026-10-01
 - Fixed progress-route parsing before ownership checks and added malformed-payload/security-path coverage.
 - Updated product CI so `api/**` changes trigger the Phase 2–7 test workflow.
 - Verified production deployment `dpl_Aybz47q3TB2GkEY1u9BdgjhMTYjw` is READY for commit `f157d0cf7da6acbd42a64b6ff6cf1a68b13a2bc8`; GitHub's Vercel status is successful.
-- The direct main-branch GitHub Actions run is not exposed by the current connector, so the security-focused CI gate remains open until an actual successful Actions run is observable.
+- Verified GitHub Actions product workflow run #122 completed successfully on Python 3.11 and 3.12 through PR #28.
+- Removed the temporary CI verification artifact after the successful gate.
 - Production requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
 
 Tracker rule: update this file whenever a phase gate changes state.
