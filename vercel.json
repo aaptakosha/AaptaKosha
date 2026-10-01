@@ -1,5 +1,6 @@
 {
-  "outputDirectory": "frontend",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "rm -rf public && mkdir -p public && cp -R frontend/. public/",
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/assessments.py?route=:path*" }
   ]
