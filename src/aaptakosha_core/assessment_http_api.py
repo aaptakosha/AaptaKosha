@@ -25,7 +25,10 @@ class AssessmentHttpApi:
             return {"status": 403, "error": {"code": "learner_identity_mismatch"}}
         parts = [p for p in path.strip("/").split("/") if p]
         if parts == ["analytics"] and method == "GET":
-            return self.api.learner_analytics(learner_id or str(query["learner_id"]))
+            analytics_learner_id = learner_id or query.get("learner_id")
+            if not analytics_learner_id:
+                return {"status": 401, "error": {"code": "authentication_required"}}
+            return self.api.learner_analytics(str(analytics_learner_id))
         if parts[:1] == ["assessments"] and len(parts) == 1 and method == "GET":
             return self.api.list_assessments(query.get("curriculum_ref"))
         if len(parts) == 3 and parts[0] == "assessments" and parts[2] == "attempts" and method == "POST":
