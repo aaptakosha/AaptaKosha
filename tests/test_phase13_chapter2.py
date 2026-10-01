@@ -28,14 +28,16 @@ def test_chapter2_assessment_maps_to_canonical_content():
     refs = {v["verse_id"] for v in chapter["verses"]}
     assert bank["assessment_id"] == "charaka.sutra.02.revision"
     assert len(bank["questions"]) == 12
-    assert all(ref in refs for q in bank["questions"] for ref in q["content_refs"])
+    unit_refs = {f"charaka.sutra.02.unit-{i:02d}" for i in range(1, len(chapter["learning_units"]) + 1)}
+    assert all(q["content_refs"][0] in refs for q in bank["questions"])
+    assert all(q["content_refs"][1] in unit_refs for q in bank["questions"])
     assert {q["question_id"] for q in bank["questions"]} == {f"charaka.sutra.02.q{i:02d}" for i in range(1, 13)}
 
 
 def test_chapter2_covers_ncism_four_focus_ranges():
-    bank = json.loads(BANK.read_text(encoding="utf-8"))
-    joined = " ".join(q["prompt"] for q in bank["questions"])
-    assert "शिरोविरेचन" in joined
-    assert "वमन" in joined
-    assert "विरेचन" in joined
-    assert "आस्थापन" in joined
+    chapter = json.loads(CHAPTER.read_text(encoding="utf-8"))
+    focus = " ".join(u["title_hi"] for u in chapter["learning_units"][:4])
+    assert "शिरोविरेचन" in focus
+    assert "वमन" in focus
+    assert "विरेचन" in focus
+    assert "आस्थापन" in focus
