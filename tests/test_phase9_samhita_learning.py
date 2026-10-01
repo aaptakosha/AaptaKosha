@@ -18,7 +18,7 @@ def test_samhita_reader_is_connected_to_canonical_content_and_progress():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     js = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
     assert 'path == "/content/samhita"' in api
-    assert 'chapter_no not in {1, 2, 3, 4, 5}' in api
+    assert 'chapter_no not in {1, 2, 3, 4, 5, 6}' in api
     assert 'api("/api/progress")' in js
     assert 'saveProgress("samhita_unit"' in js
     assert 'saveProgress("samhita_recitation"' in js
