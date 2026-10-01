@@ -44,7 +44,7 @@ Last updated: 2026-10-01
 - [ ] Production CORS and secure error handling
 - [ ] Configuration/readiness validation
 - [ ] Security-focused tests and CI
-- [ ] Deployment verification
+- [x] Deployment verification
 
 ### Latest Phase 7 work
 - Added a replaceable Clerk identity adapter using verified session tokens and explicit authorized-party validation.
@@ -52,7 +52,9 @@ Last updated: 2026-10-01
 - Removed wildcard CORS behavior; production can allow one explicit frontend origin through `AAPTOKOSHA_ALLOWED_ORIGIN`.
 - Vercel deployments fail closed when identity is required but no Clerk credentials are configured.
 - Added focused Clerk adapter tests and kept Phase 7 tests in the product CI matrix.
-- Deployment verification is still pending; production requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
+- Verified the repaired production deployment is READY and its Vercel status is successful for commit `5172a10e8dc9a16983ea0af7fffad9736fd4c31d`.
+- Updated product CI so changes under `api/**` trigger the Phase 2–7 test workflow.
+- Production still requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
 
 ## Earlier completed phases
 
