@@ -16,6 +16,7 @@ from .assessment_repository import (
     AssessmentRepository,
     SQLiteAssessmentRepository,
 )
+from .postgres_repository import PostgresAssessmentRepository, PostgresProgressRepository
 from .assessment_api import AssessmentApi
 from .assessment_http_api import AssessmentHttpApi
 from .http_server import AaptaKoshaRequestHandler, serve
@@ -78,6 +79,7 @@ __all__ = [
     "AssessmentQuestion", "ASSESSMENT_DRAFT", "ATTEMPT_IN_PROGRESS",
     "ASSESSMENT_PUBLISHED", "QuestionOption", "SUBMITTED", "score_attempt",
     "AssessmentAttemptRepository", "AssessmentRepository", "SQLiteAssessmentRepository",
+    "PostgresAssessmentRepository", "PostgresProgressRepository",
     "AssessmentApi", "AssessmentHttpApi", "AssessmentLearningApi", "AaptaKoshaRequestHandler", "serve", "AssessmentAnalytics", "AssessmentAnalyticsService", "AssessmentProgressService", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
     "AssessmentNotFoundError", "AssessmentService", "AssessmentTransitionError",
     "AuthorizationDeniedError", "ContentNotFoundError", "ContentService",
