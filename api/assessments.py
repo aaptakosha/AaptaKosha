@@ -228,6 +228,19 @@ def _seed_samhita_chapter9_assessment(service: AssessmentService, repo) -> None:
     service.create(assessment)
     service.publish(assessment_id)
 
+
+def _seed_samhita_chapter10_assessment(service: AssessmentService, repo) -> None:
+    assessment_id = "charaka.sutra.10.revision"
+    if repo.get(assessment_id) is not None:
+        return
+    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-10-revision.json")
+    with open(path, encoding="utf-8") as fh:
+        payload = json.load(fh)
+    questions = [AssessmentQuestion(item["question_id"], item["prompt_hi"], tuple(QuestionOption(o["option_id"], o["label_hi"], o["is_correct"]) for o in item["options"]), points=1, content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
+    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
+    service.create(assessment)
+    service.publish(assessment_id)
+
 def build_api():
     global DATABASE_BACKEND, DATABASE_CONNECTION
     database_url = os.environ.get("DATABASE_URL")
@@ -251,6 +264,7 @@ def build_api():
     _seed_samhita_chapter7_assessment(service, repo)
     _seed_samhita_chapter8_assessment(service, repo)
     _seed_samhita_chapter9_assessment(service, repo)
+    _seed_samhita_chapter10_assessment(service, repo)
     _seed_samhita_ncism_assessment(service, repo)
     _seed_samhita_chapter2_assessment(service, repo)
     _seed_samhita_chapter3_assessment(service, repo)

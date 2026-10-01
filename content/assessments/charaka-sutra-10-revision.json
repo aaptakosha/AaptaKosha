@@ -1,0 +1,610 @@
+{
+  "assessment_id": "charaka.sutra.10.revision",
+  "title_hi": "महाचतुष्पाद अध्याय — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "charaka.sutra.10.q01",
+      "prompt_hi": "महाचतुष्पाद अध्याय में भेषज को कितनी कलाओं वाला कहा गया है?",
+      "content_refs": [
+        "charaka.sutra.10.003"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "षोडश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "चार",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "आठ",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "बारह",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q02",
+      "prompt_hi": "मैत्रेय के मत का मुख्य प्रश्न क्या है?",
+      "content_refs": [
+        "charaka.sutra.10.004"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "क्या भेषज अकेले ही परिणाम सुनिश्चित करता है?",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "क्या रोगी की आवश्यकता है?",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "क्या ऋतु बदलती है?",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "क्या आहार आवश्यक है?",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q03",
+      "prompt_hi": "आत्रेय के अनुसार भेषज की उपयोगिता किस पर निर्भर करती है?",
+      "content_refs": [
+        "charaka.sutra.10.005"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "रोग-साध्यता, उचित परीक्षण और योग्य चिकित्सक के प्रयोग पर",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल औषधि की मात्रा पर",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल रोगी की आयु पर",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल परिचारक पर",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q04",
+      "prompt_hi": "चिकित्सा में किसे प्रत्यक्ष उदाहरण के रूप में बताया गया है?",
+      "content_refs": [
+        "charaka.sutra.10.006"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "विपरीत अवस्था को उपयुक्त उपाय से प्रकृति में स्थापित करना",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "हर रोग में एक ही औषधि देना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "रोगी को बिना परीक्षण उपचार देना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल उपवास करना",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q05",
+      "prompt_hi": "चिकित्सक को कर्म कब आरम्भ करना चाहिए?",
+      "content_refs": [
+        "charaka.sutra.10.007"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "साध्य-असाध्य का ज्ञान करके उचित समय पर",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "बिना परीक्षा के तुरंत",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल रोगी के आग्रह पर",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल रात में",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q06",
+      "prompt_hi": "असाध्य रोग का अनुचित उपचार करने पर क्या हानि बताई गई है?",
+      "content_refs": [
+        "charaka.sutra.10.008"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अर्थ, विद्या और यश की हानि तथा उपक्रोश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल निद्रा की कमी",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल भूख",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल बलवृद्धि",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q07",
+      "prompt_hi": "रोगों की साध्यता के कितने मुख्य प्रकार बताए गए हैं?",
+      "content_refs": [
+        "charaka.sutra.10.009"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "सुखसाध्य, कृच्छ्रसाध्य, याप्य और अनुपक्रम",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "पाँच",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "छः",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q08",
+      "prompt_hi": "साध्य रोगों में किस प्रकार का विकल्प बताया गया है?",
+      "content_refs": [
+        "charaka.sutra.10.010"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अल्प, मध्यम और उत्कृष्ट",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल अल्प",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल उत्कृष्ट",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "कोई नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q09",
+      "prompt_hi": "सुखसाध्य रोग का एक अनुकूल लक्षण कौन-सा है?",
+      "content_refs": [
+        "charaka.sutra.10.011"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अल्प हेतु/पूर्वरूप और अनुकूल दोष-दूष्य सम्बन्ध",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "बहुधातुगामिता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "दीर्घकालिकता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अनेक उपद्रव",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q10",
+      "prompt_hi": "सुखसाध्य रोग के लक्षणों में क्या शामिल है?",
+      "content_refs": [
+        "charaka.sutra.10.013"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "एक दोष, सर्वौषधक्षम देह और चतुष्पादोपपत्ति",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "त्रिदोषजता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "सर्वमार्गानुसारिता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "दीर्घकालिकता",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q11",
+      "prompt_hi": "कृच्छ्रसाध्य रोग में कौन-सा तत्व वर्णित है?",
+      "content_refs": [
+        "charaka.sutra.10.014"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "मध्यम बल और कारण/पूर्वरूप की अधिक जटिलता",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "एकदम सरल रोग",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल एक दोष",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "कोई उपद्रव नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q12",
+      "prompt_hi": "गर्भिणी, वृद्ध और बालक किस रोग-विभाग के संदर्भ में आते हैं?",
+      "content_refs": [
+        "charaka.sutra.10.015"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "कृच्छ्रसाध्य के लक्षणों में",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल सुखसाध्य में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल याप्य में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल अनुपक्रम में",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q13",
+      "prompt_hi": "द्विदोषज रोग किस श्रेणी से सम्बद्ध बताया गया है?",
+      "content_refs": [
+        "charaka.sutra.10.016"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "कृच्छ्रसाध्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सुखसाध्य ही",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल अनुपक्रम",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "किसी से नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q14",
+      "prompt_hi": "याप्य रोग का मुख्य संकेत क्या है?",
+      "content_refs": [
+        "charaka.sutra.10.017"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "आयु का शेष रहते पथ्य से अल्प सुख मिलना और पुनः प्रवृत्ति होना",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "एकदम शीघ्र पूर्ण आरोग्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल एक दोष",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "कोई लक्षण नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q15",
+      "prompt_hi": "गंभीर, बहुधातुस्थ और मर्म-सन्धि-आश्रित रोग किस ओर संकेत करते हैं?",
+      "content_refs": [
+        "charaka.sutra.10.018"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "गंभीर/कठिन रोगावस्था",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सुखसाध्यता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल स्वास्थ्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "साधारण लक्षण",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q16",
+      "prompt_hi": "त्रिदोषज, क्रियापथातिक्रान्त और सर्वमार्गानुसारि रोग किस श्रेणी से जुड़े हैं?",
+      "content_refs": [
+        "charaka.sutra.10.019"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "प्रत्याख्येय",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सुखसाध्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल कृच्छ्रसाध्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "साध्य",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q17",
+      "prompt_hi": "इन्द्रियनाशन और दुर्बल व्यक्ति में अत्यधिक विकसित रोग किसका संकेत है?",
+      "content_refs": [
+        "charaka.sutra.10.020"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "सारिष्ट रोगावस्था",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सुखसाध्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "सामान्य स्वास्थ्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल याप्य",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q18",
+      "prompt_hi": "चिकित्सक को रोग की स्वलक्षण परीक्षा कब करनी चाहिए?",
+      "content_refs": [
+        "charaka.sutra.10.021"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "कर्म आरम्भ करने से पहले",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "कर्म के बाद",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल रोगी के जाने के बाद",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "कभी नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q19",
+      "prompt_hi": "अध्याय में आत्रेय और मैत्रेय के मत किससे सम्बद्ध हैं?",
+      "content_refs": [
+        "charaka.sutra.10.022"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "भेषज और रोग-साध्यता के विचार से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल ऋतु से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल आहार से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल व्यायाम से",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.10.q20",
+      "prompt_hi": "अध्याय के श्लोक-सार में कौन-सा समूह आता है?",
+      "content_refs": [
+        "charaka.sutra.10.023"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "औषध, पादगुण, भेषजाश्रय और मतिद्वैविध्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल धूमपान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल नस्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल दन्तधावन",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 10 के मूल पाठ और NCISM-अनुकूल अध्ययन-विषय से सम्बद्ध है।"
+    }
+  ]
+}
