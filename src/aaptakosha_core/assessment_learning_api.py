@@ -198,6 +198,7 @@ class AssessmentLearningApi:
                 "is_correct": set(selected) == set(correct),
                 "points": question.points if set(selected) == set(correct) else 0,
                 "maximum_points": question.points,
+                "content_refs": list(question.content_refs),
             })
         analytics = AssessmentAnalyticsService(
             self.service.assessment_repository,
