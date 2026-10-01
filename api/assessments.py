@@ -15,7 +15,10 @@ from aaptakosha_core.assessment_http_api import AssessmentHttpApi
 from aaptakosha_core.assessment_learning_api import AssessmentLearningApi
 from aaptakosha_core.assessment_repository import SQLiteAssessmentRepository
 from aaptakosha_core.assessment_services import AssessmentService
-from aaptakosha_core.postgres_repository import PostgresAssessmentRepository
+from aaptakosha_core.postgres_repository import PostgresAssessmentRepository, PostgresProgressRepository
+from aaptakosha_core.progress import LearningProgressService
+from aaptakosha_core.progress_http_api import ProgressHttpApi
+from aaptakosha_core.progress_repository import SQLiteProgressRepository
 
 DB_PATH = os.path.join("/tmp", "aaptakosha-assessment.sqlite3")
 DATABASE_BACKEND = "sqlite"
@@ -78,12 +81,14 @@ def build_api():
         repo = SQLiteAssessmentRepository(conn)
 
     repo.apply_migrations()
+    progress_repo = PostgresProgressRepository(conn) if database_url else SQLiteProgressRepository(conn)
+    progress_repo.apply_migrations()
     service = AssessmentService(repo, repo)
     _seed_demo(service, repo)
-    return AssessmentHttpApi(AssessmentLearningApi(service))
+    return AssessmentHttpApi(AssessmentLearningApi(service)), ProgressHttpApi(LearningProgressService(progress_repo))
 
 
-API = build_api()
+API, PROGRESS_API = build_api()
 
 
 class handler(BaseHTTPRequestHandler):
@@ -133,6 +138,11 @@ class handler(BaseHTTPRequestHandler):
             except (json.JSONDecodeError, UnicodeDecodeError):
                 self._reply(400, json.dumps({"error": {"code": "invalid_json"}}))
                 return
+
+        if path == "/progress" or path.startswith("/progress/"):
+            result = PROGRESS_API.handle(self.command, path, body, query)
+            self._reply(*PROGRESS_API.json_response(result))
+            return
 
         result = API.handle(self.command, path, body, query)
         self._reply(*API.json_response(result))
