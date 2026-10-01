@@ -182,3 +182,12 @@ def test_first_professional_kriya_paper2_structure_is_complete():
         "Adipose tissue", "Physiology of male and female reproductive systems",
         "Physiology of Excretion", "Special Senses, Sleep and Dreams"
     ]
+def test_first_professional_sanskrit_history_paper2_partitions():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes(
+        "bams_ncism_1", "AyUG-SN-AI", "2021-22", "y1-snai-paper2"
+    )
+    assert result["status"] == 200
+    assert [node["name"] for node in result["data"]["nodes"]] == [
+        "Sanskrit", "Ayurved Itihas"
+    ]
