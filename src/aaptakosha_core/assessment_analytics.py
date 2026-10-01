@@ -238,4 +238,5 @@ __all__ = [
     "AssessmentAnalytics",
     "AssessmentAnalyticsService",
     "AssessmentProgressService",
+    "AssessmentRevisionService",
 ]
