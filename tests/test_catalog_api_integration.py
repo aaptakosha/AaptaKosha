@@ -31,6 +31,7 @@ def _api():
         "017_second_professional_samhita_layout.sql",
         "018_second_professional_agada_paper1.sql",
         "019_second_professional_roga_nidan_paper1.sql",
+        "020_second_professional_dravyaguna_paper1.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -290,3 +291,12 @@ def test_second_professional_roga_nidan_paper1_structure_is_present():
     assert len(result["data"]["nodes"]) == 28
     assert result["data"]["nodes"][0]["name"].startswith("Roga nidana")
     assert result["data"]["nodes"][-1]["name"].startswith("Digital health")
+
+
+def test_second_professional_dravyaguna_paper1_structure_is_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes("bams_ncism_2", "AyUG-DG", "2021-22", "y2-dg-paper1")
+    assert result["status"] == 200
+    assert len(result["data"]["nodes"]) == 22
+    assert [n["name"] for n in result["data"]["nodes"][:7]] == ["Dravyaguna Vigyana", "Dravya", "Guna", "Rasa", "Vipaka", "Virya", "Prabhava"]
+    assert result["data"]["nodes"][-1]["name"] == "Network pharmacology and Bioinformatics"
