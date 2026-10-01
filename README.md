@@ -23,8 +23,8 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 ## Current phase
 
-**Phase 6 — Durable Application API & Persistence: Complete**
+**Phase 7 — Production Identity, Security & Operations: In progress**
 
-Phases 0–5 are complete. Phase 6 wires the learner-facing application path to durable PostgreSQL storage for deployed environments while retaining SQLite for local development/fallback. The deployed API exposes assessment, learner-progress, and health routes through the framework-neutral application boundaries.
+Phases 0–6 are complete. Phase 7 hardens the learner-facing application path to durable PostgreSQL storage for deployed environments while retaining SQLite for local development/fallback. The deployed API exposes assessment, learner-progress, and health routes through the framework-neutral application boundaries.
 
-See `docs/architecture/phase-6-durable-api-persistence.md`.
+See `docs/architecture/phase-7-production-identity-security-operations.md`.
