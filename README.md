@@ -14,7 +14,7 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 - `src/aaptakosha_ingestion/` — Phase 1 ingestion and reconciliation core
 - `src/aaptakosha_core/` — domain, application, persistence, and HTTP contracts
-- `frontend/` — Phase 5 framework-neutral responsive presentation layer
+- `frontend/` — framework-neutral responsive learner presentation layer
 - `api/` — deployed HTTP entrypoints
 - `docs/architecture/` — architecture baselines
 - `docs/governance/` — project gates and governance
@@ -23,8 +23,8 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 ## Current phase
 
-**Phase 7 — Production Identity, Security & Operations: In progress**
+**Phase 8 — Authenticated Learner Experience Integration: In progress**
 
-Phases 0–6 are complete. Phase 7 hardens the learner-facing application path to durable PostgreSQL storage for deployed environments while retaining SQLite for local development/fallback. The deployed API exposes assessment, learner-progress, and health routes through the framework-neutral application boundaries.
+Phases 0–7 are complete. Phase 8 connects the existing student-facing surfaces to the authenticated durable application APIs, with a shared learner session/bootstrap boundary, reusable API client, continuous study-to-assessment-to-progress journey, and browser/integration verification.
 
-See `docs/architecture/phase-7-production-identity-security-operations.md`.
+See `docs/architecture/phase-8-authenticated-learner-experience.md`.
