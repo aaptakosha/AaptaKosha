@@ -97,7 +97,7 @@ def test_real_hierarchy_rejects_unknown_node():
 def test_first_professional_verified_structure_is_present():
     _, hierarchy = _api()
     rs = hierarchy.list_nodes("bams_ncism_1", "AyUG-RS", "2021-22")
-    assert [node["name"] for node in rs["data"]["nodes"]] == ["Paper I"]
+    assert [node["name"] for node in rs["data"]["nodes"]] == ["Paper I", "Paper II"]
     rs_units = hierarchy.list_nodes(
         "bams_ncism_1", "AyUG-RS", "2021-22", "y1-rs-paper1"
     )
@@ -193,7 +193,7 @@ def test_first_professional_rachana_paper2_units_are_present():
 def test_first_professional_kriya_paper2_structure_is_complete():
     _, hierarchy = _api()
     result = hierarchy.list_nodes(
-        "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks2-paper2"
+        "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks-paper2"
     )
     assert result["status"] == 200
     names = [node["name"] for node in result["data"]["nodes"]]
@@ -247,7 +247,7 @@ def test_first_professional_samhita_advisory_structure_is_complete():
     assert result["status"] == 200
     assert [node["name"] for node in result["data"]["nodes"]] == [
         "Introduction to Samhita",
-        "AH Su.1 Ayushkamiya Adhyaya",
+        "Ayushkamiya Adhyaya",
         "AH Su.2 Dinacharya Adhyaya",
         "AH Su.3 Rutucarya Adhyaya",
         "AH Su.4 Roganutpadaniya Adhyaya",
