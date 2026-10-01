@@ -40,6 +40,7 @@ REPO.apply_migrations(ROOT / "migrations" / "016_first_professional_sanskrit_his
         "018_second_professional_agada_paper1.sql",
         "019_second_professional_roga_nidan_paper1.sql",
         "020_second_professional_dravyaguna_paper1.sql",
+        "021_second_professional_rasashastra_layout.sql",
 
 CATALOG_API = CatalogApi(CatalogService(REPO))
 HIERARCHY_API = CurriculumHierarchyApi(CurriculumHierarchyService(REPO))
