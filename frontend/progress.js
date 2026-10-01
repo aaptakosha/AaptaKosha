@@ -11,15 +11,16 @@
       .find((el) => el.dataset.subject === SUBJECT);
     if (!row) return;
 
-    const completed = items.filter((item) => item.status === "completed").length;
-    const total = items.length;
+    const syllabusItems = items.filter((item) => item.resource_type !== "assessment");
+    const completed = syllabusItems.filter((item) => item.status === "completed").length;
+    const total = syllabusItems.length;
     const percent = total
-      ? Math.round(items.reduce((sum, item) => sum + item.completion_percent, 0) / total)
+      ? Math.round(syllabusItems.reduce((sum, item) => sum + item.completion_percent, 0) / total)
       : 0;
 
     row.querySelector("[data-progress-percent]").textContent = percent + "%";
     row.querySelector("[data-progress-summary]").textContent =
-      total ? completed + " of " + total + " tracked resources" : "No tracked resources yet";
+      total ? completed + " of " + total + " tracked syllabus resources" : "No tracked syllabus resources yet";
     row.querySelector("[data-progress-bar]").style.width = percent + "%";
   }
 
