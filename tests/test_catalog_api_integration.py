@@ -73,3 +73,23 @@ def test_first_professional_verified_structure_is_present():
     )
     assert len(ks_units["data"]["nodes"]) == 10
     assert all(node["marks"] is None for node in ks_units["data"]["nodes"][3:8])
+
+
+def test_third_professional_paper_layout_is_present():
+    _, hierarchy = _api()
+    expected = {
+        "AyUG-KC": ["I", "II", "III"],
+        "AyUG-PK": ["I"],
+        "AyUG-ST": ["I", "II"],
+        "AyUG-SL": ["I", "II"],
+        "AyUG-PS": ["I", "II"],
+        "AyUG-KB": ["I"],
+        "AyUG-SA3": ["I"],
+        "AyUG-RM": ["I"],
+        "AyUG-EM": ["I"],
+    }
+    for subject_id, paper_codes in expected.items():
+        roots = hierarchy.list_nodes("bams_ncism_3", subject_id, "2021-22")
+        assert roots["status"] == 200
+        assert [node["code"] for node in roots["data"]["nodes"]] == paper_codes
+        assert all(node["node_type"] == "paper" for node in roots["data"]["nodes"])
