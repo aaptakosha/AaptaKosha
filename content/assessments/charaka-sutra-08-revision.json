@@ -1,0 +1,610 @@
+{
+  "assessment_id": "charaka.sutra.08.revision",
+  "title_hi": "इन्द्रियोपक्रमणीय अध्याय — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "charaka.sutra.08.q01",
+      "prompt_hi": "पञ्चपञ्चक में कितने समूह माने गए हैं?",
+      "content_refs": [
+        "charaka.sutra.08.003"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "पाँच",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "सात",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "दस",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q02",
+      "prompt_hi": "मन को इन्द्रियों के संदर्भ में कैसे समझाया गया है?",
+      "content_refs": [
+        "charaka.sutra.08.004"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अतीन्द्रिय और समन्वयकारी",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल एक ज्ञानेन्द्रिय",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल कर्मेन्द्रिय",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल शरीरधातु",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q03",
+      "prompt_hi": "मन के एकत्व का मुख्य तर्क क्या है?",
+      "content_refs": [
+        "charaka.sutra.08.005"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "एक समय में अनेक इन्द्रियों की पूर्ण प्रवृत्ति नहीं होती",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मन पाँच होते हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "इन्द्रियाँ मन से स्वतंत्र हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "बुद्धि का अस्तित्व नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q04",
+      "prompt_hi": "पाँच ज्ञानेन्द्रियाँ कौन-सी हैं?",
+      "content_refs": [
+        "charaka.sutra.08.008"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "चक्षु, श्रोत्र, घ्राण, रसना, स्पर्शन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "वाक्, पाणि, पाद, पायु, उपस्थ",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "मन, बुद्धि, आत्मा, अहंकार, चित्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "त्वचा, अस्थि, मज्जा, रक्त, मांस",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q05",
+      "prompt_hi": "इन्द्रिय-द्रव्य पञ्चक में कौन-सा क्रम आता है?",
+      "content_refs": [
+        "charaka.sutra.08.009"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "आकाश, वायु, तेज, आप, पृथ्वी",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "पृथ्वी, आप, तेज, वायु, आकाश",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "वात, पित्त, कफ, रस, रक्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "मन, बुद्धि, आत्मा, इन्द्रिय, विषय",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q06",
+      "prompt_hi": "इन्द्रिय-अर्थ पञ्चक में क्या आता है?",
+      "content_refs": [
+        "charaka.sutra.08.011"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "शब्द, स्पर्श, रूप, रस, गन्ध",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मन, बुद्धि, आत्मा, चित्त, अहंकार",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "वात, पित्त, कफ, ओज, तेज",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "रक्त, मांस, मेद, अस्थि, मज्जा",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q07",
+      "prompt_hi": "इन्द्रियबुद्धि किस प्रकार के संयोग से उत्पन्न मानी गई है?",
+      "content_refs": [
+        "charaka.sutra.08.012"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "इन्द्रिय, विषय, मन और आत्मा",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल इन्द्रिय और विषय",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल मन और बुद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल आत्मा",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q08",
+      "prompt_hi": "अध्यात्मद्रव्यगुणसंग्रह में क्या शामिल है?",
+      "content_refs": [
+        "charaka.sutra.08.013"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "मन, मनोर्थ, बुद्धि और आत्मा",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल पंचमहाभूत",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल धातु",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल दोष",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q09",
+      "prompt_hi": "इन्द्रिय-विषयों का अतियोग, अयोग और मिथ्यायोग किससे सम्बद्ध है?",
+      "content_refs": [
+        "charaka.sutra.08.015"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "विकृति से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल निद्रा से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल आयु से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल अग्नि से",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q10",
+      "prompt_hi": "मन का मुख्य विषय क्या बताया गया है?",
+      "content_refs": [
+        "charaka.sutra.08.016"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "चिन्तन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "व्यायाम",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q11",
+      "prompt_hi": "इन्द्रियों की स्वस्थ अवस्था के लिए किसका पालन कहा गया है?",
+      "content_refs": [
+        "charaka.sutra.08.017"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "सात्म्य इन्द्रियार्थ-संयोग और बुद्धिपूर्वक आचरण",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सर्वदा इन्द्रिय-विषय त्याग",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "अतियोग",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अनियमित आहार",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q12",
+      "prompt_hi": "सद्वृत्त का एक उद्देश्य क्या है?",
+      "content_refs": [
+        "charaka.sutra.08.018"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "आरोग्य और इन्द्रिय-विजय",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल धनार्जन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल वाद-विवाद",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q13",
+      "prompt_hi": "निषिद्ध आचार का अध्ययन किस रूप में करना चाहिए?",
+      "content_refs": [
+        "charaka.sutra.08.019"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "ग्रन्थीय और ऐतिहासिक आचार-संदर्भ के रूप में",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "स्व-चिकित्सा निर्देश के रूप में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "कानूनी आदेश के रूप में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "आधुनिक चिकित्सा-प्रोटोकॉल के रूप में",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q14",
+      "prompt_hi": "भोजन के आचार में किस पर बल है?",
+      "content_refs": [
+        "charaka.sutra.08.020"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "शुचिता, उचित समय-स्थान और भोजन-विवेक",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल मात्रा बढ़ाना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल रात्रिभोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल स्वाद",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q15",
+      "prompt_hi": "प्राकृतिक वेगों के संदर्भ में अध्याय किस बात पर बल देता है?",
+      "content_refs": [
+        "charaka.sutra.08.021"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "उचित, स्वच्छ और प्रसंगानुकूल व्यवहार",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "हर वेग का दमन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "हर समय उत्सर्जन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल व्यायाम",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q16",
+      "prompt_hi": "अध्ययन के संदर्भ में किस बात पर बल है?",
+      "content_refs": [
+        "charaka.sutra.08.024"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "उचित समय, गुरु-निर्देश और स्पष्ट उच्चारण",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "बहुत तेज बोलना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "बहुत ऊँची आवाज",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "गुरु के बिना अध्ययन",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q17",
+      "prompt_hi": "सामाजिक आचार में कौन-सा गुण प्रमुख है?",
+      "content_refs": [
+        "charaka.sutra.08.025"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "मर्यादा और गोपनीयता",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अत्यधिक वाचालता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "अवमानना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अनुचित संगति",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q18",
+      "prompt_hi": "मानसिक संतुलन में किससे बचने का निर्देश है?",
+      "content_refs": [
+        "charaka.sutra.08.026"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अत्यधिक संदेह और अत्यधिक अविश्वास",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मैत्री",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "संयम",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सन्तुलन",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q19",
+      "prompt_hi": "कार्य-आचार में किसका निर्देश है?",
+      "content_refs": [
+        "charaka.sutra.08.027"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "समयपालन, परीक्षण और निरन्तर प्रयत्न",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "टालमटोल",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "इन्द्रियवशता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अत्यधिक भावावेग",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.08.q20",
+      "prompt_hi": "अध्याय के सकारात्मक सद्वृत्त-सार में कौन-सा समूह आता है?",
+      "content_refs": [
+        "charaka.sutra.08.029"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "ज्ञान, दान, मैत्री, करुणा और प्रशम",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "द्वेष, हिंसा, असत्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "अति-निद्रा, अति-जागरण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "असंयम, संदेह, क्रोध",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 8 के मूल पाठ और अध्ययन-विषय से सीधे सम्बद्ध है।"
+    }
+  ]
+}

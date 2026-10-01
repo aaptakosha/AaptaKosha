@@ -31,7 +31,7 @@ def _load_samhita(content_id: str):
         chapter_no = int(content_id.rsplit(".", 1)[-1])
     except ValueError:
         return None
-    if chapter_no not in {1, 2, 3, 4, 5, 6, 7}:
+    if chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8}:
         return None
     path = os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
     if not os.path.exists(path):
@@ -182,7 +182,36 @@ def _seed_samhita_chapter5_assessment(service: AssessmentService, repo) -> None:
     assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
     service.create(assessment)
     service.publish(assessment_id)
-\n\ndef _seed_samhita_chapter7_assessment(service: AssessmentService, repo) -> None:\n    assessment_id = "charaka.sutra.07.revision"\n    if repo.get(assessment_id) is not None:\n        return\n    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-07-revision.json")\n    with open(path, encoding="utf-8") as fh:\n        payload = json.load(fh)\n    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]\n    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))\n    service.create(assessment)\n    service.publish(assessment_id)\n
+
+
+def _seed_samhita_chapter7_assessment(service: AssessmentService, repo) -> None:
+    assessment_id = "charaka.sutra.07.revision"
+    if repo.get(assessment_id) is not None:
+        return
+    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-07-revision.json")
+    with open(path, encoding="utf-8") as fh:
+        payload = json.load(fh)
+    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
+    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
+    service.create(assessment)
+    service.publish(assessment_id)
+
+
+def _seed_samhita_chapter8_assessment(service: AssessmentService, repo) -> None:
+    assessment_id = "charaka.sutra.08.revision"
+    if repo.get(assessment_id) is not None:
+        return
+    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-08-revision.json")
+    with open(path, encoding="utf-8") as fh:
+        payload = json.load(fh)
+    questions = [
+        AssessmentQuestion(item["question_id"], item["prompt_hi"], tuple(QuestionOption(o["option_id"], o["label_hi"], o["is_correct"]) for o in item["options"]), points=1, content_refs=tuple(item["content_refs"]))
+        for item in payload["questions"]
+    ]
+    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
+    service.create(assessment)
+    service.publish(assessment_id)
+
 def build_api():
     global DATABASE_BACKEND, DATABASE_CONNECTION
     database_url = os.environ.get("DATABASE_URL")
@@ -204,6 +233,7 @@ def build_api():
     service = AssessmentService(repo, repo, progress_service)
     _seed_demo(service, repo)
     _seed_samhita_chapter7_assessment(service, repo)
+    _seed_samhita_chapter8_assessment(service, repo)
     _seed_samhita_ncism_assessment(service, repo)
     _seed_samhita_chapter2_assessment(service, repo)
     _seed_samhita_chapter3_assessment(service, repo)
