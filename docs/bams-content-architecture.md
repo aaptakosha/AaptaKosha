@@ -80,3 +80,25 @@ A classical text is stored once and linked to professional-year relevance, subje
 Each curriculum node and classical text supports: planned, structure_ready, content_in_progress, review, published.
 
 At this stage the three-professional structure is structure_ready; detailed content remains planned.
+
+## NCISM hierarchy ingestion status
+
+The database now supports the full hierarchy:
+**Professional Year -> Subject -> Paper -> Unit/Chapter -> Topic**.
+
+A first source-verified structural batch has been added for:
+- 1st Professional: AyUG-PV, AyUG-RS, AyUG-KS
+- 2nd Professional: AyUG-RB, AyUG-AT, AyUG-SA2, AyUG-DG, AyUG-SW
+
+The nodes store the NCISM source reference, source locator, term, marks, lecture hours and non-lecture hours where the source table provides them.
+
+Third Professional subject shells remain in place and are ready for the same source-verified ingestion pass. No third-professional topic data is being guessed or copied from non-NCISM summaries.
+
+### Source verification examples
+
+- NCISM first-professional AyUG-PV curriculum: Table 2 lists the course topics and term/hour structure.
+- NCISM first-professional AyUG-RS curriculum: Table 2 lists Paper I topics such as Shariropkramaniya Shaarira, Paribhasha Shaarira and Garbha Shaarira.
+- NCISM first-professional AyUG-KS curriculum: Table 2 lists topics such as Sharir, Basic principles of Ayurveda and Tridosha.
+- NCISM second-professional AyUG-RB, AyUG-AT, AyUG-SA2, AyUG-DG and AyUG-SW curriculum documents provide the corresponding paper/topic structures.
+
+This is a structural ingestion layer only. Detailed learning content, explanations, MCQs, flashcards and other study assets remain a separate later phase.
