@@ -22,7 +22,14 @@
   };
 
   const key = "aaptakosha.assessment.session";
-  const learner = window.AAPTAKOSHA_LEARNER_ID || "demo-learner";
+  function fallbackLearnerId() {
+    return "demo-learner";
+  }
+
+  function requestLearnerPayload() {
+    const session = window.AaptaKoshaSession;
+    return session && session.authenticated ? {} : { learner_id: fallbackLearnerId() };
+  }
 
   async function request(path, options) {
     if (!window.AaptaKoshaApi) throw new Error("API client unavailable");
@@ -44,7 +51,7 @@
     await window.AaptaKoshaSessionReady;
     const live = await request("/assessments/" + encodeURIComponent(id) + "/attempts", {
       method: "POST",
-      body: JSON.stringify({ learner_id: learner })
+      body: JSON.stringify(requestLearnerPayload())
     });
     if (live?.data) {
       save(live.data);
@@ -55,7 +62,9 @@
     const attempt = {
       attempt_id: "demo-" + Date.now(),
       assessment_id: assessment.assessment_id,
-      learner_id: learner,
+      learner_id: (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)
+        ? (window.AaptaKoshaAuth && window.AaptaKoshaAuth.subjectId) || null
+        : fallbackLearnerId(),
       status: "in_progress",
       answers: []
     };
@@ -67,7 +76,7 @@
   async function saveAnswers(session, answers) {
     const live = await request("/attempts/" + encodeURIComponent(session.attempt.attempt_id) + "/answers", {
       method: "PUT",
-      body: JSON.stringify({ learner_id: learner, answers })
+      body: JSON.stringify({ ...requestLearnerPayload(), answers })
     });
     const next = live?.data
       ? { ...session, attempt: live.data }
@@ -79,7 +88,7 @@
   async function submit(session) {
     const live = await request("/attempts/" + encodeURIComponent(session.attempt.attempt_id) + "/submit", {
       method: "POST",
-      body: JSON.stringify({ learner_id: learner })
+      body: JSON.stringify(requestLearnerPayload())
     });
     if (live?.data) {
       localStorage.setItem(key + ".result", JSON.stringify(live.data));
@@ -126,9 +135,11 @@
 
   async function result(id) {
     await window.AaptaKoshaSessionReady;
-    const live = await request("/attempts/" + encodeURIComponent(id) + "?learner_id=" + encodeURIComponent(learner));
+    const authenticated = window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated;
+    const suffix = authenticated ? "" : "?learner_id=" + encodeURIComponent(fallbackLearnerId());
+    const live = await request("/attempts/" + encodeURIComponent(id) + suffix);
     return live?.data || null;
   }
 
-  window.AaptaKoshaAssessment = { start, saveAnswers, submit, result, load, DEMO, learner };
+  window.AaptaKoshaAssessment = { start, saveAnswers, submit, result, load, DEMO };
 })();
