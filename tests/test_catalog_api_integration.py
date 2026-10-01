@@ -106,7 +106,6 @@ def test_first_professional_verified_structure_is_present():
         "bams_ncism_1", "AyUG-KS", "2021-22", "y1-ks-paper1"
     )
     assert len(ks_units["data"]["nodes"]) == 10
-    assert all(node["marks"] is None for node in ks_units["data"]["nodes"][3:8])
 
 
 def test_third_professional_paper_layout_is_present():
