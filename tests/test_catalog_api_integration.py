@@ -52,7 +52,7 @@ def _api():
         "038_third_professional_samhita_adhyayan3_complete.sql",
         "039_third_professional_shalya_complete_topics.sql",
         "040_third_professional_source_locator_cleanup.sql",
-        "041_curriculum_data_quality_normalization.sql",
+        "041_curriculum_data_quality_normalization.sql", "042_second_professional_swasthavritta_topic_layout.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -337,9 +337,14 @@ def test_second_professional_swasthavritta_paper1_structure_is_present():
     _, hierarchy = _api()
     result = hierarchy.list_nodes("bams_ncism_2", "AyUG-SW", "2021-22", "y2-sw-paper1")
     assert result["status"] == 200
-    assert len(result["data"]["nodes"]) == 6
-    assert result["data"]["nodes"][0]["code"] == "A"
-    assert result["data"]["nodes"][-1]["code"] == "F"
+    assert len(result["data"]["nodes"]) == 10
+    assert [n["code"] for n in result["data"]["nodes"]] == [str(i) for i in range(1, 11)]
+    assert result["data"]["nodes"][0]["name"] == "Swastha and Swasthya"
+    assert result["data"]["nodes"][-1]["name"] == "Naturopathy"
+    paper2 = hierarchy.list_nodes("bams_ncism_2", "AyUG-SW", "2021-22", "y2-sw-paper2")
+    assert len(paper2["data"]["nodes"]) == 15
+    assert [n["code"] for n in paper2["data"]["nodes"]] == [str(i) for i in range(11, 26)]
+    assert paper2["data"]["nodes"][-1]["name"] == "National Health Policy"
 
 
 def test_third_professional_kaumarabhritya_paper1_structure_is_present():

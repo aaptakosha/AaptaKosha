@@ -8,7 +8,7 @@ def test_third_professional_curriculum_data_integrity():
     db.execute("PRAGMA foreign_keys=ON")
     names = ["001_catalog.sql"] + [
         p.name for p in sorted((root / "migrations").glob("*.sql"))
-        if 4 <= int(p.name[:3]) <= 41
+        if 4 <= int(p.name[:3]) <= 42
     ]
     for name in names:
         db.executescript((root / "migrations" / name).read_text(encoding="utf-8"))
