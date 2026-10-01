@@ -38,13 +38,21 @@ Last updated: 2026-10-01
 - GitHub Actions product workflow run #106 completed successfully on the main branch.
 
 ## Phase 7 initial checklist
-- [ ] Production identity adapter
-- [ ] Authenticated principal propagation
-- [ ] Learner-resource authorization enforcement
+- [x] Production identity adapter
+- [x] Authenticated principal propagation
+- [x] Learner-resource authorization enforcement
 - [ ] Production CORS and secure error handling
 - [ ] Configuration/readiness validation
 - [ ] Security-focused tests and CI
 - [ ] Deployment verification
+
+### Latest Phase 7 work
+- Added a replaceable Clerk identity adapter using verified session tokens and explicit authorized-party validation.
+- Wired authenticated principals into assessment attempts and learning-progress ownership checks at the Vercel HTTP boundary.
+- Removed wildcard CORS behavior; production can allow one explicit frontend origin through `AAPTOKOSHA_ALLOWED_ORIGIN`.
+- Vercel deployments fail closed when identity is required but no Clerk credentials are configured.
+- Added focused Clerk adapter tests and kept Phase 7 tests in the product CI matrix.
+- Deployment verification is still pending; production requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
 
 ## Earlier completed phases
 
