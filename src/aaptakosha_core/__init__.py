@@ -39,7 +39,7 @@ from .auth import (
     CATALOG_READ,
     Principal,
 )
-from .catalog import Curriculum, Subject, Topic
+from .catalog import Curriculum, CurriculumNode, Subject, Topic
 from .content_repository import ContentRepository, SQLiteContentRepository
 from .content_services import ContentNotFoundError, ContentService, ContentTransitionError
 from .content_links import CurriculumContentLink, CurriculumContentLinkRepository, CurriculumContentLinkService
@@ -90,7 +90,7 @@ __all__ = [
     "ContentProvenance", "ContentResource", "ContentRepository", "SQLiteContentRepository",
     "AuthorizationService", "CATALOG_ADMIN", "CATALOG_READ", "CatalogApi", "LearningCatalogApi", "DRAFT",
     "CatalogNotFoundError", "CatalogRepository", "CatalogService", "AutomationRule",
-    "COMPLETED", "IN_PROGRESS", "NOT_STARTED", "Curriculum", "LearningProgress",
+    "COMPLETED", "IN_PROGRESS", "NOT_STARTED", "Curriculum", "CurriculumNode", "LearningProgress",
     "LearningProgressRepository", "LearningProgressService", "Notification",
     "NotificationDispatcher", "NotificationRepository", "NotificationSender",
     "NotificationService", "PUBLISHED", "REVIEW", "VALID_CONTENT_STATUSES", "Principal",
