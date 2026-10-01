@@ -1,0 +1,610 @@
+{
+  "assessment_id": "charaka.sutra.07.revision",
+  "title_hi": "नवेगान्धारणीय अध्याय — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "q01",
+      "prompt": "नवेगान्धारणीय अध्याय का प्रथम सिद्धान्त क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "प्राकृतिक वेगों को रोकना",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "उत्पन्न प्राकृतिक वेगों को न रोकना",
+          "is_correct": true
+        },
+        {
+          "option_id": "c",
+          "text": "केवल निद्रा रोकना",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल क्षुधा रोकना",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.003"
+      ]
+    },
+    {
+      "question_id": "q02",
+      "prompt": "मूत्रवेगधारण से कौन-सा लक्षण बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "मूत्रकृच्छ्र",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "कामला",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "कुष्ठ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "अतिनिद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.006"
+      ]
+    },
+    {
+      "question_id": "q03",
+      "prompt": "पुरीषधारण में कौन-सा उपाय हितकर बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "बस्तिकर्म",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल उपवास",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल धूम",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.009"
+      ]
+    },
+    {
+      "question_id": "q04",
+      "prompt": "शुक्रवेगधारण से क्या हो सकता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "मेढ्र-वृषणशूल",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल तृष्णा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल कास",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.010"
+      ]
+    },
+    {
+      "question_id": "q05",
+      "prompt": "वातवेगधारण से किसका संग बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "विण्मूत्रवात",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल शुक्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल अश्रु",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.012"
+      ]
+    },
+    {
+      "question_id": "q06",
+      "prompt": "छर्दिनिग्रहजन्य विकारों में कौन-सा उपाय वर्णित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "रक्तमोक्षण",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल स्निग्ध भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल तर्पण",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.015"
+      ]
+    },
+    {
+      "question_id": "q07",
+      "prompt": "क्षवथु-निग्रह से क्या हो सकता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "इन्द्रिय-दौर्बल्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "कामला",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "कुष्ठ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "अतिनिद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.016"
+      ]
+    },
+    {
+      "question_id": "q08",
+      "prompt": "क्षुधावेगधारण में कैसा भोजन हितकर है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "स्निग्ध, उष्ण, लघु",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "अत्यन्त रूक्ष",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल शीत",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल अम्ल",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.020"
+      ]
+    },
+    {
+      "question_id": "q09",
+      "prompt": "पिपासानिग्रह में क्या इष्ट है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "शीत तर्पण",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "अतिव्यायाम",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "रक्तमोक्षण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "धूम",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.021"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt": "निद्राविधारण में कौन-सा उपाय हितकर है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "स्वप्न और संवाहन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "विरेचन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "धूम",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "रक्तमोक्षण",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.023"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt": "किन वेगों को बुद्धिमान व्यक्ति धारण करे?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "लोभ-शोक-भय-क्रोध आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "मूत्र-पुरीष",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "क्षुधा-पिपासा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "निद्रा-छर्दि",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.027"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt": "असत्य और अकालयुक्त वचन के वेग के विषय में क्या निर्देश है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "उसे धारण करे",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "उसे बढ़ाए",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "उसे भोजन से जोड़े",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "उसे निद्रा से जोड़े",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.028"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt": "व्यायाम का एक लाभ क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "कर्मसामर्थ्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "अग्निमान्द्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "दुर्बलता",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "अतिनिद्रा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.032"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt": "अतिव्यायाम से कौन-सा विकार हो सकता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "कास",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल लाघव",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल बलवृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल स्मृति",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.033"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt": "अहित से हित की ओर कैसे परिवर्तन करना चाहिए?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "क्रमशः",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "अचानक",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "बिना मात्रा-विचार",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल उपवास से",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.036"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt": "देहप्रकृति किससे सम्बद्ध बताई गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "दोषानुशयिता",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल आयु",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल देश",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल ऋतु",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.040"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt": "प्रज्ञापराध से जुड़े मनोविकारों में क्या शामिल है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "ईर्ष्या और क्रोध",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल तृष्णा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल क्षुधा",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.052"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt": "प्रज्ञापराध-निवारण में कौन-सा उपाय है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "इन्द्रियोपशम और स्मृति",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "अतिव्यायाम",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "वेगधारण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "अहितसेवन",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.053"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt": "हितसेवन के लिए किसमें प्रयत्न करना चाहिए?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "आहार, आचार और चेष्टा",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "केवल औषधि",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल व्यायाम",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.060"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt": "रात्रि में किसका सेवन न करने का निर्देश है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text": "दधि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "शालि",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "घृत",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "मुद्ग",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.07.061"
+      ]
+    }
+  ]
+}
