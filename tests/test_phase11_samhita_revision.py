@@ -41,12 +41,7 @@ def _fixture():
 
 def test_revision_recommendations_map_missed_questions_to_canonical_refs():
     conn, repo, service = _fixture()
-    service.start_attempt(AssessmentAttempt("a1", "charaka.sutra.01.ncism-revision", "learner", SUBMITTED, (
-        ("q1", ("b",)),
-        ("q2", ("a",)),
-    )))
-    # Submitted attempts are normally created in-progress then submitted; use a
-    # second direct repository fixture to test the analytics contract deterministically.
+    # Persist a submitted fixture directly; lifecycle submission is covered elsewhere.
     repo.save(AssessmentAttempt("a1", "charaka.sutra.01.ncism-revision", "learner", SUBMITTED, (
         ("q1", ("b",)),
         ("q2", ("a",)),
