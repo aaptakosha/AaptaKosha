@@ -14,6 +14,23 @@ def _require(value: str, field: str) -> str:
 
 
 @dataclass(frozen=True, slots=True)
+class CurriculumNode:
+    """One NCISM hierarchy node: paper, unit, chapter, or topic."""
+
+    node_id: str
+    name: str
+    node_type: str
+    parent_node_id: str | None = None
+    code: str | None = None
+
+    def __post_init__(self) -> None:
+        _require(self.node_id, "node_id")
+        _require(self.name, "name")
+        if self.node_type not in {"paper", "unit", "chapter", "topic"}:
+            raise ValueError("node_type must be paper, unit, chapter, or topic")
+
+
+@dataclass(frozen=True, slots=True)
 class Topic:
     topic_id: str
     name: str
