@@ -15,7 +15,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.003",
-        "charaka.sutra.02.006"
+        "charaka.sutra.02.unit-02"
       ],
       "options": [
         {
@@ -46,7 +46,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.007",
-        "charaka.sutra.02.008"
+        "charaka.sutra.02.unit-03"
       ],
       "options": [
         {
@@ -77,7 +77,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.009",
-        "charaka.sutra.02.010"
+        "charaka.sutra.02.unit-04"
       ],
       "options": [
         {
@@ -108,7 +108,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.011",
-        "charaka.sutra.02.016"
+        "charaka.sutra.02.unit-05"
       ],
       "options": [
         {
@@ -139,7 +139,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.015",
-        "charaka.sutra.02.015"
+        "charaka.sutra.02.unit-05"
       ],
       "options": [
         {
@@ -170,7 +170,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.016",
-        "charaka.sutra.02.016"
+        "charaka.sutra.02.unit-05"
       ],
       "options": [
         {
@@ -201,7 +201,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.034",
-        "charaka.sutra.02.034"
+        "charaka.sutra.02.unit-07"
       ],
       "options": [
         {
@@ -232,7 +232,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.017",
-        "charaka.sutra.02.033"
+        "charaka.sutra.02.unit-06"
       ],
       "options": [
         {
@@ -263,7 +263,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.034",
-        "charaka.sutra.02.034"
+        "charaka.sutra.02.unit-07"
       ],
       "options": [
         {
@@ -294,7 +294,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.035",
-        "charaka.sutra.02.035"
+        "charaka.sutra.02.unit-07"
       ],
       "options": [
         {
@@ -325,7 +325,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.036",
-        "charaka.sutra.02.036"
+        "charaka.sutra.02.unit-07"
       ],
       "options": [
         {
@@ -356,7 +356,7 @@
       "points": 1,
       "content_refs": [
         "charaka.sutra.02.003",
-        "charaka.sutra.02.016"
+        "charaka.sutra.02.unit-02"
       ],
       "options": [
         {
