@@ -57,3 +57,10 @@ def test_progress_dashboard_does_not_ship_fake_live_metric_fallbacks():
     assert 'data-overall-progress>42%' not in html
     assert 'data-assessment-average>78%' not in html
     assert 'Attempt 1 · 68%' not in html
+
+
+
+def test_python_api_entrypoints_are_syntactically_valid():
+    for relative_path in ("api/assessments.py",):
+        source_path = ROOT / relative_path
+        compile(source_path.read_text(encoding="utf-8"), str(source_path), "exec")
