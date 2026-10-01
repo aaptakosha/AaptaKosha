@@ -34,6 +34,23 @@ def _api():
         "020_second_professional_dravyaguna_paper1.sql",
         "021_second_professional_rasashastra_layout.sql",
         "022_second_professional_swasthavritta_paper1.sql",
+        "023_third_professional_verified_paper_metadata.sql",
+        "024_third_professional_kaumarabhritya_paper1.sql",
+        "025_third_professional_prasuti_stree_roga_layout.sql",
+        "026_third_professional_kaumarabhritya_paper_metadata.sql",
+        "027_third_professional_kayachikitsa_paper_metadata.sql",
+        "028_third_professional_remaining_paper_metadata.sql",
+        "029_third_professional_kayachikitsa_panchakarma_topics.sql",
+        "030_third_professional_shalya_shalakya_metadata.sql",
+        "031_third_professional_sa3_rm_em_verified_metadata.sql",
+        "032_third_professional_sa3_structure.sql",
+        "033_third_professional_source_quality_cleanup.sql",
+        "034_third_professional_research_methodology_topics.sql",
+        "035_third_professional_shalya_paper1_topics.sql",
+        "036_third_professional_kaumarabhritya_complete_paper1.sql",
+        "037_third_professional_shalakya_complete_papers.sql",
+        "038_third_professional_samhita_adhyayan3_complete.sql",
+        "039_third_professional_shalya_complete_topics.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -336,6 +353,8 @@ def test_migration_chain_includes_third_professional_cleanup():
     source = Path("api/catalog.py").read_text(encoding="utf-8")
     assert "032_third_professional_sa3_structure.sql" in source
     assert "033_third_professional_source_quality_cleanup.sql" in source
+    assert "038_third_professional_samhita_adhyayan3_complete.sql" in source
+    assert "039_third_professional_shalya_complete_topics.sql" in source
 
 
 def test_sa3_provisional_topic_rows_are_not_seeded_after_cleanup():
@@ -357,3 +376,11 @@ def test_third_professional_shalya_topic_hierarchy_is_complete():
     assert paper1["data"]["nodes"][-1]["name"] == "AIDS - HIV and Hepatitis (B and C)"
     assert paper2["data"]["nodes"][0]["name"] == "Bhagna (Skeletal Injuries)"
     assert paper2["data"]["nodes"][-1]["name"] == "Antravriddhi (Hernia)"
+\n\ndef test_third_professional_samhita_adhyayan3_complete_paper1_structure_is_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes("bams_ncism_3", "AyUG-SA3", "2021-22", "y3-sa3-paper1")
+    assert result["status"] == 200
+    nodes = result["data"]["nodes"]
+    assert len(nodes) == 49
+    assert nodes[0]["name"] == "Cha.Chi.1.Rasayana Adhyaya"
+    assert nodes[-1]["name"] == "Cha.Si.12.Uttara Basti Siddhi"
