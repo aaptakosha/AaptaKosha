@@ -19,6 +19,7 @@ def _api():
         "005_curriculum_hierarchy.sql",
         "006_first_professional_hierarchy.sql",
         "007_first_professional_data_quality.sql",
+        "008_third_professional_paper_layout.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
