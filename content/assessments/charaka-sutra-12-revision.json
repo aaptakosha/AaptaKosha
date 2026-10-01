@@ -1,0 +1,610 @@
+{
+  "assessment_id": "charaka.sutra.12.revision",
+  "title_hi": "चरक सूत्रस्थान अध्याय 12 — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "q1",
+      "prompt_hi": "वात के छह गुण कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "षड् गुण—रूक्ष, लघु, शीत, दारुण, खर, विशद",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "मधुर, स्निग्ध, गुरु, मन्द, स्थिर, पिच्छिल",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "सिर्फ उष्ण और स्निग्ध",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल पंचमहाभूत",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.004"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "prompt_hi": "वात की वृद्धि का सामान्य सिद्धान्त क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "समान गुणों का अभ्यास धातुओं की वृद्धि करता है",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "विपरीत गुण हमेशा वृद्धि करते हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "गुणों का कोई प्रभाव नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल काल ही कारण है",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.005"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "prompt_hi": "वात-प्रशमन के लिए किस प्रकार के गुणों का उल्लेख है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "स्निग्ध, गुरु, उष्ण, श्लक्ष्ण, मृदु, पिच्छिल, घनकारी",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "रूक्ष, लघु, शीत, खरकारी",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल तीक्ष्ण और उष्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल शुषिरकारी",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.007"
+      ]
+    },
+    {
+      "question_id": "q4",
+      "prompt_hi": "अकुपित वात का एक प्रमुख शारीरिक कर्म क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "प्राण, उदान, समान, व्यान और अपान आदि रूपों से कार्यप्रवर्तन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल पाचन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल वर्ण",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "prompt_hi": "अकुपित वात के संदर्भ में मन और इन्द्रियों से क्या सम्बन्ध बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "मन का नियमन और इन्द्रियों को उद्योजित करने में भूमिका",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "मन से कोई सम्बन्ध नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल त्वचा पर कार्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल बाह्य जगत में कार्य",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "prompt_hi": "कुपित वात के परिणामों में कौन-सा समूह अध्याय से सम्बन्धित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "विकार, बल-वर्ण-सुख-आयु की हानि और प्राणों का उपरोध",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल वर्णवृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल भूखवृद्धि",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "prompt_hi": "वायु के लौकिक अकुपित कर्मों में कौन-सा क्षेत्र शामिल है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "धरणीधारण, मेघ-सृष्टि, स्रोतसों की प्रवर्तन और ऋतु-विभाग",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल औषध निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल भोजन",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "prompt_hi": "वायु के कुपित लौकिक कर्मों में किस प्रकार की प्राकृतिक विक्षोभकारी क्रियाएँ वर्णित हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "शिखरों का मथन, सागर-उत्पीड़न और ऋतु-विपर्यय जैसे विक्षोभ",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल वर्षा का नियमित होना",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल फसल की वृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल पुष्पोत्पत्ति",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "prompt_hi": "वात-विचार को भिषग्विद्या में उपयोगी क्यों माना गया?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "प्रकुपित वात को समय पर समझना और चिकित्सकीय संरक्षण करना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल वाद-विवाद करना",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल ज्योतिष सीखना",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल आहार सूची बनाना",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.009"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt_hi": "यथार्थ वात-स्तुति से किन लाभों का उल्लेख है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "आरोग्य, बल-वर्णवृद्धि, उपचय, ज्ञान और परमायु से सम्बन्ध",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल धन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल स्वाद",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.010"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt_hi": "पित्तान्तर्गत अग्नि के कर्म किस प्रकार वर्णित हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "पक्ति, दर्शन, ऊष्मा, वर्ण तथा शौर्य आदि के शुभ-अशुभ द्वन्द्व",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल उत्सर्जन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल अस्थि निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल श्रवण",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.011"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt_hi": "श्लेष्मान्तर्गत सोम के कर्म किस प्रकार वर्णित हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दार्ढ्य, उपचय, उत्साह, ज्ञान आदि के शुभ-अशुभ द्वन्द्व",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल दाह",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल पाचन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल श्वास",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.012"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt_hi": "तीनों दोष प्रकृतिभूत होने पर क्या प्रदान करते हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "बल, वर्ण, सुख और दीर्घायु",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल रोग",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल क्षीणता",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.013"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt_hi": "विकृत वात-पित्त-कफ के प्रभाव को किससे तुलना दी गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "विकृत ऋतुओं से लोक पर होने वाले उपघात की तुलना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "सदैव स्वास्थ्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल वर्षा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल वसन्त",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.013"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt_hi": "आत्रेय के कथन का ऋषियों ने क्या किया?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "आत्रेय के कथन का अनुमोदन और अभिनन्दन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "अस्वीकार",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "विषय परिवर्तन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "मौन विरोध",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.014"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt_hi": "श्लोक 15 किस निष्कर्ष को पुष्ट करता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "ऋषियों की सर्वसम्मति और आत्रेय-वचन की प्रशंसा",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "रोगमार्ग का नया वर्गीकरण",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "औषध निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.015"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt_hi": "अध्याय-सार में वात के कितने गुण बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "छह",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "चार",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "आठ",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.016"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt_hi": "अध्याय-सार में वात के हेतु कितने प्रकार के बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दो",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "चार",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "छह",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.016"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt_hi": "वात के कर्म का कौन-सा विभाजन सारश्लोक में निहित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "कुपित-अकुपित तथा शरीर-अशरीरचर सम्बन्धी विविध कर्म",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल एक कर्म",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल दो ऋतु",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल एक दोष",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.016"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt_hi": "अध्याय के अंतिम श्लोक का मुख्य निष्कर्ष क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "वात के गुण, हेतु, कर्म तथा कफ-पित्त के पृथक कर्म का समाहार",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल पित्त का वर्णन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल औषध का वर्णन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल आहार का वर्णन",
+          "is_correct": false
+        }
+      ],
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.12.017"
+      ]
+    }
+  ]
+}
