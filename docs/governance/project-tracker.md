@@ -13,58 +13,24 @@ Last updated: 2026-10-01
 | Phase 6 | Durable application API & persistence | Complete | docs/architecture/phase-6-durable-api-persistence.md |
 | Phase 7 | Production identity, security & operations | In progress | docs/architecture/phase-7-production-identity-security-operations.md |
 
-## Phase 5 checklist
-- [x] Responsive presentation-layer architecture
-- [x] Shared design tokens and reusable visual patterns
-- [x] Dashboard and learner-facing screen set
-- [x] Assessment, study, practice, progress, planner, notes, notifications, and settings screens
-- [x] Framework-neutral presentation layer
-- [x] Representative data kept separate from domain/persistence contracts
-
-## Phase 6 checklist
-- [x] PostgreSQL assessment and learner-attempt repository
-- [x] PostgreSQL learning-progress repository
-- [x] Live learner-progress HTTP adapter
-- [x] Vercel API wiring with PostgreSQL/SQLite backend selection
-- [x] Health endpoint and operational database check
-- [x] Focused Phase 6 tests
-- [x] Product CI verification
-
-### Latest Phase 6 work
-- Wired durable PostgreSQL storage into the deployed API while preserving SQLite fallback.
-- Added live GET/POST/PUT learner-progress routes.
-- Added operational health reporting for database connectivity and backend selection.
-- Added focused tests covering HTTP adapters, learner API behavior, repositories, and the real HTTP server.
-- GitHub Actions product workflow run #106 completed successfully on the main branch.
-
-## Phase 7 initial checklist
+## Phase 7 checklist
 - [x] Production identity adapter
 - [x] Authenticated principal propagation
 - [x] Learner-resource authorization enforcement
-- [ ] Production CORS and secure error handling
-- [ ] Configuration/readiness validation
+- [x] Production CORS and secure error handling
+- [x] Configuration/readiness validation
 - [ ] Security-focused tests and CI
 - [x] Deployment verification
 
 ### Latest Phase 7 work
-- Added a replaceable Clerk identity adapter using verified session tokens and explicit authorized-party validation.
-- Wired authenticated principals into assessment attempts and learning-progress ownership checks at the Vercel HTTP boundary.
-- Removed wildcard CORS behavior; production can allow one explicit frontend origin through `AAPTOKOSHA_ALLOWED_ORIGIN`.
-- Vercel deployments fail closed when identity is required but no Clerk credentials are configured.
-- Added focused Clerk adapter tests and kept Phase 7 tests in the product CI matrix.
-- Verified the repaired production deployment is READY and its Vercel status is successful for commit `5172a10e8dc9a16983ea0af7fffad9736fd4c31d`.
-- Updated product CI so changes under `api/**` trigger the Phase 2–7 test workflow.
-- Production still requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
-
-## Earlier completed phases
-
-### Phase 4
-- Assessment contracts, persistence, lifecycle, scoring, learner attempt API, analytics/progress integration, and CI verification are complete.
-
-### Phase 3
-- Content resources, publication lifecycle, curriculum-content linking, content API, deterministic search/index boundary, and CI expansion are complete.
-
-### Phase 2
-- Product contracts, catalog read model, application services, persistence boundary, API boundary, identity/authorization boundary, learning progress, notifications, and product CI are complete.
+- Added replaceable Clerk identity adapter with verified session tokens and authorized-party validation.
+- Wired authenticated principals into assessment and learning-progress ownership checks.
+- Removed wildcard CORS; production can allow one explicit frontend origin through `AAPTOKOSHA_ALLOWED_ORIGIN`.
+- Added structured JSON errors, CORS rejection, health/readiness reporting, and fail-closed production identity configuration.
+- Fixed progress-route parsing before ownership checks and added malformed-payload/security-path coverage.
+- Updated product CI so `api/**` changes trigger the Phase 2–7 test workflow.
+- Verified production deployment `dpl_Aybz47q3TB2GkEY1u9BdgjhMTYjw` is READY for commit `f157d0cf7da6acbd42a64b6ff6cf1a68b13a2bc8`; GitHub's Vercel status is successful.
+- The direct main-branch GitHub Actions run is not exposed by the current connector, so the security-focused CI gate remains open until an actual successful Actions run is observable.
+- Production requires `CLERK_SECRET_KEY` or `CLERK_JWT_KEY`, `CLERK_AUTHORIZED_PARTIES`, and (for browser CORS) `AAPTOKOSHA_ALLOWED_ORIGIN`.
 
 Tracker rule: update this file whenever a phase gate changes state.
