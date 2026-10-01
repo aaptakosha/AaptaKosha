@@ -32,7 +32,7 @@ class AssessmentAnalytics:
     best_score: int
     best_percent: int
     latest_score: int | None
-    average_percent: int
+    average_percent: int = 0
 
     def __post_init__(self) -> None:
         if not self.assessment_id.strip():
