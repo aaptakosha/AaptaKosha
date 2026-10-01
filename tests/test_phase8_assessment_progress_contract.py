@@ -28,3 +28,16 @@ def test_progress_ui_excludes_assessment_resources_from_syllabus_percentage():
     source = (ROOT / "frontend" / "progress.js").read_text(encoding="utf-8")
     assert 'resource_type !== "assessment"' in source
     assert "tracked syllabus resources" in source
+
+
+def test_progress_ui_loads_authenticated_assessment_analytics():
+    source = (ROOT / "frontend" / "progress.js").read_text(encoding="utf-8")
+    assert 'request("/analytics")' in source
+    assert "data-assessment-average" in (ROOT / "frontend" / "progress.html").read_text(encoding="utf-8")
+    assert "data-score-list" in source
+
+
+def test_assessment_analytics_route_requires_authenticated_learner_identity():
+    source = (ROOT / "src" / "aaptakosha_core" / "assessment_http_api.py").read_text(encoding="utf-8")
+    assert 'parts == ["analytics"] and method == "GET"' in source
+    assert 'learner_id or str(query["learner_id"])' in source
