@@ -29,6 +29,7 @@ def _api():
         "015_first_professional_padartha_samhita_layout.sql",
         "016_first_professional_sanskrit_history_paper2.sql",
         "017_second_professional_samhita_layout.sql",
+        "018_second_professional_agada_paper1.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -270,3 +271,12 @@ def test_second_professional_samhita_layout_contains_all_54_chapters():
     assert result["data"]["nodes"][41]["code"] == "Cha.Sha.08"
     assert result["data"]["nodes"][42]["code"] == "Cha.In.1"
     assert result["data"]["nodes"][53]["code"] == "Cha.In.12"
+
+
+def test_second_professional_agada_paper1_structure_is_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes("bams_ncism_2", "AyUG-AT", "2021-22", "y2-at-paper1")
+    assert result["status"] == 200
+    assert len(result["data"]["nodes"]) == 20
+    assert result["data"]["nodes"][0]["name"] == "Concepts of Agada Tantra"
+    assert result["data"]["nodes"][-1]["name"] == "Sexual offences"
