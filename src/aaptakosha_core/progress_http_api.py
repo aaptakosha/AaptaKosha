@@ -6,16 +6,29 @@ import json
 from typing import Any
 
 from .progress import LearningProgressService
+from .auth import Principal
 
 
 class ProgressHttpApi:
     """Translate HTTP-like requests into progress service operations."""
 
-    def __init__(self, service: LearningProgressService):
+    def __init__(self, service: LearningProgressService, *, require_identity: bool = False):
         self.service = service
+        self.require_identity = require_identity
 
-    def handle(self, method: str, path: str, body: dict[str, Any] | None = None, query: dict[str, str] | None = None) -> dict[str, Any]:
+    def handle(self, method: str, path: str, body: dict[str, Any] | None = None, query: dict[str, str] | None = None, *, principal: Principal | None = None) -> dict[str, Any]:
         body, query = body or {}, query or {}
+        if self.require_identity and principal is None:
+            return {"status": 401, "error": {"code": "authentication_required"}}
+        subject_id = str(principal.subject_id) if principal is not None else None
+        supplied_subject = str(body.get("subject_id", query.get("subject_id", ""))).strip()
+        if subject_id is not None and supplied_subject and supplied_subject != subject_id:
+            return {"status": 403, "error": {"code": "learner_identity_mismatch"}}
+        if subject_id is not None:
+            if method == "GET" and parts == ["progress"]:
+                query = {**query, "subject_id": subject_id}
+            elif method in {"POST", "PUT"}:
+                body = {**body, "subject_id": subject_id}
         parts = [p for p in path.strip("/").split("/") if p]
 
         if parts == ["progress"] and method == "GET":
