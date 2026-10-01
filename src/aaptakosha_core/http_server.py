@@ -106,7 +106,8 @@ def serve(
     catalog: CatalogApi | None = None,
     hierarchy: CurriculumHierarchyApi | None = None,
 ):
-    routed_api = AaptaKoshaHttpApi(api, catalog, hierarchy) if catalog is not None or hierarchy is not None else api\n    handler=type("ConfiguredAaptaKoshaHandler",(AaptaKoshaRequestHandler,),{"api":routed_api})
+    routed_api = AaptaKoshaHttpApi(api, catalog, hierarchy) if catalog is not None or hierarchy is not None else api
+    handler=type("ConfiguredAaptaKoshaHandler",(AaptaKoshaRequestHandler,),{"api":routed_api})
     server=ThreadingHTTPServer((host,port),handler)
     server.serve_forever()
     return server
