@@ -52,20 +52,27 @@ class handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin","*")
         self.end_headers()
         self.wfile.write(data)
+
     def _handle(self):
         parsed=urlparse(self.path)
+        query={k:v[-1] for k,v in parse_qs(parsed.query).items()}
         path=parsed.path
         if path.startswith("/api"):
             path=path[4:] or "/"
-        query={k:v[-1] for k,v in parse_qs(parsed.query).items()}
+        # Vercel rewrites preserve the original route in the route query parameter.
+        route=query.pop("route", None)
+        if route is not None:
+            path="/" + route.lstrip("/")
         body=None
         length=int(self.headers.get("Content-Length","0"))
         if length:
-            try: body=json.loads(self.rfile.read(length))
+            try:
+                body=json.loads(self.rfile.read(length))
             except (json.JSONDecodeError,UnicodeDecodeError):
                 self._reply(400,json.dumps({"error":{"code":"invalid_json"}})); return
         result=API.handle(self.command,path,body,query)
         self._reply(*API.json_response(result))
+
     def do_GET(self): self._handle()
     def do_POST(self): self._handle()
     def do_PUT(self): self._handle()
