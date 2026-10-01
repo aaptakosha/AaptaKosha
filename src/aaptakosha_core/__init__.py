@@ -20,7 +20,7 @@ from .postgres_repository import PostgresAssessmentRepository, PostgresProgressR
 from .assessment_api import AssessmentApi
 from .assessment_http_api import AssessmentHttpApi
 from .progress_http_api import ProgressHttpApi
-from .http_server import AaptaKoshaRequestHandler, serve
+from .http_server import AaptaKoshaHttpApi, AaptaKoshaRequestHandler, serve
 from .assessment_learning_api import AssessmentLearningApi
 from .assessment_analytics import AssessmentAnalytics, AssessmentAnalyticsService, AssessmentProgressService
 from .assessment_services import (
@@ -84,7 +84,7 @@ __all__ = [
     "ASSESSMENT_PUBLISHED", "QuestionOption", "SUBMITTED", "score_attempt",
     "AssessmentAttemptRepository", "AssessmentRepository", "SQLiteAssessmentRepository",
     "PostgresAssessmentRepository", "PostgresProgressRepository",
-    "AssessmentApi", "AssessmentHttpApi", "ProgressHttpApi", "AssessmentLearningApi", "AaptaKoshaRequestHandler", "serve", "AssessmentAnalytics", "AssessmentAnalyticsService", "AssessmentProgressService", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
+    "AssessmentApi", "AssessmentHttpApi", "ProgressHttpApi", "AssessmentLearningApi", "AaptaKoshaHttpApi", "AaptaKoshaRequestHandler", "serve", "AssessmentAnalytics", "AssessmentAnalyticsService", "AssessmentProgressService", "AssessmentAttemptError", "AssessmentAttemptNotFoundError",
     "AssessmentNotFoundError", "AssessmentService", "AssessmentTransitionError",
     "AuthorizationDeniedError", "ContentNotFoundError", "ContentService",
     "ContentTransitionError", "CurriculumContentLink", "CurriculumContentLinkRepository",
