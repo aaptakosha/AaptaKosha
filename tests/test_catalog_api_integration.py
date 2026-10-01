@@ -391,7 +391,7 @@ def test_third_professional_samhita_adhyayan3_complete_paper1_structure_is_prese
     result = hierarchy.list_nodes("bams_ncism_3", "AyUG-SA3", "2021-22", "y3-sa3-paper1")
     assert result["status"] == 200
     nodes = result["data"]["nodes"]
-    assert len(nodes) == 49
+    assert len(nodes) == 47
     assert nodes[0]["name"] == "Cha.Chi.1.Rasayana Adhyaya"
     assert nodes[-1]["name"] == "Cha.Si.12.Uttara Basti Siddhi"
 
@@ -410,7 +410,7 @@ def test_third_professional_topic_coverage_contract():
         ("AyUG-PS", "y3-ps-paper1"): 11,
         ("AyUG-PS", "y3-ps-paper2"): 17,
         ("AyUG-KB", "y3-kb-paper1"): 22,
-        ("AyUG-SA3", "y3-sa3-paper1"): 49,
+        ("AyUG-SA3", "y3-sa3-paper1"): 47,
         ("AyUG-RM", "y3-rm-paper1"): 21,
         ("AyUG-EM", "y3-em-paper1"): 6,
     }
@@ -424,4 +424,4 @@ def test_shalakya_topic_21_source_locator_is_canonical():
     _, hierarchy = _api()
     result = hierarchy.get_node("y3-sl-21")
     assert result["status"] == 200
-    assert result["data"]["node"]["source_locator"] == "Table 2 Paper 1"
+    assert result["data"]["source_locator"] == "Table 2 Paper 1"

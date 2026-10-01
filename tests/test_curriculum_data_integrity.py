@@ -25,7 +25,7 @@ def test_third_professional_curriculum_data_integrity():
         GROUP BY curriculum_id, subject_id, parent_node_id, code
         HAVING COUNT(*) > 1
     """).fetchall()
-    assert duplicate_codes == []
+    allowed_seed_duplicates = set()\n    assert set(duplicate_codes) == allowed_seed_duplicates
     row = db.execute("""
         SELECT node_id, code, name FROM curriculum_nodes
         WHERE node_id='y3-sa3-17'
