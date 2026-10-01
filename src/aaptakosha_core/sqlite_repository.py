@@ -6,7 +6,7 @@ import sqlite3
 from pathlib import Path
 from typing import Iterable, Tuple
 
-from .catalog import Curriculum, Subject, Topic
+from .catalog import Curriculum, CurriculumNode, Subject, Topic
 
 
 class SQLiteCatalogRepository:
@@ -119,6 +119,72 @@ class SQLiteCatalogRepository:
             (curriculum_id, version, subject_id),
         ).fetchall()
         return tuple(Topic(topic_id=row["topic_id"], name=row["name"]) for row in rows)
+
+    def list_nodes(
+        self,
+        curriculum_id: str,
+        subject_id: str | None = None,
+        version: str | None = None,
+        parent_node_id: str | None = None,
+    ) -> Tuple["CurriculumNode", ...]:
+        resolved_version = self._resolve_version(curriculum_id, version)
+        if resolved_version is None:
+            return ()
+        clauses = ["curriculum_id = ?", "curriculum_version = ?"]
+        params: list[object] = [curriculum_id, resolved_version]
+        if subject_id is not None:
+            clauses.append("subject_id = ?")
+            params.append(subject_id)
+        if parent_node_id is None:
+            clauses.append("parent_node_id IS NULL")
+        else:
+            clauses.append("parent_node_id = ?")
+            params.append(parent_node_id)
+        rows = self.connection.execute(
+            "SELECT node_id, name, node_type, parent_node_id, code "
+            "FROM curriculum_nodes WHERE " + " AND ".join(clauses) +
+            " ORDER BY sort_order, node_id",
+            tuple(params),
+        ).fetchall()
+        return tuple(
+            CurriculumNode(
+                node_id=row["node_id"],
+                name=row["name"],
+                node_type=row["node_type"],
+                parent_node_id=row["parent_node_id"],
+                code=row["code"],
+            )
+            for row in rows
+        )
+
+    def get_node(
+        self,
+        node_id: str,
+        curriculum_id: str | None = None,
+        version: str | None = None,
+    ) -> "CurriculumNode" | None:
+        clauses = ["node_id = ?"]
+        params: list[object] = [node_id]
+        if curriculum_id is not None:
+            resolved_version = self._resolve_version(curriculum_id, version)
+            if resolved_version is None:
+                return None
+            clauses.extend(["curriculum_id = ?", "curriculum_version = ?"])
+            params.extend([curriculum_id, resolved_version])
+        row = self.connection.execute(
+            "SELECT node_id, name, node_type, parent_node_id, code "
+            "FROM curriculum_nodes WHERE " + " AND ".join(clauses),
+            tuple(params),
+        ).fetchone()
+        if row is None:
+            return None
+        return CurriculumNode(
+            node_id=row["node_id"],
+            name=row["name"],
+            node_type=row["node_type"],
+            parent_node_id=row["parent_node_id"],
+            code=row["code"],
+        )
 
     def seed_curriculum(self, curriculum: Curriculum) -> None:
         """Insert a complete snapshot for adapter/bootstrap tests and controlled imports."""
