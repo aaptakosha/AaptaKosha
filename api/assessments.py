@@ -14,8 +14,8 @@ from aaptakosha_core.assessment import Assessment, AssessmentQuestion, QuestionO
 from aaptakosha_core.assessment_http_api import AssessmentHttpApi
 from aaptakosha_core.assessment_learning_api import AssessmentLearningApi
 from aaptakosha_core.assessment_repository import SQLiteAssessmentRepository
-from aaptakosha_core.clerk_identity import build_identity_provider
 from aaptakosha_core.assessment_services import AssessmentService
+from aaptakosha_core.clerk_identity import build_identity_provider
 from aaptakosha_core.postgres_repository import PostgresAssessmentRepository, PostgresProgressRepository
 from aaptakosha_core.progress import LearningProgressService
 from aaptakosha_core.progress_http_api import ProgressHttpApi
@@ -31,39 +31,33 @@ REQUIRE_IDENTITY = bool(os.environ.get("VERCEL")) or os.environ.get("AAPTOKOSHA_
 def _seed_demo(service: AssessmentService, repo) -> None:
     if repo.get("demo-dravyaguna-3") is not None:
         return
-    service.create(
-        Assessment(
-            "demo-dravyaguna-3",
-            "Dravyaguna · Chapter 3 Assessment",
-            curriculum_refs=("subject:dravyaguna",),
-            questions=(
-                AssessmentQuestion(
-                    "q1",
-                    "Which principle is most useful for organising related dravyas during study?",
-                    (
-                        QuestionOption("a", "Memorising each dravya as an isolated fact"),
-                        QuestionOption(
-                            "b",
-                            "Connecting source, properties, action and use",
-                            is_correct=True,
-                        ),
-                        QuestionOption("c", "Studying only the common names"),
-                        QuestionOption("d", "Grouping topics only by page number"),
-                    ),
-                ),
-                AssessmentQuestion(
-                    "q2",
-                    "Which relationship best supports therapeutic application?",
-                    (
-                        QuestionOption("a", "Properties → action → use", is_correct=True),
-                        QuestionOption("b", "Page → chapter → book"),
-                        QuestionOption("c", "Name → spelling → page"),
-                        QuestionOption("d", "Source → index → appendix"),
-                    ),
+    service.create(Assessment(
+        "demo-dravyaguna-3",
+        "Dravyaguna · Chapter 3 Assessment",
+        curriculum_refs=("subject:dravyaguna",),
+        questions=(
+            AssessmentQuestion(
+                "q1",
+                "Which principle is most useful for organising related dravyas during study?",
+                (
+                    QuestionOption("a", "Memorising each dravya as an isolated fact"),
+                    QuestionOption("b", "Connecting source, properties, action and use", is_correct=True),
+                    QuestionOption("c", "Studying only the common names"),
+                    QuestionOption("d", "Grouping topics only by page number"),
                 ),
             ),
-        )
-    )
+            AssessmentQuestion(
+                "q2",
+                "Which relationship best supports therapeutic application?",
+                (
+                    QuestionOption("a", "Properties → action → use", is_correct=True),
+                    QuestionOption("b", "Page → chapter → book"),
+                    QuestionOption("c", "Name → spelling → page"),
+                    QuestionOption("d", "Source → index → appendix"),
+                ),
+            ),
+        ),
+    ))
     service.publish("demo-dravyaguna-3")
 
 
@@ -72,7 +66,6 @@ def build_api():
     database_url = os.environ.get("DATABASE_URL")
     if database_url:
         import psycopg
-
         conn = psycopg.connect(database_url)
         DATABASE_BACKEND = "postgres"
         DATABASE_CONNECTION = conn
@@ -82,7 +75,6 @@ def build_api():
         DATABASE_BACKEND = "sqlite"
         DATABASE_CONNECTION = conn
         repo = SQLiteAssessmentRepository(conn)
-
     repo.apply_migrations()
     progress_repo = PostgresProgressRepository(conn) if database_url else SQLiteProgressRepository(conn)
     progress_repo.apply_migrations()
@@ -121,12 +113,16 @@ class handler(BaseHTTPRequestHandler):
             path = "/" + route.lstrip("/")
 
         if self.command == "OPTIONS":
+            allowed_origin = os.environ.get("AAPTOKOSHA_ALLOWED_ORIGIN", "").strip()
+            request_origin = self.headers.get("Origin", "").strip()
+            if allowed_origin and request_origin and request_origin != allowed_origin:
+                self._reply(403, json.dumps({"error": {"code": "cors_origin_not_allowed"}}))
+                return
             self.send_response(204)
             self.send_header("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")
             self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")
-            origin = os.environ.get("AAPTOKOSHA_ALLOWED_ORIGIN", "").strip()
-            if origin:
-                self.send_header("Access-Control-Allow-Origin", origin)
+            if allowed_origin:
+                self.send_header("Access-Control-Allow-Origin", allowed_origin)
                 self.send_header("Vary", "Origin")
             self.end_headers()
             return
@@ -138,18 +134,18 @@ class handler(BaseHTTPRequestHandler):
                 cursor.fetchone()
                 cursor.execute("SELECT COUNT(*) FROM assessments")
                 assessment_count = cursor.fetchone()[0]
-                self._reply(200, json.dumps({
-                    "status": "ok",
+                configured = IDENTITY_PROVIDER is not None
+                healthy = (not REQUIRE_IDENTITY) or configured
+                self._reply(200 if healthy else 503, json.dumps({
+                    "status": "ok" if healthy else "degraded",
                     "database": DATABASE_BACKEND,
                     "assessment_count": assessment_count,
-                    "identity_provider": "clerk" if IDENTITY_PROVIDER else "unconfigured",
+                    "identity_provider": "clerk" if configured else "unconfigured",
                     "identity_required": REQUIRE_IDENTITY,
+                    "ready": healthy,
                 }))
             except Exception:
-                self._reply(503, json.dumps({
-                    "status": "error",
-                    "database": DATABASE_BACKEND,
-                }))
+                self._reply(503, json.dumps({"status": "error", "code": "readiness_check_failed", "ready": False}))
             return
 
         body = None
@@ -159,6 +155,9 @@ class handler(BaseHTTPRequestHandler):
                 body = json.loads(self.rfile.read(length))
             except (json.JSONDecodeError, UnicodeDecodeError):
                 self._reply(400, json.dumps({"error": {"code": "invalid_json"}}))
+                return
+            if not isinstance(body, dict):
+                self._reply(400, json.dumps({"error": {"code": "invalid_request_body"}}))
                 return
 
         principal = None
@@ -172,13 +171,15 @@ class handler(BaseHTTPRequestHandler):
             self._reply(503, json.dumps({"error": {"code": "identity_provider_not_configured"}}))
             return
 
-        if path == "/progress" or path.startswith("/progress/"):
-            result = PROGRESS_API.handle(self.command, path, body, query, principal=principal)
-            self._reply(*PROGRESS_API.json_response(result))
-            return
+        try:
+            if path == "/progress" or path.startswith("/progress/"):
+                result = PROGRESS_API.handle(self.command, path, body, query, principal=principal)
+            else:
+                result = API.handle(self.command, path, body, query, principal=principal)
+            self._reply(*PROGRESS_API.json_response(result) if path == "/progress" or path.startswith("/progress/") else API.json_response(result))
+        except Exception:
+            self._reply(500, json.dumps({"error": {"code": "internal_server_error"}}))
 
-        result = API.handle(self.command, path, body, query, principal=principal)
-        self._reply(*API.json_response(result))
 
     def do_GET(self):
         self._handle()
@@ -191,4 +192,3 @@ class handler(BaseHTTPRequestHandler):
 
     def do_OPTIONS(self):
         self._handle()
-
