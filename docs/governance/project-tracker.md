@@ -1,6 +1,6 @@
 # AaptaKosha Project Tracker
 
-Last updated: 2026-10-01
+Last updated: 2026-10-02
 
 | Phase | Workstream | Status | Evidence |
 |---|---|---|---|
@@ -38,5 +38,14 @@ Last updated: 2026-10-01
 ### Phase 7 completion evidence
 - Production identity adapter, authenticated principal propagation, learner-resource authorization, CORS/error handling, configuration/readiness validation, security-focused tests, and deployment verification are complete.
 - GitHub Actions product workflow run #122 completed successfully on Python 3.11 and 3.12 through PR #28.
+
+## Charaka Sūtrasthāna SA-1 content pipeline
+- [x] Chapter 7 research manifest and classical source verification
+- [x] Chapter 7 canonical Sanskrit sequence with Hindi translation/टीका layer
+- [x] Chapter 7 20-question revision assessment with canonical content references
+- [x] Chapter 7 content/assessment regression contract
+- [ ] Chapter 7 reader/API wiring and end-to-end learner regression
+- [ ] Chapter 8+ SA-1 chapters
+- [ ] Chapter 13+ remains reserved for SA-2 / Second Professional
 
 Tracker rule: update this file whenever a phase gate changes state.
