@@ -199,8 +199,8 @@ def test_first_professional_kriya_paper2_structure_is_complete():
     assert names[:16] == [
         "Dhatu", "Rasa Dhatu", "Rakta Dhatu", "Mamsa Dhatu", "Meda Dhatu",
         "Asthi Dhatu", "Majja Dhatu", "Shukra Dhatu",
-        "Concept of Ashraya-Ashrayi bhava", "Ojas", "Upadhatu",
-        "Mala", "Indriya vidnyan", "Manas", "Atma", "Nidra & Swapna"
+        "Concept of Ashraya-Ashrayi bhava", "Ojas", "Upadhatu: Stanya, Artava, Tvak",
+        "Mala: Purisha, Mutra, Sveda, Dhatumala", "Indriya Vidnyan", "Manas", "Atma", "Nidra & Swapna"
     ]
     assert names[16:] == [
         "Haemopoetic system", "Immunity",
