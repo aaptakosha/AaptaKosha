@@ -46,11 +46,19 @@
   };
 
   (async () => {
-    if (!r) {
+    try {
+      await window.AaptaKoshaSessionReady;
       const id = new URLSearchParams(location.search).get("attempt_id");
-      if (id) r = await api.result(id);
+      const authenticated = window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated;
+      if (id && (authenticated || !r)) {
+        const live = await api.result(id);
+        if (live) r = live;
+      }
       if (r) localStorage.setItem(key, JSON.stringify(r));
+      paint();
+    } catch (error) {
+      const state = document.querySelector("[data-ui-state]");
+      if (state) window.AaptaKoshaUi?.status(state, error.message || "Unable to load assessment results.", "error");
     }
-    paint();
   })();
 })();
