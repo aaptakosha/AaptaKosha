@@ -26,7 +26,15 @@
   window.AaptaKoshaSessionReady
     ?.then(loadProgress)
     .then((data) => renderProgress(data.progress || []))
-    .catch(() => {
-      // Keep designed fallback values when the API is unavailable or the learner is signed out.
+    .catch((error) => {
+      const state = document.querySelector("[data-ui-state]");
+      const authenticated = window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated;
+      if (state && (authenticated || window.AAPTAKOSHA_API_BASE)) {
+        window.AaptaKoshaUi?.status(
+          state,
+          error.message || "Unable to load progress.",
+          "error"
+        );
+      }
     });
 })();
