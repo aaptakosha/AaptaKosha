@@ -58,6 +58,7 @@
       return live.data;
     }
 
+    if (id === "charaka.sutra.01.ncism-revision") throw new Error("Chapter 1 NCISM assessment is temporarily unavailable. Please try again.");
     const assessment = DEMO.assessment;
     const attempt = {
       attempt_id: "demo-" + Date.now(),

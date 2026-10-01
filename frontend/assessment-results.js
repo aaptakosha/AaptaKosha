@@ -13,8 +13,8 @@
     return match ? match.text : "";
   };
 
-  const paint = () => {
-    if (!r) return;
+  const bindActions = () => { document.querySelector("#reviewAnswers")?.addEventListener("click",()=>document.querySelector(".review")?.scrollIntoView({behavior:"smooth"})); document.querySelector("#continueLearning")?.addEventListener("click",()=>location.href="./samhita-study.html?chapter=charaka.sutra.01"); };\n\n  const paint = () => {
+    if (!r) return;\n    bindActions();
     const p = r.percent || 0;
     document.querySelector(".result-hero .eyebrow").textContent = "Completed · " + r.assessment.title;
     document.querySelector(".result-hero p").textContent = `You scored ${r.score} of ${r.maximum_score}. Review the questions below to strengthen your next attempt.`;
@@ -24,6 +24,17 @@
 
     const host = document.querySelector(".review");
     const bad = (r.breakdown || []).filter((item) => !item.is_correct);
+    const weakHost = document.querySelector("#weakShlokaList");
+    if (weakHost) {
+      const refs = [];
+      bad.forEach((item) => (item.content_refs || []).forEach((ref) => {
+        const match = ref.match(/^(charaka\\.sutra\\.01)\\.(\\d{3})$/);
+        if (match && !refs.some((x) => x.verse === Number(match[2]))) refs.push({ verse: Number(match[2]), ref });
+      }));
+      weakHost.innerHTML = refs.length
+        ? refs.map((item) => `<a class="weak-card" href="./samhita-study.html?chapter=charaka.sutra.01&verse=${item.verse}"><span class="weak-number">श्लोक ${item.verse}</span><span><strong>पुनः पढ़ें और revise करें</strong><small>Canonical Chapter 1 content</small></span><span>→</span></a>`).join("")
+        : '<div class="weak-empty">इस attempt में कोई गलत NCISM shloka नहीं मिला। Chapter 1 revision फिर भी जारी रख सकते हैं।</div>';
+    }
     host.querySelectorAll("article").forEach((item) => item.remove());
 
     bad.forEach((item, n) => {
