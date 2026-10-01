@@ -87,8 +87,8 @@ The database now supports the full hierarchy:
 **Professional Year -> Subject -> Paper -> Unit/Chapter -> Topic**.
 
 A first source-verified structural batch has been added for:
-- 1st Professional: AyUG-PV, AyUG-RS, AyUG-KS
-- 2nd Professional: AyUG-RB, AyUG-AT, AyUG-SA2, AyUG-DG, AyUG-SW
+- 1st Professional: AyUG-PV, AyUG-RS, AyUG-KS, AyUG-SA1 (verified structural chapter layout)
+- 2nd Professional: AyUG-RB, AyUG-AT, AyUG-SA2, AyUG-DG, AyUG-SW (AyUG-SA2 now includes all 54 prescribed chapters)
 
 The nodes store the NCISM source reference, source locator, term, marks, lecture hours and non-lecture hours where the source table provides them.
 
