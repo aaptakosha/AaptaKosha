@@ -154,6 +154,9 @@ class handler(BaseHTTPRequestHandler):
         self._handle()
 
     def do_OPTIONS(self):
+        self._handle()
+
+    def do_OPTIONS(self):
         self.send_response(204)
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS")
