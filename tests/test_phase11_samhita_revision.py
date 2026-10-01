@@ -66,3 +66,11 @@ def test_revision_recommendations_remove_mastered_refs():
         "learner", content_id="charaka.sutra.01"
     )
     assert rows == ()
+
+
+def test_revision_api_and_results_keep_canonical_refs():
+    learning_api = (ROOT / "src" / "aaptakosha_core" / "assessment_learning_api.py").read_text(encoding="utf-8")
+    http_api = (ROOT / "src" / "aaptakosha_core" / "assessment_http_api.py").read_text(encoding="utf-8")
+    assert '"content_refs": list(question.content_refs)' in learning_api
+    assert 'parts == ["revision"]' in http_api
+    assert 'content_id=query.get("content_id")' in http_api
