@@ -330,3 +330,16 @@ def test_third_professional_kaumarabhritya_paper1_structure_is_present():
     assert len(result["data"]["nodes"]) == 9
     assert result["data"]["nodes"][0]["name"] == "Introduction to Kaumarabhritya"
     assert result["data"]["nodes"][-1]["name"].startswith("Graha Rogas")
+
+
+def test_migration_chain_includes_third_professional_cleanup():
+    source = Path("api/catalog.py").read_text(encoding="utf-8")
+    assert "032_third_professional_sa3_structure.sql" in source
+    assert "033_third_professional_source_quality_cleanup.sql" in source
+
+
+def test_sa3_provisional_topic_rows_are_not_seeded_after_cleanup():
+    source = Path("migrations/033_third_professional_source_quality_cleanup.sql").read_text(encoding="utf-8")
+    assert "DELETE FROM curriculum_nodes" in source
+    assert "y3-sa3-samhita-charaka" in source
+    assert "y3-em-1" in source
