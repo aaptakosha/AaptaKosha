@@ -40,6 +40,7 @@
         await clerk.load();
         authenticated = Boolean(clerk.isSignedIn && clerk.session);
         window.AaptaKoshaAuth = {
+          subjectId: clerk.user ? clerk.user.id : null,
           getToken: () => clerk.session ? clerk.session.getToken() : null,
           openSignIn: () => clerk.openSignIn(),
           openUserProfile: () => clerk.openUserProfile()

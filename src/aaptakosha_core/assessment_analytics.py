@@ -32,6 +32,7 @@ class AssessmentAnalytics:
     best_score: int
     best_percent: int
     latest_score: int | None
+    average_percent: int = 0
 
     def __post_init__(self) -> None:
         if not self.assessment_id.strip():
@@ -50,6 +51,8 @@ class AssessmentAnalytics:
             raise ValueError("best_percent must be between 0 and 100")
         if self.latest_score is not None and not 0 <= self.latest_score <= self.maximum_score:
             raise ValueError("latest_score must be within the maximum score")
+        if not 0 <= self.average_percent <= 100:
+            raise ValueError("average_percent must be between 0 and 100")
 
 
 class AssessmentAnalyticsService:
@@ -84,6 +87,7 @@ class AssessmentAnalyticsService:
         scores = tuple(self._score(assessment, attempt) for attempt in submitted)
         best_score = max(scores, default=0)
         latest_score = scores[-1] if scores else None
+        average_percent = round(sum(scores) * 100 / (len(scores) * maximum_score)) if scores and maximum_score else 0
         best_percent = round(best_score * 100 / maximum_score) if maximum_score else 0
 
         return AssessmentAnalytics(
@@ -95,6 +99,7 @@ class AssessmentAnalyticsService:
             best_score=best_score,
             best_percent=best_percent,
             latest_score=latest_score,
+            average_percent=average_percent,
         )
 
     def for_learner(self, learner_id: str) -> Tuple[AssessmentAnalytics, ...]:

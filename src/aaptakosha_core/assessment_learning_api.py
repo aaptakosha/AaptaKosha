@@ -65,6 +65,35 @@ class AssessmentLearningApi:
             },
         }
 
+    def learner_analytics(self, learner_id: str) -> dict[str, Any]:
+        analytics = AssessmentAnalyticsService(
+            self.service.assessment_repository,
+            self.service.attempt_repository,
+        ).for_learner(learner_id)
+        submitted = [item for item in analytics if item.submitted_attempt_count]
+        total_attempts = sum(item.submitted_attempt_count for item in analytics)
+        weighted_percent = sum(item.average_percent * item.submitted_attempt_count for item in submitted)
+        average_percent = round(weighted_percent / total_attempts) if total_attempts else 0
+        return {
+            "status": 200,
+            "data": {
+                "assessment_count": len(analytics),
+                "attempt_count": total_attempts,
+                "average_percent": average_percent,
+                "assessments": [
+                    {
+                        "assessment_id": item.assessment_id,
+                        "attempt_count": item.submitted_attempt_count,
+                        "best_score": item.best_score,
+                        "best_percent": item.best_percent,
+                        "latest_score": item.latest_score,
+                        "maximum_score": item.maximum_score,
+                    }
+                    for item in analytics
+                ],
+            },
+        }
+
     def start(self, assessment_id: str, learner_id: str) -> dict[str, Any]:
         assessment = self.service.get(assessment_id)
         if assessment.status != PUBLISHED:

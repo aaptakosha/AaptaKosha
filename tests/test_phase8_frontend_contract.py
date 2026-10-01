@@ -42,3 +42,49 @@ def test_clerk_session_bootstrap_uses_safe_config_and_sdk():
     assert 'CLERK_PUBLISHABLE_KEY' in api
     assert 'CLERK_SECRET_KEY' not in session
     assert 'clerk_publishable_key' in api
+
+
+def test_authenticated_flows_do_not_accept_browser_selected_learner_ids():
+    flow = read("assessment-flow.js")
+    progress = read("progress.js")
+    session = read("session.js")
+    assert "AAPTAKOSHA_LEARNER_ID" not in flow
+    assert 'requestLearnerPayload()' in flow
+    assert '"/progress"' in progress
+    assert '"/progress?subject_id=' not in progress
+    assert 'window.AAPTAKOSHA_API_BASE || (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)' in flow
+    assert 'subjectId: clerk.user ? clerk.user.id : null' in session
+    assert 'authenticated || window.AAPTAKOSHA_API_BASE' in progress
+    assert 'window.AaptaKoshaUi?.status' in progress
+
+def test_backend_identity_boundary_is_authoritative():
+    root = Path(__file__).parents[1]
+    assessment = (root / "src" / "aaptakosha_core" / "assessment_http_api.py").read_text(encoding="utf-8")
+    progress = (root / "src" / "aaptakosha_core" / "progress_http_api.py").read_text(encoding="utf-8")
+
+    assert "require_identity" in assessment
+    assert '"authentication_required"' in assessment
+    assert "principal.subject_id" in assessment
+    assert '"learner_identity_mismatch"' in assessment
+    assert "require_identity" in progress
+    assert '"authentication_required"' in progress
+    assert "principal.subject_id" in progress
+    assert '"learner_identity_mismatch"' in progress
+
+def test_results_refresh_prefers_authenticated_live_result_and_surfaces_failures():
+    js = read("assessment-results.js")
+    html = read("assessment-results.html")
+    assert "window.AaptaKoshaSessionReady" in js
+    assert "authenticated || !r" in js
+    assert "const live = await api.result(id)" in js
+    assert 'window.AaptaKoshaUi?.status' in js
+    assert 'src="./ui-state.js"' in html
+    assert 'data-ui-state' in html
+
+def test_vercel_entrypoint_requires_identity_and_keeps_secret_server_side():
+    root = Path(__file__).parents[1]
+    entrypoint = (root / "api" / "assessments.py").read_text(encoding="utf-8")
+    assert "REQUIRE_IDENTITY" in entrypoint
+    assert 'os.environ.get("VERCEL")' in entrypoint
+    assert 'CLERK_SECRET_KEY' not in entrypoint.split('publishable_key =', 1)[0]
+    assert '"identity_provider_not_configured"' in entrypoint
