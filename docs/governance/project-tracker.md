@@ -11,6 +11,7 @@ Last updated: 2026-10-01
 | Phase 4 | Assessment & learner experience | Complete | docs/architecture/phase-4-assessment-learner-experience.md |
 | Phase 5 | UI/UX presentation layer | Complete | docs/architecture/phase-5-ui.md |
 | Phase 6 | Durable application API & persistence | Complete | docs/architecture/phase-6-durable-api-persistence.md |
+| Phase 7 | Production identity, security & operations | In progress | docs/architecture/phase-7-production-identity-security-operations.md |
 
 ## Phase 5 checklist
 - [x] Responsive presentation-layer architecture
@@ -35,6 +36,15 @@ Last updated: 2026-10-01
 - Added operational health reporting for database connectivity and backend selection.
 - Added focused tests covering HTTP adapters, learner API behavior, repositories, and the real HTTP server.
 - GitHub Actions product workflow run #106 completed successfully on the main branch.
+
+## Phase 7 initial checklist
+- [ ] Production identity adapter
+- [ ] Authenticated principal propagation
+- [ ] Learner-resource authorization enforcement
+- [ ] Production CORS and secure error handling
+- [ ] Configuration/readiness validation
+- [ ] Security-focused tests and CI
+- [ ] Deployment verification
 
 ## Earlier completed phases
 
