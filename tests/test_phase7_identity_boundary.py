@@ -55,11 +55,27 @@ def test_progress_identity_is_bound_to_subject():
         "status": IN_PROGRESS, "completion_percent": 40,
     }, principal=principal)
     assert saved["status"] == 200
+    listed = api.handle("GET", "/progress", {}, {}, principal=principal)
+    assert listed["status"] == 200
+    assert listed["progress"][0]["subject_id"] == "l1"
     mismatch = api.handle("POST", "/progress", {
         "subject_id": "l2", "resource_type": "topic", "resource_id": "dg-2",
         "status": IN_PROGRESS, "completion_percent": 10,
     }, principal=principal)
     assert mismatch["status"] == 403
+
+
+def test_progress_path_identity_is_bound_to_subject():
+    api = progress_api()
+    principal = Principal("l1")
+    mismatch = api.handle("GET", "/progress/l2/topic/dg-2", {}, {}, principal=principal)
+    assert mismatch["status"] == 403
+
+
+def test_progress_invalid_payload_is_client_error():
+    api = progress_api(require_identity=False)
+    result = api.handle("POST", "/progress", {"subject_id": "l1"})
+    assert result["status"] == 400
 
 
 def test_legacy_local_mode_remains_available():
