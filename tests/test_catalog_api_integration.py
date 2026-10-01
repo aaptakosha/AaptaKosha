@@ -28,6 +28,7 @@ def _api():
         "014_correct_kriya_paper2_partb.sql",
         "015_first_professional_padartha_samhita_layout.sql",
         "016_first_professional_sanskrit_history_paper2.sql",
+        "017_second_professional_samhita_layout.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -250,3 +251,22 @@ def test_first_professional_samhita_advisory_structure_is_complete():
         "Ch Su.11 Tisraishaniya Adhyaya",
         "Ch Su.12 Vatakalakaliya Adhyaya",
     ]
+
+
+def test_second_professional_samhita_layout_contains_all_54_chapters():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes(
+        "bams_ncism_2", "AyUG-SA2", "2021-22", "y2-sa2-paper1"
+    )
+    assert result["status"] == 200
+    assert len(result["data"]["nodes"]) == 54
+    assert result["data"]["nodes"][0]["code"] == "Cha.Su.13"
+    assert result["data"]["nodes"][17]["code"] == "Cha.Su.30"
+    assert result["data"]["nodes"][18]["code"] == "Cha.Ni.01"
+    assert result["data"]["nodes"][25]["code"] == "Cha.Ni.08"
+    assert result["data"]["nodes"][26]["code"] == "Cha.Vi.01"
+    assert result["data"]["nodes"][33]["code"] == "Cha.Vi.08"
+    assert result["data"]["nodes"][34]["code"] == "Cha.Sha.01"
+    assert result["data"]["nodes"][41]["code"] == "Cha.Sha.08"
+    assert result["data"]["nodes"][42]["code"] == "Cha.In.1"
+    assert result["data"]["nodes"][53]["code"] == "Cha.In.12"
