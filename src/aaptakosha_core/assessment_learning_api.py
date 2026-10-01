@@ -143,6 +143,8 @@ class AssessmentLearningApi:
             correct = [o.option_id for o in question.options if o.is_correct]
             breakdown.append({
                 "question_id": question.question_id,
+                "prompt": question.prompt,
+                "options": [{"option_id": o.option_id, "text": o.text} for o in question.options],
                 "selected_option_ids": selected,
                 "correct_option_ids": correct,
                 "is_correct": set(selected) == set(correct),
