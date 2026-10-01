@@ -5,8 +5,8 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from .progress import LearningProgressService
 from .auth import Principal
+from .progress import LearningProgressService
 
 
 class ProgressHttpApi:
@@ -16,8 +16,17 @@ class ProgressHttpApi:
         self.service = service
         self.require_identity = require_identity
 
-    def handle(self, method: str, path: str, body: dict[str, Any] | None = None, query: dict[str, str] | None = None, *, principal: Principal | None = None) -> dict[str, Any]:
+    def handle(
+        self,
+        method: str,
+        path: str,
+        body: dict[str, Any] | None = None,
+        query: dict[str, str] | None = None,
+        *,
+        principal: Principal | None = None,
+    ) -> dict[str, Any]:
         body, query = body or {}, query or {}
+        parts = [p for p in path.strip("/").split("/") if p]
         if self.require_identity and principal is None:
             return {"status": 401, "error": {"code": "authentication_required"}}
         subject_id = str(principal.subject_id) if principal is not None else None
@@ -30,7 +39,6 @@ class ProgressHttpApi:
                 query = {**query, "subject_id": subject_id}
             elif method in {"POST", "PUT"}:
                 body = {**body, "subject_id": subject_id}
-        parts = [p for p in path.strip("/").split("/") if p]
 
         if parts == ["progress"] and method == "GET":
             subject_id = str(query.get("subject_id", "")).strip()
