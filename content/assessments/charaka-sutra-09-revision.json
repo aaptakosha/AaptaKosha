@@ -1,0 +1,610 @@
+{
+  "assessment_id": "charaka.sutra.09.revision",
+  "title_hi": "खुड्डाकचतुष्पाद अध्याय — Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "charaka.sutra.09.q01",
+      "prompt_hi": "चिकित्सा के चार पाद कौन हैं?",
+      "content_refs": [
+        "charaka.sutra.09.003"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "भिषक्, द्रव्य, उपस्थाता, रोगी",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मन, बुद्धि, आत्मा, इन्द्रिय",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "दोष, धातु, मल, अग्नि",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "रस, रक्त, मांस, मेद",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q02",
+      "prompt_hi": "विकार और आरोग्य के संबंध में अध्याय क्या बताता है?",
+      "content_refs": [
+        "charaka.sutra.09.004"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "धातुवैषम्य विकार और साम्य प्रकृति/आरोग्य से सम्बद्ध है",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "आरोग्य केवल औषधि से होता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "विकार केवल मन से होता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "आरोग्य केवल ऋतु से होता है",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q03",
+      "prompt_hi": "चिकित्सा की परिभाषा किससे जुड़ी है?",
+      "content_refs": [
+        "charaka.sutra.09.005"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "चारों पादों की धातुसाम्यार्थ प्रवृत्ति से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल औषधि से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल रोगी से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल परिचारक से",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q04",
+      "prompt_hi": "वैद्य के चार गुण कौन-से हैं?",
+      "content_refs": [
+        "charaka.sutra.09.006"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "श्रुत/ज्ञान, पर्यवदातत्व, दाक्ष्य और शौच",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "बहुता, अनुराग, स्मृति, प्रीति",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "स्मृति, शौच, निद्रा, दान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "औषधि, आहार, निद्रा, व्यायाम",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q05",
+      "prompt_hi": "द्रव्य के चार गुणों में कौन-सा समूह है?",
+      "content_refs": [
+        "charaka.sutra.09.007"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "बहुता, योग्यत्व, अनेकविधकल्पना, सम्पत्",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "स्मृति, निर्देश, अभीरुत्व, ज्ञापकत्व",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "मैत्री, करुणा, प्रीति, उपेक्षा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "श्रुत, दाक्ष्य, शौच, अनुराग",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q06",
+      "prompt_hi": "परिचारक के गुणों में क्या आता है?",
+      "content_refs": [
+        "charaka.sutra.09.008"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "उपचारज्ञता, दाक्ष्य, अनुराग और शौच",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "बहुता, योग्यत्व, सम्पत् और स्मृति",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "हेतु, लिङ्ग, प्रशमन और अपुनर्भव",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "विद्या, मति, अभ्यास और सिद्धि",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q07",
+      "prompt_hi": "आतुर के चार गुणों में क्या है?",
+      "content_refs": [
+        "charaka.sutra.09.009"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "स्मृति, निर्देशकारित्व, अभीरुत्व और ज्ञापकत्व",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "बहुता, योग्यत्व, सम्पत् और कल्पना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "मैत्री, करुणा, प्रीति और उपेक्षा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "श्रुत, दाक्ष्य, शौच और अनुराग",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q08",
+      "prompt_hi": "चिकित्सा में वैद्य को प्रधान क्यों कहा गया है?",
+      "content_refs": [
+        "charaka.sutra.09.010"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "वह विज्ञाता, शासिता और योक्ता की भूमिका निभाता है",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "वह केवल औषधि देता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "वह केवल रोगी का सेवक है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "वह केवल भोजन बनाता है",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q09",
+      "prompt_hi": "कुम्भकार का दृष्टान्त किस बात को समझाता है?",
+      "content_refs": [
+        "charaka.sutra.09.013"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "वैद्य के बिना अन्य तीन पाद पर्याप्त नहीं होते",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "रोगी ही अकेला प्रधान है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "औषधि की आवश्यकता नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "परिचारक अनावश्यक है",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q10",
+      "prompt_hi": "अध्याय में अज्ञ वैद्य के बारे में क्या चेतावनी है?",
+      "content_refs": [
+        "charaka.sutra.09.015"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अज्ञानपूर्वक चिकित्सा न करना चाहिए",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "हर रोग में स्वयं उपचार करना चाहिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "शास्त्र की आवश्यकता नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अनुभव आवश्यक नहीं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q11",
+      "prompt_hi": "श्रेष्ठ वैद्य के लिए चार प्रकार का ज्ञान किससे जुड़ा है?",
+      "content_refs": [
+        "charaka.sutra.09.019"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "हेतु, लिङ्ग, प्रशमन और रोगों के अपुनर्भव से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल औषधि-संग्रह से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल आहार से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल निद्रा से",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q12",
+      "prompt_hi": "वैद्य के षड्गुण कौन-से हैं?",
+      "content_refs": [
+        "charaka.sutra.09.021"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "विद्या, वितर्क, विज्ञान, स्मृति, तत्परता और क्रिया",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मैत्री, करुणा, प्रीति, उपेक्षा, दान, शौच",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "बहुता, योग्यत्व, कल्पना, सम्पत्, स्मृति, शौच",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "हेतु, लिङ्ग, रोग, आरोग्य, निद्रा, आहार",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q13",
+      "prompt_hi": "वैद्यशब्द की निष्पत्ति के लिए किन गुणों में से एक भी पर्याप्त बताया गया है?",
+      "content_refs": [
+        "charaka.sutra.09.022"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "विद्या, मति, कर्मदृष्टि, अभ्यास, सिद्धि या आश्रय में से एक",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल धन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल आयु",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल वंश",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q14",
+      "prompt_hi": "सभी शुभ वैद्यगुणों से युक्त व्यक्ति को क्या कहा गया है?",
+      "content_refs": [
+        "charaka.sutra.09.023"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "प्राणिसुखप्रद वैद्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल परिचारक",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषधकार",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल रोगी",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q15",
+      "prompt_hi": "शास्त्र और बुद्धि का रूपक क्या है?",
+      "content_refs": [
+        "charaka.sutra.09.024"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "शास्त्र ज्योति और बुद्धि दर्शन के समान",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "शास्त्र औषधि और बुद्धि आहार के समान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "दोनों रोग के समान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "दोनों केवल उपकरण हैं",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q16",
+      "prompt_hi": "वैद्य को अपने गुणों के विकास के लिए क्या करना चाहिए?",
+      "content_refs": [
+        "charaka.sutra.09.025"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "निरन्तर प्रयत्न करना चाहिए",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "प्रयत्न छोड़ देना चाहिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल रोगी पर निर्भर रहना चाहिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल औषधि पर निर्भर रहना चाहिए",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q17",
+      "prompt_hi": "वैद्य की चार वृत्तियाँ कौन-सी हैं?",
+      "content_refs": [
+        "charaka.sutra.09.026"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "मैत्री, कारुण्य, शक्ये प्रीति और प्रकृतिस्थेषु उपेक्षा",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "स्मृति, शौच, बहुता और दाक्ष्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "विद्या, मति, सिद्धि और आश्रय",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "हेतु, लिङ्ग, प्रशमन और अपुनर्भव",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q18",
+      "prompt_hi": "चतुष्पाद के प्रत्येक पाद में कितने गुण बताए गए हैं?",
+      "content_refs": [
+        "charaka.sutra.09.027"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "चार",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "दो",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "छः",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "आठ",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q19",
+      "prompt_hi": "अध्याय का मुख्य केन्द्र क्या है?",
+      "content_refs": [
+        "charaka.sutra.09.028"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "चिकित्सा के चार पाद, उनके गुण और वैद्य की प्रधानता",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल ऋतुचर्या",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल आहारमात्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल इन्द्रिय-पञ्चपञ्चक",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    },
+    {
+      "question_id": "charaka.sutra.09.q20",
+      "prompt_hi": "NCISM के अनुसार Chapter 9 में कौन-सा अतिरिक्त विषय स्पष्ट रूप से सूचीबद्ध है?",
+      "content_refs": [
+        "charaka.sutra.09.004"
+      ],
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "Roga-Arogya Lakshana",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "धूमपान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "नस्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अभ्यंग",
+          "is_correct": false
+        }
+      ],
+      "explanation_hi": "यह प्रश्न अध्याय 9 के मूल पाठ और NCISM अध्ययन-विषय से सम्बद्ध है।"
+    }
+  ]
+}
