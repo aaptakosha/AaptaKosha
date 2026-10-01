@@ -5,7 +5,7 @@
   try { r = JSON.parse(localStorage.getItem(key) || "null"); } catch {}
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", """: "&quot;", "'": "&#39;"
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   }[char]));
 
   const optionText = (item, ids) => {
