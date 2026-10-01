@@ -1,4 +1,21 @@
-from aaptakosha_core import Curriculum, Subject, Topic
+from aaptakosha_core import Curriculum, CurriculumNode, Subject, Topic
+
+
+def test_curriculum_node_supports_nested_ncism_structure():
+    paper = CurriculumNode("P-1", "Paper I", "paper")
+    unit = CurriculumNode("U-1", "Unit 1", "unit", parent_node_id=paper.node_id)
+    chapter = CurriculumNode("C-1", "Chapter 1", "chapter", parent_node_id=unit.node_id, code="Cha.Su.13")
+    assert chapter.parent_node_id == "U-1"
+    assert chapter.code == "Cha.Su.13"
+
+
+def test_curriculum_node_rejects_unknown_type():
+    try:
+        CurriculumNode("X-1", "Invalid", "section")
+    except ValueError as exc:
+        assert "node_type" in str(exc)
+    else:
+        raise AssertionError("unknown node types must be rejected")
 
 
 def test_catalog_contract_is_immutable_and_structured():
