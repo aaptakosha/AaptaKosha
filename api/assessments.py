@@ -31,7 +31,7 @@ def _load_samhita(content_id: str):
         chapter_no = int(content_id.rsplit(".", 1)[-1])
     except ValueError:
         return None
-    if chapter_no not in {1, 2, 3, 4, 5}:
+    if chapter_no not in {1, 2, 3, 4, 5, 6, 7}:
         return None
     path = os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
     if not os.path.exists(path):
