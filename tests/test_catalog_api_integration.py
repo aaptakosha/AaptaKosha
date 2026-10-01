@@ -30,6 +30,7 @@ def _api():
         "016_first_professional_sanskrit_history_paper2.sql",
         "017_second_professional_samhita_layout.sql",
         "018_second_professional_agada_paper1.sql",
+        "019_second_professional_roga_nidan_paper1.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -280,3 +281,12 @@ def test_second_professional_agada_paper1_structure_is_present():
     assert len(result["data"]["nodes"]) == 20
     assert result["data"]["nodes"][0]["name"] == "Concepts of Agada Tantra"
     assert result["data"]["nodes"][-1]["name"] == "Sexual offences"
+
+
+def test_second_professional_roga_nidan_paper1_structure_is_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes("bams_ncism_2", "AyUG-RN", "2021-22", "y2-rn-paper1")
+    assert result["status"] == 200
+    assert len(result["data"]["nodes"]) == 28
+    assert result["data"]["nodes"][0]["name"].startswith("Roga nidana")
+    assert result["data"]["nodes"][-1]["name"].startswith("Digital health")
