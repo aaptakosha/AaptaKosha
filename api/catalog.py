@@ -36,6 +36,8 @@ for migration in (
     "029_third_professional_kayachikitsa_panchakarma_topics.sql",
     "030_third_professional_shalya_shalakya_metadata.sql",
     "031_third_professional_sa3_rm_em_verified_metadata.sql",
+    "032_third_professional_sa3_structure.sql",
+    "033_third_professional_source_quality_cleanup.sql",
 ):
     REPO.apply_migrations(ROOT / "migrations" / migration)
 
