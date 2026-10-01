@@ -24,6 +24,23 @@ class AssessmentHttpApi:
         if learner_id is not None and "learner_id" in query and str(query["learner_id"]) != learner_id:
             return {"status": 403, "error": {"code": "learner_identity_mismatch"}}
         parts = [p for p in path.strip("/").split("/") if p]
+        if parts == ["revision"] and method == "GET":
+            revision_learner_id = learner_id or query.get("learner_id")
+            if not revision_learner_id:
+                return {"status": 401, "error": {"code": "authentication_required"}}
+            try:
+                limit = int(query.get("limit", "20"))
+            except ValueError:
+                return {"status": 400, "error": {"code": "invalid_limit"}}
+            try:
+                return self.api.revision_recommendations(
+                    str(revision_learner_id),
+                    content_id=query.get("content_id"),
+                    limit=limit,
+                )
+            except ValueError:
+                return {"status": 400, "error": {"code": "invalid_revision_request"}}
+
         if parts == ["analytics"] and method == "GET":
             analytics_learner_id = learner_id or query.get("learner_id")
             if not analytics_learner_id:
