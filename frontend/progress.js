@@ -3,7 +3,7 @@
 
   async function loadProgress() {
     if (!window.AaptaKoshaApi) throw new Error("API client unavailable");
-    return window.AaptaKoshaApi.request("/progress?subject_id=" + encodeURIComponent(SUBJECT));
+    return window.AaptaKoshaApi.request("/progress");
   }
 
   function renderProgress(items) {
