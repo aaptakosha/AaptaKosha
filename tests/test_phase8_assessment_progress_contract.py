@@ -22,3 +22,9 @@ def test_results_page_uses_real_progress_and_notes_routes():
     assert 'href="./notes.html"' in html
     assert 'href="#progress"' not in html
     assert 'href="#notes"' not in html
+
+
+def test_progress_ui_excludes_assessment_resources_from_syllabus_percentage():
+    source = (ROOT / "frontend" / "progress.js").read_text(encoding="utf-8")
+    assert 'resource_type !== "assessment"' in source
+    assert "tracked syllabus resources" in source
