@@ -205,7 +205,7 @@ def test_first_professional_kriya_paper2_structure_is_complete():
     assert names[16:] == [
         "Haemopoetic system", "Immunity",
         "Physiology of cardio-vascular system", "Muscle physiology",
-        "Adipose tissue", "Physiology of male and female reproductive systems",
+        "Adipose tissue", "Physiology of male and female reproductive system",
         "Physiology of Excretion", "Special Senses, Sleep and Dreams"
     ]
 def test_first_professional_sanskrit_history_paper2_partitions():
