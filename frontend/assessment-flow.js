@@ -36,7 +36,7 @@
     try {
       return await window.AaptaKoshaApi.request(path, options);
     } catch (error) {
-      if (window.AAPTAKOSHA_API_BASE) throw error;
+      if (window.AAPTAKOSHA_API_BASE || (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)) throw error;
       return null;
     }
   }
