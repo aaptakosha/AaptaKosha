@@ -10,7 +10,7 @@ from typing import Any
 from uuid import uuid4
 
 from .assessment import AssessmentAttempt, IN_PROGRESS, PUBLISHED, SUBMITTED, score_attempt
-from .assessment_analytics import AssessmentAnalyticsService
+from .assessment_analytics import AssessmentAnalyticsService, AssessmentRevisionService
 from .assessment_services import (
     AssessmentAttemptError,
     AssessmentAttemptNotFoundError,
@@ -91,6 +91,25 @@ class AssessmentLearningApi:
                     }
                     for item in analytics
                 ],
+            },
+        }
+
+    def revision_recommendations(
+        self,
+        learner_id: str,
+        *,
+        content_id: str | None = None,
+        limit: int = 20,
+    ) -> dict[str, Any]:
+        recommendations = AssessmentRevisionService(
+            self.service.assessment_repository,
+            self.service.attempt_repository,
+        ).recommendations(learner_id, content_id=content_id, limit=limit)
+        return {
+            "status": 200,
+            "data": {
+                "content_id": content_id,
+                "recommendations": list(recommendations),
             },
         }
 
@@ -179,6 +198,7 @@ class AssessmentLearningApi:
                 "is_correct": set(selected) == set(correct),
                 "points": question.points if set(selected) == set(correct) else 0,
                 "maximum_points": question.points,
+                "content_refs": list(question.content_refs),
             })
         analytics = AssessmentAnalyticsService(
             self.service.assessment_repository,

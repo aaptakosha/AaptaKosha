@@ -166,8 +166,77 @@ class AssessmentProgressService:
         )
 
 
+class AssessmentRevisionService:
+    """Derives weak canonical content refs from submitted assessment performance."""
+
+    def __init__(
+        self,
+        assessment_repository: AssessmentRepository,
+        attempt_repository: AssessmentAttemptRepository,
+    ):
+        self.assessment_repository = assessment_repository
+        self.attempt_repository = attempt_repository
+
+    def recommendations(
+        self,
+        learner_id: str,
+        *,
+        content_id: str | None = None,
+        limit: int = 20,
+    ) -> Tuple[dict, ...]:
+        if not learner_id.strip():
+            raise ValueError("learner_id must not be empty")
+        if limit <= 0:
+            raise ValueError("limit must be greater than zero")
+
+        stats: dict[str, list[int]] = {}
+        submitted_attempt_count = 0
+        for attempt in self.attempt_repository.list_for_learner(learner_id):
+            if attempt.status != SUBMITTED:
+                continue
+            assessment = self.assessment_repository.get(attempt.assessment_id)
+            if assessment is None:
+                continue
+            submitted_attempt_count += 1
+            answer_map = dict(attempt.answers)
+            for question in assessment.questions:
+                refs = tuple(
+                    ref for ref in question.content_refs
+                    if not content_id or ref == content_id or ref.startswith(content_id + ".")
+                )
+                if not refs:
+                    continue
+                selected = set(answer_map.get(question.question_id, ()))
+                correct = {
+                    option.option_id
+                    for option in question.options
+                    if option.is_correct
+                }
+                hit = int(selected == correct)
+                for ref in refs:
+                    bucket = stats.setdefault(ref, [0, 0])
+                    bucket[0] += 1
+                    bucket[1] += hit
+
+        rows = []
+        for ref, (attempts, correct) in stats.items():
+            mastery_percent = round(correct * 100 / attempts)
+            if mastery_percent >= 100:
+                continue
+            rows.append({
+                "content_ref": ref,
+                "attempts": attempts,
+                "correct_attempts": correct,
+                "mastery_percent": mastery_percent,
+                "revision_priority": 100 - mastery_percent,
+            })
+        rows.sort(key=lambda item: (-item["revision_priority"], item["mastery_percent"], item["content_ref"]))
+        return tuple(rows[:limit])
+
+
 __all__ = [
     "AssessmentAnalytics",
     "AssessmentAnalyticsService",
     "AssessmentProgressService",
+    "AssessmentRevisionService",
 ]
