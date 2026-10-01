@@ -212,7 +212,7 @@ def test_first_professional_kriya_paper2_structure_is_complete():
 def test_first_professional_sanskrit_history_paper2_partitions():
     _, hierarchy = _api()
     result = hierarchy.list_nodes(
-        "bams_ncism_1", "AyUG-SN-AI", "2021-22", "y1-snai-paper2"
+        "bams_ncism_1", "AyUG-SN-AI", "2021-22", "y1-sn-ai-paper2"
     )
     assert result["status"] == 200
     assert [node["name"] for node in result["data"]["nodes"]] == [
@@ -353,7 +353,7 @@ def test_third_professional_kaumarabhritya_paper1_structure_is_present():
     assert result["status"] == 200
     assert len(result["data"]["nodes"]) == 22
     assert result["data"]["nodes"][0]["name"] == "Introduction to Kaumarabhritya"
-    assert result["data"]["nodes"][-1]["name"].startswith("Graha Rogas")
+    assert result["data"]["nodes"][-1]["name"].startswith("Anya Rogas")
 
 
 def test_migration_chain_includes_third_professional_cleanup():
