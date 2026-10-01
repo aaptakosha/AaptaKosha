@@ -23,10 +23,14 @@
       ? Math.round(syllabusItems.reduce((sum, item) => sum + item.completion_percent, 0) / total)
       : 0;
 
+    const overall = document.querySelector("[data-overall-progress]");
+    if (overall) overall.textContent = percent + "%";
     row.querySelector("[data-progress-percent]").textContent = percent + "%";
     row.querySelector("[data-progress-summary]").textContent =
       total ? completed + " of " + total + " tracked syllabus resources" : "No tracked syllabus resources yet";
     row.querySelector("[data-progress-bar]").style.width = percent + "%";
+    const note = document.querySelector("[data-overall-progress-note]");
+    if (note) note.textContent = total ? "Across " + total + " tracked syllabus resources" : "No tracked syllabus resources yet";
   }
 
   function renderAnalytics(data) {
