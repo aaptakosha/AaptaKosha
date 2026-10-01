@@ -51,7 +51,10 @@ Last updated: 2026-10-02
 - [x] Chapter 8 content/assessment regression contract
 - [x] Chapter 8 reader/API wiring
 - [ ] Chapter 8 end-to-end learner regression
-- [ ] Chapter 9+ remaining SA-1 chapters
+- [x] Chapter 9 primary-source research manifest and SARIT passage-sequence verification
+- [ ] Chapter 9 canonical Sanskrit/Hindi/टीका content build
+- [ ] Chapter 9 assessment, reader/API wiring, and regression gate
+- [ ] Chapter 10+ remaining SA-1 chapters
 - [ ] Chapter 13+ remains reserved for SA-2 / Second Professional
 
 Tracker rule: update this file whenever a phase gate changes state.
