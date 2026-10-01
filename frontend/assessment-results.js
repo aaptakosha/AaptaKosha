@@ -13,8 +13,8 @@
     return match ? match.text : "";
   };
 
-  const paint = () => {
-    if (!r) return;
+  const bindActions = () => { document.querySelector("#reviewAnswers")?.addEventListener("click",()=>document.querySelector(".review")?.scrollIntoView({behavior:"smooth"})); document.querySelector("#continueLearning")?.addEventListener("click",()=>location.href="./samhita-study.html?chapter=charaka.sutra.01"); };\n\n  const paint = () => {
+    if (!r) return;\n    bindActions();
     const p = r.percent || 0;
     document.querySelector(".result-hero .eyebrow").textContent = "Completed · " + r.assessment.title;
     document.querySelector(".result-hero p").textContent = `You scored ${r.score} of ${r.maximum_score}. Review the questions below to strengthen your next attempt.`;
