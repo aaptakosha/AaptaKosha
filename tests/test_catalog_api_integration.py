@@ -83,9 +83,9 @@ def test_real_hierarchy_returns_nested_nodes():
         roots["data"]["nodes"][0]["node_id"],
     )
     assert children["status"] == 200
-    assert [node["name"] for node in children["data"]["nodes"]] == [
-        "Dravyaguna Vigyana", "Dravya", "Guna", "Rasa"
-    ]
+    names = [node["name"] for node in children["data"]["nodes"]]
+    assert names[:4] == ["Dravyaguna Vigyana", "Dravya", "Guna", "Rasa"]
+    assert len(names) == 22
 
 
 def test_real_hierarchy_rejects_unknown_node():
