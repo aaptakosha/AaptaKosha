@@ -50,3 +50,10 @@ def test_progress_ui_renders_live_overall_syllabus_metric():
     assert 'data-overall-progress' in html
     assert 'querySelector("[data-overall-progress]")' in source
     assert "tracked syllabus resources" in source
+
+
+def test_progress_dashboard_does_not_ship_fake_live_metric_fallbacks():
+    html = (ROOT / "frontend" / "progress.html").read_text(encoding="utf-8")
+    assert 'data-overall-progress>42%' not in html
+    assert 'data-assessment-average>78%' not in html
+    assert 'Attempt 1 · 68%' not in html
