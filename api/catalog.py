@@ -40,6 +40,7 @@ for migration in (
     "033_third_professional_source_quality_cleanup.sql",
     "034_third_professional_research_methodology_topics.sql",
     "035_third_professional_shalya_paper1_topics.sql",
+    "036_third_professional_kaumarabhritya_complete_paper1.sql",
 ):
     REPO.apply_migrations(ROOT / "migrations" / migration)
 
