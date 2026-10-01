@@ -18,6 +18,7 @@ def _question_payload(question: Any) -> dict[str, Any]:
         "question_id": question.question_id,
         "prompt": question.prompt,
         "points": question.points,
+        "content_refs": list(question.content_refs),
         "options": [
             {"option_id": option.option_id, "text": option.text}
             for option in question.options

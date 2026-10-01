@@ -22,6 +22,11 @@ from aaptakosha_core.progress_http_api import ProgressHttpApi
 from aaptakosha_core.progress_repository import SQLiteProgressRepository
 
 DB_PATH = os.path.join("/tmp", "aaptakosha-assessment.sqlite3")
+CONTENT_ROOT = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "samhita")
+
+def _load_samhita(content_id: str):
+    if content_id != "charaka.sutra.01": return None
+    with open(os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", "adhyaya-01.json"), encoding="utf-8") as fh: return json.load(fh)
 DATABASE_BACKEND = "sqlite"
 DATABASE_CONNECTION = None
 IDENTITY_PROVIDER = build_identity_provider()
@@ -126,6 +131,12 @@ class handler(BaseHTTPRequestHandler):
                 self.send_header("Access-Control-Allow-Origin", allowed_origin)
                 self.send_header("Vary", "Origin")
             self.end_headers()
+            return
+
+        if self.command == "GET" and path == "/content/samhita":
+            chapter = _load_samhita(query.get("content_id", "").strip())
+            if chapter is None: self._reply(404, json.dumps({"error": {"code": "content_not_found"}}))
+            else: self._reply(200, json.dumps({"data": chapter}, ensure_ascii=False))
             return
 
         if self.command == "GET" and path == "/config":

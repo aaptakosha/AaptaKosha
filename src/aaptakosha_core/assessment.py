@@ -34,6 +34,7 @@ class AssessmentQuestion:
     prompt: str
     options: Tuple[QuestionOption, ...]
     points: int = 1
+    content_refs: Tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         if not self.question_id.strip():
@@ -46,6 +47,10 @@ class AssessmentQuestion:
             raise ValueError("question options must have unique option_id values")
         if not 0 < self.points:
             raise ValueError("points must be greater than zero")
+        if len(set(self.content_refs)) != len(self.content_refs):
+            raise ValueError("content_refs must be unique")
+        if any(not ref.strip() for ref in self.content_refs):
+            raise ValueError("content_refs must not contain empty values")
         if not any(o.is_correct for o in self.options):
             raise ValueError("question must have at least one correct option")
 

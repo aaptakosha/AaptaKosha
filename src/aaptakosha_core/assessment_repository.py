@@ -102,6 +102,7 @@ class SQLiteAssessmentRepository:
                             "question_id": q.question_id,
                             "prompt": q.prompt,
                             "points": q.points,
+                            "content_refs": list(q.content_refs),
                             "options": [
                                 {
                                     "option_id": o.option_id,
@@ -166,6 +167,7 @@ class SQLiteAssessmentRepository:
                     question_id=item["question_id"],
                     prompt=item["prompt"],
                     points=item["points"],
+                    content_refs=tuple(item.get("content_refs", ())),
                     options=tuple(
                         QuestionOption(o["option_id"], o["text"], o["is_correct"])
                         for o in item["options"]
