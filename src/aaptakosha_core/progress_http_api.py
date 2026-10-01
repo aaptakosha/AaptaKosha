@@ -21,7 +21,8 @@ class ProgressHttpApi:
         if self.require_identity and principal is None:
             return {"status": 401, "error": {"code": "authentication_required"}}
         subject_id = str(principal.subject_id) if principal is not None else None
-        supplied_subject = str(body.get("subject_id", query.get("subject_id", ""))).strip()
+        path_subject = parts[1] if len(parts) == 4 and parts[0] == "progress" else ""
+        supplied_subject = str(body.get("subject_id", query.get("subject_id", path_subject))).strip()
         if subject_id is not None and supplied_subject and supplied_subject != subject_id:
             return {"status": 403, "error": {"code": "learner_identity_mismatch"}}
         if subject_id is not None:
