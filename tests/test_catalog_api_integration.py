@@ -22,6 +22,7 @@ def _api():
         "008_third_professional_paper_layout.sql",
         "009_second_professional_paper_layout.sql",
         "010_first_professional_paper_layout.sql",
+        "011_first_professional_padartha_paper2.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -127,3 +128,18 @@ def test_first_professional_paper_layout_is_present():
         assert roots["status"] == 200
         assert [node["code"] for node in roots["data"]["nodes"]] == paper_codes
         assert all(node["node_type"] == "paper" for node in roots["data"]["nodes"])
+def test_first_professional_padartha_paper2_units_are_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes(
+        "bams_ncism_1", "AyUG-PV", "2021-22", "y1-pv-paper2"
+    )
+    assert result["status"] == 200
+    assert [node["name"] for node in result["data"]["nodes"]] == [
+        "Pariksha",
+        "Aptopdesha Pariksha/Pramana",
+        "Pratyaksha Pariksha/Pramana",
+        "Anumana Pariksha/Pramana",
+        "Yukti Pariksha/Pramana",
+        "Upamana Pramana",
+        "Karya-Karana Siddhanta",
+    ]
