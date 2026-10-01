@@ -406,3 +406,8 @@ def test_third_professional_shalya_topic_hierarchy_is_complete():
         result = hierarchy.list_nodes("bams_ncism_3", subject_id, "2021-22", paper_id)
         assert result["status"] == 200
         assert len(result["data"]["nodes"]) == count, (subject_id, paper_id, result)
+\n\ndef test_shalakya_topic_21_source_locator_is_canonical():
+    _, hierarchy = _api()
+    result = hierarchy.get_node("y3-sl-21")
+    assert result["status"] == 200
+    assert result["data"]["node"]["source_locator"] == "Table 2 Paper 1"
