@@ -38,6 +38,7 @@ for migration in (
     "031_third_professional_sa3_rm_em_verified_metadata.sql",
     "032_third_professional_sa3_structure.sql",
     "033_third_professional_source_quality_cleanup.sql",
+    "034_third_professional_research_methodology_topics.sql",
 ):
     REPO.apply_migrations(ROOT / "migrations" / migration)
 
