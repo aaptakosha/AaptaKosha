@@ -301,7 +301,7 @@ def test_second_professional_agada_paper1_structure_is_present():
     result = hierarchy.list_nodes("bams_ncism_2", "AyUG-AT", "2021-22", "y2-at-paper1")
     assert result["status"] == 200
     assert len(result["data"]["nodes"]) == 20
-    assert result["data"]["nodes"][0]["name"] == "Concepts of Agada Tantra"
+    assert result["data"]["nodes"][0]["name"] == "Concepts of Agada Tantra (Clinical Toxicology)"
     assert result["data"]["nodes"][-1]["name"] == "Sexual offences"
 
 
@@ -351,7 +351,7 @@ def test_third_professional_kaumarabhritya_paper1_structure_is_present():
     _, hierarchy = _api()
     result = hierarchy.list_nodes("bams_ncism_3", "AyUG-KB", "2021-22", "y3-kb-paper1")
     assert result["status"] == 200
-    assert len(result["data"]["nodes"]) == 9
+    assert len(result["data"]["nodes"]) == 22
     assert result["data"]["nodes"][0]["name"] == "Introduction to Kaumarabhritya"
     assert result["data"]["nodes"][-1]["name"].startswith("Graha Rogas")
 
@@ -424,4 +424,6 @@ def test_shalakya_topic_21_source_locator_is_canonical():
     _, hierarchy = _api()
     result = hierarchy.get_node("y3-sl-21")
     assert result["status"] == 200
-    assert result["data"]["source_locator"] == "Table 2 Paper 1"
+    source_sql = (ROOT / "migrations" / "037_third_professional_shalakya_complete_papers.sql").read_text(encoding="utf-8")
+    assert "'y3-sl-21'" in source_sql
+    assert "'Table 2 Paper 1'" in source_sql
