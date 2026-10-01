@@ -8,7 +8,7 @@
   "adhyaya_no": 1,
   "verse_count": 140,
   "language_policy": "Hindi-only explanatory layer; Sanskrit original retained separately",
-  "recitation_policy": "not_explicitly_listed_versewise_by_NCISM",
+  "recitation_policy": "explicit_ncism_list_verified_from_SA1_curriculum_page_49",
   "source_metadata": [
     {
       "source": "Vedic Literature Collection — Charaka Sūtrasthāna",
@@ -27,139 +27,207 @@
       "start_verse": 1,
       "end_verse": 5,
       "title_hi": "अध्यायारम्भ और आयुर्वेद-परम्परा",
-      "explanation_hi": "दीर्घ जीवन की खोज से अध्याय आरम्भ होता है। आयुर्वेद को जीवन की रक्षा और दीर्घ, हितकारी आयु की प्राप्ति के ज्ञान के रूप में प्रस्तुत किया जाता है। भरद्वाज का इन्द्र के पास जाना ज्ञान की खोज, विनय और लोकहित की भावना का आदर्श है।"
+      "explanation_hi": "दीर्घ जीवन की खोज से अध्याय आरम्भ होता है। आयुर्वेद को जीवन की रक्षा और दीर्घ, हितकारी आयु की प्राप्ति के ज्ञान के रूप में प्रस्तुत किया जाता है। भरद्वाज का इन्द्र के पास जाना ज्ञान की खोज, विनय और लोकहित की भावना का आदर्श है।",
+      "recitation_verses": []
     },
     {
       "start_verse": 6,
       "end_verse": 15,
       "title_hi": "रोग और ऋषि-सभा",
-      "explanation_hi": "रोगों को मानव-जीवन के उच्च उद्देश्यों में बाधक माना गया है। महर्षियों का एकत्र होना यह दिखाता है कि चिकित्सा-ज्ञान का उद्देश्य व्यक्तिगत लाभ नहीं बल्कि प्राणियों के हित और स्वास्थ्य की रक्षा है।"
+      "explanation_hi": "रोगों को मानव-जीवन के उच्च उद्देश्यों में बाधक माना गया है। महर्षियों का एकत्र होना यह दिखाता है कि चिकित्सा-ज्ञान का उद्देश्य व्यक्तिगत लाभ नहीं बल्कि प्राणियों के हित और स्वास्थ्य की रक्षा है।",
+      "recitation_verses": [
+        15
+      ]
     },
     {
       "start_verse": 16,
       "end_verse": 23,
       "title_hi": "रोग-निवारण की खोज",
-      "explanation_hi": "ऋषि रोगों के शमन का उपाय खोजते हैं और भरद्वाज को प्रतिनिधि बनाकर इन्द्र के पास भेजते हैं। यह खण्ड प्रश्न पूछने, विनयपूर्वक ज्ञान ग्रहण करने और व्यवस्थित चिकित्सा-विज्ञान की आवश्यकता समझाता है।"
+      "explanation_hi": "ऋषि रोगों के शमन का उपाय खोजते हैं और भरद्वाज को प्रतिनिधि बनाकर इन्द्र के पास भेजते हैं। यह खण्ड प्रश्न पूछने, विनयपूर्वक ज्ञान ग्रहण करने और व्यवस्थित चिकित्सा-विज्ञान की आवश्यकता समझाता है।",
+      "recitation_verses": []
     },
     {
       "start_verse": 24,
       "end_verse": 30,
       "title_hi": "त्रिसूत्र और त्रिस्कन्ध",
-      "explanation_hi": "हेतु, लिङ्ग और औषध का ज्ञान तथा स्वस्थ और आतुर दोनों के प्रति परायणता आयुर्वेद की आधारभूत अध्ययन-दृष्टि है। ज्ञान आगे लोकहित के लिए शिष्यों तक पहुँचता है।"
+      "explanation_hi": "हेतु, लिङ्ग और औषध का ज्ञान तथा स्वस्थ और आतुर दोनों के प्रति परायणता आयुर्वेद की आधारभूत अध्ययन-दृष्टि है। ज्ञान आगे लोकहित के लिए शिष्यों तक पहुँचता है।",
+      "recitation_verses": [
+        24,
+        28,
+        29
+      ]
     },
     {
       "start_verse": 31,
       "end_verse": 40,
       "title_hi": "आचार्य-परम्परा",
-      "explanation_hi": "अग्निवेश और अन्य शिष्यों द्वारा ज्ञान का संकलन तथा प्रस्तुतीकरण शास्त्रीय ज्ञान-परम्परा की विकासशील प्रकृति दिखाता है। बुद्धि, स्मृति, मेधा, धृति, क्षमा और दया जैसे गुण चिकित्सकीय ज्ञान के साथ जोड़े गए हैं।"
+      "explanation_hi": "अग्निवेश और अन्य शिष्यों द्वारा ज्ञान का संकलन तथा प्रस्तुतीकरण शास्त्रीय ज्ञान-परम्परा की विकासशील प्रकृति दिखाता है। बुद्धि, स्मृति, मेधा, धृति, क्षमा और दया जैसे गुण चिकित्सकीय ज्ञान के साथ जोड़े गए हैं।",
+      "recitation_verses": [
+        31
+      ]
     },
     {
       "start_verse": 41,
       "end_verse": 43,
       "title_hi": "आयुर्वेद और आयु की परिभाषा",
-      "explanation_hi": "आयुर्वेद हित-अहित, सुख-दुःख, आयु और उसके हित-अहित तथा आयु के मापन का ज्ञान है। आयु शरीर, इन्द्रिय, सत्त्व और आत्मा के संयोग से सम्बद्ध जीवित अवस्था के रूप में समझाई जाती है।"
+      "explanation_hi": "आयुर्वेद हित-अहित, सुख-दुःख, आयु और उसके हित-अहित तथा आयु के मापन का ज्ञान है। आयु शरीर, इन्द्रिय, सत्त्व और आत्मा के संयोग से सम्बद्ध जीवित अवस्था के रूप में समझाई जाती है।",
+      "recitation_verses": [
+        41,
+        42
+      ]
     },
     {
       "start_verse": 44,
       "end_verse": 45,
       "title_hi": "सामान्य और विशेष",
-      "explanation_hi": "सामान्य वृद्धि की दिशा में और विशेष ह्रास/पृथक्करण की दिशा में कार्य करता है। यह सिद्धान्त आगे दोष, धातु, आहार और औषध के चयन में clinical reasoning का आधार बनता है।"
+      "explanation_hi": "सामान्य वृद्धि की दिशा में और विशेष ह्रास/पृथक्करण की दिशा में कार्य करता है। यह सिद्धान्त आगे दोष, धातु, आहार और औषध के चयन में clinical reasoning का आधार बनता है।",
+      "recitation_verses": [
+        44,
+        45
+      ]
     },
     {
       "start_verse": 46,
       "end_verse": 47,
       "title_hi": "त्रिदण्ड",
-      "explanation_hi": "सत्त्व, आत्मा और शरीर को त्रिदण्डवत् बताया गया है। विद्यार्थी को इसे मानव-जीवन की समग्र संरचना के रूप में समझना चाहिए, न कि केवल तीन शब्दों की सूची के रूप में।"
+      "explanation_hi": "सत्त्व, आत्मा और शरीर को त्रिदण्डवत् बताया गया है। विद्यार्थी को इसे मानव-जीवन की समग्र संरचना के रूप में समझना चाहिए, न कि केवल तीन शब्दों की सूची के रूप में।",
+      "recitation_verses": [
+        46,
+        47
+      ]
     },
     {
       "start_verse": 48,
       "end_verse": 53,
       "title_hi": "द्रव्य, गुण, कर्म और समवाय",
-      "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।"
+      "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
+      "recitation_verses": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
     },
     {
       "start_verse": 54,
       "end_verse": 58,
       "title_hi": "हेतु, आश्रय और दोष",
-      "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।"
+      "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।",
+      "recitation_verses": [
+        54,
+        55,
+        56,
+        57,
+        58
+      ]
     },
     {
       "start_verse": 59,
       "end_verse": 63,
       "title_hi": "विपरीत गुण और दोष-शमन",
-      "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।"
+      "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।",
+      "recitation_verses": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ]
     },
     {
       "start_verse": 64,
       "end_verse": 66,
       "title_hi": "रस और षड्रस",
-      "explanation_hi": "रस की संकल्पना और छह रस—मधुर, अम्ल, लवण, कटु, तिक्त, कषाय—का संग्रह मिलता है। रस को द्रव्य और दोष-प्रभाव के संदर्भ में पढ़ना चाहिए, केवल स्वाद की आधुनिक परिभाषा तक सीमित नहीं करना चाहिए।"
+      "explanation_hi": "रस की संकल्पना और छह रस—मधुर, अम्ल, लवण, कटु, तिक्त, कषाय—का संग्रह मिलता है। रस को द्रव्य और दोष-प्रभाव के संदर्भ में पढ़ना चाहिए, केवल स्वाद की आधुनिक परिभाषा तक सीमित नहीं करना चाहिए।",
+      "recitation_verses": [
+        64,
+        65,
+        66
+      ]
     },
     {
       "start_verse": 67,
       "end_verse": 76,
       "title_hi": "द्रव्य-संग्रह और औषध-वर्गीकरण",
-      "explanation_hi": "द्रव्यों का जाङ्गम, औद्भिद और पार्थिव वर्गीकरण तथा वनस्पति के विभिन्न भागों का उल्लेख है। विद्यार्थी को नाम, स्रोत, भाग, गुण और कर्म को साथ पढ़ना चाहिए।"
+      "explanation_hi": "द्रव्यों का जाङ्गम, औद्भिद और पार्थिव वर्गीकरण तथा वनस्पति के विभिन्न भागों का उल्लेख है। विद्यार्थी को नाम, स्रोत, भाग, गुण और कर्म को साथ पढ़ना चाहिए।",
+      "recitation_verses": [
+        67
+      ]
     },
     {
       "start_verse": 77,
       "end_verse": 85,
       "title_hi": "मूलिनी और फलिनी द्रव्य",
-      "explanation_hi": "शोधन-संबंधी द्रव्यों की नामावली और उनके कर्मों का वर्णन है। AaptaKosha में इन्हें plant-identification, classical use और safety/context के साथ पढ़ाया जाना चाहिए; इन्हें self-medication निर्देश के रूप में नहीं दिखाना चाहिए।"
+      "explanation_hi": "शोधन-संबंधी द्रव्यों की नामावली और उनके कर्मों का वर्णन है। AaptaKosha में इन्हें plant-identification, classical use और safety/context के साथ पढ़ाया जाना चाहिए; इन्हें self-medication निर्देश के रूप में नहीं दिखाना चाहिए।",
+      "recitation_verses": []
     },
     {
       "start_verse": 86,
       "end_verse": 91,
       "title_hi": "चतुर्-स्नेह और पंच-लवण",
-      "explanation_hi": "घृत, तैल, वसा और मज्जा के चार स्नेह तथा पाँच लवणों का उल्लेख और उनके उपयोग-क्षेत्र आते हैं। इस भाग में द्रव्य के नाम के साथ उसका कर्म और प्रयोग-संदर्भ याद करना अधिक उपयोगी है।"
+      "explanation_hi": "घृत, तैल, वसा और मज्जा के चार स्नेह तथा पाँच लवणों का उल्लेख और उनके उपयोग-क्षेत्र आते हैं। इस भाग में द्रव्य के नाम के साथ उसका कर्म और प्रयोग-संदर्भ याद करना अधिक उपयोगी है।",
+      "recitation_verses": []
     },
     {
       "start_verse": 92,
       "end_verse": 105,
       "title_hi": "अष्टमूत्र",
-      "explanation_hi": "आठ प्रकार के मूत्र, उनके गुण और शास्त्रीय उपयोगों का विवरण है। AaptaKosha इसे historical/classical pharmacology learning के रूप में रखेगा और वास्तविक उपचार या self-medication की अनुमति देने वाली भाषा से बचेगा।"
+      "explanation_hi": "आठ प्रकार के मूत्र, उनके गुण और शास्त्रीय उपयोगों का विवरण है। AaptaKosha इसे historical/classical pharmacology learning के रूप में रखेगा और वास्तविक उपचार या self-medication की अनुमति देने वाली भाषा से बचेगा।",
+      "recitation_verses": []
     },
     {
       "start_verse": 106,
       "end_verse": 113,
       "title_hi": "अष्टपयस्",
-      "explanation_hi": "विभिन्न प्रकार के दूध तथा उनके सामान्य गुण-कर्म और उपयोग का उल्लेख है। 'प्रायशः' जैसे qualifier को ध्यान से पढ़ना चाहिए और आगे के अध्यायों में होने वाले विशिष्ट विवेचन से जोड़ना चाहिए।"
+      "explanation_hi": "विभिन्न प्रकार के दूध तथा उनके सामान्य गुण-कर्म और उपयोग का उल्लेख है। 'प्रायशः' जैसे qualifier को ध्यान से पढ़ना चाहिए और आगे के अध्यायों में होने वाले विशिष्ट विवेचन से जोड़ना चाहिए।",
+      "recitation_verses": []
     },
     {
       "start_verse": 114,
       "end_verse": 119,
       "title_hi": "षड् शोधन-वृक्ष",
-      "explanation_hi": "शोधन में प्रयुक्त माने गए छह वृक्षों और उनके कर्म का संक्षिप्त वर्णन है। इसे द्रव्य-पहचान, शास्त्रीय कर्म और संदर्भित उपयोग की तालिका के रूप में पढ़ना उपयुक्त है।"
+      "explanation_hi": "शोधन में प्रयुक्त माने गए छह वृक्षों और उनके कर्म का संक्षिप्त वर्णन है। इसे द्रव्य-पहचान, शास्त्रीय कर्म और संदर्भित उपयोग की तालिका के रूप में पढ़ना उपयुक्त है।",
+      "recitation_verses": []
     },
     {
       "start_verse": 120,
       "end_verse": 123,
       "title_hi": "औषध-ज्ञान और श्रेष्ठ भिषक्",
-      "explanation_hi": "औषध का केवल नाम या बाहरी रूप जानना पर्याप्त नहीं। चिकित्सक को पहचान, गुण, योग, देश, काल और प्रत्येक व्यक्ति की स्थिति देखकर प्रयोग समझना चाहिए—यह individualised reasoning का महत्त्वपूर्ण आधार है।"
+      "explanation_hi": "औषध का केवल नाम या बाहरी रूप जानना पर्याप्त नहीं। चिकित्सक को पहचान, गुण, योग, देश, काल और प्रत्येक व्यक्ति की स्थिति देखकर प्रयोग समझना चाहिए—यह individualised reasoning का महत्त्वपूर्ण आधार है।",
+      "recitation_verses": []
     },
     {
       "start_verse": 124,
       "end_verse": 127,
       "title_hi": "युक्ति और औषध-सुरक्षा",
-      "explanation_hi": "अज्ञात या गलत तरीके से प्रयुक्त औषध विष के समान हानिकारक हो सकती है। उचित द्रव्य के लिए भी सही पहचान, संयोजन, मात्रा, रोगी और परिस्थिति आवश्यक हैं; यह clinical safety का केंद्रीय पाठ है।"
+      "explanation_hi": "अज्ञात या गलत तरीके से प्रयुक्त औषध विष के समान हानिकारक हो सकती है। उचित द्रव्य के लिए भी सही पहचान, संयोजन, मात्रा, रोगी और परिस्थिति आवश्यक हैं; यह clinical safety का केंद्रीय पाठ है।",
+      "recitation_verses": []
     },
     {
       "start_verse": 128,
       "end_verse": 133,
       "title_hi": "वैद्य-धर्म",
-      "explanation_hi": "रोगी की श्रद्धा का लाभ उठाकर बिना ज्ञान के औषध देना गंभीर अनैतिकता माना गया है। चिकित्सक बनने वाले व्यक्ति को निरन्तर अपनी विद्या, विवेक, आचरण और गुण-संपदा विकसित करनी चाहिए।"
+      "explanation_hi": "रोगी की श्रद्धा का लाभ उठाकर बिना ज्ञान के औषध देना गंभीर अनैतिकता माना गया है। चिकित्सक बनने वाले व्यक्ति को निरन्तर अपनी विद्या, विवेक, आचरण और गुण-संपदा विकसित करनी चाहिए।",
+      "recitation_verses": []
     },
     {
       "start_verse": 134,
       "end_verse": 135,
       "title_hi": "सम्यक् भैषज्य और श्रेष्ठ चिकित्सक",
-      "explanation_hi": "उचित औषध वही है जो स्वास्थ्य की दिशा में उचित प्रयोग से कार्य करे। केवल द्रव्य का ज्ञान नहीं, बल्कि सम्यक् प्रयोग और चिकित्सकीय गुण सफलता के आधार हैं।"
+      "explanation_hi": "उचित औषध वही है जो स्वास्थ्य की दिशा में उचित प्रयोग से कार्य करे। केवल द्रव्य का ज्ञान नहीं, बल्कि सम्यक् प्रयोग और चिकित्सकीय गुण सफलता के आधार हैं।",
+      "recitation_verses": [
+        134,
+        135
+      ]
     },
     {
       "start_verse": 136,
       "end_verse": 140,
       "title_hi": "अध्याय-सार",
-      "explanation_hi": "अन्तिम श्लोक पूरे अध्याय के विषयों का संक्षेप देते हैं—आयुर्वेद की परम्परा, प्रयोजन, कारण, दोष, भेषज, रस, द्रव्य-संग्रह, औषध-वर्ग, कर्म, योग-अयोग और वैद्य के गुण। इन्हें revision map के रूप में प्रयोग किया जाएगा।"
+      "explanation_hi": "अन्तिम श्लोक पूरे अध्याय के विषयों का संक्षेप देते हैं—आयुर्वेद की परम्परा, प्रयोजन, कारण, दोष, भेषज, रस, द्रव्य-संग्रह, औषध-वर्ग, कर्म, योग-अयोग और वैद्य के गुण। इन्हें revision map के रूप में प्रयोग किया जाएगा।",
+      "recitation_verses": []
     }
   ],
   "verses": [
@@ -325,7 +393,7 @@
       "translation_hi": null,
       "explanation_hi": "रोगों को मानव-जीवन के उच्च उद्देश्यों में बाधक माना गया है। महर्षियों का एकत्र होना यह दिखाता है कि चिकित्सा-ज्ञान का उद्देश्य व्यक्तिगत लाभ नहीं बल्कि प्राणियों के हित और स्वास्थ्य की रक्षा है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 15"
     },
     {
@@ -424,7 +492,7 @@
       "translation_hi": null,
       "explanation_hi": "हेतु, लिङ्ग और औषध का ज्ञान तथा स्वस्थ और आतुर दोनों के प्रति परायणता आयुर्वेद की आधारभूत अध्ययन-दृष्टि है। ज्ञान आगे लोकहित के लिए शिष्यों तक पहुँचता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 24"
     },
     {
@@ -468,7 +536,7 @@
       "translation_hi": null,
       "explanation_hi": "हेतु, लिङ्ग और औषध का ज्ञान तथा स्वस्थ और आतुर दोनों के प्रति परायणता आयुर्वेद की आधारभूत अध्ययन-दृष्टि है। ज्ञान आगे लोकहित के लिए शिष्यों तक पहुँचता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 28"
     },
     {
@@ -479,7 +547,7 @@
       "translation_hi": null,
       "explanation_hi": "हेतु, लिङ्ग और औषध का ज्ञान तथा स्वस्थ और आतुर दोनों के प्रति परायणता आयुर्वेद की आधारभूत अध्ययन-दृष्टि है। ज्ञान आगे लोकहित के लिए शिष्यों तक पहुँचता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 29"
     },
     {
@@ -501,7 +569,7 @@
       "translation_hi": null,
       "explanation_hi": "अग्निवेश और अन्य शिष्यों द्वारा ज्ञान का संकलन तथा प्रस्तुतीकरण शास्त्रीय ज्ञान-परम्परा की विकासशील प्रकृति दिखाता है। बुद्धि, स्मृति, मेधा, धृति, क्षमा और दया जैसे गुण चिकित्सकीय ज्ञान के साथ जोड़े गए हैं।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 31"
     },
     {
@@ -611,7 +679,7 @@
       "translation_hi": null,
       "explanation_hi": "आयुर्वेद हित-अहित, सुख-दुःख, आयु और उसके हित-अहित तथा आयु के मापन का ज्ञान है। आयु शरीर, इन्द्रिय, सत्त्व और आत्मा के संयोग से सम्बद्ध जीवित अवस्था के रूप में समझाई जाती है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 41"
     },
     {
@@ -622,7 +690,7 @@
       "translation_hi": null,
       "explanation_hi": "आयुर्वेद हित-अहित, सुख-दुःख, आयु और उसके हित-अहित तथा आयु के मापन का ज्ञान है। आयु शरीर, इन्द्रिय, सत्त्व और आत्मा के संयोग से सम्बद्ध जीवित अवस्था के रूप में समझाई जाती है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 42"
     },
     {
@@ -644,7 +712,7 @@
       "translation_hi": null,
       "explanation_hi": "सामान्य वृद्धि की दिशा में और विशेष ह्रास/पृथक्करण की दिशा में कार्य करता है। यह सिद्धान्त आगे दोष, धातु, आहार और औषध के चयन में clinical reasoning का आधार बनता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 44"
     },
     {
@@ -655,7 +723,7 @@
       "translation_hi": null,
       "explanation_hi": "सामान्य वृद्धि की दिशा में और विशेष ह्रास/पृथक्करण की दिशा में कार्य करता है। यह सिद्धान्त आगे दोष, धातु, आहार और औषध के चयन में clinical reasoning का आधार बनता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 45"
     },
     {
@@ -666,7 +734,7 @@
       "translation_hi": null,
       "explanation_hi": "सत्त्व, आत्मा और शरीर को त्रिदण्डवत् बताया गया है। विद्यार्थी को इसे मानव-जीवन की समग्र संरचना के रूप में समझना चाहिए, न कि केवल तीन शब्दों की सूची के रूप में।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 46"
     },
     {
@@ -677,7 +745,7 @@
       "translation_hi": null,
       "explanation_hi": "सत्त्व, आत्मा और शरीर को त्रिदण्डवत् बताया गया है। विद्यार्थी को इसे मानव-जीवन की समग्र संरचना के रूप में समझना चाहिए, न कि केवल तीन शब्दों की सूची के रूप में।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 47"
     },
     {
@@ -688,7 +756,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 48"
     },
     {
@@ -699,7 +767,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 49"
     },
     {
@@ -710,7 +778,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 50"
     },
     {
@@ -721,7 +789,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 51"
     },
     {
@@ -732,7 +800,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 52"
     },
     {
@@ -743,7 +811,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्य गुण और कर्म के आश्रय के रूप में तथा समवाय उनके अविभाज्य सम्बन्ध की संकल्पना के रूप में समझाया जाता है। धातुसाम्य को तन्त्र के प्रयोजन से जोड़ना चिकित्सा के लक्ष्य को स्पष्ट करता है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 53"
     },
     {
@@ -754,7 +822,7 @@
       "translation_hi": null,
       "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 54"
     },
     {
@@ -765,7 +833,7 @@
       "translation_hi": null,
       "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 55"
     },
     {
@@ -776,7 +844,7 @@
       "translation_hi": null,
       "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 56"
     },
     {
@@ -787,7 +855,7 @@
       "translation_hi": null,
       "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 57"
     },
     {
@@ -798,7 +866,7 @@
       "translation_hi": null,
       "explanation_hi": "काल, बुद्धि और इन्द्रिय-विषय के अनुचित, अल्प या अति योग को रोग-हेतु के रूप में समझाया जाता है। शरीर और सत्त्व रोग के आश्रय हैं; वात, पित्त, कफ तथा मानसिक स्तर पर रजस् और तमस् का उल्लेख है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 58"
     },
     {
@@ -809,7 +877,7 @@
       "translation_hi": null,
       "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 59"
     },
     {
@@ -820,7 +888,7 @@
       "translation_hi": null,
       "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 60"
     },
     {
@@ -831,7 +899,7 @@
       "translation_hi": null,
       "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 61"
     },
     {
@@ -842,7 +910,7 @@
       "translation_hi": null,
       "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 62"
     },
     {
@@ -853,7 +921,7 @@
       "translation_hi": null,
       "explanation_hi": "दोषों के बढ़े हुए गुणों के विपरीत गुण वाले द्रव्यों से शमन का सिद्धान्त बताया गया है। देश, मात्रा और काल की उपयुक्तता आवश्यक है; इसलिए विपरीत गुण का प्रयोग mechanical rule नहीं बल्कि युक्तिपूर्वक clinical decision है।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 63"
     },
     {
@@ -864,7 +932,7 @@
       "translation_hi": null,
       "explanation_hi": "रस की संकल्पना और छह रस—मधुर, अम्ल, लवण, कटु, तिक्त, कषाय—का संग्रह मिलता है। रस को द्रव्य और दोष-प्रभाव के संदर्भ में पढ़ना चाहिए, केवल स्वाद की आधुनिक परिभाषा तक सीमित नहीं करना चाहिए।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 64"
     },
     {
@@ -875,7 +943,7 @@
       "translation_hi": null,
       "explanation_hi": "रस की संकल्पना और छह रस—मधुर, अम्ल, लवण, कटु, तिक्त, कषाय—का संग्रह मिलता है। रस को द्रव्य और दोष-प्रभाव के संदर्भ में पढ़ना चाहिए, केवल स्वाद की आधुनिक परिभाषा तक सीमित नहीं करना चाहिए।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 65"
     },
     {
@@ -886,7 +954,7 @@
       "translation_hi": null,
       "explanation_hi": "रस की संकल्पना और छह रस—मधुर, अम्ल, लवण, कटु, तिक्त, कषाय—का संग्रह मिलता है। रस को द्रव्य और दोष-प्रभाव के संदर्भ में पढ़ना चाहिए, केवल स्वाद की आधुनिक परिभाषा तक सीमित नहीं करना चाहिए।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 66"
     },
     {
@@ -897,7 +965,7 @@
       "translation_hi": null,
       "explanation_hi": "द्रव्यों का जाङ्गम, औद्भिद और पार्थिव वर्गीकरण तथा वनस्पति के विभिन्न भागों का उल्लेख है। विद्यार्थी को नाम, स्रोत, भाग, गुण और कर्म को साथ पढ़ना चाहिए।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 67"
     },
     {
@@ -1634,7 +1702,7 @@
       "translation_hi": null,
       "explanation_hi": "उचित औषध वही है जो स्वास्थ्य की दिशा में उचित प्रयोग से कार्य करे। केवल द्रव्य का ज्ञान नहीं, बल्कि सम्यक् प्रयोग और चिकित्सकीय गुण सफलता के आधार हैं।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 134"
     },
     {
@@ -1645,7 +1713,7 @@
       "translation_hi": null,
       "explanation_hi": "उचित औषध वही है जो स्वास्थ्य की दिशा में उचित प्रयोग से कार्य करे। केवल द्रव्य का ज्ञान नहीं, बल्कि सम्यक् प्रयोग और चिकित्सकीय गुण सफलता के आधार हैं।",
       "tika_hi": null,
-      "recitation_status": "not_classified",
+      "recitation_status": "ncism_explicit",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 135"
     },
     {
@@ -1703,5 +1771,11 @@
       "recitation_status": "not_classified",
       "source_locator": "Charaka Samhita, Sutrasthana 1, verse 140"
     }
-  ]
+  ],
+  "recitation_source": {
+    "document": "NCISM Course Curriculum for First Professional BAMS — Samhita Adhyayan-1 (AyUG-SA1)",
+    "page": 49,
+    "claim": "Recitation shlokas for Charaka Samhita Sutrasthana 1",
+    "verified_against_pdf": true
+  }
 }
