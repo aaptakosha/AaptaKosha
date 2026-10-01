@@ -191,3 +191,22 @@ def test_first_professional_sanskrit_history_paper2_partitions():
     assert [node["name"] for node in result["data"]["nodes"]] == [
         "Sanskrit", "Ayurved Itihas"
     ]
+def test_first_professional_subjects_have_paper_roots():
+    _, hierarchy = _api()
+    expected = {
+        "AyUG-SN-AI": ["I", "II"],
+        "AyUG-PV": ["I", "II"],
+        "AyUG-RS": ["I", "II"],
+        "AyUG-KS": ["I", "II"],
+        "AyUG-SA1": ["I"],
+    }
+    for subject_id, papers in expected.items():
+        result = hierarchy.list_nodes(
+            "bams_ncism_1", subject_id, "2021-22", None
+        )
+        assert result["status"] == 200
+        roots = [
+            node["code"] for node in result["data"]["nodes"]
+            if node["node_type"] == "paper"
+        ]
+        assert roots == papers
