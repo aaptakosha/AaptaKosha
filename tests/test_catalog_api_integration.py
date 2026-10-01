@@ -33,6 +33,7 @@ def _api():
         "019_second_professional_roga_nidan_paper1.sql",
         "020_second_professional_dravyaguna_paper1.sql",
         "021_second_professional_rasashastra_layout.sql",
+        "022_second_professional_swasthavritta_paper1.sql",
     ):
         repo.apply_migrations(ROOT / "migrations" / name)
     return CatalogApi(CatalogService(repo)), CurriculumHierarchyApi(
@@ -311,3 +312,12 @@ def test_second_professional_rasashastra_layout_is_present():
     assert len(p2["data"]["nodes"]) == 12
     assert p1["data"]["nodes"][0]["name"].startswith("Chronological development")
     assert p2["data"]["nodes"][-1]["name"] == "Pharmacovigilance for Ayurveda drugs"
+
+
+def test_second_professional_swasthavritta_paper1_structure_is_present():
+    _, hierarchy = _api()
+    result = hierarchy.list_nodes("bams_ncism_2", "AyUG-SW", "2021-22", "y2-sw-paper1")
+    assert result["status"] == 200
+    assert len(result["data"]["nodes"]) == 6
+    assert result["data"]["nodes"][0]["code"] == "A"
+    assert result["data"]["nodes"][-1]["code"] == "F"
