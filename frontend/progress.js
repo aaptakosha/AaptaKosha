@@ -1,13 +1,9 @@
 (function () {
-  const API_BASE = "/api";
   const SUBJECT = "dravyaguna";
 
   async function loadProgress() {
-    const response = await fetch(API_BASE + "/progress?subject_id=" + encodeURIComponent(SUBJECT), {
-      headers: { Accept: "application/json" }
-    });
-    if (!response.ok) throw new Error("Progress request failed");
-    return response.json();
+    if (!window.AaptaKoshaApi) throw new Error("API client unavailable");
+    return window.AaptaKoshaApi.request("/progress?subject_id=" + encodeURIComponent(SUBJECT));
   }
 
   function renderProgress(items) {
@@ -17,7 +13,9 @@
 
     const completed = items.filter((item) => item.status === "completed").length;
     const total = items.length;
-    const percent = total ? Math.round(items.reduce((sum, item) => sum + item.completion_percent, 0) / total) : 0;
+    const percent = total
+      ? Math.round(items.reduce((sum, item) => sum + item.completion_percent, 0) / total)
+      : 0;
 
     row.querySelector("[data-progress-percent]").textContent = percent + "%";
     row.querySelector("[data-progress-summary]").textContent =
@@ -25,7 +23,10 @@
     row.querySelector("[data-progress-bar]").style.width = percent + "%";
   }
 
-  loadProgress().then((data) => renderProgress(data.progress || [])).catch(() => {
-    // Keep the designed fallback values when the API is temporarily unavailable.
-  });
+  window.AaptaKoshaSessionReady
+    ?.then(loadProgress)
+    .then((data) => renderProgress(data.progress || []))
+    .catch(() => {
+      // Keep designed fallback values when the API is unavailable or the learner is signed out.
+    });
 })();
