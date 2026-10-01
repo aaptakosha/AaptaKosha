@@ -1,4 +1,4 @@
-const state={chapter:null,filter:"all",query:"",progress:new Map(),selectedUnit:null,syncReady:false};
+const state={chapter:null,filter:"all",query:"",progress:new Map(),revisionRefs:new Set(),selectedUnit:null,syncReady:false};
 const grid=document.querySelector("#verseGrid"),search=document.querySelector("#verseSearch"),count=document.querySelector("#resultCount"),unitList=document.querySelector("#unitList"),chapterProgress=document.querySelector("#chapterProgress"),chapterProgressLabel=document.querySelector("#chapterProgressLabel"),recitationProgress=document.querySelector("#recitationProgress"),resumeButton=document.querySelector("#resumeButton"),syncState=document.querySelector("#syncState");
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const unitId=i=>`unit-${String(i+1).padStart(2,"0")}`,verseId=v=>`verse-${String(v.verse_no).padStart(3,"0")}`,pkey=(t,id)=>t+":"+id;
@@ -8,11 +8,29 @@ function unitComplete(i){return pf("samhita_unit",state.chapter.chapter_id+"."+u
 function reciteVerses(){return state.chapter.verses.filter(v=>v.recitation_status==="ncism_explicit")}
 function chapterPct(){const n=state.chapter.learning_units.length,d=state.chapter.learning_units.filter((_,i)=>unitComplete(i)).length;return n?Math.round(d/n*100):0}
 function recitePct(){const a=reciteVerses(),d=a.filter(v=>pf("samhita_recitation",state.chapter.chapter_id+"."+verseId(v)).completion_percent===100).length;return a.length?Math.round(d/a.length*100):0}
-async function loadProgress(){try{const d=await api("/api/progress");state.progress.clear();(d.progress||[]).forEach(x=>state.progress.set(pkey(x.resource_type,x.resource_id),x));state.syncReady=true;syncState.textContent="✓ प्रगति sync हो रही है"}catch(e){state.syncReady=false;syncState.textContent=e.status===401?"प्रगति sync के लिए sign in करें":"प्रगति sync अभी उपलब्ध नहीं"}}
+async function loadProgress(){
+  try{
+    const d=await api("/api/progress");
+    state.progress.clear();
+    (d.progress||[]).forEach(x=>state.progress.set(pkey(x.resource_type,x.resource_id),x));
+    state.syncReady=true;
+    syncState.textContent="✓ प्रगति sync हो रही है";
+  }catch(e){
+    state.syncReady=false;
+    syncState.textContent=e.status===401?"प्रगति sync के लिए sign in करें":"प्रगति sync अभी उपलब्ध नहीं";
+  }
+  try{
+    const chapterId=encodeURIComponent(state.chapter.chapter_id);
+    const d=await api("/api/revision?content_id="+chapterId);
+    state.revisionRefs=new Set((d.data?.recommendations||[]).map(x=>x.content_ref));
+  }catch{
+    state.revisionRefs=new Set();
+  }
+}
 async function saveProgress(type,id,pct){if(!state.syncReady)return false;try{const d=await api("/api/progress",{method:"POST",body:JSON.stringify({resource_type:type,resource_id:id,status:pct>=100?"completed":pct>0?"in_progress":"not_started",completion_percent:pct})});state.progress.set(pkey(type,id),d.progress);return true}catch{return false}}
 async function toggleUnit(i){const id=state.chapter.chapter_id+"."+unitId(i);if(await saveProgress("samhita_unit",id,unitComplete(i)?0:100)){await saveProgress("samhita_chapter",state.chapter.chapter_id,chapterPct());renderAll()}}
 async function toggleRecitation(v){const id=state.chapter.chapter_id+"."+verseId(v),pct=pf("samhita_recitation",id).completion_percent; if(await saveProgress("samhita_recitation",id,pct===100?0:100))renderAll()}
-function matches(v){const q=state.query.trim().toLowerCase(),i=state.chapter.learning_units.findIndex(u=>v.verse_no>=u.start_verse&&v.verse_no<=u.end_verse);if(state.selectedUnit!==null&&i!==state.selectedUnit)return false;const t=[v.verse_no,v.section,v.sanskrit_original,v.translation_hi,v.explanation_hi,v.tika_hi].join(" ").toLowerCase();if(q&&!t.includes(q))return false;if(state.filter==="recitation")return v.recitation_status==="ncism_explicit";if(state.filter==="revision")return unitComplete(i);return true}
+function matches(v){const q=state.query.trim().toLowerCase(),i=state.chapter.learning_units.findIndex(u=>v.verse_no>=u.start_verse&&v.verse_no<=u.end_verse);if(state.selectedUnit!==null&&i!==state.selectedUnit)return false;const t=[v.verse_no,v.section,v.sanskrit_original,v.translation_hi,v.explanation_hi,v.tika_hi].join(" ").toLowerCase();if(q&&!t.includes(q))return false;if(state.filter==="recitation")return v.recitation_status==="ncism_explicit";if(state.filter==="revision")return state.revisionRefs.has(v.verse_id)||unitComplete(i);return true}
 function renderUnits(){unitList.innerHTML=state.chapter.learning_units.map((u,i)=>`<button class="unit-card ${state.selectedUnit===i?"active":""}" data-unit="${i}"><span class="unit-number">${String(i+1).padStart(2,"0")}</span><span class="unit-copy"><strong>${esc(u.title_hi)}</strong><small>श्लोक ${u.start_verse}–${u.end_verse}</small></span><span class="unit-state">${unitComplete(i)?"✓ पूर्ण":"○ बाकी"}</span></button>`).join("")}
 function render(){renderUnits();const a=state.chapter.verses.filter(matches);count.textContent=a.length+" / "+state.chapter.verse_count+" श्लोक";grid.innerHTML=a.map(v=>{const r=v.recitation_status==="ncism_explicit",done=pf("samhita_recitation",state.chapter.chapter_id+"."+verseId(v)).completion_percent===100;return `<article class="verse-card ${r?"recite":""}"><div class="verse-head"><span class="verse-number">श्लोक ${esc(v.verse_no)}</span>${r?'<span class="recite-badge">NCISM Recitation</span>':""}${r?`<button class="recite-button ${done?"done":""}" data-recite="${esc(v.verse_no)}">${done?"✓ मुखस्थ":"○ मुखस्थ"}</button>`:""}<button class="audio" data-audio="${esc(v.sanskrit_original)}">🔊 Read</button></div><div class="section-label">${esc(v.section)}</div><div class="sanskrit">${esc(v.sanskrit_original).replace(/\n/g,"<br>")}</div><div class="panel"><strong>हिन्दी अर्थ</strong><p>${esc(v.translation_hi)}</p></div><div class="panel"><strong>व्याख्या</strong><p>${esc(v.explanation_hi)}</p></div><details><summary>टीका-सारांश</summary><p>${esc(v.tika_hi)}</p></details></article>`}).join("")||'<div class="empty">इस mode/search के लिए कोई श्लोक नहीं मिला।</div>'}
 function renderMetrics(){const cp=chapterPct(),rp=recitePct();chapterProgress.style.width=cp+"%";chapterProgressLabel.textContent=cp+"% chapter complete";recitationProgress.style.width=rp+"%";const a=reciteVerses(),d=a.filter(v=>pf("samhita_recitation",state.chapter.chapter_id+"."+verseId(v)).completion_percent===100).length;document.querySelector("#recitationLabel").textContent=rp+"% · "+d+"/"+a.length+" श्लोक";const n=state.chapter.learning_units.findIndex((_,i)=>!unitComplete(i));resumeButton.textContent=n===-1?"✓ अध्याय पूर्ण":"▶ "+(n===0?"शुरू करें":"जारी रखें")+" · Unit "+(n+1);resumeButton.disabled=n===-1}
