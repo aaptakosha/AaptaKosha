@@ -20,17 +20,17 @@ jobs:
           git config user.name "AaptaKosha Source Transfer"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           chapters=(
-            samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json
-            samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json
-            samhita/sarangadhara/madhyama/chapter-02-kvathakalpana/chapter.json
-            samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json
-            samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json
-            samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json
-            samhita/sarangadhara/madhyama/chapter-12-rasadishodhanamaranakalpana/chapter.json
-            samhita/sarangadhara/uttara/chapter-01-snehapanavidhi/chapter.json
-            samhita/sarangadhara/uttara/chapter-03-vamanavidhi/chapter.json
-            samhita/sarangadhara/uttara/chapter-11-lepamurdhatailakarnapuranavidhi/chapter.json
-            samhita/sarangadhara/uttara/chapter-13-netraprasadanavidhi/chapter.json
+            content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json
+            content/samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json
+            content/samhita/sarangadhara/madhyama/chapter-02-kvathakalpana/chapter.json
+            content/samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json
+            content/samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json
+            content/samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json
+            content/samhita/sarangadhara/madhyama/chapter-12-rasadishodhanamaranakalpana/chapter.json
+            content/samhita/sarangadhara/uttara/chapter-01-snehapanavidhi/chapter.json
+            content/samhita/sarangadhara/uttara/chapter-03-vamanavidhi/chapter.json
+            content/samhita/sarangadhara/uttara/chapter-11-lepamurdhatailakarnapuranavidhi/chapter.json
+            content/samhita/sarangadhara/uttara/chapter-13-netraprasadanavidhi/chapter.json
           )
           for f in "${chapters[@]}"; do
             git add "$f"
