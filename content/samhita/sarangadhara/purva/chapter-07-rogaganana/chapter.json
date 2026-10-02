@@ -468,7 +468,7 @@
     "fabricated_missing_verses_avoided": true,
     "one_chapter_one_commit": true,
     "full_verse_transcription": "pending controlled printed-scan transcription",
-    "canonical_full_verse_transcription": "full except source-numbering gap v151; v61, v71 and v110 reconciled directly against Wikisource; v151 preserved as an explicit witness discrepancy",
+    "canonical_full_verse_transcription": "partial; automated digital-witness transfer preserves source numbering gaps; printed reconciliation remains pending",
     "source_numbering_discrepancies": [
       "151 absent in primary Wikisource sequence between 150 and 152"
     ]
@@ -715,10 +715,6 @@
       "text": "कफजमेहभेदाः इक्षुमेहः सुरामेहः पिष्टमेहश्च सान्द्र कः शुक्रमेहोदकाख्यौ च लालामेहश्च शीतकः सिकताख्यः शनैर्मेहो दशैते कफसम्भवाः ॥६०॥"
     },
     {
-      "verse_number": 61,
-      "text": "मञ्जिष्ठाख्यो हरिद्रा ख्यो नीलमेहश्च रक्तकः कृष्णमेहः क्षारमेहः षडेते पित्तसम्भवाः ॥६१॥"
-    },
-    {
       "verse_number": 62,
       "text": "पित्तजमेहभेदाः मञ्जिष्ठाख्यो हरिद्रा ख्यो नीलमेहश्च रक्तकः कृष्णमेहः क्षारमेहः षडेते पित्तसम्भवाः ॥६१ वातिकमेहभेदाः हस्तिमेहो वसामेहो मज्जामेहो मधुप्रभः चत्वारो वातजा मेहा इति मेहाश्च विंशतिः ॥६२॥"
     },
@@ -755,8 +751,8 @@
       "text": "श्लीपदभेदाः श्लीपदं च त्रिधा प्रोक्तं वातात्पित्तात्कफादपि ॥७०॥"
     },
     {
-      "verse_number": 71,
-      "text": "विद्र धिः षड्विधः ख्यातो वातपित्तकफैस्त्रयः रक्तात् क्षतात् त्रिदोषैश्च व्रणाः पञ्चदशोदिताः ॥७१॥"
+      "verse_number": 7,
+      "text": "विद्र धिभेदाः विद्र धिः षड्विधः ख्यातो वातपित्तकफैस्त्रयः रक्तात् क्षतात् त्रिदोषैश्च व्रणभेदाः व्रणाः पञ्चदशोदिताः ॥७॥"
     },
     {
       "verse_number": 72,
@@ -909,10 +905,6 @@
     {
       "verse_number": 109,
       "text": "अङ्गभेदोऽङ्गशोषश्च मिन्मिनत्वं च गद्गदः प्रत्यष्ठीलाऽष्ठीलिका च वामनत्वं च कुब्जता ॥१०९॥"
-    },
-    {
-      "verse_number": 110,
-      "text": "अङ्गपीडाऽङ्गशूलं च संकोचस्तम्भरूक्षताः अङ्गभङ्गोऽङ्गविभ्रंशो विड्ग्रहो बद्धविट्कता ॥११०॥"
     },
     {
       "verse_number": 111,
