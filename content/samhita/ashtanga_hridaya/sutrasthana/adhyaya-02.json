@@ -1,0 +1,859 @@
+{
+  "chapter_id": "ashtanga.hridaya.sutra.02",
+  "title_en": "Dinacaryā Adhyāya",
+  "title_hi": "दिनचर्याध्यायः",
+  "sanskrit_title": "दिनचर्याध्यायः",
+  "section": "Sūtrasthāna",
+  "chapter_number": 2,
+  "verse_count": 48,
+  "passage_count": 49,
+  "source_policy": "e-Vāgbhaṭa / I-AIM is the verified primary source for Sanskrit text, verse sequence and chapter structure. TransLiteral is a secondary text cross-check; Ayana is the secondary commentary cross-check. Secondary sources must not override the verified primary source.",
+  "sources": [
+    {
+      "name": "e-Vāgbhaṭa / I-AIM",
+      "role": "verified primary source",
+      "url": "https://vedotpatti.in/samhita/Vag/ehrudayam/?mod=read"
+    },
+    {
+      "name": "TransLiteral",
+      "role": "secondary Sanskrit sequence cross-check",
+      "url": "https://www.transliteral.org/pages/z210315212639/view"
+    },
+    {
+      "name": "Ayana Ayurveda",
+      "role": "secondary commentary cross-check",
+      "url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/dinacaryadhyayah/"
+    }
+  ],
+  "recitation_policy": "not_classified_until_NCISM_explicitly_requires_recitation",
+  "learning_units": [
+    {
+      "id": "u01",
+      "title": "प्रातःकाल, शौच और दन्तधावन",
+      "passages": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "अञ्जन, नस्य, गण्डूष और ताम्बूल",
+      "passages": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "id": "u03",
+      "title": "अभ्यङ्ग और व्यायाम",
+      "passages": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "id": "u04",
+      "title": "उद्वर्तन और स्नान",
+      "passages": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ]
+    },
+    {
+      "id": "u05",
+      "title": "आहार, वेग और धर्म",
+      "passages": [
+        "19",
+        "20"
+      ]
+    },
+    {
+      "id": "u06",
+      "title": "मानसिक एवं सामाजिक सद्वृत्त",
+      "passages": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ]
+    },
+    {
+      "id": "u07",
+      "title": "स्वच्छता और यात्रा-सुरक्षा",
+      "passages": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    {
+      "id": "u08",
+      "title": "निषिद्ध व्यवहार और सामाजिक सावधानियाँ",
+      "passages": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ]
+    },
+    {
+      "id": "u09",
+      "title": "लोकव्यवहार और सद्व्रत का सार",
+      "passages": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ]
+    }
+  ],
+  "study_aids": [
+    {
+      "id": "a01",
+      "type": "comparison_table",
+      "title": "दिनचर्या का क्रम",
+      "columns": [
+        "चरण",
+        "मुख्य विषय"
+      ],
+      "rows": [
+        [
+          "प्रातःकाल",
+          "उत्थान, शौच, दन्तधावन"
+        ],
+        [
+          "ऊर्ध्वजत्रु",
+          "अञ्जन, नस्य, गण्डूष, धूम, ताम्बूल"
+        ],
+        [
+          "शारीरिक देखभाल",
+          "अभ्यङ्ग, व्यायाम, उद्वर्तन, स्नान"
+        ],
+        [
+          "सद्वृत्त",
+          "आहार, वेग, धर्म, सामाजिक व्यवहार"
+        ],
+        [
+          "सुरक्षा",
+          "यात्रा, पर्यावरण, निषिद्ध आचरण"
+        ],
+        [
+          "आत्मनिरीक्षण",
+          "नित्य सजग स्मृति"
+        ]
+      ]
+    },
+    {
+      "id": "a02",
+      "type": "comparison_table",
+      "title": "व्यायाम — हित और अति",
+      "columns": [
+        "उचित",
+        "अति"
+      ],
+      "rows": [
+        [
+          "लाघव",
+          "तृष्णा"
+        ],
+        [
+          "कर्मसामर्थ्य",
+          "श्रम/क्लम"
+        ],
+        [
+          "दीप्ताग्नि",
+          "कास/ज्वर"
+        ],
+        [
+          "मेदक्षय",
+          "छर्दि"
+        ],
+        [
+          "घनगात्रता",
+          "क्षय/अन्य विकार"
+        ]
+      ]
+    },
+    {
+      "id": "a03",
+      "type": "flow_diagram",
+      "title": "दिनचर्या प्रवाह",
+      "steps": [
+        "ब्राह्ममुहूर्त",
+        "शौच",
+        "दन्तधावन/मुख-नेत्र देखभाल",
+        "अभ्यङ्ग",
+        "व्यायाम",
+        "उद्वर्तन",
+        "स्नान",
+        "आहार व सद्वृत्त",
+        "आत्मनिरीक्षण"
+      ]
+    }
+  ],
+  "notes": [
+    "दिनचर्या को यांत्रिक checklist की तरह नहीं, व्यक्ति की अवस्था, बल, ऋतु और रोगावस्था के अनुसार समझना चाहिए।",
+    "जहाँ श्लोक में रोगावस्था या निषेध दिया गया है, उसे सामान्य स्वस्थ व्यक्ति के नियम से अलग पढ़ें।"
+  ],
+  "passages": [
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.intro",
+      "passage_no": "intro-01",
+      "type": "gadyasutra",
+      "section": "अध्यायोपक्रम",
+      "sanskrit_original": "अथातो दिनचर्याध्यायं व्याख्यास्यामः।\nइति ह स्माहुरात्रेयादयो महर्षयः।",
+      "translation_hi": "अब दिनचर्या अध्याय की व्याख्या करेंगे; ऐसा आत्रेय आदि महर्षियों ने कहा है।",
+      "explanation_hi": "यह गद्यसूत्र अध्याय के विषय और आप्त-परम्परा की उद्घोषणा करता है।",
+      "tika_sarvangasundari_hi": "‘अथ’ मंगल और अनन्तरार्थक है। दिनचर्या का अर्थ प्रतिदिन किए जाने वाले हितकर आहार-विहार और आचरण से है।",
+      "tika_ayurvedarasayana_hi": "दिनचर्या का सम्बन्ध प्रतिदिन के आहार-विहार और उभयलोकहितकारी आचरण से है; अध्याय में इसके क्रम का निरूपण किया जाएगा।",
+      "recitation_status": "not_classified"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.1",
+      "passage_no": "1",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "ब्राह्मे मुहूर्त उत्तिष्ठेत्स्वस्थो रक्षार्थमायुषः\nशरीरचिन्तां निर्वर्त्य कृतशौचविधिस्ततः",
+      "translation_hi": "ब्राह्ममुहूर्त में स्वस्थ व्यक्ति आयु की रक्षा के लिए उठे; शरीर की स्थिति का विचार करके शौचविधि करे।",
+      "explanation_hi": "प्रातःकाल की दिनचर्या स्वास्थ्य-संरक्षण का प्रथम चरण है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 1; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.2",
+      "passage_no": "2",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "अर्कन्यग्रोधखदिरकरञ्ज ककुभादिजम्\nप्रातर्भुक्त्वा च मृद्वग्रं कषायकटुतिक्तकम्",
+      "translation_hi": "अर्क, न्यग्रोध, खदिर, करञ्ज, ककुभ आदि की कोमल अग्रभाग वाली टहनी, जो कषाय, कटु या तिक्त हो, प्रातः ग्रहण करे।",
+      "explanation_hi": "दन्तधावन के लिए उपयुक्त, कोमल और दोषानुकूल दन्तकाष्ठ का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 2; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.3",
+      "passage_no": "3",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "कनीन्यग्रसमस्थौल्यं प्रगुणं द्वादशाङ्गुलम्\nभक्षयेद्दन्तपवनं दन्तमांसान्यवाधयन्",
+      "translation_hi": "दन्तकाष्ठ कनिष्ठिका के अग्रभाग के समान मोटा, सीधा और लगभग बारह अंगुल लम्बा हो; उससे दाँत और मसूड़ों को क्षति पहुँचाए बिना दन्तधावन करे।",
+      "explanation_hi": "दन्तधावन में आकार, कोमलता और अहिंसक उपयोग महत्त्वपूर्ण हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 3; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.4",
+      "passage_no": "4",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "नाद्यादजीर्णवमथु श्वासकासज्वरार्दिती\nतृष्णास्यपाकहृन्नेत्रशिरःकर्णामयी च तत्",
+      "translation_hi": "अजीर्ण, वमन, श्वास, कास, ज्वर, अर्दित, तृष्णा, मुखपाक तथा हृदय, नेत्र, शिर और कर्ण रोगों से पीड़ित व्यक्ति इसका सेवन न करे।",
+      "explanation_hi": "दन्तकाष्ठ के निषेध में रोगी की अवस्था और संबंधित रोगों का विचार आवश्यक है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 4; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.5",
+      "passage_no": "5",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "सौवीरमञ्जनं नित्यं हितमक्ष्णोस्ततो भजेत्\nचक्षुस्तेजोमयं तस्य विशेषात् श्लेष्मतो भयम्",
+      "translation_hi": "सौवीर अञ्जन का नित्य प्रयोग नेत्रों के लिए हितकर कहा गया है; नेत्र तेजोमय हैं और विशेषतः कफ से उनकी रक्षा अपेक्षित है।",
+      "explanation_hi": "नेत्ररक्षा में अञ्जन का स्थान और कफजन्य नेत्रविकारों से सावधानी बताई गई है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 5; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.6",
+      "passage_no": "6",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "योजयेत्सप्तरात्रेऽस्मात्स्रावणार्थे रसाञ्जनम्\nततो नावनगण्डूषधूमताम्बूलभाग्भवेत्",
+      "translation_hi": "सप्ताह में एक बार स्रावण के लिए रसाञ्जन लगाए; इसके बाद नस्य, गण्डूष, धूम और ताम्बूल का उचित सेवन करे।",
+      "explanation_hi": "मुख-नेत्र-ऊर्ध्वजत्रु की क्रमिक दिनचर्या यहाँ व्यवस्थित की गई है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 6; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.7",
+      "passage_no": "7",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "ताम्बूलं क्षतपित्तास्ररूक्षोत्कुपितचक्षुषाम्\nविषमूर्च्छामदार्तानामपथ्यं शोषिणामपि",
+      "translation_hi": "क्षत, पित्त, रक्त, रूक्षता, कुपित नेत्र, विष, मूर्च्छा, मद और शोष से पीड़ित लोगों के लिए ताम्बूल अपथ्य है।",
+      "explanation_hi": "ताम्बूल सेवन सार्वत्रिक नहीं है; रोगावस्था के अनुसार निषेध है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 7; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.8",
+      "passage_no": "8",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "अभ्यङ्गमाचरेन्नित्यं स जराश्रमवातहा\nदृष्टिप्रसादपुष्ट्यायुःस्वप्नसुत्वक्त्वदार्ढ्यकृत्",
+      "translation_hi": "नित्य अभ्यंग करें; वह जरा, श्रम और वात का नाश करता तथा दृष्टिप्रसाद, पुष्टि, आयु, सुखस्वप्न, सुन्दर त्वचा और दृढ़ता देता है।",
+      "explanation_hi": "अभ्यंग के बहुआयामी लाभों का संक्षिप्त निरूपण है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 8; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.9",
+      "passage_no": "9",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "शिरःश्रवणपादेषु तं विशेषेण शीलयेत्\nवर्ज्योऽभ्यङ्गः कफग्रस्तकृतसंशुद्ध्य्जीर्णिभिः",
+      "translation_hi": "विशेषतः सिर, कान और पैरों में अभ्यंग का अभ्यास करे; कफग्रस्त, हाल में शोधन कराए हुए और अजीर्ण व्यक्ति अभ्यंग से बचे।",
+      "explanation_hi": "अभ्यंग के विशेष अंग और प्रमुख निषेध दोनों बताए गए हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 9; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.10",
+      "passage_no": "10",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "लाघवं कर्मसामर्थ्यं दीप्तोऽग्निर्मेदसः क्षयः\nविभक्तघनगात्रत्वं व्यायामादुपजायते",
+      "translation_hi": "व्यायाम से लाघव, कर्मसामर्थ्य, प्रदीप्त अग्नि, मेदक्षय और सुगठित दृढ़ शरीर उत्पन्न होते हैं।",
+      "explanation_hi": "व्यायाम को स्वास्थ्य-संवर्धक शारीरिक परिश्रम के रूप में प्रस्तुत किया गया है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 10; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.11",
+      "passage_no": "11",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "वातपित्तामयी बालो वृद्धोऽजीर्णी च तं त्यजेत्\nअर्धशक्त्या निषेव्यस्तु बलिभिः स्निग्धभोजिभिः",
+      "translation_hi": "वात-पित्त रोगी, बाल, वृद्ध और अजीर्ण व्यक्ति व्यायाम त्यागें; बलवान् व्यक्ति अपनी आधी शक्ति तक व्यायाम करे।",
+      "explanation_hi": "व्यायाम की मात्रा व्यक्ति की आयु, बल, रोग और पाचन के अनुसार होनी चाहिए।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 11; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.12",
+      "passage_no": "12",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "शीतकाले वसन्ते च मन्दमेव ततोऽन्यदा\nतं कृत्वाऽनुसुखं देहं मर्दयेच्च समन्ततः",
+      "translation_hi": "शीतकाल और वसन्त में व्यायाम अल्प मात्रा में करे; अन्य समय में उचित मात्रा के बाद शरीर का सुखपूर्वक सर्वाङ्ग मर्दन करे।",
+      "explanation_hi": "ऋतु के अनुसार व्यायाम की तीव्रता और पश्चात् मर्दन का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 12; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.13",
+      "passage_no": "13",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "तृष्णा क्षयः प्रतमको रक्तपित्तं श्रमः क्लमः\nअतिव्यायामतः कासो ज्वरश्छर्दिश्च जायते",
+      "translation_hi": "अतिव्यायाम से तृष्णा, क्षय, प्रतमक, रक्तपित्त, श्रम, क्लम, कास, ज्वर और छर्दि हो सकते हैं।",
+      "explanation_hi": "अतिव्यायाम को स्वास्थ्यकर व्यायाम से स्पष्ट रूप से अलग किया गया है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 13; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.14",
+      "passage_no": "14",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "व्यायामजागराध्वस्त्रीहास्यभाष्यादि साहसम्\nगजं सिंह इवाकर्षन् भजन्नति विनश्यति",
+      "translation_hi": "व्यायाम, जागरण, अधिक यात्रा, स्त्रीसम्भोग, हास्य और भाषण आदि में अपनी शक्ति से अधिक साहस करने वाला नष्ट होता है।",
+      "explanation_hi": "बल से अधिक शारीरिक या मानसिक परिश्रम हानिकारक है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 14; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.15",
+      "passage_no": "15",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "उद्वर्तनं कफहरं मेदसः प्रविलायनम्\nस्थिरीकरणमङ्गानां त्वक्प्रसादकरं परम्",
+      "translation_hi": "उद्वर्तन कफहर, मेद को विलीन करने वाला, अंगों को स्थिर करने वाला और त्वचा को विशेष रूप से प्रसन्न करने वाला है।",
+      "explanation_hi": "चूर्ण से किया गया उद्वर्तन कफ-मेद और त्वचा पर विशेष प्रभाव रखता है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 15; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.16",
+      "passage_no": "16",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "दीपनं वृष्यमायुष्यं स्नानमूर्जाबलप्रदम्\nकण्डूमलश्रमस्वेदतन्द्रा तृड्दाहपाप्मजित्",
+      "translation_hi": "स्नान अग्निदीपक, वृष्य, आयुष्यकर, ऊर्जा और बल देने वाला तथा कण्डू, मल, श्रम, स्वेद, तन्द्रा, तृष्णा और दाह का नाश करने वाला कहा गया है।",
+      "explanation_hi": "स्नान के शारीरिक और आचारगत दोनों लाभों का वर्णन है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 16; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.17",
+      "passage_no": "17",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "उष्णाम्बुनाऽधकायस्य परिषेको बलावहः\nतेनैव तूत्तमाङ्गस्य बलहृत्केशचक्षुषाम्",
+      "translation_hi": "शरीर के अधोभाग पर उष्ण जल का परिषेक बलवर्धक है; उसी उष्ण जल से सिर पर परिषेक बल और केश-नेत्र के लिए हानिकर है।",
+      "explanation_hi": "स्नान में शरीर के विभिन्न भागों के लिए तापमान का भेद बताया गया है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 17; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.18",
+      "passage_no": "18",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "स्नानमर्दितनेत्रास्यकर्ण रोगातिसारिषु\nआध्मानपीनसाजीर्णभुक्तवत्सु च गर्हितम्",
+      "translation_hi": "अर्दित, नेत्र, मुख और कर्णरोग, अतिसार, आध्मान, पीनस, अजीर्ण तथा भोजन के तुरन्त बाद स्नान निषिद्ध है।",
+      "explanation_hi": "स्नान के निषेध रोगावस्था और भोजनकाल से जुड़े हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 18; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.19",
+      "passage_no": "19",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "जीर्णे हितं मितं चाद्यान्न वेगानीरयेद्बलात्\nन वेगितोऽन्यकार्यः स्यान्नाजित्वा साध्यमामयम्",
+      "translation_hi": "भोजन पच जाने पर हित और मित आहार करे; प्राकृतिक वेगों को बलपूर्वक न रोके या न निकाले; साध्य रोग का उपचार किए बिना दूसरे कार्य में न लगे।",
+      "explanation_hi": "आहार, वेग और रोगोपचार की प्राथमिकता स्पष्ट की गई है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 19; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.20",
+      "passage_no": "20",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "सुखार्थाः सर्वभूतानां मताः सर्वाः प्रवृत्तयः\nसुखं च न विना धर्मात्तस्माद्धर्मपरो भवेत्",
+      "translation_hi": "सभी प्राणियों की प्रवृत्तियाँ सुख के लिए हैं; धर्म के बिना सुख नहीं, इसलिए धर्मपरायण होना चाहिए।",
+      "explanation_hi": "सद्वृत्त की नैतिक आधारभूमि धर्म और हितकर आचरण है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 20; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.21",
+      "passage_no": "21",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "भक्त्या कल्याणमित्राणि सेवेतेतरदूरगः\nहिंसास्तेयान्यथाकामं पैशुन्यं परुषानृते",
+      "translation_hi": "कल्याणकारी मित्रों की सेवा और विपरीत संग से दूरी रखे; हिंसा, चोरी, परस्त्रीगमन, चुगली, कठोर वचन और असत्य से बचे।",
+      "explanation_hi": "सद्वृत्त में संगति और काय-वाक् व्यवहार दोनों का शोधन आवश्यक है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 21; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.22",
+      "passage_no": "22",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "सम्भिन्नालापं व्यापादमभिध्यां दृग्विपर्ययम्\nपापं कर्मेति दशधा कायवाङ्मानसैस्त्यजेत्",
+      "translation_hi": "सम्भिन्नालाप, दूसरे का अहित चाहना, परधन की अभिलाषा और मिथ्यादृष्टि सहित दस पापकर्मों को काय, वाक् और मन से त्यागे।",
+      "explanation_hi": "दशविध पापकर्म सद्वृत्त के निषेधात्मक पक्ष को व्यवस्थित करते हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 22; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.23",
+      "passage_no": "23",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "अवृत्तिव्याधिशोकार्ताननुवर्तेत शक्तितः\nआत्मवत्सततं पश्येदपि कीटपिपीलिकम्",
+      "translation_hi": "वृत्ति-विहीन, रोगी और शोकाकुल लोगों की अपनी शक्ति के अनुसार सहायता करे; कीट और पिपीलिका तक को अपने समान देखे।",
+      "explanation_hi": "करुणा और प्राणीमात्र के प्रति आत्मवत् दृष्टि सदाचार का अंग है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 23; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.24",
+      "passage_no": "24",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "अर्चयेद्देवगोविप्रवृद्ध वैद्यनृपातिथीन्\nविमुखान्नार्थिनः कुर्यान्नावमन्येत नाक्षिपेत्",
+      "translation_hi": "देव, गौ, विप्र, वृद्ध, वैद्य, राजा और अतिथि का सम्मान करे; याचक को विमुख न करे और उसका अपमान न करे।",
+      "explanation_hi": "सामाजिक सम्मान और अतिथि-याचक के प्रति शिष्ट व्यवहार का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 24; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.25",
+      "passage_no": "25",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "उपकारप्रधानः स्यादपकारपरेऽप्यरौ\nसम्पद्विपत्स्वेकमना हेतावीर्ष्येत्फले न तु",
+      "translation_hi": "शत्रु भी अपकार करे तो उपकारप्रधान रहे; सम्पत्ति और विपत्ति में सम रहे तथा कारण में ईर्ष्या करे, फल में नहीं।",
+      "explanation_hi": "क्षमा, समत्व और कारण-फल के विवेक को सद्वृत्त का अंग बताया गया है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 25; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.26",
+      "passage_no": "26",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "काले हितं मितं ब्रूयादविसंवादि पेशलम्\nपूर्वाभिभाषी सुमुखः सुशीलः करुणामृदुः",
+      "translation_hi": "समय पर हितकर, मित, सत्य और मधुर वचन बोले; पहले अभिभाषी, प्रसन्नमुख, सुशील, करुणामय और मृदु हो।",
+      "explanation_hi": "वाणी की मात्रा, समय, सत्यता और मधुरता सामाजिक स्वास्थ्य के साधन हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 26; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.27",
+      "passage_no": "27",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "नैकः सुखी न सर्वत्र विश्रब्धो न च शङ्कितः\nन कञ्चिदात्मनः शत्रुं नात्मानं कस्यचिद्रि पुम्",
+      "translation_hi": "एकाकी सुखी न रहे, सब पर अन्धविश्वास न करे और सब पर संदेह भी न करे; किसी को अपना शत्रु न माने और स्वयं को किसी का शत्रु न बनाए।",
+      "explanation_hi": "सामाजिक व्यवहार में संतुलित विश्वास और अहिंसक सम्बन्ध का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 27; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.28",
+      "passage_no": "28",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "प्रकाशयेन्नापमानं न च निःस्नेहतां प्रभोः\nजनस्याशयमालक्ष्य यो यथा परितुष्यति",
+      "translation_hi": "अपने अपमान को सर्वत्र प्रकट न करे और स्वामी के प्रति निःस्नेहता न दिखाए; लोगों की प्रवृत्ति समझकर उचित व्यवहार करे।",
+      "explanation_hi": "व्यवहारकौशल में आत्मसंयम और व्यक्ति-विशेष की मनोवृत्ति का विवेक आवश्यक है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 28; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.29",
+      "passage_no": "29",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "तं तथैवानुवर्तेत पराराधनपण्डितः\nन पीडयेदिन्द्रि याणि न चैतान्यति लालयेत्",
+      "translation_hi": "दूसरों को प्रसन्न करने की कला जानने वाले के अनुरूप व्यवहार करे; इन्द्रियों को न पीड़ित करे और न अत्यधिक लाड़ दे।",
+      "explanation_hi": "इन्द्रियनिग्रह में दमन और अति-लालन दोनों से बचना है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 29; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.30",
+      "passage_no": "30",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "त्रिवर्गशून्यं नारम्भं भजेत्तं चाविरोधयन्\nअनुयायात्प्रतिपदं सर्वधर्मेषु मध्यमाम्",
+      "translation_hi": "धर्म, अर्थ और काम से सर्वथा रहित कार्य न आरम्भ करे; उनका विरोध न करने वाला आचरण अपनाए और मध्यम मार्ग चले।",
+      "explanation_hi": "जीवन के पुरुषार्थों में संतुलन और मध्यमार्ग का सिद्धान्त है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 30; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.31",
+      "passage_no": "31",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "नीचरोमनखश्मश्रुर्निर्मलाङिघ्र मलायनः\nस्नानशीलः सुसुरभिः सुवेषोऽनुल्वणोज्ज्वलः",
+      "translation_hi": "रोम, नख और श्मश्रु को व्यवस्थित रखे, पैर और मलायन शुद्ध रखे, स्नानशील, सुगन्धित और सुवेष्टित रहे।",
+      "explanation_hi": "व्यक्तिगत स्वच्छता और सुसज्जित आचार सद्वृत्त के बाह्य पक्ष हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 31; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.32",
+      "passage_no": "32",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "धारयेत्सततं रत्नसिद्धमन्त्र महौषधीः\nसातपत्रपदत्राणो विचरेद्युगमात्रदृक्",
+      "translation_hi": "रत्न, सिद्ध मन्त्र और महौषधियाँ धारण करे; छत्र और पादत्राण सहित चले तथा सावधानी से दृष्टि रखे।",
+      "explanation_hi": "यात्रा में संरक्षण, सुरक्षा और नियंत्रित दृष्टि का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 32; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.33",
+      "passage_no": "33",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "निशि चात्ययिके कार्ये दण्डी मौली सहायवान्\nचैत्यपूज्यध्वजाशस्तच्छाया भस्मतुषाशुचीन्",
+      "translation_hi": "रात्रि में अत्यावश्यक कार्य हो तो दण्डधारी, सिर ढका हुआ और सहायक सहित जाए; चैत्य, पूज्य स्थान, ध्वज, निन्दित व्यक्ति की छाया, भस्म, तुष और अपवित्र स्थानों से बचे।",
+      "explanation_hi": "रात्रि-गमन और अशुचि/अशुभ स्थानों से सम्बन्धित सावधानियाँ हैं।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 33; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.34",
+      "passage_no": "34",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "नाक्रामेच्छर्करालोष्टबलिस्नानभुवो न च\nनदीं तरेन्न बाहुभ्यां नाग्निस्कन्धमभिव्रजेत्",
+      "translation_hi": "कंकड़, मिट्टी के ढेले, बलि या स्नानस्थल पर न चले; केवल बाहुओं से नदी न तरे और अग्नि के ढेर के पास न जाए।",
+      "explanation_hi": "गमन में असुरक्षित स्थानों और अग्नि-जल सम्बन्धी जोखिम से बचने का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 34; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.35",
+      "passage_no": "35",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "सन्दिग्धनावं वृक्षं च नारोहेद्दुष्टयानवत्\nनासंवृतमुखः कुर्यात्क्षुतिहास्यविजृम्भणम्",
+      "translation_hi": "सन्दिग्ध नाव या वृक्ष पर न चढ़े और दोषयुक्त वाहन का उपयोग न करे; खुले मुख से छींक, हास्य या जृम्भा न करे।",
+      "explanation_hi": "यात्रा-सुरक्षा तथा सार्वजनिक शारीरिक शिष्टाचार दोनों का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 35; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.36",
+      "passage_no": "36",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "नासिकां न विकुष्णीयान्नाकस्माद्विलिखेद्भुवम्\nनाङ्गैश्चेष्टेत विगुणं नासीतोत्कटकश्चिरम्",
+      "translation_hi": "नाक को अनावश्यक न खींचे, बिना कारण भूमि न कुरेदे, अंगों से विकृत चेष्टा न करे और देर तक उत्कटासन में न बैठे।",
+      "explanation_hi": "शरीर-चेष्टा में संयम और शिष्टता सद्वृत्त का भाग है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 36; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.37",
+      "passage_no": "37",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "देहवाक्चेतसां चेष्टाः प्राक् श्रमाद्विनिवर्तयेत्\nनोर्ध्वजानुश्चिरं तिष्ठेत् नक्तं सेवेत न द्रुमम्",
+      "translation_hi": "श्रम होने से पहले शरीर, वाणी और मन की चेष्टाएँ रोक दे; घुटने ऊपर उठाकर देर तक न खड़ा रहे और रात में वृक्ष के नीचे न ठहरे।",
+      "explanation_hi": "अतिश्रम-निवारण और रात्रिकालीन सुरक्षा का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 37; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.38",
+      "passage_no": "38",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "तथा चत्वरचैत्यान्तश्चतुष्पथसुरालयान्\nसूनाटवीशून्यगृहश्मशानानि दिवाऽपि न",
+      "translation_hi": "चत्वर, चैत्य का अन्त, चतुष्पथ, देवालय, मद्यशाला, वन, निर्जन गृह और श्मशान में दिन में भी अनावश्यक न जाए।",
+      "explanation_hi": "अनावश्यक जोखिम और अनुचित स्थानों से दूरी रखने का व्यवहारिक नियम है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 38; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.39",
+      "passage_no": "39",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "सर्वथेक्षेत नादित्यं न भारं शिरसा वहेत्\nनेक्षेत प्रततं सूक्ष्मं दीप्तामेध्याप्रियाणि च",
+      "translation_hi": "प्रत्यक्ष सूर्य को न देखे, सिर पर भार न ढोए और लगातार सूक्ष्म वस्तुओं, तीव्र प्रकाश, अपवित्र या अप्रिय वस्तुओं को न देखे।",
+      "explanation_hi": "नेत्र और शरीर की सुरक्षा के लिए दृष्टि तथा भार-वहन की मर्यादा बताई गई है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 39; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.40",
+      "passage_no": "40",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "मद्यविक्रयसन्धानदाना दानानि नाचरेत्\nपुरोवातातपरजस्तुषार परुषानिलान्",
+      "translation_hi": "मद्य का विक्रय, संधान और दान न करे; सामने से आने वाली तेज वायु, धूप, रज, तुषार और कठोर वायु से बचे।",
+      "explanation_hi": "अनुचित व्यापार/दान तथा प्रतिकूल पर्यावरणीय संपर्क से बचाव है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 40; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.41",
+      "passage_no": "41",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "अनृजुः क्षवथूद्गार कासस्वप्नान्नमैथुनम्\nकूलछायां नृपद्विष्टं व्यालदंष्ट्रिविषाणिनः",
+      "translation_hi": "अनुचित मुद्रा में छींक, डकार, कास, निद्रा, भोजन या मैथुन न करे; नदी-किनारे की छाया तथा राजा से द्वेष रखने वाले और विषधारी जीवों से बचे।",
+      "explanation_hi": "दैनिक शारीरिक क्रियाओं के लिए उचित मुद्रा और जोखिमपूर्ण स्थान/संगति से बचने का निर्देश है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 41; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.42",
+      "passage_no": "42",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "हीनानार्यातिनिपुणसेवां विग्रहं उत्तमैः\nसन्ध्यास्वभ्यवहारस्त्रीस्वप्नाध्ययन चिन्तनम्",
+      "translation_hi": "हीन या अनार्य व्यक्तियों की अनुचित सेवा और श्रेष्ठों से विवाद न करे; संध्या समय भोजन, स्त्रीसंग, निद्रा, अध्ययन और अत्यधिक चिन्तन से बचे।",
+      "explanation_hi": "समय-विशेष की मर्यादा और सामाजिक व्यवहार की शिष्टता बताई गई है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 42; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.43",
+      "passage_no": "43",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "शत्रुसत्रगणाकीर्णगणिकापणिकाशनम्\nगात्रवक्त्रनखैर्वाद्यं हस्तकेशावधूननम्",
+      "translation_hi": "शत्रुओं, सत्रों से भरे समूहों, गणिकाओं और पणिकों के स्थान पर भोजन न करे; शरीर, मुख या नखों से वाद्य न बजाए और हाथों से बाल न झटके।",
+      "explanation_hi": "भोजन-स्थान की सावधानी और अनावश्यक अशिष्ट चेष्टाओं का निषेध है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 43; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.44",
+      "passage_no": "44",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "तोयाग्निपूज्यमध्येन यानं धूमं शवाश्रयम्\nमद्यातिसक्तिं विश्रम्भस्वातन्त्र्ये स्त्रीषु च त्यजेत्",
+      "translation_hi": "जल, अग्नि या पूज्य वस्तु के बीच से वाहन न ले जाए; धुएँ और शवस्थान से बचे, मद्य की अत्यधिक आसक्ति तथा स्त्रियों के प्रति अति-विश्वास से बचे।",
+      "explanation_hi": "सुरक्षा, संयम और सामाजिक मर्यादा को एक साथ रखा गया है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 44; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.45",
+      "passage_no": "45",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "आचार्यः सर्वचेष्टासु लोक एव हि धीमतः\nअनुकुर्यात्तमेवातो लौकिकेऽथे परीक्षकः",
+      "translation_hi": "बुद्धिमान के लिए समस्त लोक ही आचार्य है; लोकव्यवहार में हित-अहित का परीक्षण करके उचित आचरण का अनुकरण करे।",
+      "explanation_hi": "सद्वृत्त ग्रन्थ-अध्ययन के साथ विवेकपूर्ण लोकनिरीक्षण से भी सीखा जाता है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 45; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.46",
+      "passage_no": "46",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "आर्द्र सन्तानता त्यागः कायवाक्चेतसां दमः\nस्वार्थबुद्धिः परार्थेषु पर्याप्तमिति सद्व्रतम्",
+      "translation_hi": "आसक्ति का त्याग, काय-वाक्-चित्त का संयम और परार्थ में स्वार्थबुद्धि का त्याग—इतना सद्व्रत के लिए पर्याप्त कहा गया है।",
+      "explanation_hi": "यह श्लोक सद्वृत्त का संक्षिप्त सार प्रस्तुत करता है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 46; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.47",
+      "passage_no": "47",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "नक्तंदिनानि मे यान्ति कथम्भूतस्य सम्प्रति\nदुःखभाङ्न भवत्येवं नित्यं सन्निहितस्मृतिः",
+      "translation_hi": "‘मे दिन-रात किस प्रकार बीत रहे हैं और अभी मैं किस अवस्था में हूँ?’—ऐसी निरन्तर सजग स्मृति रखने वाला दुःख का भागी नहीं होता।",
+      "explanation_hi": "आत्मनिरीक्षण और निरन्तर सजगता दिनचर्या का मानसिक आधार है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 47; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.02.48",
+      "passage_no": "48",
+      "type": "verse",
+      "section": "दिनचर्याध्यायः",
+      "sanskrit_original": "इत्याचारः समासेन यं प्राप्नोति समाचरन्\nआयुरारोग्यमैश्वर्यं यशो लोकांश्च शाश्वतान्",
+      "translation_hi": "संक्षेप में बताए आचार का पालन करने वाला आयु, आरोग्य, ऐश्वर्य, यश और शाश्वत लोक प्राप्त करता है।",
+      "explanation_hi": "अध्याय का उपसंहार सदाचार के व्यापक फल को बताता है।",
+      "tika_sarvangasundari_hi": "सर्वाङ्गसुन्दरी — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन — source-based faithful Hindi tātparya; full sequential commentary refinement will be added from the verified commentary source.",
+      "recitation_status": "not_classified",
+      "source_locator": "TransLiteral Sūtrasthāna 2, śloka 48; primary Sanskrit source: e-Vāgbhaṭa / I-AIM"
+    }
+  ]
+}
