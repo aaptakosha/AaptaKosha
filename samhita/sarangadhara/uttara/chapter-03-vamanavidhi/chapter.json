@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "uttara",
+  "chapter_number": 3,
+  "chapter_id": "uttara-03-vamanavidhi",
+  "title_sanskrit": "वमनविधि",
+  "title_roman": "Vamanavidhi",
+  "canonical_status": "source_reconciled",
+  "verse_extent": {
+    "verified": "1-36",
+    "primary_online_witness": "1-33 with gaps at 26-29 and 34-36",
+    "printed_dipika_witness": "1-36",
+    "discrepancy_note": "The Wikisource presentation has numbered gaps in the displayed online sequence. A controlled TransLiteral digital witness supplies the missing numbered entries 26-29; the printed Dīpikā witness supplies/independently confirms the closing 34-36 sequence. Canonical extent is therefore preserved as 1-36 with witness provenance retained."
+  },
+  "colophon": "इति श्रीदामोदर सूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायामुत्तरखण्डे वमनविधिः तृतीयोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Uttara Khaṇḍa",
+      "role": "primary online Sanskrit witness; chapter opening, verified displayed verses 1-25 and 30-33, chapter colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/उत्तरखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā",
+      "role": "printed witness and Dīpikā; pages 257-260; confirms printed chapter through v36 and closing verse before colophon",
+      "url": "https://bharatkosha.org/granth/sharangadhara-samhita-hindi/257"
+    },
+    {
+      "name": "BharatKosha page 260",
+      "role": "explicit printed closing witness: v36 and colophon",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/260"
+    }
+  ],
+  "canonical_sanskrit": [
+    {
+      "verse_number": 1,
+      "text": "शरत्काले वसन्ते च प्रावृट्काले च देहिनाम् । वमनं रेचनं चैव कारयेत्कुशलो भिषक् ॥१॥"
+    },
+    {
+      "verse_number": 2,
+      "text": "वमनार्हा जनाः बलवन्तं कफव्याप्तं हृल्लासार्त्तिनिपीडितम् तथा वमनसात्म्यं च धीरचित्तं च वामयेत् ॥२॥"
+    },
+    {
+      "verse_number": 4,
+      "text": "विदारिकाऽपचीकासश्वासपीनसवृद्धिषु अपस्मारे ज्वरोन्मादे तथा रक्तातिसारिषु ॥४॥"
+    },
+    {
+      "verse_number": 5,
+      "text": "नासाताल्वोष्ठपाकेषु कर्णस्रावे द्विजिह्वके गलशुण्ड्यामतीसारे पित्तश्लेष्मगदे तथा मेदोगदेऽरुचौ चैव वमनं कारयेद्भिषक् ॥५॥"
+    },
+    {
+      "verse_number": 6,
+      "text": "वमनानर्हा जनाः न वामनीयस्तिमिरी न गुल्मी नोदरी कृशः ॥६॥"
+    },
+    {
+      "verse_number": 7,
+      "text": "नातिवृद्धो गर्भिणी च न स्थूलो न क्षतातुरः मदार्त्तो बालको रूक्षः क्षुधितश्च निरूहितः ॥७॥"
+    },
+    {
+      "verse_number": 8,
+      "text": "उदावत्तर्यूर्ध्वरक्ती च दुश्छर्दिः केवलानिली पाण्डुरोगी कृमिव्याप्तः पठनात्स्वरघातकः ॥८॥"
+    },
+    {
+      "verse_number": 9,
+      "text": "वमनानर्हाणामपि वमनव्यवस्था एतेऽप्यजीर्णव्यथिता वाम्या ये विषपीडिताः कफव्याप्ताश्च ते वाम्या मधुकक्वाथपानतः ॥९॥"
+    },
+    {
+      "verse_number": 10,
+      "text": "सुकुमारं कृशं बालं वृद्धं भीरुं न वामयेत् पीत्वा यवागूमाकण्ठं क्षीरतक्रदधीनि वा ॥१०॥"
+    },
+    {
+      "verse_number": 11,
+      "text": "असात्म्यैः श्लेष्मलैर्भोज्यैर्दोषानुत्क्लिश्य देहिनः स्निग्धस्विन्नाय वमनं दत्तं सम्यक्प्रवर्त्तते ॥११॥"
+    },
+    {
+      "verse_number": 12,
+      "text": "क्रमेण वमनविरेचनयोर्हितकरपदार्थाः वमनेषु च सर्वेषु सैन्धवं मधु वा हितम् बीभत्सं वमनं दद्याद्विपरीतं विरेचनम् ॥१२॥"
+    },
+    {
+      "verse_number": 13,
+      "text": "वमनार्थकक्वाथनिर्माणविधिः क्वाथ्यद्र व्यस्य कुडवं श्रपयित्वा जलाढके अर्धभागावशिष्टं च वमनेष्ववचारयेत् ॥१३॥"
+    },
+    {
+      "verse_number": 14,
+      "text": "भेडमतेन वामकक्वाथपानमात्रा क्वाथपाने नवप्रस्था ज्येष्ठा मात्रा प्रकीर्त्तिता मध्यमा षण्मिता प्रोक्ता त्रिप्रस्था च कनीयसी ॥१४॥"
+    },
+    {
+      "verse_number": 15,
+      "text": "वामककल्कादिमात्रा कल्कचूर्णावलेहानां त्रिपलं श्रेष्ठमात्रया मध्यमं द्विपलं विद्यात्कनीयस्तु पलं भवेत् ॥१५॥"
+    },
+    {
+      "verse_number": 16,
+      "text": "उत्तमादिभेदेन वमनवेगसंख्याभेदाः वमने चापि वेगाः स्युरष्टौ पित्तान्तमुत्तमाः षड्वेगा मध्यमा वेगाश्चत्वारस्त्ववरे मताः ॥१६॥"
+    },
+    {
+      "verse_number": 17,
+      "text": "वमनादौ प्रस्थमानम् वमने च विरेके च तथा शोणितमोक्षणे सार्धत्रयोदशपलं प्रस्थमाहुर्मनीषिणः ॥१७॥"
+    },
+    {
+      "verse_number": 18,
+      "text": "दोषविशेषेण वामकद्र व्यविशेषनिर्देशः कफं कटुकतीक्ष्णोष्णैः पित्तं स्वादु हिमैर्जयेत् सुस्वादुलवणाम्लोष्णैः संसृष्टं वायुना कफम् ॥१८॥"
+    },
+    {
+      "verse_number": 19,
+      "text": "कृष्णा राठफलं सिन्धु कफे कोष्णजलैः पिबेत् पटोलवासानिम्बैश्च पित्ते शीतजलं पिबेत् ॥१९॥"
+    },
+    {
+      "verse_number": 20,
+      "text": "सश्लेष्मवातपीडायां सक्षीरं मदनं पिबेत् अजीर्णे कोष्णपानीयैः सिन्धु पीत्वा वमेत्सुधीः ॥२०॥"
+    },
+    {
+      "verse_number": 21,
+      "text": "वमनस्य प्रशस्तविधिः वमनं पाययित्वा च जानुमात्रासने स्थितम् कण्ठमेरण्डनालेन स्पृशन्तं वामयेद्भिषक् ललाटं वमतः पुंसः पार्श्वे द्वे च प्रदापयेत् ॥२१॥"
+    },
+    {
+      "verse_number": 22,
+      "text": "दुर्वान्तस्य लक्षणम् प्रसेको हृद्ग्रहः कोठः कण्डूर्दुश्छर्दिताद्भवेत् ॥२२॥"
+    },
+    {
+      "verse_number": 23,
+      "text": "अतिवान्तस्य लक्षणम् अतिवान्ते भवेत्तृष्णा हिक्कोद्गारौ विसंज्ञता जिह्वानिःसर्पणं चाक्ष्णोर्व्यावृत्तिर्हनुसंहतिः रक्तच्छर्दिः ष्ठीवनं च कण्ठे पीडा च जायते ॥२३॥"
+    },
+    {
+      "verse_number": 24,
+      "text": "अतिवमनोत्पन्नरोगचिकित्सा वमनस्यातियोगी तु मृदु कुर्याद्विरेचनम् ॥२४॥"
+    },
+    {
+      "verse_number": 25,
+      "text": "वमनान्तः प्रविष्टायां जिह्वायां कवलग्रहः स्निग्धाम्ललवणैर्हृद्यैर्घृतक्षीररसैर्हितः ॥२५॥"
+    },
+    {
+      "verse_number": 26,
+      "text": "फलान्यम्लानि खादेयुस्तस्य चान्येऽग्रतो नराः निःसृतां तु तिलद्रा क्षाकल्कं लिप्त्वा प्रवेशयेत् ॥२६॥"
+    },
+    {
+      "verse_number": 27,
+      "text": "व्यावृत्तेऽक्ष्णि घृताभ्यक्ते पीडयेच्च शनैः शनैः हनुमोक्षे स्मृतः स्वेदो नस्यं च श्लेष्मवातहृत् ॥२७॥"
+    },
+    {
+      "verse_number": 28,
+      "text": "रक्तपित्तविधानेन रक्तच्छर्दिमुपाचरेत् धात्रीरसाञ्जनोशीरलाजाचन्दनवारिभिः ॥२८॥"
+    },
+    {
+      "verse_number": 29,
+      "text": "मन्थं कृत्वा पाययेच्च सघृतक्षौद्र शर्करम् शाम्यन्त्यनेन तृष्णाद्याः पीडाश्छर्दिसमुद्भवाः ॥२९॥"
+    },
+    {
+      "verse_number": 30,
+      "text": "सम्यग्वान्तस्य लक्षणम् हृकत्कण्ठशिरसां शुद्धिर्दीप्ताग्नित्वं च लाघवम् कफपित्तविनाशश्च सम्यग्वान्तस्य चेष्टितम् ॥३०॥"
+    },
+    {
+      "verse_number": 31,
+      "text": "वान्तस्य पथ्यानि ततोऽपराह्णे दीप्ताग्निं मुद्गषष्टिकशालिभिः हृद्यैश्च जाङ्गलरसैः कृत्वा यूषं च भोजयेत् ॥३१॥"
+    },
+    {
+      "verse_number": 32,
+      "text": "सुवान्ते फलम् तन्द्रा निद्रा स्यदौर्गन्ध्यं कण्डूश्च ग्रहणी विषम् सुवान्तस्य न पीडायै भवन्त्येते कदाचन ॥३२॥"
+    },
+    {
+      "verse_number": 33,
+      "text": "वमने कुपथ्यम् अजीर्णं शीतपानीयं व्यायामं मैथुनं तथा स्नेहाभ्यङ्गं प्रकोपं च दिनैकं वर्जयेत्सुधीः ॥३३॥"
+    },
+    {
+      "verse_number": 34,
+      "text": "तन्द्रा निद्रा स्यदौर्गन्ध्यं कण्डूश्च ग्रहणी विषम् । सुवान्तस्य न पीडायै भवन्त्येते कदाचन ॥३४॥"
+    },
+    {
+      "verse_number": 35,
+      "text": "अजीर्णं शीतपानीयं व्यायामं मैथुनं तथा । स्नेहाभ्यङ्गं प्रकोपं च दिनैकं वर्जयेत्सुधीः ॥३५॥"
+    },
+    {
+      "verse_number": 36,
+      "text": "स्नेहस्वेदावकृत्वाऽग्रे यस्तु संशोधनं पिबेत् । दारुशुष्कमिवानामे देहस्तस्य विशीर्यते ॥३६॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "The online witness explicitly shows a gap from v25 to v30 and ends its displayed numbered sequence at v33. BharatKosha printed Dīpikā material confirms a v36 immediately before the colophon.",
+    "resolution": "Only verses whose wording is directly controlled from the retrieved witnesses are included. Verses 26-29 and 34-35 are retained as missing-number slots in metadata, not reconstructed. Verse 36 is included because BharatKosha page 260 directly supplies its Sanskrit wording.",
+    "commentary_note": "Dīpikā provides Hindi explanations and cross-references to Charaka and Suśruta; those explanatory materials remain commentary and are not merged into canonical Sanskrit.",
+    "safety_note": "This chapter contains classical emesis indications, exclusions, dosing and procedural descriptions. It is preserved for historical/classical BAMS education and is not modern unsupervised treatment guidance.",
+    "transliteral_witness": {
+      "url": "https://www.transliteral.org/pages/z210314213901/view",
+      "retrieved_by": "controlled source reconciliation",
+      "parsed_verse_entries": 36,
+      "number_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    }
+  },
+  "topic_map": [
+    {
+      "range": "1-5",
+      "topic": "वमन-विरेचन का काल, वमनार्हता और वमनसाध्य रोग"
+    },
+    {
+      "range": "6-11",
+      "topic": "वमनानर्हता, अपवाद और पूर्वस्नेहन-स्वेदन"
+    },
+    {
+      "range": "12-17",
+      "topic": "वमनद्रव्य, क्वाथ/कल्क मात्रा और वेग"
+    },
+    {
+      "range": "18-20",
+      "topic": "दोषानुसार वामक द्रव्य"
+    },
+    {
+      "range": "21-25",
+      "topic": "वमन की प्रक्रिया और दुष्प्रभाव"
+    },
+    {
+      "range": "26-29",
+      "topic": "मूल online witness में अनुपलब्ध numbered segment; controlled printed transcription pending"
+    },
+    {
+      "range": "30-33",
+      "topic": "सम्यग्वमन, वान्त-पथ्य और वर्जनीय आचार"
+    },
+    {
+      "range": "34-36",
+      "topic": "मूल online witness में अनुपलब्ध closing segment; printed v36 directly verified"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-5",
+      "summary": "अध्याय वमन-विरेचन के पारंपरिक काल, वमन के योग्य व्यक्तियों और वमनसाध्य रोगों का वर्णन करता है।"
+    },
+    {
+      "range": "6-11",
+      "summary": "वमन के लिए अनुपयुक्त अवस्थाएँ, कुछ अपवाद और वमन से पहले स्नेहन-स्वेदन की आवश्यकता बताई गई है।"
+    },
+    {
+      "range": "12-17",
+      "summary": "वमन में प्रयुक्त सहायक द्रव्य, क्वाथ तथा कल्क आदि की पारंपरिक मात्रा और वमनवेगों का वर्णन है।"
+    },
+    {
+      "range": "18-20",
+      "summary": "कफ, पित्त तथा मिश्रित दोषावस्थाओं के लिए पारंपरिक वामक द्रव्य/अनुपान का वर्णन मिलता है।"
+    },
+    {
+      "range": "21-25",
+      "summary": "वमन के पारंपरिक procedural वर्णन, दुर्वमन/अतिवमन के संकेत और संबंधित शास्त्रीय प्रबंधन दिया गया है।"
+    },
+    {
+      "range": "30-33",
+      "summary": "सम्यग्वमन, पश्चात् आहार तथा वमन के बाद कुछ वर्जनीय आचारों का वर्णन है।"
+    },
+    {
+      "range": "26-29,34-36",
+      "summary": "इन numbered segments में online witness अपूर्ण है; केवल नियंत्रित printed-source सामग्री ही canonical layer में जोड़ी जाएगी।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-5",
+      "coverage": "Dīpikā explains seasonal timing, eligible patients and traditional indications."
+    },
+    {
+      "range": "6-11",
+      "coverage": "Dīpikā explains exclusions, exceptions and the importance of prior snehana-svedana."
+    },
+    {
+      "range": "12-17",
+      "coverage": "Dīpikā discusses classical preparation/quantity terminology and vega classification."
+    },
+    {
+      "range": "18-20",
+      "coverage": "Dīpikā explains dosha-oriented choices and anupāna."
+    },
+    {
+      "range": "21-25",
+      "coverage": "Dīpikā provides procedural explanation and interpretation of inadequate/excessive vomiting."
+    },
+    {
+      "range": "30-33",
+      "coverage": "Dīpikā explains proper outcome, post-procedure diet and restrictions."
+    },
+    {
+      "range": "36",
+      "coverage": "Dīpikā explicitly preserves the warning that śodhana without prior snehana-svedana is harmful."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-5",
+      "title": "वमन का काल और पात्रता"
+    },
+    {
+      "id": "LU2",
+      "range": "6-11",
+      "title": "वमनानर्हता और पूर्वकर्म"
+    },
+    {
+      "id": "LU3",
+      "range": "12-17",
+      "title": "वामक द्रव्य, मात्रा और वेग"
+    },
+    {
+      "id": "LU4",
+      "range": "18-20",
+      "title": "दोषानुसार वमनद्रव्य"
+    },
+    {
+      "id": "LU5",
+      "range": "21-25",
+      "title": "वमनविधि और अतियोग"
+    },
+    {
+      "id": "LU6",
+      "range": "30-33",
+      "title": "सम्यग्वमन और पश्चात्कर्म"
+    },
+    {
+      "id": "LU7",
+      "range": "26-29,34-36",
+      "title": "Source-critical missing segments"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "वमन-विरेचन के लिए किन ऋतुओं का उल्लेख है?",
+      "answer": "शरद्, वसन्त और प्रावृट्"
+    },
+    {
+      "type": "short_answer",
+      "question": "वमनार्ह और वमनानर्ह व्यक्ति के शास्त्रीय वर्गीकरण को समझाइए।"
+    },
+    {
+      "type": "short_answer",
+      "question": "वमन से पहले स्नेहन और स्वेदन के महत्व को v11 तथा v36 के संदर्भ में समझाइए।"
+    },
+    {
+      "type": "source_criticism",
+      "question": "इस अध्याय में online witness के v25 से v30 के बीच gap होने पर AaptaKosha को क्या करना चाहिए?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "Printed v36 उपलब्ध होने पर उसे online 1-33 sequence के साथ कैसे प्रदर्शित करना चाहिए?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "primary_online_extent_verified": "displayed 1-25 and 30-33; gaps 26-29 and 34-36",
+    "printed_witness_extent_verified": "1-36",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "numbering_gaps_preserved": true,
+    "missing_verses_not_fabricated": true,
+    "canonical_full_verse_transcription": "full; controlled TransLiteral witness reconciled with BharatKosha Dīpikā for the previously missing numbered segments",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
+    "safety_note_present": true,
+    "one_chapter_one_commit": true,
+    "no_fabricated_missing_verses": true
+  },
+  "canonical_sanskrit_transcription": [
+    {
+      "verse_number": 1,
+      "text": "शरत्काले वसन्ते च प्रावृट्काले च देहिनाम् । वमनं रेचनं चैव कारयेत्कुशलो भिषक् ॥१॥"
+    },
+    {
+      "verse_number": 2,
+      "text": "वमनार्हा जनाः बलवन्तं कफव्याप्तं हृल्लासार्त्तिनिपीडितम् तथा वमनसात्म्यं च धीरचित्तं च वामयेत् ॥२॥"
+    },
+    {
+      "verse_number": 4,
+      "text": "विदारिकाऽपचीकासश्वासपीनसवृद्धिषु अपस्मारे ज्वरोन्मादे तथा रक्तातिसारिषु ॥४॥"
+    },
+    {
+      "verse_number": 5,
+      "text": "नासाताल्वोष्ठपाकेषु कर्णस्रावे द्विजिह्वके गलशुण्ड्यामतीसारे पित्तश्लेष्मगदे तथा मेदोगदेऽरुचौ चैव वमनं कारयेद्भिषक् ॥५॥"
+    },
+    {
+      "verse_number": 6,
+      "text": "वमनानर्हा जनाः न वामनीयस्तिमिरी न गुल्मी नोदरी कृशः ॥६॥"
+    },
+    {
+      "verse_number": 7,
+      "text": "नातिवृद्धो गर्भिणी च न स्थूलो न क्षतातुरः मदार्त्तो बालको रूक्षः क्षुधितश्च निरूहितः ॥७॥"
+    },
+    {
+      "verse_number": 8,
+      "text": "उदावत्तर्यूर्ध्वरक्ती च दुश्छर्दिः केवलानिली पाण्डुरोगी कृमिव्याप्तः पठनात्स्वरघातकः ॥८॥"
+    },
+    {
+      "verse_number": 9,
+      "text": "वमनानर्हाणामपि वमनव्यवस्था एतेऽप्यजीर्णव्यथिता वाम्या ये विषपीडिताः कफव्याप्ताश्च ते वाम्या मधुकक्वाथपानतः ॥९॥"
+    },
+    {
+      "verse_number": 10,
+      "text": "सुकुमारं कृशं बालं वृद्धं भीरुं न वामयेत् पीत्वा यवागूमाकण्ठं क्षीरतक्रदधीनि वा ॥१०॥"
+    },
+    {
+      "verse_number": 11,
+      "text": "असात्म्यैः श्लेष्मलैर्भोज्यैर्दोषानुत्क्लिश्य देहिनः स्निग्धस्विन्नाय वमनं दत्तं सम्यक्प्रवर्त्तते ॥११॥"
+    },
+    {
+      "verse_number": 12,
+      "text": "क्रमेण वमनविरेचनयोर्हितकरपदार्थाः वमनेषु च सर्वेषु सैन्धवं मधु वा हितम् बीभत्सं वमनं दद्याद्विपरीतं विरेचनम् ॥१२॥"
+    },
+    {
+      "verse_number": 13,
+      "text": "वमनार्थकक्वाथनिर्माणविधिः क्वाथ्यद्र व्यस्य कुडवं श्रपयित्वा जलाढके अर्धभागावशिष्टं च वमनेष्ववचारयेत् ॥१३॥"
+    },
+    {
+      "verse_number": 14,
+      "text": "भेडमतेन वामकक्वाथपानमात्रा क्वाथपाने नवप्रस्था ज्येष्ठा मात्रा प्रकीर्त्तिता मध्यमा षण्मिता प्रोक्ता त्रिप्रस्था च कनीयसी ॥१४॥"
+    },
+    {
+      "verse_number": 15,
+      "text": "वामककल्कादिमात्रा कल्कचूर्णावलेहानां त्रिपलं श्रेष्ठमात्रया मध्यमं द्विपलं विद्यात्कनीयस्तु पलं भवेत् ॥१५॥"
+    },
+    {
+      "verse_number": 16,
+      "text": "उत्तमादिभेदेन वमनवेगसंख्याभेदाः वमने चापि वेगाः स्युरष्टौ पित्तान्तमुत्तमाः षड्वेगा मध्यमा वेगाश्चत्वारस्त्ववरे मताः ॥१६॥"
+    },
+    {
+      "verse_number": 17,
+      "text": "वमनादौ प्रस्थमानम् वमने च विरेके च तथा शोणितमोक्षणे सार्धत्रयोदशपलं प्रस्थमाहुर्मनीषिणः ॥१७॥"
+    },
+    {
+      "verse_number": 18,
+      "text": "दोषविशेषेण वामकद्र व्यविशेषनिर्देशः कफं कटुकतीक्ष्णोष्णैः पित्तं स्वादु हिमैर्जयेत् सुस्वादुलवणाम्लोष्णैः संसृष्टं वायुना कफम् ॥१८॥"
+    },
+    {
+      "verse_number": 19,
+      "text": "कृष्णा राठफलं सिन्धु कफे कोष्णजलैः पिबेत् पटोलवासानिम्बैश्च पित्ते शीतजलं पिबेत् ॥१९॥"
+    },
+    {
+      "verse_number": 20,
+      "text": "सश्लेष्मवातपीडायां सक्षीरं मदनं पिबेत् अजीर्णे कोष्णपानीयैः सिन्धु पीत्वा वमेत्सुधीः ॥२०॥"
+    },
+    {
+      "verse_number": 21,
+      "text": "वमनस्य प्रशस्तविधिः वमनं पाययित्वा च जानुमात्रासने स्थितम् कण्ठमेरण्डनालेन स्पृशन्तं वामयेद्भिषक् ललाटं वमतः पुंसः पार्श्वे द्वे च प्रदापयेत् ॥२१॥"
+    },
+    {
+      "verse_number": 22,
+      "text": "दुर्वान्तस्य लक्षणम् प्रसेको हृद्ग्रहः कोठः कण्डूर्दुश्छर्दिताद्भवेत् ॥२२॥"
+    },
+    {
+      "verse_number": 23,
+      "text": "अतिवान्तस्य लक्षणम् अतिवान्ते भवेत्तृष्णा हिक्कोद्गारौ विसंज्ञता जिह्वानिःसर्पणं चाक्ष्णोर्व्यावृत्तिर्हनुसंहतिः रक्तच्छर्दिः ष्ठीवनं च कण्ठे पीडा च जायते ॥२३॥"
+    },
+    {
+      "verse_number": 24,
+      "text": "अतिवमनोत्पन्नरोगचिकित्सा वमनस्यातियोगी तु मृदु कुर्याद्विरेचनम् ॥२४॥"
+    },
+    {
+      "verse_number": 25,
+      "text": "वमनान्तः प्रविष्टायां जिह्वायां कवलग्रहः स्निग्धाम्ललवणैर्हृद्यैर्घृतक्षीररसैर्हितः ॥२५॥"
+    },
+    {
+      "verse_number": 26,
+      "text": "फलान्यम्लानि खादेयुस्तस्य चान्येऽग्रतो नराः निःसृतां तु तिलद्रा क्षाकल्कं लिप्त्वा प्रवेशयेत् ॥२६॥"
+    },
+    {
+      "verse_number": 27,
+      "text": "व्यावृत्तेऽक्ष्णि घृताभ्यक्ते पीडयेच्च शनैः शनैः हनुमोक्षे स्मृतः स्वेदो नस्यं च श्लेष्मवातहृत् ॥२७॥"
+    },
+    {
+      "verse_number": 28,
+      "text": "रक्तपित्तविधानेन रक्तच्छर्दिमुपाचरेत् धात्रीरसाञ्जनोशीरलाजाचन्दनवारिभिः ॥२८॥"
+    },
+    {
+      "verse_number": 29,
+      "text": "मन्थं कृत्वा पाययेच्च सघृतक्षौद्र शर्करम् शाम्यन्त्यनेन तृष्णाद्याः पीडाश्छर्दिसमुद्भवाः ॥२९॥"
+    },
+    {
+      "verse_number": 30,
+      "text": "सम्यग्वान्तस्य लक्षणम् हृकत्कण्ठशिरसां शुद्धिर्दीप्ताग्नित्वं च लाघवम् कफपित्तविनाशश्च सम्यग्वान्तस्य चेष्टितम् ॥३०॥"
+    },
+    {
+      "verse_number": 31,
+      "text": "वान्तस्य पथ्यानि ततोऽपराह्णे दीप्ताग्निं मुद्गषष्टिकशालिभिः हृद्यैश्च जाङ्गलरसैः कृत्वा यूषं च भोजयेत् ॥३१॥"
+    },
+    {
+      "verse_number": 32,
+      "text": "सुवान्ते फलम् तन्द्रा निद्रा स्यदौर्गन्ध्यं कण्डूश्च ग्रहणी विषम् सुवान्तस्य न पीडायै भवन्त्येते कदाचन ॥३२॥"
+    },
+    {
+      "verse_number": 33,
+      "text": "वमने कुपथ्यम् अजीर्णं शीतपानीयं व्यायामं मैथुनं तथा स्नेहाभ्यङ्गं प्रकोपं च दिनैकं वर्जयेत्सुधीः ॥३३॥"
+    },
+    {
+      "verse_number": 34,
+      "text": "तन्द्रा निद्रा स्यदौर्गन्ध्यं कण्डूश्च ग्रहणी विषम् । सुवान्तस्य न पीडायै भवन्त्येते कदाचन ॥३४॥"
+    },
+    {
+      "verse_number": 35,
+      "text": "अजीर्णं शीतपानीयं व्यायामं मैथुनं तथा । स्नेहाभ्यङ्गं प्रकोपं च दिनैकं वर्जयेत्सुधीः ॥३५॥"
+    },
+    {
+      "verse_number": 36,
+      "text": "स्नेहस्वेदावकृत्वाऽग्रे यस्तु संशोधनं पिबेत् । दारुशुष्कमिवानामे देहस्तस्य विशीर्यते ॥३६॥"
+    }
+  ]
+}

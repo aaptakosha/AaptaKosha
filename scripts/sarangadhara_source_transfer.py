@@ -3,17 +3,17 @@ import json,re,subprocess,urllib.request
 from pathlib import Path
 
 CHAPTERS = [
-("purva-06","content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json","https://www.transliteral.org/pages/z210314211713/view",78),
-("purva-07","content/samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json","https://www.transliteral.org/pages/z210314211814/view",204),
-("madhyama-02","content/samhita/sarangadhara/madhyama/chapter-02-kvathakalpana/chapter.json","https://www.transliteral.org/pages/z210314212149/view",176),
-("madhyama-06","content/samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json","https://www.transliteral.org/pages/z210314212839/view",166),
-("madhyama-09","content/samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json","https://www.transliteral.org/pages/z210314213145/view",210),
-("madhyama-10","content/samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json","https://www.transliteral.org/pages/z210314213314/view",92),
-("madhyama-12","content/samhita/sarangadhara/madhyama/chapter-12-rasadishodhanamaranakalpana/chapter.json","https://www.transliteral.org/pages/z210314213516/view",293),
-("uttara-01","content/samhita/sarangadhara/uttara/chapter-01-snehapanavidhi/chapter.json","https://www.transliteral.org/pages/z210314213718/view",33),
-("uttara-03","content/samhita/sarangadhara/uttara/chapter-03-vamanavidhi/chapter.json","https://www.transliteral.org/pages/z210314213901/view",36),
-("uttara-11","content/samhita/sarangadhara/uttara/chapter-11-lepamurdhatailakarnapuranavidhi/chapter.json","https://www.transliteral.org/pages/z210314214544/view",152),
-("uttara-13","content/samhita/sarangadhara/uttara/chapter-13-netraprasadanavidhi/chapter.json","https://www.transliteral.org/pages/z210314214736/view",128),
+("purva-06","samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json","https://www.transliteral.org/pages/z210314211713/view",78),
+("purva-07","samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json","https://www.transliteral.org/pages/z210314211814/view",204),
+("madhyama-02","samhita/sarangadhara/madhyama/chapter-02-kvathakalpana/chapter.json","https://www.transliteral.org/pages/z210314212149/view",176),
+("madhyama-06","samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json","https://www.transliteral.org/pages/z210314212839/view",166),
+("madhyama-09","samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json","https://www.transliteral.org/pages/z210314213145/view",210),
+("madhyama-10","samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json","https://www.transliteral.org/pages/z210314213314/view",92),
+("madhyama-12","samhita/sarangadhara/madhyama/chapter-12-rasadishodhanamaranakalpana/chapter.json","https://www.transliteral.org/pages/z210314213516/view",293),
+("uttara-01","samhita/sarangadhara/uttara/chapter-01-snehapanavidhi/chapter.json","https://www.transliteral.org/pages/z210314213718/view",33),
+("uttara-03","samhita/sarangadhara/uttara/chapter-03-vamanavidhi/chapter.json","https://www.transliteral.org/pages/z210314213901/view",36),
+("uttara-11","samhita/sarangadhara/uttara/chapter-11-lepamurdhatailakarnapuranavidhi/chapter.json","https://www.transliteral.org/pages/z210314214544/view",152),
+("uttara-13","samhita/sarangadhara/uttara/chapter-13-netraprasadanavidhi/chapter.json","https://www.transliteral.org/pages/z210314214736/view",128),
 ]
 DEVNUM={"०":"0","१":"1","२":"2","३":"3","४":"4","५":"5","६":"6","७":"7","८":"8","९":"9"}
 def num(s): return int(''.join(DEVNUM.get(c,c) for c in s))
