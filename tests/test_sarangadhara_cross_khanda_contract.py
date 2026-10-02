@@ -33,9 +33,10 @@ EXPECTED = {
 
 
 def load(khanda, number):
-    slug, _ = EXPECTED[khanda][number]
-    path = BASE / khanda / f"chapter-{number:02d}-{slug}" / "chapter.json"
-    return json.loads(path.read_text(encoding="utf-8"))
+    khanda_root = BASE / khanda
+    matches = sorted(khanda_root.glob(f"chapter-{number:02d}-*/chapter.json"))
+    assert len(matches) == 1, f"expected one chapter package for {khanda} {number}, found {matches}"
+    return json.loads(matches[0].read_text(encoding="utf-8"))
 
 
 def extent_candidates(chapter):
