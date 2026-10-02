@@ -35,21 +35,42 @@ async function loadSubjects(){
   render(results);
  }catch(e){render(fallbackYears);}
 }
+async function fetchHierarchyNodes(curriculumId,subjectId,parentNodeId=null){
+  const u=new URL("/api/curriculum/nodes",location.origin);
+  u.searchParams.set("curriculum_id",curriculumId);
+  u.searchParams.set("subject_id",subjectId);
+  u.searchParams.set("version","2021-22");
+  if(parentNodeId)u.searchParams.set("parent_node_id",parentNodeId);
+  const r=await fetch(u);
+  if(!r.ok)throw new Error("hierarchy unavailable");
+  return (await r.json()).data?.nodes||[];
+}
+function nodeMarkup(node,children=""){
+  return `<div class="node node-${esc(node.node_type)}" data-node-id="${esc(node.node_id)}"><span>${esc(node.code||"")} </span><b>${esc(node.name)}</b>${children}</div>`;
+}
+async function renderNodeTree(node,curriculumId,subjectId){
+  const children=await fetchHierarchyNodes(curriculumId,subjectId,node.node_id);
+  if(!children.length)return nodeMarkup(node);
+  const rendered=await Promise.all(children.map(child=>renderNodeTree(child,curriculumId,subjectId)));
+  return nodeMarkup(node,`<div class="node-children">${rendered.join("")}</div>`);
+}
 async function loadHierarchy(button){
  const wrap=button.parentElement.nextElementSibling;
  if(!wrap.hidden)return;
  wrap.hidden=false;
- wrap.innerHTML="<div class='hierarchy-loading'>Loading hierarchy…</div>";
+ wrap.innerHTML="<div class='hierarchy-loading'>Loading topics…</div>";
  try{
-  const u=new URL("/api/curriculum/nodes",location.origin);
-  u.searchParams.set("curriculum_id",button.dataset.curriculum);
-  u.searchParams.set("subject_id",button.dataset.subject);
-  u.searchParams.set("version","2021-22");
-  const r=await fetch(u); if(!r.ok) throw new Error("hierarchy unavailable");
-  const nodes=(await r.json()).data.nodes||[];
-  wrap.innerHTML=nodes.length?nodes.map(n=>`<div class="node node-${esc(n.node_type)}"><span>${esc(n.code||"")} </span><b>${esc(n.name)}</b></div>`).join(""):"<div class='hierarchy-empty'>Hierarchy will appear as NCISM structure is ingested.</div>";
- }catch(e){wrap.innerHTML="<div class='hierarchy-empty'>Hierarchy service is not available in this environment yet.</div>";}
+  const roots=await fetchHierarchyNodes(button.dataset.curriculum,button.dataset.subject);
+  if(!roots.length){
+   wrap.innerHTML="<div class='hierarchy-empty'>No NCISM topics have been published for this subject yet.</div>";
+   return;
+  }
+  const rendered=await Promise.all(roots.map(node=>renderNodeTree(node,button.dataset.curriculum,button.dataset.subject)));
+  wrap.innerHTML=rendered.join("");
+ }catch(e){
+  wrap.innerHTML="<div class='hierarchy-empty'>NCISM topic structure could not be loaded right now.</div>";
+ }
 }
 grid.addEventListener("click",e=>{const b=e.target.closest(".subject-toggle");if(!b)return;b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")!=="true");loadHierarchy(b);});
-search?.addEventListener("input",e=>loadSubjects().then(()=>{const q=e.target.value.toLowerCase();[...document.querySelectorAll(".subject-row")].forEach(x=>x.hidden=!x.dataset.subject.toLowerCase().includes(q));}));
+search?.addEventListener("input",e=>{const q=e.target.value.trim().toLowerCase();[...document.querySelectorAll(".subject-row")].forEach(x=>{const text=x.textContent.toLowerCase();x.hidden=!!q&&!text.includes(q);});});
 render();loadSubjects();
