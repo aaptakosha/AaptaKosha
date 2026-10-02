@@ -9,7 +9,7 @@ CHAPTERS = [
 ("madhyama-06","content/samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json","https://www.transliteral.org/pages/z210314212839/view",166),
 ("madhyama-09","content/samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json","https://www.transliteral.org/pages/z210314213145/view",210),
 ("madhyama-10","content/samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json","https://www.transliteral.org/pages/z210314213314/view",92),
-("madhyama-12","content/samhita/sarangadhara/madhyama/chapter-12-rasadishodhanamaranakalpana/chapter.json","https://www.transliteral.org/pages/z210314213510/view",293),
+("madhyama-12","content/samhita/sarangadhara/madhyama/chapter-12-rasadishodhanamaranakalpana/chapter.json","https://www.transliteral.org/pages/z210314213516/view",293),
 ("uttara-01","content/samhita/sarangadhara/uttara/chapter-01-snehapanavidhi/chapter.json","https://www.transliteral.org/pages/z210314213718/view",33),
 ("uttara-03","content/samhita/sarangadhara/uttara/chapter-03-vamanavidhi/chapter.json","https://www.transliteral.org/pages/z210314213901/view",36),
 ("uttara-11","content/samhita/sarangadhara/uttara/chapter-11-lepamurdhatailakarnapuranavidhi/chapter.json","https://www.transliteral.org/pages/z210314214544/view",152),
