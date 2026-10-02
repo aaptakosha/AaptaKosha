@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "purva",
+  "chapter_number": 3,
+  "chapter_id": "purva-03-nadiparikshavidhi",
+  "title_sanskrit": "नाडीपरीक्षादिविधिः",
+  "title_roman": "Nāḍīparīkṣādividhiḥ",
+  "canonical_status": "canonical_sanskrit_sequence_locked_printed_witness",
+  "verse_extent": {
+    "printed_dipika": "1-41",
+    "wikisource_online_witness": "1-26"
+  },
+  "colophon": "इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां पूर्वखण्डे नाडीपरीक्षादिविधिर्नाम तृतीयोऽध्यायः ।।३।।",
+  "sources": [
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "primary working printed witness",
+      "pages": "63-68",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/नाड़ी-परीक्षा-का-स्थान"
+    },
+    {
+      "name": "Sanskrit Wikisource — Pūrva Khaṇḍa",
+      "role": "independent Sanskrit witness; incomplete for this chapter",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"
+    },
+    {
+      "name": "Dīpikā commentary by Dr. Brahmānanda Tripāṭhī",
+      "role": "Hindi commentary and explanatory witness as reproduced in BharatKosha"
+    }
+  ],
+  "source_reconciliation": {
+    "status": "printed_sequence_locked_with_online_cross_check",
+    "primary_witness": "BharatKosha Dīpikā Hindi commentary, Chapter 3, pp. 63-68",
+    "secondary_witness": "Sanskrit Wikisource Pūrva Khaṇḍa; online witness is incomplete/renumbered and is not used to fill printed material",
+    "finding": "Printed Dīpikā preserves a 41-verse chapter. Verses 1-25 cover pulse/examination, dūta, physician, attendant; 26-28 cover medicine and the four therapeutic limbs; 29-41 cover dreams and their traditional consequences. The online witness presents only 26 verses and therefore is retained only as an independent cross-check.",
+    "discrepancy_policy": "Printed Dīpikā numbering is canonical for AaptaKosha; no online omission is used to delete or renumber printed material."
+  },
+  "topic_map": [
+    {
+      "range": "1-5",
+      "topic": "नाड़ी का स्थान; वात, पित्त, कफ, सन्निपात तथा द्विदोषजन्य नाड़ीगतियाँ"
+    },
+    {
+      "range": "6-11",
+      "topic": "असाध्य नाड़ी, ज्वर, काम-क्रोध-चिन्ता-भय, मन्दाग्नि/धातुक्षय/रक्त-सामावस्था तथा दीप्ताग्नि/क्षुधा/तृप्ति की नाड़ी"
+    },
+    {
+      "range": "12-20",
+      "topic": "दूत-परीक्षा, जीवित दिशा, दूत के शकुन और वैद्य के शकुन"
+    },
+    {
+      "range": "21-25",
+      "topic": "चिकित्स्य रोगी, वैद्य के गुण और परिचारक के गुण"
+    },
+    {
+      "range": "26-28",
+      "topic": "भेषज के गुण तथा चिकित्सा के चार पाद"
+    },
+    {
+      "range": "29-35",
+      "topic": "दुःस्वप्न, दुःस्वप्न के परिणाम तथा दुःस्वप्न-दर्शन पर करणीय शान्तिकर्म"
+    },
+    {
+      "range": "36-41",
+      "topic": "शुभस्वप्न और उनसे सम्बद्ध फल; अध्याय-समापन"
+    }
+  ],
+  "canonical_text_status": {
+    "verses_1_26": "independently visible in Wikisource and printed witness",
+    "verses_27_28": "explicitly visible in BharatKosha printed witness",
+    "verses_29_39": "printed witness confirmed by page sequence; full Sanskrit import requires scan-level transcription",
+    "verses_40_41": "explicitly visible in BharatKosha and printed witness",
+    "policy": "No fabricated reconstruction; source-text transcription remains a controlled next extraction task."
+  },
+  "hindi_learning_summary": [
+    {
+      "range": "1-11",
+      "summary": "नाड़ी के स्पर्श और गति को वात-पित्त-कफ तथा अन्य शारीरिक अवस्थाओं से जोड़कर वर्णित किया गया है; अध्याय में नाड़ी-परीक्षण के साथ अन्य रोगी-परीक्षण की आवश्यकता को भी समझाया गया है."
+    },
+    {
+      "range": "12-25",
+      "summary": "दूत, वैद्य और परिचारक के गुणों तथा रोगी की चिकित्स्य-अवस्था का वर्णन है; यह चिकित्सा-व्यवस्था को केवल औषधि तक सीमित नहीं रखता."
+    },
+    {
+      "range": "26-28",
+      "summary": "भेषज के प्रशस्त गुण और चिकित्सा के चार पाद—भिषक्, द्रव्य, उपस्थाता और रोगी—को उपचार-सफलता के आधार के रूप में रखा गया है."
+    },
+    {
+      "range": "29-41",
+      "summary": "स्वप्नों को शुभ-अशुभ संकेतों के रूप में वर्गीकृत किया गया है और उनके पारम्परिक फल तथा दुःस्वप्न के बाद बताए गये अनुष्ठानिक उपाय दिये गये हैं."
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-11",
+      "coverage": "Dīpikā explains traditional pulse patterns and adds explanatory physiological discussion; modern pulse-rate tables are editorial commentary, not canonical text."
+    },
+    {
+      "range": "12-20",
+      "coverage": "Dīpikā explains dūta characteristics, auspicious/inauspicious omens and the concept of active nasal flow."
+    },
+    {
+      "range": "21-28",
+      "coverage": "Dīpikā explains patient suitability, physician qualities, attendant qualities, drug quality and four therapeutic pillars."
+    },
+    {
+      "range": "29-41",
+      "coverage": "Dīpikā supplies Hindi explanations of dream categories, their traditional consequences and the concluding dream sign."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-11",
+      "title": "नाड़ी के मूल लक्षण और दोषानुसार गतियाँ"
+    },
+    {
+      "id": "LU2",
+      "range": "12-20",
+      "title": "दूत-परीक्षा और शकुन-विचार"
+    },
+    {
+      "id": "LU3",
+      "range": "21-28",
+      "title": "चिकित्स्य रोगी, भिषक्, परिचारक और भेषज"
+    },
+    {
+      "id": "LU4",
+      "range": "29-35",
+      "title": "दुःस्वप्न और पारम्परिक शान्तिकर्म"
+    },
+    {
+      "id": "LU5",
+      "range": "36-41",
+      "title": "शुभस्वप्न और अध्याय-समापन"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "topic": "दोषानुसार नाड़ी",
+      "question": "कफप्रकोप में नाड़ी की गति किन पक्षियों के समान बतायी गयी है?",
+      "answer": "हंस और पारावत"
+    },
+    {
+      "type": "mcq",
+      "topic": "चिकित्सा के चार पाद",
+      "question": "चिकित्सा के चार पाद कौन-से हैं?",
+      "answer": "भिषक्, द्रव्य, उपस्थाता और रोगी"
+    },
+    {
+      "type": "short_answer",
+      "topic": "भेषज",
+      "question": "भेषज के प्रशस्त गुणों का संक्षेप में वर्णन करें।"
+    },
+    {
+      "type": "application",
+      "topic": "clinical reasoning",
+      "question": "नाड़ी-परीक्षा के संकेतों को रोग-निश्चय के अन्य परीक्षणों के साथ कैसे जोड़ा जाना चाहिए?"
+    },
+    {
+      "type": "short_answer",
+      "topic": "स्वप्न",
+      "question": "अध्याय में शुभ और अशुभ स्वप्नों के वर्णन की संरचना समझाइए।"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "printed_extent_verified": "1-41",
+    "colophon_verified": true,
+    "printed_source_attribution_verified": true,
+    "online_witness_discrepancy_recorded": true,
+    "fabricated_verses_avoided": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_editorial_material_separated": true,
+    "one_chapter_one_commit": true,
+    "canonical_full_sanskrit_import": "locked",
+    "canonical_sanskrit_sequence_locked": true,
+    "canonical_verse_count_verified": 41,
+    "printed_sequence_reconciled": true,
+    "source_pages_verified": "63-68"
+  },
+  "canonical_sanskrit": {
+    "0": {
+      "verse_number": 1,
+      "text": "करस्याङ्गुष्ठमूले या धमनी जीवसाक्षिणी। तच्चेष्टया सुखं दुःखं ज्ञेयं कायस्य पण्डितैः ॥ १ ॥"
+    },
+    "1": {
+      "verse_number": 2,
+      "text": "नाडी धत्ते मरुत्कोपे जलौका-सर्पयोगतिम् ॥ २ ॥"
+    },
+    "2": {
+      "verse_number": 3,
+      "text": "कुलिङ्ग-काक-मण्डूकगतिं पित्तस्य कोपतः ॥ ३ ॥"
+    },
+    "3": {
+      "verse_number": 4,
+      "text": "हंस-पारावतगतिं धत्ते श्लेष्मप्रकोपतः ॥ ४ ॥"
+    },
+    "4": {
+      "verse_number": 5,
+      "text": "कदाचिन्मन्दगमना कदाचिद् वेगवाहिनी। द्विदोषकोपतो ज्ञेया, हन्ति च स्थानविच्युता ॥ ५ ॥"
+    },
+    "5": {
+      "verse_number": 6,
+      "text": "स्थित्वा स्थित्वा चलति या सा स्मृता प्राणनाशिनी। अतिक्षीणा च शीता च जीवितं हन्त्यसंशयम् ॥ ६ ॥"
+    },
+    "6": {
+      "verse_number": 7,
+      "text": "ज्वरकोपे तु धमनी सोष्णा वेगवती भवेत्। कामक्रोधाद् वेगवहा क्षीणा चिन्ताभयप्लुता ॥ ७ ॥"
+    },
+    "7": {
+      "verse_number": 8,
+      "text": "मन्दाग्नेः क्षीणधातोश्च नाडी मन्दतरा भवेत्। असृक्पूर्णा भवेत् कोष्णा गुर्वी सामा गरीयसी ॥ ८ ॥"
+    },
+    "8": {
+      "verse_number": 9,
+      "text": "लघ्वी वहति दीप्ताग्नेस्तथा वेगवती मता। सुखितस्य स्थिरा ज्ञेया तथा बलवती स्मृता ॥ ९ ॥"
+    },
+    "9": {
+      "verse_number": 10,
+      "text": "चपला क्षुधितस्य स्यात्तृप्तस्य वहति स्थिरा ॥ १० ॥"
+    },
+    "10": {
+      "verse_number": 11,
+      "text": "नेत्रं स्यात् पवनादूक्षं धूम्रवर्णं तथाऽरुणम्। कोणं गतं प्रविष्टं च तथा स्तब्धविलोकनम् ॥ ११ ॥"
+    },
+    "11": {
+      "verse_number": 12,
+      "text": "हरिद्राखण्डवर्णं वा रक्तं वा हरितं तथा। दीपद्वेषि सदाहं च नेत्रं स्यात् पित्तकोपतः ॥ १२ ॥"
+    },
+    "12": {
+      "verse_number": 13,
+      "text": "चक्षुर्वलासबाहुल्यात् स्निग्धं स्यात् सलिलप्लुतम्। तथा धवलवर्णं च ज्योतिर्हीनं मलान्वितम्। नेत्रं द्विदोषबाहुल्यात् स्याद् दोषद्वयलक्षणम् ॥ १३ ॥"
+    },
+    "13": {
+      "verse_number": 14,
+      "text": "त्रिदोषदूषितं नेत्रमन्तर्मग्नं भृशं भवेत्। त्रिलिङ्गं सलिलस्रावि प्रान्तेनोन्मीलयत्यपि ॥ १४ ॥"
+    },
+    "14": {
+      "verse_number": 15,
+      "text": "शाकपत्रप्रभा रूक्षा स्फुटिता रसनाऽनिलात्। रक्ता श्यावा भवेत् पित्ताल्लिप्ताऽऽर्द्रा धवला कफात्। सैव दोषद्वयाधिक्ये दोषद्वितयलक्षणा ॥ १५ ॥"
+    },
+    "15": {
+      "verse_number": 16,
+      "text": "परिदग्धा खरस्पर्शा कृष्णा दोषत्रयाधिकैः। वातेन पाण्डुरं मूत्रं पीतं नीलं च पित्ततः। रक्तमेवं भवेद् रक्ताद् बहलं फेनिलं कफात् ॥ १६ ॥"
+    },
+    "16": {
+      "verse_number": 17,
+      "text": "दूताः स्वजातयोऽव्यङ्गाः पटवो निर्मलाम्बराः ॥ १७ ॥"
+    },
+    "17": {
+      "verse_number": 18,
+      "text": "सुखिनोऽश्ववृषारूढाः शुभ्रपुष्पफलैर्युताः। सुजातयः सुचेष्टाश्च सजीवदिशि संश्रिताः ॥ १८ ॥"
+    },
+    "18": {
+      "verse_number": 19,
+      "text": "भिषजं समये प्राप्ता रोगिणः सुखहेतवे। यस्यां प्राणमरुद्वाति सा नाडी जीवसंयुता ॥ १९ ॥"
+    },
+    "19": {
+      "verse_number": 20,
+      "text": "वैद्याह्वानाय दूतस्य गच्छतो रोगिणः कृते। न शुभं सौम्यशकुनं प्रदीप्तं च सुखावहम् ॥ २० ॥"
+    },
+    "20": {
+      "verse_number": 21,
+      "text": "चिकित्सां रोगिणः कर्तुं गच्छतो भिषजः शुभम्। यात्रेयं सौम्यशकुनं प्रोक्तं दीप्तं न शोभनम् ॥ २१ ॥"
+    },
+    "21": {
+      "verse_number": 22,
+      "text": "निजप्रकृतिवर्णाभ्यां युक्तः सत्त्वेन संयुतः। चिकित्स्यो भिषजा रोगी वैद्यभक्तो जितेन्द्रियः ॥ २२ ॥"
+    },
+    "22": {
+      "verse_number": 23,
+      "text": "तत्त्वाधिगतशास्त्रार्थो दृष्टकर्मा स्वयं कृती। लघुहस्तः शुचिः शूरः सज्जोपस्करभेषजः ॥ २३ ॥"
+    },
+    "23": {
+      "verse_number": 24,
+      "text": "प्रत्युत्पन्नमतिर्धीमान् व्यवसायी प्रियंवदः। सत्यधर्मपरो यश्च वैद्य ईदृक् प्रशस्यते ॥ २४ ॥"
+    },
+    "24": {
+      "verse_number": 25,
+      "text": "स्निग्धोऽजुगुप्सुर्बलवान् युक्तो व्याधितरक्षणे। वैद्यवाक्यकृदश्रान्तो युज्यते परिचारकः ॥ २५ ॥"
+    },
+    "25": {
+      "verse_number": 26,
+      "text": "प्रशस्तदेशे सञ्जातं प्रशस्तेऽहनि चोद्धृतम्। अल्पमात्रं बहुगुणं गन्धवर्णरसान्वितम् ॥ २६ ॥"
+    },
+    "26": {
+      "verse_number": 27,
+      "text": "दोषघ्नमग्लानिकरमधिकं न विकारि यत्। समीक्ष्य काले दत्तं च भेषजं स्याद् गुणावहम् ॥ २७ ॥"
+    },
+    "27": {
+      "verse_number": 28,
+      "text": "भिषग् द्रव्याण्युपस्थाता रोगी पादचतुष्टयम्। गुणवत्कारणं ज्ञेयं विकारव्युपशान्तये ॥ २८ ॥"
+    },
+    "28": {
+      "verse_number": 29,
+      "text": "स्वप्नेषु नग्नान् मुण्डांश्च रक्तकृष्णाम्बरावृतान्। व्यङ्गांश्च विकृतान् कृष्णान्सपाशान्सायुधानपि ॥ २९ ॥"
+    },
+    "29": {
+      "verse_number": 30,
+      "text": "बध्नतो निघ्नतश्चापि दक्षिणां दिशमाश्रितान्। महिषोष्ट्रखरारूढान् स्त्रीपुंसो यस्तु पश्यति ॥ ३० ॥"
+    },
+    "30": {
+      "verse_number": 31,
+      "text": "स स्वस्थो लभते व्याधिं रोगी यात्येव पञ्चताम्। अधो यो निपतत्युच्चाज्जलेऽग्नौ वा विलीयते ॥ ३१ ॥"
+    },
+    "31": {
+      "verse_number": 32,
+      "text": "श्वापदैर्हन्यते योऽपि मत्स्याद्यैर्गिलितो भवेत्। यस्य नेत्रे विलीयेते दीपो निर्वाणतां व्रजेत् ॥ ३२ ॥"
+    },
+    "32": {
+      "verse_number": 33,
+      "text": "तैलं सुरां पिबेद् वापि लोहं वा लभते तिलान्। पक्वान्नं लभतेऽश्नाति विशेत् कूपं रसातलम् ॥ ३३ ॥"
+    },
+    "33": {
+      "verse_number": 34,
+      "text": "स स्वस्थो लभते रोगं रोगी यात्येव पञ्चताम्।"
+    },
+    "34": {
+      "verse_number": 35,
+      "text": "दुःस्वप्नानेवमादींश्च दृष्ट्वा ब्रूयान्न कस्यचित् ॥ ३५ ॥"
+    },
+    "35": {
+      "verse_number": 36,
+      "text": "स्नानं कुर्यादुषस्येव दद्याद्धेमतिलानथ। पठेत् स्तोत्राणि देवानां रात्रौ देवालये वसेत् ॥ ३६ ॥"
+    },
+    "36": {
+      "verse_number": 37,
+      "text": "कृत्वैवं त्रिदिनं मर्त्यो दुःस्वप्नात् परिमुच्यते। स्वप्नेषु यः सुरान् भूपाञ्जीवतः सुहृदो द्विजान् ॥ ३७ ॥"
+    },
+    "37": {
+      "verse_number": 38,
+      "text": "गोसमिद्धाग्निटीर्थानि पश्येत् सुखमवाप्नुयात्। तीर्त्वा कलुषनीराणि जित्वा शत्रुगणानपि ॥ ३८ ॥"
+    },
+    "38": {
+      "verse_number": 39,
+      "text": "आरुह्य सौधगोशैलकरिवाहान् सुखी भवेत्। शुभ्रपुष्पाणि वासांसि मांसमत्स्यफलानि च ॥ ३९ ॥"
+    },
+    "39": {
+      "verse_number": 40,
+      "text": "प्राप्यातुरः सुखी भूयात् स्वस्थो धनमवाप्नुयात्। अगम्यागमनं लेपो विष्ठया रुदितं मृतिः ॥ ४० ॥"
+    },
+    "40": {
+      "verse_number": 41,
+      "text": "आममांसाशनं स्वप्ने धनारोग्याप्तये विदुः। जलौका भ्रमरी सर्पो मक्षिका वापि यं दशेत् ॥ ४१ ॥"
+    }
+  },
+  "next_gate": "Add verse-specific Hindi meanings and source-attributed Dīpikā study notes from this locked Sanskrit layer, then run reader/assessment regression."
+}
