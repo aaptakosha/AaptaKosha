@@ -1,0 +1,587 @@
+{
+  "assessment_id": "ashtanga.hridaya.sutra.09.revision",
+  "chapter_id": "ashtanga.hridaya.sutra.09",
+  "title_hi": "द्रव्यादिविज्ञानीय अध्याय पुनरावृत्ति",
+  "questions": [
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q1",
+      "prompt_hi": "द्रव्य को रसादि में श्रेष्ठ क्यों कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "रस आदि उसी के आश्रित हैं",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "वह केवल स्वाद है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "वह केवल वीर्य है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "वह केवल विपाक है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.01"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q2",
+      "prompt_hi": "कार्यद्रव्य किस प्रकार का कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "पञ्चभूतात्मक",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल पार्थिव",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल आप्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल आग्नेय",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.02"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q3",
+      "prompt_hi": "किस महाभूत की प्रधानता से द्रव्य का व्यवहारिक नाम निर्धारित होता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "भूयिष्ठ महाभूत से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल जल से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल वायु से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल आकाश से",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.02"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q4",
+      "prompt_hi": "अनुरस किसे कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अव्यक्त या अन्त में अल्प मात्रा में प्रकट रस",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल पहला रस",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल मधुर रस",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल कटु रस",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.04"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q5",
+      "prompt_hi": "गुर्वादि गुण वास्तव में कहाँ स्थित हैं?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "द्रव्य में",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल रस में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल विपाक में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल प्रभाव में",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.05"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q6",
+      "prompt_hi": "पार्थिव द्रव्य का प्रमुख गुणसमूह क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "गुरु, स्थूल, स्थिर, गन्धप्रधान",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "द्रव, शीत, स्निग्ध",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "रूक्ष, तीक्ष्ण, उष्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सूक्ष्म, विशद, लघु",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.06"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q7",
+      "prompt_hi": "आप्य द्रव्य की प्रमुख क्रिया कौन-सी है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "स्नेहन और क्लेदन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "दाह",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "लाघव",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सौषिर्य",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.07"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q8",
+      "prompt_hi": "आग्नेय द्रव्य किस कार्य से सम्बद्ध है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "दाह और पाचन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "स्नेहन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "स्थैर्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "क्लेदन",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.08"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q9",
+      "prompt_hi": "वायव्य द्रव्य की एक विशेषता क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "रौक्ष्य और लाघव",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "गौरव",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "स्नेहन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "प्रह्लाद",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.09"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q10",
+      "prompt_hi": "नाभस द्रव्य किस गुण से विशेष सम्बद्ध है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "सौषिर्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "गौरव",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "स्नेहन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "दाह",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.10"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q11",
+      "prompt_hi": "अग्नि-पवन प्रधान द्रव्य सामान्यतः किस दिशा में जाते हैं?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "ऊर्ध्व",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अधः",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "स्थिर रहते हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल पार्श्व",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.11"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q12",
+      "prompt_hi": "एक मत के अनुसार वीर्य कितने प्रकार का है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "आठ",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "दो",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "छः",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.13"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q13",
+      "prompt_hi": "चरकमत में वीर्य का मूल अर्थ क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "जिससे क्रिया सम्पन्न होती है",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल उष्णता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल शीतलता",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल विपाक",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.14"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q14",
+      "prompt_hi": "अन्य आचार्यों के अनुसार वीर्य के दो प्रकार कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "उष्ण और शीत",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मधुर और कटु",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "गुरु और लघु",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "स्निग्ध और रूक्ष",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.17"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q15",
+      "prompt_hi": "उष्ण वीर्य का कौन-सा प्रभाव बताया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "वात-कफ शमन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "रक्तपित्त प्रसादन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "अत्यधिक स्तम्भ",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सौषिर्य",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.19"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q16",
+      "prompt_hi": "विपाक कब प्रकट होता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "आहार-परिणाम के अन्त में",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "रसना पर तुरन्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "भोजन से पहले",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल जिह्वा पर",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.20"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q17",
+      "prompt_hi": "तिक्त, उष्ण और कषाय रसों का विपाक प्रायः कैसा है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "कटु",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "मधुर",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "अम्ल",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "लवण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.21"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q18",
+      "prompt_hi": "द्रव्य का कर्म किस-किस से हो सकता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "रस, विपाक, गुण, वीर्य या प्रभाव से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल रस से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल विपाक से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल वीर्य से",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.22"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q19",
+      "prompt_hi": "रसादि में बल-साम्य होने पर नैसर्गिक बल का क्रम किस सिद्धान्त से समझाया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "विपाक रस को, वीर्य रस-विपाक को और प्रभाव तीनों को अभिभूत कर सकता है",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल रस सबको जीतता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल विपाक सबको जीतता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सभी हमेशा समान रहते हैं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.25"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.09.q20",
+      "prompt_hi": "रस-वीर्य-विपाक समान होने पर विशिष्ट कर्म किसके कारण माना जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "प्रभाव",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अनुरस",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "पार्थिवत्व",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अनुपान",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.09.26"
+      ]
+    }
+  ]
+}
