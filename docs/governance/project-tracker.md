@@ -61,7 +61,8 @@ Last updated: 2026-10-02
 - [x] Chapter 10 canonical Sanskrit/Hindi/टीका content build
 - [x] Chapter 10 20-question assessment and canonical-reference contract
 - [x] Chapter 10 content regression contract
-- [ ] Chapter 10 reader/API wiring and end-to-end learner regression
+- [x] Chapter 10 reader/API wiring
+- [ ] Chapter 10 end-to-end learner regression
 - [ ] Chapter 11+ remaining SA-1 chapters
 - [ ] Chapter 13+ remains reserved for SA-2 / Second Professional
 
