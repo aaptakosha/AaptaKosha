@@ -1,0 +1,590 @@
+{
+  "title_hi": "अष्टाङ्गहृदय — सूत्रस्थान २ दिनचर्या अभ्यास",
+  "curriculum_refs": [
+    "samhita:ashtanga-hridaya",
+    "samhita:ashtanga-hridaya:sutrasthana",
+    "chapter:2"
+  ],
+  "questions": [
+    {
+      "question_id": "q1",
+      "prompt_hi": "ब्राह्ममुहूर्त में उठने का मुख्य उद्देश्य क्या बताया गया है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.1"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "आयु की रक्षा",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल व्यायाम",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल अध्ययन",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q2",
+      "prompt_hi": "दन्तकाष्ठ कैसा होना चाहिए?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.3"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "बहुत कठोर",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text_hi": "कोमल अग्रभाग वाला और लगभग 12 अंगुल",
+          "is_correct": true
+        },
+        {
+          "option_id": "c",
+          "text_hi": "बहुत छोटा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "टेढ़ा",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q3",
+      "prompt_hi": "किन अवस्थाओं में दन्तधावन का निषेध बताया गया है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.4"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "अजीर्ण आदि रोगावस्थाओं में",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल स्वस्थ व्यक्ति में",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल बालों में",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल वृद्धों में",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q4",
+      "prompt_hi": "अभ्यङ्ग किन स्थानों पर विशेष रूप से करना कहा गया है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.9"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "शिर, श्रवण और पाद",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल उदर",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल हस्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल पृष्ठ",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q5",
+      "prompt_hi": "व्यायाम का कौन-सा परिणाम श्लोक 10 में है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.10"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "लाघव और कर्मसामर्थ्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अजीर्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "तन्द्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "कफवृद्धि",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q6",
+      "prompt_hi": "किन्हें व्यायाम से बचना चाहिए?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.11"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "बाल, वृद्ध, अजीर्ण तथा वात-पित्त रोगी",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल बलवान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल युवा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल स्वस्थ",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q7",
+      "prompt_hi": "अतिव्यायाम से कौन-सा विकार हो सकता है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.13"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "कास और ज्वर",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल लाघव",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल पुष्टि",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल निद्रा",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q8",
+      "prompt_hi": "उद्वर्तन का प्रमुख प्रभाव क्या है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.15"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "कफहर और मेदविलयन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "कफवर्धन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "अग्निमन्द्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "निद्रानाश",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q9",
+      "prompt_hi": "उष्ण जल का अधोभाग पर परिषेक कैसा कहा गया है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.17"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "बलावह",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "बलहृत",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "निषिद्ध",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "अप्रभावी",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt_hi": "स्नान किन अवस्थाओं में गर्हित है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.18"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "अर्दित, नेत्र/कर्णरोग, अतिसार, अजीर्ण आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "सभी स्वस्थों में",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल दिन में",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल भोजन से पहले",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt_hi": "आहार कब लेना चाहिए?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.19"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "जीर्णे, हितं, मितं",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अजीर्णे",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "अत्यधिक मात्रा में",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल रात्रि में",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt_hi": "सुख का धर्म से क्या सम्बन्ध बताया गया है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.20"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "धर्म के बिना सुख नहीं",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "धर्म का कोई सम्बन्ध नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "सुख केवल धन से है",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "सुख केवल निद्रा से है",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt_hi": "किस प्रकार की संगति का सेवन करना चाहिए?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.21"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "कल्याणमित्रों की",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "सर्वथा किसी की नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल शत्रुओं की",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल अजनबियों की",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt_hi": "सद्वृत्त में किन पापकर्मों को त्यागने का निर्देश है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.22"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "काय-वाक्-मानस से दस पापकर्म",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल शारीरिक कर्म",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल वाणी",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल विचार",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt_hi": "रोगी और शोकाकुल लोगों के प्रति क्या करना चाहिए?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.23"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "शक्ति अनुसार सहायता",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "उपेक्षा",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "अपमान",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "दण्ड",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt_hi": "वाणी के विषय में कौन-सा निर्देश है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.26"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "हित, मित, कालोचित और पेशल बोलना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "हमेशा कठोर बोलना",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "बहुत बोलना",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "कभी न बोलना",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt_hi": "व्यवहार में किस मार्ग का अनुसरण करना चाहिए?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.30"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "सभी धर्मों में मध्यम मार्ग",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अति",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "पूर्ण निषेध",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "अविचारित अनुकरण",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt_hi": "यात्रा में कौन-सा सुरक्षा निर्देश है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.34"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "सन्दिग्ध नाव/वृक्ष पर न चढ़ना",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "तेज दौड़ना",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "सिर पर भारी भार रखना",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "अग्नि के पास जाना",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt_hi": "लोकव्यवहार सीखने के लिए बुद्धिमान का आचार्य कौन है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.45"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "लोक",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल एक व्यक्ति",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल धन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल शत्रु",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt_hi": "अध्याय के अनुसार सद्व्रत का संक्षिप्त आधार क्या है?",
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.46"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "काय-वाक्-चित्त संयम और परार्थबुद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अतिभोग",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "अतिनिद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "असंयम",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

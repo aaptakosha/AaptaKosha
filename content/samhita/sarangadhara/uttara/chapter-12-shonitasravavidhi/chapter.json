@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "uttara",
+  "chapter_number": 12,
+  "chapter_id": "uttara-12-shonitasravavidhi",
+  "title_sanskrit": "शोणितस्रावविधिः",
+  "title_roman": "Śoṇitasrāvavidhi",
+  "canonical_status": "source_reconciled",
+  "verse_extent": {
+    "verified": "1-45",
+    "primary_online_witness": "1-45",
+    "printed_dipika_witness": "1-45",
+    "discrepancy_note": "No numbering discrepancy found; the primary witness closes at v45 followed by the Chapter 12 colophon, and Chapter 13 begins immediately afterward."
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायामुत्तरखण्डे शोणितस्रावविधिर्नाम द्वादशोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Uttara Khaṇḍa",
+      "role": "primary Sanskrit witness; continuous v1-45, colophon and Chapter 13 boundary",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/उत्तरखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā",
+      "role": "printed Dīpikā witness; v44-45 and colophon independently checked",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/द्वादशोऽध्यायः-शोणितस्रावविधिः-209?from=305"
+    },
+    {
+      "name": "E-Bharatisampat — Śārṅgadhara Saṃhitā",
+      "role": "independent text repository used for Uttara Khaṇḍa chapter navigation and witness comparison",
+      "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=NDcxNjcxMjQ1MjI2MTQy"
+    }
+  ],
+  "canonical_sanskrit": [
+    {
+      "verse": 1,
+      "text": "शोणितं स्रावयेज्जन्तोरामयं प्रसमीक्ष्य च । प्रस्थं प्रस्थार्धकं वापि प्रस्थार्धार्धमथापि वा ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "शरत्काले स्वभावेन कुर्याद्रक्तस्रुतिं नरः । त्वग्दोषग्रन्थिशोथाद्या न स्यु रक्तस्रुतेर्यतः ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "मधुरं वर्णतो रक्तमशीतोष्णं तथा गुरु । शोणितं स्निग्धविस्रं स्याद्विदाहश्चास्य पित्तवत् ॥ ३ ॥"
+    },
+    {
+      "verse": 4,
+      "text": "विस्रता द्रवता रागश्चलनं विलयस्तथा । भूम्यादिपञ्चभूतानामेते रक्तगुणाः स्मृताः ॥ ४ ॥"
+    },
+    {
+      "verse": 5,
+      "text": "रक्ते दुष्टे वेदना स्यात्पाको दाहश्च जायते । रक्तमण्डलता कण्डूः शोथश्च पिटिकोद्गमः ॥ ५ ॥"
+    },
+    {
+      "verse": 6,
+      "text": "वृद्धे रक्ताङ्गनेत्रत्वं शिराणां पूरणं तथा । गात्राणां गौरवं निद्रा मदो दाहश्च जायते ॥ ६ ॥"
+    },
+    {
+      "verse": 7,
+      "text": "क्षीणेऽम्लमधुराकाङ्क्षा मूर्च्छा च त्वचि रूक्षता । शैथिल्यं च शिराणां स्याद्वातादुन्मार्गगामिता ॥ ७ ॥"
+    },
+    {
+      "verse": 8,
+      "text": "अरुणं फेनिलं रूक्षं परुषं तनु शीघ्रगम् । अस्कन्दि सूचिनिस्तोदि रक्तं स्याद्वातदूषितम् ॥ ८ ॥"
+    },
+    {
+      "verse": 9,
+      "text": "पित्तेन पीतं हरितं नीलं श्यावं च विस्रकम् । अस्कन्द्युष्णं मक्षिकाणां पिपीलानामनिष्टकम् ॥ ९ ॥"
+    },
+    {
+      "verse": 10,
+      "text": "शीतलं बहलं स्निग्धं गैरिकोदकसन्निभम् । मांसपेशीप्रभं स्कन्दि मन्दगं कफदूषितम् ॥ १० ॥"
+    },
+    {
+      "verse": 11,
+      "text": "द्विदोषदुष्टं संसृष्टं त्रिदुष्टं पूतिगन्धकम् । सर्वलक्षणसंयुक्तं काञ्जिकाभं च जायते ॥ ११ ॥"
+    },
+    {
+      "verse": 12,
+      "text": "विषदुष्टं भवेच्छ्यावं नासिकोन्मार्गगं तथा । विस्रं काञ्जिकसङ्काशं सर्वकुष्ठकरं बहु ॥ १२ ॥"
+    },
+    {
+      "verse": 13,
+      "text": "इन्द्रगोपप्रभं ज्ञेयं प्रकृतिस्थमसंहतम् ॥ १३ ॥"
+    },
+    {
+      "verse": 14,
+      "text": "शोथे दाहेऽङ्गपाके च रक्तवर्णेऽसृजः स्रुतौ । वातरक्ते तथा कुष्ठे सपीडे दुर्जयेऽनिले । पाणिरोगे श्लीपदे च विषदुष्टे च शोणिते ॥ १४ ॥"
+    },
+    {
+      "verse": 15,
+      "text": "ग्रन्थ्यर्बुदापचीक्षुद्ररोगरक्ताधिमन्थिषु । विदारीस्तनरोगेषु गात्राणां सादगौरवे ॥ १५ ॥"
+    },
+    {
+      "verse": 16,
+      "text": "रक्ताभिष्यन्दतन्द्रायां पूतिघ्राणास्यदेहके । यकृत्प्लीहविसर्पेषु विद्रधौ पिटिकोद्गमे ॥ १६ ॥"
+    },
+    {
+      "verse": 17,
+      "text": "कर्णोष्ठघ्राणवक्त्राणां पाके दाहे शिरोरुजि । उपदंशे रक्तपित्ते रक्तस्रावः प्रशस्यते ॥ १७ ॥"
+    },
+    {
+      "verse": 18,
+      "text": "एषु रोगेषु शृङ्गैर्वा जलौकाऽलाबुकैरपि । अथवापि शिरामोक्षैः कुर्याद्रक्तस्रुतिं नरः ॥ १८ ॥"
+    },
+    {
+      "verse": 19,
+      "text": "न कुर्वीत शिरामोक्षं कृशस्यातिव्यवायिनः । क्लीबस्य भीरोर्गर्भिण्याः सूतिकापाण्डुरोगिणाम् ॥ १९ ॥"
+    },
+    {
+      "verse": 20,
+      "text": "पञ्चकर्मविशुद्धस्य पीतस्नेहस्य चार्शसाम् । सर्वाङ्गशोथयुक्तानामुदरश्वासकासिनाम् ॥ २० ॥"
+    },
+    {
+      "verse": 21,
+      "text": "छर्द्यतीसारदुष्टानामतिस्विन्नतनोरपि । ऊनषोडशवर्षस्य गतसप्ततिकस्य च ॥ २१ ॥"
+    },
+    {
+      "verse": 22,
+      "text": "आघातस्रुतरक्तस्य शिरामोक्षो न शस्यते । एषां चात्ययिके रोगे जलौकाभिस्तु निर्हरेत् ॥ २२ ॥"
+    },
+    {
+      "verse": 23,
+      "text": "तथा च विषदुष्टानां शिरामोक्षोऽपि शस्यते ॥ २३ ॥"
+    },
+    {
+      "verse": 24,
+      "text": "गोशृङ्गेण जलौकाभिरलाबुभिरपि त्रिधा । वातपित्तकफैर्दुष्टं शोणितं स्रावयेद् बुधः ॥ २४ ॥"
+    },
+    {
+      "verse": 25,
+      "text": "द्विदोषाभ्यां तु सन्दुष्टं त्रिदोषैरपि दूषितम् । शोणितं स्रावयेद्युक्त्या शिरामोक्षैः पदैस्तथा ॥ २५ ॥"
+    },
+    {
+      "verse": 26,
+      "text": "गृह्णाति शोणितं शृङ्गं दशाङ्गुलमितं बलात् । जलौका हस्तमात्रं तु तुम्बी च द्वादशाङ्गुलम् । पदमङ्गुलमात्रस्य शिरा सर्वाङ्गशोधिनी ॥ २६ ॥"
+    },
+    {
+      "verse": 27,
+      "text": "शीते निरन्ने मूर्च्छाऽतिनिद्रा भीतिमदश्रमैः । युतानां न स्रवेद्रक्तं तथा विण्मूत्रसङ्गिनाम् ॥ २७ ॥"
+    },
+    {
+      "verse": 28,
+      "text": "अप्रवर्तितरक्ते च कुष्ठत्रिकटुसैन्धवैः । मर्दयेद् व्रणवक्त्रं च तेन सम्यक्प्रवर्त्तते ॥ २८ ॥"
+    },
+    {
+      "verse": 29,
+      "text": "तस्मान्न शीते नात्युष्णे न स्विन्ने नातितापिते । पीत्वा यवागूं तृप्तस्य स्रावयेत् शोणितं बुधः ॥ २९ ॥"
+    },
+    {
+      "verse": 30,
+      "text": "अतिस्विन्नस्योष्णकाले तथ्वातिशिराव्यधात् । अतिप्रवर्त्तते रक्तं तत्र कुर्यात्प्रतिक्रियाम् ॥ ३० ॥"
+    },
+    {
+      "verse": 31,
+      "text": "अतिप्रवृत्ते रक्ते च लोध्रसर्जरसाञ्जनैः । यवगोधूमचूर्णैर्वा धवधन्वनगैरिकैः ॥ ३१ ॥"
+    },
+    {
+      "verse": 32,
+      "text": "सर्पनिर्मोकचूर्णैर्वा भस्मना क्षौमवस्त्रयोः । मुखं व्रणस्य बध्वा च शीतैश्चोपचरेद्व्रणम् ॥ ३२ ॥"
+    },
+    {
+      "verse": 33,
+      "text": "विध्येदूर्ध्वशिरां तां च दहेत्क्षारेण वाऽग्निना । व्रणं कषायः सन्धत्ते रक्तं स्कन्दयते हिमम् । व्रणास्यं पाचयेत्क्षारो दाहः सङ्कोचयेच्छिराम् ॥ ३३ ॥"
+    },
+    {
+      "verse": 34,
+      "text": "तत्र मुष्कशोथे दक्षस्य करस्याङ्गुष्ठमूलजां । वामाण्डशोथे दहेच्छिरां व्यत्यये तु वामाङ्गुष्ठशिरां दहेत् ॥ ३४ ॥"
+    },
+    {
+      "verse": 35,
+      "text": "शिरादाहप्रभावेण मुष्कशोथः प्रणश्यति ॥ ३५ ॥"
+    },
+    {
+      "verse": 36,
+      "text": "विषूच्यां पार्ष्णिदाहेन जायतेऽग्नेः प्रदीपनम् । सङ्कुचन्ति यतस्तेन रसश्लेष्मवहाः शिराः ॥ ३६ ॥"
+    },
+    {
+      "verse": 37,
+      "text": "यदावृद्धिर्यकृत्प्लीह्नोः शिशोः सञ्जायतेऽसृजः । तदा तत्स्थानदाहेन सङ्कुचन्त्यसृजः शिराः ॥ ३७ ॥"
+    },
+    {
+      "verse": 38,
+      "text": "रक्ते दुष्टेऽवशिष्टेऽपि व्याधिर्नैव प्रकुप्यति । अतः स्राव्यं सावशेषं रक्ते नातिक्रमो हितः ॥ ३८ ॥"
+    },
+    {
+      "verse": 39,
+      "text": "आन्ध्यमाक्षेपकं तृष्णां तिमिरं शिरसो रुजम् । पक्षाघातं श्वासकासौ हिक्कां दाहं च पाण्डुताम् । कुरुतेऽतिस्रुतं रक्तं मरणं वा करोति च ॥ ३९ ॥"
+    },
+    {
+      "verse": 40,
+      "text": "देहस्योत्पत्तिरसृजा देहस्तेनैव धार्यते । विना तेन व्रजेज्जीवो रक्षेद्रक्तमतो बुधः ॥ ४० ॥"
+    },
+    {
+      "verse": 41,
+      "text": "शीतोपचारः कुपिते स्रुतरक्तस्य मारुते । कोष्णेन सर्पिषा शोथं सव्यथं परिषेचयेत् ॥ ४१ ॥"
+    },
+    {
+      "verse": 42,
+      "text": "क्षीणस्यैणशशोरभ्रहरिणच्छागमांसजः । रसः समुचितः पाने क्षीरं वा षष्टिका हिताः ॥ ४२ ॥"
+    },
+    {
+      "verse": 43,
+      "text": "पीडाशान्तिर्लघुत्वं च व्याधेरुद्रेकसंक्षयः । मनः स्वास्थ्यं भवेच्चिह्नं सम्यग्विस्रावितेऽसृजि ॥ ४३ ॥"
+    },
+    {
+      "verse": 44,
+      "text": "व्यायाममैथुनक्रोधशीतस्नानप्रवातकान् । एकाशनं दिवास्वप्नं क्षाराम्लकटुभोजनम् ॥ ४४ ॥"
+    },
+    {
+      "verse": 45,
+      "text": "शोकं वादमजीर्णं च त्यजेदाबलदर्शनात् ॥ ४५ ॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource gives a continuous v1-45 chapter sequence and immediately follows it with the Chapter 12 colophon; Chapter 13 begins at once afterward. BharatKosha independently confirms the closing v44-45 sequence and colophon.",
+    "resolution": "Extent accepted as 1-45 with no numbering discrepancy. Canonical Sanskrit follows the primary witness, with obvious web OCR spacing normalized only where the reading is unambiguous; no substantive verse has been silently invented.",
+    "commentary_note": "Dīpikā commentary and modern interpretations remain separate from canonical Sanskrit.",
+    "safety_note": "This chapter contains classical bloodletting/raktamokṣaṇa descriptions, contraindication lists, quantities, instruments and cautery-related material. It is historical/classical BAMS source material, not modern procedural or self-treatment guidance."
+  },
+  "topic_map": [
+    {
+      "range": "1-4",
+      "topic": "शोणितस्राव की मात्रा, समय और रक्त के स्वाभाविक गुण"
+    },
+    {
+      "range": "5-13",
+      "topic": "दुष्टरक्त, रक्तवृद्धि, रक्तक्षय तथा वात-पित्त-कफ-विषदूषित रक्त के लक्षण"
+    },
+    {
+      "range": "14-18",
+      "topic": "रक्तस्राव के पारंपरिक indications और शास्त्रीय साधन"
+    },
+    {
+      "range": "19-26",
+      "topic": "रक्तमोक्षण के अयोग्य व्यक्ति, विषदूषित रक्त और शृङ्ग-जालौका-अलाबु/शिरामोक्ष की व्यवस्था"
+    },
+    {
+      "range": "27-33",
+      "topic": "रक्तप्रवृत्ति की बाधाएँ, समय, अतिस्राव और पारंपरिक प्रतिकार"
+    },
+    {
+      "range": "34-37",
+      "topic": "अग्निदाह सम्बन्धी पारंपरिक निर्देश"
+    },
+    {
+      "range": "38-43",
+      "topic": "अतिस्राव की हानियाँ, रक्त का महत्त्व, पश्चात् व्यवस्था और सम्यक्स्राव के लक्षण"
+    },
+    {
+      "range": "44-45",
+      "topic": "रक्तस्राव के बाद त्याज्य आहार-विहार"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-4",
+      "summary": "अध्याय रक्तस्राव की पारंपरिक मात्रा, ऋतु और रक्त के सामान्य गुणों से आरम्भ होता है।"
+    },
+    {
+      "range": "5-13",
+      "summary": "दुष्टरक्त, रक्तवृद्धि-क्षय तथा दोष और विष से दूषित रक्त के वर्णनात्मक लक्षण दिए गए हैं।"
+    },
+    {
+      "range": "14-18",
+      "summary": "रक्तस्राव जिन अवस्थाओं में शास्त्र में वर्णित है तथा उसके पारंपरिक साधनों का उल्लेख है।"
+    },
+    {
+      "range": "19-26",
+      "summary": "रक्तमोक्षण से वर्जित स्थितियाँ, विशेष परिस्थितियाँ और विभिन्न साधनों की पारंपरिक व्यवस्था दी गई है।"
+    },
+    {
+      "range": "27-33",
+      "summary": "रक्तप्रवाह न होने, समय-विचार और अतिरक्तस्राव की पारंपरिक चिकित्सा का वर्णन है।"
+    },
+    {
+      "range": "34-37",
+      "summary": "कुछ रोगस्थितियों में अग्निदाह के शास्त्रीय निर्देश वर्णित हैं।"
+    },
+    {
+      "range": "38-43",
+      "summary": "अतिरक्तस्राव की हानियाँ, रक्त की महत्ता, पश्चात् पथ्य और सम्यक् रक्तस्राव के लक्षण बताए गए हैं।"
+    },
+    {
+      "range": "44-45",
+      "summary": "बल लौटने तक कुछ आहार-विहार से परहेज करने का शास्त्रीय निर्देश दिया गया है।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-13",
+      "coverage": "Dīpikā explains blood quantity, season, normal/abnormal characteristics and doṣa-oriented descriptions."
+    },
+    {
+      "range": "14-26",
+      "coverage": "Dīpikā explains the traditional indications, exclusions and instruments associated with raktamokṣaṇa."
+    },
+    {
+      "range": "27-37",
+      "coverage": "Dīpikā explains circumstances of difficult/excessive bleeding and the classical cautery-related passages."
+    },
+    {
+      "range": "38-45",
+      "coverage": "Dīpikā explains the warnings about excessive loss, post-procedure diet/lifestyle and signs of proper bloodletting."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-4",
+      "title": "रक्तस्रावमान और रक्तप्रकृति"
+    },
+    {
+      "id": "LU2",
+      "range": "5-13",
+      "title": "दुष्टरक्त और रक्तदोष लक्षण"
+    },
+    {
+      "id": "LU3",
+      "range": "14-26",
+      "title": "रक्तमोक्षण के indications, exclusions और साधन"
+    },
+    {
+      "id": "LU4",
+      "range": "27-33",
+      "title": "रक्तप्रवृत्ति और अतिस्राव"
+    },
+    {
+      "id": "LU5",
+      "range": "34-37",
+      "title": "अग्निदाह सम्बन्धी शास्त्रीय निर्देश"
+    },
+    {
+      "id": "LU6",
+      "range": "38-45",
+      "title": "अतिस्राव की हानियाँ और पश्चात् पथ्य"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "अध्याय के अनुसार रक्तमोक्षण के प्रमुख पारंपरिक साधनों में कौन-से नाम आते हैं?",
+      "answer": "शृङ्ग, जलौका, अलाबु तथा शिरामोक्ष।"
+    },
+    {
+      "type": "short_answer",
+      "question": "दुष्टरक्त और शुद्धरक्त के शास्त्रीय वर्णनात्मक लक्षणों को अलग-अलग लिखिए।"
+    },
+    {
+      "type": "short_answer",
+      "question": "रक्तमोक्षण के लिए किन प्रमुख contraindication समूहों का उल्लेख अध्याय में है?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "शास्त्रीय रक्तमोक्षण-विधि को आधुनिक phlebotomy या bloodletting protocol के समान मानना क्यों उचित नहीं है?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "क्यों इस अध्याय के procedural passages को historical source layer में रखना आवश्यक है?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-45",
+    "primary_online_extent_verified": "1-45",
+    "printed_dipika_extent_verified": "1-45",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "numbering_gaps_preserved": true,
+    "canonical_full_verse_transcription": "complete for controlled primary witness 1-45",
+    "no_fabricated_missing_verses": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
+    "safety_note_present": true,
+    "one_chapter_one_commit": true
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "purva",
+  "chapter_number": 4,
+  "chapter_id": "purva-04-dipanapachanadikathana",
+  "title_sanskrit": "दीपनपाचनादिकथनम्",
+  "title_roman": "Dīpanapācanādikathanam",
+  "canonical_status": "source_reconciled",
+  "verse_count": 35,
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Pūrva Khaṇḍa",
+      "role": "primary online Sanskrit witness for verses 1-25",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"
+    },
+    {
+      "name": "TransLiteral — Pūrva Khaṇḍa Chapter 4",
+      "role": "independent Sanskrit witness for verses 1-25",
+      "url": "https://www.transliteral.org/pages/z210314211153/view"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "printed Dīpikā witness; confirms verses 26-35 and chapter colophon",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/४-शार्ङ्गधरसंहिता-पूर्वखण्डे"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "The compact Wikisource/TransLiteral online Sanskrit witness ends at verse 25, but the printed Dīpikā edition continues through verses 26-35 and closes the chapter there.",
+    "resolution": "Printed Dīpikā sequence 1-35 is adopted as the chapter extent. Verses 1-25 are cross-checked against independent online Sanskrit witnesses; verses 26-35 are retained from the verified printed witness.",
+    "colophon_verified": "इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां पूर्वखण्डे दीपनपाचनादिकथनं नाम चतुर्थोऽध्यायः ।। ४ ।।"
+  },
+  "verses": [
+    {
+      "n": 1,
+      "sanskrit": "पचेन्नामं वह्निकृच्च दीपनं तद्यथा मिशिः । पचत्यामं न वह्निं च कुर्याद्यत्तद्धि पाचनम् । नागकेशरवद्विद्याच्चित्रो दीपनपाचनः ।",
+      "verse_number": 1
+    },
+    {
+      "n": 2,
+      "sanskrit": "न शोधयति न द्वेष्टि समान्दोषांस्तथोद्धतान् । समीकरोति विषमाञ्शमनं तद्यथामृता ।",
+      "verse_number": 2
+    },
+    {
+      "n": 3,
+      "sanskrit": "कृत्वा पाकं मलानां यद्भित्त्वा बन्धमधो नयेत् । तच्चानुलोमनं ज्ञेयं यथा प्रोक्ता हरीतकी ।",
+      "verse_number": 3
+    },
+    {
+      "n": 4,
+      "sanskrit": "पक्तव्यं यदपक्त्वैव श्लिष्टं कोष्ठे मलादिकम् । नयत्यधः स्रंसनं तद्यथा स्यात् कृतमालकः ।",
+      "verse_number": 4
+    },
+    {
+      "n": 5,
+      "sanskrit": "मलादिकमबद्धं यद्बद्धं वा पिण्डितं मलैः । भित्त्वाधः पातयति यद् भेदनं कटुकी यथा ।",
+      "verse_number": 5
+    },
+    {
+      "n": 6,
+      "sanskrit": "विपक्वं यदपक्वं वा मलादि द्रवतां नयेत् । रेचयत्यपि तज्ज्ञेयं रेचनं त्रिवृता यथा ।",
+      "verse_number": 6
+    },
+    {
+      "n": 7,
+      "sanskrit": "अपक्वपित्तश्लेष्माणौ बलादूर्ध्वं नयेत्तु यत् । वमनं तद्धि विज्ञेयं मदनस्य फलं यथा ।",
+      "verse_number": 7
+    },
+    {
+      "n": 8,
+      "sanskrit": "स्थानाद् बहिर्नयेदूर्ध्वमधो वा मलसंचयम् । देहसंशोधनं तत्स्याद् देवदालीफलं यथा ।",
+      "verse_number": 8
+    },
+    {
+      "n": 9,
+      "sanskrit": "श्लिष्टान्कफादिकान्दोषानुन्मूलयति यद्बलात् । छेदनं तद्यथा क्षारा मरिचानि शिलाजतु ।",
+      "verse_number": 9
+    },
+    {
+      "n": 10,
+      "sanskrit": "धातून्मलान्वा देहस्य विशोष्योल्लेखयेच्च यत् । लेखनं तद्यथा क्षौद्रं नीरमुष्णं वचा यवाः ।",
+      "verse_number": 10
+    },
+    {
+      "n": 11,
+      "sanskrit": "दीपनं पाचनं यत्स्यादुष्णत्वाद् द्रवशोषकम् । ग्राहि तच्च यथा शुण्ठी जीरकं गजपिप्पली ।",
+      "verse_number": 11
+    },
+    {
+      "n": 12,
+      "sanskrit": "रौक्ष्याच्छैत्यात्कषायत्वाल्लघुपाकाच्च यद्भवेत् । वातकृत्स्तम्भनं तत्स्याद्यथा वत्सकटुण्टुकौ ।",
+      "verse_number": 12
+    },
+    {
+      "n": 13,
+      "sanskrit": "रसायनं च तज्ज्ञेयं यज्जराव्याधिनाशनम् । यथाऽमृता रुदन्ती च गुग्गुलुश्च हरीतकी ।",
+      "verse_number": 13
+    },
+    {
+      "n": 14,
+      "sanskrit": "यस्माद् द्रव्याद्भवेत्स्त्रीषु हर्षो वाजीकरं च तत् । यथा नागबलाद्याः स्युर्बीजं च कपिकच्छुजम् ।",
+      "verse_number": 14
+    },
+    {
+      "n": 15,
+      "sanskrit": "यस्माच्छुक्रस्य वृद्धिः स्याच्छुक्रलं हि तदुच्यते । यथाऽश्वगन्धा मुसली शर्करा च शतावरी ।",
+      "verse_number": 15
+    },
+    {
+      "n": 16,
+      "sanskrit": "दुग्धं माषाश्च भल्लातफलमज्जामलानि च । प्रवर्तकानि कथ्यन्ते जनकानि च रेतसः ।",
+      "verse_number": 16
+    },
+    {
+      "n": 17,
+      "sanskrit": "प्रवर्तनी स्त्री शुक्रस्य रेचनं बृहतीफलम् । जातीफलं स्तम्भकं च शोषणी च हरीतकी ।",
+      "verse_number": 17
+    },
+    {
+      "n": 18,
+      "sanskrit": "देहस्य सूक्ष्मच्छिद्रेषु विशेद्यत्सूक्ष्ममुच्यते । तद्यथा सैन्धवं क्षौद्रं निम्बतैलं रुबूद्भवम् ।",
+      "verse_number": 18
+    },
+    {
+      "n": 19,
+      "sanskrit": "पूर्वं व्याप्याखिलं कायं ततः पाकं च गच्छति । व्यवायि तद्यथा भङ्गा फेनं चाहिसमुद्भवम् ।",
+      "verse_number": 19
+    },
+    {
+      "n": 20,
+      "sanskrit": "सन्धिबन्धांस्तु शिथिलान्यत्करोति विकाशि तत् । विश्लेष्यौजश्च धातुभ्यो यथा क्रमुककोद्रवाः ।",
+      "verse_number": 20
+    },
+    {
+      "n": 21,
+      "sanskrit": "बुद्धिं लुम्पति यद् द्रव्यं मदकारि तदुच्यते । तमोगुणप्रधानं च यथा मद्यसुरादिकम् ।",
+      "verse_number": 21
+    },
+    {
+      "n": 22,
+      "sanskrit": "व्यवायि च विकाशि स्यात्सूक्ष्मं छेदि मदावहम् । आग्नेयं जीवितहरं योगवाहि स्मृतं विषम् ।",
+      "verse_number": 22
+    },
+    {
+      "n": 23,
+      "sanskrit": "निजवीर्येण यद् द्रव्यं स्रोतोभ्यो दोषसञ्चयम् । निरस्यति प्रमाथि स्यात्तद्यथा मरिचं वचा ।",
+      "verse_number": 23
+    },
+    {
+      "n": 24,
+      "sanskrit": "पैच्छिल्याद्गौरवाद् द्रव्यं रुद्ध्वा रसवहाः शिराः । धत्ते यद्गौरवं तत्स्यादभिष्यन्दि यथा दधि ।",
+      "verse_number": 24
+    },
+    {
+      "n": 25,
+      "sanskrit": "लघु रूक्षं च यद्द्रव्यं प्रायस्तल्लङ्घनं स्मृतम् ।",
+      "verse_number": 25
+    },
+    {
+      "n": 26,
+      "sanskrit": "कठिनं चैव यद् द्रव्यं प्रायस्तल्लङ्घनं स्मृतम् ।",
+      "verse_number": 26
+    },
+    {
+      "n": 27,
+      "sanskrit": "गुरु शीतं मृदु स्निग्धं बहलस्थूलपिच्छिलम् । प्रायो मन्दस्थिरं श्लक्ष्णं द्रव्यं बृंहणमुच्यते ।",
+      "verse_number": 27
+    },
+    {
+      "n": 28,
+      "sanskrit": "रूक्षं लघु खरं तीक्ष्णमुष्णं स्थिरमपिच्छिलम् । प्रायशः कठिनं चैव यद् द्रव्यं तद्विद् रूक्षणम् ।",
+      "verse_number": 28
+    },
+    {
+      "n": 29,
+      "sanskrit": "द्रवं सूक्ष्मं सरं स्निग्धं पिच्छिलं गुरु शीतलम् । मन्दं मृदु च यत्प्रायस्तद् द्रव्यं स्नेहनं मतम् ।",
+      "verse_number": 29
+    },
+    {
+      "n": 30,
+      "sanskrit": "उष्णं तीक्ष्णं सरं स्निग्धं रूक्षं सूक्ष्मं द्रवं स्थिरम् । द्रव्यं गुरु च यत्प्रायस्तद्धि स्वेदनमुच्यते ।",
+      "verse_number": 30
+    },
+    {
+      "n": 31,
+      "sanskrit": "श्लक्ष्णः स्नेहं विनापि स्यात् कठिनोऽपि हि चिक्कणः ।",
+      "verse_number": 31
+    },
+    {
+      "n": 32,
+      "sanskrit": "स्थिरो वातमलस्तम्भी सरस्तेषां प्रवर्त्तकः । पिच्छिलस्तन्तुलो बल्यः सन्धानः श्लेष्मलो गुरुः ।",
+      "verse_number": 32
+    },
+    {
+      "n": 33,
+      "sanskrit": "क्लेदच्छेदकरः ख्यातो विशदो व्रणरोपणः । स्थूलः स्थौल्यकरो देहे स्रोतसामवरोधकृत् । द्रवः क्लेदकरो व्यापी सान्द्रस्तद् विपरीततः ।",
+      "verse_number": 33
+    },
+    {
+      "n": 34,
+      "sanskrit": "तीक्ष्णश्चाशुकरी देहे धावत्यम्भसि तैलवत् । मन्दः सकलकार्याणि शैथिल्येन करोति हि ।",
+      "verse_number": 34
+    },
+    {
+      "n": 35,
+      "sanskrit": "मृदु मार्दवकृद्देहे कर्कशः कर्कशत्वकृत् ।",
+      "verse_number": 35
+    }
+  ],
+  "hindi_translation": [
+    {
+      "range": "1-2",
+      "text": "जो द्रव्य आम को पकाए और अग्नि को बढ़ाए वह दीपन है; जो आम को पकाए पर अग्नि न बढ़ाए वह पाचन है; दोनों कार्य करने वाला दीपन-पाचन है। जो सम दोषों को न शोधित करे न कुपित करे और विषम दोषों को सम करे वह शमन है।"
+    },
+    {
+      "range": "3-8",
+      "text": "अनुलोमन, संस्रंसन, भेदन, रेचन, वमन और शोधन द्रव्यों के लक्षण क्रमशः मल या दोषों को उचित दिशा में प्रवर्तित, नीचे सरकाने, तोड़ने, द्रव करने, ऊपर निकालने और शरीर से बाहर करने की क्रियाओं से समझाए गये हैं।"
+    },
+    {
+      "range": "9-14",
+      "text": "छेदन, लेखन, ग्राहि, स्तम्भन, रसायन और वाजीकर द्रव्यों के लक्षण तथा उदाहरण दिये गये हैं।"
+    },
+    {
+      "range": "15-17",
+      "text": "शुक्रवर्धक/शुक्रल द्रव्य और रेतस् के प्रवर्तन से सम्बन्धित द्रव्यों के पारम्परिक लक्षण दिये गये हैं।"
+    },
+    {
+      "range": "18-24",
+      "text": "सूक्ष्म, व्यवायी, विकासी, मदकारी, प्राणहर, प्रमाथी और अभिष्यन्दी द्रव्यों के लक्षण तथा उदाहरण वर्णित हैं।"
+    },
+    {
+      "range": "25-31",
+      "text": "लङ्घन, बृंहण, रूक्षण, स्नेहन, स्वेदन और श्लक्ष्ण द्रव्यों के गुण-समूह बताये गये हैं।"
+    },
+    {
+      "range": "32-35",
+      "text": "स्थिर, सर, पिच्छिल, विशद, स्थूल, द्रव, सान्द्र, तीक्ष्ण, मन्द, मृदु और कर्कश गुणों के कार्यात्मक लक्षण दिये गये हैं।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-2",
+      "coverage": "Dīpikā explains the conceptual distinction between dīpana and pācana and gives an illustrative analogy; educational commentary should retain the distinction without importing modern physiology as canonical meaning."
+    },
+    {
+      "range": "3-14",
+      "coverage": "Dīpikā explains the therapeutic-action categories and their examples; examples remain source-attributed traditional materia-medica statements."
+    },
+    {
+      "range": "15-24",
+      "coverage": "Dīpikā discusses śukra/retas-related categories, subtle penetration, systemic spread, intoxicating and poison-like properties, and kapha/āma-related obstruction."
+    },
+    {
+      "range": "25-35",
+      "coverage": "Dīpikā groups guṇa-based therapeutic actions and explains the functional meanings of the paired qualities."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-8",
+      "title": "दीपन-पाचन से शोधन तक औषध-कर्म"
+    },
+    {
+      "id": "LU2",
+      "range": "9-17",
+      "title": "छेदन, लेखन, ग्राहि, स्तम्भन, रसायन और वाजीकर"
+    },
+    {
+      "id": "LU3",
+      "range": "18-24",
+      "title": "सूक्ष्म से अभिष्यन्दि तक विशेष द्रव्य-कर्म"
+    },
+    {
+      "id": "LU4",
+      "range": "25-31",
+      "title": "लङ्घन, बृंहण, रूक्षण, स्नेहन, स्वेदन और श्लक्ष्ण"
+    },
+    {
+      "id": "LU5",
+      "range": "32-35",
+      "title": "स्थिरादि गुणों के कार्यात्मक लक्षण"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "topic": "दीपन-पाचन",
+      "question": "चित्रक को किस श्रेणी में रखा गया है?",
+      "answer": "दीपन-पाचन"
+    },
+    {
+      "type": "mcq",
+      "topic": "शमन",
+      "question": "शमन द्रव्य का मुख्य लक्षण क्या है?",
+      "answer": "विषम दोषों को सम करना बिना सम दोषों को शोधित या कुपित किये"
+    },
+    {
+      "type": "short_answer",
+      "topic": "शोधन",
+      "question": "अनुलोमन, संस्रंसन, भेदन, रेचन, वमन और शोधन में मूल कार्यात्मक अंतर लिखिए।"
+    },
+    {
+      "type": "application",
+      "topic": "गुण-आधारित चिकित्सा",
+      "question": "बृंहण और रूक्षण द्रव्यों के गुणों में किस प्रकार का विरोध दिखाई देता है? उदाहरण सहित समझाइए।"
+    },
+    {
+      "type": "short_answer",
+      "topic": "गुण",
+      "question": "स्थिर, सर और पिच्छिल गुणों के शरीरगत कार्यों का संक्षिप्त वर्णन कीजिए।"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_count_verified": "35",
+    "verses_1_25_cross_checked": true,
+    "verses_26_35_printed_witness_verified": true,
+    "colophon_verified": true,
+    "hindi_translation_present": true,
+    "commentary_mapped": true,
+    "fabricated_commentary_avoided": true,
+    "online_witness_discrepancy_recorded": true,
+    "canonical_layer_separated_from_educational_layer": true,
+    "one_chapter_one_commit": true
+  }
+}

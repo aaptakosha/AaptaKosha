@@ -1,0 +1,595 @@
+{
+  "assessment_id": "charaka.sutra.10.revision",
+  "title_hi": "महाचतुष्पाद अध्याय — पुनरावृत्ति परीक्षा",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "q01",
+      "prompt_hi": "महाचतुष्पाद में चिकित्सा की संरचना किस रूप में रखी गई है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "चार पाद और सोलह गुण/कलाएँ",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "केवल एक औषधि",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल रोगी और चिकित्सक",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल आहार और निद्रा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.003"
+      ]
+    },
+    {
+      "question_id": "q02",
+      "prompt_hi": "मैत्रेय की प्रारम्भिक आपत्ति क्या थी?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "समान साधनों के बावजूद रोगियों के परिणाम अलग दिखते हैं",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "औषधि कभी उपलब्ध नहीं होती",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "रोगी की कोई भूमिका नहीं है",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "काल का कोई प्रभाव नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.004"
+      ]
+    },
+    {
+      "question_id": "q03",
+      "prompt_hi": "आत्रेय के अनुसार सभी रोग भेषज-साध्य क्यों नहीं हैं?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "क्योंकि सभी व्याधियाँ उपाय-साध्य नहीं होतीं",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "क्योंकि औषधि हमेशा निष्फल है",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "क्योंकि चिकित्सक की आवश्यकता नहीं",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "क्योंकि सभी रोग एक ही दोष से होते हैं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.005"
+      ]
+    },
+    {
+      "question_id": "q04",
+      "prompt_hi": "चिकित्सक को उपचार आरम्भ करने से पहले क्या करना चाहिए?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "रोग की साध्यता और स्वरूप की परीक्षा",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "केवल औषधि चुनना",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल रोगी का नाम पूछना",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल ऋतु देखना",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.005",
+        "charaka.sutra.10.021ab"
+      ]
+    },
+    {
+      "question_id": "q05",
+      "prompt_hi": "उपचार में मूलविपर्यय से क्या संकेतित है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "विकृति की दिशा के विपरीत चिकित्सकीय उपाय",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "हर रोग में एक ही औषधि",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल उपवास",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल शल्यकर्म",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.006"
+      ]
+    },
+    {
+      "question_id": "q06",
+      "prompt_hi": "साध्य रोगों के दो मुख्य प्रकार कौन-से हैं?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "सुखसाध्य और कृच्छ्रसाध्य",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "याप्य और अनुपक्रम",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "द्विदोषज और त्रिदोषज",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "नवीन और जीर्ण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.009ab"
+      ]
+    },
+    {
+      "question_id": "q07",
+      "prompt_hi": "असाध्य रोगों के दो प्रकार कौन-से बताए गए हैं?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "याप्य और अनुपक्रम",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "सुखसाध्य और कृच्छ्रसाध्य",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "अल्प और मध्यम",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "एकपथ और द्विपथ",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.009cd"
+      ]
+    },
+    {
+      "question_id": "q08",
+      "prompt_hi": "साध्य रोगों में कितने स्तर बताए गए हैं?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "तीन—अल्प, मध्यम और उत्कृष्ट",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "दो—याप्य और अनुपक्रम",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "चार—दोषों के अनुसार",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "एक ही",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.010ab"
+      ]
+    },
+    {
+      "question_id": "q09",
+      "prompt_hi": "निम्न में से कौन साध्यता के अनुकूल संकेतों में आता है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "रोग नया हो और उपद्रव न हो",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "रोग सर्वमार्गानुसारिण हो",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "रोग बहुधातुस्थ हो",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "रोग दीर्घकाल से बना हो",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.012cd"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "prompt_hi": "सुखसाध्य रोग के लक्षणों में कौन-सा बताया गया है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "एक दोष की उत्पत्ति और चतुष्पाद की उपपत्ति",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "त्रिदोषज होना",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "सर्वमार्गानुसारिण होना",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "इन्द्रियनाश होना",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.013ab",
+        "charaka.sutra.10.013cd"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "prompt_hi": "कृच्छ्रसाध्य रोग का एक संकेत क्या है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "द्विपथ या द्विदोषज रोग",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "सदैव एकदोषज रोग",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "सदा नवीन और उपद्रवरहित रोग",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "चतुष्पाद की पूर्ण उपपत्ति",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.016cd"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "prompt_hi": "याप्य रोग की मुख्य विशेषता क्या है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "पथ्य-सेवन से नियंत्रित होने वाला असाध्य रोग",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "तुरन्त पूर्णतः नष्ट होने वाला रोग",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल शल्य से ठीक होने वाला रोग",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "सिर्फ एक दिन रहने वाला रोग",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.017ab"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "prompt_hi": "कौन-सा रोग अधिक गंभीर संकेतों वाला बताया गया है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "गम्भीर, बहुधातुस्थ और मर्म-सन्धि-समाश्रित रोग",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "नवीन, एकपथ और उपद्रवरहित रोग",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "एकदोषज रोग",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "चतुष्पादोपपन्न रोग",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.018ab"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "prompt_hi": "त्रिदोषज रोग को किस श्रेणी में रखा गया है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "प्रत्याख्येय/असाध्य दिशा में",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "सुखसाध्य",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "उत्कृष्ट साध्य",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल याप्य",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.019ab"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "prompt_hi": "निम्न में से कौन प्रतिकूल संकेत के रूप में उल्लिखित है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "इन्द्रियनाश",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "नवीनता",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "एकपथता",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "उपद्रवरहितता",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.020ab"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "prompt_hi": "साध्य रोग में कर्म कब आरम्भ करना चाहिए?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "विकार के स्वलक्षणों की परीक्षा के बाद",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "परीक्षा से पहले",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल रोगी के आग्रह पर",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल काल देखकर",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.021ab",
+        "charaka.sutra.10.021cd"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "prompt_hi": "सम्यक् साध्य-असाध्य विभाग जानने वाला चिकित्सक किस प्रकार की भूल से बचता है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "मैत्रेय जैसी मिथ्या बुद्धि से",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "औषधि की उपलब्धता से",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "रोगी की स्मृति से",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "काल-देश के विचार से",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.022ab",
+        "charaka.sutra.10.022cd"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "prompt_hi": "अध्याय के समापन में आत्रेय-मैत्रेय प्रसंग के साथ क्या जोड़ा गया है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "मतिद्वैविध्य का निश्चय",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "केवल द्रव्य-संग्रह",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल आहार-विहार",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल परिचारक के गुण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.023ab",
+        "charaka.sutra.10.023cd"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "prompt_hi": "महाचतुष्पाद के सार में रोगों के कितने प्रकार के विकल्प बताए गए हैं?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "चार",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "दो",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "छः",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.024ab"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "prompt_hi": "अंतिम पंक्ति के अनुसार भिषग्जित किस पर आयत्त है?",
+      "options": [
+        {
+          "id": "a",
+          "text_hi": "महाचतुष्पाद में बताए गए चिकित्सकीय आधारों पर",
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text_hi": "केवल औषधि के नाम पर",
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text_hi": "केवल रोगी के बल पर",
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text_hi": "केवल देश पर",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.10.024cd"
+      ]
+    }
+  ]
+}

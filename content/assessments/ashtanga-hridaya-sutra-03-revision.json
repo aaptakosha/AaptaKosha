@@ -1,0 +1,489 @@
+{
+  "title_hi": "अष्टाङ्गहृदय सूत्रस्थान अध्याय 3 — ऋतुचर्या पुनरावृत्ति मूल्यांकन",
+  "curriculum_refs": [
+    "samhita:ashtanga-hridaya",
+    "ashtanga.hridaya.sutra.03"
+  ],
+  "questions": [
+    {
+      "question_id": "q1",
+      "prompt_hi": "ऋतुओं के सामान्य क्रम और काल-विभाजन का आधार क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "ऋतुचक्र और अयन का विभाजन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल चन्द्रमा की कलाएँ",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल नक्षत्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल वार",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.01"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q2",
+      "prompt_hi": "आदानकाल में शरीर के बल पर सामान्यतः क्या प्रभाव पड़ता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "बल क्रमशः क्षीण होता है",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "बल निरन्तर बढ़ता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "बल अपरिवर्तित रहता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल रात्रि में बढ़ता है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.01"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q3",
+      "prompt_hi": "विसर्गकाल का प्रमुख सामान्य गुण क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "सौम्यता और बल की पुनः वृद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अत्यधिक रूक्षता",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल उष्णता",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल कषायता",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.05"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q4",
+      "prompt_hi": "हेमन्त ऋतु में अग्नि कैसी होती है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "प्रबल",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अत्यन्त मन्द",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "सदा समान",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल रात्रि में मन्द",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.08"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q5",
+      "prompt_hi": "हेमन्त में आहार-विहार किस प्रकार का होना चाहिए?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "बल और प्रबल अग्नि के अनुरूप पौष्टिक एवं उष्ण",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल लघु और शीत",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल उपवास",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल फलाहार",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.10"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q6",
+      "prompt_hi": "वसन्त में संचित कफ के पिघलने से क्या हो सकता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "अग्निमान्द्य और कफज विकार",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल वातक्षय",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल पित्तक्षय",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "बल की अचानक वृद्धि",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.19"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q7",
+      "prompt_hi": "वसन्त ऋतु में कफ-प्रबन्धन के लिए कौन-से उपाय बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "वमन, नस्य, धूम और व्यायाम आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल दिवास्वप्न",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल दुग्धपान",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल अभ्यंग",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.20"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q8",
+      "prompt_hi": "ग्रीष्म ऋतु में किससे बचने का निर्देश है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "अत्यधिक व्यायाम और तीक्ष्ण/उष्ण आहार",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "शीतल जल",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "हल्का भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "शीतल वातावरण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.27"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q9",
+      "prompt_hi": "ग्रीष्म में शीतलता के लिए कौन-सा वातावरण हितकर बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "शीतल जल, चन्द्रप्रकाश और मंद वायु वाला",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अग्नि के समीप",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "तीव्र धूप वाला",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "अत्यन्त रूक्ष",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.34"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q10",
+      "prompt_hi": "वर्षा ऋतु में अग्नि की सामान्य स्थिति कैसी बताई गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "मन्द होने की प्रवृत्ति",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अत्यन्त तीव्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "सदा अपरिवर्तित",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल ग्रीष्म जैसी",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.43"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q11",
+      "prompt_hi": "वर्षा ऋतु में आहार कैसा होना चाहिए?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "हल्का, उष्ण और पाचन-सहायक",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "अत्यधिक गुरु और शीत",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल कच्चा",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल मधुर",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.46"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q12",
+      "prompt_hi": "शरद ऋतु में संचित पित्त के शमन हेतु कौन-सा उपाय बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "विरेचन और रक्तमोक्षण आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल दिवास्वप्न",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "केवल अतिभोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल व्यायाम",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.50"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q13",
+      "prompt_hi": "शरद में हंसोदक का क्या महत्त्व है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "अगस्त्य के उदय से विशुद्ध हुआ जल, हितकर माना गया",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल वर्षाजल",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "अत्यन्त दूषित जल",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल उष्ण जल",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.52"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q14",
+      "prompt_hi": "शरद ऋतु में किनका त्याग बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "अत्यधिक क्षार, दधि, तैल, दिवास्वप्न आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "सभी शीतल पदार्थ",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "सभी मधुर पदार्थ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल जल",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.55"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q15",
+      "prompt_hi": "सभी ऋतुओं में रसों के प्रयोग का सिद्धान्त क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "सभी छह रस रहते हैं, पर ऋतु/देश/प्रकृति अनुसार प्रधानता बदलती है",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "केवल एक रस लेना चाहिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "छह रस निषिद्ध हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "केवल मधुर रस लेना चाहिए",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.57"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "q16",
+      "prompt_hi": "ऋतुसन्धि में परिवर्तन कैसे करना चाहिए?",
+      "options": [
+        {
+          "option_id": "a",
+          "text_hi": "पुरानी चर्या धीरे-धीरे छोड़कर नई चर्या क्रमशः अपनानी चाहिए",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text_hi": "एक दिन में पूर्ण परिवर्तन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text_hi": "नई चर्या कभी न अपनाएँ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text_hi": "सिर्फ उपवास करें",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.03.58"
+      ],
+      "points": 1
+    }
+  ]
+}

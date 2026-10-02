@@ -1,0 +1,9 @@
+INSERT OR IGNORE INTO curriculum_nodes
+(node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,marks,sort_order)
+VALUES
+('y2-sw1-1','bams_ncism_2','2021-22','AyUG-SW','y2-sw-paper1','unit','A','Swastha, Swasthya, Swasthavritta and Health; dimensions of health; well-being','NCISM AyUG-SW','Viva on I Paper',1,2,10),
+('y2-sw1-2','bams_ncism_2','2021-22','AyUG-SW','y2-sw-paper1','unit','B','Ushajala pana, Kavala, Gandusha, Dantadhavana, Anjana, Abhyanga, Udvartana, Vyayama, Snana and Tambula','NCISM AyUG-SW','Viva on I Paper',1,4,20),
+('y2-sw1-3','bams_ncism_2','2021-22','AyUG-SW','y2-sw-paper1','unit','C','Ratri bhojana, Nidra, sleep disorders, Brahmacharya, Adanakala, Visarga kala, ritus, Ritusandhi and Yamadamshtra','NCISM AyUG-SW','Viva on I Paper',1,2,30),
+('y2-sw1-4','bams_ncism_2','2021-22','AyUG-SW','y2-sw-paper1','unit','D','Adharaneeya vegas, Dharaneeya vega, Sadvritta and Acararasayana','NCISM AyUG-SW','Viva on I Paper',1,2,40),
+('y2-sw1-5','bams_ncism_2','2021-22','AyUG-SW','y2-sw-paper1','unit','E','Ahara, food classification, Aharasevana kala, Ashta ahara vidhivisesha ayatana, diet patterns, nutrients, nutrigenomics, nutraceuticals, nutrigenetics, viruddha ahara, rasayana and antioxidants','NCISM AyUG-SW','Viva on I Paper',1,10,50),
+('y2-sw1-6','bams_ncism_2','2021-22','AyUG-SW','y2-sw-paper1','unit','F','Yoga: Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi; Shatkarma; Bandha; Shatchakra; Nadis; Moksha; Naturopathy; fasting; hydrotherapy and massage','NCISM AyUG-SW','Viva on I Paper',1,5,60);

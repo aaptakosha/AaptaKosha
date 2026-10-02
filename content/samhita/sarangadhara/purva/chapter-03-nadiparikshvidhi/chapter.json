@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "purva",
+  "chapter_number": 3,
+  "chapter_id": "purva-03-nadiparikshvidhi",
+  "title_sanskrit": "नाडीपरीक्षादिविधिः",
+  "title_roman": "Nāḍīparīkṣādividhiḥ",
+  "canonical_status": "printed_dipika_sequence_primary_source_reconciled_for_extent",
+  "verse_extent": {
+    "printed_dipika": "1-41",
+    "wikisource_online_witness": "1-26"
+  },
+  "colophon": "इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां पूर्वखण्डे नाडीपरीक्षादिविधिर्नाम तृतीयोऽध्यायः ।।३।।",
+  "sources": [
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "primary working printed witness",
+      "pages": "63-68",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/नाड़ी-परीक्षा-का-स्थान"
+    },
+    {
+      "name": "Sanskrit Wikisource — Pūrva Khaṇḍa",
+      "role": "independent Sanskrit witness; incomplete for this chapter",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"
+    },
+    {
+      "name": "Dīpikā commentary by Dr. Brahmānanda Tripāṭhī",
+      "role": "Hindi commentary and explanatory witness as reproduced in BharatKosha"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "The printed Dīpikā witness explicitly preserves verses 26-28 on bhaiṣajya/therapy foundations and continues through verses 29-41 on dreams and their signs. The compact Wikisource text instead ends at verse 26. Therefore the printed 1-41 sequence is used for chapter extent.",
+    "important_note": "The online witnesses are not to be merged mechanically. Missing printed verses 27-39 must be imported only from the verified printed scan/text, not reconstructed from memory.",
+    "secondary_note": "The Dīpikā edition adds substantial Hindi explanatory material, including modern pulse-rate discussion and cautions that clinical diagnosis should not rely on pulse alone. Such editorial material remains commentary/educational metadata, not canonical Sanskrit."
+  },
+  "topic_map": [
+    {
+      "range": "1-5",
+      "topic": "नाड़ी का स्थान; वात, पित्त, कफ, सन्निपात तथा द्विदोषजन्य नाड़ीगतियाँ"
+    },
+    {
+      "range": "6-11",
+      "topic": "असाध्य नाड़ी, ज्वर, काम-क्रोध-चिन्ता-भय, मन्दाग्नि/धातुक्षय/रक्त-सामावस्था तथा दीप्ताग्नि/क्षुधा/तृप्ति की नाड़ी"
+    },
+    {
+      "range": "12-20",
+      "topic": "दूत-परीक्षा, जीवित दिशा, दूत के शकुन और वैद्य के शकुन"
+    },
+    {
+      "range": "21-25",
+      "topic": "चिकित्स्य रोगी, वैद्य के गुण और परिचारक के गुण"
+    },
+    {
+      "range": "26-28",
+      "topic": "भेषज के गुण तथा चिकित्सा के चार पाद"
+    },
+    {
+      "range": "29-35",
+      "topic": "दुःस्वप्न, दुःस्वप्न के परिणाम तथा दुःस्वप्न-दर्शन पर करणीय शान्तिकर्म"
+    },
+    {
+      "range": "36-41",
+      "topic": "शुभस्वप्न और उनसे सम्बद्ध फल; अध्याय-समापन"
+    }
+  ],
+  "canonical_text_status": {
+    "verses_1_26": "independently visible in Wikisource and printed witness",
+    "verses_27_28": "explicitly visible in BharatKosha printed witness",
+    "verses_29_39": "printed witness confirmed by page sequence; full Sanskrit import requires scan-level transcription",
+    "verses_40_41": "explicitly visible in BharatKosha and printed witness",
+    "policy": "No fabricated reconstruction; source-text transcription remains a controlled next extraction task."
+  },
+  "hindi_learning_summary": [
+    {
+      "range": "1-11",
+      "summary": "नाड़ी के स्पर्श और गति को वात-पित्त-कफ तथा अन्य शारीरिक अवस्थाओं से जोड़कर वर्णित किया गया है; अध्याय में नाड़ी-परीक्षण के साथ अन्य रोगी-परीक्षण की आवश्यकता को भी समझाया गया है."
+    },
+    {
+      "range": "12-25",
+      "summary": "दूत, वैद्य और परिचारक के गुणों तथा रोगी की चिकित्स्य-अवस्था का वर्णन है; यह चिकित्सा-व्यवस्था को केवल औषधि तक सीमित नहीं रखता."
+    },
+    {
+      "range": "26-28",
+      "summary": "भेषज के प्रशस्त गुण और चिकित्सा के चार पाद—भिषक्, द्रव्य, उपस्थाता और रोगी—को उपचार-सफलता के आधार के रूप में रखा गया है."
+    },
+    {
+      "range": "29-41",
+      "summary": "स्वप्नों को शुभ-अशुभ संकेतों के रूप में वर्गीकृत किया गया है और उनके पारम्परिक फल तथा दुःस्वप्न के बाद बताए गये अनुष्ठानिक उपाय दिये गये हैं."
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-11",
+      "coverage": "Dīpikā explains traditional pulse patterns and adds explanatory physiological discussion; modern pulse-rate tables are editorial commentary, not canonical text."
+    },
+    {
+      "range": "12-20",
+      "coverage": "Dīpikā explains dūta characteristics, auspicious/inauspicious omens and the concept of active nasal flow."
+    },
+    {
+      "range": "21-28",
+      "coverage": "Dīpikā explains patient suitability, physician qualities, attendant qualities, drug quality and four therapeutic pillars."
+    },
+    {
+      "range": "29-41",
+      "coverage": "Dīpikā supplies Hindi explanations of dream categories, their traditional consequences and the concluding dream sign."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-11",
+      "title": "नाड़ी के मूल लक्षण और दोषानुसार गतियाँ"
+    },
+    {
+      "id": "LU2",
+      "range": "12-20",
+      "title": "दूत-परीक्षा और शकुन-विचार"
+    },
+    {
+      "id": "LU3",
+      "range": "21-28",
+      "title": "चिकित्स्य रोगी, भिषक्, परिचारक और भेषज"
+    },
+    {
+      "id": "LU4",
+      "range": "29-35",
+      "title": "दुःस्वप्न और पारम्परिक शान्तिकर्म"
+    },
+    {
+      "id": "LU5",
+      "range": "36-41",
+      "title": "शुभस्वप्न और अध्याय-समापन"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "topic": "दोषानुसार नाड़ी",
+      "question": "कफप्रकोप में नाड़ी की गति किन पक्षियों के समान बतायी गयी है?",
+      "answer": "हंस और पारावत"
+    },
+    {
+      "type": "mcq",
+      "topic": "चिकित्सा के चार पाद",
+      "question": "चिकित्सा के चार पाद कौन-से हैं?",
+      "answer": "भिषक्, द्रव्य, उपस्थाता और रोगी"
+    },
+    {
+      "type": "short_answer",
+      "topic": "भेषज",
+      "question": "भेषज के प्रशस्त गुणों का संक्षेप में वर्णन करें।"
+    },
+    {
+      "type": "application",
+      "topic": "clinical reasoning",
+      "question": "नाड़ी-परीक्षा के संकेतों को रोग-निश्चय के अन्य परीक्षणों के साथ कैसे जोड़ा जाना चाहिए?"
+    },
+    {
+      "type": "short_answer",
+      "topic": "स्वप्न",
+      "question": "अध्याय में शुभ और अशुभ स्वप्नों के वर्णन की संरचना समझाइए।"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "printed_extent_verified": "1-41",
+    "colophon_verified": true,
+    "printed_source_attribution_verified": true,
+    "online_witness_discrepancy_recorded": true,
+    "fabricated_verses_avoided": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_editorial_material_separated": true,
+    "one_chapter_one_commit": true,
+    "canonical_full_sanskrit_import": "pending controlled transcription of printed verses 27-39"
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "assessment_id": "charaka.sutra.04.revision",
+  "title_hi": "चरक सूत्रस्थान 4 — षड्विरेचनशताश्रितीय Revision Test",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "content_ref": "charaka.sutra.04",
+  "mode": "chapter_revision",
+  "question_count": 14,
+  "provenance": "Derived from the canonical Chapter 4 verse layer and AyUG-SA1 curriculum scope.",
+  "questions": [
+    {
+      "question_id": "charaka.sutra.04.q01",
+      "prompt": "षड्विरेचनशताश्रितीय अध्याय में विरेचन-योगों की संख्या कितनी बताई गई है?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.003",
+        "charaka.sutra.04.unit-01"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "300",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "500",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "600",
+          "is_correct": true
+        },
+        {
+          "option_id": "d",
+          "text": "700",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q02",
+      "prompt": "छः विरेचन-आश्रय कौन-से हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.005",
+        "charaka.sutra.04.unit-03"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "क्षीर, मूल, त्वक्, पत्र, पुष्प, फल",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "स्वरस, कल्क, शृत, शीत, फाण्ट",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "मधुर, अम्ल, कटु, तिक्त, कषाय",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "बल्य, वर्ण्य, कण्ठ्य, हृद्य",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q03",
+      "prompt": "कषाय की पाँच योनियाँ कौन-सी हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.006",
+        "charaka.sutra.04.unit-03"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "मधुर, अम्ल, कटु, तिक्त, कषाय",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "मधुर, अम्ल, लवण, कटु, तिक्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "स्वरस, कल्क, शृत, शीत, फाण्ट",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "क्षीर, मूल, त्वक्, पत्र, पुष्प",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q04",
+      "prompt": "पाँच कषाय-कल्पनाएँ कौन-सी हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.007",
+        "charaka.sutra.04.unit-03"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "स्वरस, कल्क, शृत, शीत, फाण्ट",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "चूर्ण, वटी, अवलेह, आसव, अरिष्ट",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "क्षीर, मूल, त्वक्, पत्र, फल",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "त्रिक, चतुष्क, पञ्चक, षट्क, सप्तक",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q05",
+      "prompt": "प्रत्येक महाकषाय-वर्ग में कितने द्रव्य बताए गए हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.008",
+        "charaka.sutra.04.unit-04"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "8",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "10",
+          "is_correct": true
+        },
+        {
+          "option_id": "d",
+          "text": "12",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q06",
+      "prompt": "बल्य, वर्ण्य, कण्ठ्य और हृद्य किस समूह में हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.015",
+        "charaka.sutra.04.unit-06"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "त्रिक",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "चतुष्क",
+          "is_correct": true
+        },
+        {
+          "option_id": "c",
+          "text": "पञ्चक",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "षट्क",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q07",
+      "prompt": "स्नेहोपग से शिरोविरेचनोपग तक कितने वर्ग हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.018",
+        "charaka.sutra.04.unit-06"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "5",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "7",
+          "is_correct": true
+        },
+        {
+          "option_id": "d",
+          "text": "8",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q08",
+      "prompt": "छर्दिनिग्रहण, तृष्णानिग्रहण और हिक्कानिग्रहण किस समूह में हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.019",
+        "charaka.sutra.04.unit-07"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "त्रिक",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "text": "चतुष्क",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "पञ्चक",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "सप्तक",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q09",
+      "prompt": "पुरीषसंग्रहणीय से मूत्रविरेचनीय तक कितने वर्ग हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.020",
+        "charaka.sutra.04.unit-07"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "5",
+          "is_correct": true
+        },
+        {
+          "option_id": "d",
+          "text": "6",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q10",
+      "prompt": "कासहर, श्वासहर, शोथहर, ज्वरहर और श्रमहर किस समूह में हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.021",
+        "charaka.sutra.04.unit-07"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "त्रिक",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "चतुष्क",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "पञ्चक",
+          "is_correct": true
+        },
+        {
+          "option_id": "d",
+          "text": "षट्क",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q11",
+      "prompt": "दाहप्रशमन से शूलप्रशमन तक कितने वर्ग हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.022",
+        "charaka.sutra.04.unit-07"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "4",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "5",
+          "is_correct": true
+        },
+        {
+          "option_id": "c",
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "7",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q12",
+      "prompt": "संग्रह-श्लोकों में पाँच कषाय-योनियों का पुनः स्मरण किस श्लोक में है?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.024",
+        "charaka.sutra.04.unit-08"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "23",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "24",
+          "is_correct": true
+        },
+        {
+          "option_id": "c",
+          "text": "25",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "26",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q13",
+      "prompt": "पचास महाकषाय किस उद्देश्य से प्रस्तुत किए गए हैं?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.028",
+        "charaka.sutra.04.unit-08"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "केवल परीक्षा-अंक के लिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "व्यवहार और बुद्धि-वृद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "c",
+          "text": "केवल नाम-स्मरण के लिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "text": "केवल द्रव्य-गणना के लिए",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.04.q14",
+      "prompt": "अंतिम श्लोक में श्रेष्ठ भिषक् के लिए कौन-सा ज्ञान कहा गया है?",
+      "points": 1,
+      "content_refs": [
+        "charaka.sutra.04.029",
+        "charaka.sutra.04.unit-08"
+      ],
+      "options": [
+        {
+          "option_id": "a",
+          "text": "केवल नाम-स्मरण",
+          "is_correct": false
+        },
+        {
+          "option_id": "b",
+          "text": "केवल रस-ज्ञान",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "text": "बाह्य-आभ्यन्तर कर्म, संयोजन और प्रयोग का ज्ञान",
+          "is_correct": true
+        },
+        {
+          "option_id": "d",
+          "text": "केवल मात्रा-ज्ञान",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}

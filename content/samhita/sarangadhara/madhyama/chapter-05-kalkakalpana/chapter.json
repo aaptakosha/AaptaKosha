@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 5,
+  "chapter_id": "madhyama-05-kalkakalpana",
+  "title_sanskrit": "कल्ककल्पना",
+  "title_roman": "Kalkakalpanā",
+  "canonical_status": "verified",
+  "verse_extent": {
+    "verified": "1-28"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे कल्ककल्पनानाम पञ्चमोऽध्यायः॥५॥",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; complete 28-verse chapter and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "Chaukhamba Surbharati printed witness, pp. 148-151; Hindi Dīpikā commentary",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/पञ्चमोऽध्यायः-कल्ककल्पना-115"
+    },
+    {
+      "name": "E-Bharatisampat — Śārṅgadhara Saṃhitā Madhya Khaṇḍa",
+      "role": "independent searchable Sanskrit witness for chapter sequence",
+      "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=NDcxNjcxMjQ1MjI2MTQy"
+    },
+    {
+      "name": "Parul University scanned Śārṅgadhara Saṃhitā Madhya PDF",
+      "role": "independent scanned edition witness",
+      "url": "https://www.paruluniversity.ac.in/wp-content/uploads/2025/12/Sharangadhara_Samhita_Madhya.pdf"
+    }
+  ],
+  "canonical_sanskrit": [
+    {
+      "verse": 1,
+      "text": "द्रव्यमार्द्रं शिलापिष्टं शुष्कं वा सजलं भवेत् । प्रक्षेपावापकल्कास्ते तन्मानं कर्षसम्मितम् ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "कल्के मधु घृतं तैलं देयं द्विगुणमात्रया । सिता गुडं समं दद्याद् द्रवा देयाश्चतुर्गुणाः ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "त्रिवृद्ध्या पञ्चवृद्ध्या वा सप्तवृद्ध्याऽथवा कणाः । पिबेत्पिष्ट्वा दशदिनं तास्तथैवापकर्षयेत् ॥ ३ ॥"
+    },
+    {
+      "verse": 4,
+      "text": "एवं विंशद्दिनैः सिद्धं पिप्पलीवर्द्धमानकम् । अनेन पाण्डुवातास्रकासश्वासारुचिज्वराः । उदरार्शः क्षयश्लेष्मवाता नश्यन्त्युरोग्रहाः ॥ ४ ॥"
+    },
+    {
+      "verse": 5,
+      "text": "लेपान्निम्बदलैः कल्को व्रणशोधनरोपणः । भक्षणाच्छर्दिकुष्ठानि पित्तश्लेष्मकृमीञ्जयेत् ॥ ५ ॥"
+    },
+    {
+      "verse": 6,
+      "text": "महानिम्बजटाकल्को गृध्रसीनाशनः स्मृतः ॥ ६ ॥"
+    },
+    {
+      "verse": 7,
+      "text": "शुद्धः कल्को रसोनस्य तिलतैलेन मिश्रितः । वातरोगाञ्जयेत्तीव्रान्विषमज्वरनाशनः ॥ ७ ॥"
+    },
+    {
+      "verse": 8,
+      "text": "पक्वकन्दरसोनस्य गुलिका निस्तुषीकृता । पाटयित्वा च मध्यस्थं दूरीकुर्यात्तदङ्कुरम् ॥ ८ ॥"
+    },
+    {
+      "verse": 9,
+      "text": "तदुग्रगन्धनाशाय रात्रौ तक्रे विनिक्षिपेत् । अपनीय च तन्मध्याच्छिलायां पेषयेत्ततः ॥ ९ ॥"
+    },
+    {
+      "verse": 10,
+      "text": "तन्मध्ये पञ्चमांशेन चूर्णमेषां विनिक्षिपेत् । सौवर्चलं यवानीं च भर्जितं हिङ्गुसैन्धवम् ॥ १० ॥"
+    },
+    {
+      "verse": 11,
+      "text": "कटुत्रिकं जीरकं च समभागानि चूर्णयेत् । एकीकृत्य ततः सर्वं कल्कं कर्षप्रमाणतः ॥ ११ ॥"
+    },
+    {
+      "verse": 12,
+      "text": "खादेदग्निबलापेक्षी ऋतुदोषाद्यपेक्षया । अनुपानं ततः कुर्यादेरण्डशृतमन्वहम् ॥ १२ ॥"
+    },
+    {
+      "verse": 13,
+      "text": "सर्वाङ्गैकाङ्गजं वातमर्दितं चापतन्त्रकम् । अपस्मारमथोन्मादमूरुस्तम्भं च गृध्रसीम् ॥ १३ ॥"
+    },
+    {
+      "verse": 14,
+      "text": "उरःपृष्ठकटीपार्श्वकुक्षिपीडां क्रिमीञ्जयेत् । अजीर्णमातपं रोषमतिनीरं पयो गुडम् ॥ १४ ॥"
+    },
+    {
+      "verse": 15,
+      "text": "रसोनमश्नन्पुरुषस्त्यजेदेतन्निरन्तरम् । मद्यं मासं तथाऽम्लं च रसं सेवेत नित्यशः ॥ १५ ॥"
+    },
+    {
+      "verse": 16,
+      "text": "पिप्पली पिप्पलीमूलं भल्लातकफलानि च । एतत्कल्कश्च सक्षौद्र ऊरुस्तम्भनिवारणः ॥ १६ ॥"
+    },
+    {
+      "verse": 17,
+      "text": "विष्णुक्रान्ताजटाकल्कः सिताक्षौद्रघृतैर्युतः । परिणामभवं शूलं नाशयेत्सप्तभिर्दिनैः ॥ १७ ॥"
+    },
+    {
+      "verse": 18,
+      "text": "शुण्ठीतिलगुडैः कल्कं दुग्धेन सह योजयेत् । परिणामभवं शूलमामवातं च नाशयेत् ॥ १८ ॥"
+    },
+    {
+      "verse": 19,
+      "text": "अपामार्गस्य बीजानां कल्कस्तण्डुलवारिणा । पीतो रक्तार्शसां नाशं कुरुते नात्र संशयः ॥ १९ ॥"
+    },
+    {
+      "verse": 20,
+      "text": "बदरीमूलकल्केन तिलकल्कश्च योजितः । मधुक्षारयुतः कुर्याद्रक्तातीसारनाशनम् ॥ २० ॥"
+    },
+    {
+      "verse": 21,
+      "text": "कूष्माण्डकरसोपेतां लाक्षां कर्षद्वयं पिबेत् । रक्तक्षयमुरोघातं क्षयरोगं च नाशयेत् ॥ २१ ॥"
+    },
+    {
+      "verse": 22,
+      "text": "तण्डुलीयजटाकल्कः सक्षौद्रः सरसाञ्जनः । तण्डुलोदकसंपीतो रक्तप्रदरनाशनः ॥ २२ ॥"
+    },
+    {
+      "verse": 23,
+      "text": "अङ्कोलमूलकल्कश्च सक्षौद्रस्तण्डुलाम्बुना । अतीसारहरः प्रोक्तस्तथा विषहरः स्मृतः ॥ २३ ॥"
+    },
+    {
+      "verse": 24,
+      "text": "वन्ध्याकर्कोटिकामूलं पाटलाया जटा तथा । घृतेन बिल्वमूलं वा द्विविधं नाशयेद्विषम् ॥ २४ ॥"
+    },
+    {
+      "verse": 25,
+      "text": "अभयासैन्धवकणाशुण्ठीकल्कस्त्रिदोषहा । पथ्यासैन्धवशुण्ठीभिः कल्को दीपनपाचनः ॥ २५ ॥"
+    },
+    {
+      "verse": 26,
+      "text": "त्रिवृत्पलाशबीजानि पारसीकयवानिका । कम्पिल्लकं विडङ्गं च गुडश्च समभागकः । तक्रेण कल्कमेतेषां पिबेत्क्रिमिगणापहम् ॥ २६ ॥"
+    },
+    {
+      "verse": 27,
+      "text": "नवनीततिलैः कल्को जेता रक्तार्शसां स्मृतः । नवनीतसितानागकेशरैश्चापि तद्विधः ॥ २७ ॥"
+    },
+    {
+      "verse": 28,
+      "text": "पीतो मसूरयूषेण कल्कः शुण्ठीशलाटुजः । जयेत् सङ्ग्रहणीं तद्वत्तक्रेण बृहतीभवः ॥ २८ ॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource and BharatKosha agree on a 28-verse Kalka-kalpanā chapter ending at verse 28 with the chapter colophon. BharatKosha preserves the printed Dīpikā Hindi commentary on pp. 148-151.",
+    "critical_note": "Verse 4 is a three-line metrical unit in the online witness; it is retained as a single numbered canonical record rather than artificially splitting the verse.",
+    "formulation_scope": "Verses 1-2 establish kalka preparation, dose and adjunct ratios; verse 3-4 give the vardhamāna pippalī method; verses 5-28 provide named kalka formulations and their traditional indications.",
+    "safety_note": "The canonical layer records the classical text only. Ingredient identities, indications and preparation explanations belong to the commentary/educational layer and should not be presented as modern clinical equivalence or prescribing advice."
+  },
+  "topic_map": [
+    {
+      "range": "1-2",
+      "topic": "कल्क की मूल निर्माण-विधि, प्रक्षेप/आवाप संज्ञा, मात्रा तथा मधु-घृत-तैल-सिता-गुड-द्रव अनुपात"
+    },
+    {
+      "range": "3-4",
+      "topic": "वर्धमान पिप्पली विधि और उसके शास्त्रीय प्रयोजन"
+    },
+    {
+      "range": "5-7",
+      "topic": "निम्ब, महानिम्ब और रसोन कल्क के पारंपरिक प्रयोग"
+    },
+    {
+      "range": "8-15",
+      "topic": "रसोन कल्क की विस्तृत तैयारी, अनुपान, आहार-विहार और वातसम्बन्धी indications"
+    },
+    {
+      "range": "16-18",
+      "topic": "ऊरुस्तम्भ, परिणामशूल और आमवात में पिप्पली/विष्णुक्रान्ता/शुण्ठी कल्क"
+    },
+    {
+      "range": "19-24",
+      "topic": "रक्तार्श, रक्तातिसार, रक्तक्षय, रक्तप्रदर, अतिसार तथा विष में कल्क योग"
+    },
+    {
+      "range": "25-26",
+      "topic": "अभया-पथ्या कल्क तथा कृमिघ्न त्रिवृतादि कल्क"
+    },
+    {
+      "range": "27-28",
+      "topic": "रक्तार्श और संग्रहणी के तिल-नागकेशर तथा शुण्ठी-बृहती कल्क"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-2",
+      "summary": "कल्क ताजे द्रव्य को शिला पर पीसकर, या सूखे द्रव्य को जल के साथ पीसकर बनाया जाता है। शास्त्र में प्रक्षेप/आवाप/कल्क की संज्ञा और कर्ष-परिमाण बताया गया है। मधु, घृत और तैल सामान्यतः द्विगुण; सिता और गुड सम; तथा द्रव चतुर्गुण मात्रा में देने का नियम दिया है।"
+    },
+    {
+      "range": "3-4",
+      "summary": "वर्धमान पिप्पली में पिप्पली की मात्रा क्रमशः बढ़ाकर दी जाती है और फिर उसी क्रम से घटाई जाती है। पाठ में तीन-पाँच-सात की वृद्धि-विधियों का उल्लेख है और बीस दिनों में क्रम पूरा होने का वर्णन है।"
+    },
+    {
+      "range": "5-7",
+      "summary": "निम्ब, महानिम्ब और रसोन के कल्क के विविध पारंपरिक उपयोग बताए गए हैं। निम्ब का बाह्य लेप तथा आंतरिक सेवन अलग-अलग संदर्भों में दिया गया है।"
+    },
+    {
+      "range": "8-15",
+      "summary": "रसोन की विशेष कल्क-विधि में कन्द की तैयारी, तक्र में रखने, मसालों के चूर्ण और कर्ष-मात्रा का वर्णन है। अनुपान तथा कुछ आहार-विहार निषेध भी दिए गए हैं।"
+    },
+    {
+      "range": "16-24",
+      "summary": "विभिन्न कल्क योगों को ऊरुस्तम्भ, परिणामशूल, आमवात, रक्तार्श, रक्तातिसार, रक्तक्षय, रक्तप्रदर, अतिसार और विष जैसे शास्त्रीय रोग-संदर्भों में रखा गया है।"
+    },
+    {
+      "range": "25-28",
+      "summary": "अभया-पथ्या आधारित दीपनीय-पाचनीय कल्क, त्रिवृतादि कृमिघ्न योग, रक्तार्श के तिल/नागकेशर योग तथा संग्रहणी के शुण्ठी-बृहती कल्क का वर्णन है।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-2",
+      "coverage": "Dīpikā explains the practical meaning of kalka, the terms prakṣepa/āvāpa, dose and the stated adjunct ratios."
+    },
+    {
+      "range": "3-4",
+      "coverage": "Dīpikā explains the vardhamāna pippalī sequence and the traditional uses listed in the text."
+    },
+    {
+      "range": "5-7",
+      "coverage": "Dīpikā gives Hindi explanations of nīmba, mahānimba and rasōna kalka and distinguishes external from internal use where relevant."
+    },
+    {
+      "range": "8-15",
+      "coverage": "Dīpikā explains the special rasōna preparation, ancillary ingredients, anupāna and dietary restrictions."
+    },
+    {
+      "range": "16-24",
+      "coverage": "Dīpikā interprets the named formulations and their classical disease-contexts; these remain source-attributed traditional claims."
+    },
+    {
+      "range": "25-28",
+      "coverage": "Dīpikā explains abhaya/pathya kalka, the krimighna formulation, blood-pile formulations and the grahaṇī formulations at the chapter close."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-2",
+      "title": "कल्क की मूल कल्पना और मात्रा-नियम"
+    },
+    {
+      "id": "LU2",
+      "range": "3-4",
+      "title": "वर्धमान पिप्पली विधि"
+    },
+    {
+      "id": "LU3",
+      "range": "5-15",
+      "title": "निम्ब और रसोन कल्क"
+    },
+    {
+      "id": "LU4",
+      "range": "16-24",
+      "title": "विशिष्ट रोग-संदर्भों में कल्क योग"
+    },
+    {
+      "id": "LU5",
+      "range": "25-28",
+      "title": "दीपन-पाचन, कृमिघ्न और संग्रहणी कल्क"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "कल्क की सामान्य मात्रा किस परिमाण में बताई गई है?",
+      "answer": "कर्षसम्मित"
+    },
+    {
+      "type": "mcq",
+      "question": "कल्क में मधु, घृत और तैल किस मात्रा में देने का उल्लेख है?",
+      "answer": "द्विगुण मात्रा"
+    },
+    {
+      "type": "short_answer",
+      "question": "वर्धमान पिप्पली विधि का क्रम समझाइए और पाठ में उल्लिखित वृद्धि-विकल्प लिखिए।"
+    },
+    {
+      "type": "short_answer",
+      "question": "कल्क, प्रक्षेप और आवाप—इन शब्दों का अध्याय 5 के संदर्भ में अर्थ स्पष्ट कीजिए।"
+    },
+    {
+      "type": "source_criticism",
+      "question": "शास्त्रीय कल्क-योग के रोग-संदर्भ को आधुनिक clinical diagnosis से जोड़ते समय canonical text और commentary/modern interpretation को अलग क्यों रखना चाहिए?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-28",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "canonical_sanskrit_complete_for_verified_extent": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}

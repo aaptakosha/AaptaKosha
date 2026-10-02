@@ -1,0 +1,32 @@
+-- NCISM-verified AyUG-RN Paper I structural layout (28 topics).
+INSERT OR IGNORE INTO curriculum_nodes
+(node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,sort_order)
+VALUES
+('y2-rn1-1','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','1','Roga nidana – Pathophysiology and clinical diagnosis','NCISM AyUG-RN','Table 2 Paper 1',1,10),
+('y2-rn1-2','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','2','Pareeksha','NCISM AyUG-RN','Table 2 Paper 1',1,20),
+('y2-rn1-3','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','3','Methods of Rogi pareeksha','NCISM AyUG-RN','Table 2 Paper 1',1,30),
+('y2-rn1-4','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','4','Sapeksha nidana - Vyavacchedaka nidana','NCISM AyUG-RN','Table 2 Paper 1',1,40),
+('y2-rn1-5','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','5','Upashaya/ Anupashaya','NCISM AyUG-RN','Table 2 Paper 1',1,50),
+('y2-rn1-6','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','6','Dosha Vikriti','NCISM AyUG-RN','Table 2 Paper 1',1,60),
+('y2-rn1-7','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','7','Doshagati and Rogamarga','NCISM AyUG-RN','Table 2 Paper 1',1,70),
+('y2-rn1-8','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','8','Srotodushti','NCISM AyUG-RN','Table 2 Paper 1',1,80),
+('y2-rn1-9','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','9','Concept of Ama','NCISM AyUG-RN','Table 2 Paper 1',1,90),
+('y2-rn1-10','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','10','Assessment of Ama','NCISM AyUG-RN','Table 2 Paper 1',1,100),
+('y2-rn1-11','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','11','Sthana samshraya – Poorvaroopa','NCISM AyUG-RN','Table 2 Paper 1',1,110),
+('y2-rn1-12','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','12','Dushya dushti','NCISM AyUG-RN','Table 2 Paper 1',1,120),
+('y2-rn1-13','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','13','Samprapti','NCISM AyUG-RN','Table 2 Paper 1',1,130),
+('y2-rn1-14','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','14','Rupa','NCISM AyUG-RN','Table 2 Paper 1',1,140),
+('y2-rn1-15','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','15','Vyadhinamakarana','NCISM AyUG-RN','Table 2 Paper 1',1,150),
+('y2-rn1-16','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','16','Vyadhi','NCISM AyUG-RN','Table 2 Paper 1',1,160),
+('y2-rn1-17','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','17','Ashtanindita (Endocrine disorders)','NCISM AyUG-RN','Table 2 Paper 1',1,170),
+('y2-rn1-18','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','18','Janapadodhwamsa vikara (Pandemic disorders)','NCISM AyUG-RN','Table 2 Paper 1',1,180),
+('y2-rn1-19','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','19','Nidanarthakara Vyadhi, Vyadhisankara','NCISM AyUG-RN','Table 2 Paper 1',1,190),
+('y2-rn1-20','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','20','Vyadhikshamatva','NCISM AyUG-RN','Table 2 Paper 1',1,200),
+('y2-rn1-21','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','21','Rogi bala Pareeksha','NCISM AyUG-RN','Table 2 Paper 1',1,210),
+('y2-rn1-22','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','22','Dhatu Paka','NCISM AyUG-RN','Table 2 Paper 1',1,220),
+('y2-rn1-23','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','23','Infection and Nutritional disorders','NCISM AyUG-RN','Table 2 Paper 1',1,230),
+('y2-rn1-24','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','24','Upadrava','NCISM AyUG-RN','Table 2 Paper 1',2,240),
+('y2-rn1-25','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','25','Arishta','NCISM AyUG-RN','Table 2 Paper 1',2,250),
+('y2-rn1-26','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','26','Vyadhi bala pareeksha','NCISM AyUG-RN','Table 2 Paper 1',2,260),
+('y2-rn1-27','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','27','Sadhyasadhyatva – Prognosis','NCISM AyUG-RN','Table 2 Paper 1',2,270),
+('y2-rn1-28','bams_ncism_2','2021-22','AyUG-RN','y2-rn-paper1','unit','28','Digital health and Artificial intelligence in the context of Roganidana','NCISM AyUG-RN','Table 2 Paper 1',2,280);

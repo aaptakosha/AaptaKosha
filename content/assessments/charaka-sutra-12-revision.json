@@ -1,0 +1,590 @@
+{
+  "assessment_id": "charaka.sutra.12.revision",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "title_hi": "वातकलाकलीय अध्याय — पुनरावृत्ति परीक्षा",
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "charaka.sutra.12.q01",
+      "prompt_hi": "वात के छह गुण कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "q01.o1",
+          "label_hi": "रूक्ष, लघु, शीत, दारुण, खर, विशद",
+          "is_correct": true
+        },
+        {
+          "option_id": "q01.o2",
+          "label_hi": "स्निग्ध, गुरु, उष्ण, मृदु, पिच्छिल, घन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q01.o3",
+          "label_hi": "मधुर, अम्ल, लवण, कटु, तिक्त, कषाय",
+          "is_correct": false
+        },
+        {
+          "option_id": "q01.o4",
+          "label_hi": "स्थिर, मन्द, शीत, स्निग्ध, गुरु, मृदु",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.004"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q02",
+      "prompt_hi": "समान गुणों का अभ्यास किसका कारण बताया गया है?",
+      "options": [
+        {
+          "option_id": "q02.o1",
+          "label_hi": "धातुओं की वृद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "q02.o2",
+          "label_hi": "धातुओं का क्षय",
+          "is_correct": false
+        },
+        {
+          "option_id": "q02.o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q02.o4",
+          "label_hi": "केवल वर्ण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.005"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q03",
+      "prompt_hi": "वात के प्रकोपक के विपरीत क्या माना गया है?",
+      "options": [
+        {
+          "option_id": "q03.o1",
+          "label_hi": "वातप्रशमन",
+          "is_correct": true
+        },
+        {
+          "option_id": "q03.o2",
+          "label_hi": "वातवृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "q03.o3",
+          "label_hi": "केवल उपवास",
+          "is_correct": false
+        },
+        {
+          "option_id": "q03.o4",
+          "label_hi": "केवल व्यायाम",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.006"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q04",
+      "prompt_hi": "वातप्रकोपक शरीरगत गुणों में कौन-सा समूह आता है?",
+      "options": [
+        {
+          "option_id": "q04.o1",
+          "label_hi": "रूक्ष, लघु, शीत, दारुण, खर, विशद",
+          "is_correct": true
+        },
+        {
+          "option_id": "q04.o2",
+          "label_hi": "स्निग्ध, गुरु, उष्ण, मृदु, पिच्छिल, घन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q04.o3",
+          "label_hi": "मधुर, अम्ल, लवण, गुरु, स्निग्ध, मन्द",
+          "is_correct": false
+        },
+        {
+          "option_id": "q04.o4",
+          "label_hi": "स्थिर, शीत, मृदु, गुरु, स्निग्ध, पिच्छिल",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.007"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q05",
+      "prompt_hi": "वातप्रशमन के लिए कौन-सा विपरीत गुणसमूह दिया गया है?",
+      "options": [
+        {
+          "option_id": "q05.o1",
+          "label_hi": "स्निग्ध, गुरु, उष्ण, श्लक्ष्ण, मृदु, पिच्छिल, घन",
+          "is_correct": true
+        },
+        {
+          "option_id": "q05.o2",
+          "label_hi": "रूक्ष, लघु, शीत, खर, विशद, दारुण",
+          "is_correct": false
+        },
+        {
+          "option_id": "q05.o3",
+          "label_hi": "कटु, तिक्त, कषाय, लघु, रूक्ष, शीत",
+          "is_correct": false
+        },
+        {
+          "option_id": "q05.o4",
+          "label_hi": "केवल शीत और लघु",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.007"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q06",
+      "prompt_hi": "अकुपित वायु के शरीरगत कार्यों में कौन-सा शामिल है?",
+      "options": [
+        {
+          "option_id": "q06.o1",
+          "label_hi": "प्राणादि प्रवर्तन और धातुव्यूहकरण",
+          "is_correct": true
+        },
+        {
+          "option_id": "q06.o2",
+          "label_hi": "केवल पाचन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q06.o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q06.o4",
+          "label_hi": "केवल वर्ण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q07",
+      "prompt_hi": "वायु को मन के संदर्भ में क्या कहा गया है?",
+      "options": [
+        {
+          "option_id": "q07.o1",
+          "label_hi": "नियन्ता और प्रणेता",
+          "is_correct": true
+        },
+        {
+          "option_id": "q07.o2",
+          "label_hi": "केवल ज्ञाता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q07.o3",
+          "label_hi": "केवल भर्ता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q07.o4",
+          "label_hi": "केवल दर्शक",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q08",
+      "prompt_hi": "वायु को वाणी के संदर्भ में क्या माना गया है?",
+      "options": [
+        {
+          "option_id": "q08.o1",
+          "label_hi": "प्रवर्तक",
+          "is_correct": true
+        },
+        {
+          "option_id": "q08.o2",
+          "label_hi": "निरोधक",
+          "is_correct": false
+        },
+        {
+          "option_id": "q08.o3",
+          "label_hi": "केवल साक्षी",
+          "is_correct": false
+        },
+        {
+          "option_id": "q08.o4",
+          "label_hi": "केवल कारण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.008"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q09",
+      "prompt_hi": "मरीचि ने पित्तान्तर्गत किस तत्व को प्रमुख बताया?",
+      "options": [
+        {
+          "option_id": "q09.o1",
+          "label_hi": "अग्नि",
+          "is_correct": true
+        },
+        {
+          "option_id": "q09.o2",
+          "label_hi": "सोम",
+          "is_correct": false
+        },
+        {
+          "option_id": "q09.o3",
+          "label_hi": "मन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q09.o4",
+          "label_hi": "आकाश",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.011"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q10",
+      "prompt_hi": "काप्य ने श्लेष्मान्तर्गत किसे प्रमुख बताया?",
+      "options": [
+        {
+          "option_id": "q10.o1",
+          "label_hi": "सोम",
+          "is_correct": true
+        },
+        {
+          "option_id": "q10.o2",
+          "label_hi": "अग्नि",
+          "is_correct": false
+        },
+        {
+          "option_id": "q10.o3",
+          "label_hi": "वायु",
+          "is_correct": false
+        },
+        {
+          "option_id": "q10.o4",
+          "label_hi": "तेज",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.012"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q11",
+      "prompt_hi": "आत्रेय के अनुसार प्रकृतिस्थ वात-पित्त-कफ क्या करते हैं?",
+      "options": [
+        {
+          "option_id": "q11.o1",
+          "label_hi": "बल, वर्ण, सुख और आयु की उचित अवस्था में सहायता करते हैं",
+          "is_correct": true
+        },
+        {
+          "option_id": "q11.o2",
+          "label_hi": "सदैव रोग उत्पन्न करते हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "q11.o3",
+          "label_hi": "केवल निद्रा बढ़ाते हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "q11.o4",
+          "label_hi": "केवल पाचन रोकते हैं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.013"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q12",
+      "prompt_hi": "विकृत दोषों के विषय में आत्रेय का निष्कर्ष क्या है?",
+      "options": [
+        {
+          "option_id": "q12.o1",
+          "label_hi": "वे विपरीत/अशुभ परिणाम उत्पन्न करते हैं",
+          "is_correct": true
+        },
+        {
+          "option_id": "q12.o2",
+          "label_hi": "वे हमेशा स्वास्थ्य बढ़ाते हैं",
+          "is_correct": false
+        },
+        {
+          "option_id": "q12.o3",
+          "label_hi": "उनका शरीर से कोई संबंध नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "q12.o4",
+          "label_hi": "वे केवल बाह्य जगत में कार्य करते हैं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.013"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q13",
+      "prompt_hi": "अध्याय के अनुसार ऋतुओं के विकृत होने पर क्या प्रभाव बताया गया है?",
+      "options": [
+        {
+          "option_id": "q13.o1",
+          "label_hi": "लोक को अशुभ से उपघात का कारण",
+          "is_correct": true
+        },
+        {
+          "option_id": "q13.o2",
+          "label_hi": "केवल बलवृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o4",
+          "label_hi": "कोई प्रभाव नहीं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.013"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q14",
+      "prompt_hi": "12.15ab का आशय क्या है?",
+      "options": [
+        {
+          "option_id": "q14.o1",
+          "label_hi": "आत्रेय के वचन को सभी ने स्वीकार किया",
+          "is_correct": true
+        },
+        {
+          "option_id": "q14.o2",
+          "label_hi": "सभी ने आत्रेय के वचन को अस्वीकार किया",
+          "is_correct": false
+        },
+        {
+          "option_id": "q14.o3",
+          "label_hi": "केवल एक ऋषि ने स्वीकार किया",
+          "is_correct": false
+        },
+        {
+          "option_id": "q14.o4",
+          "label_hi": "केवल देवताओं ने स्वीकार किया",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.015ab"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q15",
+      "prompt_hi": "12.15cd में ऋषियों के अभिनन्दन की तुलना किससे की गई है?",
+      "options": [
+        {
+          "option_id": "q15.o1",
+          "label_hi": "देवताओं द्वारा इन्द्र के वचन के अभिनन्दन से",
+          "is_correct": true
+        },
+        {
+          "option_id": "q15.o2",
+          "label_hi": "राजा द्वारा सैनिकों से",
+          "is_correct": false
+        },
+        {
+          "option_id": "q15.o3",
+          "label_hi": "गुरु द्वारा शिष्यों से",
+          "is_correct": false
+        },
+        {
+          "option_id": "q15.o4",
+          "label_hi": "वैद्य द्वारा रोगी से",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.015cd"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q16",
+      "prompt_hi": "12.16ab में कितने वातगुणों का सार दिया गया है?",
+      "options": [
+        {
+          "option_id": "q16.o1",
+          "label_hi": "छः",
+          "is_correct": true
+        },
+        {
+          "option_id": "q16.o2",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q16.o3",
+          "label_hi": "चार",
+          "is_correct": false
+        },
+        {
+          "option_id": "q16.o4",
+          "label_hi": "आठ",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.016ab"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q17",
+      "prompt_hi": "12.16cd के अनुसार वायु के कर्म कितने प्रकार के बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "q17.o1",
+          "label_hi": "चार",
+          "is_correct": true
+        },
+        {
+          "option_id": "q17.o2",
+          "label_hi": "दो",
+          "is_correct": false
+        },
+        {
+          "option_id": "q17.o3",
+          "label_hi": "छः",
+          "is_correct": false
+        },
+        {
+          "option_id": "q17.o4",
+          "label_hi": "आठ",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.016cd"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q18",
+      "prompt_hi": "12.17ab में किन दो मतों का उल्लेख है?",
+      "options": [
+        {
+          "option_id": "q18.o1",
+          "label_hi": "महर्षियों का मत और पुनर्वसु का मत",
+          "is_correct": true
+        },
+        {
+          "option_id": "q18.o2",
+          "label_hi": "केवल काप्य का मत",
+          "is_correct": false
+        },
+        {
+          "option_id": "q18.o3",
+          "label_hi": "केवल मरीचि का मत",
+          "is_correct": false
+        },
+        {
+          "option_id": "q18.o4",
+          "label_hi": "केवल वार्योविद का मत",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.017ab"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q19",
+      "prompt_hi": "वातकलाकलीय अध्याय का मुख्य विषय क्या है?",
+      "options": [
+        {
+          "option_id": "q19.o1",
+          "label_hi": "वात के गुण, कारण, कर्म और उससे संबंधित चिकित्सकीय विवेचन",
+          "is_correct": true
+        },
+        {
+          "option_id": "q19.o2",
+          "label_hi": "केवल शल्यकर्म",
+          "is_correct": false
+        },
+        {
+          "option_id": "q19.o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q19.o4",
+          "label_hi": "केवल आहार-विहार",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.016cd"
+      ]
+    },
+    {
+      "question_id": "charaka.sutra.12.q20",
+      "prompt_hi": "अध्याय के स्रोत के अनुसार 12.1–12.14 का स्वरूप क्या है?",
+      "options": [
+        {
+          "option_id": "q20.o1",
+          "label_hi": "गद्य/प्रोज़",
+          "is_correct": true
+        },
+        {
+          "option_id": "q20.o2",
+          "label_hi": "केवल verse-half",
+          "is_correct": false
+        },
+        {
+          "option_id": "q20.o3",
+          "label_hi": "केवल editorial notes",
+          "is_correct": false
+        },
+        {
+          "option_id": "q20.o4",
+          "label_hi": "केवल टीका",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "charaka.sutra.12.014"
+      ]
+    }
+  ]
+}
