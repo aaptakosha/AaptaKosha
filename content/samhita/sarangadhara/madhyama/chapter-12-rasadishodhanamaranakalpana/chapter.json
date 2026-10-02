@@ -647,7 +647,7 @@
     "printed_witness_extent_verified": "1-295",
     "cross_source_checked": true,
     "numbering_discrepancy_preserved": true,
-    "canonical_full_verse_transcription": "full; v15 reconciled directly against Wikisource primary witness",
+    "canonical_full_verse_transcription": "partial; automated digital-witness transfer preserves source numbering gaps; printed reconciliation remains pending",
     "commentary_separated_from_canonical_layer": true,
     "modern_chemical_equivalence_not_promoted_to_canonical_fact": true,
     "no_fabricated_missing_verses": true,
@@ -710,10 +710,6 @@
     {
       "verse_number": 14,
       "text": "विद्रुतं गन्धकं ज्ञात्वा दुग्धमध्ये विनिःक्षिपेत् एवं गंधकशुद्धिः स्यात्सर्वकार्येषु योजयेत् ॥१४॥"
-    },
-    {
-      "verse_number": 15,
-      "text": "सप्तैव भावना दद्याच्छोषयेच्च पुनः पुनः ततस्तु गालिते हेम्नि कल्कोऽय दीयते समः ॥१५॥"
     },
     {
       "verse_number": 16,
