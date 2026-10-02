@@ -7,26 +7,26 @@
   "questions": [
     {
       "question_id": "ashtanga.hridaya.sutra.07.q1",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 1: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "राजा को प्राणाचार्य को राजगृह के समीप रखने का मुख्य कारण क्या है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "अन्न-पान आदि में वैद्य की सतत सजगता",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "केवल औषधि वितरण",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "केवल लेखा देखना",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "केवल युद्ध-प्रशिक्षण",
           "is_correct": false
         }
       ],
@@ -36,26 +36,26 @@
     },
     {
       "question_id": "ashtanga.hridaya.sutra.07.q2",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 2: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "महीपतेः अन्न-पान की विशेष रक्षा का कारण क्या है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "योगक्षेम और धर्मादि पुरुषार्थ उससे सम्बद्ध हैं",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "केवल स्वाद की रक्षा",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "केवल निद्रा की रक्षा",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "केवल वस्त्र की रक्षा",
           "is_correct": false
         }
       ],
@@ -65,26 +65,26 @@
     },
     {
       "question_id": "ashtanga.hridaya.sutra.07.q3",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 3: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "सविष ओदन का कौन-सा लक्षण है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "सान्द्रता और चिरेण पाचन",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "अत्यन्त शीघ्र पाचन",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "सदैव सुगन्धित होना",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "सदैव शीतल होना",
           "is_correct": false
         }
       ],
@@ -94,26 +94,26 @@
     },
     {
       "question_id": "ashtanga.hridaya.sutra.07.q4",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 4: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "विषयुक्त ओदन की ऊष्मा किसके कण्ठ के समान कही गई है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "मयूर",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "हंस",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "कौआ",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "सारस",
           "is_correct": false
         }
       ],
@@ -123,26 +123,26 @@
     },
     {
       "question_id": "ashtanga.hridaya.sutra.07.q5",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 5: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "विषदुष्ट व्यञ्जन में कौन-सा संकेत बताया गया है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "छाया का हीन, अधिक या विकृत होना",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "सदैव समान छाया",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "केवल मधुर रस",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "केवल अधिक सुगन्ध",
           "is_correct": false
         }
       ],
@@ -152,55 +152,26 @@
     },
     {
       "question_id": "ashtanga.hridaya.sutra.07.q6",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 6: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "सविषान्न-परीक्षा में द्रवों में किस प्रकार की असामान्य रेखाएँ वर्णित हैं?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "विभिन्न द्रवों में विशिष्ट वर्ण की राजी",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "केवल श्वेत बिन्दु",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "केवल काला वृत्त",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.06"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q7",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 7: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "कोई परिवर्तन नहीं",
           "is_correct": false
         }
       ],
@@ -209,172 +180,27 @@
       ]
     },
     {
-      "question_id": "ashtanga.hridaya.sutra.07.q8",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 8: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "question_id": "ashtanga.hridaya.sutra.07.q7",
+      "prompt_hi": "विष देने वाले व्यक्ति का कौन-सा लक्षण वर्णित है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "विलक्ष होकर दिशाओं की ओर देखना",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "गहरी निद्रा",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "अत्यधिक स्थिर दृष्टि",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.08"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q9",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 9: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.09"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q10",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 10: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.10"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q11",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 11: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.11"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q12",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 12: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.12"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q13",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 13: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "निरन्तर हँसना",
           "is_correct": false
         }
       ],
@@ -383,27 +209,27 @@
       ]
     },
     {
-      "question_id": "ashtanga.hridaya.sutra.07.q14",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 14: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "question_id": "ashtanga.hridaya.sutra.07.q8",
+      "prompt_hi": "सविष अन्न को अग्नि में डालने पर क्या संकेत हो सकता है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "अत्यधिक स्फुटन और असामान्य धूम-ज्वाला",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "अग्नि सदैव बुझना",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "कोई परिवर्तन न होना",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "केवल शीतलता",
           "is_correct": false
         }
       ],
@@ -412,114 +238,27 @@
       ]
     },
     {
-      "question_id": "ashtanga.hridaya.sutra.07.q15",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 15: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "question_id": "ashtanga.hridaya.sutra.07.q9",
+      "prompt_hi": "सविष अन्न देखकर कुछ पक्षियों में क्या प्रतिक्रिया बताई गई है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "उत्क्रोश, स्खलन, ग्लानि या प्राणत्याग",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "सभी में निद्रा",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "सभी में भूख बढ़ना",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.15"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q16",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 16: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.16"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q17",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 17: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
-          "is_correct": false
-        }
-      ],
-      "content_refs": [
-        "ashtanga.hridaya.sutra.07.17"
-      ]
-    },
-    {
-      "question_id": "ashtanga.hridaya.sutra.07.q18",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 18: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
-      "options": [
-        {
-          "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
-          "is_correct": true
-        },
-        {
-          "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
-          "is_correct": false
-        },
-        {
-          "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
-          "is_correct": false
-        },
-        {
-          "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "सभी में मधुर स्वर",
           "is_correct": false
         }
       ],
@@ -528,61 +267,322 @@
       ]
     },
     {
-      "question_id": "ashtanga.hridaya.sutra.07.q19",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 19: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "question_id": "ashtanga.hridaya.sutra.07.q10",
+      "prompt_hi": "विषयुक्त अन्न के त्याग में किस बात पर बल है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "छोटे जीव भी विष से न मरें",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "अन्न फिर परोसा जाए",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "अन्न छिपाया जाए",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "अन्न अधिक पकाया जाए",
           "is_correct": false
         }
       ],
       "content_refs": [
-        "ashtanga.hridaya.sutra.07.19"
+        "ashtanga.hridaya.sutra.07.18"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q11",
+      "prompt_hi": "विरुद्धाहार को किसके समान जानना चाहिए?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "विष और गर के समान",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अमृत के समान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल जल के समान",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल घृत के समान",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.29"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q12",
+      "prompt_hi": "विरुद्धाहारजन्य विकार में क्या कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "शुद्धि या विरोधी द्रव्य से शमन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल व्यायाम",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल मधुर आहार",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.46"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q13",
+      "prompt_hi": "सात्म्यीकरण में अभ्यस्त अपथ्य कैसे छोड़ना चाहिए?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "पाद या पाद-पाद मात्रा से क्रमशः",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "एक ही दिन पूरा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "बिना अन्तराल",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल वर्षा ऋतु में",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.48"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q14",
+      "prompt_hi": "क्रमिक सात्म्यीकरण का फल क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "दोषों का क्षय और गुणों की स्थिर वृद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "दोषों की वृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल क्षुधा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.50"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q15",
+      "prompt_hi": "अहित आहार को सात्म्य बनाने के बारे में क्या सावधानी है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "दोषों को पुनः दूषित करने वाला अहित जानबूझकर न बढ़ाएँ",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अपथ्य सदैव बढ़ाएँ",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "पथ्य छोड़ दें",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सभी आहार रोक दें",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.51"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q16",
+      "prompt_hi": "शरीर की नित्य धारण किनके युक्तिपूर्वक प्रयोग से कही गई है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "आहार, शयन और अब्रह्मचर्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल व्यायाम",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषधि",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल स्नान",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.52"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q17",
+      "prompt_hi": "अकाल या अतियोग की निद्रा का क्या प्रभाव बताया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "सुख और आयु को नष्ट कर सकती है",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "आयु निश्चित रूप से बढ़ाती है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल भूख बढ़ाती है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "कोई प्रभाव नहीं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.55"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q18",
+      "prompt_hi": "अकाल-शयन से कौन-सा विकार बताया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अग्निमन्दता",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल कर्णशूल",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल त्वक्पाण्डु",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल अतिक्षुधा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.61"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q19",
+      "prompt_hi": "विधिपूर्वक मैथुन के फल में क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "स्मृति, मेधा, आयु, आरोग्य, पुष्टि और बल की वृद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल निद्रा की वृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल क्षुधा की वृद्धि",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल कफ की वृद्धि",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.75"
       ]
     },
     {
       "question_id": "ashtanga.hridaya.sutra.07.q20",
-      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 20: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "prompt_hi": "अध्याय के उपसंहार में देहरक्षा किस प्रकार के वैद्य के अधीन रखने की बात है?",
       "options": [
         {
           "option_id": "o1",
-          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "label_hi": "श्रुतचरितसमृद्ध, कर्मदक्ष और दयालु वैद्य",
           "is_correct": true
         },
         {
           "option_id": "o2",
-          "label_hi": "केवल शरीररचना",
+          "label_hi": "केवल धनवान व्यक्ति",
           "is_correct": false
         },
         {
           "option_id": "o3",
-          "label_hi": "केवल औषध-निर्माण",
+          "label_hi": "केवल सैनिक",
           "is_correct": false
         },
         {
           "option_id": "o4",
-          "label_hi": "यह विषय अध्याय में नहीं है",
+          "label_hi": "केवल परिचारक",
           "is_correct": false
         }
       ],
       "content_refs": [
-        "ashtanga.hridaya.sutra.07.20"
+        "ashtanga.hridaya.sutra.07.77"
       ]
     }
   ]
