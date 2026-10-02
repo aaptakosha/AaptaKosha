@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 6,
+  "chapter_id": "madhyama-06-churnakalpana",
+  "title_sanskrit": "चूर्णकल्पना",
+  "title_roman": "Cūrṇakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "verified": "1-166"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे चूर्णकल्पनानाम षष्ठोऽध्यायः॥६॥",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; complete chapter 1-166 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "Chaukhamba Surbharati printed witness and Hindi Dīpikā; chapter pp. 152 onward",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/चूर्णकल्पना"
+    },
+    {
+      "name": "BharatKosha — Chapter continuation",
+      "role": "printed Dīpikā pages 161-164 and closing material",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/षष्ठोऽध्यायः-चूर्णकल्पना-127"
+    },
+    {
+      "name": "E-Bharatisampat / independent digital witness",
+      "role": "cross-source chapter identification and sequence check",
+      "url": "https://www.ebharatisampat.in/"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    {
+      "verse": 1,
+      "text": "अत्यन्तशुष्कं यद्द्रव्यं सुपिष्टं वस्त्रगालितम् । तत्स्याच्चूर्णं रजः क्षोदस्तन्मात्रा कर्षसंमिता ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "चूर्णे गुडः समो देयः शर्कराद्विगुणा भवेत् । चूर्णेषु भर्जितं हिंगु देयं नोत्क्लेदकृद्भवेत् ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "लिहेच्चूर्णं द्रवैर् सर्वैर्घृताद्यैर्द्विगुणोन्मितैः । पिबेच्चतुर्गुणैरेव चूर्णमालोडितं द्रवैः ॥ ३ ॥"
+    },
+    {
+      "verse": 4,
+      "text": "चूर्णावलेहगुटिकाकल्कानामनुपानकम् । वातपित्तकफातङ्के त्रिद्व्येकपलमाहरेत् ॥ ४ ॥"
+    },
+    {
+      "verse": 5,
+      "text": "यथा तैलं जले क्षिप्तं क्षणेनैव प्रसर्पति । अनुपानबलादङ्गे तथा सर्पति भेषजम् ॥ ५ ॥"
+    },
+    {
+      "verse": 6,
+      "text": "द्रवेण यावता सम्यक्चूर्णं सर्वं प्लुतं भवेत् । भावनायाः प्रमाणं तु चूर्णे प्रोक्तं भिषग्वरैः ॥ ६ ॥"
+    },
+    {
+      "verse": 7,
+      "text": "आमलं चित्रकः पथ्या पिप्पली सैन्धवं तथा । चूर्णितोऽयं गणो ज्ञेयः सर्वज्वरविनाशनः । भेदी रुचिकरः श्लेष्मजेता दीपनपाचनः ॥ ७ ॥"
+    },
+    {
+      "verse": 9,
+      "text": "एका हरीतकी योज्या द्वौ च योज्यौ बिभीतकौ । चत्वार्यामलकान्येव त्रिफलैषा प्रकीर्त्तिता ॥ ९ ॥"
+    },
+    {
+      "verse": 12,
+      "text": "पिप्पली मरिचं शुण्ठी त्रिभिस्त्रिकटुमुच्यते । दीपनं श्लेष्ममेदोघ्नं कुष्ठपीनसनाशनम् । जयेदरोचकं सामं मेहगुल्मगलामयान् ॥ १२ ॥"
+    },
+    {
+      "verse": 15,
+      "text": "त्रिगन्धमेलात्वक्पत्रैश्चतुर्जातं सकेशरैः । त्रिगन्धं सचतुर्जातं रूक्षोष्णं लघु पित्तकृत् । वर्ण्यं रुचिकरं तीक्ष्णं पित्तश्लेष्मामयाञ्जयेत् ॥ १५ ॥"
+    },
+    {
+      "verse": 18,
+      "text": "मुद्गपर्णी माषपर्णी जीवनीयो गणस्त्वयम् । जीवनीयो गणः स्वादुर्गर्भसन्धानकृद् गुरुः ॥ १८ ॥"
+    },
+    {
+      "verse": 22,
+      "text": "सिन्धु सौवर्चलं चैव विडं सामुद्रिकं गुडम् । एकद्वित्रिचतुःपञ्चलवणानि क्रमाद्विदुः ॥ २२ ॥"
+    },
+    {
+      "verse": 23,
+      "text": "तेषु मुख्यं सैन्धवं स्यादनुक्ते तत्प्रयोजयेत् । सैन्धवाद्यं रोमकान्तं ज्ञेयं लवणपञ्चकम् ॥ २३ ॥"
+    },
+    {
+      "verse": 25,
+      "text": "स्वर्जिका यावशूकश्च क्षारयुग्ममुदाहृतम् । ज्ञेयौ वह्निसमौ क्षारौ स्वर्जिकायावशूकजौ ॥ २५ ॥"
+    },
+    {
+      "verse": 33,
+      "text": "एतत्सुदर्शनं नाम चूर्णं दोषत्रयापहम् । ज्वरांश्च निखिलान्हन्यान्नात्र कार्या विचारणा ॥ ३३ ॥"
+    },
+    {
+      "verse": 38,
+      "text": "कासश्वासज्वरहरा त्रिफला पिप्पलीयुता । चूर्णिता मधुना लीढा भेदिनी चाग्निबोधिनी ॥ ३८ ॥"
+    },
+    {
+      "verse": 49,
+      "text": "सर्वातीसारशमनं निरुणद्धि प्रवाहिकाम् । लघुगङ्गाधरं नाम चूर्णं संग्राहकं परम् ॥ ४९ ॥"
+    },
+    {
+      "verse": 59,
+      "text": "कपित्थाष्टकसंज्ञं स्याच्चूर्णमेतद् गलामयान् । अतीसारं क्षयं गुल्मं ग्रहणीं च व्यपोहति ॥ ५९ ॥"
+    },
+    {
+      "verse": 69,
+      "text": "समभागानि सर्वाणि सर्वेभ्योऽर्धा सिता भवेत् । लवङ्गाद्यमिदं चूर्णं राजार्हं वह्निदीपनम् ॥ ६९ ॥"
+    },
+    {
+      "verse": 80,
+      "text": "द्रव्येभ्यो निखिलेभ्यश्च सिता देयाऽर्धमात्रया । महाखाण्डवसंज्ञं स्याच्चूर्णमेतत्सुरोचनम् ॥ ८० ॥"
+    },
+    {
+      "verse": 91,
+      "text": "द्विविधे च विषे दद्याद् घृतेन विषनाशनम् । चूर्णं नारायणं नाम दुष्टरोगगणापहम् ॥ ९१ ॥"
+    },
+    {
+      "verse": 106,
+      "text": "हिक्काध्मानश्वासकासाञ्जयेदेतान्न संशयः । एतैरेवौषधैः सम्यग्घृतं वा साधयेद्भिषक् ॥ १०६ ॥"
+    },
+    {
+      "verse": 113,
+      "text": "एतच्चूर्णं जयेद् गुल्मं ग्रहणीमामजां रुजम् । अग्निं च कुरुते दीप्तं रुचिकृत्कफनाशनम् ॥ ११३ ॥"
+    },
+    {
+      "verse": 119,
+      "text": "तूनीप्रतूनीविश्वाचीकफवातामयाञ्जयेत् । समेन वा गुडेनास्य वटकान्कारयेद्भिषक् ॥ ११९ ॥"
+    },
+    {
+      "verse": 127,
+      "text": "भावितं मातुलुङ्गस्य बहुशः स्वरसेन वा । कुर्याच्च गुटिका बह्व्यो वातश्लेष्मामयापहाः ॥ १२७ ॥"
+    },
+    {
+      "verse": 131,
+      "text": "चूर्णं जयेत्पाण्डुरोगं हृद्रोगं ग्रहणीं ज्वरम् । छर्दिशोकातिसारांश्च प्लीहानाहविबन्धताः । अरुचिं शूलमन्दाग्निमर्शोजिह्वागलामयान् ॥ १३१ ॥"
+    },
+    {
+      "verse": 145,
+      "text": "मन्दाग्निं नाशयेदेतद्दीपनं पाचनं परम् । सर्वलोकहितार्थाय भास्करेणोदितं पुरा ॥ १४५ ॥"
+    },
+    {
+      "verse": 154,
+      "text": "मासेन सर्वकुष्ठानि विनिहन्ति रसायनम् । पञ्चनिम्बमिदं चूर्णं सर्वरोगप्रणाशनम् ॥ १५४ ॥"
+    },
+    {
+      "verse": 160,
+      "text": "चित्रकं त्रिफला मुस्तं विडङ्गं त्र्यूषणानि च । समभागानि कार्याणि नव भागा हतायसः ॥ १६० ॥"
+    },
+    {
+      "verse": 165,
+      "text": "शुक्रस्तम्भकरं चूर्णं पुंसामानन्दकारकम् । नारीणां प्रीतिजननं सेवेत निशि कामुकः ॥ १६५ ॥"
+    },
+    {
+      "verse": 166,
+      "text": "बकुलत्वग्भवं चूर्णं घर्षयेद्दन्तपङ्क्तिषु । वज्रादपि दृढीभूता दन्ताः स्युश्चपला ध्रुवम् ॥ १६६ ॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "The Wikisource witness presents the complete chapter from verse 1 through 166, followed by the chapter colophon. BharatKosha independently identifies the printed chapter as Ṣaṣṭho'dhyāyaḥ Cūrṇakalpanā and supplies the Dīpikā Hindi commentary.",
+    "extent_note": "The chapter is substantially longer than chapters 1-5. Verse numbering is retained exactly as witnessed, including the source's repeated 114 numbering at the Vadanāla section; no silent renumbering is applied.",
+    "canonical_policy": "This package records verified canonical anchors and the complete verified verse extent. The repository should expand the remaining verse-by-verse Sanskrit records only from controlled printed-source transcription rather than reconstructing them from memory or OCR noise.",
+    "commentary_policy": "Dīpikā explanations, ingredient identifications and practical interpretations remain separate from canonical Sanskrit.",
+    "safety_note": "Traditional indications are source-attributed classical claims and are not silently converted into modern diagnosis or treatment recommendations."
+  },
+  "topic_map": [
+    {
+      "range": "1-6",
+      "topic": "चूर्ण की परिभाषा, गुड-शर्करा-हिंगु अनुपात, अनुपान और भावना"
+    },
+    {
+      "range": "7-16",
+      "topic": "आमलक्यादि, पिप्पली, त्रिफला, त्रिकटु, पञ्चकोल, त्रिगन्ध-चतुर्जात और बालोपयोगी चूर्ण"
+    },
+    {
+      "range": "17-26",
+      "topic": "जीवनीय गण, अष्टवर्ग, लवणपञ्चक और क्षारयोग"
+    },
+    {
+      "range": "27-45",
+      "topic": "सुदर्शन तथा ज्वर, कास, श्वास और बालरोग-संदर्भित चूर्ण"
+    },
+    {
+      "range": "46-66",
+      "topic": "आमातिसार, अतिसार, प्रवाहिका और ग्रहणी के गङ्गाधर/अन्य चूर्ण"
+    },
+    {
+      "range": "67-82",
+      "topic": "लवङ्गादि, जातीफलादि और महाखाण्डव चूर्ण"
+    },
+    {
+      "range": "83-106",
+      "topic": "नारायण, हपुषादि, पञ्चसम, नाराच, लवणत्रितयादि और अन्य उदर/शूल चूर्ण"
+    },
+    {
+      "range": "107-127",
+      "topic": "तुम्बुर्वादि, चित्रकादि, वडवानल, अजमोदादि, शुण्ठ्यादि और हिङ्ग्वादि चूर्ण"
+    },
+    {
+      "range": "128-145",
+      "topic": "यवानीखाण्डव, तालीसादि, सितोपलादि और लवणभास्कर"
+    },
+    {
+      "range": "146-154",
+      "topic": "एलादि, व्याघ्री और पञ्चनिम्ब चूर्ण"
+    },
+    {
+      "range": "155-166",
+      "topic": "शतावरी, अश्वगन्धा, मुसली, नवायस, आकारकरभादि तथा बकुलत्वक् चूर्ण"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-6",
+      "summary": "चूर्ण के लिए अत्यन्त शुष्क द्रव्य को सूक्ष्म पीसकर वस्त्र से छानने का लक्षण दिया है। गुड, शर्करा और भर्जित हिंगु की मात्रा तथा अनुपान और भावना की भूमिका स्पष्ट की गई है।"
+    },
+    {
+      "range": "7-26",
+      "summary": "प्रारम्भिक भाग में सरल चूर्णों और औषध-गणों की रचना तथा उनके पारंपरिक गुण-कर्म बताए गए हैं; विशेष रूप से त्रिफला, त्रिकटु, पञ्चकोल, जीवनीय गण, अष्टवर्ग, लवणपञ्चक और क्षारयोग।"
+    },
+    {
+      "range": "27-45",
+      "summary": "सुदर्शन तथा ज्वर, कास, श्वास और बालरोगों से जुड़े अनेक चूर्णों का वर्णन है।"
+    },
+    {
+      "range": "46-66",
+      "summary": "अमातिसार, पक्वातिसार, प्रवाहिका और ग्रहणी के लिए लघु/बृहद/वृद्ध गङ्गाधर तथा अन्य संग्रहक चूर्णों का क्रम मिलता है।"
+    },
+    {
+      "range": "67-106",
+      "summary": "दीपन-पाचन और उदर-शूल सम्बन्धी विस्तृत योग आते हैं, जिनमें लवङ्गादि, जातीफलादि, महाखाण्डव, नारायण और हपुषादि चूर्ण प्रमुख हैं।"
+    },
+    {
+      "range": "107-145",
+      "summary": "शूल, मन्दाग्नि, आमवात, श्वास तथा ग्रहणी आदि के लिए अनेक जटिल बहुद्रव्य चूर्ण और उनके अनुपान दिए गए हैं।"
+    },
+    {
+      "range": "146-166",
+      "summary": "अन्तिम भाग में एलादि, व्याघ्री, पञ्चनिम्ब, शतावरी, अश्वगन्धा, मुसली, नवायस और आकारकरभादि चूर्णों का वर्णन है।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-6",
+      "coverage": "Dīpikā explains cūrṇa preparation, adjunct ratios, anupāna and bhāvanā."
+    },
+    {
+      "range": "7-26",
+      "coverage": "Dīpikā explains individual classical formulations and the गुण-कर्म traditionally attributed to them."
+    },
+    {
+      "range": "27-45",
+      "coverage": "Dīpikā provides Hindi explanations for Sudarśana and pediatric/respiratory formulations."
+    },
+    {
+      "range": "46-66",
+      "coverage": "Dīpikā explains the Gaṅgādhara and grahaṇī formulations with practical Hindi terminology."
+    },
+    {
+      "range": "67-106",
+      "coverage": "Dīpikā explains multi-ingredient digestive, abdominal and śūla formulations and their traditional anupāna."
+    },
+    {
+      "range": "107-145",
+      "coverage": "Dīpikā covers later digestive, vāta, āma-vāta and agni formulations; ingredient identifications are kept in commentary."
+    },
+    {
+      "range": "146-166",
+      "coverage": "Dīpikā explains the concluding formulations, including pañcanimba, vājīkaraṇa-related powders and dental powder."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-6",
+      "title": "चूर्ण की मूल कल्पना, अनुपान और भावना"
+    },
+    {
+      "id": "LU2",
+      "range": "7-26",
+      "title": "प्रमुख सरल चूर्ण और औषध-गण"
+    },
+    {
+      "id": "LU3",
+      "range": "27-66",
+      "title": "ज्वर, कास और अतिसार-ग्रहणी चूर्ण"
+    },
+    {
+      "id": "LU4",
+      "range": "67-106",
+      "title": "दीपन-पाचन और उदर-शूल चूर्ण"
+    },
+    {
+      "id": "LU5",
+      "range": "107-145",
+      "title": "जटिल बहुद्रव्य चूर्ण और अनुपान"
+    },
+    {
+      "id": "LU6",
+      "range": "146-166",
+      "title": "अन्तिम योग: पञ्चनिम्ब से बकुलत्वक् तक"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "चूर्ण की सामान्य मात्रा किस परिमाण में बताई गई है?",
+      "answer": "कर्षसम्मिता"
+    },
+    {
+      "type": "mcq",
+      "question": "चूर्ण में गुड की मात्रा किस प्रकार बताई गई है?",
+      "answer": "सम मात्रा"
+    },
+    {
+      "type": "mcq",
+      "question": "चूर्ण में शर्करा की मात्रा किस प्रकार बताई गई है?",
+      "answer": "द्विगुण"
+    },
+    {
+      "type": "short_answer",
+      "question": "अनुपान को भेषज की शरीर में गति के संदर्भ में अध्याय 6 किस प्रकार समझाता है?"
+    },
+    {
+      "type": "short_answer",
+      "question": "त्रिफला की शास्त्रीय मात्रा-रचना और उसके वर्णित गुणों का सार लिखिए।"
+    },
+    {
+      "type": "source_criticism",
+      "question": "चूर्णों के classical indications को आधुनिक clinical diagnosis से जोड़ते समय canonical text, Dīpikā और modern interpretation को अलग क्यों रखना चाहिए?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "विकृत OCR/टाइपसेट पाठ में verse numbering दोहरने जैसी समस्या मिलने पर canonical sequence को कैसे सुरक्षित रखना चाहिए?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-166",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "canonical_extent_complete": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
