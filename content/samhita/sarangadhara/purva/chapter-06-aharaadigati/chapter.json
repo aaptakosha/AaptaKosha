@@ -1,0 +1,81 @@
+{
+  "schema_version":"1.0",
+  "text_id":"sarangadhara",
+  "khand_id":"purva",
+  "chapter_number":6,
+  "chapter_id":"purva-06-aharaadigati",
+  "title_sanskrit":"आहारादिगतिकथनम्",
+  "title_roman":"Āhārādigatikathanam",
+  "canonical_status":"source_reconciled",
+  "verse_extent":{"printed_dipika":"1-78","wikisource_online_witness":"1-28 with compressed/omitted middle sections"},
+  "colophon":"इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां पूर्वखण्डे आहारादिगतिकथनं नाम षष्ठोऽध्यायः ।। ६ ।।",
+  "sources":[
+    {"name":"BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary","role":"primary printed/annotated witness; pages 89-97; explicitly reaches verses 76-78 and colophon","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/12-%E0%A4%B6%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%A7%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A4%BE-%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%87"},
+    {"name":"Sanskrit Wikisource — Pūrva Khaṇḍa","role":"independent Sanskrit witness; exposes opening and selected verses but is not a complete transcription for this chapter","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"}
+  ],
+  "source_reconciliation":{
+    "finding":"The printed Dīpikā edition runs from verse 1 through verse 78. Wikisource's compact extraction exposes verses 1-5 and selected later verses, ending its displayed sequence at 28, so it must not be treated as a complete canonical transcript.",
+    "resolution":"Printed Dīpikā sequence 1-78 is the working canonical extent. The final canonical Sanskrit layer must be transcribed from the verified printed pages before publication of verse-level records.",
+    "confirmed_end":"BharatKosha page 97 explicitly shows verses 76, 77 and 78 followed by the Chapter 6 colophon.",
+    "copyright_policy":"Published Dīpikā Hindi commentary is mapped and summarized; it is not reproduced verbatim as the AaptaKosha commentary layer."
+  },
+  "verified_text_samples":[
+    {"verse":1,"sanskrit":"आहारः प्रीणनः सद्यो बलकृद् देहधारकः । आयुस्तेजः समुत्साहः स्मृत्योर्जोऽग्निविवर्द्धनः ॥ १ ॥","meaning":"आहार तृप्ति, तत्काल बल, शरीरधारण तथा आयु, तेज, उत्साह, स्मृति, ओज और अग्नि की वृद्धि से सम्बद्ध बताया गया है।"},
+    {"verse":2,"sanskrit":"आहारः षड्विधो भोज्यो भक्ष्यश्चर्व्यस्तथैव च । लेह्यश्चोष्यस्तथा पेयस्तदुदाहरणानि च ॥ २ ॥","meaning":"आहार के छह प्रकार—भोज्य, भक्ष्य, चर्व्य, लेह्य, चोष्य और पेय—बताये गये हैं।"},
+    {"verse":4,"sanskrit":"यात्यामाशयमाहारः पूर्वं प्राणानिलेरितः ॥ ४ ॥","meaning":"आहार प्राणवायु से प्रेरित होकर प्रारम्भ में आमाशय की ओर जाता है।"},
+    {"verse":5,"sanskrit":"माधुर्यं फेनभावं च षड्रसोऽपि लभेत सः । अथ पाचकपित्तेन विदग्धश्चाम्लतां व्रजेत् ॥ ५ ॥","meaning":"पाचन-क्रम में आहार की अवस्थाओं का वर्णन किया गया है।"},
+    {"verse":6,"sanskrit":"षष्ठी पित्तधरा नाम या कला परिकीर्तिता । पक्वामाशयमध्यस्था ग्रहणीत्यभिधीयते ॥ ६ ॥","meaning":"ग्रहणी को छठी पित्तधरा कला तथा आमाशय-पक्वाशय के मध्य स्थित बताया गया है।"},
+    {"verse":53,"sanskrit":"अञ्जनं च तथा लेपः स्नानमभ्यङ्गकर्म च । वमनं प्रतिमर्शश्च जन्मप्रभृति शस्यते ॥ ५३ ॥","meaning":"बालक के लिए जन्म से बताए गये कुछ पारम्परिक उपचारों का उल्लेख।"},
+    {"verse":75,"sanskrit":"योजनायासः श्रमो देहे प्रवृद्धः श्वासवर्जितः । क्लमः स इति विज्ञेय इन्द्रियार्थप्रबाधकः ॥ ७५ ॥","meaning":"श्वास के बिना बढ़ा हुआ शारीरिक श्रम और इन्द्रिय-विषयों में बाधा देने वाली अवस्था को क्लम कहा गया है।"},
+    {"verse":76,"sanskrit":"उत्क्लिश्यान्नं न निर्गच्छेत् प्रसेकष्ठीवनेरितम् । हृदयं पीड्यते चास्य तमुत्क्लेशं विनिर्दिशेत् ॥ ७६ ॥","meaning":"अन्न के ऊपर की ओर आने की अनुभूति, लार/थूक और हृदय-पीड़ा से युक्त अवस्था को उत्क्लेश कहा गया है।"},
+    {"verse":77,"sanskrit":"वक्त्रे मधुरता तन्द्रा हृदयोद्वेष्टनं भ्रमः । न चान्नमभिकाङ्क्षेत ग्लानिं तस्य विनिर्दिशेत् ॥ ७७ ॥","meaning":"मुख में मधुरता, तन्द्रा, हृदय में ऐंठन, भ्रम और भोजन में अरुचि को ग्लानि कहा गया है।"},
+    {"verse":78,"sanskrit":"आर्द्रचर्मावनद्धं हि यो गात्रमभिमन्यते । तथा गुरु शिरोऽत्यर्थं गौरवं तद् विनिर्दिशेत् ॥ ७८ ॥","meaning":"शरीर को गीले चमड़े से बँधा हुआ तथा सिर को अत्यन्त भारी अनुभव करना गौरव का लक्षण बताया गया है।"}
+  ],
+  "topic_map":[
+    {"range":"1-5","topic":"आहार का महत्त्व, छह प्रकार और आमाशय से ग्रहणी तक प्रारम्भिक पाचन-क्रम"},
+    {"range":"6-18","topic":"ग्रहणी, जठराग्नि, रस-निर्माण, धातुपोषण, मल-निर्माण और धातु-परिणाम"},
+    {"range":"19-29","topic":"आहाररस, मल-विभाजन, शरीर-पोषण और संबंधित पाचन/सार-किट्ट विवेचन"},
+    {"range":"30-44","topic":"स्त्री-प्रसूति परिचर्या, प्रसवोत्तर देखभाल, नाल-छेदन और शिशु-संस्कार/आहार सम्बन्धी निर्देश"},
+    {"range":"45-54","topic":"अन्नप्राशन, बालक की आयु-अनुसार आहार/उपचार और बालकोचित परिचर्या"},
+    {"range":"55-66","topic":"रसादि धातुओं का परिणाम, दोष/धातु-सम्बन्धी शरीरगत परिवर्तन और आहारजन्य अवस्थाएँ"},
+    {"range":"67-74","topic":"आहार/पाचन से उत्पन्न विविध शारीरिक लक्षण और विकृत अवस्थाएँ"},
+    {"range":"75-78","topic":"क्लम, उत्क्लेश, ग्लानि और गौरव के कारण/लक्षण; अध्याय-समापन"}
+  ],
+  "commentary_mapping":[
+    {"range":"1-18","coverage":"Dīpikā explains āhāra categories, digestive sequence, grahaṇī and dhātu nourishment, with cross-references to Charaka and Suśruta."},
+    {"range":"19-29","coverage":"Dīpikā explains rasa, mala and the classical transformation/nourishment model; traditional physiology is kept separate from modern physiology."},
+    {"range":"30-54","coverage":"Dīpikā discusses care of menstruating/pregnant/postpartum women, umbilical-cord cutting, annaprāśana and age-related pediatric care."},
+    {"range":"55-74","coverage":"Dīpikā explains dhātu transformation and symptom categories; cross-text references are retained as source metadata."},
+    {"range":"75-78","coverage":"Dīpikā defines klama, utklesha, glāni and gaurava; modern clinical equivalence is not asserted as a canonical identity."}
+  ],
+  "learning_units":[
+    {"id":"LU1","range":"1-5","title":"आहार-परिचय और पाचन का प्रारम्भ"},
+    {"id":"LU2","range":"6-18","title":"ग्रहणी, अग्नि और धातुपोषण"},
+    {"id":"LU3","range":"19-29","title":"रस, मल और धातु-परिणाम"},
+    {"id":"LU4","range":"30-44","title":"स्त्री-प्रसूति परिचर्या और नाल-छेदन"},
+    {"id":"LU5","range":"45-54","title":"अन्नप्राशन और बालकोचित उपचार"},
+    {"id":"LU6","range":"55-74","title":"धातु-परिणाम और आहारजन्य अवस्थाएँ"},
+    {"id":"LU7","range":"75-78","title":"क्लम, उत्क्लेश, ग्लानि और गौरव"}
+  ],
+  "assessments":[
+    {"type":"mcq","topic":"आहार के प्रकार","question":"शार्ङ्गधरसंहिता में आहार के कितने प्रकार बताये गये हैं?","answer":"छः"},
+    {"type":"short_answer","topic":"ग्रहणी","question":"ग्रहणी को किस कला से सम्बद्ध बताया गया है और उसका स्थान क्या बताया गया है?"},
+    {"type":"application","topic":"classical physiology","question":"रस और किट्ट के पारम्परिक वर्णन को आधुनिक digestion के साथ पढ़ते समय किन बातों को अलग रखना चाहिए?"},
+    {"type":"mcq","topic":"बालचिकित्सा","question":"अध्याय में अन्नप्राशन के लिए किन मासों का उल्लेख मिलता है?","answer":"छठे अथवा आठवें मास"},
+    {"type":"short_answer","topic":"लक्षण","question":"क्लम, उत्क्लेश, ग्लानि और गौरव के लक्षणों में मुख्य अंतर लिखिए।"}
+  ],
+  "quality_gates":{
+    "chapter_identity_verified":true,
+    "printed_extent_verified":"1-78",
+    "colophon_verified":true,
+    "opening_sequence_cross_checked":true,
+    "ending_verses_75_78_verified":true,
+    "source_discrepancy_recorded":true,
+    "verified_sanskrit_samples_present":true,
+    "full_verse_transcription_pending_controlled_printed_source_extraction":true,
+    "commentary_mapped":true,
+    "fabricated_missing_verses_avoided":true,
+    "classical_layer_separated_from_modern_interpretation":true,
+    "one_chapter_one_commit":true
+  }
+}
