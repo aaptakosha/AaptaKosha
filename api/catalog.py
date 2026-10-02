@@ -29,11 +29,21 @@ def _get_apis():
     REPO = None
     DATABASE_URL = os.environ.get("DATABASE_URL")
     if DATABASE_URL:
-        import psycopg
-        CONNECTION = psycopg.connect(DATABASE_URL)
-        REPO = PostgresCurriculumRepository(CONNECTION)
-        REPO.apply_migrations()
-        if REPO.get_curriculum("bams_ncism_1", "2021-22") is None:
+        try:
+            import psycopg
+            CONNECTION = psycopg.connect(DATABASE_URL)
+            REPO = PostgresCurriculumRepository(CONNECTION)
+            REPO.apply_migrations()
+        except Exception:
+            if CONNECTION is not None:
+                try:
+                    CONNECTION.close()
+                except Exception:
+                    pass
+            CONNECTION = sqlite3.connect(str(DB_PATH), check_same_thread=False)
+            REPO = SQLiteCatalogRepository(CONNECTION)
+        if isinstance(REPO, PostgresCurriculumRepository) and REPO.get_curriculum("bams_ncism_1", "2021-22") is None:
+            CONNECTION.close()
             CONNECTION = sqlite3.connect(str(DB_PATH), check_same_thread=False)
             REPO = SQLiteCatalogRepository(CONNECTION)
             for migration in (
