@@ -153,3 +153,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [ ] Full controlled verse transcription refinement remains pending for other non-anchor chapters/verses.
 
 - [x] Madhyama Chapter 3 — Phāṇṭādikalpanā full controlled primary-witness transcription refined (v1–12).
+
+- [x] Madhyama Chapter 8 — Avalehakalpanā full controlled primary/independent-witness transcription refined (v1–48).
