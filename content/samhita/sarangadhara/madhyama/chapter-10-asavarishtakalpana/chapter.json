@@ -383,12 +383,13 @@
     "no_fabricated_missing_verses": true,
     "one_chapter_one_commit": true,
     "canonical_reader_compatibility": true,
-    "canonical_sanskrit_entries": "92; normalized from canonical_sanskrit_transcription without changing witness text"
+    "canonical_sanskrit_entries": "92; normalized from canonical_sanskrit_transcription without changing witness text",
+    "opening_verse_cleaned_from_source_header_artifact": true
   },
   "canonical_sanskrit_transcription": [
     {
       "verse_number": 1,
-      "text": "मध्यखण्डम् - दशमोऽध्यायः - TransLiteral Foundations TransLiteral A Nonprofit Public Service Initiative. Literature Ancestry Dictionary Prashna Search संस्कृत सूची | संस्कृत स्तोत्र साहित्य | संहिता | शार्ङ्गधर संहिता | मध्यखण्डम् | दशमोऽध्यायः मध्यखण्डम् प्रथमोऽध्यायः द्वितीयोऽध्यायः तृतीयोऽध्यायः चतुर्थोऽध्यायः पञ्चमोऽध्यायः षष्ठोऽध्यायः सप्तमोऽध्यायः अष्टमोऽध्यायः नवमोऽध्यायः दशमोऽध्यायः एकादशोऽध्यायः द्वादशोऽध्यायः मध्यखण्डम् - दशमोऽध्यायः संहिता हिन्दू धर्मातील पवित्र आणि सर्वोच्च धर्मग्रन्थ वेदांतील मन्त्रांचे खण्ड होत. Tags : Ayurved samhita sanskrit sharangdhar samhita आयुर्वेद शार्ङ्गधर संहिता संस्कृत संहिता आसवारिष्टादिसन्धानकल्पना Translation - भाषांतर द्र वेषु चिरकालस्थं द्र व्यं यत्संधितं भवेत् आसावारिष्टभेदैस्तु प्रोच्यते भेषजोचितम् ॥१॥"
+      "text": "द्रवेषु चिरकालस्थं द्रव्यं यत्संधितं भवेत् । आसावारिष्टभेदैस्तु प्रोच्यते भेषजोचितम् ॥ १ ॥"
     },
     {
       "verse_number": 2,
@@ -758,7 +759,7 @@
   "canonical_sanskrit": {
     "0": {
       "verse": 1,
-      "text": "मध्यखण्डम् - दशमोऽध्यायः - TransLiteral Foundations TransLiteral A Nonprofit Public Service Initiative. Literature Ancestry Dictionary Prashna Search संस्कृत सूची | संस्कृत स्तोत्र साहित्य | संहिता | शार्ङ्गधर संहिता | मध्यखण्डम् | दशमोऽध्यायः मध्यखण्डम् प्रथमोऽध्यायः द्वितीयोऽध्यायः तृतीयोऽध्यायः चतुर्थोऽध्यायः पञ्चमोऽध्यायः षष्ठोऽध्यायः सप्तमोऽध्यायः अष्टमोऽध्यायः नवमोऽध्यायः दशमोऽध्यायः एकादशोऽध्यायः द्वादशोऽध्यायः मध्यखण्डम् - दशमोऽध्यायः संहिता हिन्दू धर्मातील पवित्र आणि सर्वोच्च धर्मग्रन्थ वेदांतील मन्त्रांचे खण्ड होत. Tags : Ayurved samhita sanskrit sharangdhar samhita आयुर्वेद शार्ङ्गधर संहिता संस्कृत संहिता आसवारिष्टादिसन्धानकल्पना Translation - भाषांतर द्र वेषु चिरकालस्थं द्र व्यं यत्संधितं भवेत् आसावारिष्टभेदैस्तु प्रोच्यते भेषजोचितम् ॥१॥"
+      "text": "द्रवेषु चिरकालस्थं द्रव्यं यत्संधितं भवेत् । आसावारिष्टभेदैस्तु प्रोच्यते भेषजोचितम् ॥ १ ॥"
     },
     "1": {
       "verse": 2,
@@ -1125,5 +1126,5 @@
       "text": "कृशानां पुष्टिजननो वन्ध्यानां गर्भदः परः अरिष्टो दशमूलाख्यस्तेजः शुक्रबलप्रदः ॥९२॥"
     }
   },
-  "source_critical_note": " Canonical Sanskrit was normalized into the standard canonical_sanskrit object expected by the study reader; source transcription text was not rewritten."
+  "source_critical_note": " Canonical Sanskrit was normalized into the standard canonical_sanskrit object expected by the study reader; source transcription text was not rewritten. Verse 1 was normalized against the independent Wikisource chapter witness after detecting a TransLiteral page-header artifact in the imported transcription."
 }
