@@ -1,0 +1,77 @@
+{
+  "schema_version":"1.0",
+  "text_id":"sarangadhara",
+  "khand_id":"madhyama",
+  "chapter_number":4,
+  "chapter_id":"madhyama-04-himakalpana",
+  "title_sanskrit":"हिमकल्पना",
+  "title_roman":"Himakalpanā",
+  "canonical_status":"verified",
+  "verse_extent":{"verified":"1-8"},
+  "colophon":"इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां मध्यमखण्डे हिमकल्पना नाम चतुर्थोऽध्यायः॥४॥",
+  "sources":[
+   {"name":"Sanskrit Wikisource — Madhyama Khaṇḍa","role":"primary Sanskrit witness; complete 8-verse chapter and colophon","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"},
+   {"name":"BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary","role":"printed witness and Hindi commentary; page 146","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/क्वाथादिकल्पना-146"},
+   {"name":"TransLiteral — Madhyama Khaṇḍa Chapter 4","role":"independent Sanskrit cross-check; verses 6-8 and colophon","url":"https://www.transliteral.org/pages/z210314212356/view"},
+   {"name":"Parul University scanned Śārṅgadhara Saṃhitā PDF","role":"independent scanned witness","url":"https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharangadhara_samhita_madhya.pdf"}
+  ],
+  "canonical_sanskrit":[
+   {"verse":1,"text":"क्षुण्णं द्रव्यपलं सम्यक् षड्भिर्नीरपलैः प्लुतम् । निशोषितं हिमः स स्यात्तथा शीतकषायकः । तन्मानं फाण्टवज्ज्ञेयं सर्वत्रैवैष निश्चयः ॥ १ ॥"},
+   {"verse":2,"text":"आम्रं जम्बूं च ककुभं चूर्णीकृत्य जले क्षिपेत् । हिमं तस्य पिबेत्प्रातः सक्षौद्रं रक्तपित्तजित् ॥ २ ॥"},
+   {"verse":3,"text":"मरिचं मधुयष्टी च काकोदुम्बरपल्लवाः । नीलोत्पलं हिमस्तज्जस्तृष्णाच्छर्दिनिवारणः ॥ ३ ॥"},
+   {"verse":4,"text":"नीलोत्पलं बला द्राक्षा मधूकं मधुकं तथा । उशीरं पद्मकं चैव काश्मरी च परूषकम् ॥ ४ ॥"},
+   {"verse":5,"text":"एष शीतकषायश्च वातपित्तज्वराञ्जयेत् । सप्रलापभ्रमच्छर्दिमोहतृष्णानिवारणः ॥ ५ ॥"},
+   {"verse":6,"text":"अमृताया हिमः पेयो जीर्णज्वरहरः स्मृतः । वासायाश्च हिमः कासं रक्तपित्तज्वराञ्जयेत् ॥ ६ ॥"},
+   {"verse":7,"text":"प्रातः सशर्करः पेयो हिमो धान्याकसम्भवः । अन्तर्दाहं तथा तृष्णां जयेत्स्रोतोविशोधनः ॥ ७ ॥"},
+   {"verse":8,"text":"धान्याकधात्रीवासानां द्राक्षापर्पटयोर्हिमः । रक्तपित्तं ज्वरं दाहं तृष्णां शोषं च नाशयेत् ॥ ८ ॥"}
+  ],
+  "source_reconciliation":{
+   "finding":"All independent online witnesses agree on an 8-verse Himakalpanā chapter and its colophon.",
+   "core_rule":"One pala of crushed drug is soaked with six palas of water and left until extraction; the resulting cold infusion is called hima or śītakaṣāya, and its dose is stated to be like phāṇṭa.",
+   "distinction_from_phanta":"Phāṇṭa uses hot water, whereas hima is prepared by soaking the drug in cold/non-heated water. The distinction is procedural and should remain explicit in the student layer.",
+   "commentary_note":"BharatKosha's Dīpikā explains the practical overnight soaking/straining process and gives traditional interpretations of the named formulations. Those explanations remain commentary rather than additions to the canonical Sanskrit."
+  },
+  "topic_map":[
+   {"range":"1","topic":"हिम/शीतकषाय की मूल निर्माण-विधि, जलानुपात और मात्रा"},
+   {"range":"2-3","topic":"आम्र-जम्बू-ककुभ तथा मरीच-मधुयष्टी-काकोदुम्बर-नीलोत्पल हिम"},
+   {"range":"4-5","topic":"नीलोत्पलादि शीतकषाय और वातपित्तज्वर आदि में उपयोग"},
+   {"range":"6","topic":"गुडूची हिम और वासा हिम"},
+   {"range":"7","topic":"धान्यक हिम"},
+   {"range":"8","topic":"धान्यक-धात्री-वासा-द्राक्षा-पर्पट हिम"}
+  ],
+  "hindi_learning_summary":[
+   {"range":"1","summary":"हिम में एक पल क्षुण्ण द्रव्य को छह पल जल से भिगोकर शीत रूप में रखा जाता है। तैयार द्रव को शीतकषाय भी कहा गया है और इसकी मात्रा फाण्ट के समान बताई गई है।"},
+   {"range":"2-5","summary":"रक्तपित्त, तृष्णा, छर्दि और वातपित्तज्वर आदि के लिए अनेक शीत हिम/शीतकषाय उदाहरण दिए गए हैं।"},
+   {"range":"6-8","summary":"गुडूची, वासा और धान्यकादि हिम के पारंपरिक उपयोग बताए गए हैं। इन्हें शास्त्रीय indications के रूप में पढ़ना चाहिए, स्वतः आधुनिक diagnosis-equivalence के रूप में नहीं।"}
+  ],
+  "commentary_mapping":[
+   {"range":"1","coverage":"Dīpikā explains sixfold water, overnight soaking, straining and the relation of dose to phāṇṭa."},
+   {"range":"2-5","coverage":"Dīpikā explains the individual ingredients and traditional indications; modern labels are kept in commentary only."},
+   {"range":"6-8","coverage":"Dīpikā gives Hindi explanations for gudūcī, vāsā and dhānyaka-based hima formulations."}
+  ],
+  "learning_units":[
+   {"id":"LU1","range":"1","title":"हिम की मूल निर्माण-विधि"},
+   {"id":"LU2","range":"2-5","title":"शीतकषाय के विशिष्ट योग"},
+   {"id":"LU3","range":"6-8","title":"गुडूची, वासा और धान्यकादि हिम"}
+  ],
+  "assessments":[
+   {"type":"mcq","question":"हिम निर्माण में एक पल द्रव्य के लिए कितने पल जल का उल्लेख है?","answer":"छः पल"},
+   {"type":"short_answer","question":"हिम और फाण्ट की निर्माण-विधि में मूल अंतर समझाइए।"},
+   {"type":"mcq","question":"हिम की मात्रा किस कल्पना के समान बताई गई है?","answer":"फाण्ट"},
+   {"type":"short_answer","question":"गुडूची हिम, वासा हिम और धान्यक हिम के शास्त्रीय indications का तुलनात्मक सार लिखिए।"},
+   {"type":"source_criticism","question":"किसी हिम-योग के traditional indication को modern disease diagnosis से जोड़ते समय किन स्रोत-स्तरों को अलग रखना चाहिए?"}
+  ],
+  "quality_gates":{
+   "chapter_identity_verified":true,
+   "verse_extent_verified":"1-8",
+   "opening_verse_verified":true,
+   "closing_verse_verified":true,
+   "colophon_verified":true,
+   "cross_source_checked":true,
+   "phanta_hima_distinction_verified":true,
+   "fabricated_missing_verses_avoided":true,
+   "commentary_separated_from_canonical_layer":true,
+   "modern_diagnostic_equivalence_not_promoted_to_canonical_fact":true,
+   "one_chapter_one_commit":true
+  }
+}
