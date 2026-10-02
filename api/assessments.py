@@ -25,15 +25,24 @@ DB_PATH = os.path.join("/tmp", "aaptakosha-assessment.sqlite3")
 CONTENT_ROOT = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "samhita")
 
 def _load_samhita(content_id: str):
-    if not content_id.startswith("charaka.sutra."):
+    if content_id.startswith("charaka.sutra."):
+        family = "charaka"
+    elif content_id.startswith("ashtanga.hridaya.sutra."):
+        family = "ashtanga_hridaya"
+    else:
         return None
     try:
         chapter_no = int(content_id.rsplit(".", 1)[-1])
     except ValueError:
         return None
-    if chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}:
-        return None
-    path = os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
+    if family == "charaka":
+        if chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}:
+            return None
+        path = os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
+    else:
+        if chapter_no != 1:
+            return None
+        path = os.path.join(CONTENT_ROOT, "ashtanga_hridaya", "sutrasthana", "adhyaya-01.json")
     if not os.path.exists(path):
         return None
     with open(path, encoding="utf-8") as fh:
@@ -81,22 +90,29 @@ def _seed_demo(service: AssessmentService, repo) -> None:
     service.publish("demo-dravyaguna-3")
 
 def _seed_samhita_assessments(service: AssessmentService, repo) -> None:
-    """Load every canonical Charaka assessment definition from content files."""
+    """Load canonical Charaka and Ashtanga Hridaya assessment definitions from content files."""
     root = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments")
     for filename in sorted(os.listdir(root)):
-        if not filename.startswith("charaka-sutra-") or not filename.endswith(".json"):
+        if not filename.endswith(".json"):
+            continue
+        if filename.startswith("charaka-sutra-"):
+            family = "charaka"
+        elif filename.startswith("ashtanga-hridaya-sutra-"):
+            family = "ashtanga_hridaya"
+        else:
             continue
         path = os.path.join(root, filename)
         with open(path, encoding="utf-8") as fh:
             payload = json.load(fh)
         stem = filename[:-5]
-        chapter_token = stem.split("-", 2)[2].split("-", 1)[0]
+        chapter_token = stem.split("-")[-2]
         try:
             chapter_no = int(chapter_token)
         except ValueError:
             continue
-        suffix = "ncism-revision" if chapter_no == 1 else "revision"
-        assessment_id = f"charaka.sutra.{chapter_no:02d}.{suffix}"
+        suffix = "ncism-revision" if family == "charaka" and chapter_no == 1 else "revision"
+        prefix = "charaka.sutra" if family == "charaka" else "ashtanga.hridaya.sutra"
+        assessment_id = f"{prefix}.{chapter_no:02d}.{suffix}"
         if repo.get(assessment_id) is not None:
             continue
         questions = []
