@@ -18,4 +18,4 @@ jobs:
       - name: Check frontend JavaScript syntax
         run: node --check frontend/samhita.js && node --check frontend/samhita-detail.js
       - name: Run test suite
-        run: pytest -q
+        run: PYTHONPATH=. pytest -q
