@@ -86,3 +86,28 @@ def test_sarangadhara_legacy_adapter_normalizes_sequence_and_assessments():
     assert canonical["sthana"]["number"] == 2
     assert canonical["verses"][1]["verse_id"] == "sarangadhara.madhyama.01.002"
     assert canonical["assessment"][0]["content_refs"] == ["sarangadhara.madhyama.01.unit.01"]
+
+
+def test_repository_charaka_chapter_normalizes_without_rewriting_source():
+    import json
+    from pathlib import Path
+
+    path = Path("content/samhita/charaka/sutrasthana/adhyaya-01.json")
+    canonical = from_charaka_legacy(json.loads(path.read_text(encoding="utf-8")))
+    validate_samhita_chapter(canonical)
+    assert canonical["adhyaya"]["verse_count"] == 140
+    assert len(canonical["verses"]) == 140
+
+
+def test_repository_sarangadhara_chapter_normalizes_without_rewriting_source():
+    import json
+    from pathlib import Path
+
+    path = Path(
+        "content/samhita/sarangadhara/madhyama/chapter-01-swarasakalpana/chapter.json"
+    )
+    canonical = from_sarangadhara_legacy(json.loads(path.read_text(encoding="utf-8")))
+    validate_samhita_chapter(canonical)
+    assert canonical["adhyaya"]["verse_count"] == 42
+    assert len(canonical["verses"]) == 42
+    assert canonical["sthana"]["number"] == 2
