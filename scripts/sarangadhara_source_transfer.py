@@ -3,7 +3,7 @@ import json,re,subprocess,urllib.request
 from pathlib import Path
 
 CHAPTERS = [
-("purva-06","content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json","https://www.transliteral.org/pages/z210314211755/view",78),
+("purva-06","content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json",None,78),
 ("purva-07","content/samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json","https://www.transliteral.org/pages/z210314211814/view",204),
 ("madhyama-02","content/samhita/sarangadhara/madhyama/chapter-02-kvathadikalpana/chapter.json","https://www.transliteral.org/pages/z210314212149/view",176),
 ("madhyama-06","content/samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json","https://www.transliteral.org/pages/z210314212839/view",166),
@@ -49,7 +49,14 @@ def parse_verses(raw):
 for key,path,url,extent in CHAPTERS:
     p=Path(path)
     data=json.loads(p.read_text(encoding="utf-8"))
-    raw=fetch(url)
+    if not url:
+        print(f"SKIP {key}: source URL not verified")
+        continue
+    try:
+        raw=fetch(url)
+    except Exception as exc:
+        print(f"SKIP {key}: {exc}")
+        continue
     verses=parse_verses(raw)
     # Normalize only HTML whitespace. Preserve source OCR spellings and numbering.
     data["canonical_sanskrit_transcription"]=[
