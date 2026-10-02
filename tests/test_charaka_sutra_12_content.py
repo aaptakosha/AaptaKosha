@@ -27,3 +27,12 @@ def test_charaka_sutra_12_assessment():
 def test_charaka_sutra_12_research():
     r=(ROOT/"docs/charaka-sutra-12-research.md").read_text(encoding="utf-8")
     assert "22 passages" in r and "16 in prose" in r and "Chapter 13 onward" in r
+
+def test_charaka_sutra_12_api_reader_wiring():
+    api=(ROOT/"api"/"assessments.py").read_text(encoding="utf-8")
+    reader=(ROOT/"frontend"/"samhita-study.js").read_text(encoding="utf-8")
+    assert "chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}" in api
+    assert "_seed_samhita_chapter12_assessment" in api
+    assert "charaka.sutra.12.revision" in api
+    assert 'id==="charaka.sutra.12"' in reader
+    assert "charaka.sutra.12.revision" in reader
