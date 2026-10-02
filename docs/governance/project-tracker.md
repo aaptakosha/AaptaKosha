@@ -113,4 +113,6 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 4 — Himakalpanā: source-reconciled package
 - [x] Chapter 5 — Kalkakalpanā: canonical Sanskrit 1–28, Hindi learning layer, commentary mapping and assessments
 - [x] Chapter 6 — Cūrṇakalpanā: verified extent 1–166, canonical anchors, Hindi learning layer, commentary mapping and assessments
-- [ ] Chapter 7–12 — remaining Madhyama Khaṇḍa chapters
+- [x] Chapter 7 — Vaṭakalpanā: verified extent 1–105, canonical anchors, Hindi learning layer, commentary mapping and assessments
+- [x] Chapter 8 — Avalehakalpanā: verified extent 1–48, canonical anchors, Hindi learning layer, commentary mapping and assessments
+- [ ] Chapter 9–12 — remaining Madhyama Khaṇḍa chapters

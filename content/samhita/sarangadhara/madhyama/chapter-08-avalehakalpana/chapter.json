@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 8,
+  "chapter_id": "madhyama-08-avalehakalpana",
+  "title_sanskrit": "अवलेहकल्पनानाम",
+  "title_roman": "Avalehakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "verified": "1-48"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डेऽवलेहकल्पनानामाष्टमोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "complete online Sanskrit witness",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Dīpikā Hindi",
+      "role": "printed commentary witness, chapter starts p.175",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/अवलेहकल्पना"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    [
+      "1",
+      "क्वाथादीनां पुनः पाकाद्घनत्वं सा रसक्रिया । सोऽवलेहश्च लेहः स्यात्तन्मात्रा स्यात्पलोन्मिता ॥ १ ॥"
+    ],
+    [
+      "2",
+      "सिता चतुर्गुणा कार्या चूर्णाच्च द्विगुणो गुडः । द्रवं चतुर्गुणं दद्यादिति सर्वत्र निश्चयः ॥ २ ॥"
+    ],
+    [
+      "3",
+      "सुपक्वे तन्तुमत्त्वं स्यादवलेहोऽप्सु मज्जति । खरत्वं पीडिते मुद्रा गन्धवर्णरसोद्भवः ॥ ३ ॥"
+    ],
+    [
+      "4",
+      "दुग्धमिक्षुरसो यूषः पञ्चमूलकषायजः । वासाक्वाथो यथायोग्यमनुपानं प्रशस्यते ॥ ४ ॥"
+    ],
+    [
+      "9",
+      "लेहोऽयं हन्ति हिक्काऽर्त्तिश्वासकासानशेषतः ॥ ९ ॥"
+    ],
+    [
+      "18",
+      "ततस्त्वेकीकृते तस्मिन्क्षिपेत्क्षौद्रं च षट्पलम् । इत्येतच्च्यवनप्रोक्तं च्यवनप्राशसंज्ञितम् ॥ १८ ॥"
+    ],
+    [
+      "21",
+      "वातपित्तं शुक्रदोषं मूत्रदोषं च नाशयेत् । मेधां स्मृतिं स्त्रीषु हर्षं कान्तिं वर्णप्रसन्नताम् । अस्य प्रयोगादाप्नोति नरो जीर्णविवर्जितः ॥ २१ ॥"
+    ],
+    [
+      "28",
+      "कूष्माण्डकावलेहोऽयं बालवृद्धेषु युज्यते । उरःसन्धानकृद् वृष्यो बृंहणो बलकृन्मतः ॥ २८ ॥"
+    ],
+    [
+      "37",
+      "बलवर्णकरः पुंसामवलेहो रसायनम् । विहितोऽगस्त्यमुनिना सर्वरोगप्रणाशनः ॥ ३७ ॥"
+    ],
+    [
+      "42",
+      "सिद्धशीते ततो दद्यान्मधुनः कुडवं तथा । जयेदेषोऽवलेहस्तु सर्वाण्यर्शांसि वेगतः ॥ ४२ ॥"
+    ],
+    [
+      "44",
+      "अम्लपित्तं तथा शोथं कार्श्यं चैव प्रवाहिकाम् । अनुपाने प्रयोक्तव्यमाजं तक्रं पयो दधि । घृतं जलं वा जीर्णे च पथ्यभोजी भवेन्नरः ॥ ४४ ॥"
+    ],
+    [
+      "48",
+      "सर्वातिसारान्घोरांस्तु नानावर्णान्सवेदनान् । असृग्दरं समस्तं च सर्वार्शांसि प्रवाहिकाम् ॥ ४८ ॥"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource preserves verses 1-48 and the colophon. BharatKosha identifies the printed eighth chapter as Avalehakalpanā and provides Dīpikā commentary from page 175.",
+    "canonical_policy": "Verified extent is complete; only controlled Sanskrit anchors are transcribed in this package. Non-anchor verse transcription remains pending controlled printed-source extraction.",
+    "commentary_policy": "Dīpikā explanations remain separate from canonical Sanskrit.",
+    "safety_note": "Classical formulations and therapeutic claims are historical source material, not modern prescribing instructions."
+  },
+  "topic_map": [
+    [
+      "1-4",
+      "अवलेह की संज्ञा, सामान्य अनुपात, सिद्धिलक्षण और अनुपान"
+    ],
+    [
+      "5-9",
+      "कण्टकारी अवलेह"
+    ],
+    [
+      "10-21",
+      "च्यवनप्राश"
+    ],
+    [
+      "22-28",
+      "कूष्माण्डावलेह"
+    ],
+    [
+      "29-37",
+      "खण्डशूरण और अगस्त्यहरीतकी"
+    ],
+    [
+      "38-44",
+      "कुटजावलेह"
+    ],
+    [
+      "45-48",
+      "कुटजाष्टकाद्यवलेह और समापन"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-4",
+      "क्वाथ आदि को पुनः पकाकर गाढ़ा करने से रसक्रिया और अवलेह बनता है। सामान्य अनुपात तथा पकने के लक्षण बताए गए हैं।"
+    ],
+    [
+      "5-9",
+      "कण्टकारी अवलेह में क्वाथ, चूर्ण और अंतिम मधु-प्रक्षेप का क्रम है।"
+    ],
+    [
+      "10-21",
+      "च्यवनप्राश का विस्तृत द्रव्यसमूह, क्वाथ, आमलकी, घृत, खण्ड और अंतिम प्रक्षेपों का क्रम दिया गया है।"
+    ],
+    [
+      "22-28",
+      "कूष्माण्डावलेह की निर्माण-विधि और पारंपरिक उपयोग दिए गए हैं।"
+    ],
+    [
+      "29-37",
+      "खण्डशूरण तथा अगस्त्यहरीतकी अवलेह और रसायन-संदर्भ आते हैं।"
+    ],
+    [
+      "38-44",
+      "कुटजावलेह की निर्माण-विधि, सिद्धि, अनुपान और पारंपरिक उपयोग दिए गए हैं।"
+    ],
+    [
+      "45-48",
+      "कुटजाष्टकादि अवलेह का निर्माण और अध्याय-समापन है।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-4",
+      "Dīpikā explains rasa-kriyā, avaleha terminology, proportions and siddhi-lakṣaṇa."
+    ],
+    [
+      "5-9",
+      "Dīpikā explains Kāṇṭakārī avaleha."
+    ],
+    [
+      "10-21",
+      "Dīpikā explains Cyavanaprāśa processing and traditional context."
+    ],
+    [
+      "22-28",
+      "Dīpikā explains Kūṣmāṇḍāvaleha."
+    ],
+    [
+      "29-37",
+      "Dīpikā explains Khaṇḍaśūraṇa and Agastya Harītakī."
+    ],
+    [
+      "38-44",
+      "Dīpikā explains Kuṭajāvaleha and anupāna."
+    ],
+    [
+      "45-48",
+      "Dīpikā explains Kuṭajāṣṭakādi avaleha."
+    ]
+  ],
+  "learning_units": [
+    [
+      "LU1",
+      "1-4",
+      "अवलेह की परिभाषा, अनुपात और सिद्धिलक्षण"
+    ],
+    [
+      "LU2",
+      "5-9",
+      "कण्टकारी अवलेह"
+    ],
+    [
+      "LU3",
+      "10-21",
+      "च्यवनप्राश"
+    ],
+    [
+      "LU4",
+      "22-37",
+      "कूष्माण्ड, शूरण और अगस्त्यहरीतकी"
+    ],
+    [
+      "LU5",
+      "38-44",
+      "कुटजावलेह और अनुपान"
+    ],
+    [
+      "LU6",
+      "45-48",
+      "कुटजाष्टकादि अवलेह"
+    ]
+  ],
+  "assessments": [
+    [
+      "mcq",
+      "अवलेह की सामान्य मात्रा क्या है?",
+      "पल-उन्मिता"
+    ],
+    [
+      "mcq",
+      "अनुक्त स्थिति में सिता का अनुपात क्या है?",
+      "चतुर्गुण"
+    ],
+    [
+      "mcq",
+      "अनुक्त स्थिति में द्रव का अनुपात क्या है?",
+      "चतुर्गुण"
+    ],
+    [
+      "short_answer",
+      "अवलेह के सिद्धिलक्षण समझाइए।"
+    ],
+    [
+      "short_answer",
+      "च्यवनप्राश के निर्माणक्रम को चरणबद्ध समझाइए।"
+    ],
+    [
+      "source_criticism",
+      "Classical therapeutic claims और modern clinical efficacy को अलग रखना क्यों आवश्यक है?"
+    ]
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-48",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "canonical_extent_complete": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
