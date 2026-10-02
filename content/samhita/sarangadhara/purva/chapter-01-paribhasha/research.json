@@ -5,7 +5,7 @@
   "chapter_id": "purva-01-paribhasha",
   "title_sanskrit": "परिभाषाकथनम्",
   "title_roman": "Paribhāṣākathanam",
-  "canonical_status": "source_verified_research_gate",
+  "canonical_status": "chapter_source_reconciled",
   "scope": {
     "opening": "मङ्गलाचरण, ग्रन्थप्रयोजन, चिकित्सा-नीति, औषधप्रभाव, ग्रन्थमाहात्म्य",
     "core_topics": [
@@ -88,5 +88,107 @@
     "https://www.transliteral.org/pages/z210314210333/view",
     "https://staging.vedotpatti.in/books"
   ],
-  "next_gate": "Obtain/verify the exact Dīpikā + Gūḍhārthadīpikā chapter commentary text and reconcile the verse-number sequence before creating individual śloka records."
+  "next_gate": "Build the complete Chapter 1 canonical content package (verses 1-61) with Hindi translation, source-attributed Dīpikā commentary mapping, learning units and assessments, then commit the whole chapter as one commit.",
+  "source_reconciliation": {
+    "canonical_text_witness": {
+      "source": "Sanskrit Wikisource — Śārṅgadhara Saṃhitā, Pūrva Khaṇḍa",
+      "verified": true,
+      "evidence": "Chapter 1 runs continuously from verse 1 through verse 61 and closes with the Paribhāṣākathanam colophon.",
+      "source_lines": "105-329",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"
+    },
+    "working_annotated_witness": {
+      "source": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "verified": true,
+      "role": "Primary annotated working edition for Hindi commentary/व्याख्या and scan context.",
+      "source_pages": [
+        40,
+        46
+      ],
+      "url": "https://bharatkosha.org/granth/sharangadhara-samhita-hindi/adhyay/४-शार्ङ्गधरसंहिता-पूर्वखण्डे"
+    },
+    "sanskrit_commentary_bibliography": {
+      "source": "Chaukhamba Sanskrit Pratishthan / Om Publications bibliographic records",
+      "verified": true,
+      "commentaries": [
+        "Dīpikā by Adhamalla",
+        "Gūḍhārthadīpikā by Kāśīrāma"
+      ],
+      "text_level_verification": false,
+      "note": "The web-accessible BharatKosha witness exposes the Hindi annotated edition; the full Sanskrit Dīpikā/Gūḍhārthadīpikā text was not treated as directly verified from the web. It must not be reconstructed from secondary summaries."
+    },
+    "verse_number_reconciliation": {
+      "canonical_range": "1-61",
+      "status": "reconciled",
+      "note": "The opened Wikisource chapter explicitly shows the complete numbered sequence 1-61; the earlier discontinuity was an artifact of compact search extraction.",
+      "source": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"
+    }
+  },
+  "verse_map": [
+    {
+      "range": "1-6",
+      "section": "मङ्गलाचरण, ग्रन्थप्रयोजन, चिकित्सानीति, औषधिप्रभाव, ग्रन्थमाहात्म्य"
+    },
+    {
+      "range": "7-13",
+      "section": "पूर्व, मध्य, उत्तर खण्ड अध्यायानुक्रम तथा ग्रन्थसंख्या"
+    },
+    {
+      "range": "14-18",
+      "section": "मानस्य आवश्यकता तथा मागधमान की सूक्ष्म इकाइयाँ"
+    },
+    {
+      "range": "19-23",
+      "section": "माष, शाण, टङ्क, कोल, कर्ष तथा पर्याय"
+    },
+    {
+      "range": "24-32",
+      "section": "पल से खारी/भार/तुला तथा चतुर्गुण मान-क्रम"
+    },
+    {
+      "range": "33-35",
+      "section": "द्रव/आर्द्र/शुष्क द्रव्य मान, द्विगुण नियम, कुडव पात्र"
+    },
+    {
+      "range": "36-38",
+      "section": "योग-परिभाषा, मात्रा-परिभाषा, कालिङ्गमान का प्रसंग"
+    },
+    {
+      "range": "39-43",
+      "section": "कालिङ्गमान तथा कालिङ्ग-मागध मानभेद"
+    },
+    {
+      "range": "44-47",
+      "section": "औषध-प्रयोग में नवीनता, विशिष्ट द्रव्यों की आर्द्रता, द्विगुण ग्रहण"
+    },
+    {
+      "range": "48-50",
+      "section": "अनुक्तावस्था परिभाषा, पुनरुक्त द्रव्य, चन्दनादि व्यवस्था"
+    },
+    {
+      "range": "51-53",
+      "section": "कालातिक्रमेण औषधगुण-ह्रास तथा पुराने आसव/धातु/रस"
+    },
+    {
+      "range": "54-58",
+      "section": "रोगानुसार युक्तायुक्त द्रव्य, देशभेद, औषध-संग्रह-विधि तथा कुत्सित स्थान-त्याग"
+    },
+    {
+      "range": "59-61",
+      "section": "ऋतु अनुसार संग्रह तथा अनुक्त अवयव में ग्राह्य अंग"
+    }
+  ],
+  "delivery_contract": {
+    "one_chapter_one_commit": true,
+    "chapter_commit_scope": [
+      "source verification",
+      "canonical verse sequence",
+      "commentary-source mapping",
+      "Hindi commentary/translation source mapping",
+      "chapter metadata and educational section map"
+    ],
+    "canonical_text_policy": "Do not silently emend readings. Preserve the verified base witness; record variants separately.",
+    "translation_policy": "Hindi translation must be independently authored from the verified Sanskrit and kept separate from source commentary.",
+    "commentary_policy": "Do not fabricate Dīpikā/Gūḍhārthadīpikā wording when only bibliographic or secondary access is available."
+  }
 }
