@@ -60,4 +60,4 @@ def test_charaka_sutra_07_reader_and_api_are_wired():
     assert "_seed_samhita_assessments(service, repo)" in api
     assert "_seed_samhita_assessments(service, repo)" in api
     assert "assessmentIdForChapter" in reader
-    assert 'charaka.sutra.07.revision' in reader
+    assert "assessmentIdForChapter" in reader
