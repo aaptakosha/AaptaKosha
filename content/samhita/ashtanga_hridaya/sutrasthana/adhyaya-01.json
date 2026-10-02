@@ -174,7 +174,8 @@
       "explanation_hi": "अध्याय दीर्घ और हितकारी आयु की आधारभूत रूपरेखा प्रस्तुत करता है।",
       "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी: ‘अथ’ मंगल और अनन्तरार्थक है; आयुष्कामीय नाम आयु के हित के कारण है।",
       "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन: इष्टदेवता-नमस्कार के बाद व्याधिप्रतीकार के सामान्य विवेचन की प्रतिज्ञा है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundari_hi": "‘अथ’ का प्रयोग मंगल तथा अनन्तर अर्थ में है। ‘आयुष्कामीय’ नाम इसलिए है कि इस अध्याय में आयु की कामना करने वाले के लिए आयुर्वेद के हितकर उपदेश प्रतिपादित किए जाते हैं।"
     },
     {
       "passage_id": "ashtanga.hridaya.sutra.01.intro-02",
@@ -186,7 +187,8 @@
       "explanation_hi": "उपदेश को आत्रेय आदि आप्त महर्षियों की परम्परा से जोड़ा गया है।",
       "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी: ‘इति ह स्म’ आप्त-परम्परा का संकेत है।",
       "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन: आत्रेयादि आप्तों का कथन शास्त्र के आगम-प्रामाण्य को स्थापित करता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundari_hi": "‘इति ह स्म’ परम्परागत आप्त-वचन का निर्देश करता है; ‘आत्रेयादयः’ से आत्रेय आदि महर्षियों की आप्त-परम्परा का बोध होता है।"
     },
     {
       "passage_id": "ashtanga.hridaya.sutra.01.01",
