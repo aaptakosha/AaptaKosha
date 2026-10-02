@@ -1,0 +1,92 @@
+{
+  "text_id": "sarangadhara",
+  "khand_id": "purva",
+  "chapter_number": 1,
+  "chapter_id": "purva-01-paribhasha",
+  "title_sanskrit": "परिभाषाकथनम्",
+  "title_roman": "Paribhāṣākathanam",
+  "canonical_status": "source_verified_research_gate",
+  "scope": {
+    "opening": "मङ्गलाचरण, ग्रन्थप्रयोजन, चिकित्सा-नीति, औषधप्रभाव, ग्रन्थमाहात्म्य",
+    "core_topics": [
+      "पूर्वखण्ड एवं संहिताध्याय अनुक्रम",
+      "मध्यखण्ड एवं उत्तरखण्ड अनुक्रम",
+      "मान-परिभाषा",
+      "मागधमान",
+      "परमाणु/वंशी/मरीचि/राजिका/सर्षप आदि मान",
+      "पल, तौल/तुला, भार आदि मान",
+      "माष-टङ्क-अक्ष-बिल्व-कुडव-प्रस्थ-आढक-राशि-गोणी-खारिका क्रम",
+      "द्रव, आर्द्र एवं शुष्क द्रव्य के मान",
+      "कुडव पात्र-परिभाषा",
+      "योग-परिभाषा",
+      "मात्रा-परिभाषा",
+      "कालिङ्गमान का प्रसंग",
+      "नवीन एवं प्राचीन द्रव्य-ग्रहण",
+      "आर्द्र द्रव्य के द्विगुण ग्रहण का नियम",
+      "अनुक्त अवस्था में द्रव्य-ग्रहण के नियम",
+      "ऋतु अनुसार द्रव्य-संग्रह",
+      "अनुक्त अवयव होने पर ग्राह्य अंग"
+    ],
+    "end_verse": "६१",
+    "colophon": "इति श्रीशार्ङ्गधरसंहितायां पूर्वखण्डे परिभाषाकथनं नाम प्रथमोऽध्यायः"
+  },
+  "source_hierarchy": [
+    {
+      "priority": 1,
+      "source": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "Primary working digital edition; Sanskrit + Hindi commentary/translation and scan context",
+      "verified_points": [
+        "chapter title",
+        "chapter opening",
+        "verse sequence",
+        "māna section",
+        "chapter colophon"
+      ]
+    },
+    {
+      "priority": 2,
+      "source": "Sanskrit Wikisource — Śārṅgadhara Saṃhitā, Pūrva Khaṇḍa",
+      "role": "Independent Sanskrit sequence cross-check",
+      "verified_points": [
+        "opening verses",
+        "chapter sequence",
+        "māna definitions",
+        "verses 59–61",
+        "colophon"
+      ]
+    },
+    {
+      "priority": 3,
+      "source": "TransLiteral — Pūrva Khaṇḍa, Prathamo'dhyāyaḥ",
+      "role": "Secondary text witness for sequence/reading comparison",
+      "verified_points": [
+        "opening",
+        "chapter body",
+        "verses 58–61",
+        "colophon"
+      ]
+    },
+    {
+      "priority": 4,
+      "source": "Vedotpatti books catalogue",
+      "role": "Commentary-source identification",
+      "identified_commentaries": [
+        "Brahmānanda Tripāṭhī — Hindi commentary",
+        "Dīpikā & Gūḍhārthadīpikā — Sanskrit commentary"
+      ]
+    }
+  ],
+  "source_notes": [
+    "The chapter is not merely a 'weights and measures' chapter; it opens with the purpose and scope of the Saṃhitā and then develops pharmaceutical/clinical paribhāṣā.",
+    "The digital Sanskrit witness shows verse-number discontinuities in the displayed text around sections; AaptaKosha must preserve source numbering and reconcile missing/displayed-number issues against the base edition before importing verse records.",
+    "BharatKosha explicitly identifies the text as a 32-chapter Saṃhitā and gives the traditional total of 2,600 ślokas.",
+    "Do not convert traditional māna into modern metric equivalents at the canonical-text layer. Modern equivalents belong only in a separately labelled educational/reference layer."
+  ],
+  "urls": [
+    "https://bharatkosha.org/granth/sharangadhara-samhita-hindi/adhyay/४-शार्ङ्गधरसंहिता-पूर्वखण्डे",
+    "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्",
+    "https://www.transliteral.org/pages/z210314210333/view",
+    "https://staging.vedotpatti.in/books"
+  ],
+  "next_gate": "Obtain/verify the exact Dīpikā + Gūḍhārthadīpikā chapter commentary text and reconcile the verse-number sequence before creating individual śloka records."
+}
