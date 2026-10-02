@@ -1,35 +1,25 @@
 const texts=[
-["Charaka Samhita","brihattrayi","samhita","1, 2, 3","aiapget"],
-["Sushruta Samhita","brihattrayi","samhita","1, 2, 3","aiapget"],
-["Ashtanga Hridaya","brihattrayi","samhita","1, 2, 3","aiapget"],
-["Ashtanga Sangraha","other_major_classical","samhita","1","aiapget"],
-["Kashyapa Samhita","other_major_classical","samhita","3","aiapget"],
-["Bhela Samhita","other_major_classical","samhita","1",""],
-["Harita Samhita","other_major_classical","samhita","1",""],
-["Madhava Nidana","laghutrayi","samhita","2, 3","aiapget"],
-["Sharangadhara Samhita","laghutrayi","samhita","2, 3","aiapget"],
-["Bhavaprakasha","laghutrayi","samhita","2, 3","aiapget"],
-["Chakradatta","later_compendia","compendium","2, 3",""],
-["Yogaratnakara","later_compendia","compendium","2, 3",""],
-["Bhaishajya Ratnavali","later_compendia","compendium","2, 3",""],
-["Gadanigraha","later_compendia","compendium","2, 3",""],
-["Vangasena Samhita","later_compendia","samhita","2, 3",""],
-["Bhavaprakasha Nighantu","nighantu","nighantu","2",""],
-["Dhanvantari Nighantu","nighantu","nighantu","2",""],
-["Raja Nighantu","nighantu","nighantu","2",""],
-["Kaiyadeva Nighantu","nighantu","nighantu","2",""],
-["Madanapala Nighantu","nighantu","nighantu","2",""]];
-const charakaChapters=["दीर्घञ्जीवितीय","अपामार्गतण्डुलीय","आरग्वधीय","षड्विरेचनशताश्रितीय","मात्राशितीय","तस्याशितीय","न वेगान्धारणीय","इन्द्रियोपक्रमणीय","खुड्डाकचतुष्पाद","महाचतुष्पाद","तिस्रैषणीय","वातकलाकलीय"];
-const sarangadharaChapters=[
-["पूर्वखण्ड","purva",["Paribhāṣākathanam","Bhaiṣajyākhyānaka","Nāḍīparīkṣāvidhi","Dīpanapācanādikathana","Kālādikākhyāna","Āhārādigati","Rogagaṇanā"]],
-["मध्यमखण्ड","madhyama",["Svarasakalpanā","Kvāthakalpanā","Phaṇṭādikalpanā","Himakalpanā","Kalkakalpanā","Cūrṇakalpanā","Vaṭakalpanā","Avaleha-kalpanā","Ghṛta-tailakalpanā","Āsava-ariṣṭakalpanā","Dhātuśodhanamāraṇakalpanā","Rasādiśodhanamāraṇakalpanā"]],
-["उत्तरखण्ड","uttara",["Snehapānavidhi","Svedavidhi","Vamanavidhi","Virecanavidhi","Snehabastividhi","Nirūhabastividhi","Uttarabastividhi","Nasyavidhi","Dhūmapānavidhi","Gaṇḍūṣādividhi","Lepamūrdhatailakarṇapūraṇavidhi","Śoṇitasrāvaṇavidhi","Netraprasādanavidhi"]]
+["Charaka Samhita","brihattrayi","samhita","1, 2, 3","aiapget","charaka"],
+["Sushruta Samhita","brihattrayi","samhita","1, 2, 3","aiapget","sushruta"],
+["Ashtanga Hridaya","brihattrayi","samhita","1, 2, 3","aiapget","ashtanga-hridaya"],
+["Ashtanga Sangraha","other_major_classical","samhita","1","aiapget","ashtanga-sangraha"],
+["Kashyapa Samhita","other_major_classical","samhita","3","aiapget","kashyapa"],
+["Bhela Samhita","other_major_classical","samhita","1","","bhela"],
+["Harita Samhita","other_major_classical","samhita","1","","harita"],
+["Madhava Nidana","laghutrayi","samhita","2, 3","aiapget","madhava-nidana"],
+["Sharangadhara Samhita","laghutrayi","samhita","2, 3","aiapget","sharangadhara"],
+["Bhavaprakasha","laghutrayi","samhita","2, 3","aiapget","bhavaprakasha"],
+["Chakradatta","later_compendia","compendium","2, 3","","chakradatta"],
+["Yogaratnakara","later_compendia","compendium","2, 3","","yogaratnakara"],
+["Bhaishajya Ratnavali","later_compendia","compendium","2, 3","","bhaishajya-ratnavali"],
+["Gadanigraha","later_compendia","compendium","2, 3","","gadanigraha"],
+["Vangasena Samhita","later_compendia","samhita","2, 3","","vangasena"],
+["Bhavaprakasha Nighantu","nighantu","nighantu","2","","bhavaprakasha-nighantu"],
+["Dhanvantari Nighantu","nighantu","nighantu","2","","dhanvantari-nighantu"],
+["Raja Nighantu","nighantu","nighantu","2","","raja-nighantu"],
+["Kaiyadeva Nighantu","nighantu","nighantu","2","","kaiyadeva-nighantu"],
+["Madanapala Nighantu","nighantu","nighantu","2","","madanapala-nighantu"]
 ];
 const grid=document.querySelector("#textGrid"),tabs=document.querySelectorAll("#tabs button"),search=document.querySelector("#textSearch");let filter="all";
-function chapterLinks(t){
-  if(t[0]==="Charaka Samhita") return '<div class="chapter-links">'+charakaChapters.map((name,i)=>'<a class="text-action" href="./samhita-study.html?chapter=charaka.sutra.'+String(i+1).padStart(2,"0")+'">Chapter '+(i+1)+' · '+name+' →</a>').join("")+"</div>";
-  if(t[0]!=="Sharangadhara Samhita") return "";
-  return '<div class="chapter-groups">'+sarangadharaChapters.map(group=>'<div class="chapter-group"><span class="chapter-group-title">'+group[0]+'</span><div class="chapter-links">'+group[2].map((name,i)=>'<a class="text-action" href="./samhita-study.html?chapter=sarangadhara.'+group[1]+'.'+String(i+1).padStart(2,"0")+'">Chapter '+(i+1)+' · '+name+' →</a>').join("")+"</div></div>").join("")+"</div>";
-}
-function render(){const q=(search?.value||"").toLowerCase();const out=texts.filter(t=>{const matchText=t[0].toLowerCase().includes(q);const match=filter==="all"||filter===t[1]||filter===t[4]||(filter==="year1"&&t[3].includes("1"))||(filter==="year2"&&t[3].includes("2"))||(filter==="year3"&&t[3].includes("3"));return matchText&&match}).map(t=>'<article class="text-card"><span class="pill">'+t[1].replaceAll("_"," ")+'</span><span class="type"> · '+t[2]+'</span><h3>'+t[0]+'</h3><p>Professional relevance: '+t[3]+'</p><span class="pill">AIAPGET</span>'+chapterLinks(t)+"</article>").join("");grid.innerHTML=out||'<div class="empty">No texts match your search.</div>'}
+function render(){const q=(search?.value||"").toLowerCase().trim();const out=texts.filter(t=>{const matchText=t[0].toLowerCase().includes(q);const match=filter==="all"||filter===t[1]||filter===t[4]||(filter==="year1"&&t[3].includes("1"))||(filter==="year2"&&t[3].includes("2"))||(filter==="year3"&&t[3].includes("3"));return matchText&&match}).map(t=>'<a class="text-card" href="./samhita-detail.html?text='+encodeURIComponent(t[5])+'"><div><span class="pill">'+t[1].replaceAll("_"," ")+'</span><span class="type"> · '+t[2]+'</span><h3>'+t[0]+'</h3><p>Professional relevance: '+t[3]+'</p>'+(t[4]?'<span class="pill">AIAPGET</span>':"")+'</div><div class="card-arrow"><span>Open Sthana / section map</span><span>→</span></div></a>').join("");grid.innerHTML=out||'<div class="empty">No texts match your search.</div>'}
 tabs.forEach(b=>b.addEventListener("click",()=>{tabs.forEach(x=>x.classList.remove("active"));b.classList.add("active");filter=b.dataset.filter;render()}));search?.addEventListener("input",render);render();
