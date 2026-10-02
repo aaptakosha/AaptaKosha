@@ -426,7 +426,8 @@
     "no_fabricated_missing_verses": true,
     "closing_verse_176_verified": true,
     "audit_metadata_consistent": true,
-    "canonical_full_verse_transcription": "full; controlled Wikisource/TransLiteral reconciliation restored numbered gaps 55, 56, 97 and 134"
+    "canonical_full_verse_transcription": "full; controlled Wikisource/TransLiteral reconciliation restored numbered gaps 55, 56, 97 and 134",
+    "regression_source_header_artifact_removed": true
   },
   "canonical_sanskrit_transcription": [
     {
@@ -1137,7 +1138,7 @@
   "canonical_sanskrit": [
     {
       "verse_number": 1,
-      "text": "मध्यखण्डम् - द्वितीयोऽध्यायः - TransLiteral Foundations TransLiteral A Nonprofit Public Service Initiative. Literature Ancestry Dictionary Prashna Search संस्कृत सूची | संस्कृत स्तोत्र साहित्य | संहिता | शार्ङ्गधर संहिता | मध्यखण्डम् | द्वितीयोऽध्यायः मध्यखण्डम् प्रथमोऽध्यायः द्वितीयोऽध्यायः तृतीयोऽध्यायः चतुर्थोऽध्यायः पञ्चमोऽध्यायः षष्ठोऽध्यायः सप्तमोऽध्यायः अष्टमोऽध्यायः नवमोऽध्यायः दशमोऽध्यायः एकादशोऽध्यायः द्वादशोऽध्यायः मध्यखण्डम् - द्वितीयोऽध्यायः संहिता हिन्दू धर्मातील पवित्र आणि सर्वोच्च धर्मग्रन्थ वेदांतील मन्त्रांचे खण्ड होत. Tags : Ayurved samhita sanskrit sharangdhar samhita आयुर्वेद शार्ङ्गधर संहिता संस्कृत संहिता क्वाथकल्पना Translation - भाषांतर पानीयं षोडशगुणं क्षुण्णे द्र व्यपले क्षिपेत् मृत्पात्रे क्वाथयेद् ग्राह्यमष्टमांशावशेषितम् तज्जलं पाययेद्धीमान्कोष्णं मृद्वग्निसाधितम् ॥१॥"
+      "text": "पानीयं षोडशगुणं क्षुण्णे द्रव्यपले क्षिपेत् मृत्पात्रे क्वाथयेद् ग्राह्यमष्टमांशावशेषितम् तज्जलं पाययेद्धीमान्कोष्णं मृद्वग्निसाधितम् ॥ १ ॥"
     },
     {
       "verse_number": 2,

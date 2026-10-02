@@ -526,7 +526,8 @@
     "one_chapter_one_commit": true,
     "provenance_markup_clean": true,
     "hindi_learning_layer": "range-level Hindi learning summaries verified against the Sanskrit chapter and BharatKosha Hindi/Dīpikā witness",
-    "commentary_provenance": "BharatKosha Dīpikā Hindi witness; source links retained in sources[] rather than citation markup embedded in content"
+    "commentary_provenance": "BharatKosha Dīpikā Hindi witness; source links retained in sources[] rather than citation markup embedded in content",
+    "regression_source_header_artifact_removed": true
   },
   "canonical_sanskrit_transcription": [
     {
@@ -1373,7 +1374,7 @@
   "canonical_sanskrit": [
     {
       "verse_number": 1,
-      "text": "मध्यखण्डम् - नवमोऽध्यायः - TransLiteral Foundations TransLiteral A Nonprofit Public Service Initiative. Literature Ancestry Dictionary Prashna Search संस्कृत सूची | संस्कृत स्तोत्र साहित्य | संहिता | शार्ङ्गधर संहिता | मध्यखण्डम् | नवमोऽध्यायः मध्यखण्डम् प्रथमोऽध्यायः द्वितीयोऽध्यायः तृतीयोऽध्यायः चतुर्थोऽध्यायः पञ्चमोऽध्यायः षष्ठोऽध्यायः सप्तमोऽध्यायः अष्टमोऽध्यायः नवमोऽध्यायः दशमोऽध्यायः एकादशोऽध्यायः द्वादशोऽध्यायः मध्यखण्डम् - नवमोऽध्यायः संहिता हिन्दू धर्मातील पवित्र आणि सर्वोच्च धर्मग्रन्थ वेदांतील मन्त्रांचे खण्ड होत. Tags : Ayurved samhita sanskrit sharangdhar samhita आयुर्वेद शार्ङ्गधर संहिता संस्कृत संहिता स्नेहकल्पना Translation - भाषांतर घृततैलकल्पना कल्काच्चतुर्गुणीकृत्य घृतं वा तैलमेव वा चतुर्गुणे द्र वे साध्यं तस्य मात्रा पलोन्मिता ॥१॥"
+      "text": "घृततैलकल्पना कल्काच्चतुर्गुणीकृत्य घृतं वा तैलमेव वा चतुर्गुणे द्रवे साध्यं तस्य मात्रा पलोन्मिता ॥ १ ॥"
     },
     {
       "verse_number": 2,

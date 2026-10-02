@@ -519,7 +519,8 @@
     "commentary_separated_from_canonical_layer": true,
     "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
     "no_fabricated_missing_verses": true,
-    "one_chapter_one_commit": true
+    "one_chapter_one_commit": true,
+    "regression_source_header_artifact_removed": true
   },
   "canonical_sanskrit_transcription": [
     {
@@ -1190,7 +1191,7 @@
   "canonical_sanskrit": [
     {
       "verse_number": 1,
-      "text": "मध्यखण्डम् - षष्ठोऽध्यायः - TransLiteral Foundations TransLiteral A Nonprofit Public Service Initiative. Literature Ancestry Dictionary Prashna Search संस्कृत सूची | संस्कृत स्तोत्र साहित्य | संहिता | शार्ङ्गधर संहिता | मध्यखण्डम् | षष्ठोऽध्यायः मध्यखण्डम् प्रथमोऽध्यायः द्वितीयोऽध्यायः तृतीयोऽध्यायः चतुर्थोऽध्यायः पञ्चमोऽध्यायः षष्ठोऽध्यायः सप्तमोऽध्यायः अष्टमोऽध्यायः नवमोऽध्यायः दशमोऽध्यायः एकादशोऽध्यायः द्वादशोऽध्यायः मध्यखण्डम् - षष्ठोऽध्यायः संहिता हिन्दू धर्मातील पवित्र आणि सर्वोच्च धर्मग्रन्थ वेदांतील मन्त्रांचे खण्ड होत. Tags : Ayurved samhita sanskrit sharangdhar samhita आयुर्वेद शार्ङ्गधर संहिता संस्कृत संहिता चूर्णकल्पना Translation - भाषांतर अत्यन्तशुष्कं यद्द्र व्यं सुपिष्टं वस्त्रगालितम् तत्स्याच्चूर्णंरजः क्षोदस्तन्मात्रा कर्षसंमिता ॥१॥"
+      "text": "अत्यन्तशुष्कं यद्द्रव्यं सुपिष्टं वस्त्रगालितम् तत्स्याच्चूर्णं रजः क्षोदस्तन्मात्रा कर्षसंमिता ॥ १ ॥"
     },
     {
       "verse_number": 2,
