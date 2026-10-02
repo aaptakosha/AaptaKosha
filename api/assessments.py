@@ -318,6 +318,30 @@ def _seed_ashtanga_hridaya_chapter2_assessment(service: AssessmentService, repo)
     service.create(assessment)
     service.publish(assessment_id)
 
+def _seed_ashtanga_hridaya_chapter3_assessment(service: AssessmentService, repo) -> None:
+    assessment_id = "ashtanga.hridaya.sutra.03.revision"
+    if repo.get(assessment_id) is not None:
+        return
+    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "ashtanga-hridaya-sutra-03-revision.json")
+    with open(path, encoding="utf-8") as fh:
+        payload = json.load(fh)
+    questions = [AssessmentQuestion(item["question_id"], item["prompt_hi"], tuple(QuestionOption(o["option_id"], o["label_hi"], o["is_correct"]) for o in item["options"]), content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
+    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
+    service.create(assessment)
+    service.publish(assessment_id)
+
+def _seed_ashtanga_hridaya_chapter4_assessment(service: AssessmentService, repo) -> None:
+    assessment_id = "ashtanga.hridaya.sutra.04.revision"
+    if repo.get(assessment_id) is not None:
+        return
+    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "ashtanga-hridaya-sutra-04-revision.json")
+    with open(path, encoding="utf-8") as fh:
+        payload = json.load(fh)
+    questions = [AssessmentQuestion(item["question_id"], item["prompt_hi"], tuple(QuestionOption(o["option_id"], o["label_hi"], o["is_correct"]) for o in item["options"]), content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
+    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
+    service.create(assessment)
+    service.publish(assessment_id)
+
 def build_api():
     global DATABASE_BACKEND, DATABASE_CONNECTION
     database_url = os.environ.get("DATABASE_URL")
@@ -352,6 +376,10 @@ def build_api():
     _seed_samhita_chapter12_assessment(service, repo)
     _seed_ashtanga_hridaya_chapter1_assessment(service, repo)
     _seed_ashtanga_hridaya_chapter2_assessment(service, repo)
+    _seed_ashtanga_hridaya_chapter3_assessment(service, repo)
+    _seed_ashtanga_hridaya_chapter4_assessment(service, repo)
+    _seed_ashtanga_hridaya_chapter5_assessment(service, repo)
+    _seed_ashtanga_hridaya_chapter6_assessment(service, repo)
     return (
         AssessmentHttpApi(AssessmentLearningApi(service), require_identity=REQUIRE_IDENTITY),
         ProgressHttpApi(LearningProgressService(progress_repo), require_identity=REQUIRE_IDENTITY),

@@ -1,0 +1,609 @@
+{
+  "assessment_id": "ashtanga.hridaya.sutra.06.revision",
+  "title_hi": "अष्टाङ्गहृदय सूत्रस्थान अध्याय 6 पुनरावृत्ति",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "questions": [
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q1",
+      "prompt_hi": "शूकधान्यों में श्रेष्ठ किसे कहा गया है?",
+      "options": [
+        {
+          "option_id": "q1.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q1.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q1.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q1.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.4"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q2",
+      "prompt_hi": "षष्टिक धान्य के प्रमुख गुण क्या हैं?",
+      "options": [
+        {
+          "option_id": "q2.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q2.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q2.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q2.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.7"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q3",
+      "prompt_hi": "मुद्ग को शिम्बीधान्यों में क्यों प्रमुख माना गया है?",
+      "options": [
+        {
+          "option_id": "q3.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q3.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q3.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q3.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.18"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q4",
+      "prompt_hi": "नवीन और पुराण धान्य में क्या मुख्य भेद है?",
+      "options": [
+        {
+          "option_id": "q4.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q4.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q4.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q4.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.25"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q5",
+      "prompt_hi": "मण्ड का प्रमुख कार्य क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "q5.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q5.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q5.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q5.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.27"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q6",
+      "prompt_hi": "पेया के प्रमुख गुण क्या हैं?",
+      "options": [
+        {
+          "option_id": "q6.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q6.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q6.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q6.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.29"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q7",
+      "prompt_hi": "सुप्रशोधित ओदन को कैसा माना गया है?",
+      "options": [
+        {
+          "option_id": "q7.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q7.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q7.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q7.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.30"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q8",
+      "prompt_hi": "मांस की मुख्य आठ योनियाँ कौन-सी हैं?",
+      "options": [
+        {
+          "option_id": "q8.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q8.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q8.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q8.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.54"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q9",
+      "prompt_hi": "जाङ्गल मांस का सामान्य स्वरूप क्या है?",
+      "options": [
+        {
+          "option_id": "q9.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q9.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q9.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q9.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.56"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q10",
+      "prompt_hi": "मांस सेवन में किन प्रकार के मांस का त्याग करना चाहिए?",
+      "options": [
+        {
+          "option_id": "q10.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q10.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q10.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q10.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.69"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q11",
+      "prompt_hi": "शाकों में जीवन्ती को कैसे वर्णित किया गया है?",
+      "options": [
+        {
+          "option_id": "q11.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q11.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q11.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q11.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.116"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q12",
+      "prompt_hi": "बालमूलक के गुण किस अवस्था से जुड़े हैं?",
+      "options": [
+        {
+          "option_id": "q12.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q12.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q12.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q12.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.103"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q13",
+      "prompt_hi": "फलवर्ग में द्राक्षा का स्थान क्या है?",
+      "options": [
+        {
+          "option_id": "q13.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q13.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.117"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q14",
+      "prompt_hi": "पक्व और अपक्व बिल्व के गुणों में क्या अंतर है?",
+      "options": [
+        {
+          "option_id": "q14.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q14.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q14.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q14.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.127"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q15",
+      "prompt_hi": "फलवर्ग में अवर फल किसे कहा गया है?",
+      "options": [
+        {
+          "option_id": "q15.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q15.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q15.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q15.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.141"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q16",
+      "prompt_hi": "लवणों में सामान्यतः किसे प्राथमिकता दी गई है?",
+      "options": [
+        {
+          "option_id": "q16.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q16.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q16.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q16.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.145"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q17",
+      "prompt_hi": "हरीतकी के प्रमुख उपयोग क्या हैं?",
+      "options": [
+        {
+          "option_id": "q17.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q17.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q17.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q17.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.158"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q18",
+      "prompt_hi": "त्रिफला किन तीन फलों से बनती है?",
+      "options": [
+        {
+          "option_id": "q18.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q18.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q18.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q18.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.160"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q19",
+      "prompt_hi": "त्रिकटुक किन द्रव्यों का समूह है?",
+      "options": [
+        {
+          "option_id": "q19.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q19.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q19.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q19.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.166"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.06.q20",
+      "prompt_hi": "अध्याय का अंतिम संग्रह-श्लोक किन सात वर्गों को समेटता है?",
+      "options": [
+        {
+          "option_id": "q20.o1",
+          "label_hi": "श्लोक के अनुसार यही प्रमुख कथन है",
+          "is_correct": true
+        },
+        {
+          "option_id": "q20.o2",
+          "label_hi": "श्लोक इसके विपरीत कथन करता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "q20.o3",
+          "label_hi": "यह केवल नामों की सूची है और गुण नहीं बताता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q20.o4",
+          "label_hi": "इस विषय का अध्याय में उल्लेख नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.06.172"
+      ],
+      "points": 1
+    }
+  ]
+}
