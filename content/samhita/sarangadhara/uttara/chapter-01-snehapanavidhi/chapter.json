@@ -39,7 +39,7 @@
   "canonical_sanskrit": [
     {
       "verse_number": 1,
-      "text": "उत्तरखण्डम् - प्रथमोऽध्यायः - TransLiteral Foundations TransLiteral A Nonprofit Public Service Initiative. Literature Ancestry Dictionary Prashna Search संस्कृत सूची | संस्कृत स्तोत्र साहित्य | संहिता | शार्ङ्गधर संहिता | उत्तरखण्डम् | प्रथमोऽध्यायः उत्तरखण्डम् प्रथमोऽध्यायः द्वितीयोऽध्यायः तृतीयोऽध्यायः चतुर्थोऽध्यायः पञ्चमोऽध्यायः षष्ठोऽध्यायः सप्तमोऽध्यायः अष्टमोऽध्यायः नवमोऽध्यायः दशमोऽध्यायः एकादशोऽध्यायः द्वादशोऽध्यायः त्रयोदशोऽध्यायः उत्तरखण्डम् - प्रथमोऽध्यायः संहिता हिन्दू धर्मातील पवित्र आणि सर्वोच्च धर्मग्रन्थ वेदांतील मन्त्रांचे खण्ड होत. Tags : Ayurved samhita sanskrit sharangdhar samhita आयुर्वेद शार्ङ्गधर संहिता संस्कृत संहिता स्नेहपानविधिः Translation - भाषांतर अथ स्नेहस्य भेदास्तत्पानकालश्च स्नेहश्चतुर्विंधः प्रोक्तो घृतं तैलं वसा तथा मज्जा च तं पिबेन्मत्तर्याः किचिदभ्युदिते रवौ ॥१॥"
+      "text": "स्नेहश्चतुर्विंधः प्रोक्तो घृतं तैलं वसा तथा मज्जा च तं पिबेन्मत्तर्याः किचिदभ्युदिते रवौ ॥ १ ॥"
     },
     {
       "verse_number": 2,
@@ -379,7 +379,8 @@
     "no_fabricated_missing_verses": true,
     "commentary_separated_from_canonical_layer": true,
     "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
-    "one_chapter_one_commit": true
+    "one_chapter_one_commit": true,
+    "regression_source_header_artifact_removed": true
   },
   "canonical_sanskrit_transcription": [
     {
@@ -514,5 +515,6 @@
       "verse_number": 33,
       "text": "स्नेहसेवने वर्ज्याः स्नेहे व्यायामसंशीतवेगाघातप्रजागरान् दिवास्वप्नमभिष्यन्दि रूक्षान्नं च विवर्जयेत् ॥३३॥"
     }
-  ]
+  ],
+  "source_critical_note": " Verse 1 header contamination removed and text aligned to the primary Sanskrit Wikisource witness; the online 1-33 versus printed 1-35 numbering discrepancy remains preserved."
 }
