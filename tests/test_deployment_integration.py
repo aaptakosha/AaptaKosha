@@ -11,11 +11,9 @@ def test_vercel_exposes_catalog_function_and_route():
 def test_reader_and_assessment_support_all_completed_charaka_chapters():
     reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
     assessment = (ROOT / "frontend" / "assessment.js").read_text(encoding="utf-8")
-    for n in range(1, 13):
-        chapter = f"charaka.sutra.{n:02d}"
-        assert chapter in reader
-        assert chapter in assessment
-    assert "charaka.sutra.12.revision" in reader
+    assert "assessmentIdForChapter" in reader
+    assert '"/api/content/samhita?content_id="' in reader
+    assert 'id+".revision"' in reader
     assert "passages" in reader
 
 def test_frontend_scripts_do_not_contain_known_broken_contracts():
@@ -28,8 +26,10 @@ def test_frontend_scripts_do_not_contain_known_broken_contracts():
 
 def test_protected_api_initializes_lazily_and_uses_content_driven_assessments():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
-    assert "API, PROGRESS_API = build_api()" not in api
+    assert "API, PROGRESS_API = build_api()" in api
+    assert "def _get_apis():" in api
     assert "IDENTITY_PROVIDER = build_identity_provider()" not in api
+    assert "def _get_identity_provider():" in api
     assert "_seed_samhita_chapter2_assessment" not in api
     assert "_seed_samhita_chapter12_assessment" not in api
     assert "_seed_samhita_assessments(service, repo)" in api
