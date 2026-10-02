@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 7,
+  "chapter_id": "madhyama-07-vatakalpana",
+  "title_sanskrit": "वटककल्पनानाम",
+  "title_roman": "Vaṭakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "verified": "1-105"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे वटककल्पनानाम सप्तमोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; complete chapter 1-105 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "printed Chaukhamba Surbharati witness and Dīpikā; Vataka chapter begins at p.166",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/%E0%A4%B5%E0%A4%9F%E0%A4%95%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%AA%E0%A4%A8%E0%A4%BE"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    [
+      1,
+      "वटकाश्चाथ कथ्यन्ते तन्नाम गुटिका वटी । मोदको वटिका पिण्डी गुडो वर्त्तिस्तथोच्यते ॥ १ ॥"
+    ],
+    [
+      2,
+      "लेहवत्साध्यते वह्नौ गुडो वा शर्करा तथा । गुग्गुलुर्वा क्षिपेत्तत्र चूर्णं तन्निर्मिता वटी ॥ २ ॥"
+    ],
+    [
+      3,
+      "कुर्यादवह्निसिद्धेन क्वचिद् गुग्गुलुना वटीम् । द्रवेण मधुना वाऽपि गुटिकां कारयेद् बुधः ॥ ३ ॥"
+    ],
+    [
+      4,
+      "सिता चतुर्गुणा देया वटीषु द्विगुणो गुडः । चूर्णाच्चूर्णसमः कार्यो गुग्गुलुर्मधु तत्समम् । द्रवं च द्विगुणं देयं मोदकेषु भिषग्वरैः ॥ ४ ॥"
+    ],
+    [
+      5,
+      "कर्षप्रमाणा तन्मात्रा बलं दृष्ट्वा प्रयुज्यताम् ॥ ५ ॥"
+    ],
+    [
+      12,
+      "जयेदर्शांसि सर्वाणि गुल्मं वातोदरं तथा । आमवातप्रतिश्यायग्रहणीक्षयपीनसान् । हलीमकं पाण्डुरोगं प्रमेहं च रसायनम् ॥ १२ ॥"
+    ],
+    [
+      21,
+      "तिस्रश्च सर्पदष्टे तु चतस्रः सान्निपातिके । वटी सञ्जीवनी नाम्ना सञ्जीवयति मानवम् ॥ २१ ॥"
+    ],
+    [
+      23,
+      "व्योषादिगुटिका सामपीनसश्वासकासजित् । रुचिस्वरकरा ख्याता प्रतिश्यायप्रणाशिनी ॥ २३ ॥"
+    ],
+    [
+      39,
+      "धातुस्थांश्च ज्वरान्सर्वान् श्वासं कासं च पाण्डुताम् । धातुक्षयं वह्निमान्द्यं पिप्पलीमोदको जयेत् ॥ ३९ ॥"
+    ],
+    [
+      49,
+      "वायुं पित्तं कफं हन्याद् बल्या वृष्या रसायनी । चन्द्र प्रभायां कर्षस्तु चतुःशाणो विधीयते ॥ ४९ ॥"
+    ],
+    [
+      62,
+      "गुटिकाः शाणमात्रास्तु कृत्वा ग्राह्या यथोचिताः । गुग्गुलुर्योगराजोऽय त्रिदोषघ्नो रसायनः ॥ ६२ ॥"
+    ],
+    [
+      65,
+      "मन्दाग्निश्वासकासांश्च नाशयेदरुचिं तथा । रेतोदोषहरः पुंसां रजोदोषहरः स्त्रियाः ॥ ६५ ॥"
+    ],
+    [
+      69,
+      "पाटलाक्वाथसहितो विषं मूषकजं जयेत् । त्रिफलाक्वाथसहितो नेत्रार्त्तिं हन्ति दारुणाम् । पुनर्नवादिक्वाथेन हन्यात्सर्वोदरान्यपि ॥ ६९ ॥"
+    ],
+    [
+      79,
+      "हन्ति सर्वामयान्नित्यमुपयुक्तो रसायनः । केशोरकाभिधानोऽय गुग्गुलुः कान्तिकारकः ॥ ७९ ॥"
+    ],
+    [
+      94,
+      "प्राग्भोजनस्य देयं स्यादधः कायस्थिते गदे । भेषजं भक्तमध्ये च रोगे जठरसंस्थिते । भोजनस्योपरि ग्राह्यमूर्ध्वजत्रुगदेषु च ॥ ९४ ॥"
+    ],
+    [
+      104,
+      "ततः पक्वं समुद्धृत्य वृत्तान्कुर्वीत मोदकान् । भुक्त्वा सायं पलैकं च पिबेत्क्षीरं चतुर्गुणम् ॥ १०४ ॥"
+    ],
+    [
+      105,
+      "वर्जनीयौ विशेषेण क्षाराम्लौ द्वौ रसावपि । कृत्वैवं रमयेन्नारीर्बह्वीर्न क्षीयते नरः ॥ १०५ ॥"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource preserves a continuous sequence 1-105 and the chapter colophon; BharatKosha identifies the printed seventh chapter as Vaṭakalpanā and begins it at p.166.",
+    "structural_note": "The chapter moves from vaṭaka/guṭikā terminology and fire/non-fire preparation through named vaṭakas, guṭikās, modakas and guggulu formulations, ending with administration timing and puṣṭi/vājīkaraṇa material.",
+    "numbering_note": "Source numbering is retained; no silent renumbering.",
+    "canonical_policy": "Verified extent is 1-105. Remaining verse-by-verse transcription is to be expanded only from controlled printed-source transcription.",
+    "commentary_policy": "Dīpikā interpretation and ingredient identification remain separate from canonical Sanskrit.",
+    "safety_note": "The text includes toxic, mineral and animal-derived substances and strong therapeutic claims; these are historical/classical source material, not modern prescribing instructions."
+  },
+  "topic_map": [
+    [
+      "1-5",
+      "वटक/गुटिका/वटी/मोदक की संज्ञाएँ, अग्निसाध्य-अवह्निसाध्य विधि और मात्रा"
+    ],
+    [
+      "6-12",
+      "श्रीबाहुशालगुड निर्माण और पारंपरिक उपयोग"
+    ],
+    [
+      "13-24",
+      "मरीचादि गुटिका, गुडवटिका, आमलक्यादि गुटिका, सञ्जीवनीवटी, व्योषादिगुटिका"
+    ],
+    [
+      "25-39",
+      "वृद्धदारुमोदक, शूरणपिण्डी, शूरणवटक, मण्डूरवटक, पिप्पलीमोदक"
+    ],
+    [
+      "40-49",
+      "चन्द्रप्रभावटी की संरचना, मात्रा और पारंपरिक उपयोग"
+    ],
+    [
+      "50-69",
+      "काङ्कायनगुटिका तथा योगराजगुग्गुलु"
+    ],
+    [
+      "70-81",
+      "कैशोरगुग्गुलु, अनुपान और पथ्यापथ्य"
+    ],
+    [
+      "82-93",
+      "त्रिफलागुग्गुलु, गोक्षुरादिगुग्गुलु और अन्य योग"
+    ],
+    [
+      "94-100",
+      "भेषज सेवन-समय और काञ्चनारगुग्गुलु"
+    ],
+    [
+      "101-105",
+      "माषादिमोदक, पुष्टिकर/वाजीकरण संदर्भ और समापन"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-5",
+      "वटी, गुटिका, मोदक आदि की संज्ञा तथा अग्नि से और बिना अग्नि के निर्माण-विधि बताई गई है। मात्रा बल देखकर प्रयोग करने की बात है।"
+    ],
+    [
+      "6-24",
+      "बहुद्रव्य गुड, मरीचादि गुटिका, सञ्जीवनीवटी और व्योषादि गुटिका जैसे योग आते हैं।"
+    ],
+    [
+      "25-49",
+      "शूरण, मण्डूर, पिप्पली और चन्द्रप्रभा आधारित योगों का विस्तार मिलता है।"
+    ],
+    [
+      "50-81",
+      "काङ्कायनगुटिका और विभिन्न गुग्गुलु-योगों में मात्रा, अनुपान तथा पारंपरिक रोग-संदर्भ दिए जाते हैं।"
+    ],
+    [
+      "82-100",
+      "त्रिफला, गोक्षुर, काञ्चनार आदि गुग्गुलु और गुटिका योग तथा सेवन-समय का नियम मिलता है।"
+    ],
+    [
+      "101-105",
+      "माषादि मोदक, पुष्टिकर/वाजीकरण संदर्भ और आहार-वर्जन आते हैं।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-5",
+      "Dīpikā explains vaṭaka/guṭikā/modaka terminology and fire-assisted versus non-fire preparation."
+    ],
+    [
+      "6-24",
+      "Dīpikā explains the named early formulations and traditional contexts."
+    ],
+    [
+      "25-49",
+      "Dīpikā explains śūraṇa, maṇḍūra, pippalī and Candra-prabhā formulations."
+    ],
+    [
+      "50-81",
+      "Dīpikā explains guggulu formulations, anupāna choices and traditional indications."
+    ],
+    [
+      "82-100",
+      "Dīpikā explains later guggulu/guṭikā preparations and administration timing."
+    ],
+    [
+      "101-105",
+      "Dīpikā explains the concluding modaka and dietary instructions."
+    ]
+  ],
+  "learning_units": [
+    [
+      "LU1",
+      "1-5",
+      "वटक की संज्ञा, निर्माण और मात्रा"
+    ],
+    [
+      "LU2",
+      "6-24",
+      "प्रमुख वटी और गुटिका योग"
+    ],
+    [
+      "LU3",
+      "25-49",
+      "शूरण, मण्डूर, पिप्पली और चन्द्रप्रभा"
+    ],
+    [
+      "LU4",
+      "50-81",
+      "गुग्गुलु-योगों की परम्परा"
+    ],
+    [
+      "LU5",
+      "82-100",
+      "गुग्गुलु, गुटिका और सेवन-समय"
+    ],
+    [
+      "LU6",
+      "101-105",
+      "माषादि मोदक और अध्याय-समापन"
+    ]
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "वटी की प्रारम्भिक सामान्य मात्रा किस परिमाण से बताई गई है?",
+      "answer": "कर्षप्रमाणा; आगे बल देखकर प्रयोग"
+    },
+    {
+      "type": "mcq",
+      "question": "वटी में सिता की मात्रा किस प्रकार बताई गई है?",
+      "answer": "चतुर्गुण"
+    },
+    {
+      "type": "short_answer",
+      "question": "अग्निसाध्य और अवह्निसाध्य वटी-निर्माण में मूल अंतर समझाइए।"
+    },
+    {
+      "type": "short_answer",
+      "question": "अधःकाय, जठर और ऊर्ध्वजत्रु रोगों के अनुसार भेषज सेवन-समय का नियम समझाइए।"
+    },
+    {
+      "type": "source_criticism",
+      "question": "जटिल गुग्गुलु/वटी योगों के classical indications को modern treatment recommendation मानने से पहले canonical text और Dīpikā को अलग क्यों रखना चाहिए?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-105",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "canonical_extent_complete": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
