@@ -139,4 +139,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 7 — Uttarabastividhi researched/source-reconciled; primary and independent witness 1–15; full primary Sanskrit transcription added.
 - [x] Chapter 8 — Nasyavidhi researched/source-reconciled; primary and independent witness 1–63; full primary Sanskrit transcription added.
 - [x] Chapter 9 — Dhūmapānavidhi researched/source-reconciled; primary and independent witness 1–25; full primary Sanskrit transcription added.
-- [ ] Chapters 10–13 pending research-first ingestion.
+- [x] Chapter 10 — Gaṇḍūṣādividhi researched/source-reconciled; primary and independent witness 1–21; full primary Sanskrit transcription added.
+- [ ] Chapters 11–13 pending research-first ingestion.
