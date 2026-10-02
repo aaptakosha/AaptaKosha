@@ -9,13 +9,13 @@ from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, os.path.join(ROOT, "src"))
+
 from aaptakosha_core.samhita_adapter import (
     from_charaka_legacy,
     from_sarangadhara_legacy,
 )
-
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, os.path.join(ROOT, "src"))
 SAMHITA_ROOT = ROOT / "content" / "samhita"
 _CHARAKA_ID = re.compile(r"^charaka\.sutra\.(\d{2})$")
 _SARANGADHARA_ID = re.compile(r"^sarangadhara\.(purva|madhyama|uttara)\.(\d{2})$")
