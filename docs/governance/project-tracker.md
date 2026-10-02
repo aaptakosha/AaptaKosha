@@ -105,3 +105,11 @@ Last updated: 2026-10-02
 - [ ] Chapter 13+ remains reserved for SA-2 / Second Professional
 
 Tracker rule: update this file whenever a phase gate changes state.
+
+## Śārṅgadhara Saṃhitā — Madhyama Khaṇḍa
+- [x] Chapter 1 — Swarasādikalpanā: source-reconciled package
+- [x] Chapter 2 — Kvāthādikalpanā: source-reconciled package
+- [x] Chapter 3 — Phāṇṭādikalpanā: source-reconciled package
+- [x] Chapter 4 — Himakalpanā: source-reconciled package
+- [x] Chapter 5 — Kalkakalpanā: canonical Sanskrit 1–28, Hindi learning layer, commentary mapping and assessments
+- [ ] Chapter 6–12 — remaining Madhyama Khaṇḍa chapters
