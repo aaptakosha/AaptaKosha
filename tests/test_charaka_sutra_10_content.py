@@ -51,3 +51,13 @@ def test_charaka_sutra_10_research_contract():
     assert "Mahācatuṣpāda" in manifest
     assert "44 passages, 8 in prose" in manifest
     assert "Chapter 13 onward" in manifest
+
+
+def test_charaka_sutra_10_api_and_reader_wiring():
+    api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
+    reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
+    assert "chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}" in api
+    assert '_seed_samhita_chapter10_assessment' in api
+    assert 'charaka.sutra.10.revision' in api
+    assert 'id==="charaka.sutra.10"' in reader
+    assert 'charaka.sutra.10.revision' in reader
