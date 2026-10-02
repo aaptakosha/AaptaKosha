@@ -1,58 +1,326 @@
 {
-  "schema_version":"1.0",
-  "text_id":"sarangadhara",
-  "khand_id":"purva",
-  "chapter_number":2,
-  "chapter_id":"purva-02-bhaishajyakhyanaka",
-  "title_sanskrit":"भैषज्याख्यानकम्",
-  "title_roman":"Bhaiṣajyākhyānakam",
-  "canonical_status":"source_reconciled_printed_edition_primary",
-  "chapter_extent":{"printed_dipika":"1-50","wikisource_online_witness":"1-36 with omitted/shifted material"},
-  "source_basis":[
-    {"source":"BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary","role":"primary working printed/annotated witness; confirms Chapter 2 and printed ending at verse 50","pages":"54-61","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/४-शार्ङ्गधरसंहिता-पूर्वखण्डे"},
-    {"source":"Sanskrit Wikisource — Pūrva Khaṇḍa","role":"independent Sanskrit cross-check; useful but incomplete for this chapter","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"},
-    {"source":"TransLiteral — Pūrva Khaṇḍa Chapter 2","role":"secondary Sanskrit witness; likewise omits/renumbers portions","url":"https://www.transliteral.org/pages/z210314210614/view"},
-    {"source":"Chowkhamba Sanskrit Studies, 2001 text/translation catalogue","role":"independent bibliographic witness for Chapter 2","url":"https://books.google.com/books/about/%C5%9A%C4%81r%E1%B9%85gadhara_Sa%E1%B9%83hit%C4%81_of_%C5%9A%C4%81r%E1%B9%85ga.html?id=h-baAAAAMAAJ"}
-  ],
-  "source_reconciliation":{
-    "status":"requires_printed_verse_level_reconciliation_before_canonical_import",
-    "finding":"The web Sanskrit witnesses do not expose the same complete verse sequence as the printed Dīpikā edition. Wikisource jumps from verse 8 to 10 and from 34 to 36; BharatKosha's printed commentary explicitly reaches verse 50 and contains additional material on dravya, guṇa, vīrya, vipāka, prabhāva, ṛtu and doṣa dynamics.",
-    "critical_rule":"Do not fill missing verses by inference or by renumbering a different witness. Preserve source numbering and reconcile the printed Sanskrit before creating final śloka records.",
-    "confirmed_printed_end":"Verse 50 is the kapha-prakopa/prashama conclusion, followed by the Bhaiṣajyākhyānaka colophon.",
-    "commentary_author":"Dr. Brahmānanda Tripāṭhī, Dīpikā commentary and special explanatory notes in the BharatKosha/Chaukhamba witness."
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "purva",
+  "chapter_number": 2,
+  "chapter_id": "purva-02-bhaishajyakhyanaka",
+  "title_sanskrit": "भैषज्याख्यानकम्",
+  "title_roman": "Bhaiṣajyākhyānakam",
+  "canonical_status": "canonical_sanskrit_sequence_locked_printed_witness",
+  "chapter_extent": {
+    "printed_dipika": "1-50",
+    "wikisource_online_witness": "1-36 with omitted/shifted material"
   },
-  "verified_topic_map":[
-    {"printed_range":"1-12","topic":"औषध-सेवन के पाँच काल; प्रातः, भोजनपूर्व, भोजनमध्य, भोजनान्त/सायं, मुहुर्मुहुः और रात्रि-सेवन के चिकित्सकीय संदर्भ"},
-    {"printed_range":"13-23","topic":"द्रव्य के रस, गुण, वीर्य, विपाक, शक्ति/प्रभाव तथा रस-गुण-वीर्य-विपाक की मूल परिभाषाएँ"},
-    {"printed_range":"24-38","topic":"द्रव्य-प्रधानता, पञ्चमहाभूत-गुण, वीर्य के भेद/लक्षण, विपाक-परिभाषा, प्रभाव और प्रभाव की विशिष्टता"},
-    {"printed_range":"39-43","topic":"ऋतु-षट्क, राशिक्रम और वात-पित्त-कफ के ऋतु-अनुसार संचय-प्रकोप-प्रशमन"},
-    {"printed_range":"44","topic":"यमदंष्ट्रा काल"},
-    {"printed_range":"45-47","topic":"आहार-विहार से दोषों के संचय-प्रकोप-प्रशमन तथा वात-प्रकोप/प्रशमन कारण"},
-    {"printed_range":"48","topic":"पित्त-प्रकोप और प्रशमन कारण"},
-    {"printed_range":"49-50","topic":"कफ-प्रकोप और प्रशमन कारण; अध्याय-समापन"}
+  "source_basis": [
+    {
+      "source": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "primary working printed/annotated witness; confirms Chapter 2 and printed ending at verse 50",
+      "pages": "54-61",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/४-शार्ङ्गधरसंहिता-पूर्वखण्डे"
+    },
+    {
+      "source": "Sanskrit Wikisource — Pūrva Khaṇḍa",
+      "role": "independent Sanskrit cross-check; useful but incomplete for this chapter",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"
+    },
+    {
+      "source": "TransLiteral — Pūrva Khaṇḍa Chapter 2",
+      "role": "secondary Sanskrit witness; likewise omits/renumbers portions",
+      "url": "https://www.transliteral.org/pages/z210314210614/view"
+    },
+    {
+      "source": "Chowkhamba Sanskrit Studies, 2001 text/translation catalogue",
+      "role": "independent bibliographic witness for Chapter 2",
+      "url": "https://books.google.com/books/about/%C5%9A%C4%81r%E1%B9%85gadhara_Sa%E1%B9%83hit%C4%81_of_%C5%9A%C4%81r%E1%B9%85ga.html?id=h-baAAAAMAAJ"
+    }
   ],
-  "canonical_source_policy":{
-    "printed_edition_priority":"For final chapter verse records, reconcile the printed Dīpikā Sanskrit sequence first.",
-    "translation":"AaptaKosha Hindi translation will be authored only after the canonical Sanskrit sequence is locked.",
-    "commentary":"Use Dīpikā as source-attributed commentary; do not reproduce published commentary verbatim.",
-    "modern_interpretation":"Keep educational explanations and modern biomedical comparisons separate from the canonical layer."
+  "source_reconciliation": {
+    "status": "printed_verse_sequence_reconciled",
+    "finding": "Printed Dīpikā witness on pages 54-62 was checked verse-by-verse for the chapter sequence 1-50. The incomplete/shifted online witnesses remain secondary cross-checks; they are not used to fill or renumber the printed sequence.",
+    "critical_rule": "Printed Dīpikā numbering is preserved. Online witnesses are used only for independent cross-checking; no missing material is reconstructed by inference.",
+    "confirmed_printed_end": "Verse 50 is the kapha-prakopa/prashama conclusion, followed by the Bhaiṣajyākhyānaka colophon.",
+    "commentary_author": "Dr. Brahmānanda Tripāṭhī, Dīpikā commentary and special explanatory notes in the BharatKosha/Chaukhamba witness."
   },
-  "learning_units":[
-    {"id":"LU1","range":"1-12","title":"औषध-सेवन के काल"},
-    {"id":"LU2","range":"13-23","title":"द्रव्य के रस-गुण-वीर्य-विपाक-प्रभाव"},
-    {"id":"LU3","range":"24-38","title":"द्रव्य-प्रधानता, वीर्य, विपाक और प्रभाव"},
-    {"id":"LU4","range":"39-44","title":"ऋतुचक्र, दोषचय-प्रकोप और यमदंष्ट्रा"},
-    {"id":"LU5","range":"45-50","title":"दोष-प्रकोप एवं प्रशमन के आहार-विहार कारण"}
+  "verified_topic_map": [
+    {
+      "printed_range": "1-12",
+      "topic": "औषध-सेवन के पाँच काल; प्रातः, भोजनपूर्व, भोजनमध्य, भोजनान्त/सायं, मुहुर्मुहुः और रात्रि-सेवन के चिकित्सकीय संदर्भ"
+    },
+    {
+      "printed_range": "13-23",
+      "topic": "द्रव्य के रस, गुण, वीर्य, विपाक, शक्ति/प्रभाव तथा रस-गुण-वीर्य-विपाक की मूल परिभाषाएँ"
+    },
+    {
+      "printed_range": "24-38",
+      "topic": "द्रव्य-प्रधानता, पञ्चमहाभूत-गुण, वीर्य के भेद/लक्षण, विपाक-परिभाषा, प्रभाव और प्रभाव की विशिष्टता"
+    },
+    {
+      "printed_range": "39-43",
+      "topic": "ऋतु-षट्क, राशिक्रम और वात-पित्त-कफ के ऋतु-अनुसार संचय-प्रकोप-प्रशमन"
+    },
+    {
+      "printed_range": "44",
+      "topic": "यमदंष्ट्रा काल"
+    },
+    {
+      "printed_range": "45-47",
+      "topic": "आहार-विहार से दोषों के संचय-प्रकोप-प्रशमन तथा वात-प्रकोप/प्रशमन कारण"
+    },
+    {
+      "printed_range": "48",
+      "topic": "पित्त-प्रकोप और प्रशमन कारण"
+    },
+    {
+      "printed_range": "49-50",
+      "topic": "कफ-प्रकोप और प्रशमन कारण; अध्याय-समापन"
+    }
   ],
-  "quality_gates":{
-    "chapter_identity_verified":true,
-    "printed_chapter_end_verified":"50",
-    "colophon_verified":true,
-    "commentary_source_verified":true,
-    "online_witness_discrepancy_recorded":true,
-    "unverified_missing_verses_not_invented":true,
-    "final_canonical_verse_import_blocked_until_printed_sequence_reconciled":true,
-    "one_chapter_one_commit":true
+  "canonical_source_policy": {
+    "printed_edition_priority": "Canonical verse records follow the verified printed Dīpikā sequence 1-50; source discrepancies are retained in provenance metadata.",
+    "translation": "AaptaKosha Hindi translation will be authored only after the canonical Sanskrit sequence is locked.",
+    "commentary": "Use Dīpikā as source-attributed commentary; do not reproduce published commentary verbatim.",
+    "modern_interpretation": "Keep educational explanations and modern biomedical comparisons separate from the canonical layer."
   },
-  "next_gate":"Reconcile the printed Dīpikā Sanskrit verses 1-50 against the incomplete online witnesses, then the Chapter 2 package can be treated as canonical without guessing."
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-12",
+      "title": "औषध-सेवन के काल"
+    },
+    {
+      "id": "LU2",
+      "range": "13-23",
+      "title": "द्रव्य के रस-गुण-वीर्य-विपाक-प्रभाव"
+    },
+    {
+      "id": "LU3",
+      "range": "24-38",
+      "title": "द्रव्य-प्रधानता, वीर्य, विपाक और प्रभाव"
+    },
+    {
+      "id": "LU4",
+      "range": "39-44",
+      "title": "ऋतुचक्र, दोषचय-प्रकोप और यमदंष्ट्रा"
+    },
+    {
+      "id": "LU5",
+      "range": "45-50",
+      "title": "दोष-प्रकोप एवं प्रशमन के आहार-विहार कारण"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "printed_chapter_end_verified": "50",
+    "colophon_verified": true,
+    "commentary_source_verified": true,
+    "online_witness_discrepancy_recorded": true,
+    "unverified_missing_verses_not_invented": true,
+    "final_canonical_verse_import_blocked_until_printed_sequence_reconciled": false,
+    "one_chapter_one_commit": true,
+    "canonical_sanskrit_sequence_locked": true,
+    "canonical_verse_count_verified": 50
+  },
+  "next_gate": "Add verse-specific Hindi meanings and concise source-attributed Dīpikā study notes from the reconciled Sanskrit layer, then run chapter reader and assessment regression.",
+  "canonical_sanskrit": {
+    "0": {
+      "verse": 1,
+      "text": "भैषज्यमभ्यवहरेत् प्रभाते प्रायशो बुधः। कषायांश्च विशेषेण तत्र भेदस्तु दर्शितः॥१॥"
+    },
+    "1": {
+      "verse": 2,
+      "text": "ज्ञेयः पञ्चविधः कालो भैषज्यग्रहणे नृणाम्। किञ्चित् सूर्योदये जाते तथा दिवसभोजने॥२॥ सायन्तने भोजने च मुहुश्चापि तथा निशि।"
+    },
+    "2": {
+      "verse": 3,
+      "text": "प्रायशः पित्तकफोद्रेके विरेकवमनार्थयोः॥३॥ लेखनार्थं च भैषज्यं प्रभाते तत् समाहरेत्।"
+    },
+    "3": {
+      "verse": 4,
+      "text": "एवं स्यात् प्रथमः कालो भैषज्यग्रहणे नृणाम्॥४॥"
+    },
+    "4": {
+      "verse": 5,
+      "text": "भैषज्यं विगुणेऽपाने भोजनाग्रे प्रशस्यते। अरुचौ चित्रभोज्यैश्च मिश्रं रुचिरमाहरेत्॥५॥"
+    },
+    "5": {
+      "verse": 6,
+      "text": "समानवाते विगुणे मन्देऽग्नावग्निदीपनम्। दद्याद् भोजनमध्ये च भैषज्यं कुशलो भिषक्॥६॥"
+    },
+    "6": {
+      "verse": 7,
+      "text": "व्यानकोपे च भैषज्यं भोजनान्ते समाहरेत्। हिक्काऽऽक्षेपककम्पेषु पूर्वमन्ते च भोजनात्॥७॥ एवं द्वितीयकालश्च प्रोक्तो भैषज्यकर्मणि।"
+    },
+    "7": {
+      "verse": 8,
+      "text": "उदाने कुपिते वाते स्वरभङ्गादिकारिणि॥८॥ ग्रासे ग्रासान्तरे देयं भैषज्यं सान्ध्यभोजने।"
+    },
+    "8": {
+      "verse": 9,
+      "text": "प्राणे प्रदुष्टे सान्ध्यस्य भुक्तस्यान्ते च दीयते॥९॥ औषधं प्रायशो धीरैः कालोऽयं स्यात् तृतीयकः।"
+    },
+    "9": {
+      "verse": 10,
+      "text": "मुहुर्मुहुश्च तृट्छर्दिहिक्काश्वासगरेषु च॥१०॥ सान्नं च भेषजं दद्यादिति कालश्चतुर्थकः।"
+    },
+    "10": {
+      "verse": 11,
+      "text": "ऊर्ध्वजत्रुविकारेषु लेखने बृंहणे तथा॥११॥ पाचनं शमनं देयमनन्नं भेषजं निशि।"
+    },
+    "11": {
+      "verse": 12,
+      "text": "इति पञ्चमकालश्च प्रोक्तो भेषज्यकर्मणि॥१२॥"
+    },
+    "12": {
+      "verse": 13,
+      "text": "द्रव्ये रसो गुणो वीर्यं विपाकः शक्तिरेव च। संवेदनक्रमादेताः पञ्चावस्थाः प्रकीर्तिताः॥१३॥"
+    },
+    "13": {
+      "verse": 14,
+      "text": "द्रव्यमेव रसादीनां श्रेष्ठं ते हि तदाश्रयाः। पञ्चभूतात्मकं तत्तु क्ष्मामधिष्ठाय जायते॥१४॥"
+    },
+    "14": {
+      "verse": 15,
+      "text": "अम्बुयोन्यग्निपवननभसां समवायतः। तन्निर्वृत्तिर्विशेषश्च व्यपदेशस्तु भूयसा॥१५॥"
+    },
+    "15": {
+      "verse": 16,
+      "text": "मधुरोऽम्लः पटुश्चैव कटुतिक्तकषायकाः। इत्येते षड्रसाः ख्याता नानाद्रव्यसमाश्रिताः॥१६॥"
+    },
+    "16": {
+      "verse": 17,
+      "text": "स्नेहनप्रीणनाह्लादमार्दवैरुपलभ्यते। मुखस्थो मधुरश्चास्यं व्याप्युर्वल्लिम्पतीव च॥१७॥"
+    },
+    "17": {
+      "verse": 18,
+      "text": "दन्तहर्षान्मुखस्रावात् स्वेदनान्मुखबोधनात्। विदाहाच्चास्य कण्ठस्य प्राश्यैवाम्लरसं वदेत्॥१८॥"
+    },
+    "18": {
+      "verse": 19,
+      "text": "प्रलीयन् क्लेदविष्यन्दमार्दवं कुरुते मुखे। यः शीघ्रं लवणो ज्ञेयः स विदाहान्मुखस्य च॥१९॥"
+    },
+    "19": {
+      "verse": 20,
+      "text": "संवेजयेद् यो रसनां निपाते तुदतीव च। विर्दहन् मुखनासाक्षि संस्रावी स कटुः स्मृतः॥२०॥"
+    },
+    "20": {
+      "verse": 21,
+      "text": "प्रतिहन्ति निपाते यो रसनां स्वदते न च। स तिक्तो मुखवैशद्यशोषप्रह्लादकारकः॥२१॥"
+    },
+    "21": {
+      "verse": 22,
+      "text": "वैशद्यस्तम्भजाड्यैर्यो रसनां योजयेद् रसः। बध्नातीव च यः कण्ठं कषायः स विकास्यपि॥२२॥"
+    },
+    "22": {
+      "verse": 23,
+      "text": "धराम्बुक्ष्मानलजलज्वलनैनाकाशमारुतैः। वावग्निक्ष्मानिलैर्भूतद्वयै रसभवः क्रमात्॥२३॥"
+    },
+    "23": {
+      "verse": 24,
+      "text": "गुरुः स्निग्धश्च तीक्ष्णश्च रूक्षो लघुरिति क्रमात्। धराम्बुवह्निपवनव्योम्नां प्रायो गुणाः स्मृताः॥२४॥ एष्वेवान्तर्भवन्त्यन्ये गुणेषु गुणसञ्चयाः।"
+    },
+    "24": {
+      "verse": 25,
+      "text": "गुरु वातहरं पुष्टिश्लेष्मकृच्चिरपाकि च॥२५॥"
+    },
+    "25": {
+      "verse": 26,
+      "text": "तीक्ष्णं पित्तकरं प्रायो लेखनं कफवातहृत्॥२६॥"
+    },
+    "26": {
+      "verse": 27,
+      "text": "लघु पथ्यं परं प्रोक्तं कफघ्नं शीघ्रपाकि च॥२७॥"
+    },
+    "27": {
+      "verse": 28,
+      "text": "वीर्यमुष्णं तथा शीतं प्रायशो द्रव्यसंश्रयम्। तत्सर्वमग्नीषोमीयं दृश्यते भुवनत्रये॥२८॥ अत्रैवान्तर्भविष्यन्ति वीर्याण्यन्यानि यान्यपि।"
+    },
+    "28": {
+      "verse": 29,
+      "text": "शीतं तु ह्लादनं स्तम्भि मूर्च्छातृट्स्वेददाहनुत्॥२९॥ उष्णं भवति शीतस्य विपरीतं च पाचनम्।"
+    },
+    "29": {
+      "verse": 30,
+      "text": "त्रिधा विपाको द्रव्यस्य स्वाद्वम्लकटुकात्मकः॥३०॥"
+    },
+    "30": {
+      "verse": 31,
+      "text": "मिष्टः पटुश्च मधुरमम्लोऽम्लं पच्यते रसः। कषायकटुतिक्तानां पाकः स्यात् प्रायशः कटुः॥३१॥"
+    },
+    "31": {
+      "verse": 32,
+      "text": "मधुराज्जायते श्लेष्मा पित्तमम्लाच्च जायते। कटुकाज्जायते वायुः कर्माणीति विपाकतः॥३२॥"
+    },
+    "32": {
+      "verse": 33,
+      "text": "जाठरेणाग्निना योगाद् यदुदेति रसान्तरम्। रसानां परिणामान्ते स विपाक इति स्मृतः॥३३॥"
+    },
+    "33": {
+      "verse": 34,
+      "text": "प्रभावस्तु यथा धात्री लकुचस्य रसादिभिः। समापि कुरुते दोषत्रितयस्य विनाशनम्॥३४॥"
+    },
+    "34": {
+      "verse": 35,
+      "text": "क्वचित्तु केवलं द्रव्यं कर्म कुर्यात् प्रभावतः। ज्वरं हन्ति शिरोबद्धा सहदेवीजटा यथा॥३५॥"
+    },
+    "35": {
+      "verse": 36,
+      "text": "रसवीर्यविपाकानां सामान्यं यत्र लक्ष्यते। विशेषः कर्मणां चैव प्रभावस्तस्य स स्मृतः॥३६॥"
+    },
+    "36": {
+      "verse": 37,
+      "text": "मणीनां धारणीयानां कर्म यद् विविधात्मकम्। तत् प्रभावकृतं तेषां प्रभावोऽचिन्त्य उच्यते॥३७॥"
+    },
+    "37": {
+      "verse": 38,
+      "text": "क्वचिद् रसो गुणो वीर्यं विपाकः शक्तिरेव च। कर्म स्वं स्वं प्रकुर्वन्ति द्रव्यमाश्रित्य ये स्थिताः॥३८॥"
+    },
+    "38": {
+      "verse": 39,
+      "text": "चयकोपशमा यस्मिन् दोषाणां सम्भवन्ति हि। ऋतुषट्कं तदाख्यातं रवे राशिषु सङ्क्रमात्॥३९॥"
+    },
+    "39": {
+      "verse": 40,
+      "text": "ग्रीष्मो मेषवृषौ प्रोक्तो प्रावृङ्मिथुनकर्कयोः। सिंहकन्ये स्मृता वर्षास्तुलावृश्चिकयोः शरत्॥४०॥ धनुर्ग्राहौ च हेमन्तो वसन्तः कुम्भमीनयोः।"
+    },
+    "40": {
+      "verse": 41,
+      "text": "ग्रीष्मे सञ्चीयते वायुः प्रावृट्काले प्रकुप्यति॥४१॥"
+    },
+    "41": {
+      "verse": 42,
+      "text": "वर्षासु चीयते पित्तं शरत्काले प्रकुप्यति। हेमन्ते चीयते श्लेष्मा वसन्ते च प्रकुप्यति॥४२॥"
+    },
+    "42": {
+      "verse": 43,
+      "text": "प्रायेण प्रशमं याति च्चयमेव समीरणः। शरत्काले वसन्ते च पित्तं प्रावृड् ऋतौ कफः॥४३॥"
+    },
+    "43": {
+      "verse": 44,
+      "text": "कार्तिकस्य दिनान्यष्टावष्टावाग्रयणस्य च। यमदंष्ट्रा समाख्याता स्वल्पभुक्तो हि जीवति॥४४॥"
+    },
+    "44": {
+      "verse": 45,
+      "text": "चयकोपशमा दोषा विहाराऽऽहारसेवनैः। समानैर्यान्त्यकालेऽपि विपरीतैर्विपर्ययम्॥४५॥"
+    },
+    "45": {
+      "verse": 46,
+      "text": "लघुरूक्षमिताहारादतिशीताच्छ्रमात् तथा। प्रदोषे कामशोकाभ्यां भीचिन्तारात्रिजागरैः॥४६॥"
+    },
+    "46": {
+      "verse": 47,
+      "text": "अभिघातादपां गाहाज्जीर्णेऽन्ने धातुसङ्क्षयात्। वायुः प्रकोपं यात्येभिः प्रत्यनीकैश्च शाम्यति॥४७॥"
+    },
+    "47": {
+      "verse": 48,
+      "text": "विदाहिकटुकाम्लोष्णभोज्यैरत्युष्णसेवनात्। मध्याह्ने क्षुत्तृषो रोधाज्जीर्यत्यत्रेऽर्धरात्रके॥४८॥ पित्तं प्रकोपं यात्येभिः प्रत्यनीकैश्च शाम्यति।"
+    },
+    "48": {
+      "verse": 49,
+      "text": "मधुरस्निग्धशीतादिभोज्यैर्दिवसनिद्रया। मन्देऽग्नौ च प्रभाते च भुक्तमात्रे तथाऽश्रमात्॥४९॥"
+    },
+    "49": {
+      "verse": 50,
+      "text": "श्लेष्मा प्रकोपं यात्येभिः प्रत्यनीकैश्च शाम्यति॥५०॥"
+    }
+  }
 }
