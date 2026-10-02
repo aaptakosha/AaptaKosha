@@ -122,3 +122,16 @@ def test_known_witness_discrepancies_are_explicit():
         assert extent.get("primary_online_witness") == online
         assert extent.get("printed_dipika_witness") == printed
         assert chapter.get("quality_gates", {}).get("numbering_discrepancy_preserved") is True
+
+
+def test_canonical_verse_layers_match_declared_extents():
+    for khanda, chapters in EXPECTED.items():
+        for number, (_, expected_extent) in chapters.items():
+            chapter = load(khanda, number)
+            canonical = chapter.get("canonical_sanskrit") or {}
+            texts = list(canonical.values())
+            start, end = (int(x) for x in expected_extent.split("-", 1))
+            expected_count = end - start + 1
+            assert len(texts) == expected_count, f"canonical count mismatch for {khanda} {number}"
+            assert [v.get("verse_number") for v in texts] == list(range(start, end + 1))
+            assert all(isinstance(v.get("text"), str) and v["text"].strip() for v in texts)
