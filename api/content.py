@@ -7,6 +7,11 @@ from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
+from aaptakosha_core.samhita_adapter import (
+    from_charaka_legacy,
+    from_sarangadhara_legacy,
+)
+
 ROOT = Path(__file__).resolve().parents[1]
 SAMHITA_ROOT = ROOT / "content" / "samhita"
 _CHARAKA_ID = re.compile(r"^charaka\.sutra\.(\d{2})$")
@@ -37,7 +42,7 @@ def _safe_json_path(content_id: str) -> Path | None:
     return None
 
 
-def load_content(content_id: str):
+def load_content(content_id: str, *, canonical: bool = False):
     path = _safe_json_path(content_id.strip())
     if path is None or not path.is_file():
         return None
@@ -46,7 +51,14 @@ def load_content(content_id: str):
     except ValueError:
         return None
     with path.open(encoding="utf-8") as fh:
-        return json.load(fh)
+        content = json.load(fh)
+    if not canonical:
+        return content
+    if content_id.startswith("charaka.sutra."):
+        return from_charaka_legacy(content)
+    if content_id.startswith("sarangadhara."):
+        return from_sarangadhara_legacy(content)
+    return None
 
 
 class handler(BaseHTTPRequestHandler):
@@ -74,7 +86,8 @@ class handler(BaseHTTPRequestHandler):
         if path != "/content/samhita":
             self._reply(404, {"error": {"code": "route_not_found"}})
             return
-        content = load_content(query.get("content_id", ""))
+        canonical = query.get("format", "").lower() == "canonical"
+        content = load_content(query.get("content_id", ""), canonical=canonical)
         if content is None:
             self._reply(404, {"error": {"code": "content_not_found"}})
             return
