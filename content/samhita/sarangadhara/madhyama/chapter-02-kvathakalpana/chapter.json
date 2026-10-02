@@ -17,7 +17,7 @@
   "sources": [
     {
       "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
-      "role": "primary independent Sanskrit witness; chapter sequence and numbered verses 1-174",
+      "role": "primary independent Sanskrit witness; chapter sequence and numbered verses through the verified closing sequence 1-176",
       "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
     },
     {
@@ -32,8 +32,8 @@
     }
   ],
   "source_reconciliation": {
-    "finding": "The chapter is explicitly headed क्वाथकल्पना/क्वाथादिकल्पना and runs to verse 174 in the printed Dīpikā witness. BharatKosha reproduces the closing verse and colophon, while Wikisource preserves the chapter sequence and the opening preparation rules.",
-    "resolution": "The working canonical extent is 1-174. Full verse-level Sanskrit should remain tied to the verified witness; no verse is reconstructed from memory.",
+    "finding": "The chapter is explicitly headed क्वाथकल्पना/क्वाथादिकल्पना. The cross-source audit verifies a closing sequence through verse 176: v173 aṣṭaguṇa-maṇḍa, v174 its concluding description, v175 vāṭyamaṇḍa and v176 lājamaṇḍa, followed by the colophon.",
+    "resolution": "The working canonical extent is 1-176 in the reconciled witnesses. Full verse-level Sanskrit should remain tied to the verified witness; no verse is reconstructed from memory.",
     "important_note": "The chapter expands from basic decoction preparation into many named preparations and dietetic liquids, including mantha, pānaka, yūṣa, manda, and special decoction variants. The repository therefore treats the chapter as a formulation-method chapter rather than only a single kvātha recipe.",
     "extent_correction": "Chapter 2 closes at verse 176: v173 aṣṭaguṇa-maṇḍa, v174 its concluding description, v175 vāṭyamaṇḍa, v176 lājamaṇḍa, followed by the colophon.",
     "audit_sources": [
@@ -41,7 +41,7 @@
       "E-Bharatisampat, Śārṅgadhara Saṃhitā Madhya Khaṇḍa, chapter 2, closing verses 173-176."
     ],
     "canonical_policy": "Retain the verified 1-176 sequence; do not truncate the final four verses merely because an earlier package used 1-174.",
-    "audit_metadata_correction": "Quality gate corrected from closing_verse_174_verified to closing_verse_176_verified after extent audit."
+    "audit_metadata_correction": "Stale extent metadata was corrected across the chapter package: finding, resolution, source role, topic ranges, learning ranges and quality gates now align to 1-176."
   },
   "verified_core_verses": [
     {
@@ -130,7 +130,7 @@
       "topic": "आहारोपयोगी तथा चिकित्सोपयोगी द्रव preparations"
     },
     {
-      "range": "171-174",
+      "range": "171-176",
       "topic": "मण्ड, अष्टगुणमण्ड, वाट्यमण्ड और लाजमण्ड"
     }
   ],
@@ -148,8 +148,8 @@
       "summary": "क्वाथकल्पना आगे विविध preparation-methods और liquid formulations की ओर विस्तृत होती है। प्रत्येक नाम और मात्रा को canonical text से अलग रखकर commentary में व्याख्यायित किया जाना चाहिए।"
     },
     {
-      "range": "151-174",
-      "summary": "अंतिम भाग में मन्थ, यूष और मण्ड जैसे आहार-चिकित्सकीय द्रवों का वर्णन आता है; 171-174 में मण्ड की विशिष्ट विधियाँ और गुण मिलते हैं।"
+      "range": "151-176",
+      "summary": "अंतिम भाग में मन्थ, यूष और मण्ड जैसे आहार-चिकित्सकीय द्रवों का वर्णन आता है; 171-176 में मण्ड, अष्टगुणमण्ड, वाट्यमण्ड और लाजमण्ड की समापन सामग्री मिलती है।"
     }
   ],
   "commentary_mapping": [
@@ -166,7 +166,7 @@
       "coverage": "Commentary explains preparation variants and terminology for liquid dosage forms."
     },
     {
-      "range": "151-174",
+      "range": "151-176",
       "coverage": "Dīpikā explains mantha, yūṣa, manda and related dietetic preparations, including the closing lājamaṇḍa."
     }
   ],
@@ -198,7 +198,7 @@
     },
     {
       "id": "LU6",
-      "range": "171-174",
+      "range": "171-176",
       "title": "मण्ड, अष्टगुणमण्ड, वाट्यमण्ड और लाजमण्ड"
     }
   ],
@@ -232,7 +232,7 @@
   ],
   "quality_gates": {
     "chapter_identity_verified": true,
-    "printed_extent_verified": "1-174",
+    "printed_extent_verified": "1-176",
     "online_sequence_verified": true,
     "opening_verses_verified": true,
     "colophon_verified": true,

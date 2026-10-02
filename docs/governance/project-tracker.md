@@ -108,7 +108,7 @@ Tracker rule: update this file whenever a phase gate changes state.
 
 ## Śārṅgadhara Saṃhitā — Madhyama Khaṇḍa
 - [x] Chapter 1 — Swarasādikalpanā: source-reconciled package
-- [x] Chapter 2 — Kvāthādikalpanā: source-reconciled package; extent and closing metadata audited through verse 176
+- [x] Chapter 2 — Kvāthādikalpanā: source-reconciled package; extent, closing metadata and internal range references audited through verse 176
 - [x] Chapter 3 — Phāṇṭādikalpanā: source-reconciled package
 - [x] Chapter 4 — Himakalpanā: source-reconciled package
 - [x] Chapter 5 — Kalkakalpanā: canonical Sanskrit 1–28, Hindi learning layer, commentary mapping and assessments
