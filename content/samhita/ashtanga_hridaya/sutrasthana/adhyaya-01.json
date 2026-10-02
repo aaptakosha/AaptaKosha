@@ -14,24 +14,24 @@
   "recitation_policy": "No NCISM recitation badge until explicit syllabus verification.",
   "source_metadata": [
     {
-      "source": "e-Vāgbhaṭa / I-AIM",
+      "source": "e-Vāgbhaṭa / Institute of Ayurveda and Integrative Medicine (I-AIM)",
       "locator": "https://vedotpatti.in/samhita/Vag/ehrudayam/?mod=read",
-      "role": "primary source locator"
+      "role": "verified primary source; authoritative Sanskrit text and chapter sequence for Aṣṭāṅga Hṛdaya"
     },
     {
       "source": "Ayana Ayurveda",
       "locator": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/ayushkamiyadhyayah/?commentary=show",
-      "role": "Sanskrit and both commentary cross-check"
+      "role": "secondary cross-check only"
     },
     {
       "source": "Ayurveda360 e-Samhita",
       "locator": "https://ayurveda360.in/ebooks-esamhita-evagbhata-ehrudayam-ayushkaameeya-adhyaya/",
-      "role": "complete sequence cross-check"
+      "role": "secondary sequence cross-check only"
     },
     {
       "source": "TransLiteral",
       "locator": "https://www.transliteral.org/pages/z210315212554/view",
-      "role": "verse-boundary cross-check"
+      "role": "secondary verse-boundary cross-check only"
     }
   ],
   "learning_units": [
@@ -898,5 +898,6 @@
       ]
     }
   ],
-  "tika_translation_note": "वर्तमान टीका-क्षेत्र अध्ययन-सहायक हिन्दी तात्पर्य है, पूर्ण/शब्दशः टीका-अनुवाद नहीं। पूर्ण सर्वाङ्गसुन्दरी और आयुर्वेदरसायन अनुवाद को स्रोत-सत्यापन के बाद अलग से जोड़ा जाना है।"
+  "tika_translation_note": "सर्वाङ्गसुन्दरी और आयुर्वेदरसायन के लिए उपलब्ध स्रोत-पाठ के आधार पर टीका-अनुवाद अलग रखा जाएगा। जहाँ पूर्ण टीका-पाठ उपलब्ध/सत्यापित हो, वहाँ faithful Hindi translation दिया जाए; संक्षिप्त तात्पर्य को exact/full Tika translation के रूप में प्रस्तुत न किया जाए।",
+  "source_policy": "e-Vāgbhaṭa / I-AIM is the verified primary source for Sanskrit text, verse sequence and chapter structure. Secondary sources are cross-checks and must not override the verified primary source."
 }
