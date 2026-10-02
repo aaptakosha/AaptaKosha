@@ -519,7 +519,7 @@
     "colophon_verified": true,
     "cross_source_checked": true,
     "canonical_extent_complete": true,
-    "canonical_full_verse_transcription": "full; v140 reconciled directly against Wikisource primary witness",
+    "canonical_full_verse_transcription": "partial; automated digital-witness transfer preserves source numbering gaps; printed reconciliation remains pending",
     "commentary_separated_from_canonical_layer": true,
     "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
     "no_fabricated_missing_verses": true,
@@ -1081,10 +1081,6 @@
     {
       "verse_number": 139,
       "text": "अङ्गशूलं शिरः शूलं कामलां पाण्डुतां गरम् गृध्रसीप्लीहशोषांश्च मेहान्दण्डापतानकम् ॥१३९॥"
-    },
-    {
-      "verse_number": 140,
-      "text": "सदाहं वातरक्तं च वातपित्तगदार्दितम् असृग्दरं तथाध्मानं रक्तपित्तं च नश्यति ॥१४०॥"
     },
     {
       "verse_number": 141,
