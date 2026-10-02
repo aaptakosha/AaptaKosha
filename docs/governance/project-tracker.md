@@ -125,4 +125,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Cross-chapter extent audit: Chapter 2 corrected from 1–174 to 1–176
 - [x] Chapter-level tracker coverage complete
 - [ ] Full controlled printed-source verse transcription remains a future refinement for non-anchor verses
+- [x] Madhyama JSON schema/regression contract added for chapter identity, witness extents, colophons, quality gates and source-safety separation
 - [x] Cross-chapter audit correction: Chapter 12 witness extent discrepancy (online 1–293 vs printed 1–295) preserved explicitly
