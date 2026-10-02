@@ -95,3 +95,8 @@ def test_ncism_curriculum_renderer_loads_nested_topic_nodes():
     assert "fetchHierarchyNodes" in js
     assert "renderNodeTree" in js
     assert "No NCISM topics have been published" in js
+
+def test_ncism_subject_search_matches_visible_subject_name():
+    js = read("curriculum.js")
+    assert "x.textContent.toLowerCase()" in js
+    assert "x.dataset.subject.toLowerCase()" not in js.split("search?.addEventListener", 1)[1]
