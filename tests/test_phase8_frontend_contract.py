@@ -93,7 +93,8 @@ def test_ncism_curriculum_renderer_loads_nested_topic_nodes():
     js = read("curriculum.js")
     assert "parent_node_id" in js
     assert "fetchHierarchyNodes" in js
-    assert "renderNodeTree" in js
+    assert "nodeMarkup" in js
+    assert "loadNode" in js
     assert "No NCISM topics have been published" in js
 
 def test_ncism_subject_search_matches_visible_subject_name():
