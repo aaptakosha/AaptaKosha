@@ -45,14 +45,34 @@ async function fetchHierarchyNodes(curriculumId,subjectId,parentNodeId=null){
   if(!r.ok)throw new Error("hierarchy unavailable");
   return (await r.json()).data?.nodes||[];
 }
-function nodeMarkup(node,children=""){
-  return `<div class="node node-${esc(node.node_type)}" data-node-id="${esc(node.node_id)}"><span>${esc(node.code||"")} </span><b>${esc(node.name)}</b>${children}</div>`;
+function nodeMarkup(node,curriculumId,subjectId){
+  return `<div class="node node-${esc(node.node_type)}" data-node-id="${esc(node.node_id)}">
+    <button class="node-toggle" data-node-id="${esc(node.node_id)}" data-curriculum="${esc(curriculumId)}" data-subject="${esc(subjectId)}" aria-expanded="false">
+      <span>${esc(node.code||"")} </span><b>${esc(node.name)}</b><i class="node-chevron">›</i>
+    </button>
+    <div class="node-children" hidden></div>
+  </div>`;
 }
-async function renderNodeTree(node,curriculumId,subjectId){
-  const children=await fetchHierarchyNodes(curriculumId,subjectId,node.node_id);
-  if(!children.length)return nodeMarkup(node);
-  const rendered=await Promise.all(children.map(child=>renderNodeTree(child,curriculumId,subjectId)));
-  return nodeMarkup(node,`<div class="node-children">${rendered.join("")}</div>`);
+async function loadNode(button){
+  const wrap=button.nextElementSibling;
+  if(button.dataset.loaded==="true"){
+    wrap.hidden=!wrap.hidden;
+    button.setAttribute("aria-expanded",String(!wrap.hidden));
+    return;
+  }
+  wrap.hidden=false;
+  wrap.innerHTML="<div class='hierarchy-loading'>Loading subtopics…</div>";
+  button.setAttribute("aria-expanded","true");
+  try{
+    const children=await fetchHierarchyNodes(button.dataset.curriculum,button.dataset.subject,button.dataset.nodeId);
+    button.dataset.loaded="true";
+    wrap.innerHTML=children.length
+      ?children.map(node=>nodeMarkup(node,button.dataset.curriculum,button.dataset.subject)).join("")
+      :"<div class='hierarchy-empty'>No subtopics under this item.</div>";
+    if(!children.length)button.classList.add("node-leaf");
+  }catch(e){
+    wrap.innerHTML="<div class='hierarchy-empty'>Subtopics could not be loaded right now.</div>";
+  }
 }
 async function loadHierarchy(button){
  const wrap=button.parentElement.nextElementSibling;
@@ -65,12 +85,11 @@ async function loadHierarchy(button){
    wrap.innerHTML="<div class='hierarchy-empty'>No NCISM topics have been published for this subject yet.</div>";
    return;
   }
-  const rendered=await Promise.all(roots.map(node=>renderNodeTree(node,button.dataset.curriculum,button.dataset.subject)));
-  wrap.innerHTML=rendered.join("");
+  wrap.innerHTML=roots.map(node=>nodeMarkup(node,button.dataset.curriculum,button.dataset.subject)).join("");
  }catch(e){
   wrap.innerHTML="<div class='hierarchy-empty'>NCISM topic structure could not be loaded right now.</div>";
  }
 }
-grid.addEventListener("click",e=>{const b=e.target.closest(".subject-toggle");if(!b)return;b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")!=="true");loadHierarchy(b);});
+grid.addEventListener("click",e=>{const node=e.target.closest(".node-toggle");if(node){loadNode(node);return;}const b=e.target.closest(".subject-toggle");if(!b)return;b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")!=="true");loadHierarchy(b);});
 search?.addEventListener("input",e=>{const q=e.target.value.trim().toLowerCase();[...document.querySelectorAll(".subject-row")].forEach(x=>{const text=x.textContent.toLowerCase();x.hidden=!!q&&!text.includes(q);});});
 render();loadSubjects();
