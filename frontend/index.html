@@ -10,7 +10,7 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar" aria-label="Primary navigation">
-      <a class="brand" href="#" aria-label="AaptaKosha home">
+      <a class="brand" href="./index.html" aria-label="AaptaKosha home">
         <span class="brand-mark" aria-hidden="true">✦</span>
         <span><strong>AaptaKosha</strong><small>Learn · Grow · Build Your Future</small></span>
       </a>
@@ -29,18 +29,18 @@
     <main class="main-content" id="home">
       <header class="topbar">
         <button class="icon-button mobile-menu" aria-label="Open navigation">☰</button>
-        <a class="brand mobile-brand" href="#"><span class="brand-mark" aria-hidden="true">✦</span><strong>AaptaKosha</strong></a>
+        <a class="brand mobile-brand" href="./index.html"><span class="brand-mark" aria-hidden="true">✦</span><strong>AaptaKosha</strong></a>
         <label class="search"><span aria-hidden="true">⌕</span><input type="search" placeholder="Search subjects, chapters, topics, or anything…" aria-label="Search"></label>
         <button class="icon-button notification" aria-label="Notifications">♧<b>3</b></button>
-        <button class="profile" aria-label="Open profile"><span class="avatar">AS</span><span class="profile-copy"><strong>Aarav Sharma</strong><small>BAMS · 2nd Year</small></span><span>⌄</span></button>
+        <button class="profile" aria-label="Open profile"><span class="avatar">AS</span><span class="profile-copy"><strong>Student</strong><small>BAMS learner</small></span><span>⌄</span></button>
       </header>
       <section class="hero">
-        <div class="hero-copy"><p class="eyebrow">Your learning journey</p><h1>Good morning, Aarav <span>🌿</span></h1><p>Small steps every day bring you closer to your goals.</p><p data-auth-state aria-live="polite">Checking session…</p></div>
+        <div class="hero-copy"><p class="eyebrow">Your learning journey</p><h1>Good morning, Student <span>🌿</span></h1><p>Small steps every day bring you closer to your goals.</p><p data-auth-state aria-live="polite">Sign in to sync your learning progress.</p></div>
         <div class="hero-art" aria-hidden="true"><span>☘</span><span>◒</span><span>❋</span></div>
         <div class="hero-cards">
-          <article class="continue-card"><div class="course-icon">❋</div><div class="card-content"><span class="label">Continue learning</span><strong>Dravyaguna · Chapter 3</strong><small>Classification of Drugs</small><div class="progress-row"><div class="progress"><i style="width:60%"></i></div><span>60%</span></div></div><button class="primary">Continue <span>→</span></button></article>
-          <article class="mini-stat"><span class="stat-icon">🔥</span><small>Today's streak</small><strong>7 days</strong><span>Keep going!</span></article>
-          <article class="mini-stat goal"><span class="stat-icon">◎</span><small>Weekly goal</small><strong>5 / 7 days</strong><div class="progress"><i style="width:71%"></i></div></article>
+          <article class="continue-card"><div class="course-icon">❋</div><div class="card-content"><span class="label">Continue learning</span><strong>Dravyaguna · Chapter 3</strong><small>Classification of Drugs</small><div class="progress-row"><div class="progress"><i style="width:60%"></i></div><span>60%</span></div></div><a class="primary" href="./learn.html">Continue <span>→</span></a></article>
+          <article class="mini-stat"><span class="stat-icon" aria-hidden="true">🔥</span><small>Current streak</small><strong data-streak>—</strong><span>Sign in to sync</span></article>
+          <article class="mini-stat goal"><span class="stat-icon" aria-hidden="true">◎</span><small>Weekly goal</small><strong data-weekly-goal>—</strong><span>Sign in to sync</span></article>
         </div>
       </section>
       <section class="quick-grid" aria-label="Quick actions">
@@ -50,17 +50,17 @@
         <a class="quick-card" href="./notes.html"><span>□</span><div><strong>Notes</strong><small>Save & organise</small></div><b>→</b></a>
       </section>
       <section class="dashboard-grid">
-        <article class="panel subjects" id="subjects"><div class="panel-heading"><div><span class="eyebrow">Your syllabus</span><h2>Your subjects</h2></div><a href="#">View all →</a></div><div class="subject-list">
-          <a class="subject" href="#"><span class="subject-icon green">✺</span><div><strong>Dravyaguna</strong><small>3 / 6 chapters</small><div class="progress"><i style="width:50%"></i></div></div><em>50%</em></a>
-          <a class="subject" href="#"><span class="subject-icon blue">⌁</span><div><strong>Rachana Sharir</strong><small>2 / 6 chapters</small><div class="progress"><i style="width:33%"></i></div></div><em>33%</em></a>
-          <a class="subject" href="#"><span class="subject-icon coral">♧</span><div><strong>Kriya Sharir</strong><small>1 / 6 chapters</small><div class="progress"><i style="width:17%"></i></div></div><em>17%</em></a>
-          <a class="subject" href="#"><span class="subject-icon violet">♙</span><div><strong>Charak Samhita</strong><small>0 / 6 chapters</small><div class="progress"><i style="width:0%"></i></div></div><em>0%</em></a>
+        <article class="panel subjects" id="subjects"><div class="panel-heading"><div><span class="eyebrow">Your syllabus</span><h2>Your subjects</h2></div><a href="./learn.html">View all →</a></div><div class="subject-list">
+          <a class="subject" href="./learn.html?subject=dravyaguna"><span class="subject-icon green">✺</span><div><strong>Dravyaguna</strong><small>3 / 6 chapters</small><div class="progress"><i style="width:50%"></i></div></div><em>50%</em></a>
+          <a class="subject" href="./learn.html?subject=rachana-sharir"><span class="subject-icon blue">⌁</span><div><strong>Rachana Sharir</strong><small>2 / 6 chapters</small><div class="progress"><i style="width:33%"></i></div></div><em>33%</em></a>
+          <a class="subject" href="./learn.html?subject=kriya-sharir"><span class="subject-icon coral">♧</span><div><strong>Kriya Sharir</strong><small>1 / 6 chapters</small><div class="progress"><i style="width:17%"></i></div></div><em>17%</em></a>
+          <a class="subject" href="./samhita.html"><span class="subject-icon violet">♙</span><div><strong>Charak Samhita</strong><small>0 / 6 chapters</small><div class="progress"><i style="width:0%"></i></div></div><em>0%</em></a>
         </div></article>
-        <article class="panel assessment" id="assessments"><div class="panel-heading"><div><span class="eyebrow">Coming up</span><h2>Upcoming assessment</h2></div><a href="#">View all →</a></div><div class="assessment-card"><span class="calendar">▣</span><div><strong>Mid Term Test</strong><small>Dravyaguna</small><p>50 questions · 60 minutes</p><p>12 Oct 2026 · 10:00 AM</p></div></div><button class="primary full">View details</button></article>
-        <article class="panel activity"><div class="panel-heading"><div><span class="eyebrow">Your journey</span><h2>Recent activity</h2></div><a href="#">View all →</a></div><ul class="activity-list"><li><span class="activity-icon success">✓</span><div><strong>Completed MCQ practice</strong><small>Dravyaguna · 20 questions · 2h ago</small></div></li><li><span class="activity-icon coral">□</span><div><strong>Read: Chapter 2</strong><small>Rachana Sharir · 5h ago</small></div></li><li><span class="activity-icon blue">▤</span><div><strong>Added a note</strong><small>Kundalini · Yesterday</small></div></li></ul></article>
-        <article class="panel progress-panel" id="progress"><div class="panel-heading"><div><span class="eyebrow">At a glance</span><h2>Progress overview</h2></div></div><div class="progress-overview"><div class="ring" style="--value:42"><span>42<small>%</small></span></div><div><strong>Overall completion</strong><small>5 of 12 subjects</small><div class="stat-line"><b>12</b><span>Chapters</span><b>28</b><span>Assessments</span><b>7</b><span>Day streak</span></div></div></div></article>
-        <article class="panel recommendation"><div class="recommend-image">☘</div><div><span class="eyebrow">Recommended for you</span><h2>Panchakarma · Chapter 1</h2><small>Rachana Sharir</small><button class="primary">Start learning →</button></div></article>
-        <article class="panel notes" id="notes"><div class="panel-heading"><div><span class="eyebrow">Saved for later</span><h2>Recent notes</h2></div><a href="#">View all →</a></div><ul class="note-list"><li><span>▤</span><div><strong>Dravyaguna — Important Drugs</strong><small>2 days ago</small></div><b>→</b></li><li><span>▤</span><div><strong>Rachana Sharir — Bone Structure</strong><small>3 days ago</small></div><b>→</b></li><li><span>▤</span><div><strong>Kriya Sharir — Digestive System</strong><small>4 days ago</small></div><b>→</b></li></ul></article>
+        <article class="panel assessment" id="assessments"><div class="panel-heading"><div><span class="eyebrow">Coming up</span><h2>Upcoming assessment</h2></div><a href="./assessment.html">View all →</a></div><div class="assessment-card"><span class="calendar">▣</span><div><strong>Mid Term Test</strong><small>Dravyaguna</small><p>50 questions · 60 minutes</p><p>12 Oct 2026 · 10:00 AM</p></div></div><a class="primary full" href="./assessment.html">View details</a></article>
+        <article class="panel activity"><div class="panel-heading"><div><span class="eyebrow">Your journey</span><h2>Recent activity</h2></div><a href="./progress.html">View all →</a></div><div class="empty-activity" data-activity-state>Sign in to see your recent learning activity.</div></article><article class="panel progress-panel"<li><span class="activity-icon success">✓</span><div><strong>Completed MCQ practice</strong><small>Dravyaguna · 20 questions · 2h ago</small></div></li><li><span class="activity-icon coral">□</span><div><strong>Read: Chapter 2</strong><small>Rachana Sharir · 5h ago</small></div></li><li><span class="activity-icon blue">▤</span><div><strong>Added a note</strong><small>Kundalini · Yesterday</small></div></li></ul></article>
+        <article class="panel progress-panel" id="progress"><div class="panel-heading"><div><span class="eyebrow">At a glance</span><h2>Progress overview</h2></div></div><div class="progress-overview"><div class="ring" style="--value:25"><span>25<small>%</small></span></div><div><strong>Overall completion</strong><small>4 tracked subjects</small><div class="stat-line"><b>6 / 24</b><span>Chapters</span><b data-streak-stat>—</b><span>Day streak</span></div></div></div></article>
+        <article class="panel recommendation"><div class="recommend-image">☘</div><div><span class="eyebrow">Recommended for you</span><h2>Dravyaguna · Chapter 3</h2><small>Classification of Drugs</small><a class="primary" href="./learn.html">Start learning →</a></div></article>
+        <article class="panel notes" id="notes"><div class="panel-heading"><div><span class="eyebrow">Saved for later</span><h2>Recent notes</h2></div><a href="./notes.html">View all →</a></div><ul class="note-list"><li><span>▤</span><div><strong>Dravyaguna — Important Drugs</strong><small>2 days ago</small></div><b>→</b></li><li><span>▤</span><div><strong>Rachana Sharir — Bone Structure</strong><small>3 days ago</small></div><b>→</b></li><li><span>▤</span><div><strong>Kriya Sharir — Digestive System</strong><small>4 days ago</small></div><b>→</b></li></ul></article>
       </section>
     </main>
   </div>
