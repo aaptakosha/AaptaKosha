@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import json
+import os
 import re
+import sys
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
@@ -13,6 +15,7 @@ from aaptakosha_core.samhita_adapter import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, os.path.join(ROOT, "src"))
 SAMHITA_ROOT = ROOT / "content" / "samhita"
 _CHARAKA_ID = re.compile(r"^charaka\.sutra\.(\d{2})$")
 _SARANGADHARA_ID = re.compile(r"^sarangadhara\.(purva|madhyama|uttara)\.(\d{2})$")
