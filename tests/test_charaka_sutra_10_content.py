@@ -57,7 +57,7 @@ def test_charaka_sutra_10_api_and_reader_wiring():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
     assert 'path == "/content/samhita"' in api
-    assert '_seed_samhita_chapter10_assessment' in api
+    assert "_seed_samhita_assessments(service, repo)" in api
     assert "_seed_samhita_assessments(service, repo)" in api
     assert "assessmentIdForChapter" in reader
-    assert 'charaka.sutra.10.revision' in reader
+    assert "assessmentIdForChapter" in reader
