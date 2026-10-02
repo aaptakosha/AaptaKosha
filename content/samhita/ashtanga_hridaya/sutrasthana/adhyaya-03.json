@@ -266,8 +266,30 @@
     }
   ],
   "tika_status": {
-    "status": "source_mapped",
-    "methodology": "Grouped commentary is preserved by Adhikaraṇa range; no fabricated verse-specific Tika is inserted."
+    "status": "translation_in_progress",
+    "standard": "exact_faithful_hindi_translation_required",
+    "rule": "Each Sarvangasundari and Ayurvedarasayana Adhikarana block must be translated from the complete source commentary text. Summaries, paraphrases, inferred continuations, or reconstructed fragments must not be stored as exact Tika translation.",
+    "phase_1": "Core Samhita content: Sanskrit, Hindi translation, explanation, learning units, study aids.",
+    "phase_2": "Dedicated Tika translation: complete Sarvangasundari and Ayurvedarasayana commentary blocks, preserving Adhikarana/range boundaries.",
+    "source": "Ayana Ayurveda commentary display; e-Vāgbhaṭa remains primary Sanskrit source.",
+    "completed_exact_blocks": [],
+    "pending_blocks": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+    ]
   },
   "passages": [
     {
