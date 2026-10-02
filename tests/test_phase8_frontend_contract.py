@@ -105,7 +105,7 @@ def test_ncism_subject_search_matches_visible_subject_name():
 
 def test_ncism_topic_tree_loads_children_on_demand():
     js = read("curriculum.js")
-    assert 'data-loaded==="true"' in js
+    assert 'button.dataset.loaded==="true"' in js
     assert 'Loading subtopics' in js
     assert 'button.dataset.nodeId' in js
     assert 'node-children' in js
