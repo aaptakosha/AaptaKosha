@@ -75,10 +75,16 @@ async function loadNode(button){
   }
 }
 async function loadHierarchy(button){
- const wrap=button.parentElement.nextElementSibling;
- if(!wrap.hidden)return;
+ const wrap=button.nextElementSibling;
+ if(!wrap)return;
+ if(!wrap.hidden){
+  wrap.hidden=true;
+  button.setAttribute("aria-expanded","false");
+  return;
+ }
  wrap.hidden=false;
  wrap.innerHTML="<div class='hierarchy-loading'>Loading topics…</div>";
+ button.setAttribute("aria-expanded","true");
  try{
   const roots=await fetchHierarchyNodes(button.dataset.curriculum,button.dataset.subject);
   if(!roots.length){
