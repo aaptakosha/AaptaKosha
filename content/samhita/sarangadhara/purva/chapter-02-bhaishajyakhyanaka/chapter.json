@@ -1,0 +1,58 @@
+{
+  "schema_version":"1.0",
+  "text_id":"sarangadhara",
+  "khand_id":"purva",
+  "chapter_number":2,
+  "chapter_id":"purva-02-bhaishajyakhyanaka",
+  "title_sanskrit":"भैषज्याख्यानकम्",
+  "title_roman":"Bhaiṣajyākhyānakam",
+  "canonical_status":"source_reconciled_printed_edition_primary",
+  "chapter_extent":{"printed_dipika":"1-50","wikisource_online_witness":"1-36 with omitted/shifted material"},
+  "source_basis":[
+    {"source":"BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary","role":"primary working printed/annotated witness; confirms Chapter 2 and printed ending at verse 50","pages":"54-61","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/४-शार्ङ्गधरसंहिता-पूर्वखण्डे"},
+    {"source":"Sanskrit Wikisource — Pūrva Khaṇḍa","role":"independent Sanskrit cross-check; useful but incomplete for this chapter","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"},
+    {"source":"TransLiteral — Pūrva Khaṇḍa Chapter 2","role":"secondary Sanskrit witness; likewise omits/renumbers portions","url":"https://www.transliteral.org/pages/z210314210614/view"},
+    {"source":"Chowkhamba Sanskrit Studies, 2001 text/translation catalogue","role":"independent bibliographic witness for Chapter 2","url":"https://books.google.com/books/about/%C5%9A%C4%81r%E1%B9%85gadhara_Sa%E1%B9%83hit%C4%81_of_%C5%9A%C4%81r%E1%B9%85ga.html?id=h-baAAAAMAAJ"}
+  ],
+  "source_reconciliation":{
+    "status":"requires_printed_verse_level_reconciliation_before_canonical_import",
+    "finding":"The web Sanskrit witnesses do not expose the same complete verse sequence as the printed Dīpikā edition. Wikisource jumps from verse 8 to 10 and from 34 to 36; BharatKosha's printed commentary explicitly reaches verse 50 and contains additional material on dravya, guṇa, vīrya, vipāka, prabhāva, ṛtu and doṣa dynamics.",
+    "critical_rule":"Do not fill missing verses by inference or by renumbering a different witness. Preserve source numbering and reconcile the printed Sanskrit before creating final śloka records.",
+    "confirmed_printed_end":"Verse 50 is the kapha-prakopa/prashama conclusion, followed by the Bhaiṣajyākhyānaka colophon.",
+    "commentary_author":"Dr. Brahmānanda Tripāṭhī, Dīpikā commentary and special explanatory notes in the BharatKosha/Chaukhamba witness."
+  },
+  "verified_topic_map":[
+    {"printed_range":"1-12","topic":"औषध-सेवन के पाँच काल; प्रातः, भोजनपूर्व, भोजनमध्य, भोजनान्त/सायं, मुहुर्मुहुः और रात्रि-सेवन के चिकित्सकीय संदर्भ"},
+    {"printed_range":"13-23","topic":"द्रव्य के रस, गुण, वीर्य, विपाक, शक्ति/प्रभाव तथा रस-गुण-वीर्य-विपाक की मूल परिभाषाएँ"},
+    {"printed_range":"24-38","topic":"द्रव्य-प्रधानता, पञ्चमहाभूत-गुण, वीर्य के भेद/लक्षण, विपाक-परिभाषा, प्रभाव और प्रभाव की विशिष्टता"},
+    {"printed_range":"39-43","topic":"ऋतु-षट्क, राशिक्रम और वात-पित्त-कफ के ऋतु-अनुसार संचय-प्रकोप-प्रशमन"},
+    {"printed_range":"44","topic":"यमदंष्ट्रा काल"},
+    {"printed_range":"45-47","topic":"आहार-विहार से दोषों के संचय-प्रकोप-प्रशमन तथा वात-प्रकोप/प्रशमन कारण"},
+    {"printed_range":"48","topic":"पित्त-प्रकोप और प्रशमन कारण"},
+    {"printed_range":"49-50","topic":"कफ-प्रकोप और प्रशमन कारण; अध्याय-समापन"}
+  ],
+  "canonical_source_policy":{
+    "printed_edition_priority":"For final chapter verse records, reconcile the printed Dīpikā Sanskrit sequence first.",
+    "translation":"AaptaKosha Hindi translation will be authored only after the canonical Sanskrit sequence is locked.",
+    "commentary":"Use Dīpikā as source-attributed commentary; do not reproduce published commentary verbatim.",
+    "modern_interpretation":"Keep educational explanations and modern biomedical comparisons separate from the canonical layer."
+  },
+  "learning_units":[
+    {"id":"LU1","range":"1-12","title":"औषध-सेवन के काल"},
+    {"id":"LU2","range":"13-23","title":"द्रव्य के रस-गुण-वीर्य-विपाक-प्रभाव"},
+    {"id":"LU3","range":"24-38","title":"द्रव्य-प्रधानता, वीर्य, विपाक और प्रभाव"},
+    {"id":"LU4","range":"39-44","title":"ऋतुचक्र, दोषचय-प्रकोप और यमदंष्ट्रा"},
+    {"id":"LU5","range":"45-50","title":"दोष-प्रकोप एवं प्रशमन के आहार-विहार कारण"}
+  ],
+  "quality_gates":{
+    "chapter_identity_verified":true,
+    "printed_chapter_end_verified":"50",
+    "colophon_verified":true,
+    "commentary_source_verified":true,
+    "online_witness_discrepancy_recorded":true,
+    "unverified_missing_verses_not_invented":true,
+    "final_canonical_verse_import_blocked_until_printed_sequence_reconciled":true,
+    "one_chapter_one_commit":true
+  },
+  "next_gate":"Reconcile the printed Dīpikā Sanskrit verses 1-50 against the incomplete online witnesses, then the Chapter 2 package can be treated as canonical without guessing."
+}
