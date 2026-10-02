@@ -1,0 +1,88 @@
+{
+  "schema_version":"1.0",
+  "text_id":"sarangadhara",
+  "khand_id":"purva",
+  "chapter_number":7,
+  "chapter_id":"purva-07-rogaganana",
+  "title_sanskrit":"रोगगणना",
+  "title_roman":"Rogagaṇanā",
+  "canonical_status":"source_reconciled_printed_edition_primary",
+  "verse_extent":{"printed_dipika":"1-204","online_compact_witness":"partial"},
+  "chapter_colophon":"इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां पूर्वखण्डे रोगगणना नाम सप्तमोऽध्यायः॥७॥",
+  "sources":[
+    {"name":"BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary","role":"primary printed/annotated witness; pages 98-120; explicitly preserves verse 204 and the Pūrva Khaṇḍa colophon","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/42-%E0%A4%B6%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%A7%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A4%BE-%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%87"},
+    {"name":"Sanskrit Wikisource — Pūrva Khaṇḍa","role":"independent Sanskrit witness; cross-check source for the chapter but not treated as complete where extraction is incomplete","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/पूर्वखण्डम्"}
+  ],
+  "source_reconciliation":{
+    "finding":"The printed Dīpikā witness establishes a very large disease-enumeration chapter of 204 numbered verses. BharatKosha pages 98-120 expose the sequence through verse 204 and the closing colophon.",
+    "important_correction":"This chapter is not a short disease list. It systematically enumerates disease groups and subtypes across fever, diarrhoeal/abdominal disorders, respiratory and wasting disorders, urinary/genital disorders, swellings and hernias, wounds and ulcerative conditions, ophthalmic disorders, gynecological/obstetric disorders, and other complications.",
+    "resolution":"Printed Dīpikā 1-204 is the canonical working extent. The complete verse-level Sanskrit layer should be transcribed from the printed scan in a controlled pass; no missing verses are reconstructed from parallel texts.",
+    "commentary_policy":"The Dīpikā explanatory notes sometimes add modern diagnostic analogies (for example thermometer/temperature discussion and possible modern interpretations of selected diseases). These are commentary, not canonical identifications."
+  },
+  "verified_opening_and_closing":[
+    {"verse":1,"sanskrit":"रोगाणां गणना पूर्वं मुनिभिर्या प्रकीर्तिता । मयात्र प्रोच्यते सैव तद्भेदा बहवो मताः ॥ १ ॥","point":"The author states that the previously taught enumeration of diseases is being presented, while acknowledging many subdivisions."},
+    {"verse":65,"topic":"शोथ-गणना","point":"Nine types of śotha are enumerated: individual doṣas, paired doṣas, sannipāta, trauma and poison."},
+    {"verse":66,"topic":"वृद्धि-गणना","point":"Seven types of vṛddhi are enumerated: vāta, pitta, kapha, rakta, medas, mūtra and antravṛddhi."},
+    {"verse":83,"topic":"शूकरोग-गणना","point":"The chapter continues with a numbered catalogue of penile/urogenital disorders."},
+    {"verse":164,"topic":"तिमिररोग-गणना","point":"Six types of timira are enumerated in the printed witness."},
+    {"verse":180,"topic":"गर्भरोग-गणना","point":"The printed witness introduces eight गर्भजा disorders."},
+    {"verse":204,"sanskrit":"इति प्रसिद्धा गणिता ये किलोपद्रवा भुवि । असङ्ख्याश्चापरे धातुमूलजीवादिसम्भवाः ॥ २०४ ॥","point":"The conclusion distinguishes enumerated well-known disorders from innumerable others arising from dhātu, plant/root and living/non-living sources."}
+  ],
+  "disease_domain_map":[
+    {"range":"1-20","domain":"ज्वर एवं प्रारम्भिक रोग-गणना","examples":["ज्वर के दोषज/सन्निपातज भेद","अभिघातज और अभिषंगज ज्वर"]},
+    {"range":"21-45","domain":"अतिसार, ग्रहणी, प्रवाहिका तथा उदर/अन्नवह रोग","examples":["अतिसार-ग्रहणी-प्रवाहिका","अग्नि/आहार-संबंधित उदर विकार"]},
+    {"range":"46-67","domain":"श्वास-कास, क्षय, उदरगौरव, तृष्णा, आनाह, उरोग्रह, मेदोरोग, शोथ, वृद्धि","examples":["क्षय","आनाह","उरोग्रह","मेदोदोष","शोथ","वृद्धि"]},
+    {"range":"68-105","domain":"घाव, व्रण और शूक/लिङ्ग-संबंधी रोग","examples":["व्रण-भेद","लिङ्ग/शूक रोगों की गणना"]},
+    {"range":"106-145","domain":"त्वचा, मुख, कर्ण, नासिका तथा शिरोरोग","examples":["त्वक्/मुखगत रोग","कर्ण-नासिका-शिरोविकार"]},
+    {"range":"146-176","domain":"नेत्ररोग और दृष्टि-संबंधी गणना","examples":["काच","तिमिर","अन्य नेत्ररोग"]},
+    {"range":"177-191","domain":"योनि और गर्भरोग","examples":["योनिकन्द","गर्भजा गद"]},
+    {"range":"192-204","domain":"अन्य उपद्रव और अध्यायोपसंहार","examples":["प्रसिद्ध उपद्रव","धातु-मूल-जीवादि-सम्भव अन्य रोग"]}
+  ],
+  "commentary_mapping":[
+    {"range":"1-20","coverage":"Dīpikā explains why the chapter enumerates diseases rather than supplying full individual symptom descriptions and adds source references."},
+    {"range":"21-67","coverage":"Dīpikā supplies explanatory disease notes and occasionally modern analogies; these remain attributed commentary."},
+    {"range":"68-105","coverage":"Dīpikā explains wound and urogenital disease terminology; traditional definitions are preserved without forced modern equivalence."},
+    {"range":"106-176","coverage":"Dīpikā explains sensory, head and eye disease categories and cites classical parallels."},
+    {"range":"177-191","coverage":"Dīpikā explains yoni and fetal disease categories, with traditional obstetric terminology."},
+    {"range":"192-204","coverage":"Dīpikā explains the chapter's closing distinction between enumerated and innumerable disorders and the final Pūrva Khaṇḍa colophon."}
+  ],
+  "learning_units":[
+    {"id":"LU1","range":"1-20","title":"रोगगणना और ज्वर-भेद"},
+    {"id":"LU2","range":"21-45","title":"अतिसार, ग्रहणी, प्रवाहिका और उदररोग"},
+    {"id":"LU3","range":"46-67","title":"श्वास-कास, क्षय, शोथ और वृद्धि"},
+    {"id":"LU4","range":"68-105","title":"व्रण और शूक/लिङ्ग रोग"},
+    {"id":"LU5","range":"106-145","title":"त्वचा, मुख, कर्ण, नासिका और शिरोरोग"},
+    {"id":"LU6","range":"146-176","title":"नेत्ररोग और तिमिर"},
+    {"id":"LU7","range":"177-191","title":"योनिकन्द और गर्भरोग"},
+    {"id":"LU8","range":"192-204","title":"अन्य उपद्रव और रोगों की अनन्तता"}
+  ],
+  "assessments":[
+    {"type":"mcq","topic":"रोगगणना","question":"अध्याय 7 का मूल उद्देश्य क्या है?","answer":"रोगों की गणना और उनके अनेक भेदों का संक्षिप्त वर्गीकरण"},
+    {"type":"mcq","topic":"शोथ","question":"शोथ कितने प्रकार का बताया गया है?","answer":"नौ"},
+    {"type":"mcq","topic":"वृद्धि","question":"वृद्धि के कितने प्रकार गिनाये गये हैं?","answer":"सात"},
+    {"type":"short_answer","topic":"ज्वर","question":"ज्वर के दोषज, सन्निपातज, अभिघातज और अभिषंगज वर्गीकरण की संरचना समझाइए।"},
+    {"type":"application","topic":"source criticism","question":"किसी शास्त्रीय रोग-नाम को आधुनिक रोग के साथ समान मानने से पहले किन स्रोत और परिभाषात्मक सावधानियों की आवश्यकता है?"},
+    {"type":"short_answer","topic":"chapter conclusion","question":"श्लोक 204 में प्रसिद्ध/गणित रोगों और असंख्य अन्य रोगों के बीच क्या भेद किया गया है?"}
+  ],
+  "canonical_import_plan":{
+    "step_1":"Transcribe printed Sanskrit verses 1-204 directly from the verified BharatKosha scans.",
+    "step_2":"Cross-check the Sanskrit sequence against Wikisource where both witnesses are available.",
+    "step_3":"Preserve the printed disease-category numbering and do not modernize disease names in the canonical layer.",
+    "step_4":"Create Hindi translation and student explanations only after canonical Sanskrit locking.",
+    "step_5":"Map Dīpikā explanations separately, especially where the commentary proposes modern analogies.",
+    "step_6":"Run chapter-level Sanskrit, translation, commentary, assessment and reader regression tests."
+  },
+  "quality_gates":{
+    "chapter_identity_verified":true,
+    "printed_extent_verified":"1-204",
+    "opening_verse_verified":true,
+    "closing_verse_204_verified":true,
+    "colophon_verified":true,
+    "disease_domain_map_present":true,
+    "commentary_separated_from_canonical_layer":true,
+    "modern_diagnostic_analogies_not_promoted_to_canonical_fact":true,
+    "fabricated_missing_verses_avoided":true,
+    "one_chapter_one_commit":true,
+    "full_verse_transcription":"pending controlled printed-scan transcription"
+  }
+}
