@@ -132,4 +132,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 ### Śārṅgadhara Saṃhitā — Uttara Khaṇḍa
 - [x] Uttara Khaṇḍa chapter registry/source sequence verified: 13 chapters.
 - [x] Chapter 1 — Snehapānavidhi researched and source-reconciled; primary online witness 1–33; printed Dīpikā witness 1–35 discrepancy preserved.
-- [ ] Chapters 2–13 pending research-first ingestion.
+- [x] Uttara Khaṇḍa Chapter 2 — Svedavidhi researched/source-reconciled; primary and printed witness 1–35; full primary Sanskrit transcription added.
+- [ ] Chapters 3–13 pending research-first ingestion.

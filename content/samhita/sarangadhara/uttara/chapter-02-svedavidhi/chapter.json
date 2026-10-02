@@ -1,0 +1,352 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "uttara",
+  "chapter_number": 2,
+  "chapter_id": "uttara-02-svedavidhi",
+  "title_sanskrit": "स्वेदविधि",
+  "title_roman": "Svedavidhi",
+  "canonical_status": "verified",
+  "verse_extent": {
+    "verified": "1-35",
+    "primary_online_witness": "1-35",
+    "printed_dipika_witness": "1-35"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायामुत्तरखण्डे स्वेदविधिर्नाम द्वितीयोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Uttara Khaṇḍa",
+      "role": "primary Sanskrit witness; complete 35-verse chapter and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/उत्तरखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā",
+      "role": "printed witness with Hindi Dīpikā; chapter page 252 and continuation pages",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/252"
+    },
+    {
+      "name": "Śabdakalpadruma / Wikisource",
+      "role": "independent lexicographic witness quoting the opening Svedavidhi verses",
+      "url": "https://sa.wikisource.org/wiki/शब्दकल्पद्रुमः/स्वर्गलोकेशः"
+    }
+  ],
+  "canonical_sanskrit": [
+    {
+      "verse": 1,
+      "text": "स्वेदश्चतुर्विधः प्रोक्तस्तापोष्मौ स्वेदसंज्ञितौ । उपनाहो द्रवः स्वेदः सर्वे वातार्त्तिहारिणः ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "स्वेदौ तापोष्मजौ प्रायःश्लेष्मघ्नौ समुदीरितौ । उपनाहस्तु वातघ्नः पित्तसङ्गे द्रवो हितः ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "महाबले महाव्याधौ शीते स्वेदो महान्स्मृतः । दुर्बले दुर्बलः स्वेदो मध्ये मध्यतमो मतः ॥ ३ ॥"
+    },
+    {
+      "verse": 4,
+      "text": "बलासे रूक्षणः स्वेदो रूक्षस्निग्धः कफानिले । कफमेदावृते वाते कोष्णं गेहं रवेः करान् ॥ ४ ॥"
+    },
+    {
+      "verse": 5,
+      "text": "नियुद्धं मार्गगमनं गुरुप्रावरणं ध्रुवम् । चिन्ताव्यायामभाराश्च सेवेतामयमुक्तये ॥ ५ ॥"
+    },
+    {
+      "verse": 6,
+      "text": "येषां नस्यं विधातव्यं वस्तिश्चापि हि देहिनाम् । शोधनीयाश्च ये केचित्पूर्वं स्वेद्याश्च ते मताः ॥ ६ ॥"
+    },
+    {
+      "verse": 7,
+      "text": "स्वेद्याः पूर्वं त्रयः प्लीहभगन्दर्यर्शसस्तथा । अश्मर्यश्चातुरो जन्तुः समये शस्त्रकर्मणः ॥ ७ ॥"
+    },
+    {
+      "verse": 8,
+      "text": "पश्चात्स्वेद्या गते शल्ये मूढगर्भगदे तथा । काले प्रजाताऽकाले वा पश्चात्स्वेद्या नितम्बिनी ॥ ८ ॥"
+    },
+    {
+      "verse": 9,
+      "text": "सर्वान्स्वेद्यान्निवाते च जीर्णाहारे च कारयेत् ॥ ९ ॥"
+    },
+    {
+      "verse": 10,
+      "text": "स्वेदाद्धातुस्थिता दोषाः स्नेहक्लिन्नस्य देहिनः । द्रवत्वं प्राप्य कोष्ठान्तर्गता यान्ति विरेचताम् ॥ १० ॥"
+    },
+    {
+      "verse": 11,
+      "text": "स्विद्यमानशरीरस्य हृदयं शीतलैः स्पृशेत् । स्नेहाभ्यक्तशरीरस्य शीतैराच्छाद्य चक्षुषी ॥ ११ ॥"
+    },
+    {
+      "verse": 12,
+      "text": "अजीर्णी दुर्बलो मेही क्षतक्षीणः पिपासितः । अतिसारी रक्तपित्ती पाण्डुरोगी तथोदरी ॥ १२ ॥"
+    },
+    {
+      "verse": 13,
+      "text": "मदार्त्तो गर्भिणी चैव न हि स्वेद्या विजानता । एतानपि मृदुस्वेदैः स्वेदसाध्यानुपाचरेत् ॥ १३ ॥"
+    },
+    {
+      "verse": 14,
+      "text": "मृदुस्वेदं प्रयुञ्जीत तथा हृन्मुष्कदृष्टिषु ॥ १४ ॥"
+    },
+    {
+      "verse": 15,
+      "text": "अतिस्वेदात् सन्धिपीडा दाहस्तृष्णा क्लमो भ्रमः । पित्तासृक्पिटिकाकोपस्तत्र शीतैरुपाचरेत् ॥ १५ ॥"
+    },
+    {
+      "verse": 16,
+      "text": "तेषु तापाभिधः स्वेदो वालुकावस्त्रपाणिभिः । कपालकन्दुकाङ्गारैर्यथायोग्यं प्रयुज्यते ॥ १६ ॥"
+    },
+    {
+      "verse": 17,
+      "text": "ऊष्मस्वेदः प्रयोक्तव्यो लोहपिण्डेष्टकाश्मभिः । प्रतप्तैरम्लसिक्तैश्च कार्ये रल्लकवेष्टिते ॥ १७ ॥"
+    },
+    {
+      "verse": 18,
+      "text": "अथवा वातनिर्णाशिद्रव्यक्वाथरसादिभिः । उष्णैर्घटं पूरयित्वा पार्श्वे छिद्रं निधाय च । विमुद्र्य त्रिखण्डां च धातुजां काष्ठवंशजाम् । षडङ्गुलास्यां गोपुच्छां नलिकां युञ्ज्याद् द्विहस्तिकाम् ॥ १८ ॥"
+    },
+    {
+      "verse": 19,
+      "text": "सुखोपविष्टं स्वभ्यक्तं गुरुप्रावरणावृतम् । हस्तिशुण्डिकया नाड्या स्वेदयेद्वातरोगिणम् ॥ १९ ॥"
+    },
+    {
+      "verse": 20,
+      "text": "पुरुषायाममात्रां वा भूमिमुत्कीर्य खादिरैः । काष्ठैर्दग्ध्वा तथाऽभ्युक्ष्य क्षीरधान्याम्लवारिभिः ॥ २० ॥"
+    },
+    {
+      "verse": 21,
+      "text": "वातघ्नपत्रैराच्छाद्य शयानं स्वेदयेन्नरम् । एवं माषादिभिः स्विन्नैः शयानं स्वेदमाचरेत् ॥ २१ ॥"
+    },
+    {
+      "verse": 22,
+      "text": "अथोपनाहस्वेदं च कुर्याद्वातहरौषधैः । प्रदिह्य देहं वातार्त्तं क्षीरमांसरसान्वितैः । अम्लपिष्टैः सलवणैः सुखोष्णैः स्नेहसंयुतैः ॥ २२ ॥"
+    },
+    {
+      "verse": 23,
+      "text": "उपग्राम्यानूपमांसैर्जीवनीयगणेन च ॥ २३ ॥"
+    },
+    {
+      "verse": 24,
+      "text": "दधिसौवीरकक्षारैर्वीरतर्वादिना तथा । कुलत्थमाषगोधूमैरतसीतिलसर्षपैः ॥ २४ ॥"
+    },
+    {
+      "verse": 25,
+      "text": "शतपुष्पादेवदारुशेफालीस्थूलजीरकैः । एरण्डमूलबीजैश्च रास्नामूलकशिग्रुभिः ॥ २५ ॥"
+    },
+    {
+      "verse": 26,
+      "text": "मिशिकृष्णाकुठेरैश्च लवणैरम्लसंयुतैः । प्रसारिण्यश्वगन्धाभ्यां बलाभिर्दशमूलकैः ॥ २६ ॥"
+    },
+    {
+      "verse": 27,
+      "text": "गुडूचीवानरीबीजैर्यथालाभं समाहृतैः । क्षुण्णैः स्विन्नैश्च वस्त्रेण बद्धैः संस्वेदयेन्नरम् ॥ २७ ॥"
+    },
+    {
+      "verse": 28,
+      "text": "द्रवस्वेदस्तु वातघ्नद्रव्यक्वाथेन पूरिते । कटाहे कोष्ठके वाऽपि सूपविष्टोऽवगाहयेत् ॥ २८ ॥"
+    },
+    {
+      "verse": 29,
+      "text": "नाभेः षडङ्गुलं यावन्मग्नः क्वाथस्य धारया ॥ २९ ॥"
+    },
+    {
+      "verse": 30,
+      "text": "कोष्णया स्कन्धयोः सिक्तस्तिष्ठेत्स्निग्धतनुर्नरः । एवं तैलेन दुग्धेन सर्पिषा स्वेदयेन्नरम् ॥ ३० ॥"
+    },
+    {
+      "verse": 31,
+      "text": "एकान्तरे द्व्यन्तरे वा स्नेहो युक्तोऽवगाहने ॥ ३१ ॥"
+    },
+    {
+      "verse": 32,
+      "text": "शिरामुखैर्लोमकूपैर्धमनीभिश्च तर्पयेत् । शरीरे बलमाधत्ते युक्तः स्नेहोऽवगाहने ॥ ३२ ॥"
+    },
+    {
+      "verse": 33,
+      "text": "जलसिक्तस्य वर्धन्ते यथा मूलेऽङ्कुरास्तरोः । तथा धातुविवृद्धिर्हि स्नेहसिक्तस्य जायते । नातः परतरः कश्चिदुपायो वातनाशनः ॥ ३३ ॥"
+    },
+    {
+      "verse": 34,
+      "text": "शीतशूलाद्युपरमे स्तम्भगौरवनिग्रहे । दीप्ताग्नौ मार्दवे जाते स्वेदनाद्विरतिर्मता ॥ ३४ ॥"
+    },
+    {
+      "verse": 35,
+      "text": "सम्यक् स्विन्नं विमृदितं स्नानमुष्णाम्बुभिः शनैः । भोजयेच्चानभिष्यन्दि व्यायामं च न कारयेत् ॥ ३५ ॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource presents a continuous 35-verse Svedavidhi chapter followed by the colophon. BharatKosha's Dīpikā page confirms the same chapter and explains its opening classification, indications and procedural distinctions.",
+    "key_points": [
+      "Four principal sweda classes: tāpa, ūṣma, upanāha and drava.",
+      "Swedana intensity is described in relation to patient strength, disease strength and season.",
+      "The chapter distinguishes persons to be swedana-treated before, both before and after, and after specified procedures.",
+      "It describes contraindications, mild swedana areas, signs of excessive swedana, and the four named modalities.",
+      "The chapter closes with signs for stopping swedana and post-swedana regimen."
+    ],
+    "commentary_note": "Dīpikā explanations and modern educational interpretation remain separate from the canonical Sanskrit layer.",
+    "safety_note": "This chapter contains classical therapeutic procedures, heating methods and treatment-selection rules. It is preserved for historical/classical BAMS education and should not be treated as modern unsupervised procedural guidance."
+  },
+  "topic_map": [
+    {
+      "range": "1-5",
+      "topic": "स्वेद के चार भेद, दोषानुसार प्रयोग और स्वेद की तीव्रता"
+    },
+    {
+      "range": "6-11",
+      "topic": "पूर्व/उभयतः/पश्चात् स्वेद्य, स्वेदकाल, फल और सुरक्षा"
+    },
+    {
+      "range": "12-15",
+      "topic": "स्वेदानर्ह व्यक्ति, मृदुस्वेद और अतिस्वेद के लक्षण"
+    },
+    {
+      "range": "16-21",
+      "topic": "ताप एवं ऊष्म स्वेद के पारंपरिक प्रकार"
+    },
+    {
+      "range": "22-27",
+      "topic": "उपनाह तथा महाशाल्वण स्वेद"
+    },
+    {
+      "range": "28-33",
+      "topic": "द्रवस्वेद, अवगाहन और स्नेहावगाहन"
+    },
+    {
+      "range": "34-35",
+      "topic": "स्वेदन रोकने के लक्षण और स्वेदनानन्तर आचार"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-5",
+      "summary": "अध्याय स्वेद के चार मुख्य भेदों और वात-कफ-पित्त के संदर्भ में उनके पारंपरिक प्रयोग तथा रोगी-बलानुसार स्वेदन की तीव्रता बताता है।"
+    },
+    {
+      "range": "6-11",
+      "summary": "कुछ व्यक्तियों/कर्मों में स्वेदन पहले, दोनों ओर या बाद में करने का वर्णन है; स्वेद का समय, फल और स्वेदित शरीर की रक्षा भी बताई गई है।"
+    },
+    {
+      "range": "12-15",
+      "summary": "स्वेद के लिए अनुपयुक्त अवस्थाएँ, मृदु स्वेद के क्षेत्र तथा अतिस्वेद के लक्षणों का वर्णन मिलता है।"
+    },
+    {
+      "range": "16-21",
+      "summary": "ताप और ऊष्म स्वेद के कई पारंपरिक रूप तथा वातरोग में उनके प्रयोग का वर्णन है।"
+    },
+    {
+      "range": "22-27",
+      "summary": "उपनाह और महाशाल्वण स्वेद में प्रयुक्त द्रव्य-समूहों का शास्त्रीय वर्णन है।"
+    },
+    {
+      "range": "28-33",
+      "summary": "द्रवस्वेद, अवगाहन तथा स्नेहयुक्त अवगाहन के पारंपरिक वर्णन और फल दिए गए हैं।"
+    },
+    {
+      "range": "34-35",
+      "summary": "जब शीत-शूल आदि शांत हों, जठराग्नि प्रदीप्त हो और शरीर में अपेक्षित मार्दव आ जाए तो स्वेदन रोकने तथा बाद की देखभाल का निर्देश है।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-5",
+      "coverage": "Dīpikā explains the four sweda categories, dosha-oriented use and strength-based intensity."
+    },
+    {
+      "range": "6-11",
+      "coverage": "Dīpikā explains sequencing around nasya, basti, śodhana and surgical contexts and the protective measures."
+    },
+    {
+      "range": "12-15",
+      "coverage": "Dīpikā explains the traditional contraindications, mild-swedana areas and complications of excessive swedana."
+    },
+    {
+      "range": "16-21",
+      "coverage": "Dīpikā gives explanatory context for tāpa and ūṣma procedures."
+    },
+    {
+      "range": "22-27",
+      "coverage": "Dīpikā explains upanāha and the Mahāśālvaṇa ingredient group."
+    },
+    {
+      "range": "28-33",
+      "coverage": "Dīpikā explains drava-swedana, avagāhana and the traditional rationale for snehā-svedana."
+    },
+    {
+      "range": "34-35",
+      "coverage": "Dīpikā explains stopping criteria and post-swedana care."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-5",
+      "title": "स्वेद के भेद और दोषानुसार प्रयोग"
+    },
+    {
+      "id": "LU2",
+      "range": "6-11",
+      "title": "स्वेद्य व्यक्ति, काल और फल"
+    },
+    {
+      "id": "LU3",
+      "range": "12-15",
+      "title": "स्वेदानर्हता और अतिस्वेद"
+    },
+    {
+      "id": "LU4",
+      "range": "16-21",
+      "title": "ताप एवं ऊष्म स्वेद"
+    },
+    {
+      "id": "LU5",
+      "range": "22-27",
+      "title": "उपनाह एवं महाशाल्वण स्वेद"
+    },
+    {
+      "id": "LU6",
+      "range": "28-33",
+      "title": "द्रवस्वेद एवं अवगाहन"
+    },
+    {
+      "id": "LU7",
+      "range": "34-35",
+      "title": "स्वेदन की समाप्ति और पश्चात्कर्म"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "स्वेद के चार मुख्य भेद कौन-से बताए गए हैं?",
+      "answer": "ताप, ऊष्म, उपनाह और द्रव"
+    },
+    {
+      "type": "short_answer",
+      "question": "रोगी-बल, रोग-बल और ऋतु के आधार पर स्वेदन की तीव्रता कैसे निर्धारित की गई है?"
+    },
+    {
+      "type": "short_answer",
+      "question": "स्वेदानर्ह अवस्थाओं और मृदुस्वेद की आवश्यकता वाले क्षेत्रों का सार लिखिए।"
+    },
+    {
+      "type": "mcq",
+      "question": "स्वेद के अत्यधिक प्रयोग से कौन-से लक्षण उत्पन्न होने का वर्णन है?",
+      "answer": "सन्धिपीड़ा, दाह, तृष्णा, क्लम, भ्रम तथा पित्त/रक्त सम्बन्धी विकार"
+    },
+    {
+      "type": "source_criticism",
+      "question": "स्वेदविधि के शास्त्रीय procedural descriptions को आधुनिक clinical procedure के रूप में प्रस्तुत करते समय canonical text और commentary/modern safety layer को कैसे अलग रखना चाहिए?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-35",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "canonical_full_verse_transcription": "complete for primary online witness 1-35",
+    "commentary_separated_from_canonical_layer": true,
+    "no_fabricated_missing_verses": true,
+    "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
+    "safety_note_present": true,
+    "one_chapter_one_commit": true
+  }
+}
