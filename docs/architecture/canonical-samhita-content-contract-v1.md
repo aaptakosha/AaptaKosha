@@ -62,3 +62,19 @@ The same pattern applies to Ashtanga Hridaya, Madhava Nidana and future texts.
 Existing chapter packages do not need to be rewritten in one risky batch. Adapters may read legacy packages and emit this canonical representation. New content must be authored directly against v1.
 
 The JSON Schema is authoritative for shape; semantic validation is additionally required for sequence, reference resolution and quality gates.
+
+## Visual learning layer
+
+Learning units may include optional structured `visual_aids`. These are part of the canonical content contract so visual teaching remains portable across chapter renderers.
+
+### When to use which visual
+
+- **`comparison_table`** — differences, similarities, indications, properties, classifications, do/don't lists, or exam-oriented contrasts.
+- **`process_flow`** — sequential procedures, diagnostic reasoning, preparation steps, therapeutic sequences, or cause → effect progression.
+- **`concept_map`** — relationships among a central concept, categories, attributes, and linked ideas.
+
+### Authoring rule
+
+Prefer a visual aid when it makes a relationship easier to understand than prose alone. Keep the Sanskrit/source text canonical and put explanatory teaching content in the visual layer. Visuals must reference the relevant verse IDs where applicable; they must not silently introduce unsupported facts.
+
+For student usability, comparison tables should use short cell text, process flows should use numbered steps, and concept maps should use concise node labels. On mobile, tables must remain horizontally readable rather than collapsing into ambiguous text.
