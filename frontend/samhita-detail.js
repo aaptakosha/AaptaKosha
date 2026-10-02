@@ -14,9 +14,10 @@ sections:[
 ]},
 'ashtanga-hridaya':{
 name:"Ashtanga Hridaya",category:"Brihattrayi",relevance:"1, 2, 3",
-subtitle:"Select a Sthana to move from the library structure into chapter-level study.",
+subtitle:"Select a Sthana, then open its verified chapter content. Sūtrasthāna is organised into its 30 canonical chapters.",
 sections:[
-["Sūtrasthāna","Sūtrasthāna","sutra",null],["Śārīrasthāna","Śārīrasthāna","sharira",null],["Nidānasthāna","Nidānasthāna","nidana",null],["Cikitsāsthāna","Cikitsāsthāna","chikitsa",null],["Kalpasiddhisthāna","Kalpa-Siddhi Sthāna","kalpasiddhi",null],["Uttarasthāna","Uttara Sthāna","uttara",null]
+["Sūtrasthāna","Sūtrasthāna","sutra",[["01","आयुष्कामीय"],["02","दिनचर्या"],["03","ऋतुचर्या"],["04","रोगानुत्पादनीय"],["05","द्रवद्रव्यविज्ञानीय"],["06","अन्नस्वरूपविज्ञानीय"],["07","अन्नरक्षा"],["08","मात्राशितीय"],["09","द्रव्यादिविज्ञानीय"],["10","रसभेदीय"],["11","दोषादिविज्ञानीय"],["12","दोषभेदीय"],["13","दोषोपक्रमणीय"],["14","द्विविधोपक्रमणीय"],["15","शोधनादिगणसंग्रह"],["16","स्नेहविधि"],["17","स्वेदविधि"],["18","वमनविरेचनविधि"],["19","वस्तिविधि"],["20","नस्यविधि"],["21","धूमविधि"],["22","गण्डूषादिविधि"],["23","आश्चोतनाञ्जनविधि"],["24","तर्पणपुटपाकविधि"],["25","यन्त्रविधि"],["26","शस्त्रविधि"],["27","शिराव्यधविधि"],["28","शल्याहरणविधि"],["29","शस्त्रकर्मविधि"],["30","क्षाराग्निकर्मविधि"]]],
+["Śārīrasthāna","Śārīrasthāna","sharira",null],["Nidānasthāna","Nidānasthāna","nidana",null],["Cikitsāsthāna","Cikitsāsthāna","chikitsa",null],["Kalpasiddhisthāna","Kalpa-Siddhi Sthāna","kalpasiddhi",null],["Uttarasthāna","Uttara Sthāna","uttara",null]
 ]},
 'ashtanga-sangraha':{
 name:"Ashtanga Sangraha",category:"Other major classical",relevance:"1",
@@ -74,6 +75,7 @@ function render(){
      let href="";
      if(slug==="charaka") href='./samhita-study.html?chapter=charaka.'+s[2]+'.'+c[0];
      else if(slug==="sharangadhara") href='./samhita-study.html?chapter=sarangadhara.'+s[2]+'.'+c[0];
+     else if(slug==="ashtanga-hridaya" && s[2]==="sutra") href='./samhita-study.html?chapter=ashtanga.hridaya.sutra.'+c[0];
      return '<a class="chapter-link" href="'+href+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>';
    }).join(""):'<div class="chapter-empty">Chapter-level content will appear here as its verified source content is added. The section structure is already separated for easy expansion.</div>';
    return '<article class="sthana-card"><div class="sthana-head"><span class="sthana-number">'+String(i+1).padStart(2,"0")+'</span><div><h2>'+s[0]+'</h2><p class="sthana-english">'+s[1]+'</p></div></div>'+ (chapters.length?'<div class="chapter-list">'+links+'</div>':links)+'<span class="sthana-badge">'+(chapters.length?chapters.length+' chapters available':'section ready')+'</span></article>';
