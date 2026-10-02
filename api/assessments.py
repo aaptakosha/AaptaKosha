@@ -40,9 +40,9 @@ def _load_samhita(content_id: str):
             return None
         path = os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
     else:
-        if chapter_no != 1:
+        if chapter_no not in {1, 2}:
             return None
-        path = os.path.join(CONTENT_ROOT, "ashtanga_hridaya", "sutrasthana", "adhyaya-01.json")
+        path = os.path.join(CONTENT_ROOT, "ashtanga_hridaya", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
     if not os.path.exists(path):
         return None
     with open(path, encoding="utf-8") as fh:
