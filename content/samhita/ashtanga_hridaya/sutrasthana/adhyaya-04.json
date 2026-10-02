@@ -184,7 +184,9 @@
       "sanskrit_original": "पीनसाक्षिशिरोहृद्रुनन्यास्तम्भा रुचिभ्रमाः । सगुल्मा बाष्पतस्तत्र स्वप्नो मद्यं प्रियाः कथाः ॥ १६ ॥",
       "hindi_translation": "आँसू रोकने से पीनस, नेत्र, सिर और हृदय-विकार, गर्दन का जकड़ना, अरुचि और भ्रम हो सकते हैं; वहाँ निद्रा, मद्य और प्रिय वार्ता बताए गए हैं।",
       "hindi_explanation": "आँसू के दमन में शारीरिक और मानसिक दोनों पक्षों पर ध्यान दिया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t16",
+      "tika_ayurvedarasayana_block_id": "ah4-t16"
     },
     {
       "id": "ah-s4-v17",
@@ -193,7 +195,9 @@
       "sanskrit_original": "विसर्पकोठकुष्ठाक्षिकण्डूपाण्ड्वामयज्वराः । सकासश्वासहृल्लासव्यङ्गश्वयथवो वमेः ॥ १७ ॥",
       "hindi_translation": "वमन रोकने से विसर्प, कोठ, कुष्ठ, नेत्रकण्डू, पाण्डु, ज्वर, खाँसी, श्वास, हृल्लास, व्यंग और शोफ हो सकते हैं।",
       "hindi_explanation": "वमन को शरीर की निकासी-क्रिया मानकर उसके दमन से अनेक कफ-पित्तजन्य विकार बताए गए हैं।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t17",
+      "tika_ayurvedarasayana_block_id": "ah4-t17"
     },
     {
       "id": "ah-s4-v18",
@@ -202,7 +206,9 @@
       "sanskrit_original": "गण्डूषधूमानाहारा रूक्षं भुक्त्वा तदुद्वमः । व्यायामः स्रुतिरस्रस्य शस्तं चात्र विरेचनम् ॥ १८ ॥",
       "hindi_translation": "वमन रोकने में गण्डूष, धूम, आहार, रूक्ष भोजन के बाद वमन, व्यायाम, रक्तस्रवण और विरेचन उपयोगी बताए गए हैं।",
       "hindi_explanation": "उपचार में कफ-पित्तहर और शोधनात्मक उपायों का संयोजन है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t18",
+      "tika_ayurvedarasayana_block_id": "ah4-t18"
     },
     {
       "id": "ah-s4-v19",
@@ -211,7 +217,9 @@
       "sanskrit_original": "सक्षारलवणं तैलमभ्यङ्गार्थं च शस्यते । शुक्रात्तत्स्रवणं गुह्यवेदनाश्वयथुज्वराः ॥ १९ ॥",
       "hindi_translation": "वीर्यवेग रोकने में क्षार-लवणयुक्त तैल से अभ्यंग हितकर है; इससे शुक्र-संबंधी विकार, गुह्यवेदना, शोफ और ज्वर हो सकते हैं।",
       "hindi_explanation": "शुक्रवेगधारण के उपचार में स्नेहन और वातानुलोमन की प्रधानता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t18",
+      "tika_ayurvedarasayana_block_id": "ah4-t18"
     },
     {
       "id": "ah-s4-v20",
@@ -220,7 +228,9 @@
       "sanskrit_original": "हृद्व्यथामूत्रसङ्गाङ्गभङ्गवृद्ध्यश्मषण्ढताः । ताम्रचूडसुराशालिवस्त्यभ्यङ्गावगाहनम् ॥ २० ॥",
       "hindi_translation": "शुक्रवेगधारण से हृदय-वेदना, मूत्रसंग, अंगभंग, वृद्धि, अश्मरी और नपुंसकता हो सकती है; बस्ति, अभ्यंग और अवगाह जैसे उपाय बताए गए हैं।",
       "hindi_explanation": "यह श्लोक जनन-मूत्र मार्ग और वातविकारों के बीच संबंध को दर्शाता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t19",
+      "tika_ayurvedarasayana_block_id": "ah4-t19"
     },
     {
       "id": "ah-s4-v21",
@@ -229,7 +239,9 @@
       "sanskrit_original": "बस्तिशुद्धिकरैः सिद्धं भजेत्क्षीरं प्रियाः स्त्रियः । तृट्शूलार्तं त्यजेत्क्षीणं विड्वमं वेगरोधिनम् ॥ २१ ॥",
       "hindi_translation": "बस्तिशोधनकारी द्रव्यों से सिद्ध दूध और प्रिय स्त्री का सहवास बताए गए हैं; पर तृष्णा-शूल से पीड़ित, क्षीण या मलवमन करने वाले वेगरोधी रोगी को छोड़ देना चाहिए।",
       "hindi_explanation": "यहाँ उपचार के साथ रोगी की साध्यता और बल का विचार भी आवश्यक बताया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t21",
+      "tika_ayurvedarasayana_block_id": "ah4-t21"
     },
     {
       "id": "ah-s4-v22",
@@ -238,7 +250,9 @@
       "sanskrit_original": "रोगाः सर्वेऽपि जायन्ते वेगोदीरणधारणैः । निर्दिष्टं साधनं तत्र भूयिष्ठं ये तु तान् प्रति ॥ २२ ॥",
       "hindi_translation": "अनुत्पन्न वेगों को बलपूर्वक उत्पन्न करने और उत्पन्न वेगों को रोकने से सभी प्रकार के रोग उत्पन्न हो सकते हैं; इनके लिए पूर्वोक्त साधन बताए गए हैं।",
       "hindi_explanation": "अध्याय का वेग-सिद्धान्त केवल धारण नहीं, वेगोदीरण पर भी लागू होता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t22",
+      "tika_ayurvedarasayana_block_id": "ah4-t22"
     },
     {
       "id": "ah-s4-v23",
@@ -247,7 +261,9 @@
       "sanskrit_original": "ततश्चानेकधा प्रायः पवनो यत्प्रकुप्यति । अन्नपानौषधं तस्य युञ्जीतातोऽनुलोमनम् ॥ २३ ॥",
       "hindi_translation": "इन कारणों से वात अनेक प्रकार से कुपित होता है; इसलिए अनुलोमन करने वाले उचित अन्न, पेय और औषध का प्रयोग करना चाहिए।",
       "hindi_explanation": "वातानुलोमन को वेग-संबंधी विकारों का केंद्रीय चिकित्सकीय सिद्धान्त बनाया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t23",
+      "tika_ayurvedarasayana_block_id": "ah4-t23"
     },
     {
       "id": "ah-s4-v24",
@@ -256,7 +272,9 @@
       "sanskrit_original": "धारयेत्तु सदा वेगान् हितैषी प्रेत्य चेह च । लोभेर्ष्याद्वेषमात्सर्यरागादीनां जितेन्द्रियः ॥ २४ ॥",
       "hindi_translation": "हित चाहने वाले व्यक्ति को लोभ, ईर्ष्या, द्वेष, मत्सर और राग आदि मानसिक आवेगों पर इन्द्रिय-संयम रखना चाहिए।",
       "hindi_explanation": "शारीरिक प्राकृतिक वेगों के बाद अध्याय मानसिक आवेगों के संयम की ओर बढ़ता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t24",
+      "tika_ayurvedarasayana_block_id": "ah4-t24"
     },
     {
       "id": "ah-s4-v25",
@@ -265,7 +283,9 @@
       "sanskrit_original": "यतेत च यथाकालं मलानां शोधनं प्रति । अत्यर्थसञ्चितास्ते हि क्रुद्धाः स्युर्जीवितच्छिदः ॥ २५ ॥",
       "hindi_translation": "समय आने पर मल-दोषों के शोधन का प्रयास करना चाहिए; अत्यधिक संचित और कुपित दोष प्राणघातक हो सकते हैं।",
       "hindi_explanation": "सम्यक् शोधन को रोग-निरोध का महत्वपूर्ण भाग बताया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t25",
+      "tika_ayurvedarasayana_block_id": "ah4-t25"
     },
     {
       "id": "ah-s4-v26",
@@ -274,7 +294,9 @@
       "sanskrit_original": "दोषाः कदाचित्कुप्यन्ति जिता लङ्घनपाचनैः । ये तु संशोधनैः शुद्धा न तेषां पुनरुद्भवः ॥ २६ ॥",
       "hindi_translation": "लङ्घन और पाचन से शांत किए गए दोष फिर कुपित हो सकते हैं, पर शोधन से शुद्ध किए दोषों की पुनरुत्पत्ति नहीं होती।",
       "hindi_explanation": "यह शमन और शोधन के स्थायित्व का तुलनात्मक सिद्धान्त प्रस्तुत करता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t26",
+      "tika_ayurvedarasayana_block_id": "ah4-t26"
     },
     {
       "id": "ah-s4-v27",
@@ -283,7 +305,9 @@
       "sanskrit_original": "यथाक्रमं यथायोगमत ऊर्ध्वं प्रयोजयेत् । रसायनानि सिद्धानि वृष्ययोगांश्च कालवित् ॥ २७ ॥",
       "hindi_translation": "समय और उचित क्रम जानने वाला व्यक्ति आगे सिद्ध रसायन और वृष्य योगों का यथायोग्य प्रयोग करे।",
       "hindi_explanation": "रसायन-वृष्य प्रयोग भी व्यक्ति, काल और क्रम देखकर होना चाहिए।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t27",
+      "tika_ayurvedarasayana_block_id": "ah4-t27"
     },
     {
       "id": "ah-s4-v28",
@@ -292,7 +316,9 @@
       "sanskrit_original": "भेषजक्षपिते पथ्यमाहारैर्बृंहणं क्रमात् । शालिषष्टिकगोधूममुद्गमांसघृतादिभिः ॥ २८ ॥",
       "hindi_translation": "भेषज से क्षीण शरीर में शालि, षष्टिक, गेहूँ, मूंग, मांस और घृत आदि पथ्य आहारों से क्रमशः बृंहण करना चाहिए।",
       "hindi_explanation": "क्षीणता के बाद पोषण अचानक नहीं, क्रमिक रूप से किया जाता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t28",
+      "tika_ayurvedarasayana_block_id": "ah4-t28"
     },
     {
       "id": "ah-s4-v29",
@@ -301,7 +327,9 @@
       "sanskrit_original": "हृद्यदीपनभैषज्यसंयोगाद्रुचिपक्तिदैः । साभ्यङ्गोद्वर्तनस्नाननिरूहस्नेहवस्तिभिः ॥ २९ ॥",
       "hindi_translation": "हृद्य और दीपनीय औषध-संयोग तथा अभ्यंग, उद्वर्तन, स्नान, निरूह और स्नेहबस्ति से पुनर्बलन करना चाहिए।",
       "hindi_explanation": "बृंहण एक समग्र पुनर्वास प्रक्रिया है, केवल भोजन बढ़ाना नहीं।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t28",
+      "tika_ayurvedarasayana_block_id": "ah4-t28"
     },
     {
       "id": "ah-s4-v30",
@@ -310,7 +338,9 @@
       "sanskrit_original": "तथा स लभते शर्म सर्वपावकपाटवम् । धीवर्णेन्द्रियवैमल्यं वृषतां दैर्घ्यमायुषः ॥ ३० ॥",
       "hindi_translation": "इससे सुख, अग्नि की कुशलता, बुद्धि, वर्ण, इन्द्रियों की निर्मलता, वृषता और दीर्घायु प्राप्त होती है।",
       "hindi_explanation": "उचित पुनर्बलन का लक्ष्य बहुआयामी स्वास्थ्य-लाभ है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t29",
+      "tika_ayurvedarasayana_block_id": "ah4-t29"
     },
     {
       "id": "ah-s4-v31",
@@ -513,7 +543,7 @@
     "phase_1": "Core Samhita content",
     "phase_2": "Dedicated exact Sarvangasundari and Ayurvedarasayana translation",
     "pending_blocks": [
-      "ah4-t28 onward"
+      "ah4-t30 onward"
     ],
     "source": "Ayana Ayurveda commentary display for completed blocks; e-Vāgbhaṭa remains primary Sanskrit source.",
     "completed_blocks": [
@@ -543,7 +573,9 @@
       "ah4-t24",
       "ah4-t25",
       "ah4-t26",
-      "ah4-t27"
+      "ah4-t27",
+      "ah4-t28",
+      "ah4-t29"
     ]
   },
   "assessment_id": "ashtanga.hridaya.sutra.04.revision",
@@ -790,6 +822,24 @@
       "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
       "tika_sarvangasundara_hi": "वैद्य को संशोधन के बाद देश, बल, शरीर, आहार, सात्म्य, सत्त्व और प्रकृति आदि को ध्यान में रखकर उपयुक्त समय और क्रम से सिद्ध रसायन तथा वृष्ययोगों का प्रयोग करना चाहिए। ‘यथाक्रम’ से रसायन-वाजीकरण के पूर्वोक्त क्रम का स्मरण कराया गया है।",
       "tika_ayurvedarasayana_hi": "‘कालवित्’ वैद्य है। यहाँ ‘काल’ शब्द देश, बल, शरीर, आहार, सात्म्य, सत्त्व और प्रकृति आदि का भी उपलक्षण है; केवल समय जानना पर्याप्त नहीं। सिद्ध रसायनों को उचित क्रम और उपयुक्त व्यक्ति, देश, काल तथा प्रकृति के अनुसार देना चाहिए; यही बात वृष्ययोगों पर भी लागू होती है।"
+    },
+    {
+      "id": "ah4-t28",
+      "commentary": "both",
+      "source_section": "28–29",
+      "verse_range": "28–29",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "शोधन से कृश हुए व्यक्ति में आहार द्वारा क्रमशः बृंहण करना हितकर है, सहसा नहीं। शालि, षष्टिक, गोधूम, मुद्ग, मांस और घृत आदि से बने आहार दिए जाएँ। हृद्य तथा दीपनीय औषधियों के संयोग से ये आहार रुचि और पाचन उत्पन्न करते हैं; अभ्यंग आदि के साथ तथा निरूह और स्नेहबस्ति के द्वारा भी बृंहण करना चाहिए।",
+      "tika_ayurvedarasayana_hi": "शोधन से क्षीण हुए शरीर में आहार द्वारा बृंहण हितकर है। ‘भेषजक्षपित’ से शोधन द्वारा या अत्यधिक दोष-निर्हरण से कृश हुए व्यक्ति का ग्रहण है। बृंहण बल और अग्नि आदि के अनुसार क्रम से होना चाहिए; हृद्य औषधियों के संयोग से रुचि और दीपनीय द्रव्यों से पाचन समर्थ होता है। स्नेहबस्ति से अनुवासन तथा निरूह-अनुवासन दोनों बृंहण में ग्रहण किए जाते हैं।"
+    },
+    {
+      "id": "ah4-t29",
+      "commentary": "both",
+      "source_section": "30",
+      "verse_range": "30",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "इस प्रकार पहले शोधन, फिर बृंहण और उसके बाद रसायन का प्रयोग करने वाला व्यक्ति स्वास्थ्य प्राप्त करता है। उसे सभी अग्नियों की कार्यक्षमता, बुद्धि और वर्ण की स्पष्टता, इन्द्रियों की निर्मलता, वृषत्व अर्थात् मैथुन-सामर्थ्य तथा आयु की दीर्घता प्राप्त होती है।",
+      "tika_ayurvedarasayana_hi": "शोधन आदि के उचित प्रयोग का फल सुख और स्वास्थ्य है। ‘सर्वपावक’ से जाठराग्नि, भूताग्नि और धात्वग्नि अभिप्रेत हैं; ‘वृषता’ से संभोग-सामर्थ्य और ‘दैर्घ्यमायुषः’ से आयु की वृद्धि समझी जाती है।"
     }
   ]
 }
