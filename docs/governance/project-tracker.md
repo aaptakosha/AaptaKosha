@@ -134,4 +134,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 1 — Snehapānavidhi researched and source-reconciled; primary online witness 1–33; printed Dīpikā witness 1–35 discrepancy preserved.
 - [x] Uttara Khaṇḍa Chapter 2 — Svedavidhi researched/source-reconciled; primary and printed witness 1–35; full primary Sanskrit transcription added.
 - [x] Uttara Khaṇḍa Chapter 3 — Vamanavidhi researched/source-reconciled; online witness has gaps (25→30 and 33→36); printed Dīpikā witness reaches v36; missing verses not fabricated.
-- [ ] Chapters 4–13 pending research-first ingestion.
+- [x] Uttara Khaṇḍa Chapter 4 — Virecanavidhi researched/source-reconciled; primary and printed witness 1–49; full primary Sanskrit transcription added.
+- [ ] Chapters 5–13 pending research-first ingestion.
