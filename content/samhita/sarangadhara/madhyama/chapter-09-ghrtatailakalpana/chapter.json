@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 9,
+  "chapter_id": "madhyama-09-ghrtatailakalpana",
+  "title_sanskrit": "स्नेहकल्पनानाम",
+  "title_roman": "Ghṛtatailakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "verified": "1-210"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे स्नेहकल्पनानाम नवमोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; complete chapter sequence through 210 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Dīpikā Hindi commentary",
+      "role": "printed Chaukhamba Surbharati witness; chapter pages 180 onward",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/घृततैलकल्पना"
+    },
+    {
+      "name": "Parul University scanned Madhyama PDF",
+      "role": "independent scanned witness for printed Sanskrit sequence",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharngadhara_samhita_madhya.pdf"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    [
+      "1",
+      "कल्काच्चतुर्गुणीकृत्य घृतं वा तैलमेव वा । चतुर्गुणे द्रवे साध्यं तस्य मात्रा पलोन्मिता ॥ १ ॥"
+    ],
+    [
+      "2",
+      "निक्षिप्य क्वाथयेत्तोयं क्वाथ्यद्रव्याच्चतुर्गुणम् । पादशिष्टं गृहीत्वा च स्नेहं तेनैव साधयेत् ॥ २ ॥"
+    ],
+    [
+      "3",
+      "चतुर्गुणं मृदुद्रव्ये कठिनेऽष्टगुणं जलम् ।"
+    ],
+    [
+      "7",
+      "दुग्धे दध्नि रसे तक्रे कल्को देयोऽष्टमांशकः । कल्कस्य सम्यक्पाकार्थं तोयमत्र चतुर्गुणम् ॥ ७ ॥"
+    ],
+    [
+      "14",
+      "यदा फेनोद्गमस्तैले फेनशान्तिश्च सर्पिषि । गन्धवर्णरसोत्पत्तिः स्नेहः सिद्धस्तदा भवेत् ॥ १४ ॥"
+    ],
+    [
+      "15",
+      "स्नेहपाकस्त्रिधा प्रोक्तो मृदुर्मध्यः खरस्तथा । ईषत्सरसकल्कस्तु स्नेहपाको मृदुर्भवेत् ॥ १५ ॥"
+    ],
+    [
+      "16",
+      "मध्यपाकस्य सिद्धिश्च कल्के नीरसकोमले । ईषत्कठिनकल्कश्च स्नेहपाको भवेत्खरः । तदूर्ध्वं दग्धपाकः स्याद्दाहकृन्निष्प्रयोजनः ॥ १६ ॥"
+    ],
+    [
+      "18",
+      "नस्यार्थं स्यान्मृदुः पाको मध्यमः सर्वकर्मसु । अभ्यङ्गार्थं खरः प्रोक्तो युञ्ज्यादेवं यथोचितम् ॥ १८ ॥"
+    ],
+    [
+      "19",
+      "घृततैलगुडादींश्च साधयेन्नैकवासरे । प्रकुर्वन्त्युषिता ह्येते विशेषाद् गुणसञ्चयम् ॥ १९ ॥"
+    ],
+    [
+      "24",
+      "शनैः शनैर्विपक्तव्यं चाङ्गेरीघृतमुत्तमम् । तद्घृतं कफवातघ्नं ग्रहण्यर्शोविकारनुत् ॥ २४ ॥"
+    ],
+    [
+      "26",
+      "घृतप्रस्थं पचेत् तेन सर्वार्तीसारनाशनम् । ग्रहणीं भिन्नविट्कं च नाशयेच्च प्रवाहिकाम् ॥ २६ ॥"
+    ],
+    [
+      "35",
+      "कामदेवघृतं नाम हृद्यं बल्यं रसायनम् ।"
+    ],
+    [
+      "36",
+      "ओजस्तेजस्करं हृद्यमायुष्यं प्राणवर्धनम् । संवर्धयति शुक्रं हि पुरुषं दुर्बलेन्द्रियम् ॥ ३६ ॥"
+    ],
+    [
+      "73",
+      "उत्पलोशीरमेदाभिस्त्रिफलापञ्चवल्कलैः । कल्कैः कर्षमितैरेतैर्घृतप्रस्थं विपाचयेत् ॥ ७३ ॥"
+    ],
+    [
+      "74",
+      "विसर्पलूताविस्फोटविषकीटव्रणापहम् । गौराद्यमिति विख्यातं सर्पिर्विषहरं परम् ॥ ७४ ॥"
+    ],
+    [
+      "92",
+      "अरिष्टो दशमूलाख्यस्तेजः शुक्रबलप्रदः ॥ ९२ ॥"
+    ],
+    [
+      "93",
+      "लाक्षाढकं क्वाथयित्वा जलस्य चतुराढकैः । चतुर्थांशं शृतं नीत्वा तैलप्रस्थे विनिक्षिपेत् ॥ ९३ ॥"
+    ],
+    [
+      "150",
+      "विषं चार्धपलं देयं प्रस्थं च कटुतैलकम् ।"
+    ],
+    [
+      "151",
+      "गोमूत्रं द्विगुणं दद्याज्जलं च द्विगुणं भवेत् । मरिचाद्यमिदं तैलं सिद्धं कुष्ठहरं परम् ॥ १५१ ॥"
+    ],
+    [
+      "158",
+      "नीलिका केतकीकन्दं भृङ्गराजः कुरण्टकः । तथाऽर्जुनस्य पुष्पाणि बीजकात्कुसुमान्यपि ॥ १५८ ॥"
+    ],
+    [
+      "166",
+      "पतङ्गधातकीपुष्पसूक्ष्मैलानागकेशरैः । कट्फलेन च संसिद्धं तैलं मुखरुजं जयेत् ॥ १६६ ॥"
+    ],
+    [
+      "207",
+      "मृत्पात्रे लोहपात्रे च शनैर्मृद्वग्नि पचेत् ॥ २०७ ॥"
+    ],
+    [
+      "208",
+      "मज्जाश्रितं त्वग्गतं च वातं चास्थिगतं तथा । ऊरुग्रहं चाढ्यवातं कृच्छ्रं दण्डापतानकम् ॥ २०८ ॥"
+    ],
+    [
+      "210",
+      "आक्षेपकं चास्थिभग्नं सन्धिभग्नं च नाशयेत् ॥ २१० ॥"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource labels the chapter Snehakalpanā / Ghṛtatailakalpanā and continues the chapter to verse 210 before the ninth-chapter colophon. BharatKosha's printed Dīpikā pages cover the same chapter across the ghṛta and taila sections, while the Parul scanned witness independently preserves the printed sequence.",
+    "structural_note": "The chapter begins with general sneha-pāka ratios, liquid/kalka proportions, siddhi-lakṣaṇa and three pāka stages; it then gives numerous ghṛta formulations followed by taila formulations, including preparation, traditional indications and some external-use contexts.",
+    "numbering_note": "Source numbering is retained exactly. The chapter contains long formulation sections and printed page transitions; no silent renumbering is performed.",
+    "canonical_policy": "Verified extent is 1-210. This package stores controlled Sanskrit anchors rather than reconstructing every verse from memory. Full verse-by-verse transcription remains pending controlled printed-source transcription.",
+    "commentary_policy": "Dīpikā explanations, ingredient identifications and practical interpretations remain separate from canonical Sanskrit.",
+    "safety_note": "This chapter contains potent botanical, toxic, mineral and other classical substances and strong therapeutic claims. It is historical/classical source material, not modern prescribing guidance."
+  },
+  "topic_map": [
+    [
+      "1-19",
+      "स्नेहपाक की मूल परिभाषा, कल्क-द्रव अनुपात, क्वाथ, सिद्धिलक्षण, मृदु-मध्य-खर पाक और उपयोग-विधान"
+    ],
+    [
+      "20-52",
+      "घृतकल्पना के विविध योग: क्षीरषट्पलघृत, विषमज्वरघृत, चाङ्गेरीघृत, मसूरघृत, कामदेवघृत आदि"
+    ],
+    [
+      "53-92",
+      "अनेक औषधीय घृत, रसायन/विषघ्न/नेत्र/त्वचा/वात-पित्त-कफ संदर्भ तथा दशमूल-अरिष्टघृत तक"
+    ],
+    [
+      "93-110",
+      "तैलकल्पना का प्रारम्भ और लाक्षादि सहित प्रमुख तैलयोग"
+    ],
+    [
+      "111-145",
+      "विभिन्न बाह्य/आभ्यन्तर तैल, अभ्यंग, वात-त्वचा-शिरोरोग और अन्य पारंपरिक उपयोग"
+    ],
+    [
+      "146-166",
+      "मरिचादि तैल, केशकल्प तैल, इरिमेदादि तैल तथा मुख-दन्त-केश सम्बन्धी योग"
+    ],
+    [
+      "167-206",
+      "अनेक उत्तरवर्ती तैलयोग, विशेषतः दोष/त्वचा/वात तथा स्थानीय उपयोग"
+    ],
+    [
+      "207-210",
+      "अन्तिम तैलपाक और वात, पक्षाघात, अर्दित, हनुस्तम्भ, अपस्मार आदि के पारंपरिक संदर्भ; colophon"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-19",
+      "स्नेहपाक में स्नेह, कल्क और द्रव का सामान्य अनुपात, क्वाथ निर्माण, सिद्धि के संकेत तथा मृदु-मध्य-खर पाक का भेद बताया गया है।"
+    ],
+    [
+      "20-52",
+      "घृतकल्पना में अनेक विशिष्ट योग आते हैं। प्रत्येक में द्रव्य, क्वाथ/दूध/दधि/स्वरस जैसे द्रव और कल्क के साथ पाक-विधान दिया जाता है।"
+    ],
+    [
+      "53-92",
+      "आगे विभिन्न घृत योगों के पारंपरिक उपयोग, रसायन, विषघ्न, त्वचा, नेत्र, वात-पित्त-कफ तथा अन्य रोग-संदर्भ मिलते हैं।"
+    ],
+    [
+      "93-110",
+      "तैलकल्पना आरम्भ होती है और लाक्षादि सहित कई तैल-निर्माण विधियाँ आती हैं।"
+    ],
+    [
+      "111-145",
+      "अनेक तैल योगों में अभ्यंग, नस्य और अन्य बाह्य/आभ्यन्तर उपयोग तथा पारंपरिक रोग-संदर्भ दिए जाते हैं।"
+    ],
+    [
+      "146-166",
+      "मरिचादि, केशकल्प, भृङ्गराज और इरिमेदादि तैल जैसे योग आते हैं।"
+    ],
+    [
+      "167-206",
+      "अध्याय के उत्तरार्ध में अनेक जटिल तैल योग और स्थानीय/वात-त्वचा सम्बन्धी पारंपरिक प्रयोग दिए जाते हैं।"
+    ],
+    [
+      "207-210",
+      "अंतिम योग वात के विविध पारंपरिक संदर्भों तक पहुँचता है और नवम अध्याय समाप्त होता है।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-19",
+      "Dīpikā explains basic sneha-pāka ratios, liquid categories, siddhi signs and pāka classification. citeturn0search3turn0search8"
+    ],
+    [
+      "20-92",
+      "Dīpikā provides ingredient quantities and traditional context for the major ghṛta formulations. citeturn0search2"
+    ],
+    [
+      "93-166",
+      "Dīpikā explains the taila section, including lākṣādi, mārīcādi, hair and oral/dental formulations. citeturn0search9turn0search1"
+    ],
+    [
+      "167-210",
+      "Dīpikā continues the late taila formulations and explains the final external-use preparation. citeturn0search1"
+    ]
+  ],
+  "learning_units": [
+    [
+      "LU1",
+      "1-19",
+      "स्नेहपाक की मूल कल्पना और सिद्धिलक्षण"
+    ],
+    [
+      "LU2",
+      "20-52",
+      "प्रमुख घृतकल्पना"
+    ],
+    [
+      "LU3",
+      "53-92",
+      "विशिष्ट घृत और रसायन-संदर्भ"
+    ],
+    [
+      "LU4",
+      "93-110",
+      "तैलकल्पना का प्रारम्भ"
+    ],
+    [
+      "LU5",
+      "111-145",
+      "विविध तैलयोग और उपयोग"
+    ],
+    [
+      "LU6",
+      "146-166",
+      "केश, मुख-दन्त और विशेष तैल"
+    ],
+    [
+      "LU7",
+      "167-210",
+      "उत्तरवर्ती तैलयोग और अध्याय-समापन"
+    ]
+  ],
+  "assessments": [
+    [
+      "mcq",
+      "सामान्य स्नेहपाक में द्रव की मात्रा किस प्रकार दी गई है?",
+      "स्नेह के चार गुना"
+    ],
+    [
+      "mcq",
+      "स्नेहपाक के कितने मुख्य भेद बताए गए हैं?",
+      "मृदु, मध्य, खर"
+    ],
+    [
+      "mcq",
+      "नस्य के लिए कौन-सा पाक बताया गया है?",
+      "मृदु पाक"
+    ],
+    [
+      "mcq",
+      "अभ्यंग के लिए कौन-सा पाक बताया गया है?",
+      "खर पाक"
+    ],
+    [
+      "short_answer",
+      "स्नेहपाक के मृदु, मध्य और खर सिद्धिलक्षण समझाइए।"
+    ],
+    [
+      "short_answer",
+      "केवल जल, क्वाथ और स्वरस आधारित स्नेहपाक में कल्क-मात्रा का अंतर समझाइए।"
+    ],
+    [
+      "source_criticism",
+      "Dīpikā की ingredient-identification और practical interpretation को canonical Sanskrit से अलग layer में रखने का कारण बताइए।"
+    ],
+    [
+      "source_criticism",
+      "इस अध्याय के classical indications को modern therapeutic recommendation में सीधे बदलना क्यों अनुचित है?"
+    ]
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-210",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "canonical_extent_complete": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
