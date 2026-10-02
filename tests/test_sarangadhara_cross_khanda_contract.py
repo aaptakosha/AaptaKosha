@@ -45,6 +45,8 @@ def extent_candidates(chapter):
         raw = chapter.get("verse_range")
     if raw is None:
         raw = chapter.get("chapter_extent")
+    if raw is None and isinstance(chapter.get("verse_count"), int):
+        return [f"1-{chapter["verse_count"]}"]
     if isinstance(raw, str):
         return [raw]
     if isinstance(raw, dict):
