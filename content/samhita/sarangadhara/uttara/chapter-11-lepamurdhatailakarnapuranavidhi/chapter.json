@@ -178,10 +178,11 @@
     }
   ],
   "source_reconciliation": {
-    "finding": "Wikisource gives a continuous chapter from v1 through v152 and the full compound colophon. TransLiteral independently reproduces the late chapter sequence including v119, v120, the mūrdhataila transition at v121, karṇapūraṇa from v128, v151-v152 and the same chapter colophon.",
+    "finding": "Wikisource gives a continuous chapter from v1 through v152 and the full compound colophon. TransLiteral independently reproduces the late chapter sequence including v119, v120, the mūrdhataila transition at v121, karṇapūraṇa from v128, v151-v152 and the same chapter colophon. The primary Wikisource/E-Bharatisampat presentation also contains an unnumbered two-line tail after v152 (beginning “सद्यो मद्यं निहन्त्याशु…” and “सद्यो हिङ्गुनिहन्त्याशु…”) immediately before the colophon; this tail is preserved as source-critical unnumbered text rather than being silently promoted to v153-154.",
     "resolution": "Extent is accepted as 1-152. The canonical layer currently stores controlled source anchors rather than claiming a full verse-by-verse transcription; remaining verses are intentionally pending controlled transcription.",
     "commentary_note": "Dīpikā commentary and modern interpretations remain separate from the canonical Sanskrit layer.",
-    "safety_note": "This chapter contains classical topical and medicinal preparations for skin, scalp, wounds, head, ear and related conditions, including substances that may be irritant, toxic or otherwise hazardous. It is historical/classical BAMS source material, not modern self-treatment or procedural guidance."
+    "safety_note": "This chapter contains classical topical and medicinal preparations for skin, scalp, wounds, head, ear and related conditions, including substances that may be irritant, toxic or otherwise hazardous. It is historical/classical BAMS source material, not modern self-treatment or procedural guidance.",
+    "unnumbered_tail": "After canonical v152 and before the colophon, the checked digital witnesses display two additional unnumbered lines/short yogas. Because they lack verse numbers in the witness, they are not assigned canonical verse numbers."
   },
   "topic_map": [
     {
@@ -334,11 +335,12 @@
     "colophon_verified": true,
     "cross_source_checked": true,
     "numbering_gaps_preserved": true,
-    "canonical_full_verse_transcription": "partial; controlled anchors only",
+    "canonical_full_verse_transcription": "partial; controlled anchors only; unnumbered post-v152 textual tail separately preserved",
     "no_fabricated_missing_verses": true,
     "commentary_separated_from_canonical_layer": true,
     "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
     "safety_note_present": true,
-    "one_chapter_one_commit": true
+    "one_chapter_one_commit": true,
+    "unnumbered_post_152_text_preserved": true
   }
 }

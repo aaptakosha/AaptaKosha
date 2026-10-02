@@ -140,7 +140,7 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 8 — Nasyavidhi researched/source-reconciled; primary and independent witness 1–63; full primary Sanskrit transcription added.
 - [x] Chapter 9 — Dhūmapānavidhi researched/source-reconciled; primary and independent witness 1–25; full primary Sanskrit transcription added.
 - [x] Chapter 10 — Gaṇḍūṣādividhi researched/source-reconciled; primary and independent witness 1–21; full primary Sanskrit transcription added.
-- [x] Chapter 11 — Lepamūrdhatailakarṇapūraṇavidhi researched/source-reconciled; primary and independent witness 1–152; controlled Sanskrit anchors added; full verse transcription remains a refinement task.
+- [x] Chapter 11 — Lepamūrdhatailakarṇapūraṇavidhi researched/source-reconciled; primary and independent witness 1–152; controlled Sanskrit anchors retained; unnumbered post-v152 textual tail identified and preserved separately; full verse transcription remains a refinement task.
 - [x] Chapter 12 — Śoṇitasrāvavidhi researched/source-reconciled; primary/printed witness 1–45; full controlled Sanskrit transcription added.
 - [x] Chapter 13 — Netraprasādanavidhi researched/source-reconciled; primary witness 1–128; printed Dīpikā editorial v129 discrepancy preserved; controlled Sanskrit anchors added; full verse transcription remains a refinement task.
 - [x] Uttara Khaṇḍa chapters 1–13 researched/source-reconciled and individually committed.
