@@ -1,0 +1,86 @@
+{
+  "schema_version":"1.0",
+  "text_id":"sarangadhara",
+  "khand_id":"madhyama",
+  "chapter_number":2,
+  "chapter_id":"madhyama-02-kvathakalpana",
+  "title_sanskrit":"क्वाथादिकल्पना",
+  "title_roman":"Kvāthādikalpanā",
+  "canonical_status":"source_reconciled_printed_edition_primary",
+  "verse_extent":{"printed_dipika":"1-174","online_sanskrit_witness":"1-174"},
+  "colophon":"इति श्रीदामोदरसूनूना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां मध्यमखण्डे क्वाथादिकल्पना नाम द्वितीयोऽध्यायः॥२॥",
+  "sources":[
+   {"name":"Sanskrit Wikisource — Madhyama Khaṇḍa","role":"primary independent Sanskrit witness; chapter sequence and numbered verses 1-174","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"},
+   {"name":"BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary","role":"primary printed/annotated witness; pages 101-107 and chapter-ending transcription","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/क्वाथादिकल्पना"},
+   {"name":"TransLiteral","role":"independent cross-check where available","url":"https://www.transliteral.org/pages/z210314212039/view"}
+  ],
+  "source_reconciliation":{
+   "finding":"The chapter is explicitly headed क्वाथकल्पना/क्वाथादिकल्पना and runs to verse 174 in the printed Dīpikā witness. BharatKosha reproduces the closing verse and colophon, while Wikisource preserves the chapter sequence and the opening preparation rules.",
+   "resolution":"The working canonical extent is 1-174. Full verse-level Sanskrit should remain tied to the verified witness; no verse is reconstructed from memory.",
+   "important_note":"The chapter expands from basic decoction preparation into many named preparations and dietetic liquids, including mantha, pānaka, yūṣa, manda, and special decoction variants. The repository therefore treats the chapter as a formulation-method chapter rather than only a single kvātha recipe."
+  },
+  "verified_core_verses":[
+   {"verse":1,"text":"पानीयं षोडशगुणं क्षुण्णे द्रव्यपले क्षिपेत् । मृत्पात्रे क्वाथयेद्ग्राह्यमष्टमांशावशेषितम् । तज्जलं पाययेद्धीमान्कोष्णं मृद्वग्निसाधितम् ॥ १ ॥","meaning":"For one pala of coarsely broken drug, use sixteen parts water, cook in an earthen vessel and reduce to one-eighth; the resulting warm decoction is administered."},
+   {"verse":2,"text":"शृतः क्वाथः कषायश्च निर्यूहः स निगद्यते ॥ २ ॥","meaning":"Śṛta, kvātha, kaṣāya and niryūha are names used for this decocted preparation."},
+   {"verse":3,"text":"आहाररसपाके च सञ्जाते द्विपलोन्मितम् । वृद्धवैद्योपदेशेन पिबेत्क्वाथं सुपाचितम् ॥ ३ ॥","meaning":"After digestion of the meal, a properly prepared decoction is taken in the stated two-pala measure according to experienced-physician instruction."},
+   {"verse":4,"text":"क्वाथे क्षिपेत्सितामंशैश्चतुर्थाष्टमषोडशैः । वातपित्तकफातङ्के विपरीतं मधु स्मृतम् ॥ ४ ॥","meaning":"Sugar is added in specified fractional proportions; honey is used inversely in relation to doṣa conditions."},
+   {"verse":5,"text":"जीरकं गुग्गुलं क्षारं लवणं च शिलाजतु । हिङ्गु त्रिकटुकं चैव क्वाथे शाणोन्मितं क्षिपेत् ॥ ५ ॥","meaning":"Certain powdered adjuncts such as cumin, guggulu, kṣāra, salt, śilājatu, hiṅgu and trikatu are added in śāṇa measure."},
+   {"verse":6,"text":"क्षीरं घृतं गुडं तैलं मूत्रं चान्यद् द्रवं तथा । कल्कं चूर्णादिकं क्वाथे निक्षिपेत्कर्षसम्मितम् ॥ ६ ॥","meaning":"Liquid adjuncts and kalka/chūrṇa preparations are added in the specified karṣa measure."},
+   {"verse":170,"topic":"युष","meaning":"The chapter gives a named yūṣa preparation and describes it as strengthening, throat-supportive, light to digest and kapha-reducing."},
+   {"verse":171,"text":"जले चतुर्दशगुणे तण्डुलानां चतुष्पलम् । विपचेत्स्रावयेन्मण्डं स भक्तो मधुरो लघुः ॥ १७१ ॥","meaning":"Four palas of rice are cooked in fourteen parts water and the liquid portion is separated as manda; the resulting preparation is described as sweet and light."},
+   {"verse":172,"text":"नीरे चतुर्दशगुणे सिद्धो मण्डस्त्वसिक्थकः । शुण्ठीसैन्धवसंयुक्तः पाचनो दीपनः परः ॥ १७२ ॥","meaning":"A rice-water manda prepared with fourteenfold water and combined with śuṇṭhī and saindhava is described as strongly digestive and dīpana."},
+   {"verse":173,"text":"धान्यत्रिकटुसिन्धूत्थमुद्गतण्डुलयोजितः । भृष्टश्च हिङ्गुतैलाभ्यां स मण्डोऽष्टगुणः स्मृतः ॥ १७३ ॥","meaning":"The aṣṭaguṇa manda combines specified grain, trikatu, saindhava, mung and rice ingredients, roasted with hiṅgu and oil."},
+   {"verse":174,"text":"दीपनः प्राणदो बस्तिशोधनो रक्तवर्धनः । ज्वरजित्सर्वदोषघ्नो मण्डोऽष्टगुण उच्यते ॥ १७४ ॥","meaning":"The aṣṭaguṇa manda is described as dīpana, life-supporting, cleansing to the urinary/bladder pathway, blood-promoting, fever-reducing and doṣa-balancing in the classical text."}
+  ],
+  "topic_map":[
+   {"range":"1-6","topic":"क्वाथ की मूल विधि, पर्याय, मात्रा तथा सितामधु/चूर्ण/द्रव प्रक्षेप"},
+   {"range":"7-30","topic":"क्वाथ के विशेष योग और रोगानुसार प्रयोग"},
+   {"range":"31-60","topic":"विभिन्न औषध-द्रव्य समूहों के क्वाथ एवं चिकित्सोपयोग"},
+   {"range":"61-90","topic":"विशिष्ट रोगों में क्वाथ-प्रयोग और विशेष संयोजन"},
+   {"range":"91-120","topic":"क्वाथ की विविध प्रक्रियाएँ, द्रव्य-मात्रा और विशेष कल्पनाएँ"},
+   {"range":"121-150","topic":"पानक, मन्थ, यूष आदि द्रव कल्पनाओं की ओर विस्तार"},
+   {"range":"151-170","topic":"आहारोपयोगी तथा चिकित्सोपयोगी द्रव preparations"},
+   {"range":"171-174","topic":"मण्ड, अष्टगुणमण्ड, वाट्यमण्ड और लाजमण्ड"}
+  ],
+  "hindi_learning_summary":[
+   {"range":"1-6","summary":"क्वाथ-कल्पना में द्रव्य की मात्रा के अनुपात में जल, मृद्वग्नि, अष्टमांशावशेष तथा उपयुक्त प्रक्षेप-द्रव्य मुख्य तकनीकी बिंदु हैं।"},
+   {"range":"7-90","summary":"अध्याय विभिन्न रोगस्थितियों में अनेक क्वाथ-योग देता है। इन्हें शास्त्रीय formulation examples की तरह पढ़ना चाहिए; आधुनिक prescription equivalence स्वतः नहीं मानना चाहिए।"},
+   {"range":"91-150","summary":"क्वाथकल्पना आगे विविध preparation-methods और liquid formulations की ओर विस्तृत होती है। प्रत्येक नाम और मात्रा को canonical text से अलग रखकर commentary में व्याख्यायित किया जाना चाहिए।"},
+   {"range":"151-174","summary":"अंतिम भाग में मन्थ, यूष और मण्ड जैसे आहार-चिकित्सकीय द्रवों का वर्णन आता है; 171-174 में मण्ड की विशिष्ट विधियाँ और गुण मिलते हैं।"}
+  ],
+  "commentary_mapping":[
+   {"range":"1-6","coverage":"Dīpikā explains the practical preparation ratio, vessel, reduction, timing and adjunct quantities."},
+   {"range":"7-90","coverage":"Dīpikā supplies formulation-specific explanations and traditional indications; modern disease labels, where proposed, remain commentary."},
+   {"range":"91-150","coverage":"Commentary explains preparation variants and terminology for liquid dosage forms."},
+   {"range":"151-174","coverage":"Dīpikā explains mantha, yūṣa, manda and related dietetic preparations, including the closing lājamaṇḍa."}
+  ],
+  "learning_units":[
+   {"id":"LU1","range":"1-6","title":"क्वाथ की मूल विधि और मात्राएँ"},
+   {"id":"LU2","range":"7-60","title":"विशिष्ट क्वाथ-योग"},
+   {"id":"LU3","range":"61-120","title":"रोगानुसार एवं विशेष क्वाथ-कल्पनाएँ"},
+   {"id":"LU4","range":"121-150","title":"द्रव कल्पनाओं का विस्तार"},
+   {"id":"LU5","range":"151-170","title":"मन्थ और यूषादि द्रव"},
+   {"id":"LU6","range":"171-174","title":"मण्ड, अष्टगुणमण्ड, वाट्यमण्ड और लाजमण्ड"}
+  ],
+  "assessments":[
+   {"type":"mcq","question":"एक पल क्षुण्ण द्रव्य के लिए मूल क्वाथ-विधि में जल का कितना गुण बताया गया है?","answer":"षोडशगुण"},
+   {"type":"short_answer","question":"क्वाथ की मूल निर्माण-विधि में reduction, vessel और agni के निर्देश समझाइए।"},
+   {"type":"mcq","question":"क्वाथ, कषाय और निर्यूह किस preparation-family के पर्याय रूप में बताए गए हैं?","answer":"द्रव decoction preparation"},
+   {"type":"short_answer","question":"श्लोक 4-6 में क्वाथ के साथ sugar, honey, चूर्ण और द्रव द्रव्यों की मात्रा-व्यवस्था का सार लिखिए।"},
+   {"type":"application","question":"किसी classical kvātha recipe को modern clinical prescription में बदलने से पहले किन source-validation steps की आवश्यकता होगी?"},
+   {"type":"short_answer","question":"मण्ड और अष्टगुणमण्ड की निर्माण-विधि तथा वर्णित गुणों में अंतर समझाइए।"}
+  ],
+  "quality_gates":{
+   "chapter_identity_verified":true,
+   "printed_extent_verified":"1-174",
+   "online_sequence_verified":true,
+   "opening_verses_verified":true,
+   "closing_verse_174_verified":true,
+   "colophon_verified":true,
+   "commentary_separated_from_canonical_layer":true,
+   "modern_diagnostic_equivalence_not_promoted_to_canonical_fact":true,
+   "fabricated_missing_verses_avoided":true,
+   "full_verse_transcription":"source-reconciled package; controlled full transcription can be expanded from the verified witnesses",
+   "one_chapter_one_commit":true
+  }
+}
