@@ -5,7 +5,7 @@ from pathlib import Path
 CHAPTERS = [
 ("purva-06","content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json",None,78),
 ("purva-07","content/samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json","https://www.transliteral.org/pages/z210314211814/view",204),
-("madhyama-02","content/samhita/sarangadhara/madhyama/chapter-02-kvathadikalpana/chapter.json","https://www.transliteral.org/pages/z210314212149/view",176),
+("madhyama-02","content/samhita/sarangadhara/madhyama/chapter-02-kvathakalpana/chapter.json","https://www.transliteral.org/pages/z210314212149/view",176),
 ("madhyama-06","content/samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json","https://www.transliteral.org/pages/z210314212839/view",166),
 ("madhyama-09","content/samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json","https://www.transliteral.org/pages/z210314213145/view",210),
 ("madhyama-10","content/samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json","https://www.transliteral.org/pages/z210314213314/view",92),
