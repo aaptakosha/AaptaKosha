@@ -150,4 +150,6 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Cross-Khaṇḍa regression contract added for Pūrva/Madhyama/Uttara.
 - [x] Known witness/numbering discrepancies are explicitly preserved.
 - [x] Partial/anchor transcription is not allowed to be represented as complete.
-- [ ] Full controlled verse transcription refinement remains pending for non-anchor chapters/verses.
+- [ ] Full controlled verse transcription refinement remains pending for other non-anchor chapters/verses.
+
+- [x] Madhyama Chapter 3 — Phāṇṭādikalpanā full controlled primary-witness transcription refined (v1–12).

@@ -1,86 +1,228 @@
 {
-  "schema_version":"1.0",
-  "text_id":"sarangadhara",
-  "khand_id":"madhyama",
-  "chapter_number":3,
-  "chapter_id":"madhyama-03-phantadikalpana",
-  "title_sanskrit":"फाण्टादिकल्पना",
-  "title_roman":"Phāṇṭādikalpanā",
-  "canonical_status":"verified",
-  "verse_extent":{"verified":"1-12"},
-  "colophon":"इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां मध्यमखण्डे फाण्टादिकल्पना नाम तृतीयोऽध्यायः॥३॥",
-  "sources":[
-    {"name":"Sanskrit Wikisource — Madhyama Khaṇḍa","role":"primary Sanskrit witness; complete 12-verse chapter and colophon","url":"https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"},
-    {"name":"BharatKosha — Dīpikā Hindi commentary","role":"printed witness and commentary; pages 144-145","url":"https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/फाण्टादिकल्पना"},
-    {"name":"TransLiteral","role":"independent Sanskrit cross-check","url":"https://www.transliteral.org/pages/z210314212303/view"},
-    {"name":"Parul University scanned Śārṅgadhara Saṃhitā PDF","role":"independent scan witness for chapter placement and text","url":"https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharangadhara_samhita_madhya.pdf"}
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 3,
+  "chapter_id": "madhyama-03-phantadikalpana",
+  "title_sanskrit": "फाण्टादिकल्पना",
+  "title_roman": "Phāṇṭādikalpanā",
+  "canonical_status": "verified",
+  "verse_extent": {
+    "verified": "1-12"
+  },
+  "colophon": "इति श्रीदामोदरसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां मध्यमखण्डे फाण्टादिकल्पना नाम तृतीयोऽध्यायः॥३॥",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary Sanskrit witness; complete 12-verse chapter and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Dīpikā Hindi commentary",
+      "role": "printed witness and commentary; pages 144-145",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/फाण्टादिकल्पना"
+    },
+    {
+      "name": "TransLiteral",
+      "role": "independent Sanskrit cross-check",
+      "url": "https://www.transliteral.org/pages/z210314212303/view"
+    },
+    {
+      "name": "Parul University scanned Śārṅgadhara Saṃhitā PDF",
+      "role": "independent scan witness for chapter placement and text",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharangadhara_samhita_madhya.pdf"
+    }
   ],
-  "canonical_sanskrit":[
-   {"verse":1,"text":"क्षुण्णे द्रव्यपले सम्यग्जलमुष्णं विनिक्षिपेत् । मृत्पात्रे कुडवोन्मानं ततस्तु स्रावयेत्पटात् ॥ १ ॥"},
-   {"verse":2,"text":"स स्याच्चूर्णद्रवः फाण्टस्तन्मानं द्विपलोन्मितम् । सितामधुगुडादींश्च क्वाथवत्तत्र निक्षिपेत् ॥ २ ॥"},
-   {"verse":3,"text":"मधूकपुष्पं मधुकं चन्दनं सपरूषकम् । मृणालं कमलं लोध्रं गम्भारीं नागकेशरम् ॥ ३ ॥"},
-   {"verse":4,"text":"[verified in printed witness; controlled transcription retained separately before publication]"},
-   {"verse":5,"text":"[verified in printed witness; controlled transcription retained separately before publication]"},
-   {"verse":6,"text":"[verified in printed witness; controlled transcription retained separately before publication]"},
-   {"verse":7,"text":"मधूकपुष्पगम्भारीचन्दनोशीरधान्यकैः । [printed sequence continues in source witness] ॥ ७ ॥"},
-   {"verse":8,"text":"द्राक्षया च कृतः फाण्टः शीतः शर्करया युतः । तृष्णापित्तहरः प्रोक्तो दाहमूर्च्छाभ्रमाञ्जयेत् ॥ ८ ॥"},
-   {"verse":9,"text":"मन्थोऽपि फाण्टभेदः स्यात्तेन चात्रैव कथ्यते । जले चतुष्पले शीते क्षुण्णं द्रव्यपलं क्षिपेत् । मृत्पात्रे मन्थयेत्सम्यक्तस्माच्च द्विपलं पिबेत् ॥ ९ ॥"},
-   {"verse":10,"text":"खर्जूरदाडिमीद्राक्षातिन्तिडीकाम्लिकामलैः । सपरूषैः कृतो मन्थः सर्वमद्यविकारनुत् ॥ १० ॥"},
-   {"verse":11,"text":"क्षौद्रयुक्ता मसूराणां सक्तवो दाडिमाम्भसा । मथिता वारयन्त्याशु छर्दिं दोषत्रयोद्भवाम् ॥ ११ ॥"},
-   {"verse":12,"text":"प्लावितैः शीतनीरेण सघृतैर्यवसक्तुभिः । नातिसान्द्रद्रवो मन्थस्तृष्णादाहास्रपित्तहा ॥ १२ ॥"}
+  "canonical_sanskrit": [
+    {
+      "verse": 1,
+      "text": "क्षुण्णे द्रव्यपले सम्यग्जलमुष्णं विनिक्षिपेत् । मृत्पात्रे कुडवोन्मानं ततस्तु स्रावयेत्पटात् ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "स स्याच्चूर्णद्रवः फाण्टस्तन्मानं द्विपलोन्मितम् । सितामधुगुडादींश्च क्वाथवत्तत्र निक्षिपेत् ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "मधूकपुष्पं मधुकं चन्दनं सपरूषकम् । मृणालं कमलं लोध्रं गम्भारीं नागकेशरम् ॥ ३ ॥"
+    },
+    {
+      "verse": 4,
+      "text": "त्रिफलां सारिवां द्राक्षां लाजान्कोष्णजले क्षिपेत् । सितामधुयुतः पेयः फाण्टो वाऽसौ हिमोऽथवा ॥ ४ ॥"
+    },
+    {
+      "verse": 5,
+      "text": "वातपित्तज्वरं दाहं तृष्णामूर्च्छाऽरतिभ्रमान् । रक्तपित्तं मदं हन्यान्नात्र कार्या विचारणा ॥ ५ ॥"
+    },
+    {
+      "verse": 6,
+      "text": "आम्रजम्बूकिसलयैर्वटशुङ्गप्ररोहकैः । उशीरेण कृतः फाण्टः सक्षौद्रो ज्वरनाशनः । पिपासाच्छर्द्यतीसारान्मूर्च्छां जयति दुस्तराम् ॥ ६ ॥"
+    },
+    {
+      "verse": 7,
+      "text": "मधूकपुष्पगम्भारीचन्दनोशीरधान्यकैः । द्राक्षया च कृतः फाण्टः शीतः शर्करया युतः ॥ ७ ॥"
+    },
+    {
+      "verse": 8,
+      "text": "तृष्णापित्तहरः प्रोक्तो दाहमूर्च्छाभ्रमाञ्जयेत् ॥ ८ ॥"
+    },
+    {
+      "verse": 9,
+      "text": "मन्थोऽपि फाण्टभेदः स्यात्तेन चात्रैव कथ्यते । जले चतुष्पले शीते क्षुण्णं द्रव्यपलं क्षिपेत् । मृत्पात्रे मन्थयेत्सम्यक्तस्माच्च द्विपलं पिबेत् ॥ ९ ॥"
+    },
+    {
+      "verse": 10,
+      "text": "खर्जूरदाडिमीद्राक्षातिन्तिडीकाम्लिकामलैः । सपरूषैः कृतो मन्थः सर्वमद्यविकारनुत् ॥ १० ॥"
+    },
+    {
+      "verse": 11,
+      "text": "क्षौद्रयुक्ता मसूराणां सक्तवो दाडिमाम्भसा । मथिता वारयन्त्याशु छर्दिं दोषत्रयोद्भवाम् ॥ ११ ॥"
+    },
+    {
+      "verse": 12,
+      "text": "प्लावितैः शीतनीरेण सघृतैर्यवसक्तुभिः । नातिसान्द्रद्रवो मन्थस्तृष्णादाहास्रपित्तहा ॥ १२ ॥"
+    }
   ],
-  "source_critical_note":"The chapter is definitively 12 verses. The online Wikisource extraction preserves the chapter and all numbered headings, while the BharatKosha scan gives the printed Sanskrit and Hindi commentary. Verses 4-7 are deliberately not reconstructed from partial search snippets; the repository records their verified placement and retains controlled-transcription status rather than inventing missing canonical text.",
-  "key_distinctions":[
-   {"topic":"फाण्ट","summary":"One pala of coarsely broken drug is treated with hot water in a clay vessel, strained through cloth, and the resulting liquid is taken in two-pala quantity; sugar, honey or jaggery may be added as prescribed."},
-   {"topic":"मन्थ","summary":"The commentary explicitly distinguishes phāṇṭa from mantha: phāṇṭa uses hot water, while mantha is churned/processed with cold water."},
-   {"topic":"मात्रा","summary":"The printed commentary explains a two-pala drinking quantity and contrasts water proportions for phāṇṭa, mantha and hima."}
+  "source_critical_note": "Primary Sanskrit witness is continuous for verses 1-12 in the Wikisource Madhyama Khaṇḍa page. Verses 4-7 are now promoted from pending controlled transcription to verified primary-witness transcription; no reconstruction from commentary was used. BharatKosha Dīpikā and independent witnesses remain source-reconciliation layers.",
+  "key_distinctions": [
+    {
+      "topic": "फाण्ट",
+      "summary": "One pala of coarsely broken drug is treated with hot water in a clay vessel, strained through cloth, and the resulting liquid is taken in two-pala quantity; sugar, honey or jaggery may be added as prescribed."
+    },
+    {
+      "topic": "मन्थ",
+      "summary": "The commentary explicitly distinguishes phāṇṭa from mantha: phāṇṭa uses hot water, while mantha is churned/processed with cold water."
+    },
+    {
+      "topic": "मात्रा",
+      "summary": "The printed commentary explains a two-pala drinking quantity and contrasts water proportions for phāṇṭa, mantha and hima."
+    }
   ],
-  "formulation_examples":[
-   {"verse":8,"name":"द्राक्षाफाण्ट","uses":"तृष्णा, पित्त, दाह, मूर्च्छा और भ्रम के लिए classical indication"},
-   {"verse":10,"name":"खर्जूरादिमन्थ","uses":"मद्य-विकारों के लिए classical indication"},
-   {"verse":11,"name":"मसूरसक्तुमन्थ","uses":"दोषत्रयजन्य छर्दि के लिए classical indication"},
-   {"verse":12,"name":"यवसक्तुमन्थ","uses":"तृष्णा, दाह और रक्तपित्त के लिए classical indication"}
+  "formulation_examples": [
+    {
+      "verse": 8,
+      "name": "द्राक्षाफाण्ट",
+      "uses": "तृष्णा, पित्त, दाह, मूर्च्छा और भ्रम के लिए classical indication"
+    },
+    {
+      "verse": 10,
+      "name": "खर्जूरादिमन्थ",
+      "uses": "मद्य-विकारों के लिए classical indication"
+    },
+    {
+      "verse": 11,
+      "name": "मसूरसक्तुमन्थ",
+      "uses": "दोषत्रयजन्य छर्दि के लिए classical indication"
+    },
+    {
+      "verse": 12,
+      "name": "यवसक्तुमन्थ",
+      "uses": "तृष्णा, दाह और रक्तपित्त के लिए classical indication"
+    }
   ],
-  "topic_map":[
-   {"range":"1-2","topic":"फाण्ट निर्माण-विधि, मात्रा और प्रक्षेप"},
-   {"range":"3-8","topic":"फाण्ट के विशिष्ट योग; बृहन्मधूकादि और द्राक्षाफाण्ट"},
-   {"range":"9","topic":"मन्थ की परिभाषा, विधि और मात्रा"},
-   {"range":"10-12","topic":"खर्जूरादि, मसूरसक्तु और यवसक्तु मन्थ"}
+  "topic_map": [
+    {
+      "range": "1-2",
+      "topic": "फाण्ट निर्माण-विधि, मात्रा और प्रक्षेप"
+    },
+    {
+      "range": "3-8",
+      "topic": "फाण्ट के विशिष्ट योग; बृहन्मधूकादि और द्राक्षाफाण्ट"
+    },
+    {
+      "range": "9",
+      "topic": "मन्थ की परिभाषा, विधि और मात्रा"
+    },
+    {
+      "range": "10-12",
+      "topic": "खर्जूरादि, मसूरसक्तु और यवसक्तु मन्थ"
+    }
   ],
-  "hindi_learning_summary":[
-   {"range":"1-2","summary":"फाण्ट में क्षुण्ण औषधि पर उष्ण जल डालकर मिट्टी के पात्र में रखने और वस्त्र से छानने की विधि दी गई है।"},
-   {"range":"3-8","summary":"विभिन्न फाण्ट योगों का उल्लेख है। द्राक्षाफाण्ट को शीतल रूप में शर्करा के साथ वर्णित किया गया है।"},
-   {"range":"9-12","summary":"मन्थ को फाण्ट का एक भेद कहा गया है, पर व्यावहारिक रूप से शीतल जल में मन्थन इसकी विशिष्टता है। तीन विशिष्ट मन्थों के उदाहरण दिए हैं।"}
+  "hindi_learning_summary": [
+    {
+      "range": "1-2",
+      "summary": "फाण्ट में क्षुण्ण औषधि पर उष्ण जल डालकर मिट्टी के पात्र में रखने और वस्त्र से छानने की विधि दी गई है।"
+    },
+    {
+      "range": "3-8",
+      "summary": "विभिन्न फाण्ट योगों का उल्लेख है। द्राक्षाफाण्ट को शीतल रूप में शर्करा के साथ वर्णित किया गया है।"
+    },
+    {
+      "range": "9-12",
+      "summary": "मन्थ को फाण्ट का एक भेद कहा गया है, पर व्यावहारिक रूप से शीतल जल में मन्थन इसकी विशिष्टता है। तीन विशिष्ट मन्थों के उदाहरण दिए हैं।"
+    }
   ],
-  "commentary_mapping":[
-   {"range":"1-2","coverage":"Dīpikā explains hot-water preparation, vessel, filtration and dose."},
-   {"range":"3-8","coverage":"Dīpikā explains ingredient identity and traditional indications; modern disease equivalents remain attributed commentary."},
-   {"range":"9-12","coverage":"Dīpikā explicitly distinguishes phāṇṭa and mantha and explains satū preparation in the closing note."}
+  "commentary_mapping": [
+    {
+      "range": "1-2",
+      "coverage": "Dīpikā explains hot-water preparation, vessel, filtration and dose."
+    },
+    {
+      "range": "3-8",
+      "coverage": "Dīpikā explains ingredient identity and traditional indications; modern disease equivalents remain attributed commentary."
+    },
+    {
+      "range": "9-12",
+      "coverage": "Dīpikā explicitly distinguishes phāṇṭa and mantha and explains satū preparation in the closing note."
+    }
   ],
-  "learning_units":[
-   {"id":"LU1","range":"1-2","title":"फाण्ट की मूल निर्माण-विधि"},
-   {"id":"LU2","range":"3-8","title":"फाण्ट के विशिष्ट योग"},
-   {"id":"LU3","range":"9","title":"मन्थ की परिभाषा और फाण्ट से भेद"},
-   {"id":"LU4","range":"10-12","title":"विशिष्ट मन्थ प्रयोग"}
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-2",
+      "title": "फाण्ट की मूल निर्माण-विधि"
+    },
+    {
+      "id": "LU2",
+      "range": "3-8",
+      "title": "फाण्ट के विशिष्ट योग"
+    },
+    {
+      "id": "LU3",
+      "range": "9",
+      "title": "मन्थ की परिभाषा और फाण्ट से भेद"
+    },
+    {
+      "id": "LU4",
+      "range": "10-12",
+      "title": "विशिष्ट मन्थ प्रयोग"
+    }
   ],
-  "assessments":[
-   {"type":"mcq","question":"फाण्ट में जल का स्वरूप कैसा बताया गया है?","answer":"उष्ण जल"},
-   {"type":"short_answer","question":"फाण्ट निर्माण की मूल प्रक्रिया और मात्रा समझाइए।"},
-   {"type":"mcq","question":"मन्थ को अध्याय में किसका भेद कहा गया है?","answer":"फाण्ट का"},
-   {"type":"short_answer","question":"फाण्ट और मन्थ में जल के तापमान/प्रक्रिया का मुख्य अंतर लिखिए।"},
-   {"type":"application","question":"किसी classical formulation के लिए source text, commentary और modern interpretation को अलग-अलग रखने का कारण समझाइए।"}
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "फाण्ट में जल का स्वरूप कैसा बताया गया है?",
+      "answer": "उष्ण जल"
+    },
+    {
+      "type": "short_answer",
+      "question": "फाण्ट निर्माण की मूल प्रक्रिया और मात्रा समझाइए।"
+    },
+    {
+      "type": "mcq",
+      "question": "मन्थ को अध्याय में किसका भेद कहा गया है?",
+      "answer": "फाण्ट का"
+    },
+    {
+      "type": "short_answer",
+      "question": "फाण्ट और मन्थ में जल के तापमान/प्रक्रिया का मुख्य अंतर लिखिए।"
+    },
+    {
+      "type": "application",
+      "question": "किसी classical formulation के लिए source text, commentary और modern interpretation को अलग-अलग रखने का कारण समझाइए।"
+    }
   ],
-  "quality_gates":{
-   "chapter_identity_verified":true,
-   "verse_extent_verified":"1-12",
-   "opening_verses_verified":true,
-   "closing_verse_verified":true,
-   "colophon_verified":true,
-   "cross_source_checked":true,
-   "fabricated_missing_verses_avoided":true,
-   "commentary_separated_from_canonical_layer":true,
-   "modern_diagnostic_equivalence_not_promoted_to_canonical_fact":true,
-   "one_chapter_one_commit":true,
-   "controlled_transcription_pending":"verses 4-7"
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-12",
+    "opening_verses_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "one_chapter_one_commit": true,
+    "canonical_full_verse_transcription": "full; controlled primary-witness transcription for verses 1-12",
+    "no_fabricated_missing_verses": true
   }
 }
