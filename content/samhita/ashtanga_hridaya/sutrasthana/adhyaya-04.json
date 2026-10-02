@@ -117,8 +117,8 @@
       "hindi_translation": "छींक रोकने से सिरदर्द, इन्द्रिय-दुर्बलता और गर्दन का जकड़ना हो सकता है; तीक्ष्ण धूम, अंजन, घ्राण, नस्य और सूर्य-दर्शन से छींक प्रवर्तित की जाती है।",
       "hindi_explanation": "रुकी हुई छींक को प्रवर्तित कर वात-शमन करना उपचार का लक्ष्य है।",
       "recitation_status": "not_classified",
-      "tika_sarvangasundara_block_id": "ah4-t34",
-      "tika_ayurvedarasayana_block_id": "ah4-t34"
+      "tika_sarvangasundara_block_id": "ah4-t36",
+      "tika_ayurvedarasayana_block_id": "ah4-t36"
     },
     {
       "id": "ah-s4-v10",
@@ -128,8 +128,8 @@
       "hindi_translation": "रुकी छींक को प्रवर्तित करना और स्नेह-स्वेद करना चाहिए; रोकने से शोष, अंगसाद, बधिरता, सम्मोह, भ्रम और हृद्रोग हो सकते हैं।",
       "hindi_explanation": "यह श्लोक छींकधारण के दीर्घकालिक परिणाम और उपचार दोनों बताता है।",
       "recitation_status": "not_classified",
-      "tika_sarvangasundara_block_id": "ah4-t10",
-      "tika_ayurvedarasayana_block_id": "ah4-t10"
+      "tika_sarvangasundara_block_id": "ah4-t37",
+      "tika_ayurvedarasayana_block_id": "ah4-t37"
     },
     {
       "id": "ah-s4-v11",
@@ -600,9 +600,11 @@
       "ah4-t30",
       "ah4-t31",
       "ah4-t32",
-      "ah4-t33"
+      "ah4-t33",
+      "ah4-t36",
+      "ah4-t37"
     ],
-    "completion_note": "Early and middle commentary blocks have undergone source-fidelity expansion. Section 8 remains correctly Sarvangasundari-only. Final audit remains before exact-complete status."
+    "completion_note": "Chapter 4 commentary coverage now includes the previously missing Wisdomlib Sections 11 and 12 (verses 9–10). Section 8 remains correctly Sarvangasundari-only because its verified source page exposes only that commentary. Structural mapping is complete; exact-complete status still requires final source-text completeness review."
   },
   "assessment_id": "ashtanga.hridaya.sutra.04.revision",
   "tika_blocks": [
@@ -919,6 +921,24 @@
       "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
       "tika_sarvangasundara_hi": "श्रम से उत्पन्न श्वास को रोकने से गुल्म आदि रोग हो सकते हैं; वहाँ विश्राम हितकर है और वातघ्न चिकित्सा करनी चाहिए। जृम्भा का रोधन छींक के रोधन के समान रोग उत्पन्न करता है। जृम्भा का अर्थ मुख का फैलना और शरीर का झुकना है; इसके रोधन में सभी वातशामक उपाय हितकर हैं।",
       "tika_ayurvedarasayana_hi": "श्रमश्वास-रोध से गुल्म, हृद्रोग और सम्मोह आदि उत्पन्न होते हैं; इसका उपचार विश्राम है। जृम्भा-रोध से छींक-रोध के समान शिरःपीड़ा आदि विकार होते हैं और सभी वातशामक उपाय हितकर हैं।"
+    },
+    {
+      "id": "ah4-t36",
+      "commentary": "both",
+      "source_section": "11",
+      "verse_range": "9",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724819.html",
+      "tika_sarvangasundara_hi": "क्षुतिवेग को रोकने से शिरोरुजा, इन्द्रियों की दुर्बलता और अन्यास्तम्भ से पीड़ितता तथा अर्दित आदि विकार उत्पन्न होते हैं। ‘इन्द्रियदौर्बल्य’ से दर्शन आदि विषयों को ग्रहण करने की असमर्थता अभिप्रेत है और ‘अर्दित’ से एकायाम नामक वातविकार ग्रहण है। ‘शिरोरुजा’ का अर्थ शिरःपीड़ा है।",
+      "tika_ayurvedarasayana_hi": "क्षुतिवेग-रोध से शिरःपीड़ा, इन्द्रियदौर्बल्य और अर्दित आदि विकार उत्पन्न होते हैं। ‘शिरोरुजा’ शिरोव्यथा है और इन्द्रियदौर्बल्य से विषयग्रहण की असमर्थता अभिप्रेत है। ‘अर्दित’ से एकायाम ग्रहण किया गया है।"
+    },
+    {
+      "id": "ah4-t37",
+      "commentary": "both",
+      "source_section": "12",
+      "verse_range": "9–10",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724820.html",
+      "tika_sarvangasundara_hi": "अवरोधित क्षुतिवेग को तीक्ष्ण धूम, तीक्ष्ण अञ्जन, तीक्ष्ण आघ्राण, तीक्ष्ण नस्य और सूर्यावलोकन द्वारा प्रवर्तित करना चाहिए। ‘तीक्ष्ण धूम’ धूमपान-विधि में आगे बताए जाने वाला धूम है; तीक्ष्ण अञ्जन नेत्ररोगों में, तीक्ष्ण आघ्राण नासा द्वारा मरीच आदि ग्रहण करने में और तीक्ष्ण नस्य नस्यविधि में बताए जाने वाले प्रयोग को सूचित करता है। इसके साथ स्नेह और स्वेद का अभ्यास करना चाहिए।",
+      "tika_ayurvedarasayana_hi": "रुकी हुई क्षुति को तीक्ष्ण धूम आदि तथा सूर्यावलोकन से प्रवर्तित करना चाहिए। क्षुतिवेग-रोधजन्य विकारों में स्नेह और स्वेद का भी नियमित अभ्यास करना चाहिए। तीक्ष्ण धूम, अञ्जन, आघ्राण और नस्य अपने-अपने विधिवर्णित प्रयोगों के अनुसार समझे जाते हैं।"
     }
   ]
 }
