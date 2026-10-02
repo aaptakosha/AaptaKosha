@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "uttara",
+  "chapter_number": 1,
+  "chapter_id": "uttara-01-snehapanavidhi",
+  "title_sanskrit": "स्नेहपानविधि",
+  "title_roman": "Snehapānavidhi",
+  "canonical_status": "source_reconciled",
+  "verse_extent": {
+    "status": "discrepant",
+    "primary_online_witness": "1-33",
+    "printed_dipika_witness": "1-35",
+    "discrepancy_note": "The Sanskrit Wikisource witness closes at v33. The printed Dīpikā witness numbers the closing teaching through v35 before the colophon. The discrepancy is preserved without silent normalization."
+  },
+  "colophon": "इति श्रीदामोदारसूनुना शार्ङ्गधरेण विरचितायां शार्ङ्गधरसंहितायां उत्तरखण्डे स्नेहपानविधिर्नाम प्रथमोऽध्यायः ॥१॥",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Uttara Khaṇḍa",
+      "role": "primary online Sanskrit witness; chapter sequence, verses 1-33 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/उत्तरखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā Hindi commentary",
+      "role": "printed witness and Hindi commentary; confirms the first chapter and printed closing numbering through v35",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/उत्तरखण्डे"
+    },
+    {
+      "name": "E-Bharatisampat — Śārṅgadhara Saṃhitā",
+      "role": "independent Sanskrit witness for Uttara Khaṇḍa chapter sequence and opening chapter",
+      "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=NDcxNjcxMjQ1MjI2MTQy"
+    },
+    {
+      "name": "TransLiteral — Uttara Khaṇḍa",
+      "role": "independent online Sanskrit witness for chapter sequence",
+      "url": "https://www.transliteral.org/pages/i210314213717/view"
+    }
+  ],
+  "canonical_sanskrit": [
+    [
+      "स्नेहश्चतुर्विंधः प्रोक्तो घृतं तैलं वसा तथा । मज्जा च तं पिबेन्मर्त्यः किञ्चिदभ्युदिते रवौ ॥ १ ॥"
+    ],
+    [
+      "स्थावरो जङ्गमश्चैव द्वियोनिः स्नेह उच्यते । तिलतैलं स्थावरेषु जङ्गमेषु घृतं वरम् ॥ २-३ ॥"
+    ],
+    [
+      "द्वाभ्यां त्रिभिश्चतुर्भिस्तैर्यमकस्त्रिवृतो महान् । पिबेत् त्र्यहं चतुरहं पञ्चाहं षडहं तथा । सप्तरात्रात्परं स्नेहं आत्मीभवति सेवितः ॥ ४-५ ॥"
+    ],
+    [
+      "दोषकालाग्निवयसां बलं दृष्ट्वा प्रयोजयेत् । हीनां च मध्यमां ज्येष्ठां मात्रां स्नेहस्य बुद्धिमान् ॥ ६ ॥"
+    ],
+    [
+      "अमात्रया तथाऽकाले मिथ्याहारविहारतः । स्नेहः करोति शोफार्शस्तन्द्रा निद्रा विसंज्ञताः । प्रकुर्याल्लङ्घनं तत्र स्वेदं ज्ञात्वा विरेचनम् ॥ ७ ॥"
+    ],
+    [
+      "देया दीप्ताग्नये मात्रा स्नेहस्य पलसंमिता । मध्यमाय त्रिकर्षा स्याज्जघन्याय द्विकार्षिकी ॥ ८ ॥"
+    ],
+    [
+      "अथवा स्नेहमात्राः स्युस्तिस्रोऽन्या सर्वसम्मताः । अहोरात्रेण महती जीर्यत्यह्नि तु मध्यमा । जीर्यत्यल्पा दिनार्धेन सा विज्ञेया सुखावहा ॥ ९ ॥"
+    ],
+    [
+      "अल्पा स्याद्दीपनी वृष्या स्वल्पदोषेषु पूजिता । मध्यमा स्नेहनी ज्ञेया बृंहणी भ्रमहारिणी । ज्येष्ठा कुष्ठविषोन्मादग्रहापस्मारनाशिनी ॥ १०-११ ॥"
+    ],
+    [
+      "केवलं पैत्तिके सर्पिर्वातिके लवणान्वितम् । पेयं बहुकफे चापि व्योषक्षारसमन्वितम् ॥ १२ ॥"
+    ],
+    [
+      "रूक्षक्षतविषार्त्तानां वातपित्तविकारिणाम् । हीनमेधास्मृतीनां च सर्पिष्पानं प्रशस्यते ॥ १३ ॥"
+    ],
+    [
+      "कृमिकोष्ठानिलाविष्टाः प्रवृद्धकफमेदसः । पिबेयुस्तैलसात्म्या ये तैलं दार्ढ्यार्थिनस्तु ये ॥ १४ ॥"
+    ],
+    [
+      "व्यायामकर्षिताः शुष्करेतोरक्ता महारुजः । महाग्निमारुतप्राणा वसायोग्या नराः स्मृताः ॥ १५ ॥"
+    ],
+    [
+      "क्रूराशयाः क्लेशसहा वातार्त्ता दीप्तवह्नयः । मज्जानं च पिबेयुस्ते सपिर्वा सर्वतो हितम् ॥ १६ ॥"
+    ],
+    [
+      "शीतकाले दिवा स्नेहमुष्णकाले पिबेन्निशि । वातपित्ताधिके रात्रौ वातश्लेष्माधिके दिवा ॥ १७ ॥"
+    ],
+    [
+      "नस्याभ्यञ्जनगण्डूषमूर्द्धकर्णाक्षितर्पणे । तैलं घृतं वा युञ्जीत दृष्ट्वा दोषबलाबलम् ॥ १८ ॥"
+    ],
+    [
+      "घृते कोष्णजलं पेयं तैले यूषः प्रशस्यते । वसामज्ज्ञोः पिबेन्मण्डमनुपानं सुखावहम् ॥ १९ ॥"
+    ],
+    [
+      "स्नेहद्विषः शिशून्वृद्धान्सुकुमारान्कृशानपि । उष्णकामानुष्णकाले सह भक्तेन पाययेत् ॥ २० ॥"
+    ],
+    [
+      "सर्पिष्मती बहुतिला यवागूः स्वल्पतण्डुला । सुखोष्णा सेव्यमाना तु सद्यः स्नेहनकारिणी ॥ २१ ॥"
+    ],
+    [
+      "शर्कराचूर्णसम्भृष्टे दोहनस्थे घृते तु गाम् । दुग्ध्वा क्षीरं पिबेदुष्णं सद्यःस्नेहनमुच्यते ॥ २२ ॥"
+    ],
+    [
+      "मिथ्याचाराद्बहुत्वाद्वा यस्य स्नेहो न जीर्यति । विष्टभ्य वाऽपि जीर्येत वारिणोष्णेन वामयेत् ॥ २३ ॥"
+    ],
+    [
+      "स्नेहस्याजीर्णशङ्कायां पिबेदुष्णोदकं नरः । तेनोद्गारो भवेच्छुद्धो भक्तं प्रति रुचिस्तथा ॥ २४ ॥"
+    ],
+    [
+      "स्नेहेन पैक्तिकस्याग्निर्यदा तीक्ष्णतरीकृतः । तदाऽस्योदीरयेत्तृष्णां स्नेहमुष्णाम्बुना वमेत् । शीतं जलं पाययेच्च पिपासा तेन शाम्यति ॥ २५ ॥"
+    ],
+    [
+      "अजीर्णी वर्जयेत्स्नेहमुदरी तरुणज्वरी । दुर्बलोऽरोचकी स्थूलो मूर्च्छार्त्तो मदपीडितः । दत्तवस्तिर्विरिक्तश्च वान्तस्तृष्णाश्रमान्वितः । अकालप्रसवा नारी दुर्दिने च विवर्जयेत् ॥ २६ ॥"
+    ],
+    [
+      "स्वेद्यसंशोध्यमद्यस्त्रीव्यायामासक्तचिन्तकाः । वृद्धा बालाः कृशा रूक्षाः क्षीणास्राः क्षीणरेतसः । वातार्त्तास्तिमिरार्त्ता ये तेषां स्नेहनमुत्तमम् ॥ २७ ॥"
+    ],
+    [
+      "वातानुलोम्यं दीप्तोऽग्निर्वर्चः स्निग्धमसंहतम् । मृदुस्निग्धाङ्गताऽग्लानिः स्नेहावेगोऽथ लाघवम् । विमलेन्द्रियता सम्यक् स्निग्धे रूक्षे विपर्ययः ॥ २८-२९ ॥"
+    ],
+    [
+      "भक्तद्वेषो मुखस्रावो गुदे दाहः प्रवाहिका । तन्द्राऽतिसारः पाण्डुत्वं भृशं स्निग्धस्य लक्षणम् ॥ ३० ॥"
+    ],
+    [
+      "रूक्षस्य स्नेहनं स्नेहैरतिस्निग्धस्य रूक्षणम् । श्यामाकचणकाद्यैश्च तक्रपिण्याकसक्तुभिः ॥ ३१ ॥"
+    ],
+    [
+      "दीप्ताग्निःशुद्धकोष्ठश्च पुष्टधातुर्दृढेन्द्रियः । निर्जरो बलवर्णाढ्यः स्नेहसेवी भवेन्नरः ॥ ३२ ॥"
+    ],
+    [
+      "स्नेहे व्यायामसंशीतवेगाघातप्रजागरान् । दिवास्वप्नमभिष्यन्दि रूक्षान्नं च विवर्जयेत् ॥ ३३ ॥"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "The primary online witness has 33 numbered verses and a chapter colophon. The printed Dīpikā witness presents the closing teaching with shifted numbering through v35; BharatKosha explicitly shows the closing teaching as v34-35. The chapter identity and thematic sequence agree.",
+    "resolution": "Use the online Sanskrit witness as the primary canonical sequence for the AaptaKosha Sanskrit layer (1-33), while preserving the printed Dīpikā numbering discrepancy as a source-critical note. Printed commentary remains linked by topic/range rather than silently renumbered.",
+    "commentary_note": "Dīpikā supplies Hindi explanations, practical context and cross-textual references. Those explanatory additions remain in the commentary/learning layer and are not merged into the canonical Sanskrit.",
+    "safety_note": "This chapter contains classical therapeutic procedures, eligibility/exclusion statements and traditional claims. It is preserved for historical/classical BAMS education, not as modern self-treatment or prescribing guidance."
+  },
+  "topic_map": [
+    [
+      "1-5",
+      "स्नेह के चार प्रकार, स्थावर-जङ्गम भेद, संयुक्त स्नेह और सात्म्य-काल"
+    ],
+    [
+      "6-9",
+      "स्नेहपान मात्रा और मात्रा-भेद"
+    ],
+    [
+      "10-12",
+      "मात्रानुसार गुण तथा अनुपान व्यवस्था"
+    ],
+    [
+      "13-20",
+      "घृत, तैल, वसा, मज्जा की पात्रता, काल, कर्म और अनुपान"
+    ],
+    [
+      "21-25",
+      "सद्यःस्नेहन, स्नेहाजीर्ण तथा तृष्णा सम्बन्धी वर्णन"
+    ],
+    [
+      "26-27",
+      "स्नेहपान में अनर्ह और अर्ह व्यक्तियों का वर्णन"
+    ],
+    [
+      "28-31",
+      "सम्यक् स्निग्धता, रूक्षता, अतिस्निग्धता और उपचार"
+    ],
+    [
+      "32-33",
+      "स्नेहसेवन के फल और वर्जनीय आचार"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-5",
+      "अध्याय स्नेह के चार प्रकार—घृत, तैल, वसा और मज्जा—से आरम्भ होकर उनके स्रोत, संयुक्त रूप और सात्म्य बनने की अवधि बताता है।"
+    ],
+    [
+      "6-12",
+      "स्नेह की मात्रा रोगी के दोष, काल, अग्नि, आयु और बल को देखकर निर्धारित करने की बात कही गई है; अल्प, मध्यम और ज्येष्ठ मात्रा तथा उनके पारंपरिक गुणों का वर्णन है।"
+    ],
+    [
+      "13-20",
+      "घृत, तैल, वसा और मज्जा के लिए अलग-अलग पात्रता, ऋतु/काल, कर्म तथा अनुपान के निर्देश मिलते हैं।"
+    ],
+    [
+      "21-25",
+      "सद्यःस्नेहन के उदाहरण, स्नेह के अजीर्ण की पहचान/प्रतिकार और स्नेहपान से उत्पन्न तृष्णा का पारंपरिक वर्णन मिलता है।"
+    ],
+    [
+      "26-27",
+      "किन परिस्थितियों में स्नेहपान वर्जित या उपयोगी माना गया है, इसका शास्त्रीय वर्गीकरण दिया गया है।"
+    ],
+    [
+      "28-31",
+      "सम्यक् स्निग्धता, रूक्षता और अतिस्निग्धता के लक्षण तथा रूक्ष/अतिस्निग्ध अवस्थाओं के पारंपरिक उपाय बताए गए हैं।"
+    ],
+    [
+      "32-33",
+      "स्नेहसेवन के पारंपरिक लाभ और सेवनकाल में वर्जनीय आचारों का समापन-वर्णन है।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-5",
+      "Dīpikā explains the four sneha types, the general timing rule and the distinction between sthāvara and jaṅgama sneha."
+    ],
+    [
+      "6-12",
+      "Dīpikā expands the dose framework, digestion-based interpretation and anupāna distinctions; printed numbering is preserved as a separate witness."
+    ],
+    [
+      "13-20",
+      "Dīpikā explains suitability of ghṛta, taila, vasā and majjā and contextualizes their traditional use."
+    ],
+    [
+      "21-25",
+      "Dīpikā gives explanatory notes on sadyaḥ-snehana, ajīrṇa and thirst-related passages."
+    ],
+    [
+      "26-27",
+      "Dīpikā explains the traditional indications and exclusions and cross-references related śodhana literature."
+    ],
+    [
+      "28-31",
+      "Dīpikā interprets the signs of proper/insufficient/excessive oleation and the traditional management categories."
+    ],
+    [
+      "32-33 / printed 34-35",
+      "Dīpikā explains the traditional benefits and regimen restrictions; the printed closing numbering is retained as a witness discrepancy."
+    ]
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-5",
+      "title": "स्नेह के प्रकार और सात्म्य"
+    },
+    {
+      "id": "LU2",
+      "range": "6-12",
+      "title": "मात्रा, गुण और अनुपान"
+    },
+    {
+      "id": "LU3",
+      "range": "13-20",
+      "title": "स्नेह के प्रकारानुसार पात्रता और काल"
+    },
+    {
+      "id": "LU4",
+      "range": "21-27",
+      "title": "सद्यःस्नेहन, अजीर्ण और पात्रता"
+    },
+    {
+      "id": "LU5",
+      "range": "28-31",
+      "title": "सम्यक् स्निग्धता और अतिस्निग्धता"
+    },
+    {
+      "id": "LU6",
+      "range": "32-33 / printed 34-35",
+      "title": "फल और वर्जनीय आचार"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "शास्त्र में स्नेह के कितने मुख्य प्रकार बताए गए हैं?",
+      "answer": "चार—घृत, तैल, वसा और मज्जा"
+    },
+    {
+      "type": "short_answer",
+      "question": "स्नेह की मात्रा निर्धारित करते समय किन प्रमुख कारकों को देखने की बात कही गई है?"
+    },
+    {
+      "type": "mcq",
+      "question": "घृत के साथ किस प्रकार का अनुपान वातिक और बहुकफ अवस्थाओं के लिए क्रमशः बताया गया है?"
+    },
+    {
+      "type": "short_answer",
+      "question": "सम्यक् स्निग्धता और अतिस्निग्धता के प्रमुख लक्षणों का तुलनात्मक सार लिखिए।"
+    },
+    {
+      "type": "source_criticism",
+      "question": "इस अध्याय में online 1-33 और printed 1-35 numbering को AaptaKosha में कैसे सुरक्षित रखना चाहिए और क्यों?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "primary_online_extent_verified": "1-33",
+    "printed_witness_extent_verified": "1-35",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "numbering_discrepancy_preserved": true,
+    "cross_source_checked": true,
+    "canonical_full_verse_transcription": "complete for primary online witness 1-33; printed closing numbering preserved as a source-critical discrepancy",
+    "no_fabricated_missing_verses": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "one_chapter_one_commit": true
+  }
+}

@@ -127,3 +127,9 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [ ] Full controlled printed-source verse transcription remains a future refinement for non-anchor verses
 - [x] Madhyama JSON schema/regression contract added for chapter identity, witness extents, colophons, quality gates and source-safety separation
 - [x] Cross-chapter audit correction: Chapter 12 witness extent discrepancy (online 1–293 vs printed 1–295) preserved explicitly
+
+
+### Śārṅgadhara Saṃhitā — Uttara Khaṇḍa
+- [x] Uttara Khaṇḍa chapter registry/source sequence verified: 13 chapters.
+- [x] Chapter 1 — Snehapānavidhi researched and source-reconciled; primary online witness 1–33; printed Dīpikā witness 1–35 discrepancy preserved.
+- [ ] Chapters 2–13 pending research-first ingestion.
