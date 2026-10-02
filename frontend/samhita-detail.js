@@ -12,7 +12,7 @@ subtitle:"Navigate the classical Sthana structure before entering individual cha
 sections:[
 ["Sūtrasthāna","Sūtrasthāna","sutra",null],["Nidānasthāna","Nidānasthāna","nidana",null],["Śārīrasthāna","Śārīrasthāna","sharira",null],["Cikitsāsthāna","Cikitsāsthāna","chikitsa",null],["Kalpasthāna","Kalpasthāna","kalpa",null],["Uttara-tantra","Uttara Tantra","uttara",null]
 ]},
-ashtanga-hridaya:{
+'ashtanga-hridaya':{
 name:"Ashtanga Hridaya",category:"Brihattrayi",relevance:"1, 2, 3",
 subtitle:"Select a Sthana to move from the library structure into chapter-level study.",
 sections:[
