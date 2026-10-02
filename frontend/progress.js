@@ -1,6 +1,6 @@
 (function () {
   const SUBJECT = "dravyaguna";
-  // The progress page currently retains its legacy Dravyaguna summary while chapter-level progress is loaded from the API.
+  // Progress metrics are rendered only from authenticated API data; no demo analytics are used.
 
   async function loadProgress() {
     if (!window.AaptaKoshaApi) throw new Error("API client unavailable");
@@ -46,7 +46,32 @@
     const list = document.querySelector("[data-score-list]");
     if (!list) return;
     list.replaceChildren();
+    const daily = Array.isArray(metrics.daily_minutes) ? metrics.daily_minutes : [];
+    const bars = document.querySelectorAll("[data-study-bars] i");
+    if (daily.length && bars.length) {
+      const max = Math.max(1, ...daily.map((item) => Number(item.minutes) || 0));
+      daily.slice(-bars.length).forEach((item, index) => {
+        const value = Math.max(0, Number(item.minutes) || 0);
+        bars[index].style.height = Math.round((value / max) * 100) + "%";
+        bars[index].setAttribute("aria-label", value + " minutes");
+      });
+      const note = document.querySelector("[data-study-time-note]");
+      if (note) note.textContent = "Synced from your study activity";
+    }
+
     const assessments = metrics.assessments || [];
+    const points = document.querySelector("[data-score-points]");
+    if (points) {
+      points.replaceChildren();
+      assessments.slice(-6).forEach((item, index) => {
+        const point = document.createElement("i");
+        const value = Math.max(0, Math.min(100, Number(item.best_percent) || 0));
+        point.style.bottom = value + "%";
+        point.setAttribute("aria-label", value + "%");
+        points.appendChild(point);
+      });
+    }
+
     assessments.forEach((item) => {
       const span = document.createElement("span");
       span.textContent = item.assessment_id + " · " + (item.best_percent || 0) + "% best";
@@ -75,6 +100,9 @@
       if (calendarNote) calendarNote.textContent = "Sign in to sync your study activity.";
       const state = document.querySelector("[data-ui-state]");
       const authenticated = window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated;
+      const points = document.querySelector("[data-score-points]");
+      if (points) points.replaceChildren();
+      document.querySelectorAll("[data-study-bars] i").forEach((bar) => { bar.style.height = "0%"; });
       if (state && (authenticated || window.AAPTAKOSHA_API_BASE)) {
         window.AaptaKoshaUi?.status(
           state,
