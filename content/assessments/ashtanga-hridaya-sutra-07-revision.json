@@ -1,0 +1,589 @@
+{
+  "assessment_id": "ashtanga.hridaya.sutra.07.revision",
+  "title_hi": "अष्टाङ्गहृदय सूत्रस्थान अध्याय 7 पुनरावृत्ति",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "questions": [
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q1",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 1: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.01"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q2",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 2: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.02"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q3",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 3: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.03"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q4",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 4: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.04"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q5",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 5: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.05"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q6",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 6: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.06"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q7",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 7: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.07"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q8",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 8: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.08"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q9",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 9: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.09"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q10",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 10: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.10"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q11",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 11: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.11"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q12",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 12: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.12"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q13",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 13: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.13"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q14",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 14: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.14"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q15",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 15: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.15"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q16",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 16: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.16"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q17",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 17: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.17"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q18",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 18: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.18"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q19",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 19: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.19"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.07.q20",
+      "prompt_hi": "अध्याय 7 पुनरावृत्ति प्रश्न 20: इस अध्याय के किस प्रमुख विषय का अध्ययन किया जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्नरक्षा, विरुद्धाहार और आहार-विहार संबंधी निर्देश",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल शरीररचना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषध-निर्माण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "यह विषय अध्याय में नहीं है",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.07.20"
+      ]
+    }
+  ]
+}
