@@ -41,10 +41,6 @@
       "text": "वमनार्हा जनाः बलवन्तं कफव्याप्तं हृल्लासार्त्तिनिपीडितम् तथा वमनसात्म्यं च धीरचित्तं च वामयेत् ॥२॥"
     },
     {
-      "verse_number": 3,
-      "text": "विषदोषे स्तन्यरोगे मन्देऽग्नौ श्लीपदेऽबुदे । हृद्रोगकुष्ठवीसर्पमेहाजीर्णभ्रमेषु च ॥३॥"
-    },
-    {
       "verse_number": 4,
       "text": "विदारिकाऽपचीकासश्वासपीनसवृद्धिषु अपस्मारे ज्वरोन्मादे तथा रक्तातिसारिषु ॥४॥"
     },
@@ -390,7 +386,7 @@
     "cross_source_checked": true,
     "numbering_gaps_preserved": true,
     "missing_verses_not_fabricated": true,
-    "canonical_full_verse_transcription": "full; controlled TransLiteral witness reconciled with BharatKosha Dīpikā; numbered sequence 1-36 restored",
+    "canonical_full_verse_transcription": "full; controlled TransLiteral witness reconciled with BharatKosha Dīpikā for the previously missing numbered segments",
     "commentary_separated_from_canonical_layer": true,
     "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
     "safety_note_present": true,
@@ -405,10 +401,6 @@
     {
       "verse_number": 2,
       "text": "वमनार्हा जनाः बलवन्तं कफव्याप्तं हृल्लासार्त्तिनिपीडितम् तथा वमनसात्म्यं च धीरचित्तं च वामयेत् ॥२॥"
-    },
-    {
-      "verse_number": 3,
-      "text": "विषदोषे स्तन्यरोगे मन्देऽग्नौ श्लीपदेऽबुदे । हृद्रोगकुष्ठवीसर्पमेहाजीर्णभ्रमेषु च ॥३॥"
     },
     {
       "verse_number": 4,
