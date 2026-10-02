@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 10,
+  "chapter_id": "madhyama-10-asavarishtakalpana",
+  "title_sanskrit": "आसवारिष्टादिसन्धानकल्पना",
+  "title_roman": "Āsavāriṣṭādisaṃdhānakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "primary_online_witness": "1-92",
+    "printed_dipika_witness": "1-94",
+    "status": "discrepant"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे आसवारिष्टादिसन्धानकल्पना नाम दशमोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; chapter sequence 1-92 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Dīpikā Hindi commentary",
+      "role": "printed Chaukhamba Surbharati witness; chapter pages 200-208 with Sanskrit, Hindi explanation and Dīpikā notes",
+      "url": "https://bharatkosha.org/granth/sharangadhara-samhita-hindi/adhyay/आसवारिष्टकल्पना"
+    },
+    {
+      "name": "Parul University scanned Madhyama PDF",
+      "role": "independent scanned witness for printed Sanskrit sequence",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharngadhara_samhita_madhya.pdf"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    [
+      "1",
+      "द्रवेषु चिरकालस्थं द्रव्यं यत्संधितं भवेत् । आसावारिष्टभेदैस्तु प्रोच्यते भेषजोचितम् ॥ १ ॥"
+    ],
+    [
+      "2",
+      "यदपक्वौषधाम्बुभ्यां सिद्धं मद्यं स आसवः । अरिष्टः क्वाथसाध्यः स्यात्तयोर्मानं पलोन्मितम् ॥ २ ॥"
+    ],
+    [
+      "3",
+      "अनुक्तमानारिष्टेषु द्रवद्रोणे तुलां गुडम् । क्षौद्रं क्षिपेद् गुडादर्द्धं प्रक्षेपं दशमांशिकम् ॥ ३ ॥"
+    ],
+    [
+      "4",
+      "ज्ञेयः शीतरसःसीधुरपक्वमधुरद्रवैः । सिद्धः पक्वरसः सीधुः सम्पक्वमधुरद्रवैः ॥ ४ ॥"
+    ],
+    [
+      "5-6",
+      "परिपक्वान्नसन्धानसमुत्पन्नां सुरां जगुः । सुरामण्डः प्रसन्ना स्यात्ततः कादम्बरी घना ॥ ५ ॥ तदधो जगलो ज्ञेयो मेदको जगलाद्घनः । पक्वोऽसौ हृतसारः स्यात्सुराबीजं च किण्वकम् ॥ ६ ॥"
+    ],
+    [
+      "7-12",
+      "वारुणी, शुक्त, चुक्र, गुडशुक्त, इक्षुशुक्त, द्राक्षाशुक्त, तुषाम्बु, सौवीर, काञ्जिक तथा सण्डाकी के लक्षण क्रमशः दिये गये हैं।"
+    ],
+    [
+      "13-17",
+      "उशीरासव की द्रव्य-संरचना, धातकी, द्राक्षा, शर्करा, मधु और एक-मास सन्धान का विधान।"
+    ],
+    [
+      "18-27",
+      "कुमार्यासव की तैयारी, प्रक्षेप-द्रव्य और पारंपरिक उपयोग।"
+    ],
+    [
+      "28-33",
+      "पिप्पल्याद्यासव की द्रव्य-संरचना, सन्धान और पारंपरिक उपयोग।"
+    ],
+    [
+      "34-38",
+      "लोहासव की संरचना, धातकी, गुड़, मधु और सन्धान-विधान।"
+    ],
+    [
+      "39-43",
+      "मृद्वीकासव/मृद्विकारिष्ट की तैयारी और पारंपरिक उपयोग।"
+    ],
+    [
+      "44-46",
+      "कुटजारिष्ट की क्वाथ-साधित तैयारी और पारंपरिक ज्वर-संदर्भ।"
+    ],
+    [
+      "47-52",
+      "विडङ्गारिष्ट की तैयारी और पारंपरिक उपयोग।"
+    ],
+    [
+      "53-59",
+      "देवदार्वाद्यारिष्ट की द्रव्य-संरचना, क्वाथ, धातकी, माक्षिक आदि और पारंपरिक उपयोग।"
+    ],
+    [
+      "60-65",
+      "खदिरारिष्ट की तैयारी तथा पारंपरिक त्वक्/कुष्ठ आदि संदर्भ।"
+    ],
+    [
+      "66-68",
+      "बब्बूलारिष्ट की तैयारी और पारंपरिक क्षय-कास आदि संदर्भ।"
+    ],
+    [
+      "69-72",
+      "द्राक्षारिष्ट की तैयारी और पारंपरिक बल/उरःक्षत/कास-श्वास संदर्भ।"
+    ],
+    [
+      "73-76",
+      "रोहितकारिष्ट की तैयारी तथा अर्श, ग्रहणी, पाण्डु, हृद्रोग, प्लीहा आदि के पारंपरिक संदर्भ।"
+    ],
+    [
+      "77-92",
+      "दशमूलारिष्ट की विस्तृत द्रव्य-संरचना, क्वाथ, द्राक्षा, मधु, धातकी, सुगन्धिद्रव्य, सन्धान और अंतिम पारंपरिक उपयोग।"
+    ],
+    [
+      "92",
+      "कृशानां पुष्टिजननो वन्ध्यानां गर्भदः परः । अरिष्टो दशमूलाख्यस्तेजः शुक्रबलप्रदः ॥ ९२ ॥"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "The Sanskrit Wikisource witness presents Chapter 10 as Āsavāriṣṭādisaṃdhānakalpanā and runs from verse 1 through 92. The printed Dīpikā witness at BharatKosha presents the same chapter as Āsavāriṣṭakalpanā but its printed numbering reaches 94 at the colophon.",
+    "numbering_note": "The printed Dīpikā witness is offset from the Wikisource sequence in later displayed verse numbers; for example the printed witness places the Mṛdvīkā section around 41-44 and the closing Daśamūlāriṣṭa around 91-94. This discrepancy is preserved rather than silently normalized.",
+    "structural_note": "The chapter first defines fermentation-derived preparations and differentiates āsava, ariṣṭa, sīdhu, surā, śukta, chukra, tuṣāmbu, sauvīra, kāñjika and related preparations; it then gives named āsavas followed by ariṣṭas, ending with Daśamūlāriṣṭa.",
+    "canonical_policy": "Controlled Sanskrit anchors are stored from the primary online witness. Full verse-by-verse transcription is not claimed because the printed and online witnesses require a controlled line-by-line reconciliation before canonical transcription.",
+    "commentary_policy": "Dīpikā explanations, ingredient identifications, unit conversions and practical interpretations remain separate from the canonical Sanskrit layer.",
+    "safety_note": "This chapter contains fermented preparations, alcohol-related classical terminology, potent botanicals and strong traditional therapeutic claims. It is historical/classical source material, not modern prescribing or alcohol-use guidance."
+  },
+  "topic_map": [
+    [
+      "1-12",
+      "सन्धान की परिभाषा, आसव-अरिष्ट भेद, अनुक्तमान, सीधु/सुरा/शुक्त आदि की संज्ञाएँ और लक्षण"
+    ],
+    [
+      "13-38",
+      "उशीरासव, कुमार्यासव, पिप्पल्याद्यासव और लोहासव"
+    ],
+    [
+      "39-52",
+      "मृद्वीकासव/मृद्विकारिष्ट, कुटजारिष्ट और विडङ्गारिष्ट"
+    ],
+    [
+      "53-65",
+      "देवदार्वाद्यारिष्ट और खदिरारिष्ट"
+    ],
+    [
+      "66-76",
+      "बब्बूलारिष्ट, द्राक्षारिष्ट और रोहितकारिष्ट"
+    ],
+    [
+      "77-92",
+      "दशमूलारिष्ट की विस्तृत कल्पना और समापन"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-12",
+      "अध्याय सन्धान से बनने वाले द्रवों की मूल संकल्पना बताता है। आसव को अपक्व औषध-द्रव से तथा अरिष्ट को क्वाथ-साधित रूप में परिभाषित किया गया है; अनुक्तमान में गुड़, मधु और प्रक्षेप के सामान्य अनुपात भी दिये हैं।"
+    ],
+    [
+      "13-38",
+      "पहले आसवों का भाग आता है। उशीरासव, कुमार्यासव, पिप्पल्याद्यासव और लोहासव में द्रव्य-संयोजन, सन्धान और पारंपरिक उपयोग वर्णित हैं।"
+    ],
+    [
+      "39-52",
+      "अरिष्ट भाग में मृद्वीकासव/मृद्विकारिष्ट, कुटजारिष्ट और विडङ्गारिष्ट के क्वाथ-साधित रूपों का वर्णन है।"
+    ],
+    [
+      "53-65",
+      "देवदार्वाद्यारिष्ट और खदिरारिष्ट में क्वाथ, धातकी तथा अन्य प्रक्षेप द्रव्यों के साथ सन्धान-विधान दिया गया है।"
+    ],
+    [
+      "66-76",
+      "बब्बूलारिष्ट, द्राक्षारिष्ट और रोहितकारिष्ट के निर्माण तथा उनके पारंपरिक रोग-संदर्भ दिये गये हैं।"
+    ],
+    [
+      "77-92",
+      "दशमूलारिष्ट सबसे विस्तृत अंतिम योग है। इसमें दशमूल के साथ अनेक सहायक द्रव्य, द्राक्षा, मधु, धातकी और सुगन्धिद्रव्य जोड़े जाते हैं; अंत में पारंपरिक उपयोगों का उल्लेख है।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-12",
+      "Dīpikā explains fermentation terminology, the āsava/ariṣṭa distinction, general quantities and related fermented preparations. Source: BharatKosha Chapter 10, pp. 200-201."
+    ],
+    [
+      "13-38",
+      "Dīpikā gives ingredient identifications, traditional measures and explanatory notes for the principal āsavas. Source: BharatKosha Chapter 10, pp. 200-203."
+    ],
+    [
+      "39-52",
+      "Dīpikā provides the printed formulation sequence and practical explanations for Mṛdvīkā/Mṛdvikāriṣṭa, Kuṭajāriṣṭa and Viḍaṅgāriṣṭa. Source: BharatKosha Chapter 10, pp. 203-205."
+    ],
+    [
+      "53-76",
+      "Dīpikā continues with Devadārvādyariṣṭa, Khadirāriṣṭa, Babbūlāriṣṭa, Drākṣāriṣṭa and Rohītakāriṣṭa. Source: BharatKosha Chapter 10, pp. 205-207."
+    ],
+    [
+      "77-92",
+      "Dīpikā explains the extended Daśamūlāriṣṭa recipe and closing traditional indications; the printed witness reaches verse 94 in its numbering. Source: BharatKosha Chapter 10, p. 208."
+    ]
+  ],
+  "learning_units": [
+    [
+      "LU1",
+      "1-12",
+      "सन्धान और आसव-अरिष्ट की मूल संज्ञाएँ"
+    ],
+    [
+      "LU2",
+      "13-27",
+      "उशीरासव और कुमार्यासव"
+    ],
+    [
+      "LU3",
+      "28-38",
+      "पिप्पल्याद्यासव और लोहासव"
+    ],
+    [
+      "LU4",
+      "39-52",
+      "मृद्वीक/मृद्विक तथा कुटज-विडङ्गारिष्ट"
+    ],
+    [
+      "LU5",
+      "53-65",
+      "देवदार्वाद्य और खदिरारिष्ट"
+    ],
+    [
+      "LU6",
+      "66-76",
+      "बब्बूल, द्राक्ष और रोहितकारिष्ट"
+    ],
+    [
+      "LU7",
+      "77-92",
+      "दशमूलारिष्ट और स्रोत-समापन"
+    ]
+  ],
+  "assessments": [
+    [
+      "mcq",
+      "आसव और अरिष्ट में मुख्य प्रक्रियात्मक भेद क्या है?",
+      "आसव अपक्व औषध-द्रव से और अरिष्ट क्वाथ-साधित द्रव से बनाया जाता है।"
+    ],
+    [
+      "mcq",
+      "अनुक्तमान अरिष्ट में द्रव के एक द्रोण के लिए सामान्यतः गुड़ कितना बताया गया है?",
+      "एक तुला"
+    ],
+    [
+      "mcq",
+      "अनुक्तमान अरिष्ट में मधु की मात्रा गुड़ की तुलना में कैसी बतायी गयी है?",
+      "गुड़ का आधा"
+    ],
+    [
+      "mcq",
+      "अनुक्तमान में प्रक्षेप की सामान्य मात्रा क्या बतायी गयी है?",
+      "द्रव की दशमांश मात्रा"
+    ],
+    [
+      "short_answer",
+      "सन्धान, आसव और अरिष्ट की परिभाषाएँ तथा परस्पर संबंध समझाइए।"
+    ],
+    [
+      "short_answer",
+      "आसव-अरिष्ट के निर्माण में क्वाथ और प्रक्षेप-द्रव्य की भूमिकाओं का वर्णन कीजिए।"
+    ],
+    [
+      "source_criticism",
+      "Wikisource और मुद्रित Dīpikā में अध्याय की verse numbering अलग क्यों सुरक्षित रखनी चाहिए?"
+    ],
+    [
+      "source_criticism",
+      "Dīpikā के ingredient-identification, unit conversion और traditional indications को canonical Sanskrit से अलग layer में रखने का कारण बताइए।"
+    ]
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "primary_online_extent_verified": "1-92",
+    "printed_dipika_extent_verified": "1-94",
+    "cross_source_checked": true,
+    "numbering_discrepancy_preserved": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
