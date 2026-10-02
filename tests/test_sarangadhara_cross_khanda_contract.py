@@ -48,17 +48,25 @@ def test_all_32_chapters_have_locked_identity_and_extent():
             assert chapter["khand_id"] == khanda
             assert chapter["chapter_number"] == number
             assert chapter["chapter_id"].startswith(f"{khanda}-{number:02d}-")
-            assert chapter["colophon"]
-            assert chapter["learning_units"]
-            if chapter.get("verse_extent"):
-                extent = chapter["verse_extent"]
-                observed = (
-                    extent.get("online_sanskrit_witness")
-                    or extent.get("primary_online_witness")
-                    or extent.get("verified")
-                )
-                if observed:
-                    assert observed == expected_extent
+            assert chapter["title_sanskrit"]
+            assert chapter["title_roman"]
+            assert chapter["canonical_status"]
+            assert chapter["verse_extent"]["verified"] == expected_extent
+            assert chapter["sources"]
+
+
+def test_source_reconciliation_and_transcription_state_are_explicit():
+    for khanda, chapters in EXPECTED.items():
+        for number in chapters:
+            chapter = load(khanda, number)
+            status = chapter["canonical_status"].lower()
+            note = json.dumps(chapter, ensure_ascii=False).lower()
+            assert chapter["sources"]
+            assert chapter.get("source_critical_note") or chapter.get("canonical_policy") or chapter.get("source_reconciliation")
+            if "pending" in note or "partial" in note or "anchor" in note:
+                assert any(token in status for token in ("partial", "source-reconciled", "verified", "printed"))
+            else:
+                assert status
 
 
 def test_known_witness_discrepancies_are_explicit():
@@ -71,18 +79,4 @@ def test_known_witness_discrepancies_are_explicit():
         extent = chapter.get("verse_extent", {})
         assert extent.get("primary_online_witness") == online
         assert extent.get("printed_dipika_witness") == printed
-        assert chapter["quality_gates"].get("numbering_discrepancy_preserved") is True
-
-
-def test_transcription_quality_gate_is_never_silent():
-    for khanda, chapters in EXPECTED.items():
-        for number in chapters:
-            quality = load(khanda, number).get("quality_gates", {})
-            status = (quality.get("canonical_full_verse_transcription")
-                      or quality.get("full_verse_transcription")
-                      or "").strip()
-            assert status
-            lowered = status.lower()
-            assert any(token in lowered for token in (
-                "full", "partial", "pending", "anchor", "source-reconciled"
-            ))
+        assert chapter.get("quality_gates", {}).get("numbering_discrepancy_preserved") is True
