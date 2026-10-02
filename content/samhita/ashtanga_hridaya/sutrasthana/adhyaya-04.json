@@ -349,7 +349,9 @@
       "sanskrit_original": "ये भूतविषवाय्वग्निक्षतभङ्गादिसम्भवाः । रागद्वेषभयाद्याश्च ते स्युरागन्तवो गदाः ॥ ३१ ॥",
       "hindi_translation": "भूत, विष, वायु, अग्नि, चोट, भंग आदि से तथा राग, द्वेष और भय आदि से उत्पन्न रोग आगन्तु कहलाते हैं।",
       "hindi_explanation": "आगन्तु रोगों में बाह्य आघात और मानसिक कारण दोनों शामिल किए गए हैं।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t30",
+      "tika_ayurvedarasayana_block_id": "ah4-t30"
     },
     {
       "id": "ah-s4-v32",
@@ -358,7 +360,9 @@
       "sanskrit_original": "त्यागः प्रज्ञापराधानामिन्द्रियौपशमः स्मृतिः । देशकालात्मविज्ञानं सद्वृत्तस्यानुवर्तनम् ॥ ३२ ॥",
       "hindi_translation": "प्रज्ञापराध का त्याग, इन्द्रिय-निग्रह, स्मृति, देश-काल-आत्मज्ञान और सद्वृत्त का पालन रोग-निरोधक हैं।",
       "hindi_explanation": "यह श्लोक स्वस्थवृत्त को व्यवहारिक रोग-प्रतिरोध के रूप में संक्षेपित करता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t31",
+      "tika_ayurvedarasayana_block_id": "ah4-t31"
     },
     {
       "id": "ah-s4-v33",
@@ -367,7 +371,9 @@
       "sanskrit_original": "अथर्वविहिता शान्तिः प्रतिकूलग्रहार्चनम् । भूताद्यस्पर्शनोपायो निर्दिष्टश्च पृथक्पृथक् ॥ ३३ ॥",
       "hindi_translation": "अथर्ववेद-विहित शान्ति, प्रतिकूल ग्रहों की अर्चना और भूत आदि के स्पर्श से बचने के उपाय अलग-अलग बताए गए हैं।",
       "hindi_explanation": "यह उस समय की आगन्तु-रोग अवधारणा में शान्ति और सुरक्षा उपायों का उल्लेख है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t31",
+      "tika_ayurvedarasayana_block_id": "ah4-t31"
     },
     {
       "id": "ah-s4-v34",
@@ -376,7 +382,9 @@
       "sanskrit_original": "अनुत्पत्त्यै समासेन विधिरेषः प्रदर्शितः । निजागन्तुविकाराणामुत्पन्नानां च शान्तये ॥ ३४ ॥",
       "hindi_translation": "यह संक्षिप्त विधि निज और आगन्तु दोनों विकारों की उत्पत्ति रोकने तथा उत्पन्न होने पर उनकी शान्ति के लिए बताई गई है।",
       "hindi_explanation": "अध्याय का उद्देश्य केवल रोकथाम नहीं, उत्पन्न विकारों के शमन का भी ढाँचा देना है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t31",
+      "tika_ayurvedarasayana_block_id": "ah4-t31"
     },
     {
       "id": "ah-s4-v35",
@@ -385,7 +393,9 @@
       "sanskrit_original": "शीतोद्भवं दोषचयं वसन्ते विशोधयन् ग्रीष्मजमभ्रकाले । घनात्यये वार्षिकमाशु सम्यक् प्राप्नोति रोगानृतुजान्न जातु ॥ ३५ ॥",
       "hindi_translation": "शीत ऋतु में संचित दोषों का वसन्त में, ग्रीष्म में संचित दोषों का वर्षाकाल में और वर्षा ऋतु में संचित दोषों का शरद् ऋतु में उचित समय पर सम्यक् शोधन करने वाला व्यक्ति ऋतुजन्य रोगों को कभी प्राप्त नहीं होता।",
       "hindi_explanation": "ऋतुचर्या और रोगानुत्पादन-निरोध यहाँ सीधे जोड़े गए हैं।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t32",
+      "tika_ayurvedarasayana_block_id": "ah4-t32"
     },
     {
       "id": "ah-s4-v36",
@@ -394,7 +404,9 @@
       "sanskrit_original": "नित्यं हिताहारविहारसेवी समीक्ष्यकारी विषयेष्वसक्तः । दाता समः सत्यपरः क्षमावानाप्तोपसेवी च भवत्यरोगः ॥ ३६ ॥",
       "hindi_translation": "हितकर आहार-विहार करने वाला, विचारपूर्वक कार्य करने वाला, विषयों में आसक्त न रहने वाला, दानी, समदर्शी, सत्यवादी, क्षमाशील और आप्तसेवी व्यक्ति निरोग रहता है।",
       "hindi_explanation": "अध्याय का निष्कर्ष शारीरिक चिकित्सा से आगे बढ़कर आचार, मन और सामाजिक व्यवहार को स्वास्थ्य का आधार बनाता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t33",
+      "tika_ayurvedarasayana_block_id": "ah4-t33"
     },
     {
       "id": "ah-s4-colophon",
@@ -538,13 +550,11 @@
     "source_policy": "e-Vāgbhaṭa remains the primary source for Sanskrit and chapter sequence. Secondary sources are cross-checks and must not override the primary source."
   },
   "tika_status": {
-    "status": "translation_in_progress",
+    "status": "complete",
     "standard": "exact_faithful_hindi_translation_required",
     "phase_1": "Core Samhita content",
     "phase_2": "Dedicated exact Sarvangasundari and Ayurvedarasayana translation",
-    "pending_blocks": [
-      "ah4-t30 onward"
-    ],
+    "pending_blocks": [],
     "source": "Ayana Ayurveda commentary display for completed blocks; e-Vāgbhaṭa remains primary Sanskrit source.",
     "completed_blocks": [
       "ah4-t01",
@@ -575,8 +585,13 @@
       "ah4-t26",
       "ah4-t27",
       "ah4-t28",
-      "ah4-t29"
-    ]
+      "ah4-t29",
+      "ah4-t30",
+      "ah4-t31",
+      "ah4-t32",
+      "ah4-t33"
+    ],
+    "completion_note": "Phase 2 Tika blocks completed for Chapter 4 using the accessible Sarvangasundari and Ayurvedarasayana commentary display; source boundaries are retained per block. No unsupported PDF reconstruction was used."
   },
   "assessment_id": "ashtanga.hridaya.sutra.04.revision",
   "tika_blocks": [
@@ -840,6 +855,42 @@
       "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
       "tika_sarvangasundara_hi": "इस प्रकार पहले शोधन, फिर बृंहण और उसके बाद रसायन का प्रयोग करने वाला व्यक्ति स्वास्थ्य प्राप्त करता है। उसे सभी अग्नियों की कार्यक्षमता, बुद्धि और वर्ण की स्पष्टता, इन्द्रियों की निर्मलता, वृषत्व अर्थात् मैथुन-सामर्थ्य तथा आयु की दीर्घता प्राप्त होती है।",
       "tika_ayurvedarasayana_hi": "शोधन आदि के उचित प्रयोग का फल सुख और स्वास्थ्य है। ‘सर्वपावक’ से जाठराग्नि, भूताग्नि और धात्वग्नि अभिप्रेत हैं; ‘वृषता’ से संभोग-सामर्थ्य और ‘दैर्घ्यमायुषः’ से आयु की वृद्धि समझी जाती है।"
+    },
+    {
+      "id": "ah4-t30",
+      "commentary": "both",
+      "source_section": "31",
+      "verse_range": "31",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "भूत, विष, वायु, अग्नि, क्षत और भंग आदि से उत्पन्न ज्वरादि रोग आगन्तु कहलाते हैं; इनके अतिरिक्त राग, द्वेष और भय आदि से उत्पन्न रोग भी आगन्तु हैं। ‘भूतादि’ में भूत, विष आदि तथा ‘आदि’ में अन्य आगन्तुक कारण ग्रहण किए जाते हैं।",
+      "tika_ayurvedarasayana_hi": "भूतादि के स्पर्श से बचने के उपाय बताए जा रहे हैं। ‘भूत’ से ग्रह, ‘वायु’ से झंझावात आदि, ‘क्षत’ से शस्त्रजन्य घाव और ‘भंग’ से गिरने आदि से होने वाला अंगभंग समझना चाहिए; ‘आदि’ में श्रम आदि तथा अन्य पद में शोक आदि भी ग्रहण होते हैं।"
+    },
+    {
+      "id": "ah4-t31",
+      "commentary": "both",
+      "source_section": "32–34",
+      "verse_range": "32–34",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "प्रज्ञापराध का त्याग, इन्द्रियों का संयम, स्मृति, देश-काल-आत्मज्ञान और सद्वृत्त का पालन करना चाहिए। अथर्वविहित शान्ति तथा प्रतिकूल ग्रहों की अर्चना और भूतादि के स्पर्श से बचने के पृथक्-पृथक् उपाय भी बताए गए हैं। यह संक्षेप में निज और आगन्तु दोनों विकारों की अनुत्पत्ति तथा उत्पन्न विकारों की शान्ति के लिए कहा गया है।",
+      "tika_ayurvedarasayana_hi": "भूतादि के स्पर्श से बचने के उपायों में प्रज्ञापराध का त्याग, स्मृति, देश-काल-आत्मज्ञान, सद्वृत्त, अथर्वविहित शान्ति और प्रतिकूल ग्रहों की अर्चना आदि आते हैं। प्रज्ञापराध का त्याग तथा अन्य उपाय आगन्तु रोगकारकों से असम्बन्ध का साधन हैं; प्रत्येक भूतादि के लिए पृथक् प्रतिषेध भी उपाय है। ‘समासेन’ का अर्थ संक्षेप से है—यह विधि रोगों की अनुत्पत्ति और उत्पन्न रोगों की शान्ति दोनों के लिए है।"
+    },
+    {
+      "id": "ah4-t32",
+      "commentary": "both",
+      "source_section": "35",
+      "verse_range": "35",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "‘शीत’ से हेमन्त और शिशिर दोनों ऋतुएँ ग्रहण हैं। इनसे संचित दोषों का वसन्त में शोधन करना चाहिए; ग्रीष्म में संचित दोषों का वर्षा के आरम्भ में और वार्षिक दोषचय का घन-विनाश के बाद शरद् में उचित समय पर शोधन करना चाहिए। ऐसा सम्यक् और समयानुसार करने वाला व्यक्ति ऋतुजन्य रोग प्राप्त नहीं करता। वसन्त-शोधन का संकेत चैत्र के आरम्भ तथा वार्षिक दोषचय के लिए शरद् के उत्तरार्ध की ओर है।",
+      "tika_ayurvedarasayana_hi": "यह श्लोक ऋतुचर्या के कालगत कारण-विषय को दर्शाता है। ‘वसन्त’, ‘अभ्रकाल’ और ‘घनात्यय’ से क्रमशः चैत्र, वर्षारम्भ और कार्तिक आदि कालखंड लक्षित होते हैं। ऋतु में संचित दोषों का उचित समय पर शीघ्र शोधन करना चाहिए; पूर्वोक्त निर्देश के अनुसार वसन्त, वर्षारम्भ और शरद् में संबंधित दोषचय का शोधन किया जाता है।"
+    },
+    {
+      "id": "ah4-t33",
+      "commentary": "both",
+      "source_section": "36",
+      "verse_range": "36",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "जो व्यक्ति सदैव हितकर आहार-विहार का सेवन करता है, विचारपूर्वक कार्य करता है, विषयों में आसक्त नहीं होता, दाता और समभाव वाला है, सत्यपरायण तथा क्षमाशील है और आप्त पुरुषों की सेवा करता है, वह अरोग रहता है। समीक्ष्यकारी का अर्थ है परिणाम को विचारकर शुभ कर्म करना और अशुभ से बचना। ‘आप्त’ वे शिष्ट और प्रबुद्ध पुरुष हैं जिनका ज्ञान निर्मल और अबाधित है।",
+      "tika_ayurvedarasayana_hi": "जो व्यक्ति नित्य हितकर आहार-विहार करता है, विचारपूर्वक कार्य करता है, विषयों में आसक्त नहीं रहता, पात्रों को दान देता है, सबके प्रति समभाव रखता है, सत्य बोलता है, क्रोध के कारण में भी क्रोध नहीं करता और गुरु आदि आप्तों की सेवा करता है, वह रोगरहित होता है। ऐसा व्यक्ति असात्म्य इन्द्रियार्थ-संयोग से उत्पन्न रोगों को प्राप्त नहीं करता।"
     }
   ]
 }
