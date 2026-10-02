@@ -10,3 +10,5 @@ def test_catalog_uses_a_single_sqlite_fallback_path():
     assert "CONNECTION, REPO = _sqlite_repo()" in source
     assert source.count("CATALOG_MIGRATIONS = (") == 1
     assert source.count("for migration in CATALOG_MIGRATIONS") == 1
+    assert "025_third_professional_prasuti_stree_roga_layout.sql" in source
+    assert "025_third_professional_kaumarabhritya_paper_metadata.sql" not in source
