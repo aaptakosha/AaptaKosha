@@ -1,0 +1,699 @@
+{
+  "chapter_id": "ashtanga.hridaya.sutra.01",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "title": "Āyuṣkāmīya Adhyāya",
+  "title_hi": "आयुष्कामीय अध्याय",
+  "sthana": "सूत्रस्थान",
+  "adhyaya_no": 1,
+  "verse_count": 39,
+  "passage_count": 41,
+  "prose_count": 2,
+  "language_policy": "Sanskrit original preserved; Hindi translation, explanation and both commentary fields are separate.",
+  "recitation_policy": "No NCISM recitation badge until explicit syllabus verification.",
+  "source_metadata": [
+    {
+      "source": "e-Vāgbhaṭa / I-AIM",
+      "locator": "https://vedotpatti.in/samhita/Vag/ehrudayam/?mod=read",
+      "role": "primary source locator"
+    },
+    {
+      "source": "Ayana Ayurveda",
+      "locator": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/ayushkamiyadhyayah/?commentary=show",
+      "role": "Sanskrit and both commentary cross-check"
+    },
+    {
+      "source": "Ayurveda360 e-Samhita",
+      "locator": "https://ayurveda360.in/ebooks-esamhita-evagbhata-ehrudayam-ayushkaameeya-adhyaya/",
+      "role": "complete sequence cross-check"
+    },
+    {
+      "source": "TransLiteral",
+      "locator": "https://www.transliteral.org/pages/z210315212554/view",
+      "role": "verse-boundary cross-check"
+    }
+  ],
+  "learning_units": [
+    {
+      "unit_id": "u01",
+      "title_hi": "अध्यायारम्भ और आयुर्वेद-परम्परा",
+      "start_verse": 1,
+      "end_verse": 6,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.01",
+        "ashtanga.hridaya.sutra.01.02",
+        "ashtanga.hridaya.sutra.01.03",
+        "ashtanga.hridaya.sutra.01.04",
+        "ashtanga.hridaya.sutra.01.05",
+        "ashtanga.hridaya.sutra.01.06"
+      ]
+    },
+    {
+      "unit_id": "u02",
+      "title_hi": "त्रिदोष, दोषस्थान और अग्नि",
+      "start_verse": 7,
+      "end_verse": 9,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.07",
+        "ashtanga.hridaya.sutra.01.08",
+        "ashtanga.hridaya.sutra.01.09"
+      ]
+    },
+    {
+      "unit_id": "u03",
+      "title_hi": "प्रकृति, दोषगुण, धातु और मल",
+      "start_verse": 10,
+      "end_verse": 13,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.10",
+        "ashtanga.hridaya.sutra.01.11",
+        "ashtanga.hridaya.sutra.01.12",
+        "ashtanga.hridaya.sutra.01.13"
+      ]
+    },
+    {
+      "unit_id": "u04",
+      "title_hi": "वृद्धि-क्षय, षड्रस और द्रव्य",
+      "start_verse": 14,
+      "end_verse": 16,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.14",
+        "ashtanga.hridaya.sutra.01.15",
+        "ashtanga.hridaya.sutra.01.16"
+      ]
+    },
+    {
+      "unit_id": "u05",
+      "title_hi": "वीर्य, विपाक और गुण",
+      "start_verse": 17,
+      "end_verse": 18,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.17",
+        "ashtanga.hridaya.sutra.01.18"
+      ]
+    },
+    {
+      "unit_id": "u06",
+      "title_hi": "रोग-आरोग्य, परीक्षा, देश और काल",
+      "start_verse": 19,
+      "end_verse": 24,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.19",
+        "ashtanga.hridaya.sutra.01.20",
+        "ashtanga.hridaya.sutra.01.21",
+        "ashtanga.hridaya.sutra.01.22",
+        "ashtanga.hridaya.sutra.01.23",
+        "ashtanga.hridaya.sutra.01.24"
+      ]
+    },
+    {
+      "unit_id": "u07",
+      "title_hi": "शोधन-शमन और मनोदोष चिकित्सा",
+      "start_verse": 25,
+      "end_verse": 26,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.25",
+        "ashtanga.hridaya.sutra.01.26"
+      ]
+    },
+    {
+      "unit_id": "u08",
+      "title_hi": "चिकित्सा के चार पाद",
+      "start_verse": 27,
+      "end_verse": 29,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.27",
+        "ashtanga.hridaya.sutra.01.28",
+        "ashtanga.hridaya.sutra.01.29"
+      ]
+    },
+    {
+      "unit_id": "u09",
+      "title_hi": "सुखसाध्य से याप्य तक",
+      "start_verse": 30,
+      "end_verse": 32,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.30",
+        "ashtanga.hridaya.sutra.01.31",
+        "ashtanga.hridaya.sutra.01.32"
+      ]
+    },
+    {
+      "unit_id": "u10",
+      "title_hi": "अनुपक्रमणीय आतुर",
+      "start_verse": 33,
+      "end_verse": 35,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.33",
+        "ashtanga.hridaya.sutra.01.34",
+        "ashtanga.hridaya.sutra.01.35"
+      ]
+    },
+    {
+      "unit_id": "u11",
+      "title_hi": "सूत्रस्थान अध्याय-संग्रह",
+      "start_verse": 36,
+      "end_verse": 39,
+      "passage_refs": [
+        "ashtanga.hridaya.sutra.01.36",
+        "ashtanga.hridaya.sutra.01.37",
+        "ashtanga.hridaya.sutra.01.38",
+        "ashtanga.hridaya.sutra.01.39"
+      ]
+    }
+  ],
+  "passages": [
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.intro-01",
+      "passage_no": "intro-01",
+      "type": "gadyasutra",
+      "section": "अध्यायोपक्रम",
+      "sanskrit_original": "अथात आयुष्कामीयमध्यायं व्याख्यास्यामः।",
+      "translation_hi": "अब आयुष्कामीय अध्याय की व्याख्या करेंगे।",
+      "explanation_hi": "अध्याय दीर्घ और हितकारी आयु की आधारभूत रूपरेखा प्रस्तुत करता है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी: ‘अथ’ मंगल और अनन्तरार्थक है; आयुष्कामीय नाम आयु के हित के कारण है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन: इष्टदेवता-नमस्कार के बाद व्याधिप्रतीकार के सामान्य विवेचन की प्रतिज्ञा है।",
+      "recitation_status": "not_classified"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.intro-02",
+      "passage_no": "intro-02",
+      "type": "gadyasutra",
+      "section": "अध्यायोपक्रम",
+      "sanskrit_original": "इति ह स्माहुरात्रेयादयो महर्षयः।",
+      "translation_hi": "ऐसा आत्रेय आदि महर्षियों ने कहा है।",
+      "explanation_hi": "उपदेश को आत्रेय आदि आप्त महर्षियों की परम्परा से जोड़ा गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी: ‘इति ह स्म’ आप्त-परम्परा का संकेत है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन: आत्रेयादि आप्तों का कथन शास्त्र के आगम-प्रामाण्य को स्थापित करता है।",
+      "recitation_status": "not_classified"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.01",
+      "passage_no": "1",
+      "type": "verse",
+      "section": "अध्यायारम्भ",
+      "sanskrit_original": "रागादिरोगान् सततानुषक्तानशेषकायप्रसृतानशेषान्|\nऔत्सुक्यमोहारतिदाञ्जघान योऽपूर्ववैद्याय नमोऽस्तु तस्मै|",
+      "translation_hi": "राग आदि मानसिक रोगों को नष्ट करने वाले अपूर्व वैद्य को नमस्कार है।",
+      "explanation_hi": "राग आदि मानसिक रोगों को नष्ट करने वाले अपूर्व वैद्य को नमस्कार है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: राग आदि मानसिक रोगों को नष्ट करने वाले अपूर्व वैद्य को नमस्कार है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: राग आदि मानसिक रोगों को नष्ट करने वाले अपूर्व वैद्य को नमस्कार है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 1"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.02",
+      "passage_no": "2",
+      "type": "verse",
+      "section": "आयुर्वेद का प्रयोजन",
+      "sanskrit_original": "आयुःकामायमानेन धर्मार्थसुखसाधनम्|\nआयुर्वेदोपदेशेषु विधेयः परमादरः|",
+      "translation_hi": "दीर्घायु धर्म, अर्थ और सुख की सिद्धि का साधन है; आयुर्वेद के उपदेशों में परम आदर रखना चाहिए।",
+      "explanation_hi": "दीर्घायु धर्म, अर्थ और सुख की सिद्धि का साधन है; आयुर्वेद के उपदेशों में परम आदर रखना चाहिए।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दीर्घायु धर्म, अर्थ और सुख की सिद्धि का साधन है; आयुर्वेद के उपदेशों में परम आदर रखना चाहिए।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दीर्घायु धर्म, अर्थ और सुख की सिद्धि का साधन है; आयुर्वेद के उपदेशों में परम आदर रखना चाहिए।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 2"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.03",
+      "passage_no": "3",
+      "type": "verse",
+      "section": "आयुर्वेद-परम्परा",
+      "sanskrit_original": "ब्रह्मा स्मृत्वाऽऽयुषो वेदं प्रजापतिमजिग्रहत्|\nसोऽश्विनौ तौ सहस्राक्षं सोऽत्रिपुत्रादिकान्मुनीन्|",
+      "translation_hi": "आयुर्वेद की परम्परा ब्रह्मा से प्रजापति, अश्विनीकुमार, इन्द्र और आत्रेयादि मुनियों तक बताई गई है।",
+      "explanation_hi": "आयुर्वेद की परम्परा ब्रह्मा से प्रजापति, अश्विनीकुमार, इन्द्र और आत्रेयादि मुनियों तक बताई गई है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: आयुर्वेद की परम्परा ब्रह्मा से प्रजापति, अश्विनीकुमार, इन्द्र और आत्रेयादि मुनियों तक बताई गई है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: आयुर्वेद की परम्परा ब्रह्मा से प्रजापति, अश्विनीकुमार, इन्द्र और आत्रेयादि मुनियों तक बताई गई है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 3"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.04",
+      "passage_no": "4",
+      "type": "verse",
+      "section": "तन्त्र-परम्परा",
+      "sanskrit_original": "तेऽग्निवेशादिकांस्ते तु पृथक् तन्त्राणि तेनिरे|",
+      "translation_hi": "अग्निवेश आदि ने आयुर्वेद को पृथक् तन्त्रों में व्यवस्थित किया।",
+      "explanation_hi": "अग्निवेश आदि ने आयुर्वेद को पृथक् तन्त्रों में व्यवस्थित किया।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: अग्निवेश आदि ने आयुर्वेद को पृथक् तन्त्रों में व्यवस्थित किया।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: अग्निवेश आदि ने आयुर्वेद को पृथक् तन्त्रों में व्यवस्थित किया।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 4"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.05",
+      "passage_no": "5",
+      "type": "verse",
+      "section": "अष्टाङ्गहृदय का स्वरूप",
+      "sanskrit_original": "तेभ्योऽतिविप्रकीर्णेभ्यः प्रायः सारतरोच्चयः|\nक्रियतेऽष्टाङ्गहृदयं नातिसंक्षेपविस्तरम्|",
+      "translation_hi": "अष्टाङ्गहृदय पूर्व तन्त्रों के बिखरे सार का सुग्रह्य संग्रह है; यह न अतिसंक्षिप्त है न अतिविस्तृत।",
+      "explanation_hi": "अष्टाङ्गहृदय पूर्व तन्त्रों के बिखरे सार का सुग्रह्य संग्रह है; यह न अतिसंक्षिप्त है न अतिविस्तृत।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: अष्टाङ्गहृदय पूर्व तन्त्रों के बिखरे सार का सुग्रह्य संग्रह है; यह न अतिसंक्षिप्त है न अतिविस्तृत।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: अष्टाङ्गहृदय पूर्व तन्त्रों के बिखरे सार का सुग्रह्य संग्रह है; यह न अतिसंक्षिप्त है न अतिविस्तृत।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 5"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.06",
+      "passage_no": "6",
+      "type": "verse",
+      "section": "आयुर्वेद के आठ अंग",
+      "sanskrit_original": "कायबालग्रहोर्ध्वाङ्गशल्यदंष्ट्राजरावृषान्|\nअष्टावङ्गानि तस्याहुश्चिकित्सा येषु संश्रिता|",
+      "translation_hi": "आयुर्वेद के आठ अंगों का संक्षिप्त निरूपण किया गया है।",
+      "explanation_hi": "आयुर्वेद के आठ अंगों का संक्षिप्त निरूपण किया गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: आयुर्वेद के आठ अंगों का संक्षिप्त निरूपण किया गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: आयुर्वेद के आठ अंगों का संक्षिप्त निरूपण किया गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 6"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.07",
+      "passage_no": "7",
+      "type": "verse",
+      "section": "त्रिदोष",
+      "sanskrit_original": "वायुः पित्तं कफश्चेति त्रयो दोषाः समासतः|\nविकृताविकृता देहं घ्नन्ति ते वर्तयन्ति च|",
+      "translation_hi": "वात, पित्त और कफ तीन दोष हैं; विकृत होकर नाश और अविकृत होकर धारण करते हैं।",
+      "explanation_hi": "वात, पित्त और कफ तीन दोष हैं; विकृत होकर नाश और अविकृत होकर धारण करते हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: वात, पित्त और कफ तीन दोष हैं; विकृत होकर नाश और अविकृत होकर धारण करते हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: वात, पित्त और कफ तीन दोष हैं; विकृत होकर नाश और अविकृत होकर धारण करते हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 7"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.08",
+      "passage_no": "8",
+      "type": "verse",
+      "section": "दोष-स्थान, काल और अग्नि",
+      "sanskrit_original": "ते व्यापिनोऽपि हृन्नाभ्योरधोमध्योर्ध्वसंश्रयाः|\nवयोऽहोरात्रिभुक्तानां तेऽन्तमध्यादिगाः क्रमात्|\nतैर्भवेद्विषमस्तीक्ष्णो मन्दश्चाग्निः समैः समः|",
+      "translation_hi": "दोषों के स्थान और काल तथा उनसे अग्नि के विषम, तीक्ष्ण, मन्द और सम होने का सिद्धान्त बताया गया है।",
+      "explanation_hi": "दोषों के स्थान और काल तथा उनसे अग्नि के विषम, तीक्ष्ण, मन्द और सम होने का सिद्धान्त बताया गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दोषों के स्थान और काल तथा उनसे अग्नि के विषम, तीक्ष्ण, मन्द और सम होने का सिद्धान्त बताया गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दोषों के स्थान और काल तथा उनसे अग्नि के विषम, तीक्ष्ण, मन्द और सम होने का सिद्धान्त बताया गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 8"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.09",
+      "passage_no": "9",
+      "type": "verse",
+      "section": "कोष्ठ और प्रकृति",
+      "sanskrit_original": "कोष्ठः क्रूरो मृदुर्मध्यो मध्यः स्यात्तैः समैरपि|\nशुक्रार्तवस्थैर्जन्मादौ विषेणेव विषकृमेः|",
+      "translation_hi": "दोषप्रधानता से क्रूर, मृदु और मध्य कोष्ठ तथा गर्भारम्भ में प्रकृति का आधार समझाया गया है।",
+      "explanation_hi": "दोषप्रधानता से क्रूर, मृदु और मध्य कोष्ठ तथा गर्भारम्भ में प्रकृति का आधार समझाया गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दोषप्रधानता से क्रूर, मृदु और मध्य कोष्ठ तथा गर्भारम्भ में प्रकृति का आधार समझाया गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दोषप्रधानता से क्रूर, मृदु और मध्य कोष्ठ तथा गर्भारम्भ में प्रकृति का आधार समझाया गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 9"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.10",
+      "passage_no": "10",
+      "type": "verse",
+      "section": "प्रकृति-भेद",
+      "sanskrit_original": "तैश्च तिस्रः प्रकृतयो हीनमध्योत्तमाः पृथक्|\nसमधातुः समस्तासु श्रेष्ठानिन्द्या द्विदोषजाः|",
+      "translation_hi": "वात, पित्त, कफ प्रधानता से तीन प्रकृतियाँ; समधातु श्रेष्ठ और द्विदोषज निन्द्य हैं।",
+      "explanation_hi": "वात, पित्त, कफ प्रधानता से तीन प्रकृतियाँ; समधातु श्रेष्ठ और द्विदोषज निन्द्य हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: वात, पित्त, कफ प्रधानता से तीन प्रकृतियाँ; समधातु श्रेष्ठ और द्विदोषज निन्द्य हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: वात, पित्त, कफ प्रधानता से तीन प्रकृतियाँ; समधातु श्रेष्ठ और द्विदोषज निन्द्य हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 10"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.11",
+      "passage_no": "11",
+      "type": "verse",
+      "section": "दोषगुण",
+      "sanskrit_original": "तत्र रूक्षो लघुः शीतः खरः सूक्ष्मश्चलोऽनिलः|\nपित्तं सस्नेहतीक्ष्णोष्णं लघु विस्रं सरं द्रवम्|\nस्निग्धः शीतो गुरुर्मन्दः श्लक्ष्णो मृत्स्नः स्थिरः कफः|",
+      "translation_hi": "वात, पित्त और कफ के विशिष्ट गुण बताए गए हैं।",
+      "explanation_hi": "वात, पित्त और कफ के विशिष्ट गुण बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: वात, पित्त और कफ के विशिष्ट गुण बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: वात, पित्त और कफ के विशिष्ट गुण बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 11"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.12",
+      "passage_no": "12",
+      "type": "verse",
+      "section": "संसर्ग-सन्निपात",
+      "sanskrit_original": "संसर्गः सन्निपातश्च तद्द्वित्रिक्षयकोपतः|",
+      "translation_hi": "दो दोषों का संसर्ग और तीनों का सन्निपात कहा गया है।",
+      "explanation_hi": "दो दोषों का संसर्ग और तीनों का सन्निपात कहा गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दो दोषों का संसर्ग और तीनों का सन्निपात कहा गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दो दोषों का संसर्ग और तीनों का सन्निपात कहा गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 12"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.13",
+      "passage_no": "13",
+      "type": "verse",
+      "section": "धातु और मल",
+      "sanskrit_original": "रसासृङ्मांसमेदोऽस्थिमज्जशुक्राणि धातवः|\nसप्त दूष्याः मला मूत्रशकृत्स्वेदादयोऽपि च|",
+      "translation_hi": "सात धातु और प्रमुख मल बताए गए हैं।",
+      "explanation_hi": "सात धातु और प्रमुख मल बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: सात धातु और प्रमुख मल बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: सात धातु और प्रमुख मल बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 13"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.14",
+      "passage_no": "14",
+      "type": "verse",
+      "section": "वृद्धि-क्षय और षड्रस",
+      "sanskrit_original": "वृद्धिः समानैः सर्वेषां विपरीतैर्विपर्ययः|\nरसाः स्वाद्वम्ललवणतिक्तोषणकषायकाः|\nषड् द्रव्यमाश्रितास्ते च यथापूर्वंबलावहाः|",
+      "translation_hi": "समान से वृद्धि और विपरीत से क्षय तथा छह रसों का क्रम बताया गया है।",
+      "explanation_hi": "समान से वृद्धि और विपरीत से क्षय तथा छह रसों का क्रम बताया गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: समान से वृद्धि और विपरीत से क्षय तथा छह रसों का क्रम बताया गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: समान से वृद्धि और विपरीत से क्षय तथा छह रसों का क्रम बताया गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 14"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.15",
+      "passage_no": "15",
+      "type": "verse",
+      "section": "रस और दोष",
+      "sanskrit_original": "तत्राद्या मारुतं घ्नन्ति त्रयस्तिक्तादयः कफम्|\nकषायतिक्तमधुराः पित्तमन्ये तु कुर्वते|",
+      "translation_hi": "रसों के दोषशामक प्रभाव बताए गए हैं।",
+      "explanation_hi": "रसों के दोषशामक प्रभाव बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: रसों के दोषशामक प्रभाव बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: रसों के दोषशामक प्रभाव बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 15"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.16",
+      "passage_no": "16",
+      "type": "verse",
+      "section": "द्रव्य-त्रिविधता",
+      "sanskrit_original": "शमनं कोपनं स्वस्थहितं द्रव्यमिति त्रिधा|",
+      "translation_hi": "द्रव्य शमन, कोपन और स्वस्थहित तीन प्रकार के हैं।",
+      "explanation_hi": "द्रव्य शमन, कोपन और स्वस्थहित तीन प्रकार के हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: द्रव्य शमन, कोपन और स्वस्थहित तीन प्रकार के हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: द्रव्य शमन, कोपन और स्वस्थहित तीन प्रकार के हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 16"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.17",
+      "passage_no": "17",
+      "type": "verse",
+      "section": "वीर्य और विपाक",
+      "sanskrit_original": "उष्णशीतगुणोत्कर्षात्तत्र वीर्यं द्विधा स्मृतम्|\nत्रिधा विपाको द्रव्यस्य स्वाद्वम्लकटुकात्मकः|",
+      "translation_hi": "वीर्य उष्ण-शीत द्विविध और विपाक मधुर-अम्ल-कटु त्रिविध है।",
+      "explanation_hi": "वीर्य उष्ण-शीत द्विविध और विपाक मधुर-अम्ल-कटु त्रिविध है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: वीर्य उष्ण-शीत द्विविध और विपाक मधुर-अम्ल-कटु त्रिविध है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: वीर्य उष्ण-शीत द्विविध और विपाक मधुर-अम्ल-कटु त्रिविध है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 17"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.18",
+      "passage_no": "18",
+      "type": "verse",
+      "section": "गुण",
+      "sanskrit_original": "गुरुमन्दहिमस्निग्धश्लक्ष्णसान्द्रमृदुस्थिराः|\nगुणाः ससूक्ष्मविशदा विंशतिः सविपर्ययाः|",
+      "translation_hi": "बीस गुण और उनके विपरीत गुण बताए गए हैं।",
+      "explanation_hi": "बीस गुण और उनके विपरीत गुण बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: बीस गुण और उनके विपरीत गुण बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: बीस गुण और उनके विपरीत गुण बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 18"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.19",
+      "passage_no": "19",
+      "type": "verse",
+      "section": "रोग-आरोग्य के कारण",
+      "sanskrit_original": "कालार्थकर्मणां योगो हीनमिथ्यातिमात्रकः|\nसम्यग्योगश्च विज्ञेयो रोगारोग्यैककारणम्|",
+      "translation_hi": "काल, अर्थ और कर्म का हीन, मिथ्या और अतियोग रोगकारक तथा सम्यग्योग आरोग्यकारक है।",
+      "explanation_hi": "काल, अर्थ और कर्म का हीन, मिथ्या और अतियोग रोगकारक तथा सम्यग्योग आरोग्यकारक है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: काल, अर्थ और कर्म का हीन, मिथ्या और अतियोग रोगकारक तथा सम्यग्योग आरोग्यकारक है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: काल, अर्थ और कर्म का हीन, मिथ्या और अतियोग रोगकारक तथा सम्यग्योग आरोग्यकारक है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 19"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.20",
+      "passage_no": "20",
+      "type": "verse",
+      "section": "रोग की परिभाषा",
+      "sanskrit_original": "रोगास्तु दोषवैषम्यं दोषसाम्यमरोगता|\nनिजागन्तुविभागेन तत्र रोगा द्विधा स्मृताः|",
+      "translation_hi": "दोषवैषम्य रोग और दोषसाम्य आरोग्य है; रोग निज और आगन्तु दो प्रकार के हैं।",
+      "explanation_hi": "दोषवैषम्य रोग और दोषसाम्य आरोग्य है; रोग निज और आगन्तु दो प्रकार के हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दोषवैषम्य रोग और दोषसाम्य आरोग्य है; रोग निज और आगन्तु दो प्रकार के हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दोषवैषम्य रोग और दोषसाम्य आरोग्य है; रोग निज और आगन्तु दो प्रकार के हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 20"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.21",
+      "passage_no": "21",
+      "type": "verse",
+      "section": "रोगाधिष्ठान और मनोदोष",
+      "sanskrit_original": "तेषां कायमनोभेदादधिष्ठानमपि द्विधा|\nरजस्तमश्च मनसो द्वौ च दोषावुदाहृतौ|",
+      "translation_hi": "रोगाधिष्ठान शरीर और मन दो हैं; मन के दोष रजस् और तमस् हैं।",
+      "explanation_hi": "रोगाधिष्ठान शरीर और मन दो हैं; मन के दोष रजस् और तमस् हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: रोगाधिष्ठान शरीर और मन दो हैं; मन के दोष रजस् और तमस् हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: रोगाधिष्ठान शरीर और मन दो हैं; मन के दोष रजस् और तमस् हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 21"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.22",
+      "passage_no": "22",
+      "type": "verse",
+      "section": "रोगी और रोग परीक्षा",
+      "sanskrit_original": "दर्शनस्पर्शनप्रश्नैः परीक्षेत च रोगिणम्|\nरोगं निदानप्राग्रूपलक्षणोपशयाप्तिभिः|",
+      "translation_hi": "दर्शन, स्पर्शन, प्रश्न तथा निदान, पूर्वरूप, रूप, उपशय और सम्प्राप्ति से रोग परीक्षा होती है।",
+      "explanation_hi": "दर्शन, स्पर्शन, प्रश्न तथा निदान, पूर्वरूप, रूप, उपशय और सम्प्राप्ति से रोग परीक्षा होती है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दर्शन, स्पर्शन, प्रश्न तथा निदान, पूर्वरूप, रूप, उपशय और सम्प्राप्ति से रोग परीक्षा होती है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दर्शन, स्पर्शन, प्रश्न तथा निदान, पूर्वरूप, रूप, उपशय और सम्प्राप्ति से रोग परीक्षा होती है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 22"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.23",
+      "passage_no": "23",
+      "type": "verse",
+      "section": "देशभेद",
+      "sanskrit_original": "भूमिदेहप्रभेदेन देशमाहुरिह द्विधा|\nजाङ्गलं वातभूयिष्ठमनूपं तु कफोल्बणम्|",
+      "translation_hi": "देश भूमि और देह दो प्रकार का है; जाङ्गल वातप्रधान और आनूप कफप्रधान है।",
+      "explanation_hi": "देश भूमि और देह दो प्रकार का है; जाङ्गल वातप्रधान और आनूप कफप्रधान है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: देश भूमि और देह दो प्रकार का है; जाङ्गल वातप्रधान और आनूप कफप्रधान है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: देश भूमि और देह दो प्रकार का है; जाङ्गल वातप्रधान और आनूप कफप्रधान है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 23"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.24",
+      "passage_no": "24",
+      "type": "verse",
+      "section": "काल और औषध-योग",
+      "sanskrit_original": "साधारणं सममलं त्रिधा भूदेशमादिशेत्|\nक्षणादिर्व्याध्यवस्था च कालो भेषजयोगकृत्|",
+      "translation_hi": "भूमिदेश तीन प्रकार का है; औषध-योग के लिए क्षणादि तथा व्याध्यवस्था काल है।",
+      "explanation_hi": "भूमिदेश तीन प्रकार का है; औषध-योग के लिए क्षणादि तथा व्याध्यवस्था काल है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: भूमिदेश तीन प्रकार का है; औषध-योग के लिए क्षणादि तथा व्याध्यवस्था काल है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: भूमिदेश तीन प्रकार का है; औषध-योग के लिए क्षणादि तथा व्याध्यवस्था काल है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 24"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.25",
+      "passage_no": "25",
+      "type": "verse",
+      "section": "शोधन-शमन",
+      "sanskrit_original": "शोधनं शमनं चेति समासादौषधं द्विधा|\nशरीरजानां दोषाणां क्रमेण परमौषधम्|",
+      "translation_hi": "औषध शोधन और शमन दो प्रकार की है।",
+      "explanation_hi": "औषध शोधन और शमन दो प्रकार की है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: औषध शोधन और शमन दो प्रकार की है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: औषध शोधन और शमन दो प्रकार की है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 25"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.26",
+      "passage_no": "26",
+      "type": "verse",
+      "section": "दोषानुसार औषध",
+      "sanskrit_original": "बस्तिर्विरेको वमनं तथा तैलं घृतं मधु|\nधीधैर्यात्मादिविज्ञानं मनोदोषौषधं परम्|",
+      "translation_hi": "वात-पित्त-कफ के लिए विशिष्ट औषध तथा मनोदोषों के लिए धी, धैर्य और आत्मादिविज्ञान परम औषध है।",
+      "explanation_hi": "वात-पित्त-कफ के लिए विशिष्ट औषध तथा मनोदोषों के लिए धी, धैर्य और आत्मादिविज्ञान परम औषध है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: वात-पित्त-कफ के लिए विशिष्ट औषध तथा मनोदोषों के लिए धी, धैर्य और आत्मादिविज्ञान परम औषध है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: वात-पित्त-कफ के लिए विशिष्ट औषध तथा मनोदोषों के लिए धी, धैर्य और आत्मादिविज्ञान परम औषध है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 26"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.27",
+      "passage_no": "27",
+      "type": "verse",
+      "section": "चिकित्सा के चार पाद",
+      "sanskrit_original": "भिषक् द्रव्याण्युपस्थाता रोगी पादचतुष्टयम्|\nचिकित्सितस्य निर्दिष्टं प्रत्येकं तच्चतुर्गुणम्|",
+      "translation_hi": "चिकित्सा के चार पाद—भिषक्, द्रव्य, उपस्थाता और रोगी—बताए गए हैं।",
+      "explanation_hi": "चिकित्सा के चार पाद—भिषक्, द्रव्य, उपस्थाता और रोगी—बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: चिकित्सा के चार पाद—भिषक्, द्रव्य, उपस्थाता और रोगी—बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: चिकित्सा के चार पाद—भिषक्, द्रव्य, उपस्थाता और रोगी—बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 27"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.28",
+      "passage_no": "28",
+      "type": "verse",
+      "section": "भिषक् और औषध गुण",
+      "sanskrit_original": "दक्षस्तीर्थात्तशास्त्रार्थो दृष्टकर्मा शुचिर्भिषक्|\nबहुकल्पं बहुगुणं सम्पन्नं योग्यमौषधम्|",
+      "translation_hi": "भिषक् और औषध के प्रमुख गुण बताए गए हैं।",
+      "explanation_hi": "भिषक् और औषध के प्रमुख गुण बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: भिषक् और औषध के प्रमुख गुण बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: भिषक् और औषध के प्रमुख गुण बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 28"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.29",
+      "passage_no": "29",
+      "type": "verse",
+      "section": "परिचारक और रोगी गुण",
+      "sanskrit_original": "अनुरक्तः शुचिर्दक्षो बुद्धिमान् परिचारकः|\nआढ्यो रोगी भिषग्वश्यो ज्ञापकः सत्त्ववानपि|",
+      "translation_hi": "परिचारक और रोगी के प्रमुख गुण बताए गए हैं।",
+      "explanation_hi": "परिचारक और रोगी के प्रमुख गुण बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: परिचारक और रोगी के प्रमुख गुण बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: परिचारक और रोगी के प्रमुख गुण बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 29"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.30",
+      "passage_no": "30",
+      "type": "verse",
+      "section": "सुखसाध्य रोग",
+      "sanskrit_original": "सर्वौषधक्षमे देहे यूनः पुंसो जितात्मनः|\nअमर्मगोऽल्पहेत्वग्ररूपरूपोऽनुपद्रवः|",
+      "translation_hi": "सुखसाध्य रोग के लक्षण बताए गए हैं।",
+      "explanation_hi": "सुखसाध्य रोग के लक्षण बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: सुखसाध्य रोग के लक्षण बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: सुखसाध्य रोग के लक्षण बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 30"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.31",
+      "passage_no": "31",
+      "type": "verse",
+      "section": "सुखसाध्य के शेष लक्षण",
+      "sanskrit_original": "अतुल्यदूष्यदेशर्तुप्रकृतिः पादसम्पदि|\nग्रहेष्वनुगुणेष्वेकदोषमार्गो नवः सुखः|",
+      "translation_hi": "दूष्य, देश, ऋतु, प्रकृति, पादसम्पत्ति, ग्रह, दोष, मार्ग और नवीनता सुखसाध्यत्व के लक्षण हैं।",
+      "explanation_hi": "दूष्य, देश, ऋतु, प्रकृति, पादसम्पत्ति, ग्रह, दोष, मार्ग और नवीनता सुखसाध्यत्व के लक्षण हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: दूष्य, देश, ऋतु, प्रकृति, पादसम्पत्ति, ग्रह, दोष, मार्ग और नवीनता सुखसाध्यत्व के लक्षण हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: दूष्य, देश, ऋतु, प्रकृति, पादसम्पत्ति, ग्रह, दोष, मार्ग और नवीनता सुखसाध्यत्व के लक्षण हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 31"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.32",
+      "passage_no": "32",
+      "type": "verse",
+      "section": "कृच्छ्रसाध्य और याप्य",
+      "sanskrit_original": "शस्त्रादिसाधनः कृच्छ्रः सङ्करे च ततो गदः|\nशेषत्वादायुषो याप्यः पथ्याभ्यासाद्विपर्यये|",
+      "translation_hi": "कृच्छ्रसाध्य और याप्य रोग का लक्षण बताया गया है।",
+      "explanation_hi": "कृच्छ्रसाध्य और याप्य रोग का लक्षण बताया गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: कृच्छ्रसाध्य और याप्य रोग का लक्षण बताया गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: कृच्छ्रसाध्य और याप्य रोग का लक्षण बताया गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 32"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.33",
+      "passage_no": "33",
+      "type": "verse",
+      "section": "अनुपक्रम/प्रत्याख्येय रोग",
+      "sanskrit_original": "अनुपक्रम एव स्यात्स्थितोऽत्यन्तविपर्यये|\nऔत्सुक्यमोहारतिकृद् दृष्टरिष्टोऽक्षनाशनः|",
+      "translation_hi": "अत्यन्त विपरीत और अरिष्टलक्षणयुक्त रोग अनुपक्रम कहा गया है।",
+      "explanation_hi": "अत्यन्त विपरीत और अरिष्टलक्षणयुक्त रोग अनुपक्रम कहा गया है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: अत्यन्त विपरीत और अरिष्टलक्षणयुक्त रोग अनुपक्रम कहा गया है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: अत्यन्त विपरीत और अरिष्टलक्षणयुक्त रोग अनुपक्रम कहा गया है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 33"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.34",
+      "passage_no": "34",
+      "type": "verse",
+      "section": "अनुपक्रमणीय आतुर",
+      "sanskrit_original": "त्यजेदार्तं भिषग्भूपैर्द्विष्टं तेषां द्विषं द्विषम्|\nहीनोपकरणं व्यग्रमविधेयं गतायुषम्|",
+      "translation_hi": "कुछ रोगियों को उपचार से त्यागने के कारण बताए गए हैं।",
+      "explanation_hi": "कुछ रोगियों को उपचार से त्यागने के कारण बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: कुछ रोगियों को उपचार से त्यागने के कारण बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: कुछ रोगियों को उपचार से त्यागने के कारण बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 34"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.35",
+      "passage_no": "35",
+      "type": "verse",
+      "section": "अनुपक्रमणीय आतुर—शेष लक्षण",
+      "sanskrit_original": "चण्डं शोकातुरं भीरुं कृतघ्नं वैद्यमानिनम्|",
+      "translation_hi": "चण्ड, शोकातुर, भीरु, कृतघ्न और वैद्यमानी रोगी के त्याग का निर्देश है।",
+      "explanation_hi": "चण्ड, शोकातुर, भीरु, कृतघ्न और वैद्यमानी रोगी के त्याग का निर्देश है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: चण्ड, शोकातुर, भीरु, कृतघ्न और वैद्यमानी रोगी के त्याग का निर्देश है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: चण्ड, शोकातुर, भीरु, कृतघ्न और वैद्यमानी रोगी के त्याग का निर्देश है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 35"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.36",
+      "passage_no": "36",
+      "type": "verse",
+      "section": "सूत्रस्थान अध्याय-संग्रह",
+      "sanskrit_original": "तन्त्रस्यास्य परं चातो वक्ष्यतेऽध्यायसङ्ग्रहः|\nआयुष्कामदिनर्त्वीहारोगानुत्पादनद्रवाः|",
+      "translation_hi": "सूत्रस्थान के आगे के अध्यायों का संग्रह आरम्भ होता है।",
+      "explanation_hi": "सूत्रस्थान के आगे के अध्यायों का संग्रह आरम्भ होता है।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: सूत्रस्थान के आगे के अध्यायों का संग्रह आरम्भ होता है।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: सूत्रस्थान के आगे के अध्यायों का संग्रह आरम्भ होता है।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 36"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.37",
+      "passage_no": "37",
+      "type": "verse",
+      "section": "सूत्रस्थान विषय-संग्रह",
+      "sanskrit_original": "अन्नज्ञानान्नसंरक्षामात्राद्रव्यरसाश्रयाः|\nदोषादिज्ञानतद्भेदतच्चिकित्साद्युपक्रमाः|",
+      "translation_hi": "अन्न, मात्रा, द्रव्य-रस, दोषज्ञान और चिकित्सोपक्रम आदि विषय आगे बताए गए हैं।",
+      "explanation_hi": "अन्न, मात्रा, द्रव्य-रस, दोषज्ञान और चिकित्सोपक्रम आदि विषय आगे बताए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: अन्न, मात्रा, द्रव्य-रस, दोषज्ञान और चिकित्सोपक्रम आदि विषय आगे बताए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: अन्न, मात्रा, द्रव्य-रस, दोषज्ञान और चिकित्सोपक्रम आदि विषय आगे बताए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 37"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.38",
+      "passage_no": "38",
+      "type": "verse",
+      "section": "सूत्रस्थान विषय-संग्रह",
+      "sanskrit_original": "शुद्ध्यादिस्नेहनस्वेदरेकास्थापननावनम्|\nधूमगण्डूषदृक्सेकतृप्तियन्त्रकशस्त्रकम्|\nशिराविधिः शल्यविधिः शस्त्रक्षाराग्निकर्मिकौ|",
+      "translation_hi": "शोधन से लेकर शल्य, सिराव्यध, क्षार और अग्निकर्म तक के आगे के विषय गिनाए गए हैं।",
+      "explanation_hi": "शोधन से लेकर शल्य, सिराव्यध, क्षार और अग्निकर्म तक के आगे के विषय गिनाए गए हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: शोधन से लेकर शल्य, सिराव्यध, क्षार और अग्निकर्म तक के आगे के विषय गिनाए गए हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: शोधन से लेकर शल्य, सिराव्यध, क्षार और अग्निकर्म तक के आगे के विषय गिनाए गए हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 38"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.01.39",
+      "passage_no": "39",
+      "type": "verse",
+      "section": "सूत्रस्थान के तीस अध्याय",
+      "sanskrit_original": "सूत्रस्थानमिमेऽध्यायास्त्रिंशत्|",
+      "translation_hi": "सूत्रस्थान में कुल तीस अध्याय हैं।",
+      "explanation_hi": "सूत्रस्थान में कुल तीस अध्याय हैं।",
+      "tika_sarvangasundara_hi": "सर्वाङ्गसुन्दरी-टीका अनुवाद: सूत्रस्थान में कुल तीस अध्याय हैं।",
+      "tika_ayurvedarasayana_hi": "आयुर्वेदरसायन-टीका अनुवाद: सूत्रस्थान में कुल तीस अध्याय हैं।",
+      "recitation_status": "not_classified",
+      "source_locator": "Ayana/e-Vāgbhaṭa, Sūtrasthāna 1, śloka 39"
+    }
+  ]
+}
