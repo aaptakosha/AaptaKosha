@@ -6,7 +6,7 @@
   "section": "Sūtrasthāna",
   "chapter_number": 3,
   "verse_count": 58,
-  "passage_count": 59,
+  "passage_count": 60,
   "sources": [
     {
       "name": "e-Vāgbhaṭa / I-AIM",
@@ -84,7 +84,7 @@
         [
           "विसर्ग/दक्षिणायन",
           "वर्षा–शरद–हेमन्त",
-          "बल逐渐增强"
+          "बल क्रमशः बढ़ता"
         ],
         [
           "हेमन्त",
@@ -929,6 +929,16 @@
       "recitation_status": "not_classified",
       "tika_sarvangasundara_block_id": "t15",
       "tika_ayurvedarasayana_block_id": "t15"
+    },
+    {
+      "passage_id": "ashtanga.hridaya.sutra.03.colophon",
+      "passage_no": "colophon",
+      "type": "colophon",
+      "section": "अध्यायसमाप्तिः",
+      "sanskrit_original": "इति श्रीवैद्यपतिसिंहगुप्तसूनुश्रीमद्वाग्भटविरचितायामष्टाङ्गहृदयसंहितायां सूत्रस्थाने ऋतुचर्या नाम तृतीयोऽध्यायः ॥३॥",
+      "translation_hi": "इस प्रकार वैद्यपति सिंहगुप्त के पुत्र श्रीमद्वाग्भट द्वारा रचित अष्टाङ्गहृदयसंहिता के सूत्रस्थान में ‘ऋतुचर्या’ नामक तृतीय अध्याय समाप्त हुआ।",
+      "explanation_hi": "यह अध्याय-समाप्ति सूचक कोलोफोन है।",
+      "recitation_status": "not_classified"
     }
   ]
 }
