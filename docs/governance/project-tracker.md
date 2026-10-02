@@ -118,7 +118,7 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 9 — Ghṛtatailakalpanā: verified extent 1–210, canonical anchors, Hindi learning layer, commentary mapping and assessments
 - [x] Chapter 10 — Āsavāriṣṭādisaṃdhānakalpanā: source-reconciled package; primary online extent 1–92, printed Dīpikā numbering 1–94 preserved as a source discrepancy
 - [x] Chapter 11 — Dhātuśodhanamāraṇakalpanā: verified extent 1–104, Sanskrit anchors, Hindi learning layer, Dīpikā mapping and assessments
-- [x] Chapter 12 — Rasādiśodhanamāraṇakalpanā: source-reconciled final Madhyama Khaṇḍa package; audit-corrected online extent 1–293 and printed Dīpikā witness 1–295
+- [x] Chapter 12 — Rasādiśodhanamāraṇakalpanā: source-reconciled final Madhyama Khaṇḍa package; audit-corrected online extent 1–293 and printed Dīpikā witness 1–295; internal range/assessment metadata audited
 
 ## Śārṅgadhara Saṃhitā — Madhyama Khaṇḍa completion
 - [x] Chapters 1–12 researched, source-reconciled and committed individually

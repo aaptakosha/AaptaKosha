@@ -205,8 +205,24 @@
       "भस्म की परीक्षा, सिद्धि-लक्षण और आगे के रसकल्पीय उपयोगों की चर्चा होती है।"
     ],
     [
-      "136-150",
-      "अंतिम रसद्रव्य प्रक्रियाओं के बाद द्वादश अध्याय तथा मध्यखण्ड का समापन होता है।"
+      "136-179",
+      "विविध रसयोग, महातालेश्वरादि तथा आगे के रोगानुसार रसकल्पों का विस्तार मिलता है।"
+    ],
+    [
+      "180-214",
+      "कुष्ठ, श्वेतकुष्ठ, प्रमेह, उदर और गुल्म-प्लीहा संबंधी रसयोगों का क्रम आता है।"
+    ],
+    [
+      "215-266",
+      "आगे के नामित रसयोग तथा वाजीकरण-संबंधी सामग्री का विस्तार मिलता है।"
+    ],
+    [
+      "267-288",
+      "कन्दर्पसुन्दर रस तथा लोहरसायन की सामग्री आती है।"
+    ],
+    [
+      "289-293/295",
+      "अनुक्तसंग्रह, जयपालशोधन और विषशोधन से अध्याय का समापन होता है; online और printed witnesses की numbering अलग रखी गई है।"
     ]
   ],
   "commentary_mapping": [
@@ -223,8 +239,24 @@
       "Dīpikā continues the specific śodhana-māraṇa sequences and ingredient explanations."
     ],
     [
-      "116-150",
-      "Dīpikā addresses bhāvanā, bhasma-siddhi/parīkṣā and the closing rasa procedures."
+      "116-179",
+      "Dīpikā addresses bhāvanā, bhasma-siddhi/parīkṣā and the later rasa procedures through the Mahātāleśvarādi section."
+    ],
+    [
+      "180-214",
+      "Dīpikā explains the disease-grouped rasa formulations in the middle-late chapter sections."
+    ],
+    [
+      "215-266",
+      "Dīpikā continues the named rasa-yoga explanations and vājīkaraṇa-related material."
+    ],
+    [
+      "267-288",
+      "Dīpikā covers Kāndarpa-sundara and Loha-rasāyana material."
+    ],
+    [
+      "289-293/295",
+      "Dīpikā explains the closing anukta-saṃgraha and the witness-specific Jayapāla/Viṣa śodhana sequence."
     ]
   ],
   "learning_units": [
@@ -288,7 +320,7 @@
     [
       "mcq",
       "अध्याय का verified canonical extent क्या है?",
-      "1-150"
+      "1-293 online / 1-295 printed witness"
     ],
     [
       "short_answer",
@@ -322,5 +354,5 @@
     "no_fabricated_missing_verses": true,
     "one_chapter_one_commit": true
   },
-  "audit_note": "Cross-chapter audit correction: previous package incorrectly recorded the online extent as 1-150. Primary Wikisource verifies 1-293; printed Dīpikā verifies a closing witness through 295. Corrected without renumbering the witnesses."
+  "audit_note": "Cross-chapter audit correction: previous package incorrectly recorded the online extent as 1-150 and had stale learning/assessment ranges. Primary Wikisource verifies 1-293; printed Dīpikā verifies a closing witness through 295. Corrected without renumbering the witnesses."
 }
