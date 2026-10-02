@@ -1,0 +1,391 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aaptakosha.org/schemas/samhita-canonical-v1.schema.json",
+  "title": "AaptaKosha Canonical Samhita Chapter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "text",
+    "sthana",
+    "adhyaya",
+    "verses",
+    "learning_units",
+    "source_metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "text": {
+      "$ref": "#/$defs/text"
+    },
+    "sthana": {
+      "$ref": "#/$defs/sthana"
+    },
+    "adhyaya": {
+      "$ref": "#/$defs/adhyaya"
+    },
+    "source_metadata": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "verses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/verse"
+      }
+    },
+    "learning_units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/learningUnit"
+      }
+    },
+    "assessment": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/assessment"
+      }
+    },
+    "revision_refs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ref"
+      }
+    },
+    "quality_gates": {
+      "$ref": "#/$defs/qualityGates"
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+    },
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text_id",
+        "title",
+        "language"
+      ],
+      "properties": {
+        "text_id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_hi": {
+          "type": "string"
+        },
+        "title_sanskrit": {
+          "type": "string"
+        },
+        "title_roman": {
+          "type": "string"
+        },
+        "language": {
+          "const": "sa"
+        }
+      }
+    },
+    "sthana": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "number",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_hi": {
+          "type": "string"
+        }
+      }
+    },
+    "adhyaya": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "number",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title_hi": {
+          "type": "string"
+        },
+        "verse_count": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "title",
+        "role"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition": {
+          "type": "string"
+        },
+        "accessed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "attribution": {
+          "type": "string"
+        }
+      }
+    },
+    "ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verse_id",
+        "verse_no",
+        "canonical_sanskrit",
+        "source_refs"
+      ],
+      "properties": {
+        "verse_id": {
+          "$ref": "#/$defs/id"
+        },
+        "verse_no": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "canonical_sanskrit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "translation_hi": {
+          "type": "string"
+        },
+        "explanation_hi": {
+          "type": "string"
+        },
+        "tika_hi": {
+          "type": "string"
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "learning_unit_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "assessment_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "revision_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "recitation_status": {
+          "type": "string"
+        },
+        "editorial_note": {
+          "type": "string"
+        }
+      }
+    },
+    "learningUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unit_id",
+        "verse_refs",
+        "title_hi"
+      ],
+      "properties": {
+        "unit_id": {
+          "$ref": "#/$defs/id"
+        },
+        "verse_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "title_hi": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explanation_hi": {
+          "type": "string"
+        },
+        "objectives_hi": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recitation_verses": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assessment_id",
+        "type",
+        "prompt",
+        "content_refs"
+      ],
+      "properties": {
+        "assessment_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        },
+        "points": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "rationale_hi": {
+          "type": "string"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "option_id",
+              "text",
+              "is_correct"
+            ],
+            "properties": {
+              "option_id": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "is_correct": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "qualityGates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "canonical_sequence_verified": {
+          "type": "boolean"
+        },
+        "verse_range_verified": {
+          "type": "boolean"
+        },
+        "source_verified": {
+          "type": "boolean"
+        },
+        "hindi_translation_present": {
+          "type": "boolean"
+        },
+        "commentary_mapped": {
+          "type": "boolean"
+        },
+        "fabricated_commentary_avoided": {
+          "type": "boolean"
+        },
+        "assessment_refs_resolve": {
+          "type": "boolean"
+        },
+        "learning_refs_resolve": {
+          "type": "boolean"
+        },
+        "revision_refs_resolve": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
