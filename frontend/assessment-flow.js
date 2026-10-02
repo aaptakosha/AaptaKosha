@@ -58,7 +58,7 @@
       return live.data;
     }
 
-    if (id === "charaka.sutra.01.ncism-revision") throw new Error("Chapter 1 NCISM assessment is temporarily unavailable. Please try again.");
+    if (/^charaka\\.sutra\\.\\d{2}(?:\\.revision|\\.ncism-revision)$/.test(id)) throw new Error("The requested Charaka chapter assessment is unavailable from the learning API.");
     const assessment = DEMO.assessment;
     const attempt = {
       attempt_id: "demo-" + Date.now(),

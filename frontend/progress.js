@@ -1,5 +1,6 @@
 (function () {
   const SUBJECT = "dravyaguna";
+  // The progress page currently retains its legacy Dravyaguna summary while chapter-level progress is loaded from the API.
 
   async function loadProgress() {
     if (!window.AaptaKoshaApi) throw new Error("API client unavailable");

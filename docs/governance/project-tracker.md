@@ -39,6 +39,16 @@ Last updated: 2026-10-02
 - Production identity adapter, authenticated principal propagation, learner-resource authorization, CORS/error handling, configuration/readiness validation, security-focused tests, and deployment verification are complete.
 - GitHub Actions product workflow run #122 completed successfully on Python 3.11 and 3.12 through PR #28.
 
+## Deployment/integration repair — 2026-10-02
+
+- [x] Reconciled GitHub main content with the deployed application contract
+- [x] Added Vercel catalog function deployment and catalog-specific routing
+- [x] Repaired broken frontend JavaScript syntax
+- [x] Added Charaka Sūtrasthāna chapters 1–12 to the Samhita reader navigation
+- [x] Unified reader support for both `verses` and mixed `passages` canonical content
+- [x] Unified Chapter 1–12 assessment selection and results-to-content links
+- [ ] Production redeployment and live browser regression
+
 ## Charaka Sūtrasthāna 12 — Vātakalākalīya
 
 - [x] Primary-source research and 22-record sequence reconciliation
