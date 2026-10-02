@@ -78,6 +78,9 @@ class handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         query = {key: values[-1] for key, values in parse_qs(parsed.query).items()}
         path = parsed.path
+        route = query.pop("route", None)
+        if route is not None:
+            path = "/" + route.lstrip("/")
         if path.startswith("/api"):
             path = path[4:] or "/"
         if path.startswith("/catalog/"):

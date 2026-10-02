@@ -1,12 +1,35 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "builds": [
-    { "src": "frontend/**", "use": "@vercel/static" },
-    { "src": "api/assessments.py", "use": "@vercel/python" }
+    {
+      "src": "frontend/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/assessments.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "api/catalog.py",
+      "use": "@vercel/python"
+    }
   ],
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/assessments.py?route=:path*" },
-    { "source": "/", "destination": "/frontend/index.html" },
-    { "source": "/:path*", "destination": "/frontend/:path*" }
+    {
+      "source": "/api/catalog/:path*",
+      "destination": "/api/catalog.py?route=catalog/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/assessments.py?route=:path*"
+    },
+    {
+      "source": "/",
+      "destination": "/frontend/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/frontend/:path*"
+    }
   ]
 }
