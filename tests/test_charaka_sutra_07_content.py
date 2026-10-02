@@ -56,8 +56,8 @@ def test_charaka_sutra_07_assessment_contract():
 def test_charaka_sutra_07_reader_and_api_are_wired():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
-    assert "chapter_no not in {1, 2, 3, 4, 5, 6, 7}" in api
-    assert "_seed_samhita_chapter7_assessment(service, repo)" in api
-    assert 'charaka.sutra.07.revision' in api
-    assert 'id==="charaka.sutra.07"' in reader
+    assert 'path == "/content/samhita"' in api
+    assert "_seed_samhita_assessments(service, repo)" in api
+    assert "_seed_samhita_assessments(service, repo)" in api
+    assert "assessmentIdForChapter" in reader
     assert 'charaka.sutra.07.revision' in reader
