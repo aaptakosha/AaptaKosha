@@ -71,7 +71,7 @@ Last updated: 2026-10-02
 - [x] Canonical Sanskrit sequence: 103 passages / 39 prose / 64 verse-half
 - [x] Hindi translation + passage-specific व्याख्या + टीका layer
 - [x] 20-question revision assessment with canonical content refs
-- [x] Chapter 11 content regression test
+- [x] Chapter 11 content regression contract
 - [x] Assessment API seeding + chapter content allow-list
 - [x] Reader revision-test wiring
 - [ ] Runtime/end-to-end learner regression
@@ -115,7 +115,7 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 6 — Cūrṇakalpanā: verified extent 1–166, canonical anchors, Hindi learning layer, commentary mapping and assessments
 - [x] Chapter 7 — Vaṭakalpanā: verified extent 1–105, canonical anchors, Hindi learning layer, commentary mapping and assessments
 - [x] Chapter 8 — Avalehakalpanā: verified extent 1–48, canonical anchors, Hindi learning layer, commentary mapping and assessments
-- [x] Chapter 9 — Ghṛtatailakalpanā: verified extent 1–210, canonical anchors, Hindi learning layer, commentary mapping and assessments
+- [x] Chapter 9 — Ghṛtatailakalpanā: verified extent 1–210, canonical learning layer, commentary mapping and assessments
 - [x] Chapter 10 — Āsavāriṣṭādisaṃdhānakalpanā: source-reconciled package; primary online extent 1–92, printed Dīpikā numbering 1–94 preserved as a source discrepancy
 - [x] Chapter 11 — Dhātuśodhanamāraṇakalpanā: verified extent 1–104, Sanskrit anchors, Hindi learning layer, Dīpikā mapping and assessments
 - [x] Chapter 12 — Rasādiśodhanamāraṇakalpanā: source-reconciled final Madhyama Khaṇḍa package; audit-corrected online extent 1–293 and printed Dīpikā witness 1–295; internal range/assessment metadata audited
@@ -128,11 +128,11 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Madhyama JSON schema/regression contract added for chapter identity, witness extents, colophons, quality gates and source-safety separation
 - [x] Cross-chapter audit correction: Chapter 12 witness extent discrepancy (online 1–293 vs printed 1–295) preserved explicitly
 
-
 ### Śārṅgadhara Saṃhitā — Uttara Khaṇḍa
 - [x] Uttara Khaṇḍa chapter registry/source sequence verified: 13 chapters.
 - [x] Chapter 1 — Snehapānavidhi researched and source-reconciled; primary online witness 1–33; printed Dīpikā witness 1–35 discrepancy preserved.
 - [x] Uttara Khaṇḍa Chapter 2 — Svedavidhi researched/source-reconciled; primary and printed witness 1–35; full primary Sanskrit transcription added.
 - [x] Uttara Khaṇḍa Chapter 3 — Vamanavidhi researched/source-reconciled; online witness has gaps (25→30 and 33→36); printed Dīpikā witness reaches v36; missing verses not fabricated.
 - [x] Uttara Khaṇḍa Chapter 4 — Virecanavidhi researched/source-reconciled; primary and printed witness 1–49; full primary Sanskrit transcription added.
-- [ ] Chapters 5–13 pending research-first ingestion.
+- [x] Uttara Khaṇḍa Chapter 5 — Snehabastividhi researched/source-reconciled; primary and independent witness 1–51; full primary Sanskrit transcription added.
+- [ ] Chapters 6–13 pending research-first ingestion.
