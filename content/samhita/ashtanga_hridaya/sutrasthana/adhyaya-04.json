@@ -28,7 +28,8 @@
       "sanskrit_original": "वेगान्न धारयेद्वातविण्मूत्रक्षवतृट्क्षुधाम् । निद्राकासश्रमश्वासजृम्भाश्रुच्छर्दिरेतसाम् ॥ १ ॥",
       "hindi_translation": "वात, मल, मूत्र, छींक, प्यास, भूख, निद्रा, खाँसी, श्रम, श्वास, जम्हाई, आँसू, वमन और वीर्य के वेगों को नहीं रोकना चाहिए।",
       "hindi_explanation": "प्राकृतिक वेगों का दमन शरीर की सामान्य शारीरिक क्रियाओं में बाधा डाल सकता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t02"
     },
     {
       "id": "ah-s4-v02",
@@ -37,7 +38,8 @@
       "sanskrit_original": "अधोवातस्य रोधेन गुल्मोदावर्तरुक्क्लमाः । वातमूत्रशकृत्सङ्गदृष्ट्यग्निवधहृद्गदाः ॥ २ ॥",
       "hindi_translation": "अधोवात रोकने से गुल्म, उदावर्त, पीड़ा, थकान तथा वात, मूत्र और मल का अवरोध, दृष्टि-अग्नि की हानि और हृदय-विकार हो सकते हैं।",
       "hindi_explanation": "अधोवात का रोधन वात की सामान्य दिशा को बाधित करने वाला माना गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t02"
     },
     {
       "id": "ah-s4-v03",
@@ -46,7 +48,9 @@
       "sanskrit_original": "शकृतः पिण्डिकोद्वेष्टप्रतिश्यायशिरोरुजः । ऊर्ध्ववायुः परीकर्तो हृदयस्योपरोधनम् ॥ ३ ॥",
       "hindi_translation": "मल रोकने से पिण्डलियों में ऐंठन, प्रतिश्याय, सिरदर्द, ऊर्ध्ववायु, परीकर्त और हृदय में अवरोध हो सकता है।",
       "hindi_explanation": "मलवेगधारण का प्रभाव केवल आंत्र तक सीमित नहीं बताया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t05",
+      "tika_ayurvedarasayana_block_id": "ah4-t05"
     },
     {
       "id": "ah-s4-v04",
@@ -55,7 +59,9 @@
       "sanskrit_original": "मुखेन विट्प्रवृत्तिश्च पूर्वोक्ताश्चामयाः स्मृताः । अङ्गभङ्गाश्मरीबस्तिमेढ्रवंक्षणवेदनाः ॥ ४ ॥",
       "hindi_translation": "मुख से मल निकलना तथा पहले बताए रोग मलवेगधारण से हो सकते हैं; अंगों, अश्मरी, बस्ति, मेढ्र और वंक्षण में वेदना भी हो सकती है।",
       "hindi_explanation": "दीर्घकालिक मलावरोध को बहु-अवयवी विकारों से जोड़ा गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t06",
+      "tika_ayurvedarasayana_block_id": "ah4-t06"
     },
     {
       "id": "ah-s4-v05",
@@ -64,7 +70,9 @@
       "sanskrit_original": "मूत्रस्य रोधात्पूर्वे च प्रायो रोगास्तदौषधम् । वर्त्यभ्यङ्गावगाहाश्च स्वेदनं बस्तिकर्म च ॥ ५ ॥",
       "hindi_translation": "मूत्र रोकने से उपर्युक्त रोग होते हैं; वर्ति, अभ्यंग, अवगाह, स्वेदन और बस्ति उसके उपचार हैं।",
       "hindi_explanation": "उपचार मार्ग-शोधन, स्नेहन और वातानुलोमन की दिशा में है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t06",
+      "tika_ayurvedarasayana_block_id": "ah4-t06"
     },
     {
       "id": "ah-s4-v06",
@@ -73,7 +81,8 @@
       "sanskrit_original": "अन्नपानं च विड्भेदि विड्रोधोत्थेषु यक्ष्मसु । मूत्रजेषु तु पाने च प्राग्भक्तं शस्यते घृतम् ॥ ६ ॥",
       "hindi_translation": "मलावरोधजन्य विकारों में मलभेदक अन्न-पान और मूत्रजन्य विकारों में भोजन से पहले घृत हितकर है।",
       "hindi_explanation": "उपचार रोग के मार्ग और प्रकृति के अनुसार अलग किया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t08"
     },
     {
       "id": "ah-s4-v07",
@@ -82,7 +91,9 @@
       "sanskrit_original": "जीर्णान्तिकं चोत्तमया मात्रया । अवपीडकमेतच्च संज्ञितं धारणात्पुनः ॥ ७ ॥",
       "hindi_translation": "जीर्णता के निकट उत्तम मात्रा में दिया गया घृत दो बार देने की विधि को अवपीडक कहा गया है।",
       "hindi_explanation": "अवपीडक का उल्लेख मूत्रविकारों में घृत-प्रयोग की विशिष्ट पद्धति के रूप में है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t09",
+      "tika_ayurvedarasayana_block_id": "ah4-t09"
     },
     {
       "id": "ah-s4-v08",
@@ -91,7 +102,9 @@
       "sanskrit_original": "उद्गारस्यारुचिः कम्पो विबन्धो हृदयोरसोः । आध्मानकासहिध्माश्च हिध्मावत्तत्र भेषजम् ॥ ८ ॥",
       "hindi_translation": "उद्गार रोकने से अरुचि, कम्प, विबन्ध, हृदय-वक्ष अवरोध, आध्मान, खाँसी और हिचकी हो सकती है।",
       "hindi_explanation": "ऊर्ध्वमार्ग के वेग को रोकने से वात-अवरोध के लक्षण बताए गए हैं।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t09",
+      "tika_ayurvedarasayana_block_id": "ah4-t09"
     },
     {
       "id": "ah-s4-v09",
@@ -487,14 +500,108 @@
     "source_policy": "e-Vāgbhaṭa remains the primary source for Sanskrit and chapter sequence. Secondary sources are cross-checks and must not override the primary source."
   },
   "tika_status": {
-    "status": "translation_pending",
+    "status": "translation_in_progress",
     "standard": "exact_faithful_hindi_translation_required",
     "phase_1": "Core Samhita content",
     "phase_2": "Dedicated exact Sarvangasundari and Ayurvedarasayana translation",
     "pending_blocks": [
-      "all-commentary-blocks"
+      "ah4-t10 onward"
     ],
-    "source": "Complete Sarvangasundari and Ayurvedarasayana commentary blocks must be extracted from authoritative source text before exact Hindi translation; uploaded PDF is not authoritative."
+    "source": "Complete Sarvangasundari and Ayurvedarasayana commentary blocks must be extracted from authoritative source text before exact Hindi translation; uploaded PDF is not authoritative.",
+    "completed_blocks": [
+      "ah4-t01",
+      "ah4-t02",
+      "ah4-t03",
+      "ah4-t04",
+      "ah4-t05",
+      "ah4-t06",
+      "ah4-t07",
+      "ah4-t08",
+      "ah4-t09"
+    ]
   },
-  "assessment_id": "ashtanga.hridaya.sutra.04.revision"
+  "assessment_id": "ashtanga.hridaya.sutra.04.revision",
+  "tika_blocks": [
+    {
+      "id": "ah4-t01",
+      "commentary": "sarvangasundari",
+      "source_section": "1",
+      "verse_range": "1–2",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724809.html",
+      "tika_sarvangasundara_hi": "यहाँ ‘रोगानुत्पादन’ का अर्थ रोगों की उत्पत्ति न होने देना है और इस उद्देश्य के लिए हितकर होने के कारण अध्याय का नाम ‘रोगानुत्पादनीय’ है। यह अध्याय मुख्यतः रोगों की उत्पत्ति रोकने का उपदेश देता है, किन्तु तन्त्रयुक्ति के ‘उपदर्शन’ के रूप में उत्पन्न रोगों की शान्ति का भी निर्देश करता है; इसका उदाहरण आगे 34वें श्लोक में स्वयं दिया जाएगा।",
+      "tika_ayurvedarasayana_hi": ""
+    },
+    {
+      "id": "ah4-t02",
+      "commentary": "sarvangasundari",
+      "source_section": "1",
+      "verse_range": "1–2",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724809.html",
+      "tika_sarvangasundara_hi": "आचार्य यहाँ रोगानुत्पादनीय अध्याय की व्याख्या करने की प्रतिज्ञा करते हैं। पहले के दो अध्यायों में नियतकालिक आहार-विहार बताया गया था; यहाँ अनियतकालिक विषयों का निरूपण है। इन्हें पाँच प्रकार कहा गया है—वेगधारण, वेगोदीरण, शोधन, बृंहण और भूतादि के स्पर्श से बचना। इनके त्याग अथवा ग्रहण के द्वारा रोगों की उत्पत्ति रोकी जाती है। वेगधारण और वेगोदीरण का त्याग रोग की पूर्वावस्था के अभाव का कारण बनता है, जबकि शोधन आदि का उचित ग्रहण दोनों प्रकार से सहायक होता है।",
+      "tika_ayurvedarasayana_hi": "उपयुक्त कारणों से यह अध्याय ‘रोगानुत्पादनीय’ कहलाता है। यदि पूछा जाए कि इसे औषधस्कन्ध में क्यों न रखा जाए, तो उत्तर है कि रोग उत्पन्न होने से पहले सेवन किए जाने वाले आहार-विहार यहाँ हेतुस्वरूप हैं, जबकि रोग उत्पन्न होने के बाद वही उचित प्रयोग होने पर भेषज बनते हैं। असम्यक् प्रयोग होने पर वे रोग के हेतु और सम्यक् प्रयोग होने पर भेषज होते हैं। इसी अभिप्राय से पूर्व और उत्तर के छह अध्यायों का भी हेतुस्कन्ध में स्थान समझना चाहिए। यद्यपि सभी अध्याय किसी न किसी प्रकार रोगानुत्पादन में सहायक हैं, इस अध्याय को विशेष रूप से यह नाम दिया गया है।"
+    },
+    {
+      "id": "ah4-t03",
+      "commentary": "ayurvedarasayana",
+      "source_section": "2–3",
+      "verse_range": "1",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724810.html",
+      "tika_sarvangasundara_hi": "",
+      "tika_ayurvedarasayana_hi": "यहाँ वेगधारण का निषेध किया गया है। ‘वेग’ से प्रवृत्ति की ओर उन्मुख स्वाभाविक प्रेरणा अभिप्रेत है। ‘वात’ शब्द से अधोवात और ऊर्ध्ववात दोनों समझे जाते हैं; ‘क्षव’ का अर्थ छींक है। श्रम से उत्पन्न श्वास ‘श्रमश्वास’ है। आँसू आनन्द, शोक या अन्य कारणों से उत्पन्न नेत्रजल भी हो सकते हैं। अगले विवेचन में इसी प्रकार सभी प्राकृतिक वेगों के धारण का निषेध समझना चाहिए।"
+    },
+    {
+      "id": "ah4-t04",
+      "commentary": "sarvangasundari",
+      "source_section": "4",
+      "verse_range": "2",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724812.html",
+      "tika_sarvangasundara_hi": "अधोवात को रोकने से गुल्म आदि रोग उत्पन्न होते हैं। इसके विपरीत ऊर्ध्ववात अर्थात् उद्गार के रोकने से अरुचि आदि अपेक्षाकृत सुखसाध्य रोग होते हैं। इसलिए अधोवात-रोध से होने वाले गुल्म आदि अधिक प्रतिकूल माने गए हैं। उदावर्त का विस्तृत वर्णन अर्शोनिदान में किया जाएगा। ‘रुक्’ का अर्थ पीड़ा, ‘क्लम’ का अर्थ ग्लानि, वात-मूत्र-मल-संग का अर्थ इनकी स्वाभाविक प्रवृत्ति का रुक जाना, दृष्टि और अग्नि का वध क्रमशः उनकी हानि तथा हृद्गद का अर्थ हृद्रोग है।",
+      "tika_ayurvedarasayana_hi": "अधोवात के रोधन से उत्पन्न रोगों को बताते हुए यह श्लोक कहा गया है। ‘रुक्’ से कोष्ठशूल, वात आदि का ‘संग’ उनकी स्वाभाविक प्रवृत्ति का अवरोध, दृष्टिवध से तिमिर, अग्निवध से अग्निमान्द्य और हृद्गद से हृद्रोग समझना चाहिए।"
+    },
+    {
+      "id": "ah4-t05",
+      "commentary": "both",
+      "source_section": "5",
+      "verse_range": "3–4",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724813.html",
+      "tika_sarvangasundara_hi": "मल के रोधन से पिण्डिका में ऐंठन आदि उत्पन्न होते हैं। पिण्डिका जङ्घा के पिछले भाग में स्थित पिण्डाकार कठोर मांसभाग है; उसमें ऐंठन के समान पीड़ा होती है। ‘प्रतिश्याय’ पीनस है। ‘च’ समुच्चयार्थक है, इसलिए केवल ये ही नहीं, पहले कहे गए गुल्म आदि रोग भी समझे जाते हैं।",
+      "tika_ayurvedarasayana_hi": "अधोवात-रोध के बाद ऊर्ध्ववात-रोध और फिर मल-मूत्र-रोध से होने वाले रोगों का क्रम बताया जा रहा है। यहाँ मल-रोध से उत्पन्न विकारों का निर्देश है। पिण्डिका जङ्घा के पिछले भाग का पिण्डाकार मांस है; उसके ऐंठन-जैसे संकुचन में पीड़ा होती है। ‘पूर्वोक्त’ से अधोवात-रोध से बताए गए रोग भी ग्रहण होते हैं।"
+    },
+    {
+      "id": "ah4-t06",
+      "commentary": "both",
+      "source_section": "6",
+      "verse_range": "4–5",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724814.html",
+      "tika_sarvangasundara_hi": "मूत्र को रोकने से अंगभंग आदि उत्पन्न होते हैं। ‘अंगभंग’ से अंगों में टूटने-जैसी पीड़ा और बस्ति आदि की वेदना समझनी चाहिए; मेढ्र का अर्थ शिश्न है। ‘पूर्वे च प्रायो रोगाः’ से पहले बताए अधोवात और मल-रोधजन्य रोग भी अभिप्रेत हैं। ‘प्रायः’ शब्द बताता है कि वातादि के रोधन से बताए गए सभी रोग हर व्यक्ति में अनिवार्यतः उत्पन्न नहीं होते।",
+      "tika_ayurvedarasayana_hi": "मूत्र-रोध से होने वाले रोगों में अंगभंग अर्थात् अंगों के टूटने-जैसी पीड़ा, तथा बस्ति आदि की वेदना होती है। ‘पूर्वे रोगाः’ से अधोवात और मल-रोध से उत्पन्न रोग समझे जाते हैं; ‘प्रायः’ का प्रयोग यह बताने के लिए है कि वे सभी रोग प्रत्येक व्यक्ति में आवश्यक रूप से नहीं होते।"
+    },
+    {
+      "id": "ah4-t07",
+      "commentary": "both",
+      "source_section": "7",
+      "verse_range": "5",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724815.html",
+      "tika_sarvangasundara_hi": "इन वातादि-रोधजन्य रोगों की चिकित्सा बताई जाती है। ‘वर्ति’ फलवर्ति अर्थात् औषधीय वर्ति है। अभ्यंग का अर्थ तेल आदि से शरीर पर अभ्यंजन है। अवगाह वह है जिसमें वातहर द्रव्यों से सिद्ध द्रव को द्रोणी में रखकर रोगी को उसमें पायुदेश तक डुबोया जाता है। स्वेदन का अर्थ स्वेद उत्पन्न करने वाली चिकित्सा और बस्तिकर्म का उद्देश्य मल की प्रवृत्ति कराना है।",
+      "tika_ayurvedarasayana_hi": "मल-रोधजन्य रोगों में विशेष रूप से अन्न-पान का निर्देश किया गया है। ‘विड्भेदी’ से यवमस्तु आदि मलभेदक पदार्थ समझे जाते हैं। ‘यक्ष्म’ यहाँ रोग के अर्थ में है। ‘च’ सामान्य नियम के समावेश के लिए है; केवल उक्त विशेष पदार्थ तक उपचार को सीमित नहीं करना चाहिए।"
+    },
+    {
+      "id": "ah4-t08",
+      "commentary": "sarvangasundari",
+      "source_section": "9",
+      "verse_range": "6–7",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724817.html",
+      "tika_sarvangasundara_hi": "मूत्र-रोधजन्य विकारों में भोजन से पहले घृतपान हितकर है। ‘जीर्णान्तिक’ का अर्थ पिछले दिन के भोजन के पच जाने के समय दिया जाने वाला घृत है और ‘उत्तम मात्रा’ से ऐसी मात्रा अभिप्रेत है जो दिन-रात में भोजन के पाचन से पहचानी जाए। ‘अवपीडक’ नाम की दो प्रयोग-विधियाँ बताई जाती हैं—पूर्वभक्त स्नेहप्रयोग और जीर्णान्तिक स्नेहप्रयोग। पूर्वभक्त में घृतपान के तुरंत बाद भोजन किया जाता है; जीर्णान्तिक में पिछले भोजन के पच जाने पर घृत दिया जाता है। अन्य ग्रन्थों में भी अवपीडक का उल्लेख मिलता है। आगे 23वें श्लोक में वेगधारण से वात के प्रायः अनेक प्रकार से कुपित होने की बात कही जाएगी। वातजित तेल होने पर भी यहाँ तेल का अवपीडक प्रयोग उचित नहीं माना गया, क्योंकि वह मल को बाँधने और मूत्र को अल्प करने की प्रवृत्ति रखता है; इसलिए इस प्रसंग में घृत ही उपयुक्त है।",
+      "tika_ayurvedarasayana_hi": "मूत्र-रोधजन्य रोगों में विशेष बात यह है कि भोजन से पहले घृत दिया जाए। अवपीडक दो प्रकार का है—ह्रस्व मात्रा में पूर्वभक्त प्रयोग और उत्तम मात्रा में अन्नरहित/जीर्णान्तिक प्रयोग। संग्रहग्रन्थ में भी यही दोनों प्रकार बताए गए हैं। ‘च’ सामान्य नियम के समावेश का द्योतक है।"
+    },
+    {
+      "id": "ah4-t09",
+      "commentary": "both",
+      "source_section": "10",
+      "verse_range": "7–8",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724818.html",
+      "tika_sarvangasundara_hi": "‘पुनः’ व्यतिरेक का सूचक है। उद्गार के धारण से अरुचि आदि उत्पन्न होते हैं। ‘उरः’ वक्षः है और उसके नीचे हृदय स्थित है; इन दोनों में बन्धन-सा अन्तःस्तम्भ होता है। यहाँ बताए रोगों में हिचकी के समान उपचार करना चाहिए, अर्थात् हिचकी की चिकित्सा आगे बताई जाएगी।",
+      "tika_ayurvedarasayana_hi": "ऊर्ध्ववात-रोध से होने वाले रोगों का वर्णन करते हुए कहा गया है—उद्गार के रोधन से अरुचि, कम्प आदि होते हैं। कम्प का अर्थ सम्पूर्ण शरीर का कम्पन है। हृदय और उरःस्थल में ऐसा कष्ट होता है मानो उन्हें रस्सी आदि से बाँधा गया हो। आध्मान का अर्थ उदर का भर जाना है। उद्गार-रोध के उपचार के रूप में हिचकी के समान चिकित्सा बताई गई है।"
+    }
+  ]
 }
