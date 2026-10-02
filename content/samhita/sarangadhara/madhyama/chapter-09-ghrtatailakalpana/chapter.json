@@ -421,19 +421,19 @@
   "commentary_mapping": [
     [
       "1-19",
-      "Dīpikā explains basic sneha-pāka ratios, liquid categories, siddhi signs and pāka classification. citeturn0search3turn0search8"
+      "Dīpikā explains basic sneha-pāka ratios, liquid categories, siddhi signs and pāka classification."
     ],
     [
       "20-92",
-      "Dīpikā provides ingredient quantities and traditional context for the major ghṛta formulations. citeturn0search2"
+      "Dīpikā provides ingredient quantities and traditional context for the major ghṛta formulations."
     ],
     [
       "93-166",
-      "Dīpikā explains the taila section, including lākṣādi, mārīcādi, hair and oral/dental formulations. citeturn0search9turn0search1"
+      "Dīpikā explains the taila section, including lākṣādi, mārīcādi, hair and oral/dental formulations."
     ],
     [
       "167-210",
-      "Dīpikā continues the late taila formulations and explains the final external-use preparation. citeturn0search1"
+      "Dīpikā continues the late taila formulations and explains the final external-use preparation."
     ]
   ],
   "learning_units": [
@@ -523,7 +523,10 @@
     "commentary_separated_from_canonical_layer": true,
     "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
     "no_fabricated_missing_verses": true,
-    "one_chapter_one_commit": true
+    "one_chapter_one_commit": true,
+    "provenance_markup_clean": true,
+    "hindi_learning_layer": "range-level Hindi learning summaries verified against the Sanskrit chapter and BharatKosha Hindi/Dīpikā witness",
+    "commentary_provenance": "BharatKosha Dīpikā Hindi witness; source links retained in sources[] rather than citation markup embedded in content"
   },
   "canonical_sanskrit_transcription": [
     {
@@ -2208,5 +2211,6 @@
       "verse_number": 210,
       "text": "अपस्मारं तथोन्मादं तथा चैवापतन्त्रकम् आक्षेपकं चास्थिभग्नं सन्धिभग्नं च नाशयेत् ॥२१०॥"
     }
-  ]
+  ],
+  "source_critical_note": "Canonical Sanskrit extent 1-210 is preserved as the source layer. Hindi learning summaries and Dīpikā commentary mappings remain separate learning layers; provenance is recorded in sources[] and no web citation markup is embedded in chapter JSON."
 }
