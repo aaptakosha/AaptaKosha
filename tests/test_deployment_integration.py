@@ -24,3 +24,13 @@ def test_frontend_scripts_do_not_contain_known_broken_contracts():
         text = (ROOT / "frontend" / name).read_text(encoding="utf-8")
         assert "\\n\\n" not in text
     assert 'replace(/\\/+$/, "")' not in (ROOT / "frontend" / "app.js").read_text(encoding="utf-8")
+
+
+def test_protected_api_initializes_lazily_and_uses_content_driven_assessments():
+    api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
+    assert "API, PROGRESS_API = build_api()" not in api
+    assert "IDENTITY_PROVIDER = build_identity_provider()" not in api
+    assert "_seed_samhita_chapter2_assessment" not in api
+    assert "_seed_samhita_chapter12_assessment" not in api
+    assert "_seed_samhita_assessments(service, repo)" in api
+    assert "identity_provider_misconfigured" in api
