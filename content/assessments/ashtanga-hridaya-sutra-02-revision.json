@@ -1,0 +1,590 @@
+{
+  "assessment_id": "ashtanga.hridaya.sutra.02.revision",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "title_hi": "अष्टाङ्गहृदय — दिनचर्याध्याय पुनरावृत्ति परीक्षा",
+  "question_count": 20,
+  "questions": [
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q01",
+      "prompt_hi": "दिनचर्या अध्याय के अनुसार स्वस्थ व्यक्ति को कब उठना चाहिए?",
+      "options": [
+        {
+          "option_id": "q01.o1",
+          "label_hi": "ब्राह्म मुहूर्त में",
+          "is_correct": true
+        },
+        {
+          "option_id": "q01.o2",
+          "label_hi": "दोपहर में",
+          "is_correct": false
+        },
+        {
+          "option_id": "q01.o3",
+          "label_hi": "मध्यरात्रि में",
+          "is_correct": false
+        },
+        {
+          "option_id": "q01.o4",
+          "label_hi": "भोजन के बाद",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.1"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q02",
+      "prompt_hi": "दन्तधावन के लिए कैसी दन्तकाष्ठ का उल्लेख है?",
+      "options": [
+        {
+          "option_id": "q02.o1",
+          "label_hi": "कषाय, कटु और तिक्त गुण वाली",
+          "is_correct": true
+        },
+        {
+          "option_id": "q02.o2",
+          "label_hi": "केवल मधुर",
+          "is_correct": false
+        },
+        {
+          "option_id": "q02.o3",
+          "label_hi": "केवल लवण",
+          "is_correct": false
+        },
+        {
+          "option_id": "q02.o4",
+          "label_hi": "केवल अम्ल",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.2"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q03",
+      "prompt_hi": "अभ्यंग विशेषतः किन स्थानों पर करना चाहिए?",
+      "options": [
+        {
+          "option_id": "q03.o1",
+          "label_hi": "शिर, श्रवण और पाद",
+          "is_correct": true
+        },
+        {
+          "option_id": "q03.o2",
+          "label_hi": "केवल जिह्वा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q03.o3",
+          "label_hi": "केवल नेत्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "q03.o4",
+          "label_hi": "केवल उदर",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.8"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q04",
+      "prompt_hi": "व्यायाम का प्रमुख सिद्धान्त क्या है?",
+      "options": [
+        {
+          "option_id": "q04.o1",
+          "label_hi": "शक्ति के अनुसार, अति से बचकर",
+          "is_correct": true
+        },
+        {
+          "option_id": "q04.o2",
+          "label_hi": "असीमित",
+          "is_correct": false
+        },
+        {
+          "option_id": "q04.o3",
+          "label_hi": "केवल रोगी के लिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "q04.o4",
+          "label_hi": "केवल रात्रि में",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.11"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q05",
+      "prompt_hi": "अति-व्यायाम से कौन-सा विकार हो सकता है?",
+      "options": [
+        {
+          "option_id": "q05.o1",
+          "label_hi": "कास और ज्वर",
+          "is_correct": true
+        },
+        {
+          "option_id": "q05.o2",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q05.o3",
+          "label_hi": "केवल भूख",
+          "is_correct": false
+        },
+        {
+          "option_id": "q05.o4",
+          "label_hi": "केवल वर्ण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.13"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q06",
+      "prompt_hi": "उद्वर्तन का प्रमुख प्रभाव क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "q06.o1",
+          "label_hi": "कफहर और मेदविलयन",
+          "is_correct": true
+        },
+        {
+          "option_id": "q06.o2",
+          "label_hi": "केवल निद्राकर",
+          "is_correct": false
+        },
+        {
+          "option_id": "q06.o3",
+          "label_hi": "केवल पित्तवर्धक",
+          "is_correct": false
+        },
+        {
+          "option_id": "q06.o4",
+          "label_hi": "केवल रक्तवर्धक",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.15"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q07",
+      "prompt_hi": "स्नान के संबंध में कौन-सा निर्देश है?",
+      "options": [
+        {
+          "option_id": "q07.o1",
+          "label_hi": "उष्ण जल का सिर पर अति प्रयोग न करें",
+          "is_correct": true
+        },
+        {
+          "option_id": "q07.o2",
+          "label_hi": "सदैव उबलता जल सिर पर डालें",
+          "is_correct": false
+        },
+        {
+          "option_id": "q07.o3",
+          "label_hi": "स्नान कभी न करें",
+          "is_correct": false
+        },
+        {
+          "option_id": "q07.o4",
+          "label_hi": "केवल ठंडा जल",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.16"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q08",
+      "prompt_hi": "स्थायी सुख के लिए किसका आश्रय बताया गया है?",
+      "options": [
+        {
+          "option_id": "q08.o1",
+          "label_hi": "धर्म",
+          "is_correct": true
+        },
+        {
+          "option_id": "q08.o2",
+          "label_hi": "केवल अर्थ",
+          "is_correct": false
+        },
+        {
+          "option_id": "q08.o3",
+          "label_hi": "केवल काम",
+          "is_correct": false
+        },
+        {
+          "option_id": "q08.o4",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.20"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q09",
+      "prompt_hi": "मन, वाणी और शरीर से पापकर्म कितने प्रकार के बताए गए हैं?",
+      "options": [
+        {
+          "option_id": "q09.o1",
+          "label_hi": "दस",
+          "is_correct": true
+        },
+        {
+          "option_id": "q09.o2",
+          "label_hi": "दो",
+          "is_correct": false
+        },
+        {
+          "option_id": "q09.o3",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q09.o4",
+          "label_hi": "बीस",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.22"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q10",
+      "prompt_hi": "सद्व्रत का एक प्रमुख अंग क्या है?",
+      "options": [
+        {
+          "option_id": "q10.o1",
+          "label_hi": "काय-वाक्-चेतसां दमः",
+          "is_correct": true
+        },
+        {
+          "option_id": "q10.o2",
+          "label_hi": "अतिभोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q10.o3",
+          "label_hi": "अतिनिद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "q10.o4",
+          "label_hi": "अतिव्यायाम",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.46"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q11",
+      "prompt_hi": "व्यक्ति को दूसरों के हित के विषय में कैसी बुद्धि रखनी चाहिए?",
+      "options": [
+        {
+          "option_id": "q11.o1",
+          "label_hi": "परार्थेषु स्वार्थबुद्धि",
+          "is_correct": true
+        },
+        {
+          "option_id": "q11.o2",
+          "label_hi": "केवल स्वार्थ",
+          "is_correct": false
+        },
+        {
+          "option_id": "q11.o3",
+          "label_hi": "केवल शत्रुता",
+          "is_correct": false
+        },
+        {
+          "option_id": "q11.o4",
+          "label_hi": "उपेक्षा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.46"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q12",
+      "prompt_hi": "सद्व्यवहार में वाणी कैसी होनी चाहिए?",
+      "options": [
+        {
+          "option_id": "q12.o1",
+          "label_hi": "हितकर, मित, अविसंवादी और पेशल",
+          "is_correct": true
+        },
+        {
+          "option_id": "q12.o2",
+          "label_hi": "कठोर",
+          "is_correct": false
+        },
+        {
+          "option_id": "q12.o3",
+          "label_hi": "अत्यधिक",
+          "is_correct": false
+        },
+        {
+          "option_id": "q12.o4",
+          "label_hi": "असत्य",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.26"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q13",
+      "prompt_hi": "इन्द्रियों के साथ कैसा व्यवहार करना चाहिए?",
+      "options": [
+        {
+          "option_id": "q13.o1",
+          "label_hi": "न पीडयेत्, न अतिलालयेत्",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o2",
+          "label_hi": "अत्याचार करे",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o3",
+          "label_hi": "अत्यधिक लाड़ करे",
+          "is_correct": false
+        },
+        {
+          "option_id": "q13.o4",
+          "label_hi": "इन्द्रियों को त्याग दे",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.29"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q14",
+      "prompt_hi": "दिनचर्या में किस प्रकार का मार्ग अपनाने को कहा गया है?",
+      "options": [
+        {
+          "option_id": "q14.o1",
+          "label_hi": "सर्वधर्मेषु मध्यमाम्",
+          "is_correct": true
+        },
+        {
+          "option_id": "q14.o2",
+          "label_hi": "केवल कठोर मार्ग",
+          "is_correct": false
+        },
+        {
+          "option_id": "q14.o3",
+          "label_hi": "केवल भोग",
+          "is_correct": false
+        },
+        {
+          "option_id": "q14.o4",
+          "label_hi": "केवल त्याग",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.30"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q15",
+      "prompt_hi": "रात्रि में अत्यावश्यक कार्य के लिए क्या सावधानी बताई गई है?",
+      "options": [
+        {
+          "option_id": "q15.o1",
+          "label_hi": "दण्डी, मौली और सहायक के साथ चलना",
+          "is_correct": true
+        },
+        {
+          "option_id": "q15.o2",
+          "label_hi": "अकेले चलना",
+          "is_correct": false
+        },
+        {
+          "option_id": "q15.o3",
+          "label_hi": "नदी तैरकर पार करना",
+          "is_correct": false
+        },
+        {
+          "option_id": "q15.o4",
+          "label_hi": "अंधेरे में दौड़ना",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.33"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q16",
+      "prompt_hi": "संध्या समय किन कार्यों से बचने का निर्देश है?",
+      "options": [
+        {
+          "option_id": "q16.o1",
+          "label_hi": "अभ्यवहार, स्त्री, स्वप्न, अध्ययन और चिन्तन",
+          "is_correct": true
+        },
+        {
+          "option_id": "q16.o2",
+          "label_hi": "केवल जलपान",
+          "is_correct": false
+        },
+        {
+          "option_id": "q16.o3",
+          "label_hi": "केवल स्नान",
+          "is_correct": false
+        },
+        {
+          "option_id": "q16.o4",
+          "label_hi": "केवल दन्तधावन",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.42"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q17",
+      "prompt_hi": "सतत स्मृति का प्रश्न क्या है?",
+      "options": [
+        {
+          "option_id": "q17.o1",
+          "label_hi": "मेरे दिन-रात कैसे बीत रहे हैं और मैं अभी किस अवस्था में हूँ?",
+          "is_correct": true
+        },
+        {
+          "option_id": "q17.o2",
+          "label_hi": "मैं कितना धनवान हूँ?",
+          "is_correct": false
+        },
+        {
+          "option_id": "q17.o3",
+          "label_hi": "मैंने कितना खाया?",
+          "is_correct": false
+        },
+        {
+          "option_id": "q17.o4",
+          "label_hi": "मैंने कितनी यात्रा की?",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.47"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q18",
+      "prompt_hi": "सोने से पहले किनका स्मरण करना चाहिए?",
+      "options": [
+        {
+          "option_id": "q18.o1",
+          "label_hi": "देव, ऋषि और गुरु",
+          "is_correct": true
+        },
+        {
+          "option_id": "q18.o2",
+          "label_hi": "केवल मित्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "q18.o3",
+          "label_hi": "केवल व्यापारी",
+          "is_correct": false
+        },
+        {
+          "option_id": "q18.o4",
+          "label_hi": "केवल पड़ोसी",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.47half"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q19",
+      "prompt_hi": "दिनचर्या के आचार का फल क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "q19.o1",
+          "label_hi": "आयु, आरोग्य, ऐश्वर्य, यश और शाश्वत लोक",
+          "is_correct": true
+        },
+        {
+          "option_id": "q19.o2",
+          "label_hi": "केवल धन",
+          "is_correct": false
+        },
+        {
+          "option_id": "q19.o3",
+          "label_hi": "केवल बल",
+          "is_correct": false
+        },
+        {
+          "option_id": "q19.o4",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.48"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.02.q20",
+      "prompt_hi": "अध्याय 2 का मुख्य विषय क्या है?",
+      "options": [
+        {
+          "option_id": "q20.o1",
+          "label_hi": "दिनचर्या और सद्वृत्त",
+          "is_correct": true
+        },
+        {
+          "option_id": "q20.o2",
+          "label_hi": "केवल शल्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "q20.o3",
+          "label_hi": "केवल निदान",
+          "is_correct": false
+        },
+        {
+          "option_id": "q20.o4",
+          "label_hi": "केवल रसायन",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.02.46"
+      ]
+    }
+  ]
+}

@@ -6,16 +6,23 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 ROOT=Path(__file__).resolve().parents[1]
-CONTENT_ROOT=ROOT/"content"/"samhita"/"charaka"/"sutrasthana"
+CONTENT_ROOT=ROOT/"content"/"samhita"
 
 def load_content(content_id:str):
-    if not content_id.startswith("charaka.sutra."):
+    if content_id.startswith("charaka.sutra."):
+        try:
+            chapter_no=int(content_id.rsplit(".",1)[-1])
+        except ValueError:
+            return None
+        path=CONTENT_ROOT/"charaka"/"sutrasthana"/f"adhyaya-{chapter_no:02d}.json"
+    elif content_id.startswith("ashtanga.hridaya.sutra."):
+        try:
+            chapter_no=int(content_id.rsplit(".",1)[-1])
+        except ValueError:
+            return None
+        path=CONTENT_ROOT/"ashtanga_hridaya"/"sutrasthana"/f"adhyaya-{chapter_no:02d}.json"
+    else:
         return None
-    try:
-        chapter_no=int(content_id.rsplit(".",1)[-1])
-    except ValueError:
-        return None
-    path=CONTENT_ROOT/f"adhyaya-{chapter_no:02d}.json"
     if not path.exists():
         return None
     with path.open(encoding="utf-8") as fh:
