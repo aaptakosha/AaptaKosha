@@ -15,6 +15,10 @@ def _csv(value: str | None) -> list[str]:
     return [item.strip() for item in (value or "").split(",") if item.strip()]
 
 
+class ClerkConfigurationError(ValueError):
+    """Raised when Clerk credentials are present but authorization is incomplete."""
+
+
 class ClerkIdentityProvider:
     """Verify Clerk session tokens and convert the verified subject to Principal."""
 
@@ -64,14 +68,21 @@ class ClerkIdentityProvider:
 
 
 def build_identity_provider() -> IdentityProvider | None:
-    """Return the configured production provider, or None when auth is disabled."""
+    """Return a configured provider, failing explicitly on partial Clerk setup."""
     configured = any(
         os.environ.get(name, "").strip()
         for name in ("CLERK_SECRET_KEY", "CLERK_JWT_KEY")
     )
     if not configured:
         return None
-    return ClerkIdentityProvider.from_environment()
+    try:
+        return ClerkIdentityProvider.from_environment()
+    except ValueError as exc:
+        raise ClerkConfigurationError(str(exc)) from exc
 
 
-__all__ = ["ClerkIdentityProvider", "build_identity_provider"]
+__all__ = [
+    "ClerkConfigurationError",
+    "ClerkIdentityProvider",
+    "build_identity_provider",
+]

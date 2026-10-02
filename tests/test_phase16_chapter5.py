@@ -35,7 +35,7 @@ def test_chapter5_assessment_maps_to_canonical_content():
 def test_chapter5_reader_and_api_are_wired():
     reader=READER.read_text(encoding="utf-8")
     api=API.read_text(encoding="utf-8")
-    assert 'id==="charaka.sutra.05"' in reader
-    assert 'charaka.sutra.05.revision' in reader
-    assert 'chapter_no not in {1, 2, 3, 4, 5, 6}' in api
-    assert '_seed_samhita_chapter5_assessment' in api
+    assert "assessmentIdForChapter" in reader
+    assert 'id+".revision"' in reader
+    assert 'path == "/content/samhita"' in api
+    assert "_seed_samhita_assessments(service, repo)" in api

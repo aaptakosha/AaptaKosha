@@ -88,4 +88,5 @@ def test_chapter1_frontend_wires_test_and_results_actions():
     assert "weakShlokaList" in results_js
     assert "content_refs" in results_js
     assert "a.title" in practice_js
-    assert "verse=" in reader_js
+    assert 'params.get("verse")' in reader_js
+    assert "focus-verse" in reader_js

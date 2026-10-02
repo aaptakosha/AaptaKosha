@@ -15,7 +15,7 @@ from aaptakosha_core.assessment_http_api import AssessmentHttpApi
 from aaptakosha_core.assessment_learning_api import AssessmentLearningApi
 from aaptakosha_core.assessment_repository import SQLiteAssessmentRepository
 from aaptakosha_core.assessment_services import AssessmentService
-from aaptakosha_core.clerk_identity import build_identity_provider
+from aaptakosha_core.clerk_identity import ClerkConfigurationError, build_identity_provider
 from aaptakosha_core.postgres_repository import PostgresAssessmentRepository, PostgresProgressRepository
 from aaptakosha_core.progress import LearningProgressService
 from aaptakosha_core.progress_http_api import ProgressHttpApi
@@ -40,7 +40,11 @@ def _load_samhita(content_id: str):
         return json.load(fh)
 DATABASE_BACKEND = "sqlite"
 DATABASE_CONNECTION = None
-IDENTITY_PROVIDER = build_identity_provider()
+API = None
+PROGRESS_API = None
+IDENTITY_PROVIDER = None
+IDENTITY_ERROR = None
+
 REQUIRE_IDENTITY = bool(os.environ.get("VERCEL")) or os.environ.get("AAPTOKOSHA_REQUIRE_IDENTITY", "").strip().lower() in {"1", "true", "yes"}
 
 
@@ -76,213 +80,51 @@ def _seed_demo(service: AssessmentService, repo) -> None:
     ))
     service.publish("demo-dravyaguna-3")
 
-def _seed_samhita_ncism_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.01.ncism-revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)),
-        "content", "assessments", "charaka-sutra-01-ncism.json",
-    )
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = []
-    for item in payload["questions"]:
-        questions.append(AssessmentQuestion(
-            item["question_id"],
-            item["prompt"],
-            tuple(
-                QuestionOption(
-                    option["option_id"],
-                    option["text"],
-                    option["is_correct"],
+def _seed_samhita_assessments(service: AssessmentService, repo) -> None:
+    """Load every canonical Charaka assessment definition from content files."""
+    root = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments")
+    for filename in sorted(os.listdir(root)):
+        if not filename.startswith("charaka-sutra-") or not filename.endswith(".json"):
+            continue
+        path = os.path.join(root, filename)
+        with open(path, encoding="utf-8") as fh:
+            payload = json.load(fh)
+        stem = filename[:-5]
+        chapter_token = stem.split("-", 2)[2].split("-", 1)[0]
+        try:
+            chapter_no = int(chapter_token)
+        except ValueError:
+            continue
+        suffix = "ncism-revision" if chapter_no == 1 else "revision"
+        assessment_id = f"charaka.sutra.{chapter_no:02d}.{suffix}"
+        if repo.get(assessment_id) is not None:
+            continue
+        questions = []
+        for item in payload.get("questions", []):
+            prompt = item.get("prompt") or item.get("prompt_hi") or item.get("question") or item.get("question_hi")
+            options = []
+            for option in item.get("options", []):
+                option_id = option.get("option_id") or option.get("id")
+                option_text = option.get("text") or option.get("text_hi") or option.get("label_hi")
+                options.append(QuestionOption(option_id, option_text, bool(option.get("is_correct"))))
+            questions.append(
+                AssessmentQuestion(
+                    item["question_id"],
+                    prompt,
+                    tuple(options),
+                    points=int(item.get("points", 1)),
+                    content_refs=tuple(item.get("content_refs", ())),
                 )
-                for option in item["options"]
-            ),
-            points=item["points"],
-            content_refs=tuple(item["content_refs"]),
-        ))
-    assessment = Assessment(
-        assessment_id,
-        payload["title_hi"],
-        curriculum_refs=tuple(payload["curriculum_refs"]),
-        questions=tuple(questions),
-    )
-    service.create(assessment)
-    service.publish(assessment_id)
-
-
-
-def _seed_samhita_chapter2_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.02.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-02-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [
-        AssessmentQuestion(
-            item["question_id"], item["prompt"],
-            tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]),
-            points=item["points"], content_refs=tuple(item["content_refs"]),
+            )
+        assessment = Assessment(
+            assessment_id,
+            payload.get("title_hi") or payload.get("title") or assessment_id,
+            curriculum_refs=tuple(payload.get("curriculum_refs", ())),
+            questions=tuple(questions),
         )
-        for item in payload["questions"]
-    ]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
+        service.create(assessment)
+        service.publish(assessment_id)
 
-def _seed_samhita_chapter3_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.03.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-03-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [
-        AssessmentQuestion(
-            item["question_id"], item["prompt"],
-            tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]),
-            points=item["points"], content_refs=tuple(item["content_refs"]),
-        )
-        for item in payload["questions"]
-    ]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-def _seed_samhita_chapter4_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.04.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-04-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [
-        AssessmentQuestion(
-            item["question_id"], item["prompt"],
-            tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]),
-            points=item["points"], content_refs=tuple(item["content_refs"]),
-        )
-        for item in payload["questions"]
-    ]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-
-def _seed_samhita_chapter5_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.05.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-05-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-
-def _seed_samhita_chapter6_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.06.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-06-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-def _seed_samhita_chapter7_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.07.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-07-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-def _seed_samhita_chapter8_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.08.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-08-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-
-def _seed_samhita_chapter9_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.09.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-09-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [AssessmentQuestion(item["question_id"], item["prompt"], tuple(QuestionOption(o["option_id"], o["text"], o["is_correct"]) for o in item["options"]), points=item["points"], content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-
-
-def _seed_samhita_chapter10_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.10.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-10-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [AssessmentQuestion(item["question_id"], item["prompt_hi"], tuple(QuestionOption(o["id"], o["text_hi"], o["is_correct"]) for o in item["options"]), content_refs=tuple(item["content_refs"])) for item in payload["questions"]]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-def _seed_samhita_chapter11_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.11.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-11-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [
-        AssessmentQuestion(
-            item["question_id"], item["prompt_hi"],
-            tuple(QuestionOption(o["option_id"], o["label_hi"], o["is_correct"]) for o in item["options"]),
-            content_refs=tuple(item["content_refs"]),
-        )
-        for item in payload["questions"]
-    ]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
-
-
-def _seed_samhita_chapter12_assessment(service: AssessmentService, repo) -> None:
-    assessment_id = "charaka.sutra.12.revision"
-    if repo.get(assessment_id) is not None:
-        return
-    path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "assessments", "charaka-sutra-12-revision.json")
-    with open(path, encoding="utf-8") as fh:
-        payload = json.load(fh)
-    questions = [
-        AssessmentQuestion(item["question_id"], item["prompt_hi"],
-            tuple(QuestionOption(o["option_id"], o["label_hi"], o["is_correct"]) for o in item["options"]),
-            content_refs=tuple(item["content_refs"]))
-        for item in payload["questions"]
-    ]
-    assessment = Assessment(assessment_id, payload["title_hi"], curriculum_refs=tuple(payload["curriculum_refs"]), questions=tuple(questions))
-    service.create(assessment)
-    service.publish(assessment_id)
 
 def build_api():
     global DATABASE_BACKEND, DATABASE_CONNECTION
@@ -304,25 +146,29 @@ def build_api():
     progress_service = LearningProgressService(progress_repo)
     service = AssessmentService(repo, repo, progress_service)
     _seed_demo(service, repo)
-    _seed_samhita_ncism_assessment(service, repo)
-    _seed_samhita_chapter2_assessment(service, repo)
-    _seed_samhita_chapter3_assessment(service, repo)
-    _seed_samhita_chapter4_assessment(service, repo)
-    _seed_samhita_chapter5_assessment(service, repo)
-    _seed_samhita_chapter6_assessment(service, repo)
-    _seed_samhita_chapter7_assessment(service, repo)
-    _seed_samhita_chapter8_assessment(service, repo)
-    _seed_samhita_chapter9_assessment(service, repo)
-    _seed_samhita_chapter10_assessment(service, repo)
-    _seed_samhita_chapter11_assessment(service, repo)
-    _seed_samhita_chapter12_assessment(service, repo)
+    _seed_samhita_assessments(service, repo)
     return (
         AssessmentHttpApi(AssessmentLearningApi(service), require_identity=REQUIRE_IDENTITY),
         ProgressHttpApi(LearningProgressService(progress_repo), require_identity=REQUIRE_IDENTITY),
     )
 
 
-API, PROGRESS_API = build_api()
+def _get_apis():
+    global API, PROGRESS_API
+    if API is None or PROGRESS_API is None:
+        API, PROGRESS_API = build_api()
+    return API, PROGRESS_API
+
+
+def _get_identity_provider():
+    global IDENTITY_PROVIDER, IDENTITY_ERROR
+    if IDENTITY_PROVIDER is not None or IDENTITY_ERROR is not None:
+        return IDENTITY_PROVIDER
+    try:
+        IDENTITY_PROVIDER = build_identity_provider()
+    except ClerkConfigurationError as exc:
+        IDENTITY_ERROR = str(exc)
+    return IDENTITY_PROVIDER
 
 
 class handler(BaseHTTPRequestHandler):
@@ -375,19 +221,22 @@ class handler(BaseHTTPRequestHandler):
             publishable_key = os.environ.get("CLERK_PUBLISHABLE_KEY", "").strip()
             self._reply(200, json.dumps({
                 "clerk_publishable_key": publishable_key,
-                "identity_provider": "clerk" if IDENTITY_PROVIDER is not None else "unconfigured",
+                "identity_provider": "clerk" if _get_identity_provider() is not None else "unconfigured",
+                "identity_configuration_error": IDENTITY_ERROR,
             }))
             return
 
         if self.command == "GET" and path == "/health":
             try:
+                _get_apis()
+                identity_provider = _get_identity_provider()
                 cursor = DATABASE_CONNECTION.cursor()
                 cursor.execute("SELECT 1")
                 cursor.fetchone()
                 cursor.execute("SELECT COUNT(*) FROM assessments")
                 assessment_count = cursor.fetchone()[0]
-                configured = IDENTITY_PROVIDER is not None
-                healthy = (not REQUIRE_IDENTITY) or configured
+                configured = identity_provider is not None and IDENTITY_ERROR is None
+                healthy = (not REQUIRE_IDENTITY) and IDENTITY_ERROR is None or (REQUIRE_IDENTITY and configured)
                 self._reply(200 if healthy else 503, json.dumps({
                     "status": "ok" if healthy else "degraded",
                     "database": DATABASE_BACKEND,
@@ -395,6 +244,7 @@ class handler(BaseHTTPRequestHandler):
                     "identity_provider": "clerk" if configured else "unconfigured",
                     "identity_required": REQUIRE_IDENTITY,
                     "ready": healthy,
+                    "identity_configuration_error": IDENTITY_ERROR,
                 }))
             except Exception:
                 self._reply(503, json.dumps({"status": "error", "code": "readiness_check_failed", "ready": False}))
@@ -412,22 +262,27 @@ class handler(BaseHTTPRequestHandler):
                 self._reply(400, json.dumps({"error": {"code": "invalid_request_body"}}))
                 return
 
+        identity_provider = _get_identity_provider()
+        if IDENTITY_ERROR is not None:
+            self._reply(503, json.dumps({"error": {"code": "identity_provider_misconfigured"}}))
+            return
         principal = None
-        if IDENTITY_PROVIDER is not None:
+        if identity_provider is not None:
             try:
-                principal = IDENTITY_PROVIDER.resolve(self)
+                principal = identity_provider.resolve(self)
             except Exception:
                 self._reply(401, json.dumps({"error": {"code": "authentication_failed"}}))
                 return
-        if REQUIRE_IDENTITY and IDENTITY_PROVIDER is None:
+        if REQUIRE_IDENTITY and identity_provider is None:
             self._reply(503, json.dumps({"error": {"code": "identity_provider_not_configured"}}))
             return
 
         try:
+            assessment_api, progress_api = _get_apis()
             if path == "/progress" or path.startswith("/progress/"):
-                result = PROGRESS_API.handle(self.command, path, body, query, principal=principal)
+                result = progress_api.handle(self.command, path, body, query, principal=principal)
             else:
-                result = API.handle(self.command, path, body, query, principal=principal)
+                result = assessment_api.handle(self.command, path, body, query, principal=principal)
             response = PROGRESS_API.json_response(result) if path == "/progress" or path.startswith("/progress/") else API.json_response(result)
             self._reply(*response)
         except Exception:

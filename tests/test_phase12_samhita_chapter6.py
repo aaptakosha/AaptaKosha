@@ -33,6 +33,6 @@ def test_chapter6_assessment_covers_canonical_refs():
 def test_chapter6_reader_and_api_are_wired():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     js = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
-    assert "chapter_no not in {1, 2, 3, 4, 5, 6}" in api
-    assert '_seed_samhita_chapter6_assessment(service, repo)' in api
-    assert 'charaka.sutra.06.revision' in js
+    assert 'path == "/content/samhita"' in api
+    assert "_seed_samhita_assessments(service, repo)" in api
+    assert "assessmentIdForChapter" in reader

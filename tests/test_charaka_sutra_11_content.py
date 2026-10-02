@@ -17,7 +17,7 @@ def test_charaka_sutra_11_canonical_contract():
     ids = [p["passage_id"] for p in chapter["passages"]]
     assert len(ids) == len(set(ids))
     assert ids[0] == "charaka.sutra.11.001"
-    assert ids[-1] == "charaka.sutra.11.65cd"
+    assert ids[-1] == "charaka.sutra.11.065cd"
     assert sum(p["type"] == "prose" for p in chapter["passages"]) == 39
     assert sum(p["type"] == "verse_half" for p in chapter["passages"]) == 64
     assert all(p["sanskrit_original"] and p["translation_hi"] and p["explanation_hi"] and p["tika_hi"] for p in chapter["passages"])
@@ -70,8 +70,8 @@ def test_charaka_sutra_11_research_contract():
 def test_charaka_sutra_11_api_and_reader_wiring():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
-    assert "chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}" in api
-    assert "_seed_samhita_chapter11_assessment" in api
-    assert "charaka.sutra.11.revision" in api
-    assert 'id==="charaka.sutra.11"' in reader
-    assert "charaka.sutra.11.revision" in reader
+    assert 'path == "/content/samhita"' in api
+    assert "_seed_samhita_assessments(service, repo)" in api
+    assert "assessmentIdForChapter" in reader
+    assert "assessmentIdForChapter" in reader
+    assert 'id+".revision"' in reader
