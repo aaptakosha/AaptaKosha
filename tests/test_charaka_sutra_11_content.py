@@ -37,6 +37,9 @@ def test_charaka_sutra_11_source_sequence_contract():
         "charaka.sutra.11.064",
     ]
     assert "charaka.sutra.11.047ab" in ids and "charaka.sutra.11.047cd" in ids
+    assert "charaka.sutra.11.051ab" in ids and "charaka.sutra.11.051cd" in ids
+    assert "charaka.sutra.11.052ab" in ids and "charaka.sutra.11.052cd" in ids
+    assert "charaka.sutra.11.053ab" in ids and "charaka.sutra.11.053cd" in ids
     assert "charaka.sutra.11.050ab" in ids and "charaka.sutra.11.050cd" in ids
     assert "charaka.sutra.11.056ab" in ids and "charaka.sutra.11.056cd" in ids
     assert "charaka.sutra.11.064ab" in ids and "charaka.sutra.11.065cd" in ids
