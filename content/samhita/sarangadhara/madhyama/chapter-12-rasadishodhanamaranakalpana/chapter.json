@@ -8,8 +8,10 @@
   "title_roman": "Rasādiśodhanamāraṇakalpanā",
   "canonical_status": "source-reconciled",
   "verse_extent": {
-    "primary_online_witness": "1-150",
-    "status": "verified"
+    "primary_online_witness": "1-293",
+    "printed_dipika_witness": "1-295",
+    "status": "discrepant",
+    "discrepancy": "Wikisource online witness closes at 293; the BharatKosha Dīpikā printed witness presents the closing sequence as 293-295. Preserve both witness numberings; do not normalize silently."
   },
   "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे रसादिशोधनमारणकल्पना नाम द्वादशोऽध्यायः",
   "sources": [
@@ -31,86 +33,146 @@
   ],
   "canonical_sanskrit_anchors": [
     [
-      "1-8",
-      "रस/पारद के शोधन और दोष-निवारण की प्रारम्भिक व्यवस्था; शोधन के माध्यम और क्रम।"
+      "1",
+      "पारद-प्रशंसा — chapter opening anchor."
     ],
     [
-      "9-20",
-      "गन्धक तथा अन्य रसद्रव्यों की शोधन-संबंधी विधियाँ।"
+      "2",
+      "रस के नाम — रसेन्द्र, पारद, सूत आदि."
     ],
     [
-      "21-35",
-      "हरताल, मनःशिला और संबद्ध उपरस/रसद्रव्य के शोधन-विधान।"
+      "3",
+      "धातुओं और ग्रहाधिष्ठान का निर्देश."
     ],
     [
-      "36-55",
-      "अभ्रकादि रसद्रव्य, उनके शोधन तथा मारण की प्रारम्भिक प्रक्रियाएँ।"
+      "4-12",
+      "पारद-शोधन और दोषवर्जन का प्रारम्भिक क्रम."
     ],
     [
-      "56-75",
-      "रसौषधीय द्रव्यों के मारण, पुट और भस्मीकरण-संबंधी क्रम।"
+      "13-14",
+      "गन्धकशोधन-विधि."
     ],
     [
-      "76-95",
-      "विशिष्ट रसद्रव्यों के शोधन/मारण और उनके पारंपरिक गुण।"
+      "15-17",
+      "हिङ्गुलशोधन तथा हिङ्गुल से पारद-निष्कासन."
     ],
     [
-      "96-115",
-      "विभिन्न धातु/रसद्रव्य मिश्रणों और मारण-सिद्धि के क्रम।"
+      "18-23",
+      "पारदस्य मुखकरण-विधयः तथा विष-समूह का वर्णन."
     ],
     [
-      "116-135",
-      "भस्म-परीक्षा, सिद्धि-लक्षण तथा आगे के रसकल्पीय उपयोग।"
+      "24-28",
+      "कच्छपयन्त्रेण गन्धकजारण."
     ],
     [
-      "136-145",
-      "अंतिम प्रमुख रस/खनिज शोधन-मारण क्रम।"
+      "29-41",
+      "पारदमारण की विभिन्न विधियाँ."
     ],
     [
-      "146-150",
-      "अध्याय के अंतिम रसकल्पीय निर्देश और द्वादश अध्याय का समापन।"
+      "42-57",
+      "ज्वरादि के लिये प्रमुख रसयोग."
+    ],
+    [
+      "58-85",
+      "लोकनाथरस, सेवन, पथ्य तथा संबंधित अनुपान/उपयोग."
+    ],
+    [
+      "86-104",
+      "मृगाङ्क/हेमगर्भ आदि रसयोग."
+    ],
+    [
+      "105-135",
+      "मध्यवर्ती रोगानुसार रसयोग-समूह."
+    ],
+    [
+      "136-179",
+      "विविध रसयोग और महातालेश्वरादि."
+    ],
+    [
+      "180-214",
+      "कुष्ठ, श्वेतकुष्ठ, प्रameha, उदर और गुल्म-प्लीहा संबंधी रसयोग."
+    ],
+    [
+      "215-266",
+      "आगे के नामित रसयोग तथा वाजीकरण-संबंधी सामग्री."
+    ],
+    [
+      "267-288",
+      "कन्दर्पसुन्दर रस तथा लोहरसायन."
+    ],
+    [
+      "289-293",
+      "अनुक्तसंग्रह, जयपालशोधन और विषशोधन; online closing sequence."
+    ],
+    [
+      "293-295",
+      "Printed Dīpikā closing witness; numbering discrepancy preserved."
     ]
   ],
   "source_reconciliation": {
-    "finding": "The Sanskrit Wikisource Madhyama Khaṇḍa presents Rasādiśodhanamāraṇakalpanā as the twelfth and final Madhyama chapter, with a continuous 1-150 sequence followed by the chapter colophon.",
-    "structural_note": "The chapter continues the preceding Dhātuśodhanamāraṇakalpanā from metals/minerals into rasa, uparasa and related substances, emphasizing śodhana, māraṇa, puṭa, bhāvanā and siddhi/parīkṣā concepts.",
-    "numbering_note": "Canonical online verse numbering is retained as the controlling chapter sequence. Printed page/edition differences are treated as witness metadata rather than silently renumbered.",
-    "canonical_policy": "This package records verified structural ranges and controlled anchors only. Full verse-by-verse Sanskrit transcription remains pending controlled printed-source extraction for non-anchor verses.",
+    "finding": "The Sanskrit Wikisource Madhyama Khaṇḍa presents Rasādiśodhanamāraṇakalpanā as the twelfth and final Madhyama chapter, ending at online verse 293 and then the chapter colophon. The printed Dīpikā witness carries the closing material as verses 293-295.",
+    "opening": "Online v1 begins with pārada/rasa praise; v2 gives rasa names; v3 gives the planetary/metal correspondences; v4 onward develops śodhana and subsequent rasa procedures.",
+    "major_sections": [
+      "1-12: pārada śodhana and introductory rasa procedures",
+      "13-17: gandhaka and hiṅgula śodhana/extraction",
+      "18-28: rasa-mukha and gandhaka-jāraṇa procedures",
+      "29-41: pārada māraṇa procedures",
+      "42-94: named rasa-yogas, administration and pathya sections",
+      "95-135: additional rasa-yogas and disease-specific formulations",
+      "136-179: further rasa formulations, including major disease-group preparations",
+      "180-214: kuṣṭha, śveta-kuṣṭha, prameha, udara and gulma/pīha formulations",
+      "215-266: further named rasa-yogas and vājīkaraṇa-related material",
+      "267-288: Kāndarpa-sundara and Loha-rasāyana sections",
+      "289-293: anukta-saṃgraha ślokas, Jayapāla śodhana and Viṣa śodhana"
+    ],
+    "canonical_policy": "Record verified witness ranges and selected controlled anchors only. Full verse-by-verse Sanskrit transcription remains pending controlled printed-source extraction for non-anchor verses.",
     "commentary_policy": "Dīpikā explanations, ingredient identifications, modern chemical/mineral identifications and practical interpretations remain separate from the canonical Sanskrit layer.",
-    "safety_note": "This chapter contains classical procedures involving mercury, sulfur, arsenicals and other potentially toxic mineral substances. It is historical/classical educational material and must not be treated as modern preparation or self-medication guidance."
+    "safety_note": "This chapter contains classical procedures involving mercury, sulfur, arsenicals, poisons and other potentially toxic mineral substances. It is historical/classical educational material and must not be treated as modern preparation or self-medication guidance."
   },
   "topic_map": [
     [
-      "1-20",
-      "रस/पारद तथा गन्धक आदि प्रमुख रसद्रव्यों का शोधन"
+      "1-12",
+      "pārada śodhana and introductory rasa procedures"
     ],
     [
-      "21-35",
-      "हरताल, मनःशिला तथा संबद्ध उपरसों का शोधन"
+      "13-17",
+      "gandhaka and hiṅgula śodhana/extraction"
     ],
     [
-      "36-55",
-      "अभ्रकादि द्रव्यों का शोधन और प्रारम्भिक मारण"
+      "18-28",
+      "rasa-mukha and gandhaka-jāraṇa procedures"
     ],
     [
-      "56-75",
-      "मारण, पुट और भस्मीकरण की प्रमुख प्रक्रियाएँ"
+      "29-41",
+      "pārada māraṇa procedures"
     ],
     [
-      "76-95",
-      "विशिष्ट रसद्रव्यों के शोधन-मारण और पारंपरिक गुण"
+      "42-94",
+      "named rasa-yogas, administration and pathya sections"
     ],
     [
-      "96-115",
-      "मिश्रित रस/धातु द्रव्यों के मारण-सिद्धि क्रम"
+      "95-135",
+      "additional rasa-yogas and disease-specific formulations"
     ],
     [
-      "116-135",
-      "भस्म-परीक्षा, सिद्धि-लक्षण और रसकल्पीय उपयोग"
+      "136-179",
+      "further rasa formulations, including major disease-group preparations"
     ],
     [
-      "136-150",
-      "अंतिम रसद्रव्य प्रक्रियाएँ और अध्याय-समापन"
+      "180-214",
+      "kuṣṭha, śveta-kuṣṭha, prameha, udara and gulma/pīha formulations"
+    ],
+    [
+      "215-266",
+      "further named rasa-yogas and vājīkaraṇa-related material"
+    ],
+    [
+      "267-288",
+      "Kāndarpa-sundara and Loha-rasāyana sections"
+    ],
+    [
+      "289-293",
+      "anukta-saṃgraha ślokas, Jayapāla śodhana and Viṣa śodhana"
     ]
   ],
   "hindi_learning_summary": [
@@ -168,43 +230,43 @@
   "learning_units": [
     [
       "LU1",
-      "1-20",
-      "पारद, गन्धक और प्रारम्भिक रसशोधन"
+      "1-28",
+      "पारद, गन्धक, हिङ्गुल तथा प्रारम्भिक रसशोधन"
     ],
     [
       "LU2",
-      "21-35",
-      "हरताल, मनःशिला और उपरस"
+      "29-41",
+      "पारदमारण की पारंपरिक प्रक्रियाएँ"
     ],
     [
       "LU3",
-      "36-55",
-      "अभ्रकादि शोधन और प्रारम्भिक मारण"
+      "42-85",
+      "ज्वरादि रसयोग, लोकनाथरस और सेवन-पथ्य परंपरा"
     ],
     [
       "LU4",
-      "56-75",
-      "पुट, मारण और भस्मीकरण"
+      "86-135",
+      "मृगाङ्क, हेमगर्भ तथा अन्य रोगानुसार रसयोग"
     ],
     [
       "LU5",
-      "76-95",
-      "विशिष्ट रसद्रव्य शोधन-मारण"
+      "136-214",
+      "विविध रसयोग तथा कुष्ठ-प्रमेह-उदर-गुल्म समूह"
     ],
     [
       "LU6",
-      "96-115",
-      "मिश्रित रस/धातु मारण और सिद्धि"
+      "215-266",
+      "आगे के रसयोग और विशेष प्रयोजन"
     ],
     [
       "LU7",
-      "116-135",
-      "भस्म-परीक्षा और सिद्धिलक्षण"
+      "267-288",
+      "कन्दर्पसुन्दर तथा लोहरसायन"
     ],
     [
       "LU8",
-      "136-150",
-      "अंतिम रसकल्प और अध्याय-समापन"
+      "289-293/295",
+      "अनुक्तसंग्रह, जयपाल-विषशोधन और witness discrepancy"
     ]
   ],
   "assessments": [
@@ -250,12 +312,15 @@
     "opening_section_verified": true,
     "closing_section_verified": true,
     "colophon_verified": true,
-    "primary_online_extent_verified": "1-150",
+    "primary_online_extent_verified": "1-293",
+    "printed_witness_extent_verified": "1-295",
     "cross_source_checked": true,
+    "numbering_discrepancy_preserved": true,
     "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
     "commentary_separated_from_canonical_layer": true,
     "modern_chemical_equivalence_not_promoted_to_canonical_fact": true,
     "no_fabricated_missing_verses": true,
     "one_chapter_one_commit": true
-  }
+  },
+  "audit_note": "Cross-chapter audit correction: previous package incorrectly recorded the online extent as 1-150. Primary Wikisource verifies 1-293; printed Dīpikā verifies a closing witness through 295. Corrected without renumbering the witnesses."
 }
