@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "uttara",
+  "chapter_number": 11,
+  "chapter_id": "uttara-11-lepamurdhatailakarnapuranavidhi",
+  "title_sanskrit": "लेपमूर्धतैलकर्णपूरणविधिः",
+  "title_roman": "Lepamūrdhatailakarṇapūraṇavidhi",
+  "canonical_status": "source_reconciled_partial_transcription",
+  "verse_extent": {
+    "verified": "1-152",
+    "primary_online_witness": "1-152",
+    "independent_witness": "1-152",
+    "discrepancy_note": "No numbering discrepancy found at the checked chapter boundary; primary and TransLiteral witnesses close at v152 before the colophon."
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायामुत्तरखण्डे लेपमूर्धतैलकर्णपूरणविधिर्नामैकादशोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Uttara Khaṇḍa",
+      "role": "primary Sanskrit witness; chapter identity, v1-152 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/उत्तरखण्डम्"
+    },
+    {
+      "name": "TransLiteral Foundations — Uttara Khaṇḍa Chapter 11",
+      "role": "independent online Sanskrit witness; v119-152 and colophon cross-check, including chapter closing",
+      "url": "https://www.transliteral.org/pages/z210314214544/view"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā",
+      "role": "printed Dīpikā witness and Hindi commentary/source reconciliation",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/"
+    }
+  ],
+  "canonical_sanskrit": [
+    {
+      "verse": 1,
+      "text": "आलेपस्य च नामानि लिप्तो लेपश्च लेपनम् । दोषघ्नो विषहा वर्ण्यो मुखलेपस्त्रिधा मतः ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "त्रिप्रमाणश्चतुर्भागस्त्रिभागोऽधाङ्गुलोन्नतः । आर्द्रो व्याधिहरः स स्याच्छुष्को दूषयतिच्छविम् ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "पुनर्नवा दारु शुण्ठीं सिद्धार्थं शिग्रुमेव च । पिष्ट्वा चैवारनालेन प्रलेपः सर्वशोथजित् ॥ ३ ॥"
+    },
+    {
+      "verse": 4,
+      "text": "बिभीतफलमज्जाया लेपो दाहार्त्तिनाशनः ॥ ४ ॥"
+    },
+    {
+      "verse": 5,
+      "text": "शिरीषं मधुयष्टी च तगरं रक्तचन्दनम् । एला मांसी निशायुग्मं कुष्ठं बालकमेव च । इति संचूर्ण्य लेपोऽय पञ्चमांशघृतप्लुतः ॥ ५ ॥"
+    },
+    {
+      "verse": 6,
+      "text": "जलेन क्रियते सुज्ञैर्दशाङ्ग इति संज्ञितः । विसर्पान्विषविस्फोटशोथान्दुष्टव्रणाञ्जयेत् ॥ ६ ॥"
+    },
+    {
+      "verse": 20,
+      "text": "रसस्तिक्तपटोलस्य पत्राणां तद्विलेपनात् । इन्द्रलुप्तं शमं याति त्रिभिरेव दिनैर्ध्रुवम् ॥ २० ॥"
+    },
+    {
+      "verse": 21,
+      "text": "इन्द्रलुप्तापहो लेपो मधुना बृहतीरसः । गुञ्जामूलं फलं वाऽपि भल्लातकरसोऽपि वा ॥ २१ ॥"
+    },
+    {
+      "verse": 22,
+      "text": "गोक्षुरस्तिलपुष्पाणि तुल्ये च मधुसर्पिषी । शिरः प्रलेपनं तेन केशसंवर्धनं परम् ॥ २२ ॥"
+    },
+    {
+      "verse": 27,
+      "text": "अयोरजो भृङ्गराजस्त्रिफला कृष्णमृत्तिका । स्थितमिक्षुरसे मासं लेपनात्पलितं जयेत् ॥ २७ ॥"
+    },
+    {
+      "verse": 35,
+      "text": "शङ्खचूर्णस्य भागौ द्वौ हरितालं च भागिकम् । मनःशिला चार्धभागा स्वर्जिका चैकभागिका । लेपोऽय वारिपिष्टस्तु केशानुत्पाट्य दीयते ॥ ३६ ॥"
+    },
+    {
+      "verse": 40,
+      "text": "सुवर्णपुष्पी कासीसं विडङ्गानि मनःशिला । रोचना सैन्धवं चैव लेपनाच्छिवत्रनाशनम् ॥ ४० ॥"
+    },
+    {
+      "verse": 48,
+      "text": "हरीतकी सैन्धवं च गैरिकं च रसाञ्जनम् । विडालको जले पिष्टः सर्वनेत्रामयापहः ॥ ४८ ॥"
+    },
+    {
+      "verse": 53,
+      "text": "कण्डूश्च रकसश्चैव प्रशमं यान्ति वेगतः ॥ ५३ ॥"
+    },
+    {
+      "verse": 57,
+      "text": "रास्ना नीलोत्पलं दारु चन्दनं मधुकं बला । घृतक्षीरयुतो लेपो वातवीसर्पनाशनः ॥ ५७ ॥"
+    },
+    {
+      "verse": 60,
+      "text": "मांसी सर्जरसो लोध्रं मधुकं सहरेणुकम् । मूर्वा नीलोत्पलं पद्मं शिरीषकुसुमैः सह । प्रलेपः पित्तवातास्रे शतधौतघृतप्लुतः ॥ ६० ॥"
+    },
+    {
+      "verse": 70,
+      "text": "वरी नीलोत्पलं दूर्वा तिलाः कृष्णा पुनर्नवा । शङ्खकेऽनन्तवाते च लेपः सर्वशिरोऽत्तिजित् ॥ ७० ॥"
+    },
+    {
+      "verse": 71,
+      "text": "अथ लेपविधिश्चान्यः प्रोच्यते सुज्ञसम्मतः । द्वौ तस्य कथितौ भेदौ प्रलेपाख्यप्रदेहकौ ॥ ७१ ॥"
+    },
+    {
+      "verse": 72,
+      "text": "चर्माद्रं माहिषं यद्वत्प्रोन्नतं सा मितिस्तयोः । शीतस्तनुर्विशोषी च प्रलेपः परिकीर्त्तितः । आद्रो घनस्तथोष्णः स्यात्प्रदेहः श्लेष्मवातहा ॥ ७२ ॥"
+    },
+    {
+      "verse": 73,
+      "text": "रोमाभिमुखमादेयौ प्रलेपाख्यप्रदेहकौ । वीर्यं सम्यग्विशत्याशु रोमकूपैः शिरामुखैः ॥ ७३ ॥"
+    },
+    {
+      "verse": 77,
+      "text": "आदौ शोथहरो लेपो द्वितीयो रक्तसेचनः । तृतीयश्चोपनाहः स्याच्चतुर्थः पाटनक्रमः ॥ ७७ ॥"
+    },
+    {
+      "verse": 78,
+      "text": "पञ्चमः शोधनो भूयात्षष्ठो रोपण इष्यते । सप्तमो वर्णकरणो व्रणस्यैते क्रमा मताः ॥ ७८ ॥"
+    },
+    {
+      "verse": 88,
+      "text": "तिलसैन्धवयष्ट्याह्वनिम्बपत्रनिशायुगैः । त्रिवृद्घृतयुतैः पिष्टैः प्रलेपो व्रणशोधनः ॥ ८८ ॥"
+    },
+    {
+      "verse": 100,
+      "text": "सर्षपाः शिग्रुबीजानि शणबीजातसीयवाः । मूलकस्य च बीजानि तक्रेणाम्लेन पेषयेत् । गण्डमालाऽबुदं गण्डं लेपेनानेन शाम्यति ॥ १०० ॥"
+    },
+    {
+      "verse": 120,
+      "text": "वचा सौवर्चलं कुष्ठं रजन्यौ मरिचानि च । एतल्लेपप्रभावेण वशीकरणमुत्तमम् ॥ १२० ॥"
+    },
+    {
+      "verse": 121,
+      "text": "अभ्यङ्गः परिषेकश्च पिचुर्बस्तिरिति क्रमात् । मूर्धतैलं चतुर्धा स्याद्बलवच्च यथोत्तरम् ॥ १२१ ॥"
+    },
+    {
+      "verse": 123,
+      "text": "शिरोबस्तिश्चर्मणः स्याद् द्विमुखो द्वादशाङ्गुलः । शिरः प्रमाणं तं बद्ध्वा मस्तके माषपिष्टकैः । सन्धिरोधं विधायादौ स्नेहैः कोष्णैः प्रपूरयेत् ॥ १२३ ॥"
+    },
+    {
+      "verse": 127,
+      "text": "अनेन दुर्जया रोगा वातजा यान्ति सङ्क्षयम् । शिरः कम्पादयस्तेन सर्वकालेषु युज्यते ॥ १२७ ॥"
+    },
+    {
+      "verse": 128,
+      "text": "स्वेदयेत्कर्णदेशं तु किञ्चिन्नुः पार्श्वशायिनः । मूत्रैः स्नेहै रसैः कोष्णैस्ततः श्रोत्रं प्रपूरयेत् ॥ १२८ ॥"
+    },
+    {
+      "verse": 131,
+      "text": "रसाद्यैः पूरणं कर्णे भोजनात्प्राक्प्रशस्यते । तैलाद्यैः पूरणं कर्णे भास्करेऽस्तमुपागते ॥ १३१ ॥"
+    },
+    {
+      "verse": 140,
+      "text": "यत्तैलं च्यवते तेभ्यः सुखोष्णं तेन पूरयेत् । ज्ञेयं तद्दीपिकातैलं सद्यो गृह्णातिवेदनाम् । एवं स्याद्दीपिकातैलं कुष्ठे देवतरौ तथा ॥ १४० ॥"
+    },
+    {
+      "verse": 145,
+      "text": "अपामार्गक्षारजले तत्क्षारं कल्कितं क्षिपेत् । तेन पक्वं जयेत्तैलं बाधिर्यं कर्णनादकम् ॥ १४५ ॥"
+    },
+    {
+      "verse": 147,
+      "text": "चूर्णं पञ्चकषायाणां कपित्थरसमेव च । कर्णस्रावे प्रशंसन्ति पूरणं मधुना सह ॥ १४७ ॥"
+    },
+    {
+      "verse": 150,
+      "text": "आम्रजम्बूप्रवालानि मधूकस्य वटस्य च । एभिः संसाधितं तैलं पूतिकर्णोपशान्तिकृत् ॥ १५० ॥"
+    },
+    {
+      "verse": 151,
+      "text": "पूरणं हरितालेन गवां मूत्रयुतेन च । अथवा सार्षपं तैलं कर्णकीटहरं परम् ॥ १५१ ॥"
+    },
+    {
+      "verse": 152,
+      "text": "स्वरसं शिग्रुमूलस्य सूर्यावर्त्तरसं तथा । त्र्यूषणं चूर्णितं चैव कपिकच्छूजटारसम् । कृत्वैकत्र क्षिपेत्कर्णे कर्णकीटहरं परम् ॥ १५२ ॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource gives a continuous chapter from v1 through v152 and the full compound colophon. TransLiteral independently reproduces the late chapter sequence including v119, v120, the mūrdhataila transition at v121, karṇapūraṇa from v128, v151-v152 and the same chapter colophon.",
+    "resolution": "Extent is accepted as 1-152. The canonical layer currently stores controlled source anchors rather than claiming a full verse-by-verse transcription; remaining verses are intentionally pending controlled transcription.",
+    "commentary_note": "Dīpikā commentary and modern interpretations remain separate from the canonical Sanskrit layer.",
+    "safety_note": "This chapter contains classical topical and medicinal preparations for skin, scalp, wounds, head, ear and related conditions, including substances that may be irritant, toxic or otherwise hazardous. It is historical/classical BAMS source material, not modern self-treatment or procedural guidance."
+  },
+  "topic_map": [
+    {
+      "range": "1-19",
+      "topic": "लेप की संज्ञा, मात्रा और मुख/त्वचा सम्बन्धी प्रारम्भिक लेपयोग"
+    },
+    {
+      "range": "20-47",
+      "topic": "इन्द्रलुप्त, केश, पलित, केशनाश और श्वित्र आदि के पारंपरिक लेप"
+    },
+    {
+      "range": "48-70",
+      "topic": "नेत्र, कण्डू, विसर्प और शिरःपीडा सम्बन्धी लेप"
+    },
+    {
+      "range": "71-88",
+      "topic": "प्रलेप-प्रदेह भेद, प्रयोगविधि और व्रण-लेप क्रम"
+    },
+    {
+      "range": "89-107",
+      "topic": "व्रण, विद्रधि, गण्डमाला, उपदंश आदि के पारंपरिक लेप"
+    },
+    {
+      "range": "108-120",
+      "topic": "अग्निदग्ध, योनि/लिङ्ग सम्बन्धी, दुर्गन्ध और अन्य विविध लेप"
+    },
+    {
+      "range": "121-127",
+      "topic": "मूर्धतैल के चार भेद और शिरोबस्ति"
+    },
+    {
+      "range": "128-152",
+      "topic": "कर्णपूरण, कर्णशूल, कर्णनाद, बाधिर्य, कर्णस्राव और कर्णकीट सम्बन्धी योग"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-19",
+      "summary": "लेप की संज्ञा, भेद, मात्रा और अनेक त्वचा-मुख सम्बन्धी पारंपरिक योगों का आरम्भिक वर्णन है।"
+    },
+    {
+      "range": "20-47",
+      "summary": "केश, पलित, श्वित्र और अन्य त्वचा/रोमसम्बन्धी अवस्थाओं के लिए विविध पारंपरिक लेप वर्णित हैं।"
+    },
+    {
+      "range": "48-70",
+      "summary": "नेत्र, कण्डू, विसर्प तथा विभिन्न प्रकार की शिरःपीडा के लिए शास्त्रीय लेपयोग दिये गये हैं।"
+    },
+    {
+      "range": "71-88",
+      "summary": "प्रलेप और प्रदेह के भेद, प्रयोग के सामान्य सिद्धान्त तथा व्रण-लेप का क्रम बताया गया है।"
+    },
+    {
+      "range": "89-107",
+      "summary": "व्रण, विद्रधि, गण्डमाला और अन्य अवस्थाओं के लिए अनेक लेपयोग दिये गये हैं।"
+    },
+    {
+      "range": "108-120",
+      "summary": "दग्ध, जननाङ्ग, दुर्गन्ध तथा अन्य विविध पारंपरिक लेपों का वर्णन है।"
+    },
+    {
+      "range": "121-127",
+      "summary": "मूर्धतैल के चार भेद और शिरोबस्ति का संक्षिप्त विधि-वर्णन है।"
+    },
+    {
+      "range": "128-152",
+      "summary": "कर्णपूरण तथा कर्णशूल, कर्णनाद, बाधिर्य, कर्णस्राव और कर्णकीट सम्बन्धी पारंपरिक योगों का वर्णन है।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-70",
+      "coverage": "Dīpikā explains lepa terminology, measures, named formulations and the traditional indications associated with skin, hair, eye and head disorders."
+    },
+    {
+      "range": "71-120",
+      "coverage": "Dīpikā explains pralépa/pradeha distinctions, wound sequencing and the later miscellaneous formulations."
+    },
+    {
+      "range": "121-127",
+      "coverage": "Dīpikā explains the four mūrdhataila forms and śirobasti terminology and context."
+    },
+    {
+      "range": "128-152",
+      "coverage": "Dīpikā explains karṇapūraṇa terminology, timing, measures and the named ear formulations."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-19",
+      "title": "लेप की मूल संकल्पना और प्रारम्भिक योग"
+    },
+    {
+      "id": "LU2",
+      "range": "20-70",
+      "title": "त्वचा, केश, श्वित्र, नेत्र और शिरःपीडा लेप"
+    },
+    {
+      "id": "LU3",
+      "range": "71-88",
+      "title": "प्रलेप-प्रदेह और व्रण-लेप क्रम"
+    },
+    {
+      "id": "LU4",
+      "range": "89-120",
+      "title": "व्रण तथा विविध रोगों के लेप"
+    },
+    {
+      "id": "LU5",
+      "range": "121-127",
+      "title": "मूर्धतैल और शिरोबस्ति"
+    },
+    {
+      "id": "LU6",
+      "range": "128-152",
+      "title": "कर्णपूरण और कर्णरोग सम्बन्धी योग"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "मूर्धतैल के कितने भेद बताए गए हैं?",
+      "answer": "चार—अभ्यङ्ग, परिषेक, पिचु और बस्ति।"
+    },
+    {
+      "type": "short_answer",
+      "question": "प्रलेप और प्रदेह के शास्त्रीय भेद को अध्याय के आधार पर समझाइए।"
+    },
+    {
+      "type": "short_answer",
+      "question": "शिरोबस्ति को मूर्धतैल-विधि के किस क्रम में रखा गया है?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "इस अध्याय के पारंपरिक रोग-नाम और therapeutic claims को आधुनिक diagnosis/evidence के समान क्यों नहीं माना जाना चाहिए?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "क्यों canonical Sanskrit, Dīpikā commentary और आधुनिक clinical interpretation को अलग-अलग layers में रखना आवश्यक है?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-152",
+    "primary_online_extent_verified": "1-152",
+    "independent_witness_extent_verified": "1-152",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "cross_source_checked": true,
+    "numbering_gaps_preserved": true,
+    "canonical_full_verse_transcription": "partial; controlled anchors only",
+    "no_fabricated_missing_verses": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
+    "safety_note_present": true,
+    "one_chapter_one_commit": true
+  }
+}
