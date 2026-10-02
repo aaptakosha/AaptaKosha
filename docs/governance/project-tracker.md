@@ -136,4 +136,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Uttara Khaṇḍa Chapter 4 — Virecanavidhi researched/source-reconciled; primary and printed witness 1–49; full primary Sanskrit transcription added.
 - [x] Uttara Khaṇḍa Chapter 5 — Snehabastividhi researched/source-reconciled; primary and independent witness 1–51; full primary Sanskrit transcription added.
 - [x] Chapter 6 — Nirūhabastividhi researched/source-reconciled; primary witness 1–35; full primary Sanskrit transcription added.
-- [ ] Chapters 7–13 pending research-first ingestion.
+- [x] Chapter 7 — Uttarabastividhi researched/source-reconciled; primary and independent witness 1–15; full primary Sanskrit transcription added.
+- [ ] Chapters 8–13 pending research-first ingestion.
