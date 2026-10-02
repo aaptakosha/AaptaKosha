@@ -144,3 +144,10 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Chapter 12 — Śoṇitasrāvavidhi researched/source-reconciled; primary/printed witness 1–45; full controlled Sanskrit transcription added.
 - [x] Chapter 13 — Netraprasādanavidhi researched/source-reconciled; primary witness 1–128; printed Dīpikā editorial v129 discrepancy preserved; controlled Sanskrit anchors added; full verse transcription remains a refinement task.
 - [x] Uttara Khaṇḍa chapters 1–13 researched/source-reconciled and individually committed.
+
+## Śārṅgadhara Saṃhitā — Cross-Khaṇḍa refinement audit
+- [x] 32/32 chapter JSON packages present and identity/extent/colophon gates defined.
+- [x] Cross-Khaṇḍa regression contract added for Pūrva/Madhyama/Uttara.
+- [x] Known witness/numbering discrepancies are explicitly preserved.
+- [x] Partial/anchor transcription is not allowed to be represented as complete.
+- [ ] Full controlled verse transcription refinement remains pending for non-anchor chapters/verses.
