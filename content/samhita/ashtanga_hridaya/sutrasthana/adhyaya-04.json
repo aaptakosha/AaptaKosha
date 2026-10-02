@@ -122,7 +122,9 @@
       "sanskrit_original": "प्रवर्तयेत्क्षुतिं सक्तां स्नेहस्वेदौ च शीलयेत् । शोषाङ्गसादबाधिर्यसम्मोहभ्रमहृद्गदाः ॥ १० ॥",
       "hindi_translation": "रुकी छींक को प्रवर्तित करना और स्नेह-स्वेद करना चाहिए; रोकने से शोष, अंगसाद, बधिरता, सम्मोह, भ्रम और हृद्रोग हो सकते हैं।",
       "hindi_explanation": "यह श्लोक छींकधारण के दीर्घकालिक परिणाम और उपचार दोनों बताता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t10",
+      "tika_ayurvedarasayana_block_id": "ah4-t10"
     },
     {
       "id": "ah-s4-v11",
@@ -131,7 +133,9 @@
       "sanskrit_original": "तृष्णाया निग्रहात्तत्र शीतः सर्वो विधिर्हितः । अङ्गभङ्गारुचिग्लानिकार्श्यशूलभ्रमाः क्षुधः ॥ ११ ॥",
       "hindi_translation": "प्यास रोकने पर शीतल उपाय हितकर हैं; भूख रोकने से अंगभंग, अरुचि, ग्लानि, कृशता, शूल और भ्रम हो सकते हैं।",
       "hindi_explanation": "तृष्णा और क्षुधा दोनों शरीर की मूल आवश्यकताओं से जुड़े वेग हैं।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t11",
+      "tika_ayurvedarasayana_block_id": "ah4-t10"
     },
     {
       "id": "ah-s4-v12",
@@ -140,7 +144,9 @@
       "sanskrit_original": "तत्र योज्यं लघु स्निग्धमुष्णमल्पं च भोजनम् । निद्रा या मोहमूर्धाक्षिगौरवालस्यजृम्भिकाः ॥ १२ ॥",
       "hindi_translation": "भूख रोकने पर हल्का, स्निग्ध, गरम और अल्प भोजन देना चाहिए; निद्रा रोकने से मोह, सिर-आँखों में भारीपन, आलस्य और जम्हाई हो सकती है।",
       "hindi_explanation": "क्षुधा-निग्रह के बाद अग्नि के अनुकूल अल्प भोजन और निद्रा की पूर्ति आवश्यक बताई गई है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t12",
+      "tika_ayurvedarasayana_block_id": "ah4-t12"
     },
     {
       "id": "ah-s4-v13",
@@ -149,7 +155,9 @@
       "sanskrit_original": "अङ्गमर्दश्च तत्रेष्टः स्वप्नः संवाहनानि च । कासस्य रोधात्तद्वृद्धिः श्वासारुचिहृदामयाः ॥ १३ ॥",
       "hindi_translation": "निद्रा रोकने पर अंगमर्द, निद्रा और संवाहन हितकर हैं; खाँसी रोकने से उसकी वृद्धि तथा श्वास, अरुचि और हृदय-विकार हो सकते हैं।",
       "hindi_explanation": "नींद की कमी और खाँसी के दमन दोनों को वात-कफ असंतुलन से जोड़ा गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t12",
+      "tika_ayurvedarasayana_block_id": "ah4-t12"
     },
     {
       "id": "ah-s4-v14",
@@ -505,7 +513,7 @@
     "phase_1": "Core Samhita content",
     "phase_2": "Dedicated exact Sarvangasundari and Ayurvedarasayana translation",
     "pending_blocks": [
-      "ah4-t10 onward"
+      "ah4-t16 onward"
     ],
     "source": "Complete Sarvangasundari and Ayurvedarasayana commentary blocks must be extracted from authoritative source text before exact Hindi translation; uploaded PDF is not authoritative.",
     "completed_blocks": [
@@ -517,7 +525,13 @@
       "ah4-t06",
       "ah4-t07",
       "ah4-t08",
-      "ah4-t09"
+      "ah4-t09",
+      "ah4-t10",
+      "ah4-t11",
+      "ah4-t12",
+      "ah4-t13",
+      "ah4-t14",
+      "ah4-t15"
     ]
   },
   "assessment_id": "ashtanga.hridaya.sutra.04.revision",
@@ -602,6 +616,60 @@
       "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724818.html",
       "tika_sarvangasundara_hi": "‘पुनः’ व्यतिरेक का सूचक है। उद्गार के धारण से अरुचि आदि उत्पन्न होते हैं। ‘उरः’ वक्षः है और उसके नीचे हृदय स्थित है; इन दोनों में बन्धन-सा अन्तःस्तम्भ होता है। यहाँ बताए रोगों में हिचकी के समान उपचार करना चाहिए, अर्थात् हिचकी की चिकित्सा आगे बताई जाएगी।",
       "tika_ayurvedarasayana_hi": "ऊर्ध्ववात-रोध से होने वाले रोगों का वर्णन करते हुए कहा गया है—उद्गार के रोधन से अरुचि, कम्प आदि होते हैं। कम्प का अर्थ सम्पूर्ण शरीर का कम्पन है। हृदय और उरःस्थल में ऐसा कष्ट होता है मानो उन्हें रस्सी आदि से बाँधा गया हो। आध्मान का अर्थ उदर का भर जाना है। उद्गार-रोध के उपचार के रूप में हिचकी के समान चिकित्सा बताई गई है।"
+    },
+    {
+      "id": "ah4-t10",
+      "commentary": "both",
+      "source_section": "13",
+      "verse_range": "10–11",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724821.html",
+      "tika_sarvangasundara_hi": "तृष्णा के निग्रह अर्थात् रोकने से शोष आदि विकार उत्पन्न होते हैं। ऐसे तृष्णा-रोधजन्य विकारों में स्नान, अन्न-पान आदि सभी शीतल उपाय हितकर हैं।",
+      "tika_ayurvedarasayana_hi": "तृष्णा-रोध से मुखशोष, अंगों में शैथिल्य, संमोह अर्थात् ज्ञानाभाव, चक्र पर चढ़े व्यक्ति के समान भ्रम और हृद्रोग हो सकते हैं। इनके उपचार के रूप में सभी शीतल उपाय बताए गए हैं।"
+    },
+    {
+      "id": "ah4-t11",
+      "commentary": "sarvangasundari",
+      "source_section": "14",
+      "verse_range": "11–12",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724822.html",
+      "tika_sarvangasundara_hi": "‘क्षुधः’ में ‘निग्रहात्’ का सम्बन्ध पूर्ववत् समझना चाहिए; अर्थात् भूख के निग्रह से अंगभंग आदि छह विकार होते हैं। यहाँ ‘शूल’ से सामान्यतः पक्वाशयगत शूल ग्रहण किया जाता है। क्षुधावेग के निग्रह से आवरणरहित वायु कुपित होती है और उसका स्थान पक्वाशय है। इसलिए क्षुधा-निग्रह के बाद लघु, स्निग्ध, उष्ण और अल्प भोजन करना चाहिए।",
+      "tika_ayurvedarasayana_hi": ""
+    },
+    {
+      "id": "ah4-t12",
+      "commentary": "sarvangasundari",
+      "source_section": "15",
+      "verse_range": "12–13",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724823.html",
+      "tika_sarvangasundara_hi": "निद्रा के निग्रह से मोह आदि उत्पन्न होते हैं। निद्रा-वेग के रोधन से उत्पन्न विकारों में निद्रा ही हितकर है। संवाहन से सुखद स्पर्शयुक्त मर्दन, अर्थात् हल्का मर्दन, अभिप्रेत है।",
+      "tika_ayurvedarasayana_hi": "निद्रा-रोध से मोह, सिर और नेत्रों में गौरव तथा आलस्य उत्पन्न होते हैं। ‘अंगमर्द’ का अर्थ अंगों में टूटने-जैसी पीड़ा है। उपचार के रूप में शयन और सुखद स्पर्शयुक्त मर्दन बताया गया है।"
+    },
+    {
+      "id": "ah4-t13",
+      "commentary": "both",
+      "source_section": "18",
+      "verse_range": "15",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724826.html",
+      "tika_sarvangasundara_hi": "जम्भा के रोधन से छींक रोकने के समान रोग होते हैं। यहाँ सभी वातघ्न क्रियाएँ हितकर हैं। जृम्भा का अर्थ मुख का फैलना और शरीर का झुकना है।",
+      "tika_ayurvedarasayana_hi": "जम्भा-रोध से छींक-रोध के समान शिरःपीड़ा आदि विकार होते हैं। उपचार के रूप में सभी वातशामक क्रियाएँ करनी चाहिए।"
+    },
+    {
+      "id": "ah4-t14",
+      "commentary": "both",
+      "source_section": "19",
+      "verse_range": "16",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724827.html",
+      "tika_sarvangasundara_hi": "बाष्प अर्थात् आँसुओं को रोकने से पीनस आदि उत्पन्न होते हैं। पीनस नासास्राव है; नेत्र, सिर और हृदय की पीड़ा भी होती है। ‘सगुल्मा’ में ‘स’ समुच्चय के लिए है, इसलिए गुल्म आदि भी अभिप्रेत हैं। इनके उपचार में निद्रा आदि चिकित्सा बताई गई है।",
+      "tika_ayurvedarasayana_hi": "बाष्प-रोध से पीनस, नेत्ररोग, शिरोरोग और हृद्रोग होते हैं। बाष्प का अर्थ आँसू है। इनके उपचार में निद्रा आदि बताए गए हैं और ‘प्रिय’ से मनोहर प्रिय कथाएँ अभिप्रेत हैं।"
+    },
+    {
+      "id": "ah4-t15",
+      "commentary": "both",
+      "source_section": "20",
+      "verse_range": "17",
+      "source_url": "https://www.wisdomlib.org/hinduism/book/ashtanga-hridaya-samhita-sanskrit/d/doc724828.html",
+      "tika_sarvangasundara_hi": "वमन अर्थात् छर्दि को रोकने से विसर्प आदि विकार उत्पन्न होते हैं। ‘कोठ’ से रक्तवर्ण और कठोर मण्डलरूप एक क्षुद्र रोग समझा जाता है। नेत्रकण्डू और पाण्डु के साथ उनके रोगात्मक सम्बन्ध को समझना चाहिए; ‘व्यंग’ मुख पर बनने वाले श्याम मण्डल हैं। वमन-रोध के उपचार में गण्डूष आदि बताए गए हैं; रूक्ष भोजन करने के बाद उसी अन्न का उद्वमन अर्थात् वमन और रक्तस्राव भी इसमें निर्दिष्ट हैं।",
+      "tika_ayurvedarasayana_hi": "वमन-रोध से विसर्प, कोठ, नेत्ररोग, कण्डूरोग, पाण्डुरोग आदि उत्पन्न हो सकते हैं। हृल्लास का अर्थ हृदय आदि में अस्वस्थता के साथ लवणयुक्त द्रव का उद्गार है और व्यंग एक क्षुद्र रोगविशेष है। वमन-रोध के उपचार में गण्डूष आदि बताए गए हैं।"
     }
   ]
 }
