@@ -29,7 +29,8 @@
       "hindi_translation": "वात, मल, मूत्र, छींक, प्यास, भूख, निद्रा, खाँसी, श्रम, श्वास, जम्हाई, आँसू, वमन और वीर्य के वेगों को नहीं रोकना चाहिए।",
       "hindi_explanation": "प्राकृतिक वेगों का दमन शरीर की सामान्य शारीरिक क्रियाओं में बाधा डाल सकता है।",
       "recitation_status": "not_classified",
-      "tika_sarvangasundara_block_id": "ah4-t02"
+      "tika_sarvangasundara_block_id": "ah4-t02",
+      "tika_ayurvedarasayana_block_id": "ah4-t02"
     },
     {
       "id": "ah-s4-v02",
@@ -39,7 +40,8 @@
       "hindi_translation": "अधोवात रोकने से गुल्म, उदावर्त, पीड़ा, थकान तथा वात, मूत्र और मल का अवरोध, दृष्टि-अग्नि की हानि और हृदय-विकार हो सकते हैं।",
       "hindi_explanation": "अधोवात का रोधन वात की सामान्य दिशा को बाधित करने वाला माना गया है।",
       "recitation_status": "not_classified",
-      "tika_sarvangasundara_block_id": "ah4-t02"
+      "tika_sarvangasundara_block_id": "ah4-t02",
+      "tika_ayurvedarasayana_block_id": "ah4-t02"
     },
     {
       "id": "ah-s4-v03",
@@ -82,7 +84,8 @@
       "hindi_translation": "मलावरोधजन्य विकारों में मलभेदक अन्न-पान और मूत्रजन्य विकारों में भोजन से पहले घृत हितकर है।",
       "hindi_explanation": "उपचार रोग के मार्ग और प्रकृति के अनुसार अलग किया गया है।",
       "recitation_status": "not_classified",
-      "tika_sarvangasundara_block_id": "ah4-t08"
+      "tika_sarvangasundara_block_id": "ah4-t08",
+      "tika_ayurvedarasayana_block_id": "ah4-t08"
     },
     {
       "id": "ah-s4-v07",
@@ -113,7 +116,9 @@
       "sanskrit_original": "शिरोर्तीन्द्रियदौर्बल्यमन्यास्तम्भार्दितं क्षुतेः । तीक्ष्णधूमाञ्जनाघ्राणनावनार्कविलोकनैः ॥ ९ ॥",
       "hindi_translation": "छींक रोकने से सिरदर्द, इन्द्रिय-दुर्बलता और गर्दन का जकड़ना हो सकता है; तीक्ष्ण धूम, अंजन, घ्राण, नस्य और सूर्य-दर्शन से छींक प्रवर्तित की जाती है।",
       "hindi_explanation": "रुकी हुई छींक को प्रवर्तित कर वात-शमन करना उपचार का लक्ष्य है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t34",
+      "tika_ayurvedarasayana_block_id": "ah4-t34"
     },
     {
       "id": "ah-s4-v10",
@@ -166,7 +171,9 @@
       "sanskrit_original": "शोषो हिध्मा च कार्योऽत्र कासहा सुतरां विधिः । गुल्महृद्रोगसम्मोहाः श्रमश्वासाद्विधारितात् ॥ १४ ॥",
       "hindi_translation": "खाँसी रोकने से शोष और हिचकी हो सकती है, इसलिए कासहर उपचार विशेष रूप से करना चाहिए; श्रम और श्वास रोकने से गुल्म, हृद्रोग और सम्मोह हो सकते हैं।",
       "hindi_explanation": "श्रम और श्वास की स्वाभाविक प्रतिक्रिया को दबाना गंभीर परिणाम दे सकता है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t35",
+      "tika_ayurvedarasayana_block_id": "ah4-t35"
     },
     {
       "id": "ah-s4-v15",
@@ -175,7 +182,9 @@
       "sanskrit_original": "हितं विश्रमणं तत्र वातघ्नश्च क्रियाक्रमः । जृम्भायाः क्षववद्रोगाः सर्वश्चानिलजिद्विधिः ॥ १५ ॥",
       "hindi_translation": "श्रम और श्वासधारण में विश्राम तथा वातशामक उपचार हितकर है; जम्हाई रोकने से छींक रोकने जैसे रोग होते हैं और वातशामक उपाय करने चाहिए।",
       "hindi_explanation": "जृम्भा को भी वातगत प्राकृतिक वेग मानकर उसका दमन अनुचित बताया गया है।",
-      "recitation_status": "not_classified"
+      "recitation_status": "not_classified",
+      "tika_sarvangasundara_block_id": "ah4-t35",
+      "tika_ayurvedarasayana_block_id": "ah4-t35"
     },
     {
       "id": "ah-s4-v16",
@@ -893,6 +902,24 @@
       "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
       "tika_sarvangasundara_hi": "जो व्यक्ति नित्य हितकर आहार-विहार करता है, विचारपूर्वक कार्य करता है, शब्द आदि विषयों में आसक्त नहीं होता, दाता है, सब प्राणियों के प्रति समचित्त है, सत्यपरायण और क्षमाशील है तथा आप्त पुरुषों की सेवा करता है, वह अरोग रहता है। समीक्ष्यकारी वह है जो परिणाम को विचारकर शुभ कर्म करता और अशुभ कर्म से बचता है। क्षमावान वह है जो समर्थ होते हुए भी किए गए अपराध के अनुरूप दण्ड नहीं देता। आप्त वे शिष्ट और प्रबुद्ध पुरुष हैं जिनका ज्ञान निर्मल और अबाधित है।",
       "tika_ayurvedarasayana_hi": "जो व्यक्ति नित्य हितकर आहार-विहार करता है, विचारपूर्वक कार्य करता है, विषयों में आसक्त नहीं रहता, पात्रों को दान देता है, सबके प्रति समभाव रखता है, सत्य बोलता है, क्रोध के कारण में भी क्रोध नहीं करता और गुरु आदि आप्तों की सेवा करता है, वह रोगरहित होता है। ऐसा व्यक्ति असात्म्य इन्द्रियार्थ-संयोग से उत्पन्न रोगों को प्राप्त नहीं करता।"
+    },
+    {
+      "id": "ah4-t34",
+      "commentary": "both",
+      "source_section": "9–10",
+      "verse_range": "9–10",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "रुकी हुई छींक को तीक्ष्ण धूम आदि से प्रवर्तित करना चाहिए। तीक्ष्ण धूम धूमपान-विधि में, तीक्ष्ण अञ्जन नेत्ररोग-विधि में, तीक्ष्ण आघ्राण अर्थात् नासिका से मरीच आदि का ग्रहण और तीक्ष्ण नावन नस्य-विधि में बताए जाएँगे। स्नेह और स्वेद का अभ्यास करना चाहिए।",
+      "tika_ayurvedarasayana_hi": "छींक के रोधन से सिरदर्द, इन्द्रियों की विषयग्रहण-शक्ति की दुर्बलता और अर्दित अर्थात् एकायाम हो सकता है। रुकी हुई छींक को तीक्ष्ण धूम आदि और सूर्य-दर्शन से प्रवर्तित करना चाहिए तथा स्नेह और स्वेद का अभ्यास करना चाहिए।"
+    },
+    {
+      "id": "ah4-t35",
+      "commentary": "both",
+      "source_section": "14–15",
+      "verse_range": "14–15",
+      "source_url": "https://www.ayanaayurveda.com/learn/classical-texts/ashtanga-hrudayam/sutrasthanam/roganutpadaniyadhyayah/?commentary=show",
+      "tika_sarvangasundara_hi": "श्रम से उत्पन्न श्वास को रोकने से गुल्म आदि रोग हो सकते हैं; वहाँ विश्राम हितकर है और वातघ्न चिकित्सा करनी चाहिए। जृम्भा का रोधन छींक के रोधन के समान रोग उत्पन्न करता है। जृम्भा का अर्थ मुख का फैलना और शरीर का झुकना है; इसके रोधन में सभी वातशामक उपाय हितकर हैं।",
+      "tika_ayurvedarasayana_hi": "श्रमश्वास-रोध से गुल्म, हृद्रोग और सम्मोह आदि उत्पन्न होते हैं; इसका उपचार विश्राम है। जृम्भा-रोध से छींक-रोध के समान शिरःपीड़ा आदि विकार होते हैं और सभी वातशामक उपाय हितकर हैं।"
     }
   ]
 }
