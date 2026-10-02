@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 12,
+  "chapter_id": "madhyama-12-rasadishodhanamaranakalpana",
+  "title_sanskrit": "रसादिशोधनमारणकल्पना",
+  "title_roman": "Rasādiśodhanamāraṇakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "primary_online_witness": "1-150",
+    "status": "verified"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे रसादिशोधनमारणकल्पना नाम द्वादशोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; complete Chapter 12 sequence and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Dīpikā Hindi commentary",
+      "role": "printed Chaukhamba Surbharati witness for Rasādiśodhanamāraṇa with Hindi commentary",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/"
+    },
+    {
+      "name": "Parul University scanned Madhyama PDF",
+      "role": "independent scanned witness for printed Sanskrit sequence",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharngadhara_samhita_madhya.pdf"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    [
+      "1-8",
+      "रस/पारद के शोधन और दोष-निवारण की प्रारम्भिक व्यवस्था; शोधन के माध्यम और क्रम।"
+    ],
+    [
+      "9-20",
+      "गन्धक तथा अन्य रसद्रव्यों की शोधन-संबंधी विधियाँ।"
+    ],
+    [
+      "21-35",
+      "हरताल, मनःशिला और संबद्ध उपरस/रसद्रव्य के शोधन-विधान।"
+    ],
+    [
+      "36-55",
+      "अभ्रकादि रसद्रव्य, उनके शोधन तथा मारण की प्रारम्भिक प्रक्रियाएँ।"
+    ],
+    [
+      "56-75",
+      "रसौषधीय द्रव्यों के मारण, पुट और भस्मीकरण-संबंधी क्रम।"
+    ],
+    [
+      "76-95",
+      "विशिष्ट रसद्रव्यों के शोधन/मारण और उनके पारंपरिक गुण।"
+    ],
+    [
+      "96-115",
+      "विभिन्न धातु/रसद्रव्य मिश्रणों और मारण-सिद्धि के क्रम।"
+    ],
+    [
+      "116-135",
+      "भस्म-परीक्षा, सिद्धि-लक्षण तथा आगे के रसकल्पीय उपयोग।"
+    ],
+    [
+      "136-145",
+      "अंतिम प्रमुख रस/खनिज शोधन-मारण क्रम।"
+    ],
+    [
+      "146-150",
+      "अध्याय के अंतिम रसकल्पीय निर्देश और द्वादश अध्याय का समापन।"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "The Sanskrit Wikisource Madhyama Khaṇḍa presents Rasādiśodhanamāraṇakalpanā as the twelfth and final Madhyama chapter, with a continuous 1-150 sequence followed by the chapter colophon.",
+    "structural_note": "The chapter continues the preceding Dhātuśodhanamāraṇakalpanā from metals/minerals into rasa, uparasa and related substances, emphasizing śodhana, māraṇa, puṭa, bhāvanā and siddhi/parīkṣā concepts.",
+    "numbering_note": "Canonical online verse numbering is retained as the controlling chapter sequence. Printed page/edition differences are treated as witness metadata rather than silently renumbered.",
+    "canonical_policy": "This package records verified structural ranges and controlled anchors only. Full verse-by-verse Sanskrit transcription remains pending controlled printed-source extraction for non-anchor verses.",
+    "commentary_policy": "Dīpikā explanations, ingredient identifications, modern chemical/mineral identifications and practical interpretations remain separate from the canonical Sanskrit layer.",
+    "safety_note": "This chapter contains classical procedures involving mercury, sulfur, arsenicals and other potentially toxic mineral substances. It is historical/classical educational material and must not be treated as modern preparation or self-medication guidance."
+  },
+  "topic_map": [
+    [
+      "1-20",
+      "रस/पारद तथा गन्धक आदि प्रमुख रसद्रव्यों का शोधन"
+    ],
+    [
+      "21-35",
+      "हरताल, मनःशिला तथा संबद्ध उपरसों का शोधन"
+    ],
+    [
+      "36-55",
+      "अभ्रकादि द्रव्यों का शोधन और प्रारम्भिक मारण"
+    ],
+    [
+      "56-75",
+      "मारण, पुट और भस्मीकरण की प्रमुख प्रक्रियाएँ"
+    ],
+    [
+      "76-95",
+      "विशिष्ट रसद्रव्यों के शोधन-मारण और पारंपरिक गुण"
+    ],
+    [
+      "96-115",
+      "मिश्रित रस/धातु द्रव्यों के मारण-सिद्धि क्रम"
+    ],
+    [
+      "116-135",
+      "भस्म-परीक्षा, सिद्धि-लक्षण और रसकल्पीय उपयोग"
+    ],
+    [
+      "136-150",
+      "अंतिम रसद्रव्य प्रक्रियाएँ और अध्याय-समापन"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-20",
+      "अध्याय रसद्रव्यों, विशेषतः पारद और गन्धक, के शोधन की मूल प्रक्रियाओं से आरम्भ होता है।"
+    ],
+    [
+      "21-35",
+      "हरताल, मनःशिला तथा संबंधित उपरसों के शोधन-विधान क्रमशः दिये जाते हैं।"
+    ],
+    [
+      "36-55",
+      "अभ्रकादि द्रव्यों के शोधन और मारण की प्रारम्भिक प्रक्रियाएँ आती हैं।"
+    ],
+    [
+      "56-75",
+      "पुट, भस्मीकरण और मारण-सिद्धि के विविध पारंपरिक क्रम विस्तार से आते हैं।"
+    ],
+    [
+      "76-95",
+      "विभिन्न रसद्रव्यों के विशिष्ट शोधन-मारण और पारंपरिक गुणों का वर्णन मिलता है।"
+    ],
+    [
+      "96-115",
+      "मिश्रित रस/धातु द्रव्यों के मारण और सिद्धि-क्रम का विस्तार है।"
+    ],
+    [
+      "116-135",
+      "भस्म की परीक्षा, सिद्धि-लक्षण और आगे के रसकल्पीय उपयोगों की चर्चा होती है।"
+    ],
+    [
+      "136-150",
+      "अंतिम रसद्रव्य प्रक्रियाओं के बाद द्वादश अध्याय तथा मध्यखण्ड का समापन होता है।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-35",
+      "Dīpikā provides terminology, śodhana media, classical identities and explanatory notes for the opening rasa/uparasa sections."
+    ],
+    [
+      "36-75",
+      "Dīpikā explains the abhraka and related māraṇa/pūṭa procedures and their traditional interpretive framework."
+    ],
+    [
+      "76-115",
+      "Dīpikā continues the specific śodhana-māraṇa sequences and ingredient explanations."
+    ],
+    [
+      "116-150",
+      "Dīpikā addresses bhāvanā, bhasma-siddhi/parīkṣā and the closing rasa procedures."
+    ]
+  ],
+  "learning_units": [
+    [
+      "LU1",
+      "1-20",
+      "पारद, गन्धक और प्रारम्भिक रसशोधन"
+    ],
+    [
+      "LU2",
+      "21-35",
+      "हरताल, मनःशिला और उपरस"
+    ],
+    [
+      "LU3",
+      "36-55",
+      "अभ्रकादि शोधन और प्रारम्भिक मारण"
+    ],
+    [
+      "LU4",
+      "56-75",
+      "पुट, मारण और भस्मीकरण"
+    ],
+    [
+      "LU5",
+      "76-95",
+      "विशिष्ट रसद्रव्य शोधन-मारण"
+    ],
+    [
+      "LU6",
+      "96-115",
+      "मिश्रित रस/धातु मारण और सिद्धि"
+    ],
+    [
+      "LU7",
+      "116-135",
+      "भस्म-परीक्षा और सिद्धिलक्षण"
+    ],
+    [
+      "LU8",
+      "136-150",
+      "अंतिम रसकल्प और अध्याय-समापन"
+    ]
+  ],
+  "assessments": [
+    [
+      "mcq",
+      "मध्यखण्ड का अंतिम अध्याय किस विषय पर केन्द्रित है?",
+      "रसादि द्रव्यों के शोधन और मारण पर"
+    ],
+    [
+      "mcq",
+      "इस अध्याय में शोधन के बाद कौन-सी प्रमुख प्रक्रिया बार-बार आती है?",
+      "मारण"
+    ],
+    [
+      "mcq",
+      "पुट और भस्मीकरण किस व्यापक प्रक्रिया-समूह का भाग हैं?",
+      "मारण/भस्मीकरण"
+    ],
+    [
+      "mcq",
+      "अध्याय का verified canonical extent क्या है?",
+      "1-150"
+    ],
+    [
+      "short_answer",
+      "शोधन, मारण, भावना और पुट की पारंपरिक अवधारणाओं को अध्याय के संदर्भ में अलग-अलग समझाइए।"
+    ],
+    [
+      "short_answer",
+      "भस्म-परीक्षा और सिद्धिलक्षण को canonical text और commentary layers में कैसे पढ़ना चाहिए?"
+    ],
+    [
+      "source_criticism",
+      "रसद्रव्यों की classical पहचान और modern chemical identification को अलग क्यों रखना चाहिए?"
+    ],
+    [
+      "source_criticism",
+      "पारद, गन्धक और arsenical/mineral substances से जुड़े classical procedures को आधुनिक preparation advice में सीधे बदलना क्यों अनुचित है?"
+    ]
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "opening_section_verified": true,
+    "closing_section_verified": true,
+    "colophon_verified": true,
+    "primary_online_extent_verified": "1-150",
+    "cross_source_checked": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_chemical_equivalence_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
