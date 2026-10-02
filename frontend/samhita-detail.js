@@ -18,7 +18,7 @@ subtitle:"Select a Sthana to move from the library structure into chapter-level 
 sections:[
 ["Sūtrasthāna","Sūtrasthāna","sutra",null],["Śārīrasthāna","Śārīrasthāna","sharira",null],["Nidānasthāna","Nidānasthāna","nidana",null],["Cikitsāsthāna","Cikitsāsthāna","chikitsa",null],["Kalpasiddhisthāna","Kalpa-Siddhi Sthāna","kalpasiddhi",null],["Uttarasthāna","Uttara Sthāna","uttara",null]
 ]},
-ashtanga-sangraha:{
+'ashtanga-sangraha':{
 name:"Ashtanga Sangraha",category:"Other major classical",relevance:"1",
 subtitle:"The library structure is ready for verified chapter content as it is added.",
 sections:[
@@ -40,7 +40,7 @@ name:"Harita Samhita",category:"Other major classical",relevance:"1",
 subtitle:"Section-first navigation will keep the library readable as the corpus grows.",
 sections:[["Sthāna structure","Sthāna / chapter map","sections",null]]
 },
-madhava-nidana:{
+'madhava-nidana':{
 name:"Madhava Nidana",category:"Laghutrayi",relevance:"2, 3",
 subtitle:"A dedicated section-first entry point for this diagnostic compendium.",
 sections:[["Nidāna","Disease diagnosis and nidāna chapters","nidana",null]]
