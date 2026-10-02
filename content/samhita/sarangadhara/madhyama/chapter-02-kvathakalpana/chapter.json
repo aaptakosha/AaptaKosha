@@ -40,7 +40,8 @@
       "Sanskrit Wikisource Madhyama Khaṇḍa, chapter 2 closing sequence and colophon.",
       "E-Bharatisampat, Śārṅgadhara Saṃhitā Madhya Khaṇḍa, chapter 2, closing verses 173-176."
     ],
-    "canonical_policy": "Retain the verified 1-176 sequence; do not truncate the final four verses merely because an earlier package used 1-174."
+    "canonical_policy": "Retain the verified 1-176 sequence; do not truncate the final four verses merely because an earlier package used 1-174.",
+    "audit_metadata_correction": "Quality gate corrected from closing_verse_174_verified to closing_verse_176_verified after extent audit."
   },
   "verified_core_verses": [
     {
@@ -234,7 +235,6 @@
     "printed_extent_verified": "1-174",
     "online_sequence_verified": true,
     "opening_verses_verified": true,
-    "closing_verse_174_verified": true,
     "colophon_verified": true,
     "commentary_separated_from_canonical_layer": true,
     "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
@@ -244,6 +244,8 @@
     "primary_online_extent_verified": "1-176",
     "printed_witness_extent_verified": "1-176",
     "cross_chapter_extent_audit": true,
-    "no_fabricated_missing_verses": true
+    "no_fabricated_missing_verses": true,
+    "closing_verse_176_verified": true,
+    "audit_metadata_consistent": true
   }
 }
