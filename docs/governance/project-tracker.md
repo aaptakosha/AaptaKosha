@@ -39,6 +39,18 @@ Last updated: 2026-10-02
 - Production identity adapter, authenticated principal propagation, learner-resource authorization, CORS/error handling, configuration/readiness validation, security-focused tests, and deployment verification are complete.
 - GitHub Actions product workflow run #122 completed successfully on Python 3.11 and 3.12 through PR #28.
 
+## Charaka Sūtrasthāna 12 — Vātakalākalīya
+
+- [x] Primary-source research and 22-record sequence reconciliation
+- [x] Canonical Sanskrit sequence: 22 passages / 16 prose / 6 verse-half
+- [x] Hindi translation + passage-specific व्याख्या + टीका layer
+- [x] 20-question revision assessment with canonical content refs
+- [x] Chapter 12 content regression test
+- [x] Assessment API seeding + chapter content allow-list
+- [x] Reader revision-test wiring
+- [ ] Runtime/end-to-end learner regression
+- [ ] Browser verification
+
 ## Charaka Sūtrasthāna 11 — Tisraiṣaṇīya
 
 - [x] Primary-source research and 103-record sequence reconciliation
