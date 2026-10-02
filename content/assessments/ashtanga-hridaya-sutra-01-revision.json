@@ -1,0 +1,609 @@
+{
+  "assessment_id": "ashtanga.hridaya.sutra.01.revision",
+  "title_hi": "अष्टाङ्गहृदय सूत्रस्थान १ — आयुष्कामीय पुनरावृत्ति",
+  "curriculum_refs": [
+    "AyUG-SA1"
+  ],
+  "questions": [
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q01",
+      "prompt_hi": "आयुष्कामीय अध्याय का मुख्य प्रयोजन क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दीर्घ एवं हितकारी आयु के लिए आयुर्वेद का आदरपूर्वक अध्ययन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल औषध-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल शल्यकर्म",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल नाड़ी परीक्षा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.02"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q02",
+      "prompt_hi": "अष्टाङ्गहृदय को किस प्रकार का ग्रन्थ बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "न अत्यधिक संक्षिप्त न अत्यधिक विस्तृत",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "अत्यन्त विस्तृत",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल सूत्र-संग्रह",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल चिकित्सा-ग्रन्थ",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.05"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q03",
+      "prompt_hi": "शारीरिक दोष कितने हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "तीन",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "दो",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "चार",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "छः",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.07"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q04",
+      "prompt_hi": "नाभि के नीचे मुख्य दोषस्थान किसका बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "वात",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "पित्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "कफ",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "रजस्",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.08"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q05",
+      "prompt_hi": "वातप्रधानता से कौन-सी अग्नि मानी गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "विषम",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "मन्द",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "तीक्ष्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "सम",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.08"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q06",
+      "prompt_hi": "समधातु प्रकृति का क्या स्थान है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "श्रेष्ठ",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "निन्द्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "मध्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल द्विदोषज",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.10"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q07",
+      "prompt_hi": "वात के प्रमुख गुणों में कौन-सा है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "रूक्ष",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "स्निग्ध",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "गुरु",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "स्थिर",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.11"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q08",
+      "prompt_hi": "सात धातुओं में कौन शामिल है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "मज्जा",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "मूत्र",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "स्वेद",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "शकृत",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.13"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q09",
+      "prompt_hi": "कौन-से रस वात को शमित करते हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "मधुर-अम्ल-लवण",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "तिक्त-कटु-कषाय",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल तिक्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल कषाय",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.15"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q10",
+      "prompt_hi": "द्रव्य के तीन प्रकार कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "शमन, कोपन, स्वस्थहित",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "शोधन, स्वेदन, बस्ति",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "मधुर, अम्ल, लवण",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "निज, आगन्तु, मानस",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.16"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q11",
+      "prompt_hi": "वीर्य कितने प्रकार का बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दो",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "तीन",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "छः",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "बीस",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.17"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q12",
+      "prompt_hi": "रोग का प्रमुख कारण क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दोषवैषम्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल ऋतु",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "केवल देश",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल आयु",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.20"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q13",
+      "prompt_hi": "मन के दो दोष कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "रजस्-तमस्",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "वात-पित्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "रक्त-मांस",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "मेद-मज्जा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.21"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q14",
+      "prompt_hi": "रोगी की त्रिविध परीक्षा क्या है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "दर्शन-स्पर्शन-प्रश्न",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "रस-वीर्य-विपाक",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "देश-काल-प्रकृति",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "शोधन-शमन-बृंहण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.22"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q15",
+      "prompt_hi": "जाङ्गल देश में किस दोष की प्रधानता बताई गई है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "वात",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "कफ",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "पित्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "रजस्",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.23"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q16",
+      "prompt_hi": "शोधन और शमन किसके दो प्रमुख भेद हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "औषध",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "देश",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "रोगाधिष्ठान",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "प्रकृति",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.25"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q17",
+      "prompt_hi": "चिकित्सा के चार पाद कौन-से हैं?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "भिषक्-द्रव्य-उपस्थाता-रोगी",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "वात-पित्त-कफ-रक्त",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "दर्शन-स्पर्शन-प्रश्न-देश",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "रस-गुण-वीर्य-विपाक",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.27"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q18",
+      "prompt_hi": "सुखसाध्य रोग में कौन-सा लक्षण अपेक्षित है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "नवीन और एकदोषमार्ग",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "सर्वमार्गगत",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "अरिष्टदर्शन",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "गतायुषता",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.31"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q19",
+      "prompt_hi": "याप्य रोग किससे नियंत्रित रह सकता है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "पथ्याभ्यास से",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "केवल शस्त्र से",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "किसी उपाय से नहीं",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "केवल निद्रा से",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.32"
+      ],
+      "points": 1
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.01.q20",
+      "prompt_hi": "सूत्रस्थान में कुल कितने अध्यायों का संग्रह बताया गया है?",
+      "options": [
+        {
+          "option_id": "a",
+          "label_hi": "30",
+          "is_correct": true
+        },
+        {
+          "option_id": "b",
+          "label_hi": "20",
+          "is_correct": false
+        },
+        {
+          "option_id": "c",
+          "label_hi": "24",
+          "is_correct": false
+        },
+        {
+          "option_id": "d",
+          "label_hi": "40",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.01.39"
+      ],
+      "points": 1
+    }
+  ]
+}
