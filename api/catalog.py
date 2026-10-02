@@ -22,10 +22,13 @@ if DATABASE_URL:
     CONNECTION = psycopg.connect(DATABASE_URL)
     REPO = PostgresCurriculumRepository(CONNECTION)
     REPO.apply_migrations()
-else:
-    CONNECTION = sqlite3.connect(str(DB_PATH), check_same_thread=False)
-    REPO = SQLiteCatalogRepository(CONNECTION)
-    for migration in (
+    # The catalog is immutable read-only academic structure. If the shared
+    # Postgres database has not yet received the controlled curriculum seed,
+    # use a bundled SQLite snapshot so the learner catalog remains available.
+    if REPO.get_curriculum("bams_ncism_1", "2021-22") is None:
+        CONNECTION = sqlite3.connect(str(DB_PATH), check_same_thread=False)
+        REPO = SQLiteCatalogRepository(CONNECTION)
+        for migration in (
         "001_catalog.sql", "004_bams_content_layout.sql", "005_curriculum_hierarchy.sql",
         "006_first_professional_hierarchy.sql", "007_first_professional_data_quality.sql",
         "008_third_professional_paper_layout.sql", "009_second_professional_paper_layout.sql",

@@ -12,12 +12,20 @@
     {
       "src": "api/catalog.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "api/content.py",
+      "use": "@vercel/python"
     }
   ],
   "rewrites": [
     {
       "source": "/api/catalog/:path*",
       "destination": "/api/catalog.py?route=catalog/:path*"
+    },
+    {
+      "source": "/api/content/:path*",
+      "destination": "/api/content.py?route=content/:path*"
     },
     {
       "source": "/api/:path*",

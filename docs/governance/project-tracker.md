@@ -47,7 +47,11 @@ Last updated: 2026-10-02
 - [x] Added Charaka Sūtrasthāna chapters 1–12 to the Samhita reader navigation
 - [x] Unified reader support for both `verses` and mixed `passages` canonical content
 - [x] Unified Chapter 1–12 assessment selection and results-to-content links
-- [ ] Production redeployment and live browser regression
+- [x] Production redeployment of repository repair
+- [x] Live catalog/content runtime audit
+- [ ] Production Clerk `CLERK_AUTHORIZED_PARTIES` configuration
+- [ ] Authenticated assessment/progress runtime regression
+- [ ] Live browser regression
 
 ## Charaka Sūtrasthāna 12 — Vātakalākalīya
 
