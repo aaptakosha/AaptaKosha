@@ -375,7 +375,7 @@
     "colophon_verified": true,
     "numbering_discrepancy_preserved": true,
     "cross_source_checked": true,
-    "canonical_full_verse_transcription": "full; duplicate parser entry removed; controlled digital witness preserved",
+    "canonical_full_verse_transcription": "full; automated controlled TransLiteral primary/independent digital-witness transfer; source OCR spellings preserved",
     "no_fabricated_missing_verses": true,
     "commentary_separated_from_canonical_layer": true,
     "modern_diagnostic_equivalence_not_promoted_to_canonical_fact": true,
@@ -513,6 +513,10 @@
     {
       "verse_number": 33,
       "text": "स्नेहसेवने वर्ज्याः स्नेहे व्यायामसंशीतवेगाघातप्रजागरान् दिवास्वप्नमभिष्यन्दि रूक्षान्नं च विवर्जयेत् ॥३३॥"
+    },
+    {
+      "verse_number": 1,
+      "text": "इति श्रीशार्ङ्गधरसंहितायामुत्तरखण्डे स्नेहपानविधिर्नाम प्रथमोऽध्यायः ॥१॥"
     }
   ]
 }
