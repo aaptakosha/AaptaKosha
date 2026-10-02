@@ -1,11 +1,15 @@
 from pathlib import Path
+import importlib.util
 
 import pytest
 
-from api.content import _safe_json_path, load_content
-
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_ROOT = ROOT / "content" / "samhita"
+spec = importlib.util.spec_from_file_location("aaptakosha_api_content", ROOT / "api" / "content.py")
+content_module = importlib.util.module_from_spec(spec)
+assert spec.loader is not None
+spec.loader.exec_module(content_module)
+_safe_json_path = content_module._safe_json_path
+load_content = content_module.load_content
 
 SARANGADHARA_EXTENTS = {"purva": 7, "madhyama": 12, "uttara": 13}
 
@@ -17,14 +21,11 @@ def test_charaka_resolver_remains_compatible():
     assert content["chapter_number"] == 1
 
 
-@pytest.mark.parametrize(
-    "khanda,number",
-    [
-        (khanda, number)
-        for khanda, max_number in SARANGADHARA_EXTENTS.items()
-        for number in range(1, max_number + 1)
-    ],
-)
+@pytest.mark.parametrize("khanda,number", [
+    (khanda, number)
+    for khanda, maximum in SARANGADHARA_EXTENTS.items()
+    for number in range(1, maximum + 1)
+])
 def test_all_sarangadhara_chapter_ids_resolve(khanda, number):
     content = load_content(f"sarangadhara.{khanda}.{number:02d}")
     assert content is not None
@@ -47,18 +48,12 @@ def test_representative_content_is_served_from_canonical_tree():
         assert content["title_roman"] == expected_title
 
 
-@pytest.mark.parametrize(
-    "content_id",
-    [
-        "",
-        "sarangadhara.other.01",
-        "sarangadhara.purva.00",
-        "sarangadhara.purva.999",
-        "charaka.sutra.99",
-        "../content/samhita/sarangadhara/purva/chapter-01-paribhasha/chapter.json",
-        "charaka.sutra.01/../../sarangadhara/purva/chapter-01-paribhasha/chapter.json",
-    ],
-)
+@pytest.mark.parametrize("content_id", [
+    "", "sarangadhara.other.01", "sarangadhara.purva.00",
+    "sarangadhara.purva.999", "charaka.sutra.99",
+    "../content/samhita/sarangadhara/purva/chapter-01-paribhasha/chapter.json",
+    "charaka.sutra.01/../../sarangadhara/purva/chapter-01-paribhasha/chapter.json",
+])
 def test_unknown_or_unsafe_content_ids_are_rejected(content_id):
     assert _safe_json_path(content_id) is None
     assert load_content(content_id) is None
