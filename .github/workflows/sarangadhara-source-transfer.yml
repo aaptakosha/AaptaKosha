@@ -22,7 +22,7 @@ jobs:
           chapters=(
             content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json
             content/samhita/sarangadhara/purva/chapter-07-rogaganana/chapter.json
-            content/samhita/sarangadhara/madhyama/chapter-02-kvathadikalpana/chapter.json
+            content/samhita/sarangadhara/madhyama/chapter-02-kvathakalpana/chapter.json
             content/samhita/sarangadhara/madhyama/chapter-06-churnakalpana/chapter.json
             content/samhita/sarangadhara/madhyama/chapter-09-ghrtatailakalpana/chapter.json
             content/samhita/sarangadhara/madhyama/chapter-10-asavarishtakalpana/chapter.json
