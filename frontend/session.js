@@ -12,11 +12,12 @@
 
     await new Promise((resolve, reject) => {
       const script = document.createElement("script");
+      const timeout = setTimeout(() => reject(new Error("clerk_sdk_load_timeout")), 5000);
       script.src = `https://${domain}/npm/@clerk/clerk-js@6/dist/clerk.browser.js`;
       script.async = true;
       script.crossOrigin = "anonymous";
-      script.onload = resolve;
-      script.onerror = () => reject(new Error("clerk_sdk_load_failed"));
+      script.onload = () => { clearTimeout(timeout); resolve(); };
+      script.onerror = () => { clearTimeout(timeout); reject(new Error("clerk_sdk_load_failed")); };
       document.head.appendChild(script);
     });
 
@@ -29,7 +30,14 @@
     let clerk = null;
 
     try {
-      const response = await fetch("/api/config", { headers: { Accept: "application/json" } });
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 4000);
+      let response;
+      try {
+        response = await fetch("/api/config", { headers: { Accept: "application/json" }, signal: controller.signal });
+      } finally {
+        clearTimeout(timeout);
+      }
       if (!response.ok) throw new Error("auth_config_unavailable");
       const config = await response.json();
       const publishableKey = config.clerk_publishable_key || "";
