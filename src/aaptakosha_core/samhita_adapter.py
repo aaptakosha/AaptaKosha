@@ -215,7 +215,7 @@ def from_sarangadhara_legacy(chapter: Mapping[str, Any]) -> dict[str, Any]:
         },
         "sthana": {
             "id": f"{text_id}.{khand_id}",
-            "number": chapter_number,
+            "number": {"purva": 1, "madhyama": 2, "uttara": 3}.get(khand_id, chapter_number),
             "title": khand_id.title(),
         },
         "adhyaya": {
