@@ -1,0 +1,587 @@
+{
+  "assessment_id": "ashtanga.hridaya.sutra.08.revision",
+  "chapter_id": "ashtanga.hridaya.sutra.08",
+  "title_hi": "मात्राशितीय अध्याय पुनरावृत्ति",
+  "questions": [
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q1",
+      "prompt_hi": "मात्रा किसकी प्रवर्तिका कही गई है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अग्नि",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "स्वेद",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "मूत्र",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.01"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q2",
+      "prompt_hi": "गुरु द्रव्यों के सेवन में सामान्य मात्रा क्या बताई गई है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अर्धसौहित्य",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अतितृप्ति",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "पूर्ण उपवास",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अनियत मात्रा",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.02"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q3",
+      "prompt_hi": "हीनमात्र भोजन किसका हेतु बन सकता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "वातरोग",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल पित्तज्वर",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल कफशोफ",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल निद्रालाभ",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.03"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q4",
+      "prompt_hi": "अतिमात्र भोजन से क्या होता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "सभी दोष शीघ्र प्रकुपित हो सकते हैं",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अग्नि सदैव बढ़ती है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "वात हमेशा शांत होता है",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "कोई प्रभाव नहीं",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.04"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q5",
+      "prompt_hi": "विषमाशन किसे कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अकाले बहु या अल्प भोजन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "पूर्वभुक्त के ऊपर पुनः भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "पथ्य-अपथ्य मिश्रित भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल लघु भोजन",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.34"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q6",
+      "prompt_hi": "समशन किसे कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "पथ्य और अपथ्य को मिलाकर खाना",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "भूख लगने पर खाना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "एक ही रस का भोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अल्पमात्र भोजन",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.33"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q7",
+      "prompt_hi": "अध्यशन क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "पहले भोजन के ऊपर पुनः भोजन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल रात्रिभोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल दिवाभोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "उपवास",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.34"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q8",
+      "prompt_hi": "भोजन के समय मन की कैसी अवस्था हितकर कही गई है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "प्रसन्न और एकाग्र",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "क्रोधित",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "शोकाकुल",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "अत्यन्त उद्विग्न",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.38"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q9",
+      "prompt_hi": "भोजन की कुक्षि में अन्न के लिए कितना भाग रखा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "दो भाग",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "एक भाग",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "तीन भाग",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "चौथाई भाग",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.46"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q10",
+      "prompt_hi": "कुक्षि का शेष चौथा भाग किसके लिए छोड़ा जाता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "वातादि के आश्रय/गति के लिए",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल जल के लिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल औषधि के लिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल निद्रा के लिए",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.47"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q11",
+      "prompt_hi": "अनुपान का सामान्य सिद्धान्त क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अन्न के गुणों के विपरीत लेकिन अविरोधी",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अन्न के बिल्कुल समान गुण वाला",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "हमेशा अत्युष्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "हमेशा हिम",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.51"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q12",
+      "prompt_hi": "अनुपान के एक फल के रूप में क्या बताया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "तृप्ति और दृढाङ्गता",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल स्वेद",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल वमन",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.52"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q13",
+      "prompt_hi": "ऊर्ध्वजत्रु-रोग में अनुपान के बारे में क्या कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "हितकर नहीं",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सदैव अनिवार्य",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल मधुर होना चाहिए",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल उष्ण होना चाहिए",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.53"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q14",
+      "prompt_hi": "अनुपान के बाद किससे बचने को कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "अतप, अग्नि, यान आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "स्वच्छ जल",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "शान्त बैठना",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "सामान्य श्वास",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.54"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q15",
+      "prompt_hi": "मात्राशितीय अध्याय में अलसक किस संदर्भ में आता है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "दूषित/अजीर्ण आहार के आमाशय में रुकने से",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अत्यधिक व्यायाम से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल निद्रानाश से",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल प्यास से",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.07"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q16",
+      "prompt_hi": "विसूचिका में कौन-सा वातज लक्षण बताया गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "शूल और कम्प",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल पाण्डु",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल तृष्णा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल कफ",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.08"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q17",
+      "prompt_hi": "अजीर्ण में आमे की अवस्था में क्या उपक्रम कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "लंघन",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "केवल अतिभोजन",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल निद्रा",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल मद्य",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.27"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q18",
+      "prompt_hi": "कफज अजीर्ण का एक लक्षण क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "प्रसेक और गौरव",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "तीव्र दाह",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल कम्प",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल शूल",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.25"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q19",
+      "prompt_hi": "भोजन के उचित काल का एक संकेत क्या है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "क्षुधा और प्रदीप्त अग्नि",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "अतितृप्ति",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "अजीर्ण",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "उद्गार-दूषण",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.55"
+      ]
+    },
+    {
+      "question_id": "ashtanga.hridaya.sutra.08.q20",
+      "prompt_hi": "अनुपान किनके लिए विशेष रूप से पथ्य कहा गया है?",
+      "options": [
+        {
+          "option_id": "o1",
+          "label_hi": "क्षीण, वृद्ध और बाल में उचित पय आदि",
+          "is_correct": true
+        },
+        {
+          "option_id": "o2",
+          "label_hi": "सभी रोगियों में एक ही पेय",
+          "is_correct": false
+        },
+        {
+          "option_id": "o3",
+          "label_hi": "केवल स्थूल में",
+          "is_correct": false
+        },
+        {
+          "option_id": "o4",
+          "label_hi": "केवल स्वस्थ युवा में",
+          "is_correct": false
+        }
+      ],
+      "content_refs": [
+        "ashtanga.hridaya.sutra.08.50"
+      ]
+    }
+  ]
+}
