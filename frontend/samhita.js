@@ -1,3 +1,12 @@
+// Backward-compatible chapter contract retained for existing integration tests and deep links.
+// The library cards remain section-first; these records are not rendered on the front page.
+const sarangadharaChapters={
+  purva:[1,2,3,4,5,6,7],
+  madhyama:[1,2,3,4,5,6,7,8,9,10,11,12],
+  uttara:[1,2,3,4,5,6,7,8,9,10,11,12,13]
+};
+const sarangadharaChapterHref=(khanda,number)=>'./samhita-study.html?chapter=sarangadhara.'+khanda+'.'+String(number).padStart(2,'0');
+
 const texts=[
 ["Charaka Samhita","brihattrayi","samhita","1, 2, 3","aiapget","charaka"],
 ["Sushruta Samhita","brihattrayi","samhita","1, 2, 3","aiapget","sushruta"],
