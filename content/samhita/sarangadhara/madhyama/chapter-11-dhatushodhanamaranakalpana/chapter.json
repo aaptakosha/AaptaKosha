@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "madhyama",
+  "chapter_number": 11,
+  "chapter_id": "madhyama-11-dhatushodhanamaranakalpana",
+  "title_sanskrit": "धातुशोधनमारणकल्पना",
+  "title_roman": "Dhātuśodhanamāraṇakalpanā",
+  "canonical_status": "source-reconciled",
+  "verse_extent": {
+    "primary_online_witness": "1-104",
+    "printed_dipika_witness": "chapter pp. 172-183; sequence reconciled to 1-104",
+    "status": "verified"
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायां मध्यखण्डे धातुशोधनमारणनामैकादशोऽध्यायः",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Madhyama Khaṇḍa",
+      "role": "primary online Sanskrit witness; complete Chapter 11 sequence 1-104 and colophon",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/मध्यखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Dīpikā Hindi commentary",
+      "role": "printed Chaukhamba Surbharati witness; Chapter 11 across pp. 172-183 with Sanskrit, Hindi explanation and Dīpikā notes",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/एकादशोऽध्यायः-धातुशोधनमारणकल्पना-183"
+    },
+    {
+      "name": "Parul University scanned Madhyama PDF",
+      "role": "independent scanned witness for printed Sanskrit sequence",
+      "url": "https://www.paruluniversity.ac.in/parul-institute-of-ayurved/pdf/PIA-Institute/E%20Shamhita/Sharangadhara%20Samita/02sharngadhara_samhita_madhya.pdf"
+    }
+  ],
+  "canonical_sanskrit_anchors": [
+    [
+      "1",
+      "स्वर्णतारारताम्राणि नागवङ्गौ च तीक्ष्णकम् । धातवः सप्त विज्ञेयास्ततस्ताञ्छोधयेद् बुधः ॥ १ ॥"
+    ],
+    [
+      "2-4",
+      "धातुशोधन की मूल व्यवस्था: स्वर्ण, रजत, ताम्र और लौहपत्रों का अग्नितापन तथा विभिन्न निर्वापन-माध्यम; नाग और वङ्ग के पृथक् शोधन का निर्देश।"
+    ],
+    [
+      "5-20",
+      "स्वर्णमारण के अनेक विधि-क्रम तथा स्वर्णभस्म के गुण।"
+    ],
+    [
+      "21-24",
+      "रजतमारण के विधि-क्रम।"
+    ],
+    [
+      "25-35",
+      "आर/पित्तल, कांस्य और ताम्रमारण के विधि-क्रम तथा ताम्रभस्म के पारंपरिक गुण।"
+    ],
+    [
+      "36-39",
+      "सीसक/नागमारण के दो विधि-क्रम।"
+    ],
+    [
+      "40-43",
+      "वङ्गमारण के विधि-क्रम।"
+    ],
+    [
+      "44-52",
+      "लौह/तीक्ष्णमारण के विधि-क्रम और सर्वधातु के सामान्य मारण का उल्लेख।"
+    ],
+    [
+      "52",
+      "शिलागन्धार्कदुग्धाक्ताः स्वर्णाद्याः सर्वधातवः । म्रियन्ते द्वादशपुटैः सत्यं गुरुवचो यथा ॥ ५२ ॥"
+    ],
+    [
+      "53-76",
+      "सप्त उपधातुओं की गणना और उनके शोधन/मारण: माक्षिक, तुत्थ, अभ्रक, नीलाञ्जन, मनःशिला, हरिताल और रसक।"
+    ],
+    [
+      "65",
+      "मृतं त्वभ्रं हरेन्मृत्युं जरापलितनाशनम् । अनुपानैश्च संयुक्तं तत्तद्रो गहरं परम् ॥ ६५ ॥"
+    ],
+    [
+      "77-78",
+      "धातूनां सत्त्वपातन का सामान्य विधान।"
+    ],
+    [
+      "79-92",
+      "रत्नशोधन-मारण: वज्र, वैक्रान्त तथा मणि-मुक्ता-प्रवाल आदि।"
+    ],
+    [
+      "88",
+      "वैक्रान्तं भस्मतां याति वज्रस्थाने नियोजयेत् ॥ ८८ ॥"
+    ],
+    [
+      "93-99",
+      "शिलाजतु के दो शोधन-विधि-क्रम।"
+    ],
+    [
+      "100-101",
+      "मण्डूर के शोधन और मारण का वर्णन।"
+    ],
+    [
+      "102-104",
+      "क्षारकल्पना तथा अंतिम क्षार-प्रयोग; अध्याय-समापन।"
+    ],
+    [
+      "104",
+      "चूर्णाभः प्रतिसार्यः स्यात्पेयः स्यात्क्वाथवत्स्थितः । इति क्षारद्वयं धीमानुक्तकार्येषु योजयेत् ॥ १०४ ॥"
+    ]
+  ],
+  "source_reconciliation": {
+    "finding": "The Sanskrit Wikisource witness gives Chapter 11 as Dhātuśodhanamāraṇa and runs continuously from verse 1 to 104 before the colophon. BharatKosha's printed Dīpikā witness places the chapter across printed pages 172-183 and begins the next chapter, Rasādiśodhanamāraṇakalpanā, afterward.",
+    "structural_note": "The chapter is organized from the seven principal metals to their purification/incineration, then seven upadhātus, sattvapātana, gemstones, śilājatu, maṇḍūra and kṣāra.",
+    "numbering_note": "The online witness preserves a continuous 1-104 chapter sequence. Printed page references are preserved separately from canonical verse numbering.",
+    "canonical_policy": "This package stores verified Sanskrit anchors and structural ranges rather than claiming a full controlled transcription of every verse. Full verse-by-verse transcription remains pending controlled printed-source extraction.",
+    "commentary_policy": "Dīpikā explanations, modern identifications, unit interpretations and practical notes remain separate from canonical Sanskrit.",
+    "safety_note": "This chapter contains classical metallurgical/mineral procedures and substances that may be toxic or hazardous. The package is source-critical historical education, not modern preparation or self-administration guidance."
+  },
+  "topic_map": [
+    [
+      "1-4",
+      "सप्त धातुओं की गणना तथा स्वर्ण-रजत-ताम्र-लौह और नाग-वङ्ग के शोधन की आधारभूत कल्पना"
+    ],
+    [
+      "5-20",
+      "स्वर्णमारण के विभिन्न विधि-क्रम तथा स्वर्णभस्म के पारंपरिक गुण"
+    ],
+    [
+      "21-35",
+      "रजत, आर/पित्तल, कांस्य और ताम्रमारण"
+    ],
+    [
+      "36-52",
+      "नाग, वङ्ग और तीक्ष्ण/लौह मारण तथा सामान्य धातु-मारण"
+    ],
+    [
+      "53-76",
+      "सप्त उपधातु और उनके शोधन-मारण"
+    ],
+    [
+      "77-78",
+      "धातुओं के सत्त्वपातन का सामान्य विधान"
+    ],
+    [
+      "79-92",
+      "रत्नों का शोधन-मारण: वज्र, वैक्रान्त, मणि, मुक्ता और प्रवाल"
+    ],
+    [
+      "93-99",
+      "शिलाजतु शोधन"
+    ],
+    [
+      "100-101",
+      "मण्डूर शोधन-मारण"
+    ],
+    [
+      "102-104",
+      "क्षारकल्पना और अध्याय-समापन"
+    ]
+  ],
+  "hindi_learning_summary": [
+    [
+      "1-4",
+      "अध्याय पहले सात धातुओं की गणना करता है और शोधन की मूल अवधारणा रखता है।"
+    ],
+    [
+      "5-20",
+      "स्वर्ण के लिए अनेक मारण-विधियाँ दी गई हैं और उसके भस्म के पारंपरिक गुणों का वर्णन मिलता है।"
+    ],
+    [
+      "21-35",
+      "रजत, आर/पित्तल, कांस्य और ताम्र के मारण-विधानों का क्रम आता है।"
+    ],
+    [
+      "36-52",
+      "नाग, वङ्ग और लौह/तीक्ष्ण के मारण-विधानों के बाद सर्वधातु के सामान्य विधान का उल्लेख है।"
+    ],
+    [
+      "53-76",
+      "उपधातुओं के रूप में माक्षिक, तुत्थ, अभ्रक, नीलाञ्जन, मनःशिला, हरिताल और रसक की गणना तथा उनके शोधन-मारण का वर्णन है।"
+    ],
+    [
+      "77-78",
+      "सत्त्वपातन की संकल्पना प्रस्तुत की जाती है।"
+    ],
+    [
+      "79-92",
+      "रत्नों में वज्र, वैक्रान्त, मणि, मुक्ता और प्रवाल के शोधन-मारण का वर्णन है।"
+    ],
+    [
+      "93-99",
+      "शिलाजतु के शोधन के दो क्रम दिये गये हैं।"
+    ],
+    [
+      "100-101",
+      "मण्डूर के शोधन और मारण का वर्णन है।"
+    ],
+    [
+      "102-104",
+      "अंत में क्षार की कल्पना तथा उसके पारंपरिक प्रयोगों का संक्षिप्त वर्णन देकर अध्याय समाप्त होता है।"
+    ]
+  ],
+  "commentary_mapping": [
+    [
+      "1-20",
+      "Dīpikā explains the seven-metal classification, śodhana and the several classical svarṇa-māraṇa sections; printed witness pp. 172-175."
+    ],
+    [
+      "21-52",
+      "Dīpikā continues the silver, brass/copper, nāga, vaṅga and tīkṣṇa/loha sections; printed witness pp. 175-178."
+    ],
+    [
+      "53-76",
+      "Dīpikā explains the seven upadhātus and their purification/incineration sections; printed witness pp. 178-181."
+    ],
+    [
+      "77-92",
+      "Dīpikā covers sattvapātana and the ratna sections including vajra and vaikrānta; printed witness pp. 181-182."
+    ],
+    [
+      "93-104",
+      "Dīpikā covers śilājatu, maṇḍūra and kṣāra, ending the chapter before Rasādiśodhanamāraṇa; printed witness pp. 182-183."
+    ]
+  ],
+  "learning_units": [
+    [
+      "LU1",
+      "1-20",
+      "सप्तधातु, शोधन और स्वर्णमारण"
+    ],
+    [
+      "LU2",
+      "21-35",
+      "रजत, आर/पित्तल, कांस्य और ताम्रमारण"
+    ],
+    [
+      "LU3",
+      "36-52",
+      "नाग, वङ्ग और लौहमारण"
+    ],
+    [
+      "LU4",
+      "53-76",
+      "उपधातु शोधन-मारण"
+    ],
+    [
+      "LU5",
+      "77-92",
+      "सत्त्वपातन और रत्नकल्पना"
+    ],
+    [
+      "LU6",
+      "93-104",
+      "शिलाजतु, मण्डूर और क्षारकल्पना"
+    ]
+  ],
+  "assessments": [
+    [
+      "mcq",
+      "मध्यखण्ड के इस अध्याय में मुख्य धातुओं की संख्या कितनी बतायी गयी है?",
+      "सात"
+    ],
+    [
+      "mcq",
+      "उपधातुओं की संख्या कितनी बतायी गयी है?",
+      "सात"
+    ],
+    [
+      "mcq",
+      "अध्याय का अंतिम प्रमुख विषय क्या है?",
+      "क्षारकल्पना"
+    ],
+    [
+      "mcq",
+      "रत्नों का खण्ड किस verse-range में आता है?",
+      "79-92"
+    ],
+    [
+      "short_answer",
+      "शोधन और मारण को इस अध्याय की संरचना के आधार पर अलग-अलग समझाइए।"
+    ],
+    [
+      "short_answer",
+      "धातु, उपधातु और रत्न के वर्गीकरण को अध्याय के क्रम में समझाइए।"
+    ],
+    [
+      "source_criticism",
+      "क्यों canonical Sanskrit, Dīpikā की व्याख्या और आधुनिक mineral identification को अलग layers में रखना चाहिए?"
+    ],
+    [
+      "source_criticism",
+      "धातु/खनिज-आधारित classical procedures को आधुनिक clinical preparation guidance में सीधे बदलना क्यों उचित नहीं है?"
+    ]
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "primary_online_extent_verified": "1-104",
+    "printed_witness_cross_checked": true,
+    "cross_source_checked": true,
+    "canonical_full_verse_transcription": "pending controlled printed-source transcription for non-anchor verses",
+    "commentary_separated_from_canonical_layer": true,
+    "modern_mineral_identification_not_promoted_to_canonical_fact": true,
+    "no_fabricated_missing_verses": true,
+    "one_chapter_one_commit": true
+  }
+}
