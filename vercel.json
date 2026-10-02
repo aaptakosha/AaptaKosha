@@ -24,6 +24,10 @@
       "destination": "/api/catalog.py?route=catalog/:path*"
     },
     {
+      "source": "/api/curriculum/:path*",
+      "destination": "/api/catalog.py?route=curriculum/:path*"
+    },
+    {
       "source": "/api/content/:path*",
       "destination": "/api/content.py?route=content/:path*"
     },
