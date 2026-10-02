@@ -52,8 +52,10 @@ Last updated: 2026-10-02
 - [x] Chapter 8 reader/API wiring
 - [ ] Chapter 8 end-to-end learner regression
 - [x] Chapter 9 primary-source research manifest and SARIT passage-sequence verification
-- [ ] Chapter 9 canonical Sanskrit/Hindi/टीका content build
-- [ ] Chapter 9 assessment, reader/API wiring, and regression gate
+- [x] Chapter 9 canonical Sanskrit/Hindi/टीका content build (55 passages; 3 prose; 52 verse-half passages)
+- [x] Chapter 9 20-question revision assessment and canonical-reference contract
+- [x] Chapter 9 content regression contract
+- [ ] Chapter 9 reader/API wiring and end-to-end learner regression
 - [ ] Chapter 10+ remaining SA-1 chapters
 - [ ] Chapter 13+ remains reserved for SA-2 / Second Professional
 
