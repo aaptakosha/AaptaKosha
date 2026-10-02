@@ -157,3 +157,5 @@ Tracker rule: update this file whenever a phase gate changes state.
 - [x] Madhyama Chapter 8 — Avalehakalpanā full controlled primary/independent-witness transcription refined (v1–48).
 
 - [x] Madhyama Chapter 7 — Vaṭakalpanā full controlled primary-witness transcription refined (v1–105).
+
+- [x] Madhyama Chapter 11 — Dhātuśodhanamāraṇakalpanā full controlled primary/independent-witness transcription refined (v1–104).
