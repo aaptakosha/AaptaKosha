@@ -46,6 +46,128 @@
         "$ref": "#/$defs/learningUnit"
       }
     },
+    "visualAid": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visual_id",
+        "type",
+        "title_hi"
+      ],
+      "properties": {
+        "visual_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "comparison_table",
+            "process_flow",
+            "concept_map"
+          ]
+        },
+        "title_hi": {
+          "type": "string",
+          "minLength": 1
+        },
+        "caption_hi": {
+          "type": "string"
+        },
+        "columns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "step_id",
+              "label_hi"
+            ],
+            "properties": {
+              "step_id": {
+                "$ref": "#/$defs/id"
+              },
+              "label_hi": {
+                "type": "string"
+              },
+              "detail_hi": {
+                "type": "string"
+              },
+              "next": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/id"
+                }
+              }
+            }
+          }
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "node_id",
+              "label_hi"
+            ],
+            "properties": {
+              "node_id": {
+                "$ref": "#/$defs/id"
+              },
+              "label_hi": {
+                "type": "string"
+              },
+              "detail_hi": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "from",
+              "to"
+            ],
+            "properties": {
+              "from": {
+                "$ref": "#/$defs/id"
+              },
+              "to": {
+                "$ref": "#/$defs/id"
+              },
+              "label_hi": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "verse_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ref"
+          }
+        }
+      }
+    },
     "assessment": {
       "type": "array",
       "items": {
@@ -290,6 +412,12 @@
           "items": {
             "type": "integer",
             "minimum": 1
+          }
+        },
+        "visual_aids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/visualAid"
           }
         }
       }
