@@ -100,3 +100,11 @@ def test_ncism_subject_search_matches_visible_subject_name():
     js = read("curriculum.js")
     assert "x.textContent.toLowerCase()" in js
     assert "x.dataset.subject.toLowerCase()" not in js.split("search?.addEventListener", 1)[1]
+
+
+def test_ncism_topic_tree_loads_children_on_demand():
+    js = read("curriculum.js")
+    assert 'data-loaded==="true"' in js
+    assert 'Loading subtopics' in js
+    assert 'button.dataset.nodeId' in js
+    assert 'node-children' in js
