@@ -151,7 +151,7 @@ def from_charaka_legacy(chapter: Mapping[str, Any]) -> dict[str, Any]:
         canonical["learning_units"].append(item)
 
     for verse in chapter["verses"]:
-        number = int(verse["verse_no"])
+        number = int(verse.get("verse_no", verse.get("verse")))
         item: dict[str, Any] = {
             "verse_id": f"{chapter_id}.{number:03d}",
             "verse_no": number,
