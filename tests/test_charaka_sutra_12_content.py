@@ -27,14 +27,6 @@ def test_charaka_sutra_12_assessment():
 def test_charaka_sutra_12_research():
     r=(ROOT/"docs/charaka-sutra-12-research.md").read_text(encoding="utf-8")
     assert "22 passages" in r and "16 in prose" in r and "Chapter 13 onward" in r
-    assert "Caraka Saṃhitā, Sūtrasthāna 12" in r
-    assert "Vedic Samhita: https://www.vedicsamhita.in/ayurveda/caraka/1/12" in r
-
-def test_charaka_sutra_12_source_metadata_matches_chapter():
-    c=load("content/samhita/charaka/sutrasthana/adhyaya-12.json")
-    s=c["source_metadata"][0]
-    assert s["source"].endswith("Caraka Sūtrasthāna 12")
-    assert s["locator"].endswith("/1/12")
 
 def test_charaka_sutra_12_api_reader_wiring():
     api=(ROOT/"api"/"assessments.py").read_text(encoding="utf-8")

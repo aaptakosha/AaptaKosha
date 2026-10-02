@@ -12,3 +12,11 @@ def test_catalog_has_unseeded_postgres_snapshot_fallback():
     text=(ROOT/"api/catalog.py").read_text(encoding="utf-8")
     assert 'get_curriculum("bams_ncism_1", "2021-22")' in text
     assert "SQLiteCatalogRepository" in text
+
+
+def test_catalog_runtime_initialization_is_lazy():
+    text=(ROOT/"api/catalog.py").read_text(encoding="utf-8")
+    assert "def _get_apis():" in text
+    assert "psycopg.connect(DATABASE_URL)" in text
+    assert "CATALOG_API, HIERARCHY_API = _get_apis()" in text
+    assert "class handler(BaseHTTPRequestHandler):" in text
