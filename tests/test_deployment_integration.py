@@ -41,3 +41,8 @@ def test_curriculum_subject_hierarchy_uses_the_inline_hierarchy_container():
     assert 'button.parentElement.nextElementSibling' not in script
     assert 'wrap.hidden=true;' in script
     assert 'button.setAttribute("aria-expanded","true");' in script
+def test_vercel_routes_curriculum_hierarchy_to_catalog_handler():
+    import json
+    config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
+    routes = {r["source"]: r["destination"] for r in config["rewrites"]}
+    assert routes["/api/curriculum/:path*"] == "/api/catalog.py?route=curriculum/:path*"
