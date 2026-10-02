@@ -29,7 +29,9 @@
     row.querySelector("[data-progress-percent]").textContent = percent + "%";
     row.querySelector("[data-progress-summary]").textContent =
       total ? completed + " of " + total + " tracked syllabus resources" : "No tracked syllabus resources yet";
-    row.querySelector("[data-progress-bar]").style.width = percent + "%";
+    const bar = row.querySelector("[data-progress-bar]");
+    bar.style.width = percent + "%";
+    bar.setAttribute("aria-valuenow", String(percent));
     const note = document.querySelector("[data-overall-progress-note]");
     if (note) note.textContent = total ? "Across " + total + " tracked syllabus resources" : "No tracked syllabus resources yet";
   }
@@ -38,8 +40,8 @@
     const metrics = data || {};
     const average = document.querySelector("[data-assessment-average]");
     const attempts = document.querySelector("[data-assessment-attempts]");
-    if (average) average.textContent = (metrics.average_percent || 0) + "%";
-    if (attempts) attempts.textContent = "Across " + (metrics.attempt_count || 0) + " submitted attempts";
+    if (average) average.textContent = metrics.average_percent == null ? "—" : metrics.average_percent + "%";
+    if (attempts) attempts.textContent = metrics.attempt_count ? "Across " + metrics.attempt_count + " submitted attempts" : "No submitted assessments yet";
 
     const list = document.querySelector("[data-score-list]");
     if (!list) return;
@@ -64,6 +66,13 @@
       renderAnalytics(analytics);
     })
     .catch((error) => {
+      document.querySelectorAll("[data-streak],[data-study-time],[data-study-trend],[data-calendar-trend]").forEach((el) => { el.textContent = "—"; });
+      const studyNote = document.querySelector("[data-study-time-note]");
+      const streakNote = document.querySelector("[data-streak-note]");
+      const calendarNote = document.querySelector("[data-calendar-note]");
+      if (studyNote) studyNote.textContent = "Sign in to sync your study time";
+      if (streakNote) streakNote.textContent = "Sign in to sync your streak";
+      if (calendarNote) calendarNote.textContent = "Sign in to sync your study activity.";
       const state = document.querySelector("[data-ui-state]");
       const authenticated = window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated;
       if (state && (authenticated || window.AAPTAKOSHA_API_BASE)) {
