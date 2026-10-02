@@ -222,7 +222,6 @@ def from_sarangadhara_legacy(chapter: Mapping[str, Any]) -> dict[str, Any]:
             "id": f"{text_id}.{khand_id}.{chapter_number:02d}",
             "number": chapter_number,
             "title": title_sanskrit,
-            "title_hi": title_sanskrit,
             "verse_count": len(canonical_sanskrit),
         },
         "source_metadata": sources,
