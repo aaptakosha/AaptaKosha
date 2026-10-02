@@ -39,3 +39,13 @@ def test_contract_rejects_duplicate_verse_numbers():
     except SamhitaContractError:
         return
     raise AssertionError("expected SamhitaContractError")
+
+
+def test_contract_rejects_unresolved_assessment_content():
+    value = chapter()
+    value["assessment"][0]["content_refs"] = ["missing"]
+    try:
+        validate_samhita_chapter(value)
+    except SamhitaContractError:
+        return
+    raise AssertionError("expected SamhitaContractError")
