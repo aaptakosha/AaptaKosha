@@ -76,7 +76,7 @@ def test_results_refresh_prefers_authenticated_live_result_and_surfaces_failures
     html = read("assessment-results.html")
     assert "window.AaptaKoshaSessionReady" in js
     assert "auth||!r" in js
-    assert "const live = await api.result(id)" in js
+    assert "const live=await api.result(id)" in js
     assert 'window.AaptaKoshaUi?.status' in js
     assert 'src="./ui-state.js"' in html
     assert 'data-ui-state' in html
