@@ -133,8 +133,10 @@ def test_canonical_layers_or_verified_legacy_sanskrit_are_present():
             if chapter.get("canonical_sanskrit"):
                 canonical = chapter["canonical_sanskrit"]
                 assert len(canonical) == end - start + 1
-                assert [v.get("verse_number") for v in canonical.values()] == list(range(start, end + 1))
-                assert all(isinstance(v.get("text"), str) and v["text"].strip() for v in canonical.values())
+                canonical_values = canonical.values() if isinstance(canonical, dict) else canonical
+                assert [v.get("verse_number") for v in canonical_values] == list(range(start, end + 1))
+                canonical_values = canonical.values() if isinstance(canonical, dict) else canonical
+                assert all(isinstance(v.get("text"), str) and v["text"].strip() for v in canonical_values)
             elif isinstance(chapter.get("verses"), list):
                 verses = chapter["verses"]
                 assert len(verses) == end - start + 1
