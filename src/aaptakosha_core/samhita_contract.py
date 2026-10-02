@@ -74,4 +74,15 @@ def validate_samhita_chapter(data: dict[str, Any]) -> None:
         if not unit.get("verse_refs") or not set(unit["verse_refs"]) <= verse_set:
             raise SamhitaContractError(f"{unit.get('unit_id')} has unresolved verse_refs")
 
+    for assessment in data.get("assessment", []):
+        refs = assessment.get("content_refs") or []
+        if not refs or not set(refs) <= (verse_set | unit_ids):
+            raise SamhitaContractError(
+                f"{assessment.get('assessment_id')} has unresolved content_refs"
+            )
+
+    revision_refs = data.get("revision_refs", [])
+    if any(not isinstance(ref, str) or not ref for ref in revision_refs):
+        raise SamhitaContractError("revision_refs must contain non-empty strings")
+
 __all__ = ["SamhitaContractError", "validate_samhita_chapter"]
