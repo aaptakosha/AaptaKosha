@@ -28,7 +28,7 @@ def test_protected_api_initializes_lazily_and_uses_content_driven_assessments():
     api = (ROOT / "api" / "assessments.py").read_text(encoding="utf-8")
     assert "API, PROGRESS_API = build_api()" in api
     assert "def _get_apis():" in api
-    assert "IDENTITY_PROVIDER = build_identity_provider()" not in api
+    assert "IDENTITY_PROVIDER = None" in api
     assert "def _get_identity_provider():" in api
     assert "_seed_samhita_chapter2_assessment" not in api
     assert "_seed_samhita_chapter12_assessment" not in api
