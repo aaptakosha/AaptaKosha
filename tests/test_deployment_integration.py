@@ -34,3 +34,10 @@ def test_protected_api_initializes_lazily_and_uses_content_driven_assessments():
     assert "_seed_samhita_chapter12_assessment" not in api
     assert "_seed_samhita_assessments(service, repo)" in api
     assert "identity_provider_misconfigured" in api
+
+def test_curriculum_subject_hierarchy_uses_the_inline_hierarchy_container():
+    script = (ROOT / "frontend" / "curriculum.js").read_text(encoding="utf-8")
+    assert 'const wrap=button.nextElementSibling;' in script
+    assert 'button.parentElement.nextElementSibling' not in script
+    assert 'wrap.hidden=true;' in script
+    assert 'button.setAttribute("aria-expanded","true");' in script
