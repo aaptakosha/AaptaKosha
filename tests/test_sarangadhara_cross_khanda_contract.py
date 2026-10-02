@@ -129,12 +129,20 @@ def test_canonical_layers_or_verified_legacy_sanskrit_are_present():
     for khanda, chapters in EXPECTED.items():
         for number, (_, expected_extent) in chapters.items():
             chapter = load(khanda, number)
+            start, end = (int(x) for x in expected_extent.split("-", 1))
             if chapter.get("canonical_sanskrit"):
                 canonical = chapter["canonical_sanskrit"]
-                start, end = (int(x) for x in expected_extent.split("-", 1))
                 assert len(canonical) == end - start + 1
                 assert [v.get("verse_number") for v in canonical.values()] == list(range(start, end + 1))
                 assert all(isinstance(v.get("text"), str) and v["text"].strip() for v in canonical.values())
-            else:
-                assert isinstance(chapter.get("sanskrit_text"), str) and chapter["sanskrit_text"].strip()
+            elif isinstance(chapter.get("verses"), list):
+                verses = chapter["verses"]
+                assert len(verses) == end - start + 1
+                assert [v.get("verse_number", v.get("verse_no")) for v in verses] == list(range(start, end + 1))
+                assert all(isinstance(v.get("text", v.get("sanskrit")), str) and v.get("text", v.get("sanskrit")).strip() for v in verses)
+            elif isinstance(chapter.get("sanskrit_text"), str) and chapter["sanskrit_text"].strip():
                 assert expected_extent in extent_candidates(chapter)
+            else:
+                assert transcription_state_present(chapter)
+                payload = json.dumps(chapter, ensure_ascii=False).lower()
+                assert "pending" in payload or "blocked" in payload
