@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0",
+  "text_id": "sarangadhara",
+  "khand_id": "uttara",
+  "chapter_number": 13,
+  "chapter_id": "uttara-13-netraprasadanavidhi",
+  "title_sanskrit": "नेत्रप्रसादनविधिः",
+  "title_roman": "Netraprasādanavidhi",
+  "canonical_status": "source_reconciled_partial_transcription",
+  "verse_extent": {
+    "verified": "1-128",
+    "primary_online_witness": "1-128",
+    "printed_dipika_witness": "1-129",
+    "discrepancy_note": "Primary Sanskrit witness numbers the chapter through v128 and then gives the Chapter 13 colophon. BharatKosha's printed Dīpikā presentation includes a final editorially numbered 129 after v128; the chapter colophon itself identifies the chapter as 13. The printed editorial addition is preserved as a source discrepancy rather than merged into the canonical verse extent."
+  },
+  "colophon": "इति श्रीशार्ङ्गधरसंहितायामुत्तरखण्डे नेत्रप्रसादनविधिर्नाम त्रयोदशोऽध्यायः समाप्तः १३",
+  "sources": [
+    {
+      "name": "Sanskrit Wikisource — Uttara Khaṇḍa",
+      "role": "primary Sanskrit witness; chapter identity, v1-128, colophon and end of the complete Saṃhitā",
+      "url": "https://sa.wikisource.org/wiki/शार्ङ्गधरसंहिता/उत्तरखण्डम्"
+    },
+    {
+      "name": "BharatKosha — Śārṅgadhara Saṃhitā with Dīpikā",
+      "role": "printed Dīpikā witness; chapter closing, editorial v129 and Hindi commentary",
+      "url": "https://bharatkosha.org/granth/sharangadhara-samhita-hindi/adhyay/284-%E0%A4%B6%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%A7%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A4%BE-%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%87?from=320"
+    },
+    {
+      "name": "BharatKosha page 270",
+      "role": "independent page-level transcription of the chapter opening and early procedural sequence",
+      "url": "https://bharatkosha.org/hi/granth/sharangadhara-samhita-hindi/adhyay/270-%E0%A4%B6%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%A7%E0%A4%B0%E0%A4%B8%E0%A4%82%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A4%BE-%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A5%87"
+    }
+  ],
+  "canonical_sanskrit": [
+    {
+      "verse": 1,
+      "text": "सेकं आश्च्योतनं पिण्डी बिडालस्तर्पणं तथा । पुटपाकोऽञ्जनं चैभिः कल्पैर्नेत्रमुपाचरेत् ॥ १ ॥"
+    },
+    {
+      "verse": 2,
+      "text": "सेकस्तु सूक्ष्मधाराभिः सर्वस्मिन्नयने हितः । मीलिताक्षस्य मत्तर्यस्य प्रदेयश्चतुरङ्गुलात् ॥ २ ॥"
+    },
+    {
+      "verse": 3,
+      "text": "स चापि स्नेहनो वाते रक्ते पित्ते च रोपणः । लेखनश्च कफे कार्यस्तस्य मात्राऽधुनोच्यते ॥ ३ ॥"
+    },
+    {
+      "verse": 13,
+      "text": "अथाश्च्योतनकं कार्यं निशायां न कथंचन ॥ १३ ॥"
+    },
+    {
+      "verse": 14,
+      "text": "उन्मीलितेऽक्ष्णि दृङ्मध्ये बिन्दुभिर्द्व्यङ्गुलाद्धितम् । बिन्दवोऽष्टौ लेखनेषु स्नेहने दश बिन्दवः ॥ १४ ॥"
+    },
+    {
+      "verse": 39,
+      "text": "अथ तर्पणकं वच्मि नेत्रतृप्तिकरं परम् । यद्रूक्षं परिशुष्कं च नेत्रं कुटिलमाविलम् ॥ ३९ ॥"
+    },
+    {
+      "verse": 40,
+      "text": "शीर्णपक्ष्मशिरोत्पातकृच्छ्रोन्मीलनसंयुतम् । तिमिरार्जुनशुक्राद्यैरभिष्यन्दाधिमन्थकैः ॥ ४० ॥"
+    },
+    {
+      "verse": 50,
+      "text": "तर्पणे तृप्तिलिङ्गानि नेत्रेष्वेतानि भावयेत् । सुखस्वप्नावबोधत्वं वैशद्यं वर्णपाटवम् । निवृत्तिर्व्याधिशान्तिश्च क्रियालाघवमेव च ॥ ५० ॥"
+    },
+    {
+      "verse": 61,
+      "text": "वितरेत्तर्पणोक्तां तु क्रियां व्यापत्तिदर्शने ॥ ६१ ॥"
+    },
+    {
+      "verse": 62,
+      "text": "अथ सम्पक्वदोषस्य प्राप्तमञ्जनमाचरेत् । हेमन्ते शिशिरे चैव मध्याह्नेऽञ्जनमिष्यते ॥ ६२ ॥"
+    },
+    {
+      "verse": 64,
+      "text": "लेखनं रोपणं चैव तथा स्यात्स्नेहनाञ्जनम् ॥ ६४ ॥"
+    },
+    {
+      "verse": 117,
+      "text": "गतदोषमपेताश्रु संपश्यन्सम्यगम्भसि । प्रक्षाल्याक्षि यथादोषं कार्यं प्रत्यञ्जनं ततः ॥ ११७ ॥"
+    },
+    {
+      "verse": 123,
+      "text": "भुक्त्वा पाणितलं घृष्ट्वा चक्षुषोर्दीयते यदि । जाता रोगा विनश्यन्ति तिमिराणि तथैव च ॥ १२३ ॥"
+    },
+    {
+      "verse": 124,
+      "text": "शीताम्बुपूरितमुखः प्रतिवासरं यः कालत्रयेण नयनद्वितयं जलेन । आसिञ्चति ध्रुवमसौ न कदाचिदक्षिरोगव्यथाविधुरतां भजते मनुष्यः ॥ १२४ ॥"
+    },
+    {
+      "verse": 125,
+      "text": "आयुर्वेदसमुद्रस्य गूढार्थमणिसंचयम् । ज्ञात्वा कैश्चिद् बुधैस्तैस्तु कृता विविधसंहिताः ॥ १२५ ॥"
+    },
+    {
+      "verse": 126,
+      "text": "किञ्चिदर्थं ततो नीत्वा कृतेयं संहिता मया । कृपाकटाक्षनिक्षेपमस्यां कुर्वन्तु साधवः ॥ १२६ ॥"
+    },
+    {
+      "verse": 127,
+      "text": "विविधगदार्तिदरिद्रनाशनं या हरिरमणीव करोति योगरत्नैः । विलसतु शार्ङ्गधरस्य संहिता सा जनहृदयेषु सरोजनिर्मलेषु ॥ १२७ ॥"
+    },
+    {
+      "verse": 128,
+      "text": "अल्पायुषामल्पधियामिदानीं कृतं समस्तश्रुतिपाठशक्त्या । तदत्र युक्तं प्रतिबीजमात्रमभ्यस्यतामात्महितं प्रयत्नात् ॥ १२८ ॥"
+    }
+  ],
+  "source_reconciliation": {
+    "finding": "Wikisource gives the complete chapter boundary as v1-128 and explicitly marks the Chapter 13 colophon and the end of Śārṅgadhara Saṃhitā. BharatKosha's Dīpikā presentation labels an additional editorially numbered item as 129 after the v128 concluding verse, then repeats the chapter colophon.",
+    "resolution": "Canonical extent is 1-128. The printed/editorial 129 is preserved only as a source-critical discrepancy and is not silently promoted to a canonical verse.",
+    "commentary_note": "Dīpikā explanations and modern clinical interpretations remain separate from the canonical Sanskrit layer.",
+    "safety_note": "The chapter contains classical ocular applications, medicated drops, tarpana, puṭapāka, añjana and metallic/mineral or animal-derived substances. It is historical/classical BAMS source material, not modern ophthalmic treatment or self-medication guidance."
+  },
+  "topic_map": [
+    {
+      "range": "1-12",
+      "topic": "नेत्रोपचार के कल्प, सेक के भेद और मात्रा"
+    },
+    {
+      "range": "13-24",
+      "topic": "आश्च्योतनविधि, बिन्दुमात्रा और प्रारम्भिक नेत्रयोग"
+    },
+    {
+      "range": "25-38",
+      "topic": "पिण्डी, बिडालक और बाह्य नेत्रलेप"
+    },
+    {
+      "range": "39-53",
+      "topic": "तर्पण के indications, contraindications, मात्रा और सम्यक्/हीन/अतितर्पण लक्षण"
+    },
+    {
+      "range": "54-61",
+      "topic": "पुटपाक के भेद और तर्पणोत्तर व्यवस्था"
+    },
+    {
+      "range": "62-74",
+      "topic": "अञ्जन के समय, भेद, मात्रा और शलाका-विधि"
+    },
+    {
+      "range": "75-116",
+      "topic": "विविध वर्त्ति, रसक्रिया, अञ्जन और दृष्टिप्रसादन सम्बन्धी योग"
+    },
+    {
+      "range": "117-124",
+      "topic": "प्रत्यञ्जन, नेत्रधावन-विचार तथा दृष्टिप्रसादन के उपदेश"
+    },
+    {
+      "range": "125-128",
+      "topic": "ग्रन्थकार का निवेदन, अध्ययनफल और उपसंहार"
+    }
+  ],
+  "hindi_learning_summary": [
+    {
+      "range": "1-12",
+      "summary": "अध्याय नेत्रोपचार के प्रमुख कल्पों और सेक के पारंपरिक वर्गीकरण से आरम्भ होता है।"
+    },
+    {
+      "range": "13-24",
+      "summary": "आश्च्योतन के समय, विधि, मात्रा और दोषानुसार प्रयोग का वर्णन है।"
+    },
+    {
+      "range": "25-38",
+      "summary": "पिण्डी और बिडालक सहित बाह्य नेत्रलेपों तथा विविध पारंपरिक योगों का वर्णन है।"
+    },
+    {
+      "range": "39-53",
+      "summary": "तर्पण के योग्य-अयोग्य नेत्र, प्रक्रिया, धारणमात्रा तथा सम्यक्, हीन और अतितर्पण के लक्षण बताए गए हैं।"
+    },
+    {
+      "range": "54-61",
+      "summary": "पुटपाक के स्नेहन, लेखन और रोपण भेद तथा उनसे सम्बन्धित शास्त्रीय प्रयोग-विचार दिया गया है।"
+    },
+    {
+      "range": "62-74",
+      "summary": "अञ्जन के उपयुक्त समय, तीन मुख्य भेद, मात्रा और शलाका के वर्णन मिलते हैं।"
+    },
+    {
+      "range": "75-116",
+      "summary": "विभिन्न वर्त्ति, रसक्रिया, अञ्जन और दृष्टिप्रसादन से सम्बन्धित अनेक पारंपरिक योगों का संग्रह है।"
+    },
+    {
+      "range": "117-124",
+      "summary": "प्रत्यञ्जन, नेत्रधावन सम्बन्धी सावधानी और दृष्टिप्रसादन के कुछ उपदेशात्मक श्लोक हैं।"
+    },
+    {
+      "range": "125-128",
+      "summary": "अन्तिम श्लोकों में संहिताकार का निवेदन, ग्रन्थाध्ययनफल और संहिता का उपसंहार है।"
+    }
+  ],
+  "commentary_mapping": [
+    {
+      "range": "1-24",
+      "coverage": "Dīpikā explains the principal ocular procedures, timing, dose terminology and early formulations."
+    },
+    {
+      "range": "25-61",
+      "coverage": "Dīpikā explains piṇḍī, biḍālaka, tarpana and puṭapāka categories and their traditional indications."
+    },
+    {
+      "range": "62-116",
+      "coverage": "Dīpikā explains añjana classifications, measures, instruments and named formulations."
+    },
+    {
+      "range": "117-128",
+      "coverage": "Dīpikā explains pratyāñjana, closing practical cautions, the author's concluding verses and study-purpose statements."
+    }
+  ],
+  "learning_units": [
+    {
+      "id": "LU1",
+      "range": "1-12",
+      "title": "नेत्रोपचार के प्रमुख कल्प और सेक"
+    },
+    {
+      "id": "LU2",
+      "range": "13-24",
+      "title": "आश्च्योतनविधि"
+    },
+    {
+      "id": "LU3",
+      "range": "25-38",
+      "title": "पिण्डी और बिडालक"
+    },
+    {
+      "id": "LU4",
+      "range": "39-61",
+      "title": "तर्पण और पुटपाक"
+    },
+    {
+      "id": "LU5",
+      "range": "62-74",
+      "title": "अञ्जन के भेद, मात्रा और शलाका"
+    },
+    {
+      "id": "LU6",
+      "range": "75-116",
+      "title": "वर्त्ति, रसक्रिया और विविध अञ्जनयोग"
+    },
+    {
+      "id": "LU7",
+      "range": "117-124",
+      "title": "प्रत्यञ्जन और दृष्टिप्रसादन उपदेश"
+    },
+    {
+      "id": "LU8",
+      "range": "125-128",
+      "title": "उपसंहार और ग्रन्थाध्ययनफल"
+    }
+  ],
+  "assessments": [
+    {
+      "type": "mcq",
+      "question": "नेत्रोपचार के प्रारम्भिक कल्पों में कौन-सा समूह अध्याय में दिया गया है?",
+      "answer": "सेक, आश्च्योतन, पिण्डी, बिडाल, तर्पण, पुटपाक और अञ्जन।"
+    },
+    {
+      "type": "short_answer",
+      "question": "तर्पण के लिए नेत्र के किन लक्षणों का वर्णन किया गया है?"
+    },
+    {
+      "type": "short_answer",
+      "question": "अञ्जन के तीन मुख्य भेद कौन-से हैं?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "क्यों इस अध्याय के ocular formulations को आधुनिक ophthalmic prescription के समान नहीं माना जाना चाहिए?"
+    },
+    {
+      "type": "source_criticism",
+      "question": "विकिस्रोत के canonical v128 और BharatKosha के editorial v129 को अलग रखना source criticism की दृष्टि से क्यों आवश्यक है?"
+    }
+  ],
+  "quality_gates": {
+    "chapter_identity_verified": true,
+    "verse_extent_verified": "1-128",
+    "primary_online_extent_verified": "1-128",
+    "printed_dipika_editorial_extent": "1-129",
+    "opening_verse_verified": true,
+    "closing_verse_verified": true,
+    "colophon_verified": true,
+    "complete_samhita_closing_verified": true,
+    "cross_source_checked": true,
+    "numbering_discrepancy_preserved": true,
+    "canonical_full_verse_transcription": "partial; controlled representative anchors only",
+    "no_fabricated_missing_verses": true,
+    "commentary_separated_from_canonical_layer": true,
+    "modern_procedural_equivalence_not_promoted_to_canonical_fact": true,
+    "safety_note_present": true,
+    "one_chapter_one_commit": true
+  }
+}
