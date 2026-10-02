@@ -550,11 +550,13 @@
     "source_policy": "e-Vāgbhaṭa remains the primary source for Sanskrit and chapter sequence. Secondary sources are cross-checks and must not override the primary source."
   },
   "tika_status": {
-    "status": "complete",
+    "status": "translation_in_progress",
     "standard": "exact_faithful_hindi_translation_required",
     "phase_1": "Core Samhita content",
     "phase_2": "Dedicated exact Sarvangasundari and Ayurvedarasayana translation",
-    "pending_blocks": [],
+    "pending_blocks": [
+      "faithfulness-expansion-review: ah4-t16 through ah4-t33"
+    ],
     "source": "Ayana Ayurveda commentary display for completed blocks; e-Vāgbhaṭa remains primary Sanskrit source.",
     "completed_blocks": [
       "ah4-t01",
@@ -591,7 +593,7 @@
       "ah4-t32",
       "ah4-t33"
     ],
-    "completion_note": "Phase 2 Tika blocks completed for Chapter 4 using the accessible Sarvangasundari and Ayurvedarasayana commentary display; source boundaries are retained per block. No unsupported PDF reconstruction was used."
+    "completion_note": "All accessible Chapter 4 commentary blocks are now represented and wired, but the latest tranche contains condensed Hindi renderings in places. These must be expanded against the complete source commentary before being labeled exact_faithful_translation. No unsupported PDF reconstruction is used."
   },
   "assessment_id": "ashtanga.hridaya.sutra.04.revision",
   "tika_blocks": [
