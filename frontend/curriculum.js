@@ -72,5 +72,5 @@ async function loadHierarchy(button){
  }
 }
 grid.addEventListener("click",e=>{const b=e.target.closest(".subject-toggle");if(!b)return;b.setAttribute("aria-expanded",b.getAttribute("aria-expanded")!=="true");loadHierarchy(b);});
-search?.addEventListener("input",e=>loadSubjects().then(()=>{const q=e.target.value.toLowerCase();[...document.querySelectorAll(".subject-row")].forEach(x=>x.hidden=!x.dataset.subject.toLowerCase().includes(q));}));
+search?.addEventListener("input",e=>{const q=e.target.value.trim().toLowerCase();[...document.querySelectorAll(".subject-row")].forEach(x=>{const text=x.textContent.toLowerCase();x.hidden=!!q&&!text.includes(q);});});
 render();loadSubjects();
