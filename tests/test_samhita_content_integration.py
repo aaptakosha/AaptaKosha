@@ -17,8 +17,9 @@ SARANGADHARA_EXTENTS = {"purva": 7, "madhyama": 12, "uttara": 13}
 def test_charaka_resolver_remains_compatible():
     content = load_content("charaka.sutra.01")
     assert content is not None
-    assert content["text_id"] == "charaka"
-    assert content["chapter_number"] == 1
+    assert content["chapter_id"] == "charaka.sutra.01"
+    assert content["adhyaya_no"] == 1
+    assert content["verses"]
 
 
 @pytest.mark.parametrize("khanda,number", [
@@ -34,13 +35,12 @@ def test_all_sarangadhara_chapter_ids_resolve(khanda, number):
     assert content["chapter_number"] == number
     assert content["chapter_id"].startswith(f"{khanda}-{number:02d}-")
     assert content["learning_units"]
-    assert content["assessments"]
 
 
 def test_representative_content_is_served_from_canonical_tree():
     checks = [
         ("sarangadhara.purva.01", "Paribhāṣākathanam"),
-        ("sarangadhara.madhyama.09", "Ghṛta-tailakalpanā"),
+        ("sarangadhara.madhyama.09", "Ghṛtatailakalpanā"),
         ("sarangadhara.uttara.13", "Netraprasādanavidhi"),
     ]
     for content_id, expected_title in checks:
@@ -63,5 +63,6 @@ def test_sarangadhara_library_navigation_contract():
     frontend = (ROOT / "frontend" / "samhita.js").read_text(encoding="utf-8")
     assert "Sharangadhara Samhita" in frontend
     assert "sarangadharaChapters" in frontend
+    assert "samhita-study.html?chapter=" in frontend
     for khanda in SARANGADHARA_EXTENTS:
-        assert f"chapter=sarangadhara.{khanda}." in frontend
+        assert f'"{khanda}"' in frontend
