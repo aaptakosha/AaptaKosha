@@ -66,6 +66,10 @@
       "path": "content/samhita/charaka/sutrasthana/adhyaya-12.json"
     },
     {
+      "content_id": "madhava.nidana.01",
+      "path": "content/samhita/madhava-nidana/nidana-sthana/adhyaya-01.json"
+    },
+    {
       "content_id": "sarangadhara.madhyama.01",
       "path": "content/samhita/sarangadhara/madhyama/chapter-01-swarasakalpana/chapter.json"
     },
