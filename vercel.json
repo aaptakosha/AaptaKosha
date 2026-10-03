@@ -20,6 +20,10 @@
   ],
   "rewrites": [
     {
+      "source": "/api/curriculum/nodes",
+      "destination": "/api/catalog.py?route=curriculum/nodes"
+    },
+    {
       "source": "/api/catalog/:path*",
       "destination": "/api/catalog.py?route=catalog/:path*"
     },
