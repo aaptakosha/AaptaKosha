@@ -11,7 +11,6 @@ spec.loader.exec_module(content_module)
 load_content = content_module.load_content
 
 SARANGADHARA_EXTENTS = {"purva": 7, "madhyama": 12, "uttara": 13}
-SERVING_SARANGADHARA = {"purva": {1,2,4,7}, "madhyama": set(range(1,13)), "uttara": set(range(1,14))}
 
 
 def test_charaka_resolver_remains_compatible():
@@ -35,8 +34,6 @@ def test_all_sarangadhara_chapter_ids_resolve(khanda, number):
     assert content["chapter_number"] == number
     assert content["chapter_id"].startswith(f"{khanda}-{number:02d}-")
     assert content["content_id"] == f"sarangadhara.{khanda}.{number:02d}"
-    if number not in SERVING_SARANGADHARA.get(khanda, set()):
-        pytest.skip("chapter is source metadata only until canonical Sanskrit transcription is complete")
     assert content["verses"]
 
 
