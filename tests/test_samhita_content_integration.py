@@ -35,7 +35,7 @@ def test_all_sarangadhara_chapter_ids_resolve(khanda, number):
     assert content["chapter_id"].startswith(f"{khanda}-{number:02d}-")
     assert content["content_id"] == f"sarangadhara.{khanda}.{number:02d}"
     if not content["verses"]:
-        assert content.get("canonical_status") in {"source_reconciled", "source_reconciled_printed_edition_primary", "printed_dipika_sequence_primary_source_reconciled"}
+        assert content.get("canonical_status") in {"source_reconciled", "source_reconciled_printed_edition_primary", "printed_dipika_sequence_primary_source_reconciled", "printed_dipika_sequence_primary_source_reconciled_for_extent"}
         return
 
 
