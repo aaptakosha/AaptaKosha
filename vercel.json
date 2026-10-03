@@ -17,6 +17,10 @@
   },
   "rewrites": [
     {
+      "source": "/api/samhita-ai",
+      "destination": "/api/samhita-ai.py"
+    },
+    {
       "source": "/api/curriculum/nodes",
       "destination": "/api/catalog.py?route=curriculum/nodes"
     },
