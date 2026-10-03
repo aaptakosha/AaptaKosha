@@ -8,7 +8,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib.error import HTTPError, URLError
 
 GATEWAY = "https://ai-gateway.vercel.sh/v1/chat/completions"
-MODEL = "google/gemini-3-flash"
+MODEL = "google/gemini-3.1-flash-lite"
 LANGUAGES = {
     "hi": "Hindi",
     "en": "English",
