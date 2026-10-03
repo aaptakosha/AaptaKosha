@@ -35,12 +35,11 @@ def test_protected_api_initializes_lazily_and_uses_content_driven_assessments():
     assert "_seed_samhita_assessments(service, repo)" in api
     assert "identity_provider_misconfigured" in api
 
-def test_curriculum_subject_hierarchy_uses_the_inline_hierarchy_container():
+def test_curriculum_entrypoint_uses_year_pages():
     script = (ROOT / "frontend" / "curriculum.js").read_text(encoding="utf-8")
-    assert 'const wrap=button.nextElementSibling;' in script
-    assert 'button.parentElement.nextElementSibling' not in script
-    assert 'wrap.hidden=true;' in script
-    assert 'button.setAttribute("aria-expanded","true");' in script
+    assert 'year1.html?curriculum_id=' in script
+    assert 'year2.html?curriculum_id=' in script
+    assert 'year3.html?curriculum_id=' in script
 def test_vercel_routes_curriculum_hierarchy_to_catalog_handler():
     import json
     config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
@@ -48,13 +47,11 @@ def test_vercel_routes_curriculum_hierarchy_to_catalog_handler():
     assert routes["/api/curriculum/:path*"] == "/api/catalog.py?route=curriculum/:path*"
 
 
-def test_curriculum_hierarchy_has_direct_function_fallback_and_explicit_route():
+def test_curriculum_year_pages_keep_explicit_curriculum_ids():
     script = (ROOT / "frontend" / "curriculum.js").read_text(encoding="utf-8")
-    assert 'new URL("/api/catalog.py",location.origin)' in script
-    assert 'fallback.searchParams.set("route","curriculum/nodes")' in script
-    config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
-    routes = {r["source"]: r["destination"] for r in config["rewrites"]}
-    assert routes["/api/curriculum/nodes"] == "/api/catalog.py?route=curriculum/nodes"
+    assert 'bams_ncism_1' in script
+    assert 'bams_ncism_2' in script
+    assert 'bams_ncism_3' in script
 
 
 def test_samhita_newline_renderer_uses_real_newline_regex():
