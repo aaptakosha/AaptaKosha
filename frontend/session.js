@@ -1,124 +1,55 @@
-/* Provider-neutral learner session bootstrap.
-   Production Clerk configuration is fetched from the same-origin API.
-   Only the publishable key reaches the browser; the secret key stays server-side. */
-(function () {
-  async function loadClerk(publishableKey) {
-    if (!publishableKey) return null;
-    if (window.Clerk) return window.Clerk;
-
-    const parts = publishableKey.split("_");
-    if (parts.length < 3) throw new Error("invalid_clerk_publishable_key");
-    const domain = atob(parts[2]).slice(0, -1);
-
-    await new Promise((resolve, reject) => {
-      const script = document.createElement("script");
-      const timeout = setTimeout(() => reject(new Error("clerk_sdk_load_timeout")), 5000);
-      script.src = `https://${domain}/npm/@clerk/clerk-js@6/dist/clerk.browser.js`;
-      script.async = true;
-      script.crossOrigin = "anonymous";
-      script.onload = () => { clearTimeout(timeout); resolve(); };
-      script.onerror = () => { clearTimeout(timeout); reject(new Error("clerk_sdk_load_failed")); };
-      document.head.appendChild(script);
+/* Shared Clerk session bootstrap. Only the publishable key reaches the browser. */
+(function(){
+  function clerkDomain(key){
+    try{const parts=key.split('_');return parts.length>=3?atob(parts[2]).slice(0,-1):'';}catch(_){return '';}
+  }
+  function fallbackSignIn(key){
+    const domain=clerkDomain(key);
+    if(!domain)return;
+    const redirect=encodeURIComponent(window.location.href);
+    window.location.assign('https://'+domain+'/sign-in?redirect_url='+redirect);
+  }
+  async function loadClerk(key){
+    if(!key)return null;
+    if(window.Clerk)return window.Clerk;
+    const domain=clerkDomain(key); if(!domain)throw new Error('invalid_clerk_publishable_key');
+    await new Promise((resolve,reject)=>{
+      const script=document.createElement('script');
+      const timeout=setTimeout(()=>reject(new Error('clerk_sdk_load_timeout')),8000);
+      script.src='https://'+domain+'/npm/@clerk/clerk-js@6/dist/clerk.browser.js';script.async=true;script.crossOrigin='anonymous';
+      script.onload=()=>{clearTimeout(timeout);resolve();};script.onerror=()=>{clearTimeout(timeout);reject(new Error('clerk_sdk_load_failed'));};document.head.appendChild(script);
     });
-
-    if (!window.Clerk) throw new Error("clerk_sdk_unavailable");
-    if (!window.__aaptaClerkUI) {
-      try {
-        await new Promise((resolve, reject) => {
-          const ui = document.createElement("script");
-          const timeout = setTimeout(() => reject(new Error("clerk_ui_load_timeout")), 5000);
-          ui.src = "https://" + domain + "/npm/@clerk/ui@1/dist/ui.browser.js";
-          ui.async = true;
-          ui.crossOrigin = "anonymous";
-          ui.onload = () => { clearTimeout(timeout); window.__aaptaClerkUI = true; resolve(); };
-          ui.onerror = () => { clearTimeout(timeout); reject(new Error("clerk_ui_load_failed")); };
-          document.head.appendChild(ui);
-        });
-      } catch (_) {
-        // The UI bundle is optional for redirect-based authentication.
-        // Do not let a UI CDN failure block the rest of the site.
-      }
-    }
+    if(!window.Clerk)throw new Error('clerk_sdk_unavailable');
     return window.Clerk;
   }
-
-  async function bootstrap() {
-    let authenticated = false;
-    let clerk = null;
-
-    try {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 4000);
-      let response;
-      try {
-        response = await fetch("/api/config", { headers: { Accept: "application/json" }, signal: controller.signal });
-      } finally {
-        clearTimeout(timeout);
+  async function bootstrap(){
+    let authenticated=false,clerk=null,publishableKey='';
+    try{
+      const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),5000);
+      let response;try{response=await fetch('/api/config',{headers:{Accept:'application/json'},signal:controller.signal});}finally{clearTimeout(timeout);}
+      if(!response.ok)throw new Error('auth_config_unavailable');
+      const config=await response.json();publishableKey=config.clerk_publishable_key||'';
+      if(publishableKey){
+        const Clerk=await loadClerk(publishableKey);clerk=new Clerk(publishableKey);
+        await clerk.load({signInForceRedirectUrl:window.location.href,signUpForceRedirectUrl:window.location.href});
+        authenticated=Boolean(clerk.isSignedIn&&clerk.session);
       }
-      if (!response.ok) throw new Error("auth_config_unavailable");
-      const config = await response.json();
-      const publishableKey = config.clerk_publishable_key || "";
-
-      if (publishableKey) {
-        const Clerk = await loadClerk(publishableKey);
-        clerk = new Clerk(publishableKey);
-        const loadOptions = {
-          signInForceRedirectUrl: window.location.href,
-          signUpForceRedirectUrl: window.location.href
-        };
-        if (window.__aaptaClerkUI && window.__internal_ClerkUICtor) {
-          loadOptions.ui = { ClerkUI: window.__internal_ClerkUICtor };
-        }
-        try {
-          await clerk.load(loadOptions);
-        } catch (_) {
-          // If the UI bundle/config is incompatible, retry without the optional UI.
-          clerk = new Clerk(publishableKey);
-          await clerk.load({
-            signInForceRedirectUrl: window.location.href,
-            signUpForceRedirectUrl: window.location.href
-          });
-        }
-        authenticated = Boolean(clerk.isSignedIn && clerk.session);
-        window.AaptaKoshaAuth = {
-          subjectId: clerk.user ? clerk.user.id : null,
-          getToken: () => clerk.session ? clerk.session.getToken() : null,
-          openSignIn: async () => {
-            try {
-              if (typeof clerk.openSignIn === "function" && window.__aaptaClerkUI) {
-                return clerk.openSignIn({});
-              }
-            } catch (_) {}
-            if (typeof clerk.redirectToSignIn === "function") {
-              return clerk.redirectToSignIn({
-                signInForceRedirectUrl: window.location.href
-              });
-            }
-          },
-          openUserProfile: async () => {
-            try {
-              if (typeof clerk.openUserProfile === "function" && window.__aaptaClerkUI) {
-                return clerk.openUserProfile({});
-              }
-            } catch (_) {}
-            if (typeof clerk.redirectToUserProfile === "function") {
-              return clerk.redirectToUserProfile();
-            }
-          }
-        };
+    }catch(_){authenticated=false;}
+    window.AaptaKoshaAuth={
+      subjectId:clerk?.user?.id||null,
+      getToken:()=>clerk?.session?clerk.session.getToken():null,
+      openSignIn:async()=>{
+        try{if(clerk&&typeof clerk.redirectToSignIn==='function')return clerk.redirectToSignIn({signInForceRedirectUrl:window.location.href});}catch(_){ }
+        fallbackSignIn(publishableKey);
+      },
+      openUserProfile:async()=>{
+        try{if(clerk&&typeof clerk.openUserProfile==='function')return clerk.openUserProfile({});}catch(_){ }
+        if(clerk&&typeof clerk.redirectToUserProfile==='function')return clerk.redirectToUserProfile();
       }
-    } catch (_) {
-      authenticated = false;
-    }
-
-    document.documentElement.dataset.authenticated = authenticated ? "true" : "false";
-    window.AaptaKoshaSession = {
-      authenticated,
-      state: authenticated ? "authenticated" : "anonymous",
-      clerk
     };
+    document.documentElement.dataset.authenticated=authenticated?'true':'false';
+    window.AaptaKoshaSession={authenticated,state:authenticated?'authenticated':'anonymous',clerk};
     return window.AaptaKoshaSession;
   }
-
-  window.AaptaKoshaSessionReady = bootstrap();
+  window.AaptaKoshaSessionReady=bootstrap();
 })();
