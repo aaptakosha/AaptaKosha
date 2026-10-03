@@ -66,3 +66,23 @@ def test_sarangadhara_library_navigation_contract():
     assert "samhita-study.html?chapter=" in frontend
     for khanda in SARANGADHARA_EXTENTS:
         assert f'"{khanda}"' in frontend
+
+
+def test_all_indexed_samhita_items_expose_sanskrit_text():
+    """Every served verse/passage must render an actual Sanskrit source string."""
+    entries = content_module.catalog()
+    assert entries
+    for entry in entries:
+        content = load_content(entry["content_id"])
+        items = content.get("verses") or content.get("passages") or []
+        assert items, entry["content_id"]
+        for item in items:
+            assert str(item.get("sanskrit_original") or item.get("text") or item.get("sanskrit") or "").strip(), (entry["content_id"], item.get("verse_no"), item.get("passage_no"))
+
+
+def test_mixed_ashtanga_passages_keep_verse_identity():
+    for chapter in ("01", "02", "03"):
+        content = load_content(f"ashtanga.hridaya.sutra.{chapter}")
+        verses = [item for item in content["passages"] if item.get("type") == "verse"]
+        assert verses
+        assert all(str(item.get("sanskrit_original") or "").strip() for item in verses)
