@@ -89,23 +89,14 @@ def test_vercel_entrypoint_requires_identity_and_keeps_secret_server_side():
     assert 'CLERK_SECRET_KEY' not in entrypoint.split('publishable_key =', 1)[0]
     assert '"identity_provider_not_configured"' in entrypoint
 
-def test_ncism_curriculum_renderer_loads_nested_topic_nodes():
+def test_ncism_curriculum_renderer_exposes_three_professional_years():
     js = read("curriculum.js")
-    assert "parent_node_id" in js
-    assert "fetchHierarchyNodes" in js
-    assert "nodeMarkup" in js
-    assert "loadNode" in js
-    assert "No NCISM topics have been published" in js
+    assert 'curriculum_id:"bams_ncism_1"' in js
+    assert 'curriculum_id:"bams_ncism_2"' in js
+    assert 'curriculum_id:"bams_ncism_3"' in js
+    assert 'year1.html?curriculum_id=' in js
 
-def test_ncism_subject_search_matches_visible_subject_name():
+def test_ncism_subject_search_matches_visible_year_name():
     js = read("curriculum.js")
-    assert "x.textContent.toLowerCase()" in js
-    assert "x.dataset.subject.toLowerCase()" not in js.split("search?.addEventListener", 1)[1]
-
-
-def test_ncism_topic_tree_loads_children_on_demand():
-    js = read("curriculum.js")
-    assert 'button.dataset.loaded==="true"' in js
-    assert 'Loading subtopics' in js
-    assert 'button.dataset.nodeId' in js
-    assert 'node-children' in js
+    assert 'years.filter' in js
+    assert 'y.label+" "+y.note' in js
