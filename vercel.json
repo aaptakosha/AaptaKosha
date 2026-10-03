@@ -1,33 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "ignoreCommand": "git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" \"$VERCEL_GIT_COMMIT_SHA\" -- frontend api content src migrations vercel.json",
-  "builds": [
-    {
-      "src": "frontend/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "api/assessments.py",
-      "use": "@vercel/python",
-      "config": {
-        "excludeFiles": "{frontend,.github,docs,tests,scripts,node_modules,.vercel}/**"
-      }
-    },
-    {
-      "src": "api/catalog.py",
-      "use": "@vercel/python",
-      "config": {
-        "excludeFiles": "{frontend,.github,docs,tests,scripts,node_modules,.vercel}/**"
-      }
-    },
-    {
-      "src": "api/content.py",
-      "use": "@vercel/python",
-      "config": {
-        "excludeFiles": "{frontend,.github,docs,tests,scripts,node_modules,.vercel}/**"
-      }
-    }
-  ],
   "rewrites": [
     {
       "source": "/api/curriculum/nodes",
@@ -57,5 +30,16 @@
       "source": "/:path*",
       "destination": "/frontend/:path*"
     }
-  ]
+  ],
+  "functions": {
+    "api/assessments.py": {
+      "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
+    },
+    "api/catalog.py": {
+      "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
+    },
+    "api/content.py": {
+      "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
+    }
+  }
 }
