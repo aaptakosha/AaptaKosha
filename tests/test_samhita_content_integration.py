@@ -62,7 +62,7 @@ def test_sarangadhara_library_navigation_contract():
     frontend = (ROOT / "frontend" / "samhita.js").read_text(encoding="utf-8")
     assert "Sharangadhara Samhita" in frontend
     assert "sarangadharaChapters" in frontend
-    assert "samhita-study.html?chapter=" in frontend
+    assert "samhita-chapter.html?text=" in frontend
     for khanda in SARANGADHARA_EXTENTS:
         assert f'"{khanda}"' in frontend
 
