@@ -20,7 +20,22 @@ async function saveProgress(type,id,pct){const item={resource_type:type,resource
 async function toggleUnit(i){const u=state.chapter.learning_units[i],id=state.chapter.chapter_id+"."+unitKey(u,i);if(await saveProgress("samhita_unit",id,unitComplete(i)?0:100)){await saveProgress("samhita_chapter",state.chapter.chapter_id,chapterPct());renderAll()}}
 async function toggleRecitation(v){const id=state.chapter.chapter_id+"."+itemId(v),pct=pf("samhita_recitation",id).completion_percent;if(await saveProgress("samhita_recitation",id,pct===100?0:100))renderAll()}
 function unitMatches(v,i){return unitItems(state.chapter.learning_units[i]).some(x=>itemId(x)===itemId(v))}
-function tikaBlockFor(v,key){const blocks=Array.isArray(state.chapter.tika_blocks)?state.chapter.tika_blocks:[];const id=v?.[key+"_block_id"];if(!id)return null;return blocks.find(b=>b.id===id)||null}function tikaText(v,key){const direct=v?.[key+"_hi"];if(direct)return direct;const block=tikaBlockFor(v,key);return block?.[key+"_hi"]||block?.translation_hi||block?.text_hi||""}
+const TIKA_CONFIG={
+  charaka:[["tika_hi","चक्रपाणि — आयुर्वेददीपिका"]],
+  sushruta:[["tika_hi","डल्हण — निबन्धसंग्रह"]],
+  "ashtanga-hridaya":[["tika_sarvangasundara_hi","सर्वाङ्गसुन्दरी"],["tika_sarvangasundari_hi","सर्वाङ्गसुन्दरी"],["tika_ayurvedarasayana_hi","आयुर्वेदरसायन"]],
+  "ashtanga.hridaya":[["tika_sarvangasundara_hi","सर्वाङ्गसुन्दरी"],["tika_sarvangasundari_hi","सर्वाङ्गसुन्दरी"],["tika_ayurvedarasayana_hi","आयुर्वेदरसायन"]],
+  sarangadhara:[["tika_hi","दीपिका / गूढार्थदीपिका"]],
+  sharangadhara:[["tika_hi","दीपिका / गूढार्थदीपिका"]]
+};
+function tikaBlockFor(v,key){const blocks=Array.isArray(state.chapter.tika_blocks)?state.chapter.tika_blocks:[];const id=v?.[key+"_block_id"];if(!id)return null;return blocks.find(b=>b.id===id)||null}
+function tikaText(v,key){const direct=v?.[key+"_hi"];if(direct)return direct;const block=tikaBlockFor(v,key);return block?.[key+"_hi"]||block?.translation_hi||block?.text_hi||""}
+function textSlug(){const id=String(state.chapter?.content_id||state.chapter?.chapter_id||"");if(id.startsWith("ashtanga.hridaya."))return "ashtanga-hridaya";return id.split(".")[0]||""}
+function tikaEntries(v){
+  const keys=TIKA_CONFIG[textSlug()]||[]; const out=[];
+  for(const [key,label] of keys){const value=String(v?.[key]||tikaText(v,key.replace(/_hi$/,""))||"").trim();if(value)out.push([label,value]);}
+  return out;
+}
 function matches(v){const q=state.query.trim().toLowerCase(),i=state.chapter.learning_units.findIndex((_,n)=>unitMatches(v,n));if(state.selectedUnit!==null&&i!==state.selectedUnit)return false;const t=[itemLabel(v),v.section,v.type,v.sanskrit_original,v.translation_hi,v.explanation_hi,v.tika_sarvangasundara_hi,v.tika_ayurvedarasayana_hi,tikaText(v,"tika_sarvangasundara"),tikaText(v,"tika_ayurvedarasayana")].join(" ").toLowerCase();if(q&&!t.includes(q))return false;if(state.filter==="recitation")return v.recitation_status==="ncism_explicit";if(state.filter==="revision")return state.revisionRefs.has(itemId(v))||(i>=0&&unitComplete(i));return true}
 function renderUnits(){unitList.innerHTML=state.chapter.learning_units.map((u,i)=>{const members=unitItems(u),first=members[0],last=members[members.length-1],range=u.start_verse&&u.end_verse?u.start_verse+"–"+u.end_verse:first&&last?itemLabel(first)+"–"+itemLabel(last):"";return '<button class="unit-card '+(state.selectedUnit===i?"active":"")+'" data-unit="'+i+'"><span class="unit-number">'+String(i+1).padStart(2,"0")+'</span><span class="unit-copy"><strong>'+esc(u.title_hi||("Unit "+(i+1)))+'</strong><small>'+esc(range?"अंश "+range:"")+'</small></span><span class="unit-state">'+(unitComplete(i)?"✓ पूर्ण":"○ बाकी")+'</span></button>'}).join("")}
 function renderStudyAids(){
@@ -49,7 +64,7 @@ function render(){
     const reciteButton=recite?'<button class="recite-button '+(done?"done":"")+'" data-recite="'+esc(itemId(v))+'">'+(done?"✓ मुखस्थ":"○ मुखस्थ")+'</button>':"";
     const audioLabel=(v.audio?.url&&v.audio.type==="recording")?"🎧 Audio":"🔊 Read";
     const audioSrc=v.audio?.url?' data-audio-src="'+esc(v.audio.url)+'"':"";
-    return '<article id="item-'+esc(itemId(v))+'" class="verse-card '+(recite?"recite":"")+'"><div class="verse-head"><span class="verse-number">'+itemKind+" "+esc(itemLabel(v))+'</span>'+(recite?'<span class="recite-badge">NCISM Recitation</span>':"")+reciteButton+'<button class="audio" data-audio="'+esc(v.sanskrit_original)+'"'+audioSrc+'>'+audioLabel+'</button></div><div class="section-label">'+esc(v.section||v.type||"")+'</div><div class="sanskrit">'+esc(v.sanskrit_original).replace(/\n/g,"<br>")+'</div><div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi)+'</p></div><div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi)+'</p></div><details><summary>सर्वाङ्गसुन्दरी — टीका अनुवाद</summary><p>'+esc(v.tika_sarvangasundara_hi||v.tika_hi||tikaText(v,"tika_sarvangasundara")||"इस अंश के लिए स्रोत-टीका ब्लॉक में देखें।")+'</p></details><details><summary>आयुर्वेदरसायन — टीका अनुवाद</summary><p>'+esc(v.tika_ayurvedarasayana_hi||tikaText(v,"tika_ayurvedarasayana")||"इस अंश के लिए स्रोत-टीका ब्लॉक में देखें।")+'</p></details></article>';
+    return '<article id="item-'+esc(itemId(v))+'" class="verse-card '+(recite?"recite":"")+'"><div class="verse-head"><span class="verse-number">'+itemKind+" "+esc(itemLabel(v))+'</span>'+(recite?'<span class="recite-badge">NCISM Recitation</span>':"")+reciteButton+'<button class="audio" data-audio="'+esc(v.sanskrit_original)+'"'+audioSrc+'>'+audioLabel+'</button></div><div class="section-label">'+esc(v.section||v.type||"")+'</div><div class="sanskrit">'+esc(v.sanskrit_original).replace(/\n/g,"<br>")+'</div><div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi)+'</p></div><div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi)+'</p></div><div class="tika-stack">'+tikaEntries(v).map(([label,value])=>'<details><summary>'+esc(label)+' — टीका अनुवाद</summary><p>'+esc(value)+'</p></details>').join("")+'</div></article>';
   }).join("");
   grid.innerHTML=renderStudyAids()+(cards||'<div class="empty">इस mode/search के लिए कोई श्लोक या अंश नहीं मिला।</div>');
 }
