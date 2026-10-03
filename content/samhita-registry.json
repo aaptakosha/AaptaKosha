@@ -126,8 +126,20 @@
       "path": "content/samhita/sarangadhara/purva/chapter-02-bhaishajyakhyanaka/chapter.json"
     },
     {
+      "content_id": "sarangadhara.purva.03",
+      "path": "content/samhita/sarangadhara/purva/chapter-03-nadiparikshvidhi/chapter.json"
+    },
+    {
       "content_id": "sarangadhara.purva.04",
       "path": "content/samhita/sarangadhara/purva/chapter-04-dipanapachanadikathana/chapter.json"
+    },
+    {
+      "content_id": "sarangadhara.purva.05",
+      "path": "content/samhita/sarangadhara/purva/chapter-05-kaladikakhyana/chapter.json"
+    },
+    {
+      "content_id": "sarangadhara.purva.06",
+      "path": "content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json"
     },
     {
       "content_id": "sarangadhara.purva.07",
@@ -184,36 +196,6 @@
     {
       "content_id": "sarangadhara.uttara.13",
       "path": "content/samhita/sarangadhara/uttara/chapter-13-netraprasadanavidhi/chapter.json"
-    },
-    {
-      "content_id": "sarangadhara.purva.03",
-      "path": "content/samhita/sarangadhara/purva/chapter-03-nadiparikshvidhi/chapter.json",
-      "text_id": "sarangadhara",
-      "khand_id": "purva",
-      "chapter_number": 3,
-      "chapter_id": "chapter-03-nadiparikshvidhi",
-      "title_hi": "अध्याय 3",
-      "availability": "metadata_only"
-    },
-    {
-      "content_id": "sarangadhara.purva.05",
-      "path": "content/samhita/sarangadhara/purva/chapter-05-kaladikakhyana/chapter.json",
-      "text_id": "sarangadhara",
-      "khand_id": "purva",
-      "chapter_number": 5,
-      "chapter_id": "chapter-05-kaladikakhyana",
-      "title_hi": "अध्याय 5",
-      "availability": "metadata_only"
-    },
-    {
-      "content_id": "sarangadhara.purva.06",
-      "path": "content/samhita/sarangadhara/purva/chapter-06-aharaadigati/chapter.json",
-      "text_id": "sarangadhara",
-      "khand_id": "purva",
-      "chapter_number": 6,
-      "chapter_id": "chapter-06-aharaadigati",
-      "title_hi": "अध्याय 6",
-      "availability": "metadata_only"
     }
   ]
 }
