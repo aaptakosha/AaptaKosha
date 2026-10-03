@@ -103,3 +103,23 @@ def test_every_stored_samhita_chapter_file_is_indexed():
     assert len(module.catalog())==48
 
 
+
+
+def test_every_catalog_entry_resolves_through_reader_api():
+    import importlib.util
+    spec=importlib.util.spec_from_file_location("aapta_content",ROOT/"api"/"content.py")
+    module=importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    entries=module.catalog()
+    assert len(entries)==48
+    for entry in entries:
+        assert module.load_content(entry["content_id"]) is not None
+        assert module.load_content(entry["content_id"])["content_id"]==entry["content_id"]
+
+
+def test_sharangadhara_frontend_slug_resolves_to_canonical_api_ids():
+    js=read("samhita-study.js")
+    detail=read("samhita-detail.js")
+    assert 'text+"."+section+"."+chapter' in js
+    assert '"sharangadhara"' in detail
+    assert 'entry.text_slug===slug' in detail
