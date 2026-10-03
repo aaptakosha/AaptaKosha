@@ -9,13 +9,17 @@ from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMHITA_ROOT = ROOT / "content" / "samhita"
+_CONTENT_INDEX_CACHE: dict[str, Path] | None = None
 _CONTENT_ID = re.compile(
     r"^(?P<text>charaka|sarangadhara|sharangadhara|ashtanga\.hridaya)\.(?P<section>[a-z]+)\.(?P<chapter>\d{2})$"
 )
 
 
 def _content_index() -> dict[str, Path]:
-    """Index canonical chapter JSON files by their embedded content_id."""
+    """Index canonical chapter JSON files once per warm function instance."""
+    global _CONTENT_INDEX_CACHE
+    if _CONTENT_INDEX_CACHE is not None:
+        return _CONTENT_INDEX_CACHE
     index: dict[str, Path] = {}
     if not SAMHITA_ROOT.is_dir():
         return index
@@ -41,6 +45,7 @@ def _content_index() -> dict[str, Path]:
             index[content_id] = Path()
         else:
             index[content_id] = path
+    _CONTENT_INDEX_CACHE = index
     return index
 
 
