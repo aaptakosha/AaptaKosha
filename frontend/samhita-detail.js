@@ -116,7 +116,8 @@ function render(){
    const chapters=chapterRows(selectedSection[2]);
    const html=chapters.filter(c=>(c[0]+" "+c[1]).toLowerCase().includes(q)).map(c=>{
      const manuallyMapped=Array.isArray(selectedSection?.[3])&&selectedSection[3].some(row=>String(row[0]).padStart(2,"0")===String(c[0]).padStart(2,"0"));
-     const available=manuallyMapped||!catalogLoaded||chapterIsAvailable(selectedSection[2],c[0]);
+     const madhavaKnownAvailable=slug==="madhava-nidana"&&String(c[0]).padStart(2,"0")==="01";
+     const available=slug==="madhava-nidana"?(madhavaKnownAvailable||chapterIsAvailable(selectedSection[2],c[0])):(manuallyMapped||!catalogLoaded||chapterIsAvailable(selectedSection[2],c[0]));
      if(available)return '<a class="chapter-link" href="./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(selectedSection[2])+'&chapter='+encodeURIComponent(c[0])+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>';
      return '<div class="chapter-link chapter-disabled" aria-disabled="true"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>Content not yet available</span></div>';
    }).join("");
