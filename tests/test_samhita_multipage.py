@@ -18,3 +18,18 @@ def test_samhita_dedicated_pages_have_breadcrumbs_and_shared_navigation():
     study=read("samhita-study.js")
     assert 'samhita-section.html?text=' in study
     assert 'Samhita Library' in study
+
+
+def test_generated_samhita_catalog_drives_discoverability():
+    api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
+    js=read("samhita-detail.js")
+    assert 'query.get("catalog") == "1"' in api
+    assert '"chapters": catalog()' in api
+    assert 'generatedChapters' in js
+    assert 'loadGeneratedCatalog' in js
+    assert 'chapterIsAvailable' in js
+
+def test_samhita_content_api_supports_generated_ashtanga_and_sharangadhara_ids():
+    api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
+    assert "ashtanga\\.hridaya" in api
+    assert "sarangadhara|sharangadhara" in api
