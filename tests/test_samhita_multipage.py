@@ -38,7 +38,7 @@ def test_samhita_content_api_supports_generated_ashtanga_and_sharangadhara_ids()
 def test_sharangadhara_legacy_chapters_are_normalized():
     api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
     js=read("samhita-detail.js")
-    assert 'payload.get("khand_id")' in api
+    assert 'data["khand_id"]' in api
     assert 'chapter_number' in api
     assert 'const chapters=chapterRows(selectedSection[2]);' in js
 
@@ -67,7 +67,7 @@ def test_sharangadhara_reader_preserves_all_three_khandas():
 
 def test_existing_chapter_id_is_accepted_by_content_index():
     api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
-    assert 'payload.get("chapter_id")' in api
+    assert 'data["chapter_id"]' in api
     assert 'payload.get("chapter_no")' in api
     assert 'payload.get("adhyaya_no")' in api
 
