@@ -25,13 +25,13 @@ def _content_index() -> dict[str, Path]:
                 payload = json.load(fh)
         except (OSError, ValueError, TypeError):
             continue
-        content_id = str(payload.get("content_id", "")).strip()
+        content_id = str(payload.get("content_id") or payload.get("chapter_id") or "").strip()
         if not _CONTENT_ID.fullmatch(content_id):
-            text_id = str(payload.get("text_id", "")).strip()
-            section = str(payload.get("section_id") or payload.get("khand_id") or "").strip()
-            chapter_number = payload.get("chapter_number")
-            if text_id == "sarangadhara" and section and chapter_number is not None:
-                content_id = f"sarangadhara.{section}.{int(chapter_number):02d}"
+            text_id = str(payload.get("text_id", "")).strip().lower()
+            section = str(payload.get("section_id") or payload.get("khand_id") or payload.get("sthana_id") or "").strip().lower()
+            chapter_number = payload.get("chapter_number") or payload.get("chapter_no") or payload.get("adhyaya_no")
+            if text_id and section and chapter_number is not None:
+                content_id = f"{text_id}.{section}.{int(chapter_number):02d}"
         if not _CONTENT_ID.fullmatch(content_id):
             continue
         # A duplicate content_id is never silently selected.
