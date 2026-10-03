@@ -63,18 +63,24 @@ sections:[["Pūrvakhaṇḍa","Pūrva Khanda","purva",null],["Madhyamakhaṇḍa
 const GENERIC={chakradatta:"Chakradatta",yogaratnakara:"Yogaratnakara","bhaishajya-ratnavali":"Bhaishajya Ratnavali","gadanigraha":"Gadanigraha","vangasena":"Vangasena Samhita","bhavaprakasha-nighantu":"Bhavaprakasha Nighantu","dhanvantari-nighantu":"Dhanvantari Nighantu","raja-nighantu":"Raja Nighantu","kaiyadeva-nighantu":"Kaiyadeva Nighantu","madanapala-nighantu":"Madanapala Nighantu"};
 const params=new URLSearchParams(location.search);const slug=params.get("text")||"charaka";const data=DETAIL_DATA[slug]||{name:GENERIC[slug]||"Samhita",category:"Classical collection",relevance:"—",subtitle:"Section-first navigation keeps the library uncluttered as the classical corpus expands.",sections:[["Sections","Section / chapter map","sections",null]]};
 const hero=document.querySelector("#detailHero"),grid=document.querySelector("#sthanaGrid"),note=document.querySelector("#structureNote"),search=document.querySelector("#sectionSearch");
-hero.innerHTML='<div class="detail-title-row"><div><span class="eyebrow">'+data.category+' · Samhita</span><h1>'+data.name+'</h1><p class="detail-subtitle">'+data.subtitle+'</p><div class="detail-meta"><span class="pill">Professional relevance: '+data.relevance+'</span><span class="pill">Section-first navigation</span></div></div></div>';
-note.textContent=data.sections.length+' sections in this library map';
+const selected=params.get("section"),selectedSection=data.sections.find(s=>s[2]===selected);
+hero.innerHTML='<div class="detail-title-row"><div><span class="eyebrow">'+data.category+' · Samhita</span><h1>'+(selectedSection?selectedSection[0]:data.name)+'</h1><p class="detail-subtitle">'+(selectedSection?selectedSection[1]+' · Select a chapter to begin study.':data.subtitle)+'</p><div class="detail-meta"><span class="pill">Professional relevance: '+data.relevance+'</span><span class="pill">'+(selectedSection?'Chapter-first navigation':'Section-first navigation')+'</span></div></div></div>';
+note.textContent=selectedSection?((selectedSection[3]||[]).length+' chapter entries'):data.sections.length+' sections in this library map';
+const back=document.querySelector("#sectionBack");if(back){back.href='./samhita-detail.html?text='+encodeURIComponent(slug);back.textContent='← '+data.name}
 function render(){
  const q=(search?.value||"").trim().toLowerCase();
- const selected=params.get("section");
- const sections=data.sections.map((s,i)=>({s,i})).filter(({s})=>!selected||s[2]===selected);
- const html=sections.map(({s,i})=>{
+ if(selectedSection){
+   const chapters=selectedSection[3]||[];
+   const html=chapters.filter(c=>(c[0]+" "+c[1]).toLowerCase().includes(q)).map(c=>'<a class="chapter-link" href="./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(selectedSection[2])+'&chapter='+encodeURIComponent(c[0])+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>').join("");
+   grid.innerHTML=html?'<div class="chapter-list">'+html+'</div>':'<div class="detail-empty">No chapter entries are available for this section yet.</div>';
+   return;
+ }
+ const html=data.sections.map((s,i)=>{
    const chapters=s[3]||[],hay=(s[0]+" "+s[1]+" "+chapters.map(c=>c[1]).join(" ")).toLowerCase();
    if(q&&!hay.includes(q)) return "";
    const href='./samhita-section.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2]);
    return '<a class="sthana-card sthana-link" href="'+href+'"><div class="sthana-head"><span class="sthana-number">'+String(i+1).padStart(2,"0")+'</span><div><h2>'+s[0]+'</h2><p class="sthana-english">'+s[1]+'</p></div><span class="section-arrow">→</span></div><div class="section-summary">'+(chapters.length?chapters.length+' chapter entries in this section':'Section structure ready for verified chapter content')+'</div></a>';
  }).join("");
  grid.innerHTML=html||'<div class="detail-empty">No sections match your search.</div>';
- note.textContent=selected?'Section map':'Select a Sthana / Khanda to continue';
-}search?.addEventListener("input",render);render();
+}
+search?.addEventListener("input",render);render();
