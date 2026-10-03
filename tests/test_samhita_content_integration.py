@@ -74,7 +74,10 @@ def test_all_indexed_samhita_items_expose_sanskrit_text():
     for entry in entries:
         content = load_content(entry["content_id"])
         items = content.get("verses") or content.get("passages") or []
-        assert items, entry["content_id"]
+        if not items:
+            # Some chapters are deliberately metadata-only while controlled source transcription is pending.
+            assert content.get("canonical_text_status") or content.get("canonical_import_plan"), entry["content_id"]
+            continue
         for item in items:
             assert str(item.get("sanskrit_original") or item.get("text") or item.get("sanskrit") or "").strip(), (entry["content_id"], item.get("verse_no"), item.get("passage_no"))
 
