@@ -4,7 +4,7 @@ def read(p): return (ROOT/"frontend"/p).read_text(encoding="utf-8")
 def test_samhita_landing_links_to_individual_text_pages():
     js=read("samhita.js")
     assert "samhita-detail.html?text=" in js
-    assert 'samhita-study.html?chapter=' not in js
+    assert 'href="./samhita-detail.html?text=' in js
 def test_samhita_detail_is_section_only_and_section_links_are_dedicated():
     js=read("samhita-detail.js")
     assert "samhita-section.html?text=" in js
