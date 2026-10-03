@@ -63,7 +63,32 @@ sections:[["Pūrvakhaṇḍa","Pūrva Khanda","purva",null],["Madhyamakhaṇḍa
 const GENERIC={chakradatta:"Chakradatta",yogaratnakara:"Yogaratnakara","bhaishajya-ratnavali":"Bhaishajya Ratnavali","gadanigraha":"Gadanigraha","vangasena":"Vangasena Samhita","bhavaprakasha-nighantu":"Bhavaprakasha Nighantu","dhanvantari-nighantu":"Dhanvantari Nighantu","raja-nighantu":"Raja Nighantu","kaiyadeva-nighantu":"Kaiyadeva Nighantu","madanapala-nighantu":"Madanapala Nighantu"};
 const params=new URLSearchParams(location.search);const slug=params.get("text")||"charaka";const data=DETAIL_DATA[slug]||{name:GENERIC[slug]||"Samhita",category:"Classical collection",relevance:"—",subtitle:"Section-first navigation keeps the library uncluttered as the classical corpus expands.",sections:[["Sections","Section / chapter map","sections",null]]};
 const hero=document.querySelector("#detailHero"),grid=document.querySelector("#sthanaGrid"),note=document.querySelector("#structureNote"),search=document.querySelector("#sectionSearch");
-const selected=params.get("section"),selectedSection=data.sections.find(s=>s[2]===selected);const breadcrumb=document.querySelector("#samhitaBreadcrumb");if(breadcrumb){breadcrumb.innerHTML='<a href="./samhita.html">Samhita Library</a><b>›</b>'+(selectedSection?'<a href="./samhita-detail.html?text='+encodeURIComponent(slug)+'">'+data.name+'</a><b>›</b><span>'+selectedSection[0]+'</span>':'<span>'+data.name+'</span>')}
+const selected=params.get("section"),selectedSection=data.sections.find(s=>s[2]===selected);
+const generatedChapters=new Map();let catalogLoaded=false;
+async function loadGeneratedCatalog(){
+  try{
+    const response=await fetch("/api/content/samhita?catalog=1",{credentials:"same-origin"});
+    if(!response.ok)throw new Error("catalog");
+    const payload=await response.json();
+    (payload.data?.chapters||[]).forEach(entry=>{
+      generatedChapters.set(entry.text_slug+"|"+entry.section_key+"|"+entry.chapter_code,entry);
+    });
+    catalogLoaded=true;
+  }catch(_){catalogLoaded=false}
+}
+function chapterRows(sectionKey){
+  const byCode=new Map((selectedSection?.[3]||[]).map(c=>[String(c[0]).padStart(2,"0"),c]));
+  generatedChapters.forEach(entry=>{
+    if(entry.text_slug===slug&&entry.section_key===sectionKey){
+      const code=String(entry.chapter_code).padStart(2,"0");
+      if(!byCode.has(code))byCode.set(code,[code,entry.chapter_label||entry.title||("Chapter "+Number(code))]);
+    }
+  });
+  return [...byCode.values()].sort((a,b)=>Number(a[0])-Number(b[0]));
+}
+function chapterIsAvailable(sectionKey,chapterCode){
+  return generatedChapters.has(slug+"|"+sectionKey+"|"+String(chapterCode).padStart(2,"0"));
+}const breadcrumb=document.querySelector("#samhitaBreadcrumb");if(breadcrumb){breadcrumb.innerHTML='<a href="./samhita.html">Samhita Library</a><b>›</b>'+(selectedSection?'<a href="./samhita-detail.html?text='+encodeURIComponent(slug)+'">'+data.name+'</a><b>›</b><span>'+selectedSection[0]+'</span>':'<span>'+data.name+'</span>')}
 hero.innerHTML='<div class="detail-title-row"><div><span class="eyebrow">'+data.category+' · Samhita</span><h1>'+(selectedSection?selectedSection[0]:data.name)+'</h1><p class="detail-subtitle">'+(selectedSection?selectedSection[1]+' · Select a chapter to begin study.':data.subtitle)+'</p><div class="detail-meta"><span class="pill">Professional relevance: '+data.relevance+'</span><span class="pill">'+(selectedSection?'Chapter-first navigation':'Section-first navigation')+'</span></div></div></div>';
 note.textContent=selectedSection?((selectedSection[3]||[]).length+' chapter entries'):data.sections.length+' sections in this library map';
 const back=document.querySelector("#sectionBack");if(back){back.href='./samhita-detail.html?text='+encodeURIComponent(slug);back.textContent='← '+data.name}
@@ -71,7 +96,11 @@ function render(){
  const q=(search?.value||"").trim().toLowerCase();
  if(selectedSection){
    const chapters=selectedSection[3]||[];
-   const html=chapters.filter(c=>(c[0]+" "+c[1]).toLowerCase().includes(q)).map(c=>'<a class="chapter-link" href="./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(selectedSection[2])+'&chapter='+encodeURIComponent(c[0])+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>').join("");
+   const html=chapters.filter(c=>(c[0]+" "+c[1]).toLowerCase().includes(q)).map(c=>{
+     const available=!catalogLoaded||chapterIsAvailable(selectedSection[2],c[0]);
+     if(available)return '<a class="chapter-link" href="./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(selectedSection[2])+'&chapter='+encodeURIComponent(c[0])+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>';
+     return '<div class="chapter-link chapter-disabled" aria-disabled="true"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>Content not yet available</span></div>';
+   }).join("");
    grid.innerHTML=html?'<div class="chapter-list">'+html+'</div>':'<div class="detail-empty">No chapter entries are available for this section yet.</div>';
    return;
  }
@@ -83,4 +112,6 @@ function render(){
  }).join("");
  grid.innerHTML=html||'<div class="detail-empty">No sections match your search.</div>';
 }
-search?.addEventListener("input",render);render();
+search?.addEventListener("input",render);
+render();
+loadGeneratedCatalog().then(render);
