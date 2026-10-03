@@ -123,3 +123,25 @@ def test_sharangadhara_frontend_slug_resolves_to_canonical_api_ids():
     assert 'text+"."+section+"."+chapter' in js
     assert '"sharangadhara"' in detail
     assert 'entry.text_slug===slug' in detail
+
+
+def test_samhita_frontend_accepts_backend_text_slug_aliases_for_availability():
+    js=read("samhita-detail.js")
+    assert "TEXT_SLUG_ALIASES" in js
+    assert '"sharangadhara":["sharangadhara","sarangadhara"]' in js
+    assert '"ashtanga-hridaya":["ashtanga-hridaya","ashtanga.hridaya"]' in js
+    assert "slugMatches(entry.text_slug)" in js
+    assert "generatedChapters.has(slug+" not in js
+
+
+def test_populated_catalog_sections_exist_in_frontend_maps():
+    import importlib.util
+    spec=importlib.util.spec_from_file_location("aapta_content",ROOT/"api"/"content.py")
+    module=importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    detail=read("samhita-detail.js")
+    entries=module.catalog()
+    populated=[e for e in entries if e["text_slug"] in {"charaka","ashtanga-hridaya","sharangadhara"}]
+    assert populated
+    for entry in populated:
+        assert f'"{entry["section_key"]}"' in detail or f'"{entry["section_key"]},' in detail
