@@ -35,9 +35,7 @@
     "api/assessments.py": {
       "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
     },
-    "api/catalog.py": {
-      "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
-    },
+    "api/catalog.py": {},
     "api/content.py": {
       "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
     }
