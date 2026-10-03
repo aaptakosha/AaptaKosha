@@ -67,19 +67,14 @@ hero.innerHTML='<div class="detail-title-row"><div><span class="eyebrow">'+data.
 note.textContent=data.sections.length+' sections in this library map';
 function render(){
  const q=(search?.value||"").trim().toLowerCase();
- const html=data.sections.map((s,i)=>{
-   const chapters=s[3]||[];
-   const hay=(s[0]+" "+s[1]+" "+chapters.map(c=>c[1]).join(" ")).toLowerCase();
+ const selected=params.get("section");
+ const sections=data.sections.map((s,i)=>({s,i})).filter(({s})=>!selected||s[2]===selected);
+ const html=sections.map(({s,i})=>{
+   const chapters=s[3]||[],hay=(s[0]+" "+s[1]+" "+chapters.map(c=>c[1]).join(" ")).toLowerCase();
    if(q&&!hay.includes(q)) return "";
-   const links=chapters.length?chapters.map(c=>{
-     let href="";
-     if(slug==="charaka") href='./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2])+'&chapter='+encodeURIComponent(c[0]);
-     else if(slug==="sharangadhara") href='./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2])+'&chapter='+encodeURIComponent(c[0]);
-     else if(slug==="ashtanga-hridaya" && s[2]==="sutra") href='./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2])+'&chapter='+encodeURIComponent(c[0]);
-     return '<a class="chapter-link" href="'+href+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>';
-   }).join(""):'<div class="chapter-empty">Chapter-level content will appear here as its verified source content is added. The section structure is already separated for easy expansion.</div>';
-   return '<article class="sthana-card"><div class="sthana-head"><span class="sthana-number">'+String(i+1).padStart(2,"0")+'</span><div><h2>'+s[0]+'</h2><p class="sthana-english">'+s[1]+'</p></div></div>'+ (chapters.length?'<div class="chapter-list">'+links+'</div>':links)+'<span class="sthana-badge">'+(chapters.length?chapters.length+' chapters available':'section ready')+'</span></article>';
+   const href='./samhita-section.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2]);
+   return '<a class="sthana-card sthana-link" href="'+href+'"><div class="sthana-head"><span class="sthana-number">'+String(i+1).padStart(2,"0")+'</span><div><h2>'+s[0]+'</h2><p class="sthana-english">'+s[1]+'</p></div><span class="section-arrow">→</span></div><div class="section-summary">'+(chapters.length?chapters.length+' chapter entries in this section':'Section structure ready for verified chapter content')+'</div></a>';
  }).join("");
- grid.innerHTML=html||'<div class="detail-empty">No sections or chapters match your search.</div>';
-}
-search?.addEventListener("input",render);render();
+ grid.innerHTML=html||'<div class="detail-empty">No sections match your search.</div>';
+ note.textContent=selected?'Section map':'Select a Sthana / Khanda to continue';
+}search?.addEventListener("input",render);render();
