@@ -120,7 +120,7 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
         item = dict(verse)
         item["verse_no"] = number
         item["verse_id"] = item.get("verse_id") or f"legacy-{number:02d}"
-        item["sanskrit_original"] = item.get("sanskrit_original") or item.get("text") or ""
+        item["sanskrit_original"] = item.get("sanskrit_original") or item.get("text") or item.get("sanskrit") or item.get("sanskrit_text") or ""
         item["translation_hi"] = item.get("translation_hi") or _range_for_number(data.get("hindi_translation"), number)
         item["explanation_hi"] = item.get("explanation_hi") or _range_for_number(data.get("hindi_learning_summary"), number)
         verses.append(item)
