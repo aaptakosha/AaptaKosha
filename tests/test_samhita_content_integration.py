@@ -33,7 +33,8 @@ def test_all_sarangadhara_chapter_ids_resolve(khanda, number):
     assert content["khand_id"] == khanda
     assert content["chapter_number"] == number
     assert content["chapter_id"].startswith(f"{khanda}-{number:02d}-")
-    assert content["learning_units"]
+    assert content["content_id"] == f"sarangadhara.{khanda}.{number:02d}"
+    assert content["verses"]
 
 
 def test_representative_content_is_served_from_canonical_tree():
