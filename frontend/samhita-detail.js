@@ -73,9 +73,9 @@ function render(){
    if(q&&!hay.includes(q)) return "";
    const links=chapters.length?chapters.map(c=>{
      let href="";
-     if(slug==="charaka") href='./samhita-study.html?chapter=charaka.'+s[2]+'.'+c[0];
-     else if(slug==="sharangadhara") href='./samhita-study.html?chapter=sarangadhara.'+s[2]+'.'+c[0];
-     else if(slug==="ashtanga-hridaya" && s[2]==="sutra") href='./samhita-study.html?chapter=ashtanga.hridaya.sutra.'+c[0];
+     if(slug==="charaka") href='./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2])+'&chapter='+encodeURIComponent(c[0]);
+     else if(slug==="sharangadhara") href='./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2])+'&chapter='+encodeURIComponent(c[0]);
+     else if(slug==="ashtanga-hridaya" && s[2]==="sutra") href='./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(s[2])+'&chapter='+encodeURIComponent(c[0]);
      return '<a class="chapter-link" href="'+href+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>';
    }).join(""):'<div class="chapter-empty">Chapter-level content will appear here as its verified source content is added. The section structure is already separated for easy expansion.</div>';
    return '<article class="sthana-card"><div class="sthana-head"><span class="sthana-number">'+String(i+1).padStart(2,"0")+'</span><div><h2>'+s[0]+'</h2><p class="sthana-english">'+s[1]+'</p></div></div>'+ (chapters.length?'<div class="chapter-list">'+links+'</div>':links)+'<span class="sthana-badge">'+(chapters.length?chapters.length+' chapters available':'section ready')+'</span></article>';
