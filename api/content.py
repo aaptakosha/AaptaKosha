@@ -118,6 +118,8 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
         raw_verses = data.get("passages") if isinstance(data.get("passages"), list) else None
     if raw_verses is None:
         canonical = data.get("canonical_sanskrit")
+        if isinstance(canonical, dict):
+            canonical = list(canonical.values())
         if isinstance(canonical, list):
             raw_verses = [
                 {
