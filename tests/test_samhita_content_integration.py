@@ -86,3 +86,11 @@ def test_mixed_ashtanga_passages_keep_verse_identity():
         verses = [item for item in content["passages"] if item.get("type") == "verse"]
         assert verses
         assert all(str(item.get("sanskrit_original") or "").strip() for item in verses)
+
+
+def test_tika_display_is_text_specific():
+    frontend = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
+    assert 'charaka:[[' in frontend
+    assert 'सर्वाङ्गसुन्दरी' in frontend
+    assert 'आयुर्वेदरसायन' in frontend
+    assert 'function tikaEntries' in frontend
