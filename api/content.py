@@ -27,6 +27,12 @@ def _content_index() -> dict[str, Path]:
             continue
         content_id = str(payload.get("content_id", "")).strip()
         if not _CONTENT_ID.fullmatch(content_id):
+            text_id = str(payload.get("text_id", "")).strip()
+            section = str(payload.get("section_id") or payload.get("khand_id") or "").strip()
+            chapter_number = payload.get("chapter_number")
+            if text_id == "sarangadhara" and section and chapter_number is not None:
+                content_id = f"sarangadhara.{section}.{int(chapter_number):02d}"
+        if not _CONTENT_ID.fullmatch(content_id):
             continue
         # A duplicate content_id is never silently selected.
         if content_id in index:
