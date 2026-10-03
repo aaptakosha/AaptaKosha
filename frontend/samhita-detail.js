@@ -95,7 +95,7 @@ const back=document.querySelector("#sectionBack");if(back){back.href='./samhita-
 function render(){
  const q=(search?.value||"").trim().toLowerCase();
  if(selectedSection){
-   const chapters=selectedSection[3]||[];
+   const chapters=chapterRows(selectedSection[2]);
    const html=chapters.filter(c=>(c[0]+" "+c[1]).toLowerCase().includes(q)).map(c=>{
      const available=!catalogLoaded||chapterIsAvailable(selectedSection[2],c[0]);
      if(available)return '<a class="chapter-link" href="./samhita-chapter.html?text='+encodeURIComponent(slug)+'&section='+encodeURIComponent(selectedSection[2])+'&chapter='+encodeURIComponent(c[0])+'"><span>Chapter '+parseInt(c[0],10)+' · '+c[1]+'</span><span>→</span></a>';
