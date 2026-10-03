@@ -116,7 +116,11 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
     for i, verse in enumerate(raw_verses or [], 1):
         if not isinstance(verse, dict):
             verse = {"text": str(verse)}
-        number = int(verse.get("verse_no") or verse.get("passage_no") or verse.get("verse") or i)
+        raw_number = verse.get("verse_no") or verse.get("passage_no") or verse.get("verse") or i
+        try:
+            number = int(raw_number)
+        except (TypeError, ValueError):
+            number = raw_number
         item = dict(verse)
         item["verse_no"] = number
         item["verse_id"] = item.get("verse_id") or f"legacy-{number:02d}"
@@ -139,7 +143,10 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
                 u["start_verse"], u["end_verse"] = nums[0], nums[1]
         units.append(u)
     data["content_id"] = content_id
-    data["chapter_id"] = content_id
+    # Preserve the source chapter_id for legacy texts such as Śārṅgadhara;
+    # content_id remains the stable API identifier used for lookup/deep links.
+    if not (data.get("text_id") == "sarangadhara" and data.get("chapter_id")):
+        data["chapter_id"] = content_id
     data["title"] = data.get("title") or data.get("title_roman") or data.get("title_sanskrit") or content_id
     data["title_hi"] = data.get("title_hi") or data.get("title_roman") or data.get("title_sanskrit") or data["title"]
     data["verses"] = verses
