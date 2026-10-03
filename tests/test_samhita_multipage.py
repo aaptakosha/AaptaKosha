@@ -63,3 +63,23 @@ def test_sharangadhara_reader_preserves_all_three_khandas():
     assert 'text+ "." +section' not in study
     assert 'text+ "."+section' not in study
     assert 'text+"." +section' not in study
+
+
+def test_existing_chapter_id_is_accepted_by_content_index():
+    api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
+    assert 'payload.get("chapter_id")' in api
+    assert 'payload.get("chapter_no")' in api
+    assert 'payload.get("adhyaya_no")' in api
+
+
+def test_ashtanga_and_charaka_stored_chapters_have_stable_ids():
+    import json
+    checks = [
+        ("content/samhita/ashtanga_hridaya/sutrasthana/adhyaya-01.json", "ashtanga.hridaya.sutra.01"),
+        ("content/samhita/ashtanga_hridaya/sutrasthana/adhyaya-04.json", "ashtanga.hridaya.sutra.04"),
+        ("content/samhita/charaka/sutrasthana/adhyaya-01.json", "charaka.sutra.01"),
+        ("content/samhita/charaka/sutrasthana/adhyaya-12.json", "charaka.sutra.12"),
+    ]
+    for rel, expected in checks:
+        payload=json.loads((ROOT/rel).read_text(encoding="utf-8"))
+        assert payload.get("content_id") == expected or payload.get("chapter_id") == expected
