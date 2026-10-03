@@ -23,16 +23,21 @@
 
     if (!window.Clerk) throw new Error("clerk_sdk_unavailable");
     if (!window.__aaptaClerkUI) {
-      await new Promise((resolve, reject) => {
-        const ui = document.createElement("script");
-        const timeout = setTimeout(() => reject(new Error("clerk_ui_load_timeout")), 5000);
-        ui.src = "https://" + domain + "/npm/@clerk/ui@1/dist/ui.browser.js";
-        ui.async = true;
-        ui.crossOrigin = "anonymous";
-        ui.onload = () => { clearTimeout(timeout); window.__aaptaClerkUI = true; resolve(); };
-        ui.onerror = () => { clearTimeout(timeout); reject(new Error("clerk_ui_load_failed")); };
-        document.head.appendChild(ui);
-      });
+      try {
+        await new Promise((resolve, reject) => {
+          const ui = document.createElement("script");
+          const timeout = setTimeout(() => reject(new Error("clerk_ui_load_timeout")), 5000);
+          ui.src = "https://" + domain + "/npm/@clerk/ui@1/dist/ui.browser.js";
+          ui.async = true;
+          ui.crossOrigin = "anonymous";
+          ui.onload = () => { clearTimeout(timeout); window.__aaptaClerkUI = true; resolve(); };
+          ui.onerror = () => { clearTimeout(timeout); reject(new Error("clerk_ui_load_failed")); };
+          document.head.appendChild(ui);
+        });
+      } catch (_) {
+        // The UI bundle is optional for redirect-based authentication.
+        // Do not let a UI CDN failure block the rest of the site.
+      }
     }
     return window.Clerk;
   }
@@ -57,17 +62,49 @@
       if (publishableKey) {
         const Clerk = await loadClerk(publishableKey);
         clerk = new Clerk(publishableKey);
-        await clerk.load({
-          ui: { ClerkUI: window.__internal_ClerkUICtor },
+        const loadOptions = {
           signInForceRedirectUrl: window.location.href,
           signUpForceRedirectUrl: window.location.href
-        });
+        };
+        if (window.__aaptaClerkUI && window.__internal_ClerkUICtor) {
+          loadOptions.ui = { ClerkUI: window.__internal_ClerkUICtor };
+        }
+        try {
+          await clerk.load(loadOptions);
+        } catch (_) {
+          // If the UI bundle/config is incompatible, retry without the optional UI.
+          clerk = new Clerk(publishableKey);
+          await clerk.load({
+            signInForceRedirectUrl: window.location.href,
+            signUpForceRedirectUrl: window.location.href
+          });
+        }
         authenticated = Boolean(clerk.isSignedIn && clerk.session);
         window.AaptaKoshaAuth = {
           subjectId: clerk.user ? clerk.user.id : null,
           getToken: () => clerk.session ? clerk.session.getToken() : null,
-          openSignIn: () => clerk.openSignIn({}),
-          openUserProfile: () => clerk.openUserProfile({})
+          openSignIn: async () => {
+            try {
+              if (typeof clerk.openSignIn === "function" && window.__aaptaClerkUI) {
+                return clerk.openSignIn({});
+              }
+            } catch (_) {}
+            if (typeof clerk.redirectToSignIn === "function") {
+              return clerk.redirectToSignIn({
+                signInForceRedirectUrl: window.location.href
+              });
+            }
+          },
+          openUserProfile: async () => {
+            try {
+              if (typeof clerk.openUserProfile === "function" && window.__aaptaClerkUI) {
+                return clerk.openUserProfile({});
+              }
+            } catch (_) {}
+            if (typeof clerk.redirectToUserProfile === "function") {
+              return clerk.redirectToUserProfile();
+            }
+          }
         };
       }
     } catch (_) {
