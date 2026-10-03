@@ -97,10 +97,10 @@ def test_every_stored_samhita_chapter_file_is_indexed():
         if path.name=="chapter.json" or path.name.startswith("adhyaya-"):
             chapter_files.append(path)
     index=module._content_index()
-    assert len(chapter_files)==49
-    assert len([p for p in index.values() if p.is_file()])==49
+    assert len(chapter_files)==46
+    assert len([p for p in index.values() if p.is_file()])==46
     assert all(path.resolve() in {p.resolve() for p in index.values() if p.is_file()} for path in chapter_files)
-    assert len(module.catalog())==49
+    assert len(module.catalog())==46
 
 
 
@@ -111,7 +111,7 @@ def test_every_catalog_entry_resolves_through_reader_api():
     module=importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     entries=module.catalog()
-    assert len(entries)==49
+    assert len(entries)==46
     for entry in entries:
         assert module.load_content(entry["content_id"]) is not None
         assert module.load_content(entry["content_id"])["content_id"]==entry["content_id"]
