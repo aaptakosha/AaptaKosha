@@ -4,7 +4,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_read_only_content_is_separate_from_authenticated_assessment_function():
     cfg=json.loads((ROOT/"vercel.json").read_text(encoding="utf-8"))
-    assert any(x.get("src")=="api/content.py" for x in cfg["builds"])
+    assert "api/content.py" in cfg["functions"]
     assert any(x.get("source")=="/api/content/:path*" for x in cfg["rewrites"])
     assert "REQUIRE_IDENTITY" not in (ROOT/"api/content.py").read_text(encoding="utf-8")
 
