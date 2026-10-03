@@ -41,3 +41,25 @@ def test_sharangadhara_legacy_chapters_are_normalized():
     assert 'payload.get("khand_id")' in api
     assert 'chapter_number' in api
     assert 'const chapters=chapterRows(selectedSection[2]);' in js
+
+
+def test_legacy_samhita_payloads_are_normalized_for_reader():
+    api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
+    assert "def _normalize_payload" in api
+    assert 'data["verses"] = verses' in api
+    assert 'data["verse_count"] = len(verses)' in api
+    assert 'data["chapter_id"] = content_id' in api
+    assert "canonical_sanskrit" in api
+    assert "sanskrit_text" in api
+    assert "hindi_translation" in api
+
+
+def test_sharangadhara_reader_preserves_all_three_khandas():
+    detail=read("samhita-detail.js")
+    assert '["Pūrva Khanda","purva"' in detail or '"purva",' in detail
+    assert '"madhyama"' in detail
+    assert '"uttara"' in detail
+    study=read("samhita-study.js")
+    assert 'text+ "." +section' not in study
+    assert 'text+ "."+section' not in study
+    assert 'text+"." +section' not in study
