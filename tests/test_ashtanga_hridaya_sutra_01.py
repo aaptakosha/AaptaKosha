@@ -33,7 +33,8 @@ def test_ashtanga_hridaya_sutra_01_hierarchy_and_bold_reader_contract():
     study = (ROOT / "frontend/samhita-study.js").read_text(encoding="utf-8")
     assert '"01","आयुष्कामीय"' in js
     assert '"30","क्षाराग्निकर्मविधि"' in js
-    assert "ashtanga.hridaya.sutra." in js
+    assert "ashtanga-hridaya" in js
+    assert "ashtanga.hridaya" in study
     assert "tika_sarvangasundara_hi" in study
     assert "tika_ayurvedarasayana_hi" in study
     assert 'class="sanskrit"' in study
