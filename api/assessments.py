@@ -22,10 +22,31 @@ from aaptakosha_core.progress_http_api import ProgressHttpApi
 from aaptakosha_core.progress_repository import SQLiteProgressRepository
 
 DB_PATH = os.path.join("/tmp", "aaptakosha-assessment.sqlite3")
-from api.content import load_content as _load_canonical_samhita
+CONTENT_ROOT = os.path.join(os.path.dirname(os.path.dirname(__file__)), "content", "samhita")
 
 def _load_samhita(content_id: str):
-    return _load_canonical_samhita(content_id)
+    if content_id.startswith("charaka.sutra."):
+        family = "charaka"
+    elif content_id.startswith("ashtanga.hridaya.sutra."):
+        family = "ashtanga_hridaya"
+    else:
+        return None
+    try:
+        chapter_no = int(content_id.rsplit(".", 1)[-1])
+    except ValueError:
+        return None
+    if family == "charaka":
+        if chapter_no not in {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}:
+            return None
+        path = os.path.join(CONTENT_ROOT, "charaka", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
+    else:
+        if chapter_no not in {1, 2, 3}:
+            return None
+        path = os.path.join(CONTENT_ROOT, "ashtanga_hridaya", "sutrasthana", f"adhyaya-{chapter_no:02d}.json")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as fh:
+        return json.load(fh)
 DATABASE_BACKEND = "sqlite"
 DATABASE_CONNECTION = None
 API = None
