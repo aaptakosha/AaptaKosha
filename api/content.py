@@ -163,6 +163,11 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
             if len(nums) >= 2:
                 u["start_verse"], u["end_verse"] = nums[0], nums[1]
         units.append(u)
+    # Preserve legacy Samhita identity fields used by the reader and API contract.
+    data["text_id"] = data.get("text_id") or data.get("text") or (content_id.split(".", 1)[0] if "." in content_id else content_id)
+    data["khand_id"] = data.get("khand_id") or data.get("section") or (content_id.split(".")[1] if len(content_id.split(".")) > 2 else None)
+    data["chapter_id"] = data.get("chapter_id") or data.get("chapter") or data.get("adhyaya_id")
+    data["chapter_no"] = data.get("chapter_no") or data.get("chapter_number") or data.get("adhyaya_no")
     data["content_id"] = content_id
     # Preserve the source chapter_id for legacy texts such as Śārṅgadhara;
     # content_id remains the stable API identifier used for lookup/deep links.
