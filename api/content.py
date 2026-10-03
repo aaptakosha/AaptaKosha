@@ -42,6 +42,112 @@ def _content_index() -> dict[str, Path]:
     return index
 
 
+
+def _parse_legacy_sanskrit(text: str) -> list[dict]:
+    """Convert legacy numbered Sanskrit text into the reader's verse shape."""
+    if not isinstance(text, str) or not text.strip():
+        return []
+    import re as _re
+    pattern = _re.compile(r"(.*?)(?:॥|।)\\s*([0-9०-९]+)\\s*(?:॥|।)", _re.S)
+    items = []
+    last = 0
+    for match in pattern.finditer(text):
+        chunk = match.group(0).strip()
+        if not chunk:
+            continue
+        raw_no = match.group(2)
+        try:
+            number = int(raw_no)
+        except ValueError:
+            number = int(raw_no.translate(str.maketrans("०१२३४५६७८९", "0123456789")))
+        items.append({
+            "verse_no": number,
+            "verse_id": f"legacy-{number:02d}",
+            "sanskrit_original": chunk,
+        })
+        last = match.end()
+    if not items and text.strip():
+        items.append({"verse_no": 1, "verse_id": "legacy-01", "sanskrit_original": text.strip()})
+    return items
+
+
+def _range_for_number(value, number: int):
+    import re as _re
+    entries = value if isinstance(value, list) else (list(value.values()) if isinstance(value, dict) else [])
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        raw = entry.get("range") or entry.get("verses")
+        if not raw:
+            start, end = entry.get("start_verse"), entry.get("end_verse")
+        else:
+            match = _re.search(r"([0-9०-९]+)\\s*[-–]\\s*([0-9०-९]+)", str(raw))
+            if not match:
+                continue
+            digits = str(raw).translate(str.maketrans("०१२३४५६७८९", "0123456789"))
+            nums = [int(x) for x in _re.findall(r"\\d+", digits)]
+            start, end = (nums[0], nums[1]) if len(nums) >= 2 else (None, None)
+        if start is not None and end is not None and int(start) <= number <= int(end):
+            return entry.get("text", "")
+    return ""
+
+
+def _normalize_payload(payload: dict, content_id: str) -> dict:
+    """Expose legacy chapter records through the canonical study-reader schema."""
+    data = dict(payload)
+    text = data.get("sanskrit_text", "")
+    raw_verses = data.get("verses")
+    if not isinstance(raw_verses, list):
+        raw_verses = data.get("passages") if isinstance(data.get("passages"), list) else None
+    if raw_verses is None:
+        canonical = data.get("canonical_sanskrit")
+        if isinstance(canonical, list):
+            raw_verses = [
+                {
+                    "verse_no": x.get("verse") if isinstance(x, dict) else i + 1,
+                    "verse_id": f"legacy-{(x.get('verse') if isinstance(x, dict) else i + 1):02d}",
+                    "sanskrit_original": x.get("text", "") if isinstance(x, dict) else str(x),
+                }
+                for i, x in enumerate(canonical)
+            ]
+        else:
+            raw_verses = _parse_legacy_sanskrit(text)
+    verses = []
+    for i, verse in enumerate(raw_verses or [], 1):
+        if not isinstance(verse, dict):
+            verse = {"text": str(verse)}
+        number = int(verse.get("verse_no") or verse.get("passage_no") or verse.get("verse") or i)
+        item = dict(verse)
+        item["verse_no"] = number
+        item["verse_id"] = item.get("verse_id") or f"legacy-{number:02d}"
+        item["sanskrit_original"] = item.get("sanskrit_original") or item.get("text") or ""
+        item["translation_hi"] = item.get("translation_hi") or _range_for_number(data.get("hindi_translation"), number)
+        item["explanation_hi"] = item.get("explanation_hi") or _range_for_number(data.get("hindi_learning_summary"), number)
+        verses.append(item)
+    units = []
+    for i, unit in enumerate(data.get("learning_units") or [], 1):
+        if not isinstance(unit, dict):
+            continue
+        u = dict(unit)
+        u["unit_id"] = u.get("unit_id") or u.get("id") or f"unit-{i:02d}"
+        u["title_hi"] = u.get("title_hi") or u.get("title") or f"Unit {i}"
+        raw_range = u.get("range") or u.get("verses")
+        if raw_range and not u.get("start_verse"):
+            import re as _re
+            nums = [int(x) for x in _re.findall(r"\\d+", str(raw_range))]
+            if len(nums) >= 2:
+                u["start_verse"], u["end_verse"] = nums[0], nums[1]
+        units.append(u)
+    data["content_id"] = content_id
+    data["chapter_id"] = content_id
+    data["title"] = data.get("title") or data.get("title_roman") or data.get("title_sanskrit") or content_id
+    data["title_hi"] = data.get("title_hi") or data.get("title_roman") or data.get("title_sanskrit") or data["title"]
+    data["verses"] = verses
+    data["verse_count"] = len(verses)
+    data["learning_units"] = units
+    return data
+
+
 def _canonical_id(content_id: str) -> str | None:
     match = _CONTENT_ID.fullmatch(content_id.strip())
     if not match:
@@ -64,7 +170,7 @@ def load_content(content_id: str):
     except ValueError:
         return None
     with path.open(encoding="utf-8") as fh:
-        return json.load(fh)
+        return _normalize_payload(json.load(fh), canonical)
 
 
 def _catalog_entry(content_id: str, payload: dict) -> dict:
@@ -101,6 +207,7 @@ def catalog():
                 payload = json.load(fh)
         except (OSError, ValueError, TypeError):
             continue
+        payload = _normalize_payload(payload, content_id)
         entries.append(_catalog_entry(content_id, payload))
     return sorted(entries, key=lambda x: (x["text_slug"], x["section_key"], int(x["chapter_code"])))
 
