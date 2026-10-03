@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def test_vercel_exposes_catalog_function_and_route():
     cfg = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
-    assert any(item.get("src") == "api/catalog.py" for item in cfg["builds"])
+    assert "api/catalog.py" in cfg["functions"]
     assert any(item.get("source") == "/api/catalog/:path*" for item in cfg["rewrites"])
 
 def test_reader_and_assessment_support_all_completed_charaka_chapters():
