@@ -33,3 +33,11 @@ def test_samhita_content_api_supports_generated_ashtanga_and_sharangadhara_ids()
     api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
     assert "ashtanga\\.hridaya" in api
     assert "sarangadhara|sharangadhara" in api
+
+
+def test_sharangadhara_legacy_chapters_are_normalized():
+    api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
+    js=read("samhita-detail.js")
+    assert 'payload.get("khand_id")' in api
+    assert 'chapter_number' in api
+    assert 'const chapters=chapterRows(selectedSection[2]);' in js
