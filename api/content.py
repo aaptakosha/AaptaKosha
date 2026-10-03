@@ -2,52 +2,62 @@
 from __future__ import annotations
 
 import json
+import os
 import re
+import urllib.request
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMHITA_ROOT = ROOT / "content" / "samhita"
+SAMHITA_REGISTRY = ROOT / "content" / "samhita-registry.json"
 _CONTENT_INDEX_CACHE: dict[str, Path] | None = None
+_CONTENT_REGISTRY_CACHE: list[dict] | None = None
 _CONTENT_ID = re.compile(
     r"^(?P<text>charaka|sarangadhara|sharangadhara|ashtanga\.hridaya)\.(?P<section>[a-z]+)\.(?P<chapter>\d{2})$"
 )
 
 
+def _content_registry() -> list[dict]:
+    """Load the compact chapter registry without bundling the chapter payloads."""
+    global _CONTENT_REGISTRY_CACHE
+    if _CONTENT_REGISTRY_CACHE is not None:
+        return _CONTENT_REGISTRY_CACHE
+    try:
+        with SAMHITA_REGISTRY.open(encoding="utf-8") as fh:
+            payload = json.load(fh)
+        entries = payload.get("entries") if isinstance(payload, dict) else None
+        _CONTENT_REGISTRY_CACHE = entries if isinstance(entries, list) else []
+    except (OSError, ValueError, TypeError):
+        _CONTENT_REGISTRY_CACHE = []
+    return _CONTENT_REGISTRY_CACHE
+
+
 def _content_index() -> dict[str, Path]:
-    """Index canonical chapter JSON files once per warm function instance."""
+    """Index canonical chapter paths from the compact registry."""
     global _CONTENT_INDEX_CACHE
     if _CONTENT_INDEX_CACHE is not None:
         return _CONTENT_INDEX_CACHE
     index: dict[str, Path] = {}
-    if not SAMHITA_ROOT.is_dir():
-        return index
-    for path in SAMHITA_ROOT.rglob("*.json"):
-        if path.name in {"registry.json", "research.json"}:
+    for entry in _content_registry():
+        if not isinstance(entry, dict):
             continue
+        content_id = str(entry.get("content_id") or "").strip()
+        path_value = str(entry.get("path") or "").strip()
+        if not _CONTENT_ID.fullmatch(content_id) or not path_value:
+            continue
+        path = (ROOT / path_value).resolve()
         try:
-            with path.open(encoding="utf-8") as fh:
-                payload = json.load(fh)
-        except (OSError, ValueError, TypeError):
+            path.relative_to(SAMHITA_ROOT.resolve())
+        except ValueError:
             continue
-        content_id = str(payload.get("content_id") or payload.get("chapter_id") or "").strip()
-        if not _CONTENT_ID.fullmatch(content_id):
-            text_id = str(payload.get("text_id", "")).strip().lower()
-            section = str(payload.get("section_id") or payload.get("khand_id") or payload.get("sthana_id") or "").strip().lower()
-            chapter_number = payload.get("chapter_number") or payload.get("chapter_no") or payload.get("adhyaya_no")
-            if text_id and section and chapter_number is not None:
-                content_id = f"{text_id}.{section}.{int(chapter_number):02d}"
-        if not _CONTENT_ID.fullmatch(content_id):
-            continue
-        # A duplicate content_id is never silently selected.
         if content_id in index:
             index[content_id] = Path()
         else:
             index[content_id] = path
     _CONTENT_INDEX_CACHE = index
     return index
-
 
 
 def _parse_legacy_sanskrit(text: str) -> list[dict]:
@@ -174,19 +184,44 @@ def _canonical_id(content_id: str) -> str | None:
     return f"{text}.{match.group('section')}.{match.group('chapter')}"
 
 
+def _static_content_url(content_id: str) -> str | None:
+    """Return the same-deployment static URL for a chapter payload on Vercel."""
+    for entry in _content_registry():
+        if entry.get("content_id") == content_id:
+            rel = str(entry.get("path") or "").lstrip("/")
+            host = os.environ.get("VERCEL_URL") or os.environ.get("VERCEL_PROJECT_PRODUCTION_URL")
+            if host and rel:
+                return f"https://{host}/{rel}"
+    return None
+
+
+def _load_remote_content(content_id: str):
+    url = _static_content_url(content_id)
+    if not url:
+        return None
+    try:
+        with urllib.request.urlopen(url, timeout=5) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except (OSError, ValueError, TypeError):
+        return None
+
+
 def load_content(content_id: str):
     canonical = _canonical_id(content_id)
     if canonical is None:
         return None
     path = _content_index().get(canonical)
-    if path is None or not path.is_file():
-        return None
-    try:
-        path.resolve().relative_to(SAMHITA_ROOT.resolve())
-    except ValueError:
-        return None
-    with path.open(encoding="utf-8") as fh:
-        return _normalize_payload(json.load(fh), canonical)
+    if path is not None and path.is_file():
+        try:
+            path.resolve().relative_to(SAMHITA_ROOT.resolve())
+            with path.open(encoding="utf-8") as fh:
+                return _normalize_payload(json.load(fh), canonical)
+        except (OSError, ValueError, TypeError):
+            return None
+    payload = _load_remote_content(canonical)
+    if isinstance(payload, dict):
+        return _normalize_payload(payload, canonical)
+    return None
 
 
 def _catalog_entry(content_id: str, payload: dict) -> dict:
@@ -215,17 +250,44 @@ def _catalog_entry(content_id: str, payload: dict) -> dict:
 
 def catalog():
     entries = []
-    for content_id, path in _content_index().items():
-        if not path.is_file():
+    for entry in _content_registry():
+        if not isinstance(entry, dict):
             continue
-        try:
-            with path.open(encoding="utf-8") as fh:
-                payload = json.load(fh)
-        except (OSError, ValueError, TypeError):
+        content_id = str(entry.get("content_id") or "").strip()
+        if not _CONTENT_ID.fullmatch(content_id):
             continue
-        payload = _normalize_payload(payload, content_id)
-        entries.append(_catalog_entry(content_id, payload))
+        path = _content_index().get(content_id)
+        payload = None
+        if path is not None and path.is_file():
+            try:
+                with path.open(encoding="utf-8") as fh:
+                    payload = _normalize_payload(json.load(fh), content_id)
+            except (OSError, ValueError, TypeError):
+                payload = None
+        if payload is not None:
+            entries.append(_catalog_entry(content_id, payload))
+            continue
+        match = _CONTENT_ID.fullmatch(content_id)
+        text_slug = match.group("text")
+        if text_slug == "sarangadhara":
+            text_slug = "sharangadhara"
+        elif text_slug == "ashtanga.hridaya":
+            text_slug = "ashtanga-hridaya"
+        chapter = int(match.group("chapter"))
+        entries.append({
+            "content_id": content_id,
+            "text_slug": text_slug,
+            "section_key": match.group("section"),
+            "chapter_code": f"{chapter:02d}",
+            "chapter_label": f"Chapter {chapter}",
+            "title": None,
+            "title_hi": None,
+            "chapter_no": chapter,
+            "samhita": None,
+            "sthana": None,
+        })
     return sorted(entries, key=lambda x: (x["text_slug"], x["section_key"], int(x["chapter_code"])))
+
 
 
 class handler(BaseHTTPRequestHandler):
