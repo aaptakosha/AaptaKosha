@@ -1,9 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "git": {
-    "deploymentEnabled": false
-  },
-  "ignoreCommand": "git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" \"$VERCEL_GIT_COMMIT_SHA\" -- frontend api content src migrations vercel.json",
+  "ignoreCommand": "if git cat-file -e \"$VERCEL_GIT_PREVIOUS_SHA^{commit}\" 2>/dev/null; then git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" \"$VERCEL_GIT_COMMIT_SHA\" -- frontend api content src migrations vercel.json; else exit 1; fi",
   "functions": {
     "api/assessments.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
@@ -16,6 +13,10 @@
     }
   },
   "rewrites": [
+    {
+      "source": "/api/samhita-ai",
+      "destination": "/api/samhita-ai.py"
+    },
     {
       "source": "/api/curriculum/nodes",
       "destination": "/api/catalog.py?route=curriculum/nodes"
