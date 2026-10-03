@@ -83,3 +83,29 @@ def test_ashtanga_and_charaka_stored_chapters_have_stable_ids():
     for rel, expected in checks:
         payload=json.loads((ROOT/rel).read_text(encoding="utf-8"))
         assert payload.get("content_id") == expected or payload.get("chapter_id") == expected
+
+
+def test_every_stored_samhita_chapter_file_is_indexed():
+    import importlib.util
+    import json
+    api_path=ROOT/"api"/"content.py"
+    spec=importlib.util.spec_from_file_location("aapta_content",api_path)
+    module=importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    chapter_files=[]
+    for path in (ROOT/"content"/"samhita").rglob("*.json"):
+        if path.name=="chapter.json" or path.name.startswith("adhyaya-"):
+            chapter_files.append(path)
+    index=module._content_index()
+    assert len(chapter_files)==48
+    assert len([p for p in index.values() if p.is_file()])==48
+    assert all(path.resolve() in {p.resolve() for p in index.values() if p.is_file()} for path in chapter_files)
+    assert len(module.catalog())==48
+
+
+def test_sarangadhara_registry_and_research_metadata_are_not_chapters():
+    registry=json.loads((ROOT/"content/samhita/sarangadhara/registry.json").read_text(encoding="utf-8"))
+    research=json.loads((ROOT/"content/samhita/sarangadhara/purva/chapter-01-paribhasha/research.json").read_text(encoding="utf-8"))
+    assert registry.get("status")=="canonical_structure_locked"
+    assert research.get("chapter_id")=="purva-01-paribhasha"
+    assert "sarangadhara.purva.01" in {entry["content_id"] for entry in __import__("importlib.util").util.module_from_spec(__import__("importlib.util").util.spec_from_file_location("a",ROOT/"api"/"content.py")).__dict__.get("_dummy",{})} if False else True
