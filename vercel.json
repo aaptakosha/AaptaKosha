@@ -29,14 +29,7 @@
     {
       "source": "/api/:path*",
       "destination": "/api/assessments.py?route=:path*"
-    },
-    {
-      "source": "/",
-      "destination": "/frontend/index.html"
-    },
-    {
-      "source": "/:path*",
-      "destination": "/frontend/:path*"
     }
-  ]
+  ],
+  "outputDirectory": "frontend"
 }
