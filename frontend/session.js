@@ -22,6 +22,18 @@
     });
 
     if (!window.Clerk) throw new Error("clerk_sdk_unavailable");
+    if (!window.__aaptaClerkUI) {
+      await new Promise((resolve, reject) => {
+        const ui = document.createElement("script");
+        const timeout = setTimeout(() => reject(new Error("clerk_ui_load_timeout")), 5000);
+        ui.src = "https://" + domain + "/npm/@clerk/ui@1/dist/ui.browser.js";
+        ui.async = true;
+        ui.crossOrigin = "anonymous";
+        ui.onload = () => { clearTimeout(timeout); window.__aaptaClerkUI = true; resolve(); };
+        ui.onerror = () => { clearTimeout(timeout); reject(new Error("clerk_ui_load_failed")); };
+        document.head.appendChild(ui);
+      });
+    }
     return window.Clerk;
   }
 
@@ -45,13 +57,17 @@
       if (publishableKey) {
         const Clerk = await loadClerk(publishableKey);
         clerk = new Clerk(publishableKey);
-        await clerk.load();
+        await clerk.load({
+          ui: { ClerkUI: window.__internal_ClerkUICtor },
+          signInForceRedirectUrl: window.location.href,
+          signUpForceRedirectUrl: window.location.href
+        });
         authenticated = Boolean(clerk.isSignedIn && clerk.session);
         window.AaptaKoshaAuth = {
           subjectId: clerk.user ? clerk.user.id : null,
           getToken: () => clerk.session ? clerk.session.getToken() : null,
-          openSignIn: () => clerk.openSignIn(),
-          openUserProfile: () => clerk.openUserProfile()
+          openSignIn: () => clerk.openSignIn({}),
+          openUserProfile: () => clerk.openUserProfile({})
         };
       }
     } catch (_) {
