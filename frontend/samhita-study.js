@@ -77,7 +77,13 @@ function render(){
   grid.innerHTML=renderStudyAids()+(cards||'<div class="empty">इस mode/search के लिए कोई श्लोक या अंश नहीं मिला।</div>');
 }
 function renderMetrics(){const cp=chapterPct(),rp=recitePct();chapterProgress.style.width=cp+"%";chapterProgressLabel.textContent=cp+"% chapter complete";recitationProgress.style.width=rp+"%";const a=reciteItems(),d=a.filter(v=>pf("samhita_recitation",state.chapter.chapter_id+"."+itemId(v)).completion_percent===100).length;document.querySelector("#recitationLabel").textContent=a.length?rp+"% · "+d+"/"+a.length+" श्लोक":"इस अध्याय के लिए अलग NCISM recitation list निर्दिष्ट नहीं";document.querySelector(".study-toolbar button[data-filter=recitation]").hidden=!a.length;document.querySelector("#recitationMeta").textContent=a.length?"NCISM recitation marked":"NCISM scope · recitation list not separately specified";const n=state.chapter.learning_units.findIndex((_,i)=>!unitComplete(i));resumeButton.textContent=n===-1?"✓ अध्याय पूर्ण":"▶ "+(n===0?"शुरू करें":"जारी रखें")+" · Unit "+(n+1);resumeButton.disabled=n===-1}
-function renderAll(){renderMetrics();render()}
+function renderFallback(){
+  const items=Array.isArray(state.items)?state.items:[];
+  const units=Array.isArray(state.chapter?.learning_units)?state.chapter.learning_units:[];
+  if(unitList) unitList.innerHTML=units.map((u,i)=>'<button class="unit-card" data-unit="'+i+'"><span class="unit-number">'+String(i+1).padStart(2,"0")+'</span><span class="unit-copy"><strong>'+esc(u.title_hi||u.title||("Unit "+(i+1)))+'</strong></span></button>').join("");
+  if(grid) grid.innerHTML=items.map(v=>'<article class="verse-card"><div class="verse-number">श्लोक '+esc(itemLabel(v))+'</div><div class="sanskrit">'+esc(v.sanskrit_original||v.text||"").replace(/\\n/g,"<br>")+'</div><div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi||"")+'</p></div><div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi||"")+'</p></div></article>').join("");
+}
+function renderAll(){try{renderMetrics();render()}catch(e){console.error("Samhita render error",e);renderFallback()}}
 function speak(t,src){if(src){const a=new Audio(src);a.play().catch(()=>speakTts(t));return}speakTts(t)}
 function speakTts(t){if(!("speechSynthesis"in window)){alert("इस ब्राउज़र में Read/Audio उपलब्ध नहीं है।");return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="hi-IN";speechSynthesis.speak(u)}
 function assessmentIdForChapter(id){const m=/^charaka\.sutra\.(\d{2})$/.exec(id||"");if(m)return m[1]==="01"?"charaka.sutra.01.ncism-revision":id+".revision";const a=/^ashtanga\.hridaya\.sutra\.(\d{2})$/.exec(id||"");return a?id+".revision":null}
