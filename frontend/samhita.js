@@ -5,7 +5,7 @@ const sarangadharaChapters={
   "madhyama":[1,2,3,4,5,6,7,8,9,10,11,12],
   "uttara":[1,2,3,4,5,6,7,8,9,10,11,12,13]
 };
-const sarangadharaChapterHref=(khanda,number)=>'./samhita-study.html?chapter=sarangadhara.'+khanda+'.'+String(number).padStart(2,'0');
+const sarangadharaChapterHref=(khanda,number)=>'./samhita-chapter.html?text=sharangadhara&section='+encodeURIComponent(khanda)+'&chapter='+String(number).padStart(2,'0');
 
 const texts=[
 ["Charaka Samhita","brihattrayi","samhita","1, 2, 3","aiapget","charaka"],
