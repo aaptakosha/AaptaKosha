@@ -41,7 +41,13 @@ async function fetchHierarchyNodes(curriculumId,subjectId,parentNodeId=null){
   u.searchParams.set("subject_id",subjectId);
   u.searchParams.set("version","2021-22");
   if(parentNodeId)u.searchParams.set("parent_node_id",parentNodeId);
-  const r=await fetch(u);
+  let r=await fetch(u);
+  if(!r.ok){
+    const fallback=new URL("/api/catalog.py",location.origin);
+    fallback.searchParams.set("route","curriculum/nodes");
+    for(const [key,value] of u.searchParams)fallback.searchParams.set(key,value);
+    r=await fetch(fallback);
+  }
   if(!r.ok)throw new Error("hierarchy unavailable");
   return (await r.json()).data?.nodes||[];
 }
