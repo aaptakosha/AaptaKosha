@@ -65,13 +65,28 @@ const params=new URLSearchParams(location.search);const slug=params.get("text")|
 const hero=document.querySelector("#detailHero"),grid=document.querySelector("#sthanaGrid"),note=document.querySelector("#structureNote"),search=document.querySelector("#sectionSearch");
 const selected=params.get("section"),selectedSection=data.sections.find(s=>s[2]===selected);
 const generatedChapters=new Map();let catalogLoaded=false;
+const TEXT_SLUG_ALIASES={
+  "sharangadhara":["sharangadhara","sarangadhara"],
+  "sarangadhara":["sharangadhara","sarangadhara"],
+  "ashtanga-hridaya":["ashtanga-hridaya","ashtanga.hridaya"],
+  "ashtanga.hridaya":["ashtanga-hridaya","ashtanga.hridaya"]
+};
+function slugMatches(entrySlug){
+  const wanted=String(slug||"").toLowerCase();
+  const actual=String(entrySlug||"").toLowerCase();
+  if(wanted===actual)return true;
+  return (TEXT_SLUG_ALIASES[wanted]||[]).includes(actual);
+}
+function catalogKey(entry){
+  return String(entry.text_slug||"").toLowerCase()+"|"+String(entry.section_key||"").toLowerCase()+"|"+String(entry.chapter_code).padStart(2,"0");
+}
 async function loadGeneratedCatalog(){
   try{
     const response=await fetch("/api/content/samhita?catalog=1",{credentials:"same-origin"});
     if(!response.ok)throw new Error("catalog");
     const payload=await response.json();
     (payload.data?.chapters||[]).forEach(entry=>{
-      generatedChapters.set(entry.text_slug+"|"+entry.section_key+"|"+entry.chapter_code,entry);
+      generatedChapters.set(catalogKey(entry),entry);
     });
     catalogLoaded=true;
   }catch(_){catalogLoaded=false}
@@ -79,7 +94,7 @@ async function loadGeneratedCatalog(){
 function chapterRows(sectionKey){
   const byCode=new Map((selectedSection?.[3]||[]).map(c=>[String(c[0]).padStart(2,"0"),c]));
   generatedChapters.forEach(entry=>{
-    if(entry.text_slug===slug&&entry.section_key===sectionKey){
+    if(slugMatches(entry.text_slug)&&String(entry.section_key)===String(sectionKey)){
       const code=String(entry.chapter_code).padStart(2,"0");
       if(!byCode.has(code))byCode.set(code,[code,entry.chapter_label||entry.title||("Chapter "+Number(code))]);
     }
@@ -87,7 +102,10 @@ function chapterRows(sectionKey){
   return [...byCode.values()].sort((a,b)=>Number(a[0])-Number(b[0]));
 }
 function chapterIsAvailable(sectionKey,chapterCode){
-  return generatedChapters.has(slug+"|"+sectionKey+"|"+String(chapterCode).padStart(2,"0"));
+  for(const entry of generatedChapters.values()){
+    if(slugMatches(entry.text_slug)&&String(entry.section_key)===String(sectionKey)&&String(entry.chapter_code).padStart(2,"0")===String(chapterCode).padStart(2,"0")) return true;
+  }
+  return false;
 }const breadcrumb=document.querySelector("#samhitaBreadcrumb");if(breadcrumb){breadcrumb.innerHTML='<a href="./samhita.html">Samhita Library</a><b>›</b>'+(selectedSection?'<a href="./samhita-detail.html?text='+encodeURIComponent(slug)+'">'+data.name+'</a><b>›</b><span>'+selectedSection[0]+'</span>':'<span>'+data.name+'</span>')}
 hero.innerHTML='<div class="detail-title-row"><div><span class="eyebrow">'+data.category+' · Samhita</span><h1>'+(selectedSection?selectedSection[0]:data.name)+'</h1><p class="detail-subtitle">'+(selectedSection?selectedSection[1]+' · Select a chapter to begin study.':data.subtitle)+'</p><div class="detail-meta"><span class="pill">Professional relevance: '+data.relevance+'</span><span class="pill">'+(selectedSection?'Chapter-first navigation':'Section-first navigation')+'</span></div></div></div>';
 note.textContent=selectedSection?((selectedSection[3]||[]).length+' chapter entries'):data.sections.length+' sections in this library map';
