@@ -69,7 +69,7 @@ def test_existing_chapter_id_is_accepted_by_content_index():
     api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
     assert 'data["chapter_id"]' in api
     assert 'payload.get("chapter_no")' in api
-    assert 'payload.get("adhyaya_no")' in api
+    assert 'data["chapter_no"]' in api
 
 
 def test_ashtanga_and_charaka_stored_chapters_have_stable_ids():
