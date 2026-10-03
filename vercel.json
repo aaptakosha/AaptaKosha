@@ -8,15 +8,24 @@
     },
     {
       "src": "api/assessments.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "excludeFiles": "{frontend,.github,docs,tests,scripts,node_modules,.vercel}/**"
+      }
     },
     {
       "src": "api/catalog.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "excludeFiles": "{frontend,.github,docs,tests,scripts,node_modules,.vercel}/**"
+      }
     },
     {
       "src": "api/content.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "excludeFiles": "{frontend,.github,docs,tests,scripts,node_modules,.vercel}/**"
+      }
     }
   ],
   "rewrites": [
