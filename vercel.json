@@ -1,12 +1,18 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": {
+    "deploymentEnabled": false
+  },
+  "ignoreCommand": "git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" \"$VERCEL_GIT_COMMIT_SHA\" -- frontend api content src migrations vercel.json",
   "functions": {
     "api/assessments.py": {
-      "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
     },
-    "api/catalog.py": {},
+    "api/catalog.py": {
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/**}"
+    },
     "api/content.py": {
-      "excludeFiles": "{content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}"
     }
   },
   "rewrites": [
