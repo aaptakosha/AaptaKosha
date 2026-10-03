@@ -9,36 +9,48 @@ from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMHITA_ROOT = ROOT / "content" / "samhita"
-_CHARAKA_ID = re.compile(r"^charaka\.sutra\.(\d{2})$")
-_SARANGADHARA_ID = re.compile(r"^sarangadhara\.(purva|madhyama|uttara)\.(\d{2})$")
+_CONTENT_ID = re.compile(
+    r"^(?P<text>charaka|sarangadhara|sharangadhara|ashtanga\.hridaya)\.(?P<section>[a-z]+)\.(?P<chapter>\d{2})$"
+)
 
 
-def _safe_json_path(content_id: str) -> Path | None:
-    """Resolve only allowlisted canonical content IDs to repository JSON files."""
-    match = _CHARAKA_ID.fullmatch(content_id)
-    if match:
-        chapter_no = int(match.group(1))
-        if chapter_no < 1 or chapter_no > 12:
-            return None
-        return SAMHITA_ROOT / "charaka" / "sutrasthana" / f"adhyaya-{chapter_no:02d}.json"
+def _content_index() -> dict[str, Path]:
+    """Index canonical chapter JSON files by their embedded content_id."""
+    index: dict[str, Path] = {}
+    if not SAMHITA_ROOT.is_dir():
+        return index
+    for path in SAMHITA_ROOT.rglob("*.json"):
+        try:
+            with path.open(encoding="utf-8") as fh:
+                payload = json.load(fh)
+        except (OSError, ValueError, TypeError):
+            continue
+        content_id = str(payload.get("content_id", "")).strip()
+        if not _CONTENT_ID.fullmatch(content_id):
+            continue
+        # A duplicate content_id is never silently selected.
+        if content_id in index:
+            index[content_id] = Path()
+        else:
+            index[content_id] = path
+    return index
 
-    match = _SARANGADHARA_ID.fullmatch(content_id)
-    if match:
-        khanda, chapter_text = match.groups()
-        chapter_no = int(chapter_text)
-        if chapter_no < 1:
-            return None
-        chapter_root = SAMHITA_ROOT / "sarangadhara" / khanda
-        candidates = sorted(chapter_root.glob(f"chapter-{chapter_no:02d}-*/chapter.json"))
-        if len(candidates) != 1:
-            return None
-        return candidates[0]
 
-    return None
+def _canonical_id(content_id: str) -> str | None:
+    match = _CONTENT_ID.fullmatch(content_id.strip())
+    if not match:
+        return None
+    text = match.group("text")
+    if text == "sharangadhara":
+        text = "sarangadhara"
+    return f"{text}.{match.group('section')}.{match.group('chapter')}"
 
 
 def load_content(content_id: str):
-    path = _safe_json_path(content_id.strip())
+    canonical = _canonical_id(content_id)
+    if canonical is None:
+        return None
+    path = _content_index().get(canonical)
     if path is None or not path.is_file():
         return None
     try:
@@ -47,6 +59,44 @@ def load_content(content_id: str):
         return None
     with path.open(encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def _catalog_entry(content_id: str, payload: dict) -> dict:
+    match = _CONTENT_ID.fullmatch(content_id)
+    text = match.group("text")
+    if text == "sarangadhara":
+        text_slug = "sharangadhara"
+    elif text == "ashtanga.hridaya":
+        text_slug = "ashtanga-hridaya"
+    else:
+        text_slug = text
+    chapter = match.group("chapter")
+    return {
+        "content_id": content_id,
+        "text_slug": text_slug,
+        "section_key": match.group("section"),
+        "chapter_code": chapter,
+        "chapter_label": payload.get("title_hi") or payload.get("title") or f"Chapter {int(chapter)}",
+        "title": payload.get("title"),
+        "title_hi": payload.get("title_hi"),
+        "chapter_no": payload.get("chapter_no") or int(chapter),
+        "samhita": payload.get("samhita"),
+        "sthana": payload.get("sthana"),
+    }
+
+
+def catalog():
+    entries = []
+    for content_id, path in _content_index().items():
+        if not path.is_file():
+            continue
+        try:
+            with path.open(encoding="utf-8") as fh:
+                payload = json.load(fh)
+        except (OSError, ValueError, TypeError):
+            continue
+        entries.append(_catalog_entry(content_id, payload))
+    return sorted(entries, key=lambda x: (x["text_slug"], x["section_key"], int(x["chapter_code"])))
 
 
 class handler(BaseHTTPRequestHandler):
@@ -73,6 +123,9 @@ class handler(BaseHTTPRequestHandler):
             path = path[4:] or "/"
         if path != "/content/samhita":
             self._reply(404, {"error": {"code": "route_not_found"}})
+            return
+        if query.get("catalog") == "1":
+            self._reply(200, {"data": {"chapters": catalog()}})
             return
         content = load_content(query.get("content_id", ""))
         if content is None:
