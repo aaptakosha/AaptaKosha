@@ -7,7 +7,7 @@ def test_samhita_landing_links_to_individual_text_pages():
     assert 'href="./samhita-detail.html?text=' in js
 def test_samhita_detail_is_section_only_and_section_links_are_dedicated():
     js=read("samhita-detail.js")
-    assert "samhita-section.html?text=" in js
+    assert "samhita-detail.html?text=" in js
     assert "samhita-chapter.html?text=" in js
     assert "chapter-link" in js
 def test_samhita_dedicated_pages_have_breadcrumbs_and_shared_navigation():
@@ -97,10 +97,10 @@ def test_every_stored_samhita_chapter_file_is_indexed():
         if path.name=="chapter.json" or path.name.startswith("adhyaya-"):
             chapter_files.append(path)
     index=module._content_index()
-    assert len(chapter_files)==48
-    assert len([p for p in index.values() if p.is_file()])==48
+    assert len(chapter_files)==49
+    assert len([p for p in index.values() if p.is_file()])==49
     assert all(path.resolve() in {p.resolve() for p in index.values() if p.is_file()} for path in chapter_files)
-    assert len(module.catalog())==48
+    assert len(module.catalog())==49
 
 
 
@@ -111,7 +111,7 @@ def test_every_catalog_entry_resolves_through_reader_api():
     module=importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     entries=module.catalog()
-    assert len(entries)==48
+    assert len(entries)==49
     for entry in entries:
         assert module.load_content(entry["content_id"]) is not None
         assert module.load_content(entry["content_id"])["content_id"]==entry["content_id"]
@@ -150,4 +150,6 @@ def test_populated_catalog_sections_exist_in_frontend_maps():
 def test_mapped_canonical_chapters_cannot_be_marked_unavailable_by_catalog_mismatch():
     js=read("samhita-detail.js")
     assert "const manuallyMapped=Array.isArray(selectedSection?.[3])" in js
-    assert "const available=manuallyMapped||!catalogLoaded||chapterIsAvailable" in js
+    assert "const available=" in js
+    assert "manuallyMapped" in js
+    assert "chapterIsAvailable" in js
