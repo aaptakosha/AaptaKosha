@@ -20,6 +20,8 @@ def _content_index() -> dict[str, Path]:
     if not SAMHITA_ROOT.is_dir():
         return index
     for path in SAMHITA_ROOT.rglob("*.json"):
+        if path.name in {"registry.json", "research.json"}:
+            continue
         try:
             with path.open(encoding="utf-8") as fh:
                 payload = json.load(fh)
@@ -104,8 +106,8 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
         if isinstance(canonical, list):
             raw_verses = [
                 {
-                    "verse_no": x.get("verse") if isinstance(x, dict) else i + 1,
-                    "verse_id": f"legacy-{(x.get('verse') if isinstance(x, dict) else i + 1):02d}",
+                    "verse_no": (x.get("verse") or x.get("verse_number")) if isinstance(x, dict) else i + 1,
+                    "verse_id": f"legacy-{int((x.get('verse') or x.get('verse_number')) if isinstance(x, dict) else i + 1):02d}",
                     "sanskrit_original": x.get("text", "") if isinstance(x, dict) else str(x),
                 }
                 for i, x in enumerate(canonical)
@@ -116,20 +118,22 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
     for i, verse in enumerate(raw_verses or [], 1):
         if not isinstance(verse, dict):
             verse = {"text": str(verse)}
-        raw_number = verse.get("verse_no") or verse.get("passage_no") or verse.get("verse") or i
+        raw_number = verse.get("verse_no") or verse.get("passage_no") or verse.get("verse") or verse.get("verse_number") or i
         try:
             number = int(raw_number)
         except (TypeError, ValueError):
             number = raw_number
         item = dict(verse)
         item["verse_no"] = number
-        item["verse_id"] = item.get("verse_id") or f"legacy-{number:02d}"
+        item["verse_id"] = item.get("verse_id") or (f"legacy-{int(number):02d}" if str(number).isdigit() else f"legacy-{number}")
         item["sanskrit_original"] = item.get("sanskrit_original") or item.get("text") or item.get("sanskrit") or item.get("sanskrit_text") or ""
         item["translation_hi"] = item.get("translation_hi") or _range_for_number(data.get("hindi_translation"), number)
         item["explanation_hi"] = item.get("explanation_hi") or _range_for_number(data.get("hindi_learning_summary"), number)
         verses.append(item)
     units = []
     for i, unit in enumerate(data.get("learning_units") or [], 1):
+        if isinstance(unit, (list, tuple)):
+            unit = {"unit_id": unit[0] if len(unit) > 0 else None, "range": unit[1] if len(unit) > 1 else None, "title": unit[2] if len(unit) > 2 else None}
         if not isinstance(unit, dict):
             continue
         u = dict(unit)
