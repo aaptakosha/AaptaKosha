@@ -196,6 +196,10 @@
     {
       "content_id": "sarangadhara.uttara.13",
       "path": "content/samhita/sarangadhara/uttara/chapter-13-netraprasadanavidhi/chapter.json"
+    },
+    {
+      "content_id": "madhava.nidana.02",
+      "path": "content/samhita/madhava-nidana/nidana-sthana/adhyaya-02.json"
     }
   ]
 }
