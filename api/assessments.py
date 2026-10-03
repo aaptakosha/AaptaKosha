@@ -22,7 +22,7 @@ from aaptakosha_core.progress_http_api import ProgressHttpApi
 from aaptakosha_core.progress_repository import SQLiteProgressRepository
 
 DB_PATH = os.path.join("/tmp", "aaptakosha-assessment.sqlite3")
-from content import load_content as _load_canonical_samhita
+from api.content import load_content as _load_canonical_samhita
 
 def _load_samhita(content_id: str):
     return _load_canonical_samhita(content_id)
