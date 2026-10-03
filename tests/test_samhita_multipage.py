@@ -145,3 +145,9 @@ def test_populated_catalog_sections_exist_in_frontend_maps():
     assert populated
     for entry in populated:
         assert f'"{entry["section_key"]}"' in detail or f'"{entry["section_key"]},' in detail
+
+
+def test_mapped_canonical_chapters_cannot_be_marked_unavailable_by_catalog_mismatch():
+    js=read("samhita-detail.js")
+    assert "const manuallyMapped=Array.isArray(selectedSection?.[3])" in js
+    assert "const available=manuallyMapped||!catalogLoaded||chapterIsAvailable" in js
