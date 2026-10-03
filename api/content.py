@@ -48,7 +48,7 @@ def _parse_legacy_sanskrit(text: str) -> list[dict]:
     if not isinstance(text, str) or not text.strip():
         return []
     import re as _re
-    pattern = _re.compile(r"(.*?)(?:॥|।)\\s*([0-9०-९]+)\\s*(?:॥|।)", _re.S)
+    pattern = _re.compile(r"(.*?)(?:॥|।)\s*([0-9०-९]+)\s*(?:॥|।)", _re.S)
     items = []
     last = 0
     for match in pattern.finditer(text):
@@ -81,11 +81,11 @@ def _range_for_number(value, number: int):
         if not raw:
             start, end = entry.get("start_verse"), entry.get("end_verse")
         else:
-            match = _re.search(r"([0-9०-९]+)\\s*[-–]\\s*([0-9०-९]+)", str(raw))
+            match = _re.search(r"([0-9०-९]+)\s*[-–]\s*([0-9०-९]+)", str(raw))
             if not match:
                 continue
             digits = str(raw).translate(str.maketrans("०१२३४५६७८९", "0123456789"))
-            nums = [int(x) for x in _re.findall(r"\\d+", digits)]
+            nums = [int(x) for x in _re.findall(r"\d+", digits)]
             start, end = (nums[0], nums[1]) if len(nums) >= 2 else (None, None)
         if start is not None and end is not None and int(start) <= number <= int(end):
             return entry.get("text", "")
@@ -134,7 +134,7 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
         raw_range = u.get("range") or u.get("verses")
         if raw_range and not u.get("start_verse"):
             import re as _re
-            nums = [int(x) for x in _re.findall(r"\\d+", str(raw_range))]
+            nums = [int(x) for x in _re.findall(r"\d+", str(raw_range))]
             if len(nums) >= 2:
                 u["start_verse"], u["end_verse"] = nums[0], nums[1]
         units.append(u)
