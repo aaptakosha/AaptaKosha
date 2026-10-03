@@ -48,7 +48,7 @@ def test_legacy_samhita_payloads_are_normalized_for_reader():
     assert "def _normalize_payload" in api
     assert 'data["verses"] = verses' in api
     assert 'data["verse_count"] = len(verses)' in api
-    assert 'data["chapter_id"] = content_id' in api
+    assert 'data["content_id"] = content_id' in api
     assert "canonical_sanskrit" in api
     assert "sanskrit_text" in api
     assert "hindi_translation" in api
@@ -122,7 +122,7 @@ def test_sharangadhara_frontend_slug_resolves_to_canonical_api_ids():
     detail=read("samhita-detail.js")
     assert 'text+"."+section+"."+chapter' in js
     assert '"sharangadhara"' in detail
-    assert 'entry.text_slug===slug' in detail
+    assert "slugMatches(entry.text_slug)" in detail
 
 
 def test_samhita_frontend_accepts_backend_text_slug_aliases_for_availability():
