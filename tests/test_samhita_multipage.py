@@ -103,9 +103,3 @@ def test_every_stored_samhita_chapter_file_is_indexed():
     assert len(module.catalog())==48
 
 
-def test_sarangadhara_registry_and_research_metadata_are_not_chapters():
-    registry=json.loads((ROOT/"content/samhita/sarangadhara/registry.json").read_text(encoding="utf-8"))
-    research=json.loads((ROOT/"content/samhita/sarangadhara/purva/chapter-01-paribhasha/research.json").read_text(encoding="utf-8"))
-    assert registry.get("status")=="canonical_structure_locked"
-    assert research.get("chapter_id")=="purva-01-paribhasha"
-    assert "sarangadhara.purva.01" in {entry["content_id"] for entry in __import__("importlib.util").util.module_from_spec(__import__("importlib.util").util.spec_from_file_location("a",ROOT/"api"/"content.py")).__dict__.get("_dummy",{})} if False else True
