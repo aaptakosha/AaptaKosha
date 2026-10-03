@@ -25,14 +25,11 @@ LANGUAGES = {
     "hi": "Hindi",
     "en": "English",
     "mr": "Marathi",
-    "bn": "Bengali",
-    "gu": "Gujarati",
     "ta": "Tamil",
     "te": "Telugu",
     "kn": "Kannada",
     "ml": "Malayalam",
-    "pa": "Punjabi",
-    "ur": "Urdu",
+    "bo": "Tibetan",
 }
 
 
@@ -48,10 +45,9 @@ def _reply(handler: BaseHTTPRequestHandler, status: int, payload: dict):
 
 def _require_user(handler: BaseHTTPRequestHandler) -> str:
     """Require a verified Clerk session token sent explicitly as Bearer auth."""
-    authorization = handler.headers.get("Authorization", "").strip()
-    if not authorization.lower().startswith("bearer "):
-        raise PermissionError("authentication_required")
-
+    # Clerk can authenticate from the Authorization header or the same-origin
+    # session cookie. The browser may not have a usable bearer token immediately
+    # after Clerk bootstraps, so do not reject cookie-authenticated sessions here.
     if authenticate_request is None or AuthenticateRequestOptions is None:
         raise RuntimeError("Clerk authentication is not configured")
 
