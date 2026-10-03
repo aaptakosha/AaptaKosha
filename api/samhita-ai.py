@@ -55,12 +55,21 @@ def _require_user(handler: BaseHTTPRequestHandler) -> str:
     if authenticate_request is None or AuthenticateRequestOptions is None:
         raise RuntimeError("Clerk authentication is not configured")
 
+    authorized_parties = [
+        item.strip()
+        for item in os.environ.get("CLERK_AUTHORIZED_PARTIES", "").split(",")
+        if item.strip()
+    ]
+    if not authorized_parties:
+        raise RuntimeError("Clerk authorized parties are not configured")
+
     try:
         state = authenticate_request(
             handler,
             AuthenticateRequestOptions(
                 secret_key=os.environ.get("CLERK_SECRET_KEY"),
                 jwt_key=os.environ.get("CLERK_JWT_KEY"),
+                authorized_parties=authorized_parties,
                 accepts_token=["session_token"],
             ),
         )
