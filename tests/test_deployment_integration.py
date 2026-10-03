@@ -46,3 +46,18 @@ def test_vercel_routes_curriculum_hierarchy_to_catalog_handler():
     config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
     routes = {r["source"]: r["destination"] for r in config["rewrites"]}
     assert routes["/api/curriculum/:path*"] == "/api/catalog.py?route=curriculum/:path*"
+
+
+def test_curriculum_hierarchy_has_direct_function_fallback_and_explicit_route():
+    script = (ROOT / "frontend" / "curriculum.js").read_text(encoding="utf-8")
+    assert 'new URL("/api/catalog.py",location.origin)' in script
+    assert 'fallback.searchParams.set("route","curriculum/nodes")' in script
+    config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
+    routes = {r["source"]: r["destination"] for r in config["rewrites"]}
+    assert routes["/api/curriculum/nodes"] == "/api/catalog.py?route=curriculum/nodes"
+
+
+def test_samhita_newline_renderer_uses_real_newline_regex():
+    script = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
+    assert '.replace(/\\n/g,"<br>")' in script
+    assert '.replace(/\\\\n/g,"<br>")' not in script
