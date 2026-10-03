@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in — AaptaKosha</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    body{min-height:100vh;display:grid;place-items:center;background:#f6f8f5;margin:0}
+    .auth-page{width:min(calc(100% - 32px),520px);padding:28px 0}
+    .auth-card{background:#fff;border:1px solid rgba(20,60,45,.10);border-radius:24px;padding:28px;box-shadow:0 18px 50px rgba(20,60,45,.10)}
+    .auth-brand{display:flex;align-items:center;gap:12px;margin-bottom:22px;color:inherit;text-decoration:none}
+    .auth-brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#e8f1ea;font-size:22px}
+    .auth-brand small{display:block;opacity:.65;margin-top:3px}
+    #sign-in{min-height:420px}
+    .auth-error{padding:16px;border-radius:12px;background:#fff1f1;color:#8b2020}
+  </style>
+</head>
+<body>
+  <main class="auth-page">
+    <section class="auth-card">
+      <a class="auth-brand" href="./index.html">
+        <span class="auth-brand-mark" aria-hidden="true">✦</span>
+        <span><strong>AaptaKosha</strong><small>Learn · Grow · Build Your Future</small></span>
+      </a>
+      <div id="sign-in" aria-live="polite">Loading secure sign-in…</div>
+    </section>
+  </main>
+  <script src="./session.js"></script>
+  <script>
+    (async function(){
+      const box=document.getElementById('sign-in');
+      const params=new URLSearchParams(location.search);
+      const requested=params.get('redirect');
+      let redirect='/';
+      try{
+        if(requested){
+          const u=new URL(requested,location.origin);
+          if(u.origin===location.origin) redirect=u.href;
+        }
+      }catch(_){}
+      try{
+        const session=await window.AaptaKoshaSessionReady;
+        if(session?.authenticated){ location.replace(redirect); return; }
+        if(!session?.clerk || typeof session.clerk.mountSignIn!=='function') throw new Error('secure_sign_in_unavailable');
+        box.textContent='';
+        session.clerk.mountSignIn(box,{forceRedirectUrl:redirect});
+      }catch(_){
+        box.innerHTML='<div class="auth-error"><strong>Sign-in could not be loaded.</strong><br>Please refresh this page and try again.</div>';
+      }
+    })();
+  </script>
+</body>
+</html>
