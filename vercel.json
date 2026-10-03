@@ -11,7 +11,7 @@
     },
     "api/content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}",
-      "includeFiles": "content/samhita/ashtanga_hridaya/sutrasthana/adhyaya-01.json"
+      "includeFiles": "content/samhita/**"
     }
   },
   "rewrites": [
