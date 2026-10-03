@@ -7,7 +7,7 @@
     const domain=clerkDomain(key);
     if(!domain)return;
     const redirect=encodeURIComponent(window.location.href);
-    window.location.assign('https://'+domain+'/sign-in?redirect_url='+redirect);
+    window.location.assign('/sign-in.html?redirect='+redirect);
   }
   async function loadClerk(key){
     if(!key)return null;
