@@ -15,7 +15,7 @@ SAMHITA_REGISTRY = ROOT / "content" / "samhita-registry.json"
 _CONTENT_INDEX_CACHE: dict[str, Path] | None = None
 _CONTENT_REGISTRY_CACHE: list[dict] | None = None
 _CONTENT_ID = re.compile(
-    r"^(?P<text>charaka|sarangadhara|sharangadhara|ashtanga\.hridaya)\.(?P<section>[a-z]+)\.(?P<chapter>\d{2})$"
+    r"^(?P<text>charaka|madhava|sarangadhara|sharangadhara|ashtanga\.hridaya)\.(?P<section>[a-z]+)\.(?P<chapter>\d{2})$"
 )
 
 
