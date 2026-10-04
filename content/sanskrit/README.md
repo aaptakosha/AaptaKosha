@@ -1,97 +1,63 @@
 # Sanskrit & Ayurveda Itihas — AyUG-SN & AI
 
 **NCISM subject:** AyUG-SN & AI — Sanskrit and History of Ayurveda  
-**First Professional BAMS**
+**Professional:** First Professional BAMS
 
-> **Important:** NCISM divides this subject into **two theory papers**. Sanskrit is present in both papers; Paper II also contains Ayurveda Itihas.
+NCISM divides the subject into **two theory papers**:
 
-## Examination structure
-
-| Paper | Sanskrit | Ayurveda Itihas | Total theory |
+| Paper | Sanskrit | Ayurveda Itihas | Total |
 |---|---:|---:|---:|
-| **Paper I** | 100 marks | — | **100** |
-| **Paper II** | 80 marks | 20 marks | **100** |
+| Paper I | 100 | — | 100 |
+| Paper II | 80 | 20 | 100 |
 | **Total** | **180** | **20** | **200** |
 
-NCISM confirms Paper I as Sanskrit (100 marks), while Paper II contains Sanskrit (80) and Ayurveda Itihas (20). citeturn0search0
+NCISM's official curriculum lists Paper I Sanskrit, Paper II Part A Sanskrit, and Paper II Part B Ayurved Itihas separately. citeturn0search0turn2search0
 
-## Course architecture in AaptaKosha
+## Repository structure
 
-### PAPER I — SANSKRIT
+### Paper I — Sanskrit
+**11 NCISM topics**
 
-This is the larger Sanskrit grammar, language and text-reading foundation.
+1. संस्कृतवर्णानाम् परिचयः
+2. संज्ञा-प्रकरणम्
+3. उपसर्गाः
+4. अव्ययम्
+5. कारक-प्रकरणम्
+6. सन्धि
+7. समास-प्रकरणम्
+8. शब्दरूपाणि
+9. धातुरूपाणि
+10. प्रत्ययाः
+11. विशेषण-विशेष्यम्
 
-Core areas include:
-1. वर्णमाला, माहेश्वरसूत्र, उच्चारण
-2. व्याकरण-संज्ञा and technical grammatical terminology
-3. अव्यय
-4. शब्दरूप and सर्वनाम
-5. धातु and धातुरूप
-6. कारक and विभक्ति
-7. सन्धि
-8. समास
-9. उपसर्ग and प्रत्यय
-10. पर्याय, निरुक्ति and कोश-प्रयोग
-11. छन्द and अलंकार
-12. Sanskrit text reading, translation and application
+See: `paper-1/README.md`
 
-### PAPER II — PART A — SANSKRIT
+### Paper II — Part A — Sanskrit
+**5 NCISM units**
 
-Paper II contains a **separate Sanskrit component worth 80 marks**. It must therefore remain a separate sequence and must **not be merged into Paper I**.
+1. निरुक्ति तथा पर्यायपदानि
+2. परिभाषापदानि
+3. अष्टाङ्गहृदयम् — prescribed selected chapters
+4. महत्त्वपूर्ण आयुर्वेद सुभाषित
+5. पञ्चतन्त्रम् — prescribed stories
 
-NCISM lists Paper II Part A separately from Paper I in the official curriculum. citeturn2search0
+See: `paper-2/README.md` and `paper-2/part-a/`
 
-AaptaKosha will maintain the prescribed Paper II Sanskrit literature/text portion separately, with:
-- prescribed passages/texts;
-- पदच्छेद and अन्वय where applicable;
-- शब्दार्थ;
+### Paper II — Part B — Ayurved Itihas
+This remains a separate **20-mark MCQ component** and will be developed independently from the Sanskrit content.
+
+## Student-first method
+
+For text-based Sanskrit:
+
+**पाठ → पदच्छेद → व्याकरण → अन्वय → शब्दार्थ → भावार्थ → आयुर्वेदिक संदर्भ → प्रश्न-अभ्यास**
+
+For every prescribed text, AaptaKosha should distinguish:
+- the authorised source text;
+- commentary/tika;
+- grammar;
 - translation;
-- grammar/application;
-- important परीक्षा points;
-- practice questions;
-- viva-oriented preparation.
+- Ayurveda interpretation;
+- exam-focused material.
 
-### PAPER II — PART B — AYURVED ITIHAS
-
-The remaining **20 marks** of Paper II are Ayurveda History. NCISM includes:
-- derivation and definition of Itihasa;
-- need, significance and utility of Ayurveda history;
-- methods of studying Ayurveda history;
-- major historical periods;
-- origin and lineage of Ayurveda (Ayurvedavatarana);
-- references in Veda, Upanishad and Purana;
-- structure, chronology, specialties and contributions of major Samhitas and commentators. citeturn0search1turn0search2
-
-## Student-first learning method
-
-AaptaKosha will not treat Sanskrit as memorisation-only content.
-
-For every Sanskrit topic, students should progress:
-
-**पाठ → पदच्छेद → व्याकरण → अन्वय → शब्दार्थ → भावार्थ → आयुर्वेदिक संदर्भ**
-
-The purpose is to make students capable of opening a Sanskrit Ayurveda passage and independently identifying:
-- word forms;
-- case and number;
-- verb/root;
-- sandhi;
-- compounds;
-- prefixes/suffixes;
-- dictionary meaning;
-- contextual Ayurvedic meaning.
-
-## Assessment-aware organisation
-
-Every paper will have:
-- NCISM topic mapping
-- chapter/topic notes
-- worked examples
-- tables and diagrams where useful
-- Sanskrit examples relevant to Ayurveda
-- common mistakes
-- exam-focused points
-- practice questions
-- viva/practical preparation where applicable
-- revision checklists
-
-**Source:** NCISM, I Professional Ayurvedacharya (BAMS), AyUG-SN & AI curriculum.
+**Important:** syllabus mapping is kept separate from general Sanskrit enrichment so students can see exactly what belongs to Paper I and Paper II.
