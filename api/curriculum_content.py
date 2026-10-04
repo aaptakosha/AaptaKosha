@@ -30,6 +30,8 @@ def load_content(subject_id: str, node_code: str):
     # Current file convention: AH.Su.1 -> AH-Su-01-*.json
     if subject == "AyUG-SA1" and code == "AH.Su.1":
         path = CONTENT_ROOT / subject / "AH-Su-01-Ayushkamiya.json"
+    elif subject == "AyUG-SA1" and code == "AH.Su.2":
+        path = CONTENT_ROOT / subject / "AH-Su-02-Dinacharya.json"
     else:
         return None
     try:
