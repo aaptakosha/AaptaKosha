@@ -568,7 +568,7 @@ The student should cross-read the relevant discussions in:
 
 ## NCISM alignment
 
-This chapter corresponds to **Paper I, Topic 1 — Ayurveda Nirupana** of AyUG-PV. NCISM's examination table identifies it as a Term-I topic and permits MCQ, SAQ and LAQ assessment. citeturn2search0
+This chapter corresponds to **Paper I, Topic 1 — Ayurveda Nirupana** of AyUG-PV. NCISM's examination table identifies it as a Term-I topic and permits MCQ, SAQ and LAQ assessment.
 
 ### Next unit
 
