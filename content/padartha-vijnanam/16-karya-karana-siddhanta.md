@@ -11,9 +11,9 @@ The official NCISM syllabus requires:
 - significance of Karya and Karana in Ayurveda;
 - major philosophical positions on manifestation of Karya from Karana;
 - utility of these views in Ayurveda;
-- cause-effect relationship, causality and causation in contemporary sciences. citeturn0search1
+- cause-effect relationship, causality and causation in contemporary sciences.
 
-NCISM also identifies analysis and application of Karya–Karana Bhava in Ayurveda as a course learning outcome. citeturn0search0
+NCISM also identifies analysis and application of Karya–Karana Bhava in Ayurveda as a course learning outcome.
 
 ---
 
@@ -875,7 +875,7 @@ A temporal association between a food, behaviour or exposure and a symptom shoul
 
 # 45. Charakokta Dashvidha Parikshya Bhava
 
-**Dashvidha Parikshya Bhava** is Charaka's tenfold set of factors to be examined before initiating an action. It is explicitly included in the NCISM learning objectives under Karya–Karana Siddhanta and should be studied as an applied form of causal and purposeful planning. citeturn0search0
+**Dashvidha Parikshya Bhava** is Charaka's tenfold set of factors to be examined before initiating an action. It is explicitly included in the NCISM learning objectives under Karya–Karana Siddhanta and should be studied as an applied form of causal and purposeful planning.
 
 The ten factors are:
 
@@ -892,7 +892,7 @@ The ten factors are:
 | **Pravritti** | Initiation or undertaking of the action |
 | **Upaya** | The method, strategy or means adopted to accomplish it |
 
-A published review of Charaka's formulation describes these ten factors as a structured method of investigation that supports proper planning and helps avoid aimless intellectual activity. citeturn0search0
+A published review of Charaka's formulation describes these ten factors as a structured method of investigation that supports proper planning and helps avoid aimless intellectual activity.
 
 ### Clinical interpretation
 
@@ -1280,7 +1280,7 @@ Causal attribution requires appropriate evaluation.
 17. Causation in clinical practice is often multifactorial.
 18. Association is not automatically causation.
 19. Modern causal science is a useful comparison but not identical to classical theories.
-20. NCISM requires application of these concepts in Ayurveda and contemporary causality. citeturn0search1
+20. NCISM requires application of these concepts in Ayurveda and contemporary causality.
 
 ---
 
@@ -1729,9 +1729,9 @@ This chapter covers **Topic 7 — Karya–Karana Siddhanta** of the official NCI
 - **7.1** Lakshana of Karya and Karana; types of Karana.
 - **7.2** Significance of Karya and Karana in Ayurveda.
 - **7.3** Satkaryavada, Parinamavada, Vivartavada, Asatkaryavada, Arambhavada, Paramanuvada, Kshanabhanguravada, Pilupaka, Pitharapaka, Anekantavada, Swabhavavada and Swabhavoparamavada, with their importance/utility in Ayurveda.
-- **7.4** Cause-effect relationship, causality and causation in contemporary sciences. citeturn0search1
+- **7.4** Cause-effect relationship, causality and causation in contemporary sciences.
 
-The course learning outcomes explicitly require students to **analyse and apply Karya–Karana Bhava in Ayurveda**. citeturn0search0
+The course learning outcomes explicitly require students to **analyse and apply Karya–Karana Bhava in Ayurveda**.
 
 ## Classical-study direction
 
