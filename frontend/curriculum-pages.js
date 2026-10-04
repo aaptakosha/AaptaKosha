@@ -52,6 +52,9 @@ async function renderSubject(){
  let chapters=[];
  for(const n of roots){if(String(n.node_type).toLowerCase()==='chapter')chapters.push(n);else if(String(n.node_type).toLowerCase()==='paper'){try{chapters.push(...await apiNodes(cid,id,n.node_id))}catch{}}}
  if(!chapters.length)chapters=roots;
+ if(!chapters.length && id==="AyUG-SA1"){
+   chapters=AH_CHAPTERS.map(([node_id,code,name])=>({node_id,code,name,node_type:"chapter"}));
+ }
  const body='<div class="page-list">'+chapters.map(n=>'<a class="content-card" href="./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)+'&node_id='+encodeURIComponent(n.node_id)+'&node_code='+encodeURIComponent(n.code||'')+'&chapter_name='+encodeURIComponent(n.name)+'"><span class="card-code">'+esc(n.code||n.node_type||'Chapter')+'</span><div><h2>'+esc(n.name)+'</h2><p>Open chapter and its topics</p></div><b>→</b></a>').join('')+(chapters.length?'':'<div class="empty-state">No chapters have been published for this subject yet.</div>')+'</div>';
  page.innerHTML=shell(name,'Chapters and learning units for this subject.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[name,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)]],body,'./year'+year+'.html');
 }
