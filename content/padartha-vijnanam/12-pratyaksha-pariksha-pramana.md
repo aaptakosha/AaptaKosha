@@ -6,7 +6,7 @@
 
 **Pratyaksha** is direct perception and is one of the principal means of valid knowledge. In Ayurveda and Darshana, the study of Pratyaksha includes not only the ordinary act of seeing or sensing, but also the nature of perception, its classifications, the relationship between Indriya and their objects, Sannikarsha, the role of Manas and other Karana, obstacles to perception, and methods of improving accurate observation.
 
-The official NCISM AyUG-PV curriculum requires study of the **Lakshana and types of Pratyaksha**, including **Nirvikalpaka and Savikalpaka**, **Laukika and Alaukika** perception and their further classifications; **Indriya-prapyakaritva**; the six types of **Sannikarsha**; characteristics, classification and enumeration of Indriya; **Panchapanchaka**, Panchabhautikatva and Tulyayonitva of Indriya; **Trayodasha Karana** and dominance of Antahkarana; and hindrances and enhancement of direct perception. citeturn0search0turn0search1
+The official NCISM AyUG-PV curriculum requires study of the **Lakshana and types of Pratyaksha**, including **Nirvikalpaka and Savikalpaka**, **Laukika and Alaukika** perception and their further classifications; **Indriya-prapyakaritva**; the six types of **Sannikarsha**; characteristics, classification and enumeration of Indriya; **Panchapanchaka**, Panchabhautikatva and Tulyayonitva of Indriya; **Trayodasha Karana** and dominance of Antahkarana; and hindrances and enhancement of direct perception.
 
 ---
 
@@ -693,7 +693,7 @@ Modern neuroscience can provide analogies, but it should not be presented as pro
 
 # 37. Causes of failure of Pratyaksha
 
-The syllabus specifically requires study of **Pratyaksha-anupalabdhikaarana** — causes for failure/non-availability of direct perception. citeturn0search0
+The syllabus specifically requires study of **Pratyaksha-anupalabdhikaarana** — causes for failure/non-availability of direct perception.
 
 Direct perception may fail because of:
 
@@ -1500,7 +1500,7 @@ NCISM explicitly requires:
 - Panchapanchaka;
 - Panchabhautikatva and Tulyayonitva;
 - Trayodasha Karana and dominance of Antahkarana;
-- causes of non-perception and enhancement of Pratyaksha. citeturn0search0turn0search1
+- causes of non-perception and enhancement of Pratyaksha.
 
 ## Classical-study direction
 
