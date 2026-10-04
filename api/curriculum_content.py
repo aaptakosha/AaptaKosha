@@ -50,6 +50,8 @@ def load_content(subject_id: str, node_code: str):
         path = CONTENT_ROOT / subject / "AH-Su-10-Rasabhediya.json"
     elif subject == "AyUG-SA1" and code == "AH.Su.11":
         path = CONTENT_ROOT / subject / "AH-Su-11-DoshadiVijnaniya.json"
+    elif subject == "AyUG-SA1" and code == "AH.Su.12":
+        path = CONTENT_ROOT / subject / "AH-Su-12-Doshabhediya.json"
     else:
         return None
     try:
