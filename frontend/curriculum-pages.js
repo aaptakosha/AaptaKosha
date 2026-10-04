@@ -35,44 +35,26 @@ async function renderSubject(){
  let chapters=[];
  for(const n of roots){if(String(n.node_type).toLowerCase()==='chapter')chapters.push(n);else if(String(n.node_type).toLowerCase()==='paper'){try{chapters.push(...await apiNodes(cid,id,n.node_id))}catch{}}}
  if(!chapters.length)chapters=roots;
- const body='<div class="page-list">'+chapters.map(n=>'<a class="content-card" href="./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)+'&node_id='+encodeURIComponent(n.node_id)+'&chapter_name='+encodeURIComponent(n.name)+'"><span class="card-code">'+esc(n.code||n.node_type||'Chapter')+'</span><div><h2>'+esc(n.name)+'</h2><p>Open chapter and its topics</p></div><b>→</b></a>').join('')+(chapters.length?'':'<div class="empty-state">No chapters have been published for this subject yet.</div>')+'</div>';
+ const body='<div class="page-list">'+chapters.map(n=>'<a class="content-card" href="./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)+'&node_id='+encodeURIComponent(n.node_id)+'&node_code='+encodeURIComponent(n.code||'')+'&chapter_name='+encodeURIComponent(n.name)+'"><span class="card-code">'+esc(n.code||n.node_type||'Chapter')+'</span><div><h2>'+esc(n.name)+'</h2><p>Open chapter and its topics</p></div><b>→</b></a>').join('')+(chapters.length?'':'<div class="empty-state">No chapters have been published for this subject yet.</div>')+'</div>';
  page.innerHTML=shell(name,'Chapters and learning units for this subject.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[name,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)]],body,'./year'+year+'.html');
-}
-function mdInline(s){return esc(s).replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>').replace(/\\*([^*]+)\\*/g,'<em>$1</em>').replace(/\`([^\`]+)\`/g,'<code>$1</code>')}
-function mdHtml(md){
- const lines=String(md||'').replace(/\\r/g,'').split('\\n');let out='',code=false,buf=[],i=0;
- while(i<lines.length){
-  const line=lines[i];
-  if(line.trim().startsWith('\\`\\`\\`')){if(code){out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';buf=[];code=false}else code=true;i++;continue}
-  if(code){buf.push(line);i++;continue}
-  if(line.trim().startsWith('|')&&i+1<lines.length&&/^\\s*\\|?\\s*:?-+:?\\s*(\\|\\s*:?-+:?\\s*)+\\|?\\s*$/.test(lines[i+1])){
-   const rows=[];while(i<lines.length&&lines[i].trim().startsWith('|')){const cells=lines[i].trim().replace(/^\\|/,'').replace(/\\|$/,'').split('|').map(x=>x.trim());if(!/^\\s*:?-+:?\\s*$/.test(cells[0]))rows.push(cells);i++}
-   if(rows.length){out+='<div class="table-wrap"><table><thead><tr>'+rows[0].map(x=>'<th>'+mdInline(x)+'</th>').join('')+'</tr></thead><tbody>'+rows.slice(1).map(row=>'<tr>'+row.map(x=>'<td>'+mdInline(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'}continue;
-  }
-  if(/^### /.test(line))out+='<h3>'+mdInline(line.slice(4))+'</h3>';
-  else if(/^## /.test(line))out+='<h2>'+mdInline(line.slice(3))+'</h2>';
-  else if(/^# /.test(line))out+='<h1>'+mdInline(line.slice(2))+'</h1>';
-  else if(/^> /.test(line))out+='<blockquote>'+mdInline(line.slice(2))+'</blockquote>';
-  else if(/^[-*] /.test(line))out+='<li>'+mdInline(line.slice(2))+'</li>';
-  else if(/^\\d+\\. /.test(line))out+='<li>'+mdInline(line.replace(/^\\d+\\. /,''))+'</li>';
-  else if(line.trim()==='')out+='<br>';
-  else out+='<p>'+mdInline(line)+'</p>';
-  i++;
- }
- if(code)out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';return out;
-}
-async function padarthaContent(nodeId){
- const r=await fetch('/api/content/padartha?node_id='+encodeURIComponent(nodeId));
- if(!r.ok)throw new Error('content unavailable');const b=await r.json();return b.data?.content||'';
 }
 async function renderChapter(){
  const year=Number(qs.get("year")),cid=qs.get("curriculum_id"),sid=qs.get("subject_id"),sname=qs.get("subject_name")||sid,nodeId=qs.get("node_id"),name=qs.get("chapter_name")||"Chapter";
  if(!year||!cid||!sid||!nodeId){location.href='./curriculum.html';return}
- document.title=name+' — AaptaKosha';let topics=[];try{topics=await apiNodes(cid,sid,nodeId)}catch{}
- let article='';
- if(sid==='AyUG-PV'){try{const md=await padarthaContent(nodeId);if(md)article='<article class="topic-panel chapter-content">'+mdHtml(md)+'</article>'}catch{}}
- const topicPanel='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
- const body=article+topicPanel;
- page.innerHTML=shell(name,'Study the topics contained in this chapter.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
+ document.title=name+' — AaptaKosha';
+ let topics=[];try{topics=await apiNodes(cid,sid,nodeId)}catch{}
+ const nodeCode=qs.get("node_code")||"";
+ let lesson=null;
+ if(nodeCode){
+   try{
+     const u=new URL("/api/curriculum/content",location.origin);
+     u.searchParams.set("subject_id",sid);u.searchParams.set("node_code",nodeCode);
+     const r=await fetch(u);if(r.ok)lesson=(await r.json()).data||null;
+   }catch{}
+ }
+ const lessonHtml=lesson?'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">NCISM-aligned study content</span><h2>'+esc(lesson.chapter_title||name)+'</h2><p>'+esc(lesson.scope_note||'')+'</p></div><div class="topic-list">'+(lesson.learning_outcomes?.length?'<article class="topic-item"><span>LO</span><div><h3>Learning outcomes</h3><ul>'+lesson.learning_outcomes.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+(lesson.sections||[]).map(sec=>'<article class="topic-item"><span>'+esc(sec.id?.split("-")[0]||'')+'</span><div><h3>'+esc(sec.title||'')+'</h3>'+(sec.content||[]).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div></article>').join('')+(lesson.exam_focus?.length?'<article class="topic-item"><span>EX</span><div><h3>Exam focus</h3><ul>'+lesson.exam_focus.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+'</div></div>':'';
+ const topicsHtml='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
+ const body=lessonHtml+topicsHtml;
+ page.innerHTML=shell(name,lesson?'Read the NCISM-aligned lesson, then review the chapter topics.':'Study the topics contained in this chapter.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
 }
 const file=location.pathname.split('/').pop();if(file==='subject.html')renderSubject();else if(file==='chapter.html')renderChapter();else renderYear();

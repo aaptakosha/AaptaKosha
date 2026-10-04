@@ -1,0 +1,355 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-11",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.11",
+  "chapter_title": "Doshadi Vijnaniya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "status": "content_complete_student_layer",
+  "verse_count": 45,
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "दोषधातुमला मूलं सदा देहस्य तं चलः। उत्साहोच्छ्वासनिश्वासचेष्टावेगप्रवर्तनैः॥१॥",
+      "student_meaning": "Doshas, dhatus and malas are the fundamental supports of the body; normal Vata promotes enthusiasm, respiration, movement, natural urges, proper tissue movement and sensory function."
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "सम्यग्गत्या च धातूनामक्षाणां पाटवेन च। अनुगृह्णात्यविकृतः, पित्तं पक्त्यूष्मदर्शनैः॥२॥",
+      "student_meaning": "Normal Vata supports proper tissue movement and sensory acuity; normal Pitta supports digestion, heat and visual function."
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "क्षुत्तृड्रुचिप्रभामेधाधीशौर्यतनुमार्दवैः। श्लेष्मा स्थिरत्वस्निग्धत्वसन्धिबन्धक्षमादिभिः॥३॥",
+      "student_meaning": "Normal Pitta supports appetite, thirst, taste, complexion, intellect, courage and bodily softness; Kapha supports stability, unctuousness, joint binding and endurance."
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "प्रीणनं जीवनं लेपः स्नेहो धारणपूरणे। गर्भोत्पादश्च धातूनां श्रेष्ठं कर्म क्रमात्स्मृतम्॥४॥",
+      "student_meaning": "The principal sequential functions of the seven dhatus are nourishment, life-support, structural coating, unctuousness, support, filling and reproduction."
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "अवष्टम्भः पुरीषस्य, मूत्रस्य क्लेदवाहनम्। स्वेदस्य क्लेदविधृतिः वृद्धस्तु कुरुतेऽनिलः॥५॥",
+      "student_meaning": "The chief functions of faeces, urine and sweat are respectively bodily support, removal of fluid waste and regulation/retention of moisture; increased Vata produces characteristic disturbances."
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "कार्श्यकार्ष्ण्योष्णकामित्वकम्पानाहशकृद्ग्रहान्। बलनिद्रेन्द्रियभ्रंशप्रलापभ्रमदीनताः॥६॥",
+      "student_meaning": "Excess Vata produces emaciation, dark complexion, heat-seeking tendency, tremor, abdominal distension, constipation, weakness, sleep and sensory disturbance, delirium, dizziness and debility."
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "पीतविण्मूत्रनेत्रत्वक्क्षुत्तृड्दाहाल्पनिद्रताः। पित्तम् श्लेष्माऽग्निसदनप्रसेकालस्यगौरवम्॥७॥",
+      "student_meaning": "Excess Pitta produces yellow discoloration, altered stool and urine, ocular and skin changes, thirst, burning and reduced sleep; the verse then begins the description of increased Kapha."
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "श्वैत्यशैत्यश्लथाङ्गत्वं श्वासकासातिनिद्रताः। रसोऽपि श्लेष्मवत् रक्तं विसर्पप्लीहविद्रधीन्॥८॥",
+      "student_meaning": "Excess Kapha produces pallor, coldness, laxity, dyspnoea, cough and excessive sleep; increased Rasa produces disorders resembling increased Kapha, while increased Rakta produces swelling and suppurative conditions."
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "कुष्ठवातास्रपित्तास्रगुल्मोपकुशकामलाः। व्यङ्गाग्निनाशसम्मोहरक्तत्वङ्‌नेत्रमूत्रताः॥९॥",
+      "student_meaning": "Rakta increase may manifest through skin, inflammatory, metabolic and ocular/urinary disorders including visarpa, splenic enlargement, abscess, skin disease, jaundice and complexion changes."
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "मांसं गण्डार्बुदग्रन्थिगण्डोरूदरवृद्धिताः। कण्ठादिष्वधिमांसं च तद्वन्मेदस्तथा श्रमम्॥१०॥",
+      "student_meaning": "Increased Mamsa produces excessive tissue masses and enlargements; increased Medas produces comparable excess tissue burden and fatigue."
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "अल्पेऽपि चेष्टिते श्वासं स्फिक्स्तनोदरलम्बनम्। अस्थ्यध्यस्थ्यधिदंतांश्च मज्जा नेत्राङ्गगौरवम्॥११॥",
+      "student_meaning": "Excess Mamsa/Medas may cause breathlessness with little exertion and hanging of buttocks, breasts or abdomen; increased Asthi and Majja produce dental, skeletal, ocular and bodily heaviness-related changes."
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "पर्वसु स्थूलमूलानि कुर्यात्कृच्छ्राण्यरूंषि च। अतिस्त्रीकामतां वृद्धं शुक्रं शुक्राश्मरीमपि॥१२॥",
+      "student_meaning": "Increased Asthi may produce hard-rooted lesions around joints; increased Shukra may manifest as excessive sexual desire and seminal calculi."
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "कुक्षावाध्मानमाटोपं गौरवं वेदनां शकृत्। मूत्रं तु बस्तिनिस्तोदं कृतेऽप्यकृतसंज्ञताम्॥१३॥",
+      "student_meaning": "Increased Purisha causes abdominal distension, rumbling, heaviness and pain; increased urine produces bladder discomfort and abnormal urinary sensation."
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "स्वेदोऽतिस्वेददौर्गन्ध्यकण्डूः एवं च लक्षयेत्। दूषिकादीनपि मलान् बाहुल्यगुरुतादिभिः॥१४॥",
+      "student_meaning": "Excess sweat produces excessive sweating, odour and itching; other minor malas show excess through increased quantity, heaviness and related signs."
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "लिङ्गं क्षीणेऽनिलेऽङ्गस्य सादोऽल्पं भाषितेहितम्। संज्ञामोहस्तथा श्लेष्मवृद्ध्युक्तामयसम्भवः॥१५॥",
+      "student_meaning": "Vata depletion causes bodily weakness, reduced speech and activity, and cognitive disturbance; the verse also notes disorders associated with Kapha increase."
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "पित्ते मन्दोऽनलः शीतं प्रभाहानिः कफे भ्रमः। श्लेष्माशयानां शून्यत्वं हृद्द्रवः श्लथसन्धिता॥१६॥",
+      "student_meaning": "Pitta depletion causes weak digestion, coldness and loss of complexion; Kapha depletion produces dizziness, emptiness of Kapha sites, cardiac fluidity and lax joints."
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "रसे रौक्ष्यं श्रमः शोषो ग्लानिः शब्दासहिष्णुता। रक्तेऽम्लशिशिरप्रीतिशिराशैथिल्यरूक्षताः॥१७॥",
+      "student_meaning": "Rasa depletion produces dryness, fatigue, wasting, lassitude and reduced tolerance of sound; Rakta depletion produces preference for sour/cold factors, lax veins and dryness."
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "मांसेऽक्षग्लानिगण्डस्फिक्शुष्कतासन्धिवेदनाः। मेदसि स्वपनं कट्याः प्लीह्नो वृद्धिः कृशाङ्गता॥१८॥",
+      "student_meaning": "Mamsa depletion produces eye fatigue, wasting of cheeks and buttocks and joint pain; Medas depletion produces wasting and related enlargement/alteration around the spleen region."
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "अस्थन्यस्थितोदः शदनं दन्तकेशनखादिषु। अस्थनं मज्जनि सौषिर्यं भ्रमस्तिमिरदर्शनम्॥१९॥",
+      "student_meaning": "Asthi depletion produces pain and weakness of teeth, hair and nails; Majja depletion produces hollow feeling of bones, dizziness and visual darkness."
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "शुक्रे चिरात् प्रसिच्येत शुक्रं शोणितमेव वा। तोदोऽत्यर्थं वृषणयोर्मेढ्रं धूमायतीव च॥२०॥",
+      "student_meaning": "Shukra depletion produces delayed or scanty ejaculation, possible blood admixture, severe testicular pain and a burning or smoke-like penile sensation."
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "पुरीषे वायुरन्त्राणि सशब्दो वेष्टयन्निव। कुक्षौ भ्रमति यात्यूर्ध्वं हृत्पार्श्वे पीडयन् भृशम्॥२१॥",
+      "student_meaning": "Purisha disturbance with depletion produces abnormal Vata movement in the intestines, abdominal rumbling and upward movement causing severe cardiac and flank pain."
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "मूत्रेऽल्पं मूत्रयेत्कृच्छ्राद्विवर्णं सास्त्रमेव वा। स्वेदे रोमच्युतिः स्तब्धरोमता स्फुटनं त्वचः॥२२॥",
+      "student_meaning": "Urine depletion causes scanty, difficult and discoloured urination that may be blood-tinged; sweat depletion causes hair loss, rigid hair follicles and skin fissuring."
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "मलानामतिसूक्ष्माणां दुर्लक्ष्यं लक्षयेत् क्षयम्। स्वमलायनसंशोषतोदशून्यत्वलाघवैः॥२३॥",
+      "student_meaning": "Subtle mala depletion may be difficult to detect and is inferred from drying and pain of their channels, emptiness and lightness."
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "दोषादीनां यथास्वं च विद्याद्वृद्धिक्षयौ भिषक्। क्षयेण विपरीतानां गुणानां वर्धनेन च॥२४॥",
+      "student_meaning": "The physician should recognize increase and decrease of doshas and related factors by observing opposite or increased qualities respectively."
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "वृद्धिं मलानां सङ्गाच्च क्षयं चाति विसर्गतः। मलोचितत्वाद्देहस्य क्षयो वृद्धेस्तु पीडनः॥२५॥",
+      "student_meaning": "Mala increases mainly through retention/accumulation and decreases through excessive elimination; depletion can disturb normal bodily adaptation, while excess causes distress."
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "तत्रास्थिनि स्थितो वायुः, पित्तं तु स्वेदरक्तयोः। श्लेष्मा शेषेषु, तेनैषामाश्रयाश्रयिणां मिथः॥२६॥",
+      "student_meaning": "Vata primarily resides in Asthi, Pitta in sweat and blood, and Kapha in the remaining sites; these form mutually related support-supporter relationships."
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "यदेकस्य तदन्यस्य वर्धनक्षपणौषधम्। अस्थिमारुतयोर्नैवं, प्रायो वृद्धिर्हि तर्पणात्॥२७॥",
+      "student_meaning": "In general, the increase or decrease of one factor can be used to influence its related factor, but the Vata-Asthi relationship is an important exception; nourishment commonly increases tissue."
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "श्लेष्मणाऽनुगता तस्मात् सङ्क्षयस्तद्विपर्ययात्। वायुनाऽनुगतोऽस्माच्च वृद्धिक्षयसमुद्भवान्॥२८॥",
+      "student_meaning": "Kapha follows its associated tissue relationship in depletion and its reverse in the corresponding increase/decrease pattern; Vata similarly participates in the disorders arising from increase or decrease."
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "विकारान् साधयेच्छीघ्रं क्रमाल्लङ्घनबृंहणैः। वायोरन्यत्र, तज्जांस्तु तैरेवोत्क्रमयोजितैः॥२९॥",
+      "student_meaning": "Dosha- and dhatu-related disorders are managed promptly with Langhana or Brimhana in the appropriate sequence; Vata-related disorders require the opposite ordering."
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "विशेषाद्रक्तवृद्ध्युत्थान् रक्तस्रुतिविरेचनैः। मांसवृद्धिभवान् रोगान् शस्त्रक्षाराग्निकर्मभिः॥३०॥",
+      "student_meaning": "Disorders from increased Rakta are addressed with bloodletting and purgation; disorders from excessive Mamsa are addressed with classical surgical, alkaline and cauterizing measures."
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "स्थौल्यकार्श्योपचारेण मेदोजानस्थिसङ्क्षयात्। जातान् क्षीरघृतैस्तिक्तसंयुतैर्बस्तिभिस्तथा॥३१॥",
+      "student_meaning": "Meda-related disorders are addressed through obesity/emaciation management; disorders associated with Asthi depletion are described with milk, ghee, bitter drugs and appropriate basti measures."
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "विड्वृद्धिजानतीसारक्रियया, विट्‌क्षयोद्भवान्। मेषाजमध्यकुल्माषयवमाषद्वयादिभिः॥३२॥",
+      "student_meaning": "Disorders from excess faeces are managed with measures for diarrhoea; depletion is addressed with nourishing dietary examples such as meat, pulses and cereals."
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "मूत्रवृद्धिक्षयोत्थांश्च मेहकृच्छ्रचिकित्सया। व्यायामाभ्यञ्जनस्वेदमद्यैः स्वेदक्षयोद्भवान्॥३३॥",
+      "student_meaning": "Urine excess/depletion is managed according to urinary disorders; sweat depletion is addressed through exercise, oiling, sudation and appropriate fermented preparations."
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "स्वस्थानस्थस्य कायाग्नेरंशा धातुषु संश्रिताः। तेषां सादातिदीप्तिभ्यां धातुवृद्धिक्षयोद्भवः॥३४॥",
+      "student_meaning": "Fractions of the body fire associated with the main digestive fire are distributed in the dhatus; impairment or excessive activity of these tissue fires produces dhatu increase or depletion."
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "पूर्वो धातुः परं कुर्याद्वृद्धः क्षीणश्च तद्विधम्। दोषा दुष्टा रसैर्धातून् दूषयन्त्युभये मलान्॥३५॥",
+      "student_meaning": "Each preceding dhatu nourishes the succeeding one when increased or depleted; vitiated doshas through rasa disturb dhatus and both may disturb the malas."
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "अधो द्वे, सप्त शिरसि, खानि स्वेदवहानि च। मला मलायनानि स्युर्यथास्वं तेष्वतो गदाः॥३६॥",
+      "student_meaning": "The principal mala channels include two inferior outlets, seven head openings and sweat-bearing channels; diseases arise according to the particular mala and its pathway."
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "ओजस्तु तेजो धातूनां शुक्रान्तानां परं स्मृतम्। हृदयस्थमपि व्यापि देहस्थितिनिबन्धनम्॥३७॥",
+      "student_meaning": "Ojas is regarded as the supreme essence of the dhatus up to Shukra; although located in the heart, it pervades the body and sustains bodily existence."
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "स्निग्धं सोमात्मकं शुद्धमीषल्लोहितपीतकम्। यन्नाशे नियतं नाशो यस्मिंस्तिष्ठति तिष्ठति॥३८॥",
+      "student_meaning": "Ojas is described as unctuous, soma-dominant, pure and slightly reddish-yellow; its loss is associated with loss of life, while its presence sustains life."
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "निष्पद्यन्ते यतो भावा विविधा देहसंश्रयाः। ओजः क्षीयेत कोपक्षुद्ध्यानशोकश्रमादिभिः॥३९॥",
+      "student_meaning": "From Ojas arise diverse states that support the body; it is depleted by anger, hunger, worry, grief, exertion and similar factors."
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "बिभेति दुर्बलोऽभीक्ष्णं ध्यायति व्यथितेन्द्रियः। दुःच्छायो दुर्मना रूक्षो भवेत्क्षामश्च तत्क्षये॥४०॥",
+      "student_meaning": "With Ojas depletion a person becomes fearful, weak, repeatedly worried, distressed in the senses, mentally low, dry and emaciated."
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "जीवनीयौषधक्षीररसाद्यास्तत्र भेषजम्। ओजोवृद्धौ हि देहस्य तुष्टिपुष्टिबलोदयः॥४१॥",
+      "student_meaning": "Rejuvenative medicines, milk and nourishing preparations are described as measures for Ojas; increasing Ojas supports satisfaction, nourishment and strength."
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "यदन्नं द्वेष्टि यदपि प्रार्थयेताविरोधि तु। तत्तत्त्यजन् समश्नंश्च तौ तौ वृद्धिक्षयौ जयेत्॥४२॥",
+      "student_meaning": "Food that is disliked should be avoided, while desired food that is not incompatible may be taken appropriately to help manage dosha increase or depletion."
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "कुर्वते हि रुचिं दोषा विपरीतसमानयोः। वृद्धाः क्षीणाश्च भूयिष्ठं लक्षयन्त्यबुधास्तु न॥४३॥",
+      "student_meaning": "Increased doshas generally create attraction toward opposite qualities, while depleted doshas tend to create attraction toward similar qualities; an unwise person may fail to recognize this."
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "यथाबलं यथास्वं च दोषा वृद्धा वितन्वते। रूपाणि, जहति क्षीणाः, समाः स्वं कर्म कुर्वते॥४४॥",
+      "student_meaning": "Increased doshas express their characteristic signs according to strength; depleted doshas lose their usual manifestations, while balanced doshas perform their normal functions."
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "य एव देहस्य समा विवृद्ध्यै त एव दोषा विषमा वधाय। यस्मादतस्ते हितचर्ययैव क्षयाद्विवृद्धेरिव रक्षणीयाः॥४५॥",
+      "student_meaning": "The same doshas that support bodily growth when balanced become causes of destruction when disturbed; therefore appropriate conduct should protect them from both depletion and excess."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Deha Mula and Normal Dosha Functions",
+      "verse_range": "1-3",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Dhatu and Mala Functions",
+      "verse_range": "4-5",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Dosha Vriddhi Lakshana",
+      "verse_range": "6-16",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Dhatu and Mala Vriddhi Lakshana",
+      "verse_range": "8-14",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Dosha and Dhatu Kshaya Lakshana",
+      "verse_range": "15-23",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Assessment of Vriddhi and Kshaya",
+      "verse_range": "24-25",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Ashraya-Ashrayi Relationship and Management",
+      "verse_range": "26-36",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Ojas: Nature, Depletion and Restoration",
+      "verse_range": "37-41",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    },
+    {
+      "title": "Dietary Regulation and Final Dosha Principles",
+      "verse_range": "42-45",
+      "focus": "Dosha, dhatu and mala functions, increase/depletion, relationships, management and Ojas."
+    }
+  ],
+  "learning_outcomes": [
+    "Define dosha, dhatu and mala as fundamental components of the body.",
+    "Explain the normal functions of Vata, Pitta and Kapha.",
+    "Describe principal functions of the seven dhatus and three major malas.",
+    "Recognize classical signs of dosha, dhatu and mala increase and depletion.",
+    "Explain Ashraya-Ashrayi relationships and their clinical implications.",
+    "Explain the role of tissue-level Agni in dhatu increase and depletion.",
+    "Describe Ojas, its qualities, depletion causes, manifestations and restorative measures.",
+    "Apply the final principles of dosha balance, dietary desire and appropriate conduct."
+  ],
+  "key_terms": [
+    "Dosha",
+    "Dhatu",
+    "Mala",
+    "Vata",
+    "Pitta",
+    "Kapha",
+    "Vriddhi",
+    "Kshaya",
+    "Ashraya-Ashrayi Bhava",
+    "Dhatvagni",
+    "Ojas",
+    "Langhana",
+    "Brimhana"
+  ],
+  "exam_focus": [
+    "Normal functions of Vata, Pitta and Kapha.",
+    "Dhatu and mala karma.",
+    "Dosha, dhatu and mala vriddhi/kshaya lakshana.",
+    "Ashraya-Ashrayi relationship.",
+    "Dhatvagni and dhatu vriddhi-kshaya.",
+    "Ojas: nature, location, depletion and management.",
+    "Verse 44 on increased, depleted and balanced doshas.",
+    "Verse 45 on protection from both dosha depletion and excess."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 45,
+    "numbered_verse_count": 45,
+    "supplementary_half_verse_present": false,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "source_text": {
+    "primary": "Government of India Ayusoft, Ashtanga Hridaya Sutrasthana Chapter 11",
+    "cross_check": [
+      "University of Hyderabad SHMT proof-read corpus",
+      "Ayana Ayurveda",
+      "Samsaadhanii SCL verse corpus"
+    ],
+    "verification_note": "Chapter 11 contains 45 numbered verses and ends with the chapter colophon after verse 45; Chapter 12 follows."
+  },
+  "student_support": {
+    "revision_summary": [
+      "Memorize the normal functions of Vata, Pitta and Kapha.",
+      "Create separate tables for dosha, dhatu and mala vriddhi/kshaya signs.",
+      "Understand the Ashraya-Ashrayi relationship rather than memorizing it as an isolated list.",
+      "Revise the management principles in verses 29-36.",
+      "Learn Ojas qualities, causes of depletion, manifestations and restorative measures.",
+      "Use verses 42-45 to connect diet, dosha desire, balance and preventive conduct."
+    ]
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-5",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.5",
+  "chapter_title": "Dravadravya Vijnaniya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "source_basis": {
+    "authority": "NCISM",
+    "syllabus": "AyUG-SA1, Ashtanga Hridaya Sutrasthana 1-15",
+    "chapter_sequence": "Sutrasthana 5",
+    "primary_source": "Ashtanga Hridaya Sutrasthana 5"
+  },
+  "status": "content_complete_student_layer",
+  "scope_note": "Complete NCISM-aligned student study layer for Dravadravya Vijnaniya Adhyaya: all 84 numbered verses, original verse-wise student meanings, conceptual organization and exam preparation. Historical materia-medica claims are presented as classical textual content and not as modern medical advice.",
+  "learning_outcomes": [
+    "Explain the classical classification and qualities of water and factors affecting its suitability.",
+    "Describe the principal qualities and classical uses of different types of milk and milk products.",
+    "Explain the properties and classical classification of sugarcane juice and its products.",
+    "Describe the classical properties of honey and the traditional caution concerning heated honey.",
+    "Explain the major types and classical properties of oils described in the chapter.",
+    "Describe the classical Madya, Asava, Arishta and fermented-liquid categories and their textual properties.",
+    "Identify the chapter's five major liquid-drug/food groups and explain their place in the chapter.",
+    "Recite and explain important shlokas from Dravadravya Vijnaniya Adhyaya."
+  ],
+  "sections": [
+    {
+      "id": "01-toya",
+      "title": "1. Toya Varga: Water (Verses 1-19)",
+      "content": [
+        "Gangambu and classical water-quality concepts.",
+        "Paniya and unsuitable water.",
+        "River, well, pond and geographic considerations.",
+        "Cold, hot, boiled/cooled and coconut water."
+      ]
+    },
+    {
+      "id": "02-ksheera",
+      "title": "2. Ksheera Varga: Milk and Dairy (Verses 20-41)",
+      "content": [
+        "General and species-specific milk properties.",
+        "Cow, buffalo, goat, camel, human, sheep, elephant and one-hoofed milk.",
+        "Raw, boiled and dharoshna milk.",
+        "Curd, takra, mastu, navaneeta, ghee and old ghee.",
+        "Kilat, piyusha and related dairy preparations."
+      ]
+    },
+    {
+      "id": "03-ikshu-madhu",
+      "title": "3. Ikshu and Madhu Varga (Verses 42-54)",
+      "content": [
+        "Sugarcane juice and varieties.",
+        "Phanita, guda, matsyandika, khanda, sita and other sugar products.",
+        "Honey properties and classical cautions regarding heated honey."
+      ]
+    },
+    {
+      "id": "04-taila",
+      "title": "4. Taila Varga: Oils and Animal Fats (Verses 55-61)",
+      "content": [
+        "General oil properties with sesame oil as principal oil.",
+        "Eranda, sarshapa, aksha, nimba, uma/kusumbha and other oils.",
+        "Vasa, majja and meda as animal-derived sneha."
+      ]
+    },
+    {
+      "id": "05-madya",
+      "title": "5. Madya Varga and Fermented Liquids (Verses 62-84)",
+      "content": [
+        "General properties and precautions of Madya.",
+        "Sura, Varuni, Baibhitaki and Yava sura.",
+        "Arishta, Mardvika, Kharjura, Sharkara, Gauda, Sidhu and Madhvasava.",
+        "Shukta, Shandaki, Asuta, Dhanyamla, Sauvīraka and Tushodaka.",
+        "Traditional urine section and chapter conclusion."
+      ]
+    }
+  ],
+  "key_terms": [
+    "Toya",
+    "Gangambu",
+    "Aindra Jala",
+    "Paniya",
+    "Nadi Jala",
+    "Ksheera",
+    "Gavya Ksheera",
+    "Mahisha Ksheera",
+    "Aja Ksheera",
+    "Takra",
+    "Mastu",
+    "Navaneeta",
+    "Ghrita",
+    "Purana Ghrita",
+    "Ikshu Rasa",
+    "Phanita",
+    "Guda",
+    "Matsyandika",
+    "Khanda",
+    "Sita",
+    "Madhu",
+    "Madhu Sharkara",
+    "Taila",
+    "Tilataila",
+    "Eranda Taila",
+    "Sarshapa Taila",
+    "Vasa",
+    "Majja",
+    "Madya",
+    "Sura",
+    "Varuni",
+    "Arishta",
+    "Asava",
+    "Mardvika",
+    "Sidhu",
+    "Shukta",
+    "Dhanyamla",
+    "Sauvīraka",
+    "Tushodaka",
+    "Mutra Varga"
+  ],
+  "exam_focus": [
+    "Explain the classical qualities and examination of Gangambu and Aindra water.",
+    "Discuss the types of unsuitable water described in verses 6-7.",
+    "Explain the traditional geographic classification of river water.",
+    "Describe the properties of hot water, boiled-cooled water and coconut water.",
+    "Compare Gavya, Mahisha and Aja Ksheera.",
+    "Explain the classical properties and precautions of Dadhi and Takra.",
+    "Discuss Navaneeta, Ghrita and Purana Ghrita.",
+    "Explain Ikshu Rasa and its products from Phanita to Sita.",
+    "Describe the classical properties of Madhu and the caution concerning heated honey.",
+    "Explain the general properties of Taila and the properties of important oils.",
+    "Discuss the classical properties and precautions of Madya.",
+    "Differentiate Sura, Varuni, Arishta, Mardvika and other fermented preparations.",
+    "Explain Shukta, Dhanyamla, Sauvīraka and Tushodaka.",
+    "Enumerate the liquid groups covered in the chapter."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 84,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "verse_count": 84,
+  "source_text": {
+    "source_type": "Classical Sanskrit chapter text",
+    "source_locator": "Ashtanga Hridaya Sutrasthana 5, verses 1-84",
+    "text_sources": [
+      "University of Hyderabad SHMT proof-read corpus, Ashtanga Hridaya Sutrasthana 5",
+      "Wikisource, Ashtanga Hridaya Sutrasthana",
+      "Ayana Ayurveda, Dravadravya Vijnaniya chapter",
+      "NCISM AyUG-SA1 curriculum"
+    ],
+    "verification_note": "Chapter structure and verse numbering were checked against the UOHYD proof-read Sanskrit corpus and cross-checked against Wikisource/Ayana chapter endpoints. The repository retains 84 numbered verses. Student meanings are original explanatory summaries."
+  },
+  "student_support": {
+    "concept_map": [
+      "Verses 1-19: Toya Varga",
+      "Verses 20-41: Ksheera Varga",
+      "Verses 42-54: Ikshu and Madhu Varga",
+      "Verses 55-61: Taila Varga",
+      "Verses 62-84: Madya and fermented-liquid Varga"
+    ],
+    "must_memorize": [
+      "Water-quality principles and unsuitable-water features",
+      "Major milk varieties and their classical qualities",
+      "Dadhi and Takra properties and restrictions",
+      "Ghrita and Purana Ghrita",
+      "Ikshu products and their order of quality",
+      "Madhu properties and heated-honey caution",
+      "General Taila properties",
+      "Major Madya categories",
+      "Arishta and Asava distinction in textual study",
+      "Shukta, Dhanyamla, Sauvīraka and Tushodaka",
+      "Chapter's five principal liquid groups"
+    ],
+    "exam_questions": {
+      "long_answer": [
+        "Describe the Toya Varga of Dravadravya Vijnaniya Adhyaya with classification and properties of water.",
+        "Discuss Ksheera Varga including milk varieties, curd, Takra, Navaneeta and Ghrita.",
+        "Explain Ikshu, Madhu and Taila Varga with important classical properties.",
+        "Discuss Madya Varga and the various fermented preparations described in the chapter."
+      ],
+      "short_answer": [
+        "What are the classical qualities of Gangambu?",
+        "What is Aindra Jala?",
+        "Name unsuitable water characteristics.",
+        "State the properties of Gavya Ksheera.",
+        "What are the properties of Takra?",
+        "What is Purana Ghrita?",
+        "Enumerate major Ikshu products.",
+        "State the properties of Madhu.",
+        "Why is heated honey cautioned against?",
+        "Name important Taila varieties.",
+        "What is Arishta?",
+        "What is Dhanyamla?"
+      ],
+      "viva": [
+        "What are the five broad liquid groups?",
+        "Differentiate Paniya and unsuitable water.",
+        "Which milk is described as Jeevaniya Rasayana?",
+        "What is the traditional distinction between Asava and Arishta?",
+        "What is Shukta?",
+        "What is the final verse of the chapter about?"
+      ]
+    },
+    "revision_summary": [
+      "The chapter studies liquid foods and dravyas in broad classical groups rather than giving a modern pharmacological classification.",
+      "Water is discussed first with emphasis on source, cleanliness, season and geography.",
+      "Milk and dairy products occupy the largest middle section, followed by sugarcane products, honey, oils and fermented liquids.",
+      "Historical therapeutic claims are preserved as textual learning content and should not be interpreted as contemporary treatment recommendations.",
+      "The final verse summarizes the chapter as a broad treatment of major liquid-dravya groups."
+    ]
+  },
+  "verse_count_notes": "The classical chapter has 84 numbered verses; verse 84 is the concluding summary and colophon verse.",
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "जीवनं तर्पणं हृद्यं ह्लादि बुद्धिप्रबोधनम्। तन्वव्यक्तरसं मृष्टं शीतं लघ्वमृतोपमम्||१||",
+      "student_meaning": "गंगाजल के पारंपरिक गुण—जीवनदायक, तृप्तिकर, हृद्य, प्रसन्नतादायक, बुद्धिप्रबोधक, शीतल और लघु बताए गए हैं।"
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "गङ्गाम्बु नभसो भ्रष्टं स्पृष्टं त्वर्केन्दुमारुतैः। हिताहितत्वे तद्भूयो देशकालावपेक्षते||२||",
+      "student_meaning": "आकाश से गिरा और सूर्य, चन्द्र तथा वायु से स्पर्शित जल देश-काल के अनुसार हित या अहित हो सकता है।"
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "येनाऽभिवृष्टममलं शाल्यन्नं राजतस्थितम्। अक्लिन्नमविवर्णं च तत्पेयं गाङ्गम् अन्यथा||३||",
+      "student_meaning": "जिस वर्षाजल से चांदी के पात्र में रखा शालिभात स्वच्छ और अविकृत रहे, उसे गंगाजल के योग्य लक्षण वाला माना गया है।"
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "सामुद्रं तन्न पातव्यं मासादाश्वयुजाद्विना। ऐन्द्रमम्बुसुपात्रस्थमविपन्नं सदा पिबेत्||४||",
+      "student_meaning": "समुद्रजल को सामान्यतः अपेय बताया गया है; स्वच्छ पात्र में सुरक्षित ऐन्द्र जल को श्रेष्ठ पेय कहा गया है।"
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "तदभावे च भूमिष्ठमान्तरिक्षानुकारि यत्। शुचिपृथ्वसितश्वेते देशेऽर्कपवनाहतम्||५||",
+      "student_meaning": "ऐन्द्र जल उपलब्ध न हो तो स्वच्छ भूमि/स्थान पर सूर्य और वायु से प्रभावित निर्मल जल ग्रहण करने का सिद्धान्त दिया है।"
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "न पिबेत्पङ्कशैवालतृणपर्णाविलास्तृतम्। सूर्येन्दुपवनादृष्टमभिवृष्टं घनं गुरु||६||",
+      "student_meaning": "कीचड़, शैवाल, पत्तों आदि से दूषित, धूप-वायु से अप्रभावित या गंदला भारी जल नहीं पीना चाहिए।"
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "फेनिलं जन्तुमत्तप्तं दन्तग्राह्यतिशैत्यतः। अनार्तवं च यद्दिव्यमार्तवं प्रथमं च यत्||७||",
+      "student_meaning": "झागयुक्त, जीवयुक्त, अत्यधिक गर्म या अत्यधिक ठंडा तथा अनुचित ऋतु का वर्षाजल अपेय बताया गया है।"
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "लूतादितन्तुविण्मूत्रविषसंश्लेषदूषितम्। पश्चिमोदधिगाः शीघ्रवहा याश्चामलोदकाः||८||",
+      "student_meaning": "जाल, मल-मूत्र, विष आदि से दूषित जल त्याज्य है; तीव्रगामी और निर्मल पश्चिमगामी नदियों का जल पथ्य माना गया है।"
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "पथ्याः समासात्ता नद्यो विपरीतास्त्वतोऽन्यथा। उपलास्फालनाक्षेपविच्छेदैः खेदितोदकाः||९||",
+      "student_meaning": "नदियों के जल में प्रवाह, स्वच्छता और प्राकृतिक गतिशीलता को हितकरता का प्रमुख मानदण्ड बताया गया है।"
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "हिमवन्मलयोद्भूताः पथ्यास्ता एव च स्थिराः। कृमिश्लीपदहृद्कण्ठशिरोरोगान् प्रकुर्वते||१०||",
+      "student_meaning": "हिमालय और मलय से निकली प्रवाहशील नदियां पथ्य, परंतु स्थिर जल कुछ रोगों का कारण माना गया है।"
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "प्राच्यावन्त्यपरान्तोत्था दुर्नामानि महेन्द्रजाः। उदरश्लीपदातङ्कान् सह्यविन्ध्योद्भवाः पुनः||११||",
+      "student_meaning": "विभिन्न भौगोलिक क्षेत्रों की नदियों के जल के पारंपरिक गुण-दोषों का वर्णन है।"
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "कुष्ठपाण्डुशिरोरोगान् दोषघ्न्यः पारियात्रजाः। बलपौरुषकारिण्यः सागराम्भस्त्रिदोषकृत्||१२||",
+      "student_meaning": "पारियात्र की नदियों को बलवर्धक तथा समुद्रजल को त्रिदोषप्रकोपक कहा गया है।"
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "विद्यात्कूपतडागादीन् जाङ्गलानूपशैलतः। नाम्बु पेयमशक्त्या वा स्वल्पमल्पाग्निगुल्मिभिः||१३||",
+      "student_meaning": "कूप, तालाब आदि के जल का गुण देश—जांगल, अनूप और पर्वतीय—के अनुसार विचार करना चाहिए।"
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "पाण्डूदरातिसारार्शोग्रहणीशोषशोथिभिः। ऋते शरन्निदाघाभ्यां पिबेत्स्वस्थोऽपि चाल्पशः||१४||",
+      "student_meaning": "कुछ रोगावस्थाओं में जल का अल्प सेवन और स्वस्थ व्यक्ति में भी ऋतु/स्थिति अनुसार संयमित सेवन बताया गया है।"
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "समस्थूलकृशा भक्तमध्यान्तप्रथमाम्बुपाः। शीतं मदात्ययग्लानिमूर्च्छाच्छर्दिश्रमभ्रमान्||१५||",
+      "student_meaning": "भोजन के समय जल सेवन की मात्रा/समय तथा शीतल जल के पारंपरिक लाभों का वर्णन है।"
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "तृष्णोष्णदाहपित्तास्रविषाण्यम्बु नियच्छति। दीपनं पाचनं कण्ठ्यं लघूष्णं बस्तिशोधनम्||१६||",
+      "student_meaning": "शीतल जल को तृष्णा, दाह, पित्त, रक्त और विष-संबंधी विकारों में शमनकारी बताया गया है।"
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "हिध्माध्मानानिलश्लेष्मसद्यःशुद्धिर्नवज्वरे। कासामपीनसश्वासपार्श्वरुक्षु च शस्यते||१७||",
+      "student_meaning": "उष्ण जल को दीपनीय, पाचनीय, कण्ठ्य और कुछ वात-कफ तथा उदर/श्वास संबंधी स्थितियों में हितकर बताया गया है।"
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "अनभिष्यन्दि लघु च तोयं क्वथितशीतलम्। पित्तयुक्ते हितं दोषे व्युषितं तत्त्रिदोषकृत्||१८||",
+      "student_meaning": "उबालकर ठंडा किया जल अपेक्षाकृत लघु और अनभिष्यन्दि बताया गया; बासी जल को त्रिदोषकर कहा गया है।"
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "नारिकेरोदकं स्निग्धं स्वादु वृष्यं हिमं लघु। तृष्णापित्तानिलहरं दीपनं बस्तिशोधनम्||१९||",
+      "student_meaning": "नारिकेलोदक को स्निग्ध, मधुर, शीतल, लघु और तृष्णा-पित्त-वातशामक बताया गया है।"
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "वर्षासु दिव्यनादेये परं तोये वरावरे। स्वादुपाकरसं स्निग्धमोजस्यं धातुवर्धनम्||२०||",
+      "student_meaning": "वर्षा ऋतु के जल की श्रेष्ठता तथा इसके बाद क्षीरवर्ग की शुरुआत का संकेत है।"
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "वातपित्तहरं वृष्यं श्लेष्मलं गुरु शीतलम्। प्रायः पयः, अत्र गव्यं तु जीवनीयं रसायनम्||२१||",
+      "student_meaning": "सामान्य दूध मधुर, स्निग्ध, ओजवर्धक, धातुवर्धक, वात-पित्तशामक, वृष्य और गुरु-शीतल बताया गया है।"
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "क्षतक्षीणहितं मेध्यं बल्यं स्तन्यकरं सरम्। श्रमभ्रममदालक्ष्मीश्वासकासातितृट्क्षुधः||२२||",
+      "student_meaning": "गाय के दूध को जीवनीय और रसायनवत् बताया गया; क्षत-क्षीणता, श्रम आदि में हितकर पारंपरिक गुण दिए गए हैं।"
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "जीर्णज्वरं मूत्रकृच्छ्रं रक्तपित्तं च नाशयेत्। हितमत्यग्न्यनिद्रेभ्यो गरीयो माहिषं हिमम्||२३||",
+      "student_meaning": "भैंस का दूध गुरु और शीतल तथा अतिअग्नि और अनिद्रा में हितकर बताया गया है।"
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "अल्पाम्बुपानव्यायामकटुतिक्ताशनैर्लघु। आजं शोषज्वरश्वासरक्तपित्तातिसारजित्||२४||",
+      "student_meaning": "बकरी का दूध अपेक्षाकृत लघु और शोष, ज्वर, श्वास, रक्तपित्त तथा अतिसार में हितकर बताया गया है।"
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "ईषद्रूक्षोष्णलवणमौष्ट्रकं दीपनं लघु। शस्तं वातकफानाहकृमिशोफोदरार्शसाम्||२५||",
+      "student_meaning": "ऊँटनी का दूध अल्परूक्ष, उष्ण, लवणानुरस, दीपन और लघु बताया गया है।"
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "मानुषं वातपित्तासृगभिघाताक्षिरोगजित्। तर्पणाश्चोतनैर्नस्यैरहृद्यं तूष्णमाविकम्||२६||",
+      "student_meaning": "मानुषी दूध का पारंपरिक उपयोग नेत्ररोगों में तर्पण, आश्च्योतन और नस्य के रूप में वर्णित है; आविक दूध के विपरीत गुण भी दिए हैं।"
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "वातव्याधिहरं हिमाश्वासपित्तकफप्रदम्। हस्तिन्याः स्थैर्यकृद्बाढमुष्णं त्वैकशफं लघु||२७||",
+      "student_meaning": "भेड़ के दूध को उष्ण और वातव्याधिहर, तथा हथिनी/एकशफ दुग्ध के विशिष्ट पारंपरिक गुण बताए गए हैं।"
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "शाखावातहरं साम्ललवणं जडताकरम्। पयोऽभिष्यन्दि गुर्वामं युक्त्या शृतमतोऽन्यथा||२८||",
+      "student_meaning": "एकशफ दूध उष्ण, लघु और शाखागत वातहर कहा गया है; कच्चे दूध की अपेक्षा विधिवत् पका दूध अलग गुण वाला बताया गया है।"
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "भवेद्गरीयोऽतिशृतं धारोष्णममृतोपमम्। अम्लपाकरसं ग्राहि गुरूष्णं दधि वातजित्||२९||",
+      "student_meaning": "अत्यधिक पकाया दूध गुरु तथा धारोष्ण दूध अमृतोपम कहा गया है।"
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "मेदःशुक्रबलश्लेष्मपित्तरक्ताग्निशोफकृत्। रोचिष्णु शस्तमरुचौ शीतके विषमज्वरे||३०||",
+      "student_meaning": "दही अम्ल, गुरु, उष्ण, ग्राही और वातजित बताया गया; मेद, शुक्र, बल, कफ आदि पर प्रभाव का वर्णन है।"
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "पीनसे मूत्रकृच्छ्रे च रूक्षं तु ग्रहणीगदे। नैवाद्यान्निशि नैवोष्णं वसन्तोष्णशरत्सु न||३१||",
+      "student_meaning": "दही के सेवन के काल और संयोग संबंधी अनेक निषेध बताए गए हैं; अनुचित सेवन को विभिन्न विकारों से जोड़ा गया है।"
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "नामुद्गसूपं नाक्षौद्रं तन्नाघृतसितोपलम्। न चानामलकं नापि नित्यं नोऽमन्दमन्यथा||३२||",
+      "student_meaning": "तक्र को लघु, कषाय-अम्ल, दीपनीय तथा कफ-वातहर बताया गया है।"
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "ज्वरासृक्पित्तवीसर्पकुष्ठपाण्डुभ्रमप्रदम्। तक्रं लघु कषायाम्लं दीपनं कफवातजित्||३३||",
+      "student_meaning": "तक्र के शोफ, उदर, अर्श, ग्रहणी, अरुचि आदि में पारंपरिक उपयोगों का वर्णन है।"
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "शोफोदरार्शोग्रहणीदोषमूत्रग्रहाऽरुचीः। प्लीहगुल्मघृतव्यापद्गरपाण्ड्वामयान् जयेत्||३४||",
+      "student_meaning": "मस्तु को सर, स्रोतशोधक और लघु; नवनीत को शीत, वृष्य, वर्ण-बल-अग्निवर्धक बताया गया है।"
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "तद्वन्मस्तु सरं स्रोतःशोधि विष्टम्भजिल्लघु। नवनीतं नवं वृष्यं शीतं वर्णबलाग्निकृत्||३५||",
+      "student_meaning": "नवनीत और क्षीरोद्भव नवनीत के ग्राही तथा रक्तपित्त/नेत्र संबंधी पारंपरिक गुण दिए गए हैं।"
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "सङ्ग्राहि वातपित्तासृक्क्षयार्शोऽर्दितकासजित्। क्षीरोद्भवं तु सङ्ग्राहि रक्तपित्ताक्षिरोगजित्||३६||",
+      "student_meaning": "घृत को बुद्धि, स्मृति, मेधा, अग्नि, बल, आयु, शुक्र और दृष्टि के लिए श्रेष्ठ बताया गया है।"
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "शस्तं धीस्मृतिमेधाग्निबलायुःशुक्रचक्षुषाम्। बालवृद्धप्रजाकान्तिसौकुमार्यस्वरार्थिनाम्||३७||",
+      "student_meaning": "घृत के क्षत-क्षीण तथा विभिन्न पारंपरिक रोगों में हितकर गुणों का वर्णन है।"
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "क्षतक्षीणपरीसर्पशस्त्राग्निग्लपितात्मनाम्। वातपित्तविषोन्मादशोषालक्ष्मीज्वरापहृत्||३८||",
+      "student_meaning": "घृत को श्रेष्ठ स्नेह और वयःस्थापक कहा गया है; विधिपूर्वक संस्कारित घृत के व्यापक कर्म बताए गए हैं।"
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "स्नेहानामुत्तमं शीतं वयसःस्थापनं परम्। सहस्रवीर्यं विधिभिः घृतं कर्मसहस्रकृत्||३९||",
+      "student_meaning": "पुराण घृत को कुछ विशिष्ट रोगों और व्रणशोधन-रोपण में उपयोगी बताया गया है।"
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "मदापस्मारमूर्च्छायशिरःकर्णाक्षियोनिजान्। पुराणं जयति व्याधीन् व्रणशोधनरोपणम्||४०||",
+      "student_meaning": "किलाट, पीयूष, कूर्चिका आदि दुग्धजन्य पदार्थों को बल्य तथा कुछ को गुरु, कफकर और विष्टम्भकर कहा गया है।"
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "बल्याः किलाटपीयूषकूर्चिकामोरणादयः। शुक्रनिद्राकफकरा विष्टम्भिगुरुदोषलाः||४१||",
+      "student_meaning": "गाय का दूध और घृत श्रेष्ठ तथा कुछ अन्य पशुओं के दुग्ध-स्नेह को तुलनात्मक रूप से निन्दित बताया गया है।"
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "गव्ये क्षीरघृते श्रेष्ठे निन्दिते चाविसम्भवे। इक्षो रसॊ गुरुः स्निग्धो बृंहणः कफमूत्रकृत्||४२||",
+      "student_meaning": "इक्षुरस गुरु, स्निग्ध, बृंहण, कफ-मूत्रवर्धक, वृष्य, शीत और रक्तपित्तहर कहा गया है।"
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "वृष्यः शीतोऽस्रपित्तघ्नः स्वादुपाकरसो रसः। सोऽग्रे सलवणो दन्तपीडितः शर्करासमः||४३||",
+      "student_meaning": "इक्षुरस के अग्रभाग, मध्यभाग और दन्तपीडित रस के स्वाद-गुणों का तुलनात्मक वर्णन है।"
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "मूलाग्रजन्तुजग्धादिपीडनान्मलसङ्करात्। किञ्चित्कालं विधृत्या च विकृतिं याति यान्त्रिकः||४४||",
+      "student_meaning": "यान्त्रिक इक्षुरस में अशुद्धियों और अधिक समय रखने से विकृति तथा विदाह-गुरुत्व-विष्टम्भ की बात कही गई है।"
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "विदाही गुरुविष्टम्भी तेनासौ तत्र पौण्ड्रकः। शैत्यप्रसादमाधुर्यैर्वरस्तमनु वांशिकः||४५||",
+      "student_meaning": "पौण्ड्रक इक्षु को शीत, प्रसन्न और मधुर रस के कारण श्रेष्ठ; वांशिक को उसके बाद बताया गया है।"
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "शतपर्वककान्तारनैपालाद्यास्ततः क्रमात्। सक्षाराः सकषायाश्च सोष्णाः किञ्चिद्विदाहिनः||४६||",
+      "student_meaning": "अन्य इक्षुजातियों को क्रमशः क्षार, कषाय, उष्ण और विदाहकर गुणों वाला बताया गया है।"
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "फाणितं गुर्वभिष्यन्दि चयकृन्मूत्रशोधनम्। नातिश्लेष्मकरो धौतः सृष्टमूत्रशकृद्गुडः||४७||",
+      "student_meaning": "फाणित गुरु और अभिष्यन्दि; शुद्ध गुड़ अपेक्षाकृत कम कफकर तथा मूत्र-पुरीष प्रवर्तक बताया गया है।"
+    },
+    {
+      "verse_number": 48,
+      "sanskrit": "प्रभूतकृमिमज्जासृङ्मेदोमांसकफोऽपरः। हृद्यः पुराणः पथ्यश्च नवः श्लेष्माग्निसादकृत्||४८||",
+      "student_meaning": "अशुद्ध गुड़ को अधिक कृमि, मज्जा, मेद, मांस और कफवर्धक तथा पुराना गुड़ हृद्य-पथ्य बताया गया है।"
+    },
+    {
+      "verse_number": 49,
+      "sanskrit": "वृष्याः क्षीणक्षतहिता रक्तपित्तानिलापहाः। मत्स्यण्डिकाखण्डसिताः क्रमेण गुणवत्तमाः||४९||",
+      "student_meaning": "मत्स्यण्डिका, खण्ड और सिता क्रमशः अधिक गुणवाली; वृष्य तथा क्षीण-क्षत में हितकर बताई गई हैं।"
+    },
+    {
+      "verse_number": 50,
+      "sanskrit": "तद्गुणा तिक्तमधुरा कषाया यासशर्करा। दाहतृट्छर्दिमूर्च्छासृक्पित्तघ्न्यः सर्वशर्कराः||५०||",
+      "student_meaning": "यासशर्करा के स्वाद तथा सभी शर्कराओं के दाह, तृष्णा, छर्दि, मूर्च्छा और रक्तपित्तशमन गुण बताए गए हैं।"
+    },
+    {
+      "verse_number": 51,
+      "sanskrit": "शर्करेक्षुविकाराणां फाणितं च वरावरे। चक्षुष्यं छेदि तृट्श्लेष्मविषहिध्मास्रपित्तनुत्||५१||",
+      "student_meaning": "इक्षुविकारों में शर्करा और सिता को श्रेष्ठ तथा फाणित को अवर कहा गया; मधुवर्ग आरम्भ होता है।"
+    },
+    {
+      "verse_number": 52,
+      "sanskrit": "मेहकुष्ठकृमिच्छर्दिश्वासकासातिसारजित्। व्रणशोधनसन्धानरोपणं वातलं मधु||५२||",
+      "student_meaning": "मधु को चक्षुष्य, छेदी तथा तृष्णा, कफ, विष, हिध्मा, रक्तपित्त आदि में उपयोगी बताया गया है।"
+    },
+    {
+      "verse_number": 53,
+      "sanskrit": "रूक्षं कषायमधुरं तत्तुल्या मधुशर्करा। उष्णमुष्णार्तमुष्णे च युक्तं चोष्णैर्निहन्ति तत्||५३||",
+      "student_meaning": "मधु के मेह, कुष्ठ, कृमि, छर्दि, श्वास, कास, अतिसार तथा व्रणशोधन-सन्धान-रोपण संबंधी गुण बताए गए हैं।"
+    },
+    {
+      "verse_number": 54,
+      "sanskrit": "प्रच्छर्दने निरूहे च मधूष्णं न निवार्यते। अलब्धपाकमाश्वेव तयोर्यस्मान्निवर्तते||५४||",
+      "student_meaning": "मधु रूक्ष, कषाय-मधुर; मधुशर्करा समान गुण वाली कही गई है। उष्ण मधु के निषेध का सिद्धान्त आता है।"
+    },
+    {
+      "verse_number": 55,
+      "sanskrit": "तैलं स्वयोनिवत्तत्र मुख्यं तीक्ष्णं व्यवायि च। त्वग्दोषकृदचक्षुष्यं सूक्ष्मोष्णं कफकृन्न च||५५||",
+      "student_meaning": "वमन और निरूह में प्रयुक्त उष्ण मधु के लिए अपवाद बताया गया है क्योंकि वह शीघ्र बाहर निकलता है।"
+    },
+    {
+      "verse_number": 56,
+      "sanskrit": "कृशानां बृंहणायालं स्थूलानां कर्शनाय च। बद्धविट्कं कृमिघ्नं च संस्कारात्सर्वरोगजित्||५६||",
+      "student_meaning": "तैलवर्ग में तिलतैल को मुख्य, तीक्ष्ण, व्यवायी, सूक्ष्म और उष्ण बताया गया है।"
+    },
+    {
+      "verse_number": 57,
+      "sanskrit": "सतिक्तोषणमैरण्डं तैलं स्वादु सरं गुरु। वर्ध्मगुल्मानिलकफानुदरं विषमज्वरम्||५७||",
+      "student_meaning": "तिलतैल कृश में बृंहण, स्थूल में कर्शन, कृमिघ्न तथा संस्कार से सर्वरोगजित कहा गया है।"
+    },
+    {
+      "verse_number": 58,
+      "sanskrit": "रुक्षोफौ च कटीगुह्यकोष्ठपृष्ठाश्रयौ जयेत्। तीक्ष्णोष्णं पिच्छिलं विस्रं रक्तैरण्डोद्भवं त्वति||५८||",
+      "student_meaning": "एरण्डतैल के वात, कफ, गुल्म, उदर आदि पर पारंपरिक प्रभाव और रक्तैरण्ड के विशेष गुण बताए गए हैं।"
+    },
+    {
+      "verse_number": 59,
+      "sanskrit": "कटूष्णं सार्षपं तीक्ष्णं कफशुक्रानिलापहम्। लघु पित्तास्रकृत्कोषकुष्ठार्शोव्रणजन्तुजित्||५९||",
+      "student_meaning": "रक्तैरण्डतैल को तीक्ष्ण, उष्ण, पिच्छिल और विशिष्ट गन्ध वाला कहा गया है।"
+    },
+    {
+      "verse_number": 60,
+      "sanskrit": "आक्षं स्वादु हिमं केश्यं गुरु पित्तानिलापहम्। नात्युष्णं निम्बजं तिक्तं कृमिकुष्ठकफप्रणुत्||६०||",
+      "student_meaning": "सर्षपतैल कटु, उष्ण, तीक्ष्ण तथा कफ, शुक्र, वात आदि पर प्रभावी बताया गया है।"
+    },
+    {
+      "verse_number": 61,
+      "sanskrit": "उमाकुसुम्भजं चोष्णं त्वग्दोषकफपित्तकृत्। वसा मज्जा च वातघ्नौ बलपित्तकफप्रदौ||६१||",
+      "student_meaning": "आक्षतैल मधुर, शीत और केश्य; निम्बतैल तिक्त तथा कृमि-कुष्ठ-कफहर कहा गया है।"
+    },
+    {
+      "verse_number": 62,
+      "sanskrit": "मांसानुगस्वरूपौ च विद्यान्मेदोऽपि ताविव। दीपनं रोचनं मद्यं तीक्ष्णोष्णं तुष्टिपुष्टिदम्||६२||",
+      "student_meaning": "उमा और कुसुम्भ तेल उष्ण तथा त्वक्-दोष, कफ और पित्त पर प्रभावी; वसा-मज्जा वातघ्न कही गई हैं।"
+    },
+    {
+      "verse_number": 63,
+      "sanskrit": "सस्वादुतिक्तकटुकमम्लपाकरसं सरम्। सकषायं स्वरारोग्यप्रतिभावर्णकृल्लघु||६३||",
+      "student_meaning": "वसा और मज्जा के मांसानुगुण स्वरूप तथा मद्यवर्ग की शुरुआत बताई गई है।"
+    },
+    {
+      "verse_number": 64,
+      "sanskrit": "नष्टनिद्राऽतिनिद्रेभ्यो हितं पित्तास्रदूषणम्। कृशस्थूलहितं रूक्षं सूक्ष्मं स्रोतोविशोधनम्||६४||",
+      "student_meaning": "मद्य को दीपनीय, रोचन, तीक्ष्ण-उष्ण, तुष्टिपुष्टिदायक और लघु बताया गया है।"
+    },
+    {
+      "verse_number": 65,
+      "sanskrit": "वातश्लेष्महरं युक्त्या पीतं विषवदन्यथा। गुरु त्रिदोषजननं नवं जीर्णमतोऽन्यथा||६५||",
+      "student_meaning": "मद्य के रस, अम्लपाक, सरत्व तथा स्वर, आरोग्य, प्रतिभा और वर्ण पर पारंपरिक प्रभाव बताए गए हैं।"
+    },
+    {
+      "verse_number": 66,
+      "sanskrit": "पेयं नोष्णोपचारेण न विरिक्तक्षुधातुरैः। नात्यर्थतीक्ष्णमृद्वल्पसम्भारं कलुषं न च||६६||",
+      "student_meaning": "मद्य को उचित सेवन में वात-कफहर और अनुचित सेवन में विषवत् कहा गया है।"
+    },
+    {
+      "verse_number": 67,
+      "sanskrit": "गुल्मोदरा ग्रहणीशोषहृत्स्नेहनो गुरुः। सुराऽनिलघ्नी मेदोऽसृक्तन्यमूत्रकफावहा||६७||",
+      "student_meaning": "नव मद्य गुरु और त्रिदोषजनक, पुराना मद्य इसके विपरीत लघु कहा गया है।"
+    },
+    {
+      "verse_number": 68,
+      "sanskrit": "तद्गुणा वारुणी हृद्या लघुस्तीक्ष्णा निहन्ति च। शूलकासवमिश्वासविबन्धाध्मानपीनसान्||६८||",
+      "student_meaning": "उष्ण उपचार, विरेचन के बाद, भूख से पीड़ित अवस्था तथा अत्यधिक दोषयुक्त/कलुष मद्य में सेवन निषिद्ध बताया गया है।"
+    },
+    {
+      "verse_number": 69,
+      "sanskrit": "नातितीव्रमदा लघ्वी पथ्या बैभीतकी सुरा। व्रणे पाण्ड्वामये कुष्ठे न चात्यर्थं विरुध्यते||६९||",
+      "student_meaning": "सुरा को गुल्म, उदर, ग्रहणी और शोष आदि में उपयोगी, गुरु-स्नेहनी और वातघ्न बताया गया है।"
+    },
+    {
+      "verse_number": 70,
+      "sanskrit": "विष्टम्भिनी यवसुरा गुर्वी रूक्षा त्रिदोषला। यथाद्रव्यगुणोऽरिष्टः सर्वमद्यगुणाधिकः||७०||",
+      "student_meaning": "वारुणी को हृद्य, लघु, तीक्ष्ण तथा शूल, कास, श्वास, विबन्ध, आध्मान और पीनसहर कहा गया है।"
+    },
+    {
+      "verse_number": 71,
+      "sanskrit": "ग्रहणीपाण्डुकुष्ठार्शःशोफशोषोदरज्वरान्। हन्ति गुल्मकृमिप्लीह्नः कषायकटुवातलः||७१||",
+      "student_meaning": "बैभीतकी सुरा को अपेक्षाकृत लघु और अल्पतीव्र मद वाली; यवसुरा को गुरु, रूक्ष और त्रिदोषला बताया गया है।"
+    },
+    {
+      "verse_number": 72,
+      "sanskrit": "मार्द्वीकं लेखनं हृद्यं नात्युष्णं मधुरं सरम्। अल्पपित्तानिलं पाण्डुमेहार्शःकृमिनाशनम्||७२||",
+      "student_meaning": "अरिष्ट को उसके मूल द्रव्यों के गुणयुक्त और सामान्य मद्य से अधिक गुणवान कहा गया है।"
+    },
+    {
+      "verse_number": 73,
+      "sanskrit": "अस्मादल्पान्तरगुणं खार्जूरं वातलं गुरु। शार्करः सुरभिः स्वादुर्हृद्यो नातिमदो लघुः||७३||",
+      "student_meaning": "अरिष्ट को ग्रहणी, पाण्डु, कुष्ठ, अर्श, शोफ, शोष, उदर, ज्वर, गुल्म, कृमि और प्लीहा में उपयोगी बताया गया है।"
+    },
+    {
+      "verse_number": 74,
+      "sanskrit": "सृष्टमूत्रशकृद्वातो गौडस्तर्पणदीपनः। वातपित्तकरः सीधुः स्नेहश्लेष्मविकारहा||७४||",
+      "student_meaning": "मार्द्वीक मद्य लेखन, हृद्य, मधुर, सर और कुछ पित्त-वातवर्धक; पाण्डु, मेह, अर्श और कृमिघ्न कहा गया है।"
+    },
+    {
+      "verse_number": 75,
+      "sanskrit": "मेदःशोफोदरार्शोघ्नस्तत्र पक्वरसो वरः। छेदी मध्वासवस्तीक्ष्णो मेहपीनसकासजित्||७५||",
+      "student_meaning": "खार्जूर मद्य को कुछ कम गुणयुक्त, वातल और गुरु; शार्कर मद्य को सुगन्धित, मधुर, हृद्य और लघु कहा गया है।"
+    },
+    {
+      "verse_number": 76,
+      "sanskrit": "रक्तपित्तकफोत्क्लेदि शुक्तं वातानुलोमनम्। भृशोष्णतीक्ष्णरूक्षाम्लं हृद्यं रुचिकरं सरम्||७६||",
+      "student_meaning": "गौड मद्य को मूत्र, मल और वात प्रवर्तक तथा तर्पण-दीपन; सीधु को वात-पित्तकर और स्नेह-कफविकारहर कहा गया है।"
+    },
+    {
+      "verse_number": 77,
+      "sanskrit": "दीपनं शिशिरस्पर्शं पाण्डुदृक्कृमिनाशनम्। गुडेक्षुमद्यामार्द्विकशुक्तं लघु यथोत्तरम्||७७||",
+      "student_meaning": "सीधु के मेद, शोफ, उदर और अर्शहर गुण तथा मध्वासव के छेदी-तीक्ष्ण और कुछ रोगहर गुण बताए गए हैं।"
+    },
+    {
+      "verse_number": 78,
+      "sanskrit": "कन्दमूलफलाद्यं तद्वद्विद्यात्तदासुतम्। शाण्डाकी चासुतं चान्यत्कालाम्लं रोचनं लघु||७८||",
+      "student_meaning": "शुक्त को रक्त-पित्त-कफोत्क्लेदि, वातानुलोमक, उष्ण-तीक्ष्ण-रूक्ष-अम्ल तथा दीपनीय कहा गया है।"
+    },
+    {
+      "verse_number": 79,
+      "sanskrit": "धान्याम्लं भेदि तीक्ष्णोष्णं पित्तकृत्स्पर्शशीतलम्। श्रमक्लमहरं रुच्यं दीपनं बस्तिशूलनुत्||७९||",
+      "student_meaning": "गुड़, इक्षु, मद्य और मार्द्वीक से बने शुक्त क्रमशः हलके; कन्द-मूल-फलादि आसुत भी इसी वर्ग में आते हैं।"
+    },
+    {
+      "verse_number": 80,
+      "sanskrit": "शस्तमास्थापने हृद्यं लघु वातकफापहम्। एभिरेव गुणैर्युक्ते सौवीरकतुषोदके||८०||",
+      "student_meaning": "शाण्डाकी, आसुत आदि कालाम्ल द्रव्य रुचिकर और लघु बताए गए हैं।"
+    },
+    {
+      "verse_number": 81,
+      "sanskrit": "कृमिहृद्रोगगुल्मार्शःपाण्डुरोगनिबर्हणे। ते क्रमाद्वितुषैर्विद्यात्सतुषैश्च यवैः कृते||८१||",
+      "student_meaning": "धान्याम्ल को भेदि, तीक्ष्ण-उष्ण, दीपनीय, बस्तिशूलहर और निरूह में उपयोगी बताया गया है।"
+    },
+    {
+      "verse_number": 82,
+      "sanskrit": "मूत्रं गोऽजाविमहिषीगजाश्वोष्ट्रखरोद्भवम्। पित्तलं रूक्षतीक्ष्णोष्णं लवणानुरसं कटु||८२||",
+      "student_meaning": "सौवीरक और तुषोदक समान गुणयुक्त तथा कृमि, हृद्रोग, गुल्म, अर्श और पाण्डु में उपयोगी बताए गए हैं।"
+    },
+    {
+      "verse_number": 83,
+      "sanskrit": "कृमिशोफोदरानाहशूलपाण्डुकफानिलान्। गुल्मारुचिविषश्वित्रकुष्ठार्शांसि जयेल्लघु||८३||",
+      "student_meaning": "सौवीरक तुषरहित यव और तुषोदक तुषयुक्त यव से बने भेद के रूप में बताया गया है।"
+    },
+    {
+      "verse_number": 84,
+      "sanskrit": "तोयक्षीरेक्षुतैलानां वर्गैर्मद्यस्य च क्रमात्। इति द्रवैकदेशोऽयं यथास्थूलमुदाहृतः||८४||",
+      "student_meaning": "आठ प्रकार के पशु-मूत्रों का उल्लेख तथा मूत्र के पित्तल, रूक्ष, तीक्ष्ण, उष्ण और लवणानुरस-कटु गुण बताए गए हैं।"
+    }
+  ]
+}

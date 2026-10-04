@@ -1,0 +1,365 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-15",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.15",
+  "chapter_title": "Shodhanadigana Sangraha Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "status": "content_complete_student_layer",
+  "verse_count": 47,
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "मदन-मधुक-लम्बा-निम्ब-बिम्बी-विशाला-त्रपुस-कुटज-मूर्वा-देवदाली-कृमिघ्नम् । विदुल-दहन-चित्राः कोशवत्यौ करञ्जः कण-लवण-वचैला-सर्षपाश् छर्दनानि ॥ १ ॥",
+      "student_meaning": "Lists the drugs used for Vamana/Chardana and establishes the first group of Shodhana-related substances."
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "निकुम्भ-कुम्भ-त्रि-फला-गवाक्षी-स्नुक्-शङ्खिनी-नीलिनि-तिल्वकानि । शम्याक-कम्पिल्लक-हेमदुग्धा दुग्धं च मूत्रं च विरेचनानि ॥ २ ॥",
+      "student_meaning": "Lists principal Virechana drugs and liquid media such as milk and urine used in purgative formulations."
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "मदन-कुटज-कुष्ठ-देवदाली-मधुक-वचा-दश-मूल-दारु-रास्नाः । यव-मिशि-कृतवेधनं कुलत्था मधु लवणं त्रिवृता निरूहणानि ॥ ३ ॥",
+      "student_meaning": "Lists drugs and materials used for Niruha Basti."
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "यव-मिशि-कृतवेधनं कुलत्थो वेल्लापामार्ग-व्योष-दार्वी-सुराला बीजं शैरीषं बार्हतं शैग्रवं च । सारो माधूकः सैन्धवं तार्क्ष्य-शैलं त्रुट्यौ पृथ्वीका शोधयन्त्य् उत्तमाङ्गम् ॥ ४ ॥",
+      "student_meaning": "Continues the Niruha group and identifies substances used for cleansing the head and upper region."
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "भद्रदारु नतं कुष्ठं दश-मूलं बला-द्वयम् । वायुं वीरतरादिश् च विदार्य्-आदिश् च नाशयेत् ॥ ५ ॥",
+      "student_meaning": "Bhadradaru, Nata, Kushtha, Dashamula and Bala groups are described for Vata disorders; Virataradi and Vidaryadi are also introduced."
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "दूर्वानन्ता निम्ब-वासात्मगुप्ता गुन्द्राभीरुः शीतपाकी प्रियङ्गुः । न्यग्रोधादिः पद्मकादिः स्थिरे द्वे पद्मं वन्यं शारिवादिश् च पित्तम् ॥ ६ ॥",
+      "student_meaning": "Lists Pitta-pacifying groups including Durva, Ananta, Nimba, Vasa, Priyangu, Nyagrodhadi, Padmakadi, Sthiradi and Sarivadigana."
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "आरग्वधादिर् अर्कादिर् मुष्ककाद्यो ऽसनादिकः । सुरसादिः स-मुस्तादिर् वत्सकादिर् बलास-जित् ॥ ७ ॥",
+      "student_meaning": "Enumerates Aragvadhadi, Arkadi, Mushkakadi, Asanadi, Surasadi, Mustadi and Vatsakadi groups with their principal dosha actions."
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "जीवन्ती-काकोल्यौ मेदे द्वे मुद्ग-माषपर्ण्यौ च । ऋषभक-जीवक-मधुकं चेति गणो जीवनीयाख्यः ॥ ८ ॥",
+      "student_meaning": "Defines the Jivaniya group and its rejuvenative/nourishing drug set."
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "विदारि-पञ्चाङ्गुल-वृश्चिकाली-वृश्चीव-देवाह्वय-शूर्पपर्ण्यः । कण्डूकरी जीवन-ह्रस्व-संज्ञे द्वे पञ्चके गोपसुता त्रिपादी ॥ ९ ॥",
+      "student_meaning": "Defines groups associated with Vidaryadi and related nourishing drugs."
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "विदार्य्-आदिर् अयं हृद्यो बृंहणो वात-पित्त-हा । शोष-गुल्माङ्ग-मर्दोर्ध्व-श्वास-कास-हरो गणः ॥ १० ॥",
+      "student_meaning": "Describes Vidaryadi Gana as pleasant, nourishing, Vata-Pitta pacifying and useful in wasting, Gulma, body fatigue, dyspnea and cough."
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "शारिवोशीर-काश्मर्य-मधूक-शिशिर-द्वयम् । यष्टी परूषकं हन्ति दाह-पित्तास्र-तृड्-ज्वरान् ॥ ११ ॥",
+      "student_meaning": "Shatavari-related and Madhuka/Parushaka-containing drugs are described for burning, Pitta, blood, thirst and fever."
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "पद्मक-पुण्ड्रौ वृद्धि-तुगर्द्ध्यः शृङ्ग्य् अमृता दश जीवन-संज्ञाः । स्तन्य-करा घ्नन्तीरण-पित्तं प्रीणन-जीवन-बृंहण-वृष्याः ॥ १२ ॥",
+      "student_meaning": "Lists the ten Jivaniya-type substances and describes their nourishing, lactation-supporting and aphrodisiac functions."
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "परूषकं वरा द्राक्षा कट्फलं कतकात् फलम् । राजाह्वं दाडिमं शाकं तृण्-मूत्रामय-वात-जित् ॥ १३ ॥",
+      "student_meaning": "Parushaka, Varā, Draksha, Katphala, Kataka, Rajahva, Dadima and Shaka are grouped for thirst, urinary disorders and Vata."
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "अञ्जनं फलिनी मांसी पद्मोत्पल-रसाञ्जनम् । सैला-मधुक-नागाह्वं विषान्तर्-दाह-पित्त-नुत् ॥ १४ ॥",
+      "student_meaning": "Anjana, Phalini, Mamsi, Padma, Utpala, Rasanjana and related drugs are described for internal poison, burning and Pitta."
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "पटोल-कटु-रोहिणी-चन्दनं मधुस्रव-गुडूचि-पाठान्वितम् । निहन्ति कफ-पित्त-कुष्ठ-ज्वरान् विषं वमिम् अ-रोचकं कामलाम् ॥ १५ ॥",
+      "student_meaning": "Patola, Katurohini, Chandana, Guduchi, Patha and related drugs are indicated for Kapha-Pitta disorders, skin disease, fever, vomiting, anorexia and jaundice."
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "गुडूची-पद्मकारिष्ट-धानका-रक्त-चन्दनम् । पित्त-श्लेष्म-ज्वर-च्छर्दि-दाह-तृष्णा-घ्नम् अग्नि-कृत् ॥ १६ ॥",
+      "student_meaning": "Guduchi, Padmaka, Arishta, coriander and red sandalwood are described for fever, vomiting, burning, thirst and weak digestion."
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "आरग्वधेन्द्रयव-पाटलि-काकतिक्ता-निम्बामृता-मधुरसा-स्रुव-वृक्ष-पाठाः । भूनिम्ब-सैर्यक-पटोल-करञ्ज-युग्म-सप्तच्छदाग्नि-सुषवी-फल-बाण-घोण्टाः ॥ १७ ॥",
+      "student_meaning": "Enumerates the extensive Aragvadhadi group."
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "आरग्वधादिर् जयति च्छर्दि-कुष्ठ-विष-ज्वरान् । कफं कण्डूं प्रमेहं च दुष्ट-व्रण-विशोधनः ॥ १८ ॥",
+      "student_meaning": "Aragvadhadi Gana is described as useful in vomiting, skin disease, poisoning, fever, Kapha, itching, Prameha and cleansing of chronic wounds."
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "असन-तिनिश-भूर्ज-श्वेतवाह-प्रकीर्याः खदिर-कदर-भण्डी-शिंशिपा-मेषशृङ्ग्यः । त्रि-हिम-तल-पलाशा जोङ्गकः शाक-शालौ क्रमुक-धव-कलिङ्ग-च्छागकर्णाश्वकर्णाः ॥ १९ ॥",
+      "student_meaning": "Enumerates Asanadi Gana."
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "असनादिर् विजयते श्वित्र-कुष्ठ-कफ-क्रिमीन् । पाण्डु-रोगं प्रमेहं च मेदो-दोष-निबर्हणः ॥ २० ॥",
+      "student_meaning": "Asanadi Gana is described for leucoderma, skin disease, Kapha, worms, anemia, Prameha and disorders of Medas."
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "वरुण-सैर्यक-युग्म-शतावरी-दहन-मोरट-बिल्व-विषाणिकाः । द्वि-बृहती-द्वि-करञ्ज-जया-द्वयं बहलपल्लव-दर्भ-रुजाकराः ॥ २१ ॥",
+      "student_meaning": "Enumerates Varunadi Gana."
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "वरुणादिः कफं मेदो मन्दाग्नि-त्वं नियच्छति । आढ्य-वातं शिरः-शूलं गुल्मं चान्तः स-विद्रधिम् ॥ २२ ॥",
+      "student_meaning": "Varunadi Gana reduces Kapha, Medas and weak digestion and is useful in abdominal Vata, headache, Gulma and internal abscess."
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "ऊषकस् तुत्थकं हिङ्गु कासीस-द्वय-सैन्धवम् । स-शिला-जतु कृच्छ्राश्म-गुल्म-मेदः-कफापहम् ॥ २३ ॥",
+      "student_meaning": "Ushakadi substances including Tuttha, Hingu, Kasis and Saindhava are described for urinary stones, Gulma, Medas and Kapha."
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "वेल्लन्तरारणिक-बूक-वृषाश्मभेद-गोकण्टकेत्कट-सहाचर-बाण-काशाः । वृक्षादनी-नल-कुश-द्वय-गुण्ठ-गुन्द्रा-भल्लूक-मोरट-कुरण्ट-करम्भ-पार्थाः ॥ २४ ॥",
+      "student_meaning": "Enumerates the extensive Virataradi group."
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "वर्गो वीरतराद्यो ऽयं हन्ति वात-कृतान् गदान् । अश्मरी-शर्करा-मूत्र-कृच्छ्राघात-रुजा-हरः ॥ २५ ॥",
+      "student_meaning": "Virataradi Gana pacifies Vata disorders and is useful for urinary stones, gravel, dysuria and painful obstruction."
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "लोध्र-शाबरक-लोध्र-पलाशा जिङ्गिनी-सरल-कट्फल-युक्ताः । कुत्सिताम्ब-कदली-गतशोकाः सैलवालु-परिपेलव-मोचाः ॥ २६ ॥",
+      "student_meaning": "Enumerates Lodhraadigana."
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "एष लोध्रादिको नाम मेदः-कफ-हरो गणः । योनि-दोष-हरः स्तम्भी वर्ण्यो विष-विनाशनः ॥ २७ ॥",
+      "student_meaning": "Lodhraadigana reduces Medas and Kapha and is described as useful in vaginal disorders, stambhana, complexion and poison."
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "अर्कालर्कौ नागदन्ती विशल्या भार्गी रास्ना वृश्चिकाली प्रकीर्या । प्रत्यक्पुष्पी पीततैलोदकीर्या श्वेता-युग्मं तापसानां च वृक्षः ॥ २८ ॥",
+      "student_meaning": "Enumerates Arkadigana."
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "अयम् अर्कादिको वर्गः कफ-मेदो-विषापहः । कृमि-कुष्ठ-प्रशमनो विशेषाद् व्रण-शोधनः ॥ २९ ॥",
+      "student_meaning": "Arkadigana reduces Kapha, Medas and poison, suppresses worms and skin disease, and especially cleanses wounds."
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "सुरस-युग-फणिज्जं कालमाला विडङ्गं खरबुस-वृषकर्णी-कट्फलं कासमर्दः । क्षवक-सरसि-भार्गी-कार्मुकाः काकमाची कुलहल-विषमुष्टी भूस्तृणो भूतकेशी ॥ ३० ॥",
+      "student_meaning": "Enumerates Surasadigana."
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "सुरसादिर् गणः श्लेष्म-मेदः-कृमि-निषूदनः । प्रतिश्याया-रुचि-श्वास-कास-घ्नो व्रण-शोधनः ॥ ३१ ॥",
+      "student_meaning": "Surasadi Gana reduces Kapha, Medas and worms and is useful in rhinitis, anorexia, dyspnea, cough and wound cleansing."
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "मुष्कक-स्नुग्-वरा-द्वीपि-पलाश-धव-शिंशिपाः । गुल्म-मेहाश्मरी-पाण्डु-मेदो-ऽर्शः-कफ-शुक्र-जित् ॥ ३२ ॥",
+      "student_meaning": "Enumerates Mushkakadi Gana and its principal therapeutic targets."
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "वत्सक-मूर्वा-भार्गी-कटुका मरीचं घुणप्रिया च गण्डीरम् । एला पाठाजाजी कट्वङ्ग-फलाजमोद-सिद्धार्थ-वचाः ॥ ३३ ॥",
+      "student_meaning": "Enumerates Vatsakadi and related aromatic/digestive drugs."
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "जीरक-हिङ्गु-विडङ्गं पशुगन्धा पञ्च-कोलकं हन्ति । चल-कफ-मेदः-पीनस-गुल्म-ज्वर-शूल-दुर्-नाम्नः ॥ ३४ ॥",
+      "student_meaning": "Panchakola and related drugs are described for Kapha, Medas, rhinitis, Gulma, fever, colic and difficult disease states."
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "वचा-जलद-देवाह्व-नागरातिविषाभयाः । हरिद्रा-द्वय-यष्ट्य्-आह्व-कलशी-कुटजोद्भवाः ॥ ३५ ॥",
+      "student_meaning": "Enumerates Vacha-Haridra-related drugs."
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "वचा-हरिद्रादि-गणाव् आमातीसार-नाशनौ । मेदः-कफाढ्य-पवन-स्तन्य-दोष-निबर्हणौ ॥ ३६ ॥",
+      "student_meaning": "Vacha-Haridra groups are described for Ama and Atisara and for reducing Medas, Kapha and certain Vata and breast-milk disorders."
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "प्रियङ्गु-पुष्पाञ्जन-युग्म-पद्माः पद्माद् रजो योजनवल्ल्य् अनन्ता । मानद्रुमो मोच-रसः समङ्गा पुन्नाग-शीतं मदनीय-हेतुः ॥ ३७ ॥",
+      "student_meaning": "Enumerates Priyangvadi substances and their astringent/stambhana-related applications."
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "अम्बष्ठा मधुकं नमस्करी नन्दीवृक्ष-पलाश-कच्छुराः । लोध्रं धातकि-बिल्व-पेशिके कट्वङ्गः कमलोद्भवं रजः ॥ ३८ ॥",
+      "student_meaning": "Enumerates Amrasthadi group substances."
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "गणौ प्रियङ्ग्व्-अम्बष्ठादी पक्वातीसार-नाशनौ । संधानीयौ हितौ पित्ते व्रणानाम् अपि रोपणौ ॥ ३९ ॥",
+      "student_meaning": "Priyangvadi and Amrasthadi groups are described for Pakvatisara, tissue binding, Pitta and wound healing."
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "मुस्ता-वचाग्नि-द्वि-निशा-द्वि-तिक्ता-भल्लात-पाठा-त्रि-फला-विषाख्याः । कुष्ठं त्रुटी हैमवती च योनि-स्तन्यामय-घ्ना मल-पाचनाश् च ॥ ४० ॥",
+      "student_meaning": "Enumerates Mustadi and related groups for female reproductive, breast-milk and mala-pachana indications."
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "न्यग्रोध-पिप्पल-सदाफल-लोध्र-युग्मं जम्बू-द्वयार्जुन-कपीतन-सोमवल्काः । प्लक्षाम्र-वञ्जुल-पियाल-पलाश-नन्दी-कोली-कदम्ब-विरला-मधुकं मधूकम् ॥ ४१ ॥",
+      "student_meaning": "Enumerates Nyagrodhadi Gana."
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "न्यग्रोधादिर् गणो व्रण्यः संग्राही भग्न-साधनः । मेदः-पित्तास्र-तृड्-दाह-योनि-रोग-निबर्हणः ॥ ४२ ॥",
+      "student_meaning": "Nyagrodhadi is wound-supportive and astringent, helps fractures and reduces Medas, Pitta, blood, thirst, burning and gynecological disorders."
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "एला-युग्म-तुरुष्क-कुष्ठ-फलिनी-मांसी-जल-ध्यामकं । स्पृक्का-चोरक-चोच-पत्त्र-तगर-स्थौणेय-जाती-रसाः । शुक्तिर् व्याघ्रनखो ऽमराह्वम् अगुरुः श्रीवासकः कुङ्कुमं । चण्डा-गुग्गुलु-देव-धूप-खपुराः पुन्नाग-नागाह्वयम् ॥ ४३ ॥",
+      "student_meaning": "Enumerates Eladigana across its four textual quarters."
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "एलादिको वात-कफौ विषं च विनियच्छति । वर्ण-प्रसादनः कण्डू-पिटिका-कोठ-नाशनः ॥ ४४ ॥",
+      "student_meaning": "Eladi Gana pacifies Vata and Kapha and poison, improves complexion and reduces itching, eruptions and urticaria."
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "श्यामा-दन्ती-द्रवन्ती-क्रमुक-कुटरणा-शङ्खिनी-चर्म-साह्वा- । स्वर्णक्षीरी-गवाक्षी-शिखरि-रजनक-च्छिन्नरोहा-करञ्जाः । बस्तान्त्री व्याधिघातो बहल-बहु-रसस् तीक्ष्णवृक्षात् फलानि ॥ ४५ ॥",
+      "student_meaning": "Enumerates Shyamadi Gana."
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "श्यामाद्यो हन्ति गुल्मं विषम-रुचि-कफौ हृद्-रुजं मूत्र-कृच्छ्रम् । त्रयस्-त्रिंशद् इति प्रोक्ता वर्गास् तेषु त्व् अ-लाभतः । युञ्ज्यात् तद्-विधम् अन्यच् च द्रव्यं जह्याद् अ-यौगिकम् ॥ ४६ ॥",
+      "student_meaning": "Shyamadi Gana is described for Gulma, irregular appetite, Kapha, cardiac pain and dysuria; the text notes 33 groups in total and advises substituting similar drugs when an item is unavailable while avoiding unsuitable substitutes."
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "एते वर्गा दोष-दूष्याद्य् अपेक्ष्य कल्क-क्वाथ-स्नेह-लेहादि-युक्ताः । पाने नस्ये ऽन्वासने ऽन्तर् बहिर् वा लेपाभ्यङ्गैर् घ्नन्ति रोगान् सु-कृच्छ्रान् ॥ ४७ ॥",
+      "student_meaning": "All these groups are to be selected according to dosha, tissue and disease and may be administered as paste, decoction, oil, linctus, internal drink, nasal therapy, Basti, topical application or massage for difficult diseases."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Shodhana Dravya Groups",
+      "verse_range": "1-4"
+    },
+    {
+      "title": "Dosha-Pacifying and Jivaniya Groups",
+      "verse_range": "5-16"
+    },
+    {
+      "title": "Aragvadhadi and Asanadi Groups",
+      "verse_range": "17-20"
+    },
+    {
+      "title": "Varunadi and Virataradi Groups",
+      "verse_range": "21-25"
+    },
+    {
+      "title": "Lodhra and Arkadi Groups",
+      "verse_range": "26-29"
+    },
+    {
+      "title": "Surasadi and Mushkakadi Groups",
+      "verse_range": "30-32"
+    },
+    {
+      "title": "Vatsakadi, Panchakola and Vacha-Haridra Groups",
+      "verse_range": "33-36"
+    },
+    {
+      "title": "Priyangvadi, Amrasthadi and Mustadi Groups",
+      "verse_range": "37-40"
+    },
+    {
+      "title": "Nyagrodhadi and Eladi Groups",
+      "verse_range": "41-44"
+    },
+    {
+      "title": "Shyamadi Group and Therapeutic Application",
+      "verse_range": "45-47"
+    }
+  ],
+  "learning_outcomes": [
+    "Identify the principal Shodhana drug groups.",
+    "Recall major Gana names and their classical indications.",
+    "Relate selected Ganas to Vata, Pitta, Kapha, Medas, skin, urinary and gastrointestinal disorders.",
+    "Recognize the classical distinction between group enumeration and therapeutic action verses.",
+    "Understand substitution principles when an individual drug is unavailable.",
+    "Describe the dosage-form and route flexibility of these Ganas."
+  ],
+  "key_terms": [
+    "Shodhanadigana",
+    "Chardana",
+    "Virechana",
+    "Niruha",
+    "Uttamanga Shodhana",
+    "Jivaniya",
+    "Vidaryadi",
+    "Aragvadhadi",
+    "Asanadi",
+    "Varunadi",
+    "Virataradi",
+    "Lodhraadi",
+    "Arkadi",
+    "Surasadi",
+    "Mushkakadi",
+    "Vatsakadi",
+    "Vacha-Haridra",
+    "Priyangvadi",
+    "Amrasthadi",
+    "Mustadi",
+    "Nyagrodhadi",
+    "Eladi",
+    "Shyamadi"
+  ],
+  "exam_focus": [
+    "Enumerate major Ganas and their principal actions.",
+    "Aragvadhadi, Asanadi, Varunadi and Virataradi indications.",
+    "Lodhraadigana, Arkadigana and Surasadigana actions.",
+    "Jivaniya and Vidaryadi groups.",
+    "Vacha-Haridra and Priyangvadi groups.",
+    "Nyagrodhadi and Eladi indications.",
+    "Thirty-three group enumeration and rational substitution principle."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": true,
+    "numbered_verse_count": 47,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "source_text": {
+    "primary": "Vāgbhaṭa, Aṣṭāṅga Hṛdaya, Sūtrasthāna Chapter 15",
+    "cross_check": [
+      "Wikisource Sanskrit text",
+      "University of Hyderabad SHMT proof-read corpus",
+      "Ayana Ayurveda"
+    ],
+    "verification_note": "Wikisource establishes verses 1-47. Editorial half-line readings at 43 and 45 are preserved within their respective numbered verse units rather than counted as additional verses. Verse 46 explicitly states that thirty-three groups are described; verse 47 gives their practical modes of administration."
+  },
+  "student_support": {
+    "revision_summary": [
+      "Create a table of Gana name, major drugs and principal action.",
+      "Group the Ganas by dosha and disease indication.",
+      "Memorize the high-yield Ganas: Aragvadhadi, Asanadi, Varunadi, Virataradi, Lodhraadi, Arkadi, Surasadi and Eladi.",
+      "Remember the 33-group statement in verse 46.",
+      "Revise substitution and route-of-administration principles from verses 46-47."
+    ]
+  }
+}
