@@ -38,11 +38,35 @@ async function renderSubject(){
  const body='<div class="page-list">'+chapters.map(n=>'<a class="content-card" href="./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)+'&node_id='+encodeURIComponent(n.node_id)+'&chapter_name='+encodeURIComponent(n.name)+'"><span class="card-code">'+esc(n.code||n.node_type||'Chapter')+'</span><div><h2>'+esc(n.name)+'</h2><p>Open chapter and its topics</p></div><b>→</b></a>').join('')+(chapters.length?'':'<div class="empty-state">No chapters have been published for this subject yet.</div>')+'</div>';
  page.innerHTML=shell(name,'Chapters and learning units for this subject.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[name,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)]],body,'./year'+year+'.html');
 }
+function mdInline(s){return esc(s).replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>').replace(/\\*([^*]+)\\*/g,'<em>$1</em>').replace(/\`([^\`]+)\`/g,'<code>$1</code>')}
+function mdHtml(md){
+ const lines=String(md||'').replace(/\\r/g,'').split('\\n');let out='',code=false,buf=[];
+ for(const line of lines){
+  if(line.trim().startsWith('\\`\\`\\`')){if(code){out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';buf=[];code=false}else code=true;continue}
+  if(code){buf.push(line);continue}
+  if(/^### /.test(line))out+='<h3>'+mdInline(line.slice(4))+'</h3>';
+  else if(/^## /.test(line))out+='<h2>'+mdInline(line.slice(3))+'</h2>';
+  else if(/^# /.test(line))out+='<h1>'+mdInline(line.slice(2))+'</h1>';
+  else if(/^> /.test(line))out+='<blockquote>'+mdInline(line.slice(2))+'</blockquote>';
+  else if(/^[-*] /.test(line))out+='<li>'+mdInline(line.slice(2))+'</li>';
+  else if(/^\\d+\\. /.test(line))out+='<li>'+mdInline(line.replace(/^\\d+\\. /,''))+'</li>';
+  else if(line.trim()==='')out+='<br>';
+  else out+='<p>'+mdInline(line)+'</p>';
+ }
+ if(code)out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';return out;
+}
+async function padarthaContent(nodeId){
+ const r=await fetch('/api/content/padartha?node_id='+encodeURIComponent(nodeId));
+ if(!r.ok)throw new Error('content unavailable');const b=await r.json();return b.data?.content||'';
+}
 async function renderChapter(){
  const year=Number(qs.get("year")),cid=qs.get("curriculum_id"),sid=qs.get("subject_id"),sname=qs.get("subject_name")||sid,nodeId=qs.get("node_id"),name=qs.get("chapter_name")||"Chapter";
  if(!year||!cid||!sid||!nodeId){location.href='./curriculum.html';return}
  document.title=name+' — AaptaKosha';let topics=[];try{topics=await apiNodes(cid,sid,nodeId)}catch{}
- const body='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
+ let article='';
+ if(sid==='AyUG-PV'){try{const md=await padarthaContent(nodeId);if(md)article='<article class="topic-panel chapter-content">'+mdHtml(md)+'</article>'}catch{}}
+ const topicPanel='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
+ const body=article+topicPanel;
  page.innerHTML=shell(name,'Study the topics contained in this chapter.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
 }
 const file=location.pathname.split('/').pop();if(file==='subject.html')renderSubject();else if(file==='chapter.html')renderChapter();else renderYear();
