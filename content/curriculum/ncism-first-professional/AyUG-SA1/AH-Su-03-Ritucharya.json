@@ -1,0 +1,530 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-3",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.3",
+  "chapter_title": "Ritucharya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "source_basis": {
+    "authority": "NCISM",
+    "syllabus": "AyUG-SA1, Ashtanga Hridaya Sutrasthana 1-15",
+    "chapter_sequence": "Sutrasthana 3",
+    "primary_source": "Ashtanga Hridaya Sutrasthana 3"
+  },
+  "status": "content_complete_student_layer",
+  "scope_note": "Complete NCISM-aligned student study layer: 58 numbered verses plus traditional closing half-verse, original verse-wise student meanings, seasonal concepts, exam support and revision.",
+  "learning_outcomes": [
+    "Explain six seasons and months.",
+    "Explain Uttarayana/Adana and Dakshinayana/Visarga and their relation to Bala.",
+    "Explain seasonal relation of Bala and Agni.",
+    "Discuss Hemanta and Shishira climate, Bala, Agni, Dosha, diet and regimen.",
+    "Discuss Vasanta and Kapha-related regimen.",
+    "Discuss Grishma climate, diet and regimen.",
+    "Discuss Varsha climate, Agni, Dosha, food and regimen.",
+    "Discuss Sharad climate, Pitta and regimen.",
+    "Explain seasonal Rasa predominance.",
+    "Explain Ritusandhi and gradual seasonal transition."
+  ],
+  "sections": [
+    {
+      "id": "01",
+      "title": "Ritu, Kala, Ayana and Bala (1-7)",
+      "content": [
+        "Six seasons and months",
+        "Adana/Visarga and Uttarayana/Dakshinayana",
+        "Seasonal Bala and Agni"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Hemanta (8-16)",
+      "content": [
+        "Strong Agni",
+        "Diet, Abhyanga, exercise, warmth",
+        "Historical winter regimen"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Shishira (17-18)",
+      "content": [
+        "Continuation of Hemanta",
+        "Increased cold and dryness",
+        "Kapha accumulation"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Vasanta (19-25)",
+      "content": [
+        "Kapha liquefaction",
+        "Shodhana, light diet and exercise",
+        "Historical seasonal leisure"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Grishma (26-41)",
+      "content": [
+        "Heat and depletion",
+        "Cooling diet and fluids",
+        "Rest and environmental measures"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Varsha (42-48)",
+      "content": [
+        "Agni impairment",
+        "Dosha disturbance",
+        "Diet, water and residence"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Sharad (49-55)",
+      "content": [
+        "Pitta accumulation",
+        "Diet and classical Pitta measures",
+        "Hamsodaka"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Seasonal Summary and Ritusandhi (55-58½)",
+      "content": [
+        "Seasonal taste summary",
+        "Six-rasa principle",
+        "Gradual transition"
+      ]
+    }
+  ],
+  "key_terms": [
+    "Ritucharya",
+    "Ritu",
+    "Ayana",
+    "Uttarayana",
+    "Dakshinayana",
+    "Adana",
+    "Visarga",
+    "Bala",
+    "Agni",
+    "Hemanta",
+    "Shishira",
+    "Vasanta",
+    "Grishma",
+    "Varsha",
+    "Sharad",
+    "Ritusandhi",
+    "Asatmya",
+    "Hamsodaka",
+    "Shad-rasa"
+  ],
+  "exam_focus": [
+    "Six seasons and months",
+    "Adana and Visarga",
+    "Seasonal Bala and Agni",
+    "Hemanta/Shishira regimen",
+    "Vasanta and Kapha",
+    "Grishma regimen",
+    "Varsha regimen",
+    "Sharad regimen",
+    "Seasonal Rasa",
+    "Ritusandhi"
+  ],
+  "content_quality": {
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 59,
+    "numbered_verse_count": 58,
+    "supplementary_half_verse_present": true,
+    "classical_sanskrit_verified": true,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true
+  },
+  "verse_count": 59,
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "मासैर्द्विसङ्ख्यैर्माघाद्यैः क्रमात् षडृतवः स्मृताः । शिशिरोऽथ वसन्तश्च ग्रीष्मो वर्षाः शरद्धिमाः॥१॥",
+      "student_meaning": "छह ऋतुएँ दो-दो मास के क्रम से निर्धारित हैं।"
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "शिशिराद्यास्त्रिभिस्तैस्तु विद्यादयनमुत्तरम् । आदानं च तदादत्ते नृणां प्रतिदिनं बलम् ॥२॥",
+      "student_meaning": "शिशिर-वसन्त-ग्रीष्म के छह मास उत्तरायण/आदान हैं और बल का क्षय होता है।"
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "तस्मिन् ह्यत्यर्थतीक्ष्णोष्णरूक्षा मार्गस्वभावतः । आदित्यपवना: सौम्यान् क्षपयन्ति गुणान् भुवः ॥३॥",
+      "student_meaning": "आदान में सूर्य-वायु पृथ्वी के सौम्य गुण घटाते हैं।"
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "तिक्तः कषायः कटुको बलिनोऽत्र रसाः क्रमात् । तस्मादादानमाग्नेयम् ऋतवो दक्षिणायनम् ॥४॥",
+      "student_meaning": "आदान में तिक्त-कषाय-कटु रस क्रमशः प्रभावी हैं; वर्षा-शरद-हेमन्त दक्षिणायन हैं।"
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "वर्षादयो विसर्गश्च-यद्वलं विसृजत्ययम् । सौम्यत्वादत्र सोमो हि बलवान् हीयते रविः ॥५॥",
+      "student_meaning": "विसर्गकाल सौम्य है और बल को पुनः पोषित करता है।"
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "मेघवृष्ट्यनिलैः शीतैः शान्ततापे महीतले । स्निग्धाश्वेहाम्ललवणमधुरा बलिनो रसाः ॥६॥",
+      "student_meaning": "वर्षा-शरद-हेमन्त में अम्ल-लवण-मधुर रस क्रमशः प्रबल होते हैं।"
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "शीतेऽग्र्यं वृष्टिघर्मेऽल्पं बलं मध्यं तु शेषयोः । बलिनः शीतसंरोधाद्धेमन्ते प्रबलोऽनलः ॥७॥",
+      "student_meaning": "हेमन्त-शिशिर में बल श्रेष्ठ, शरद-वसन्त में मध्यम और वर्षा-ग्रीष्म में अल्प है।"
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "भवत्यल्पेन्धनो धातून् स पचेद्वायुनेरितः । अतो हिमेऽस्मिन्सेवेत स्वाद्वम्ललवणान्रसान् ॥८॥",
+      "student_meaning": "हेमन्त की प्रबल अग्नि के कारण मधुर-अम्ल-लवण रस उपयोगी बताए गए हैं।"
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "दैर्घ्यान्निशानामेतर्हि प्रातरेव बुभुक्षितः । अवश्यकार्यं सम्भाव्य यथोक्तं शीलयेदनु ॥९॥",
+      "student_meaning": "हेमन्त में लम्बी रात के कारण प्रातः भूख अधिक हो सकती है।"
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "वातघ्नतैलैरभ्यङ्गं मूर्ध्नि तैलं विमर्दनम् । नियुद्धं कुशलैः सार्धं पादाघातं च युक्तितः ॥१०॥",
+      "student_meaning": "हेमन्त में वातघ्न तैलाभ्यंग, मर्दन और युक्तिपूर्वक व्यायाम का वर्णन है।"
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "कषायापहृतस्नेहस्ततः स्नातो यथाविधि । कुङ्कुमेन सदर्पेण प्रदिग्धोऽगुरुधूपितः ॥११॥",
+      "student_meaning": "हेमन्त में उष्ण स्नान, सुगंधित लेप और अगुरु-धूप का उल्लेख है।"
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "रसान् स्निग्धान् पलं पुष्टं गौडमच्छसुरां सुराम् । गोधूमपिष्टमाषेक्षुक्षीरोत्थविकृतीः शुभाः ॥१२॥",
+      "student_meaning": "पौष्टिक स्निग्ध आहारों का हेमन्त में वर्णन है।"
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "नवमन्नं वसां तैलं, शौचकार्ये सुखोदकम् । प्रावाराजिनकौशेयप्रवेणीकौचवास्तृतम् ॥१३॥",
+      "student_meaning": "उष्ण जल, तैल-वसा और ऊष्ण आवरणों का पारंपरिक निर्देश है।"
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "उष्णस्वभावैर्लघुभिः प्रावृतः शयनं भजेत् । युक्त्याऽर्ककिरणान् स्वेदं पादत्राणं च सर्वदा ॥१४॥",
+      "student_meaning": "हल्के उष्ण आवरण, सूर्यकिरण, स्वेदन और पादत्राण का वर्णन है।"
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "पीवरोरुस्तनश्रोण्यः समदाः प्रमदाः प्रियाः । हरन्ति शीतमुष्णाङ्गयो धूपकुङ्कुमयौवनैः ॥१५॥",
+      "student_meaning": "शीत निवारण का काव्यात्मक सांस्कृतिक वर्णन है।"
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "अङ्गारतापसन्तप्तगर्भभूवेश्मचारिणः । शीतपारुष्यजनितो न दोषो जातु जायते ॥१६॥",
+      "student_meaning": "उष्ण अंतःकक्ष में निवास से शीतजनित कष्ट से बचने का वर्णन है।"
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "अयमेव विधिः कार्यः शिशिरेऽपि विशेषतः । तदा हि शीतमधिकं रौक्ष्यं चादानकालजम् ॥१७॥",
+      "student_meaning": "शिशिर में हेमन्तचर्या विशेष रूप से अपनानी चाहिए; शीत और रूक्षता अधिक है।"
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "कफश्चितो हि शिशिरे वसन्तेऽर्कांशुतापितः । हत्वाऽग्निं कुरुते रोगानतस्तं त्वरया जयेत् ॥१८॥",
+      "student_meaning": "शिशिर में संचित कफ वसन्त में पिघलकर अग्नि मंद कर सकता है।"
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "तीक्ष्णैर्वमननस्याद्यैर्लघुरूक्षैश्च भोजनैः । व्यायामोद्वर्तनाघातैर्जित्वा श्लेष्माणमुल्बणम् ॥१९॥",
+      "student_meaning": "वसन्त में कफशमन हेतु शोधन, लघु-रूक्ष आहार, व्यायाम और उद्वर्तन बताए गए हैं।"
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "स्नातोऽनुलिप्तः कर्पूरचन्दनागुरुकुङ्कुमैः । पुराणयवगोधूमक्षौद्रजाङ्गलशूल्यभुक् ॥२०॥",
+      "student_meaning": "वसन्त में लघु आहार और सुगंधित स्नान-लेप का वर्णन है।"
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "सहकाररसोन्मिश्रानास्वाद्य प्रिययाऽर्पितान् । प्रियास्यसङ्गसुरभीन् प्रियानेत्रोत्पलाङ्कितान् ॥२१॥",
+      "student_meaning": "आम्ररस और प्रिय-संगति का काव्यात्मक वर्णन है।"
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "सौमनस्यकृतो हृह्यान्वयस्यैः सहितः पिबेत् । निर्गदानासवारिष्टसीधुमार्डीकमाधवान् ॥२२॥",
+      "student_meaning": "दोषरहित पेय और मित्र-संगति का उल्लेख है।"
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "शृङ्गबेराम्बु साराम्बु मध्वम्बु जलदाम्बु च। दक्षिणानिलशीतेषु परितो जलवाहिषु ॥२३॥",
+      "student_meaning": "शीतल जल और दक्षिणी वायु वाले प्राकृतिक स्थलों का वर्णन है।"
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "अदृष्टनष्टसूर्येषु मणिकुट्टिमकान्तिषु । परपुष्टविघुष्टेषुकामकर्मान्तभूमिषु ॥२४॥",
+      "student_meaning": "रमणीय उद्यान और सुखद वातावरण का वर्णन है।"
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "विचित्र पुष्पवृक्षेषु काननेषु सुगन्धिषु । गोष्ठीकथाभिश्चित्राभिर्मध्याह्नं गमयेत्सुखी ॥२५॥",
+      "student_meaning": "सुगंधित उद्यान में मध्याह्न बिताने का निर्देश है।"
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "गुरुशीतदिवास्वप्नस्निग्धाम्लमधुरांस्त्यजेत् । तीक्ष्णांशुरतितीक्ष्णांशुग्रष्मे सङ्क्षिपतीव यत् ॥२६॥",
+      "student_meaning": "वसन्त में गुरु-स्निग्ध आदि कफवर्धक पदार्थों से बचने की बात है; ग्रीष्म में शोष बढ़ता है।"
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "प्रत्यहं क्षीयते श्लेष्मा तेन वायुश्च वर्धते । अतोऽस्मिन्पटुकट्वम्लव्यायामार्ककरांस्त्यजेत् ॥२७॥",
+      "student_meaning": "ग्रीष्म में कफक्षय-वातवृद्धि के कारण अति लवण-कटु-अम्ल, व्यायाम और धूप से बचने का निर्देश है।"
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "भजेन्मधुरमेवान्नं लघु स्निग्धं हिमं द्रवम् । सुशीततोयसिक्ताङ्गो लिह्यात्सक्तून् सर्शकरान् ॥२८॥",
+      "student_meaning": "ग्रीष्म में मधुर, लघु, स्निग्ध, शीतल और द्रव आहार का वर्णन है।"
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "मद्यं न पेयं, पेयं वा स्वल्पं, सुबहुवारि वा । अन्यथा शोषशैथिल्यदाहमोहान् करोति तत् ॥२९॥",
+      "student_meaning": "ग्रीष्म में मद्य से बचने या अत्यल्प/जलयुक्त सेवन का निर्देश है।"
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "कुन्देन्दुधवलं शालिमश्नीयाज्जाङ्गलैः पलैः । पिबेद्रसं नातिघनं रसालां रागखाण्डवौ ॥३०॥",
+      "student_meaning": "शीतल शालि-अन्न, जाङ्गल मांस-रस और हल्के पेयों का वर्णन है।"
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "पानकं पञ्चसारं वा नवमृद्भाजने स्थितम् । मोचचोचदलैर्युक्तं साम्लं मृन्मयशुक्तिभिः ॥३१॥",
+      "student_meaning": "पानक और शीतल पेयों को मिट्टी के पात्र में रखने का वर्णन है।"
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "पाटलावासितं चाम्भः सकर्पूरं सुशीतलम् । शशाङ्ककिरणान् भक्ष्यान् रजन्यां भक्षयन् पिबेत् ॥३२॥",
+      "student_meaning": "शीतल सुगंधित जल और रात्रि-शीतल आहार का काव्यात्मक वर्णन है।"
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "ससितं माहिषं क्षीरं चन्द्रनक्षत्रशीतलम् । अभ्रङ्कषमहाशालतालरुद्धोष्णरश्मिषु ॥३३॥",
+      "student_meaning": "महिष-दुग्ध और वृक्ष-छाया में रहने का वर्णन है।"
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "वनेषु माधवीश्लिष्टद्राक्षास्तबकशालिषु । सुगन्धिहिमपानीयसिच्यमानपटालिके ॥३४॥",
+      "student_meaning": "शीतल उद्यान और जलसिक्त परदों में विश्राम का वर्णन है।"
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "कायमाने चिते चूतप्रवालफललुम्बिभिः । कदलीबलकहारमृणालकमलोत्पलैः ॥३५॥",
+      "student_meaning": "फूल-पत्तों से सजाए शीतल निवास का वर्णन है।"
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "कोमलैः कल्पिते तल्पे हसत्कुसुमपल्लवे । मध्यन्दिनेऽर्कतापार्तः स्वप्याद्वारागृहेऽथवा ॥३६॥",
+      "student_meaning": "मध्याह्न में शीतल शय्या या धारागृह के समीप विश्राम का निर्देश है।"
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "पुस्तस्त्रीस्तनहस्तास्यप्रवृत्तोशीरवारिणि निशाकरकराकीर्णे सौधपृष्ठे निशासु च ॥३७॥",
+      "student_meaning": "चन्द्रप्रकाश और सुगंधित शीतल वातावरण में रात्रि विश्राम का वर्णन है।"
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "स्वस्थचित्तस्य चन्दनार्द्रस्य मालिनः । निवृत्तकामतन्त्रस्य सुसूक्ष्मतनुवाससः ॥३८॥",
+      "student_meaning": "चन्दन, पुष्पमाला और हल्के वस्त्रों से मनोहर ग्रीष्मचर्या का वर्णन है।"
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "जलार्द्रास्तालवृन्तानि विस्तृताः पद्मिनीपुटाः । उत्क्षेपाश्च मृदूत्क्षेपा जलवर्षिहिमानिलाः ॥३९॥",
+      "student_meaning": "जलसिक्त पंखों और कमल-पत्तों से शीतल हवा लेने का वर्णन है।"
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "कर्पूरमल्लिकामाला हाराः सहरिचन्दनाः । मनोहरकलालापाः शिशवः सारिकाः शुकाः ॥४०॥",
+      "student_meaning": "कपूर-सुगंधित मालाएँ और मनोहर ध्वनियों वाले वातावरण का वर्णन है।"
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "मृणालवलयाः कान्ताः प्रोत्फुल्लकमलोज्ज्वलाः । जङ्गमा इव पद्मिन्यो हरन्ति दयिताः क्लमम् ॥४१॥",
+      "student_meaning": "सौंदर्य और मनोहर संगति से ग्रीष्मक्लान्ति दूर करने का काव्यात्मक चित्रण है।"
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "आदानग्लानवपुषामग्निः सन्नोऽपि सीदति । वर्षासु दोषैर्दुष्यन्ति तेऽम्बुलम्बाम्बुदेऽम्बरे ॥४२॥",
+      "student_meaning": "वर्षा में पहले से दुर्बल अग्नि और अधिक मंद हो सकती है।"
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "सतुषारेण मरुता सहसा शीतलेन च । भूबाष्पेणाम्लपाकेन मलिनेन च वारिणा ॥४३॥",
+      "student_meaning": "शीत वायु, पृथ्वी की भाप, अम्लविपाक और अशुद्ध जल अग्नि को प्रभावित करते हैं।"
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "वह्निनैव च मन्देन, तेष्वित्यन्योऽन्यदूषिषु । भजेत्साधारणं सर्वमूष्मणस्तेजनं च यत् ॥४४॥",
+      "student_meaning": "मंद अग्नि में दोषों के परस्पर दूषण से बचने हेतु अग्निवर्धक सामान्य आहार-विहार बताया गया है।"
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "आस्थापनं शुद्धतनुर्जीर्ण धान्यं रसान् कृतान् । जाङ्गलं पिशितं यूषान् मध्वरिष्टं चिरन्तनम् ॥४५॥",
+      "student_meaning": "वर्षा में शोधन, आस्थापन और पुराने धान्य, जाङ्गल मांस, यूष आदि का वर्णन है।"
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "मस्तु सौवर्चलाढ्यं वा पञ्चकोलावचूर्णितम् । दिव्यं कौपं शृतं चाम्भो भोजनं त्वतिदुर्दिने ॥४६॥",
+      "student_meaning": "मस्तु, पञ्चकोल तथा स्वच्छ जल के सेवन का वर्षाकालीन वर्णन है।"
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "व्यक्ताम्ललवणस्नेहं संशुष्कं क्षौद्रवल्लघु । अपादचारी सुरभिः सततं धूपिताम्बरः ॥४७॥",
+      "student_meaning": "दुर्दिन में हल्का अम्ल-लवण-स्निग्ध आहार और गीली भूमि से बचाव का निर्देश है।"
+    },
+    {
+      "verse_number": 48,
+      "sanskrit": "हर्म्यपृष्ठे वसेद्वाष्पशीतशीकरवर्जिते । नदीजलोदमन्थाहः स्वप्नायासातपांस्त्यजेत् ॥४८॥",
+      "student_meaning": "वर्षा में भाप, शीत और वर्षाबूंदों से सुरक्षित निवास तथा अतिश्रम/दिवास्वप्न से बचाव है।"
+    },
+    {
+      "verse_number": 49,
+      "sanskrit": "वर्षाशीतोचिताङ्गानां सहसैवार्करश्मिभिः । तप्तानां सञ्चितं वृष्टौ पित्तं शरदि कुप्यति ॥४९॥",
+      "student_meaning": "वर्षा में संचित पित्त शरद में सूर्यताप से प्रकोपित होता है।"
+    },
+    {
+      "verse_number": 50,
+      "sanskrit": "तज्जयाय घृतं तिक्तं विरेको रक्तमोक्षणम् । तिक्तं स्वादु कषायं च क्षुधितोऽन्नं भजेल्लघु ॥५०॥",
+      "student_meaning": "शरद में तिक्तघृत, विरेचन, रक्तमोक्षण और तिक्त-मधुर-कषाय लघु आहार का वर्णन है।"
+    },
+    {
+      "verse_number": 51,
+      "sanskrit": "शालिमुद्रसिताधात्रीपटोलमधुजाङ्गलम् तप्तं तप्तांशुकिरणैः शीतं शीतांशुरश्मिभिः ॥५१॥",
+      "student_meaning": "शरद में शालि, मुद्ग, आमलकी, पटोल, मधु और जाङ्गल आहार का वर्णन है।"
+    },
+    {
+      "verse_number": 52,
+      "sanskrit": "समन्तादप्यहोरात्रमगस्त्योदयनिर्विषम् । शुचि हंसोदकं नाम निर्मलं मलजिज्जलम् ॥५२॥",
+      "student_meaning": "अगस्त्योदय के बाद दोषरहित निर्मल जल को हंसोदक कहा गया है।"
+    },
+    {
+      "verse_number": 53,
+      "sanskrit": "नाभिष्यन्दि न वा रूक्षं पानादिष्वमृतोपमम् । चन्दनोशीरकर्पूरमुक्ताम्रग्वसनोज्ज्वलः ॥५३॥",
+      "student_meaning": "हंसोदक को अमृततुल्य बताया गया और चन्दन-उशीर-कपूर लेप का उल्लेख है।"
+    },
+    {
+      "verse_number": 54,
+      "sanskrit": "सौधेषु सौधधवलां चन्द्रिकां रजनीमुखे । तुषारक्षारसौहित्यदधितैलवसातपान् ॥५४॥",
+      "student_meaning": "शरद में चन्द्रिका का सेवन और ओस, क्षार, अतिभोजन, दधि, तेल, वसा, तीव्र धूप आदि से बचाव का निर्देश है।"
+    },
+    {
+      "verse_number": 55,
+      "sanskrit": "तीक्ष्णमद्यदिवास्वप्नपुरोवातान् परित्यजेत् । शीते वर्षासु चाद्यांस्त्रीन् वसन्तेऽन्त्यान् रसान्भजेत् ॥५५॥",
+      "student_meaning": "तीक्ष्ण मद्य, दिवास्वप्न और पूर्वी वायु से बचना; शीत-वर्षा में प्रथम तीन और वसन्त में अंतिम तीन रसों की प्रधानता।"
+    },
+    {
+      "verse_number": 56,
+      "sanskrit": "स्वादुं निदाघे, शरदि स्वादुतिक्तकषायकान् । शरद्वसन्तयो रूक्षं शीतं धर्मघनान्तयोः ॥५६॥",
+      "student_meaning": "ग्रीष्म में मधुर, शरद में मधुर-तिक्त-कषाय तथा ऋतु-अनुसार रूक्ष/शीत गुणों का वर्णन है।"
+    },
+    {
+      "verse_number": 57,
+      "sanskrit": "अन्नपानं समासेन विपरीतमतोऽन्यदा । नित्यं सर्वरसाभ्यासः स्वस्वाधिक्यमृतावृतौ ॥५७॥",
+      "student_meaning": "सभी छह रसों का नित्य अभ्यास और विशेष ऋतु में निर्दिष्ट रस की प्रधानता बताई गई है।"
+    },
+    {
+      "verse_number": 58,
+      "sanskrit": "ऋत्वोरन्त्यादिसप्ताहावृतुसन्धिरिति स्मृतः । तत्र पूर्वो विधिस्त्याज्यः सेवनीयोऽपरः क्रमात् ॥५८॥",
+      "student_meaning": "ऋतुसंधि पूर्व ऋतु के अंतिम और अगली ऋतु के प्रथम सप्ताह का संक्रमण है।"
+    },
+    {
+      "verse_number": 59,
+      "sanskrit": "असात्म्यजा हि रोगाः स्युः सहसा त्यागशीलनात् ॥५८-१/२॥",
+      "student_meaning": "ऋतुचर्या अचानक बदलने से असात्म्यजनित रोग हो सकते हैं; परिवर्तन क्रमशः होना चाहिए।"
+    }
+  ],
+  "source_text": {
+    "source_type": "Classical Sanskrit chapter text",
+    "source_locator": "Ashtanga Hridaya Sutrasthana 3, verses 1-58 plus traditional 58-1/2 closing half-verse",
+    "text_sources": [
+      "SivaShakti/Siva.sh Ritucharya Adhyaya",
+      "NCISM AyUG-SA1 official curriculum"
+    ],
+    "verification_note": "58 numbered verses plus the traditional 58-1/2 closing half-verse are preserved as 59 verse units. Student meanings are original explanatory summaries, not copied translations."
+  },
+  "student_support": {
+    "concept_map": [
+      "1-7 seasons/Ayana/Bala",
+      "8-16 Hemanta",
+      "17-18 Shishira",
+      "19-25 Vasanta",
+      "26-41 Grishma",
+      "42-48 Varsha",
+      "49-55 Sharad",
+      "56-58½ summary/Ritusandhi"
+    ],
+    "must_memorize": [
+      "Six seasons and months",
+      "Adana/Visarga",
+      "Bala variation",
+      "Hemanta",
+      "Shishira",
+      "Vasanta",
+      "Grishma",
+      "Varsha",
+      "Sharad",
+      "Ritusandhi"
+    ],
+    "exam_questions": {
+      "long_answer": [
+        "Explain Ritucharya according to Ashtanga Hridaya.",
+        "Explain Adana and Visarga with Bala.",
+        "Describe Hemanta and Shishira regimens.",
+        "Explain Vasanta and Kapha.",
+        "Describe Grishma regimen.",
+        "Describe Varsha and Sharad regimens.",
+        "Explain Ritusandhi."
+      ],
+      "short_answer": [
+        "Define Ritucharya.",
+        "Enumerate six seasons.",
+        "What is Adana Kala?",
+        "What is Visarga Kala?",
+        "State seasonal Bala variation.",
+        "What happens to Kapha in Vasanta?",
+        "What happens to Agni in Varsha?",
+        "What is Hamsodaka?",
+        "Define Ritusandhi."
+      ],
+      "viva": [
+        "Why is Uttarayana called Adana?",
+        "Why is Bala highest in Hemanta/Shishira?",
+        "Why does Kapha aggravate in Vasanta?",
+        "Why is Agni weak in Varsha?",
+        "Why does Pitta aggravate in Sharad?",
+        "Why gradual seasonal transition?"
+      ],
+      "mcq_topics": [
+        "Season-month matching",
+        "Ayana",
+        "Bala/Agni",
+        "Dosha-season relation",
+        "Seasonal diet",
+        "Ritusandhi"
+      ]
+    },
+    "revision_summary": [
+      "Six seasons are arranged in two-month groups.",
+      "Adana reduces Bala and Visarga restores it.",
+      "Hemanta/Shishira have strongest Bala; Varsha/Grishma weakest.",
+      "Vasanta emphasizes Kapha management.",
+      "Grishma emphasizes cooling and light regimen.",
+      "Varsha emphasizes Agni protection.",
+      "Sharad emphasizes Pitta management.",
+      "Ritusandhi requires gradual transition."
+    ]
+  }
+}
