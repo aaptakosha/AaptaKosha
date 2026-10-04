@@ -6,7 +6,7 @@
 
 **Pariksha** means examination, investigation, assessment or method of determining the nature of an object or condition. In Padartha Vijnanam, Pariksha is studied together with **Prama, Aprama, Prameya, Pramata and Pramana**, and with the methods by which valid knowledge is obtained.
 
-The official NCISM AyUG-PV curriculum places this topic under Paper II and requires students to understand the definition, significance and necessity of Pariksha; the definitions of Prama, Aprama, Prameya, Pramata and Pramana; the enumeration of Pramanas according to philosophical schools; the Ayurvedic **Chaturvidha-Parikshavidhi**; the subsumption of Pramanas under three Pariksha; and practical application in Nidana and Chikitsa. citeturn0search1turn0search0
+The official NCISM AyUG-PV curriculum places this topic under Paper II and requires students to understand the definition, significance and necessity of Pariksha; the definitions of Prama, Aprama, Prameya, Pramata and Pramana; the enumeration of Pramanas according to philosophical schools; the Ayurvedic **Chaturvidha-Parikshavidhi**; the subsumption of Pramanas under three Pariksha; and practical application in Nidana and Chikitsa.
 
 ---
 
@@ -460,7 +460,7 @@ Considering together:
 
 # 23. Subsumption of Pramanas under three Pariksha
 
-NCISM specifically requires understanding the subsumption of different Pramanas under **three Pariksha**. citeturn0search1
+NCISM specifically requires understanding the subsumption of different Pramanas under **three Pariksha**.
 
 A commonly taught Ayurvedic framework uses:
 
@@ -1179,9 +1179,9 @@ The curriculum explicitly requires:
 - significance and enumeration of Pramana according to different philosophical schools;
 - Chaturvidha-Parikshavidhi and Pramana in Ayurveda;
 - subsumption of different Pramanas under three Pariksha;
-- practical application of Parikshavidhi in Nidana and Chikitsa. citeturn0search1
+- practical application of Parikshavidhi in Nidana and Chikitsa.
 
-The official course learning outcomes also identify Pramana Shastra/epistemology as a core competency and require students to distinguish, analyse and apply it in Darshana and Ayurveda. citeturn0search0
+The official course learning outcomes also identify Pramana Shastra/epistemology as a core competency and require students to distinguish, analyse and apply it in Darshana and Ayurveda.
 
 ## Classical-study direction
 
