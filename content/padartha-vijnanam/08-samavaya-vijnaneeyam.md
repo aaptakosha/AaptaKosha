@@ -13,7 +13,7 @@ The official NCISM curriculum identifies **Topic 8 — Samavay Vijnaneeyam** and
 - understand contemporary scientific examples that help clarify the concept;
 - recite the relevant prescribed verses from Tarka Sangraha and Charaka Samhita.
 
-This chapter develops those requirements into a complete study unit. citeturn0search0
+This chapter develops those requirements into a complete study unit.
 
 ---
 
@@ -492,7 +492,7 @@ These are different concepts and should not be merged.
 
 # 21. Contemporary scientific analogies
 
-NCISM asks students to discuss contemporary scientific principles and examples that enhance understanding of Samavaya. citeturn0search0
+NCISM asks students to discuss contemporary scientific principles and examples that enhance understanding of Samavaya.
 
 These examples are **analogies**, not literal translations of the classical concept.
 
@@ -787,7 +787,7 @@ Samavaya explains the **philosophical relationship**, not the complete biologica
 
 # 33. Recitation preparation
 
-NCISM identifies recitation of relevant verses from **Tarka Sangraha and Charaka Samhita** as a desirable learning activity for this topic. citeturn0search0
+NCISM identifies recitation of relevant verses from **Tarka Sangraha and Charaka Samhita** as a desirable learning activity for this topic.
 
 Students should prepare the exact Sanskrit verses from the edition prescribed by their institution and learn:
 
@@ -893,7 +893,7 @@ NCISM specifically requires:
 - explanation of Samavaya according to Ayurveda and Darshana;
 - understanding the eternal relation of ayutasiddha-vritti;
 - contemporary scientific principles/examples that enhance understanding;
-- relevant recitation from Tarka Sangraha and Charaka Samhita. citeturn0search0
+- relevant recitation from Tarka Sangraha and Charaka Samhita.
 
 ## Classical-study direction
 
