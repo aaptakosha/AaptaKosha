@@ -1,0 +1,499 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-7",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.7",
+  "chapter_title": "Annaraksha Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "status": "content_complete_student_layer",
+  "verse_count": 77,
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "राजा राजगृहासन्ने प्राणाचार्यं निवेशयेत्। सर्वदा स भवत्येवं सर्वत्र प्रतिजागृतिः",
+      "student_meaning": "Establish the royal physician close to the king so that vigilance over the king's daily needs is continuous."
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "अन्नपानं विषाद्रक्षेद्विशेषेण महीपतेः। योगक्षेमौ तदायत्तौ धर्माद्या यन्निबन्धनाः",
+      "student_meaning": "Food and drink of the ruler should be protected from poison because public welfare and the ruler's duties depend upon health."
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "ओदनो विषवान् सान्द्रो यात्यविस्राव्यतामिव। चिरेण पच्यते पक्वो भवेत्पर्युषितोपमः",
+      "student_meaning": "Poisoned cooked rice is described as unusually dense, slow to cook and resembling stale food."
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "मयूरकण्ठतुल्योष्मा मोहमूर्च्छाप्रसेककृत्। हीयते वर्णगन्धाद्यैः क्लिद्यते चन्द्रिकाचितः",
+      "student_meaning": "The text lists abnormal heat, loss of colour and odour, moisture and other changes as signs of contaminated food."
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "व्यञ्जनान्याशु शुष्यन्ति श्यामक्वाथानि तत्र च। हीनाऽतिरिक्ता विकृता छाया दृश्येत नैव वा",
+      "student_meaning": "Rapid drying, abnormal colour or shadow and altered appearance of preparations are warning signs."
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "फेनोर्ध्वराजीसीमन्ततन्तुबुद्बुदसम्भवः। विच्छिन्नविरसा रागाः खाण्डवाः शाकमामिषम्",
+      "student_meaning": "Foam, abnormal surface lines, bubbles and altered taste/colour of sauces, vegetables and meat indicate contamination."
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "नीला राजी रसे ताम्रा क्षीरे दधनि दृश्यते। श्यावा पीतासिता तक्रे घृते पानीयसन्निभा",
+      "student_meaning": "Different coloured lines appearing in rasa, milk, curd, buttermilk and ghee are given as textual poison indicators."
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "मस्तुनि स्यात्कपोताभा राजी कृष्णा तुषोदके। काली मद्याम्भसोः क्षौद्रे हरित्तैलेऽरुणोपमा",
+      "student_meaning": "Distinctive abnormal lines in whey, water from husks, alcoholic drinks, honey and oil are described."
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "पाकः फलानामामानां पक्वानां परिकोथनम्। द्रव्याणामार्द्रशुष्काणां स्यातां म्लानिविवर्णते",
+      "student_meaning": "Rotting of fruit and loss of freshness/colour in wet or dry substances are signs of spoilage."
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "मृदूनां कठिनानां च भवेत्स्पर्शविपर्ययः। माल्यस्य स्फुटिताग्रत्वं म्लानिर्गन्धान्तरोद्भवः",
+      "student_meaning": "Unexpected change of softness or hardness and deterioration of flowers with altered smell are warning signs."
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "ध्याममण्डलता वस्त्रे शदनं तन्तुपक्ष्मणाम्। धातुमौक्तिककाष्ठाश्मरत्नादिषु मलाक्तता",
+      "student_meaning": "Stains and abnormal appearance of cloth, threads, metals, pearls, wood, stone and gems indicate contamination."
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "स्नेहस्पर्शप्रभाहानिः सप्रभत्वं तु मृण्मये। विषदः श्यावशुष्कास्यो विलक्षो वीक्षते दिशः",
+      "student_meaning": "Loss of oiliness, touch and lustre, with a disturbed appearance, is described among poison-related signs."
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "स्वेदवेपथुमांस्त्रस्तो भीतः स्खलति जृम्भते। प्राप्यान्नं सविषं त्वग्निरेकावर्तः स्फुटत्यति",
+      "student_meaning": "Fear, sweating, tremor, staggering and abnormal digestive reaction are signs after consuming poisonous food."
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "शिखिकण्ठाभधूमार्चिरनर्चिर्वोग्रगन्धवान्। म्रियन्ते मक्षिकाः प्राश्य काकः क्षामस्वरो भवेत्",
+      "student_meaning": "Abnormal smoke/flame and strong odour, death of flies and change in a crow's voice are described as tests."
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "उत्क्रोशन्ति च दृष्ट्वैतच्छुकदात्यूहसारिकाः। हंसः प्रस्खलति ग्लानिर्जीवञ्जीवस्य जायते",
+      "student_meaning": "Different birds are said to show distress, staggering or weakness when exposed to poisoned food."
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "चकोरस्याक्षिवैराग्यं क्रौञ्चस्य स्यान्मदोदयः। कपोतपरभृद्दक्षचक्रवाका जहत्यसून्",
+      "student_meaning": "Chakora, crane, pigeon, cuckoo and chakravaka are described as showing characteristic abnormal responses."
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "उद्वेगं याति मार्जारः शकृन्मुञ्चति वानरः। हृष्येन्मयूरस्तद्दृष्ट्या मन्दतेजो भवेद्विषम्",
+      "student_meaning": "Cat, monkey and peacock are listed among animals whose behaviour may signal poisoned food."
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "इत्यन्नं विषवज्ज्ञात्वा त्यजेदेवं प्रयत्नतः। यथा तेन विपद्येरन्नपि न क्षुद्रजन्तवः",
+      "student_meaning": "Food suspected to be poisonous should be rejected so that even small creatures are not harmed by it."
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "स्पृष्टे तु कण्डूदाहोषाज्वरार्तिस्फोटसुप्तयः। नखरोमच्युतिः शोफः सेकाद्या विषनाशनाः",
+      "student_meaning": "Skin exposure may produce itching, burning, fever, eruptions, numbness, hair/nail loss and swelling; cleansing measures are described."
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "शस्तास्तत्र प्रलेपाश्च सेव्यचन्दनपद्मकैः। ससोमवल्कतालीसपत्रकुष्ठा मृतानतैः",
+      "student_meaning": "Classical external applications using sandalwood, lotus and other substances are listed for contaminated contact."
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "लाला जिह्वोष्ठयोर्जाड्यं मूषा चिमिचिमायनम्। दन्तहर्षो रसाज्ञत्वं हनुस्तम्भश्च वक्त्रगे",
+      "student_meaning": "Oral poisoning is described by salivation, numbness, tingling, tooth sensitivity, altered taste and jaw stiffness."
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "सेव्याद्यैस्तत्र गण्डूषाः सर्वं च विषजिद्धितम्। आमाशयगते स्वेदमूर्च्छाध्मानमदभ्रमाः",
+      "student_meaning": "Gandusha and other measures are mentioned for oral involvement; gastric poisoning may cause sweating, faintness, distension and delirium."
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "रोमहर्षो वमिर्दाहश्चक्षुर्हृदयरोधनम्। बिन्दुभिश्चाचयोऽङ्गानां पक्वाशयगते पुनः",
+      "student_meaning": "Vomiting, burning, chills and cardiac/ocular symptoms are described when poison reaches deeper digestive regions."
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "अनेकवर्णं वमति मूत्रयत्यतिसार्यते। तन्द्रा कृशत्वं पाण्डुत्वमुदरं बलसङ्क्षयः",
+      "student_meaning": "Vomiting, abnormal urine and stool, drowsiness, wasting, pallor and loss of strength are described in later intestinal involvement."
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "तयोर्वान्तविरिक्तस्य हरिद्रे कटभीं गुडम्। सिन्दुवारितनिष्पावबाष्पिकाशतपर्विकाः",
+      "student_meaning": "The text lists several substances for use after vomiting and purgation in its traditional toxicology framework."
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "तण्डुलीयकमूलानि कुक्कुटाण्डमवल्गुजम्। नावनाञ्जनपानेषु योजयेद्विषशान्तये",
+      "student_meaning": "Certain roots, seeds and preparations are described for nasal, ocular or oral administration in the classical text."
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "विषभुक्ताय दद्याच्च शुद्धायोर्ध्वमधस्तथा। सूक्ष्मं ताम्ररजः काले सक्षौद्रं हृद्विशोधनम्",
+      "student_meaning": "After purification, the text describes a traditional internal cleansing measure for ingested poison; this is historical materia-medica content."
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "शुद्धे हृदि ततः शाणं हेमचूर्णस्य दापयेत्। न सज्जते हेमपाङ्गे पद्मपत्रेऽम्बुवद्विषम्",
+      "student_meaning": "A further traditional metal preparation is described after cardiac cleansing; it belongs to the historical toxicology section."
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "जायते विपुलं चायुर्गरेऽप्येष विधिः स्मृतः। विरुद्धमपि चाहारं विद्याद्विषगरोपमम्",
+      "student_meaning": "The text extends the poison analogy to incompatible food combinations and begins the Viruddha Ahara discussion."
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "आनूपमामिषं माषक्षौद्रक्षीरविरूढकैः। विरुध्यते सह बिसैर्मूलकेन गुडेन वा",
+      "student_meaning": "Several combinations involving marsh-animal meat, black gram, honey, milk, sprouts, lotus stem, radish and jaggery are classified as incompatible."
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "विशेषात्पयसा मत्स्या मत्स्येष्वपि चिलीचिमः। विरुद्धमम्लं पयसा सह सर्वं फलं तथा",
+      "student_meaning": "Fish with milk and sour substances with milk or fruit are described as incompatible combinations."
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "तद्वत्कुलत्थवरककङ्गुवल्लमकुष्टकाः। भक्षयित्वा हरितकं मूलकादि पयस्त्यजेत्",
+      "student_meaning": "Several pulses/grains and certain foods followed by milk are listed among combinations to avoid."
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "वाराहं श्वाविधा नाद्याद्दध्ना पृषतकुक्कुटौ। आममांसानि पित्तेन माषसूपेन मूलकम्",
+      "student_meaning": "Specific meat, curd, pulse soup, radish and mustard/safflower combinations are identified as incompatible."
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "अविं कुसुम्भशाकेन बिसैः सह विरूढकम्। माषसूपगुडक्षीरदध्याज्यैर्लाकुचं फलम्",
+      "student_meaning": "Further examples include sheep meat with safflower greens, sprouts with lotus stem, and jackfruit with pulse soup, milk, curd and ghee."
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "फलं कदल्यास्तक्रेण दध्ना तालफलेन वा। कणोषणाभ्यां मधुना काकमाचीं गुडेन वा",
+      "student_meaning": "Banana with buttermilk/curd, palmyra fruit with curd, and selected plant combinations with honey or jaggery are described."
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "सिद्धां वा मत्स्यपचने पचने नागरस्य वा। सिद्धामन्यत्र वा पात्रे कामात्तामुषितां निशाम्",
+      "student_meaning": "Improperly combined or repeatedly reheated preparations are included among incompatible-food examples."
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "मत्स्यनिस्तलनस्नेहे साधिताः पिप्पलीस्त्यजेत्। कांस्ये दशाहमुषितं सर्पिरुष्णं त्वरुष्करे",
+      "student_meaning": "Fish cooked in certain fats, prolonged storage of ghee in bronze and related preparations are described as incompatible."
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "भासो विरुध्यते शूल्यः कम्पिल्लस्तक्रसाधितः। एकध्यं पायससुराकृशराः परिवर्जयेत्",
+      "student_meaning": "Several meat and sour-preparation combinations are prohibited, including particular mixtures of milk-foods and fermented drinks."
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "मधुसर्पिर्वसातैलपानीयानि द्विशस्त्रिशः। एकत्र वा समांशानि विरुध्यन्ते परस्परम्",
+      "student_meaning": "Honey, ghee, animal fat, oil and water in certain repeated or equal proportions are classified as incompatible."
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "भिन्नांशेऽपि मध्वाज्ये दिव्यवार्यनुपानतः। मधुपुष्करबीजं च मधुमैरेयशार्करम्",
+      "student_meaning": "Additional combinations involving honey, ghee, water, seeds and fermented preparations are listed."
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "मन्थानुपानः क्षैरेयो हारिद्रः कटुतैलवान्। उपोदकाऽतिसाराय तिलकल्केन साधिता",
+      "student_meaning": "Certain drink and food combinations are described as causing gastrointestinal disturbance."
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "बलाका वारुणीयुक्ता कुल्माषैश्च विरुध्यते। भृष्टा वराहवसया सैव सद्यो निहन्त्यसून्",
+      "student_meaning": "Specific combinations of crane meat, alcoholic drinks, kulmasha and animal fat are described as dangerous."
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "तद्वत्तित्तिरिपत्राढ्यगोधालावकपिञ्जलाः। एरण्डेनाग्निना सिद्धास्तत्तैलेन विमूर्च्छिताः",
+      "student_meaning": "Several game birds and reptiles/animals cooked with castor preparations are listed among incompatible combinations."
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "हारीतमांसं हारिद्रशूलकप्रोतपाचितम्। हरिद्रा वह्निना सद्यो व्यापादयति जीवितम्",
+      "student_meaning": "A particular bird-meat preparation with turmeric is described as highly harmful in the classical account."
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "भस्मपांशुपरिध्वस्तं तदेव च समाक्षिकम्। यत्किञ्चिद्दोषमुत्क्लेश्य न हरेत्तत्समासतः",
+      "student_meaning": "Contaminated or ash/dust-covered food is said to cause disturbance if it does not eliminate the offending factor."
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "विरुद्धं शुद्धिरत्रेष्टा शमो वा तद्विरोधिभिः। द्रव्यैस्तैरेव वा पूर्वं शरीरस्याभिसंस्कृतिः",
+      "student_meaning": "For incompatible food, the text discusses purification, pacification and preparatory restoration of the body."
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "व्यायामस्निग्धदीप्ताग्निवयःस्थबलशालिनाम्। विरोध्यपि न पीडायै सात्म्यमल्पं च भोजनम्",
+      "student_meaning": "Strong digestion, exercise, age, habituation and strength are said to influence tolerance of otherwise incompatible food."
+    },
+    {
+      "verse_number": 48,
+      "sanskrit": "पादेनापथ्यमभ्यस्तं पादपादेन वा त्यजेत्। निषेवेत हितं तद्वदेकद्वित्र्यन्तरीकृतम्",
+      "student_meaning": "Gradual reduction of accustomed unsuitable food and gradual introduction of suitable food are recommended."
+    },
+    {
+      "verse_number": 49,
+      "sanskrit": "अपथ्यमपि हि त्यक्तं शीलितं पथ्यमेव वा। सात्म्यासात्म्यविकाराय जायते सहसाऽन्यथा",
+      "student_meaning": "Sudden change in habituation is said to produce disorders; gradual adjustment is emphasized."
+    },
+    {
+      "verse_number": 50,
+      "sanskrit": "क्रमेणापचिता दोषाः क्रमेणोपचिता गुणाः। सन्तो यान्त्यपुनर्भावमप्रकम्प्या भवन्ति च",
+      "student_meaning": "Gradual reduction of accumulated doshas and cultivation of beneficial qualities are presented as protective."
+    },
+    {
+      "verse_number": 51,
+      "sanskrit": "अत्यन्तसन्निधानानां दोषाणां दूषणात्मनाम्। अहितैर्दूषणं भूयो न विद्वान् कर्तुमर्हति",
+      "student_meaning": "Repeated exposure to strongly aggravating factors should not be deliberately continued."
+    },
+    {
+      "verse_number": 52,
+      "sanskrit": "आहारशयनाब्रह्मचर्यैर्युक्त्या प्रयोजितैः। शरीरं धार्यते नित्यमागारमिव धारणैः",
+      "student_meaning": "Food, sleep and regulated sexual conduct are presented as the three supports by which the body is maintained."
+    },
+    {
+      "verse_number": 53,
+      "sanskrit": "आहारो वर्णितस्तत्र तत्र तत्र च वक्ष्यते। निद्रा यत्तं सुखं दुःखं पुष्टिः कार्श्यं बलाबलम्",
+      "student_meaning": "Food and sleep influence happiness, suffering, nourishment, emaciation, strength and weakness."
+    },
+    {
+      "verse_number": 54,
+      "sanskrit": "वृषता क्लीबता ज्ञानमज्ञानं जीवितं न च। अकालेऽतिप्रसङ्गाच्च न च निद्रा निषेविता",
+      "student_meaning": "Improper timing or excess of sleep and sexual indulgence are described as disturbing health and vitality."
+    },
+    {
+      "verse_number": 55,
+      "sanskrit": "सुखायुषी पराकुर्यात् कालरात्रिरिवापरा। रात्रौ जागरणं रूक्षं स्निग्धं प्रस्वपनं दिवा",
+      "student_meaning": "Night waking is considered drying, while appropriate daytime sleep is described as nourishing."
+    },
+    {
+      "verse_number": 56,
+      "sanskrit": "अरूक्षमनभिष्यन्दि त्वासीनप्रचलायितम्। ग्रीष्मे वायुचयादानरौक्ष्यरात्र्यल्पभावतः",
+      "student_meaning": "During summer, daytime sleep is specifically presented as beneficial because of increased dryness and reduced night sleep."
+    },
+    {
+      "verse_number": 57,
+      "sanskrit": "दिवास्वप्नो हितोऽन्यस्मिन् कफपित्तकरो हि सः। मुक्त्वा तु भाष्ययानाध्वमद्यस्त्रीभारकर्मभिः",
+      "student_meaning": "Outside summer, daytime sleep is described as increasing kapha and pitta, with exceptions for specific exhausted groups."
+    },
+    {
+      "verse_number": 58,
+      "sanskrit": "क्रोधशोकभयैः क्लान्तान् श्वासहिध्मातिसारिणः। वृद्धबालाबलक्षीणक्षततृट्शूलपीडितान्",
+      "student_meaning": "People exhausted by speech, travel, alcohol, sexual activity, load-bearing or exertion are listed among those needing special consideration."
+    },
+    {
+      "verse_number": 59,
+      "sanskrit": "अजीर्ण्यभिहतोन्मत्तान् दिवास्वप्नोचितानपि। धातुसाम्यं तथा ह्येषां श्लेष्मा चाङ्गानि पुष्यति",
+      "student_meaning": "Those exhausted by anger, grief, fear, respiratory illness, diarrhoea, age, weakness, injury, thirst or pain are included."
+    },
+    {
+      "verse_number": 60,
+      "sanskrit": "बहुमेदःकफाः स्वप्युः स्नेहनित्याश्च नाहनि। विषार्तः कण्ठरोगी च नैव जातु निशास्वपि",
+      "student_meaning": "Certain persons with indigestion or other conditions are described as suitable for daytime sleep because it supports tissue balance."
+    },
+    {
+      "verse_number": 61,
+      "sanskrit": "अकालशयनान्मोहज्वरस्तैमित्यपीनसाः। शिरोरुक्शोफहृल्लासस्रोतोरोधाग्निमन्दताः",
+      "student_meaning": "People with excess fat/kapha or daily oiling are cautioned regarding daytime sleep; certain illness groups are also excluded."
+    },
+    {
+      "verse_number": 62,
+      "sanskrit": "तत्रोपवासवमनस्वेदनावनमौषधम्। योजयेदतिनिद्रायां तीक्ष्णं प्रच्छर्दनाञ्जनम्",
+      "student_meaning": "Untimely sleep is associated in the text with confusion, fever, stiffness, rhinitis, headache, swelling and poor digestion."
+    },
+    {
+      "verse_number": 63,
+      "sanskrit": "नावनं लङ्घनं चिन्तां व्यवायं शोकभीक्रुधः। एभिरेव च निद्राया नाशः श्लेष्मातिसङ्क्षयात्",
+      "student_meaning": "Excessive sleep is addressed with fasting, emesis, sudation, nasal therapy and other traditional measures."
+    },
+    {
+      "verse_number": 64,
+      "sanskrit": "निद्रानाशादङ्गमर्दशिरोगौरवजृम्भिकाः। जाड्यग्लानिभ्रमापक्तितन्द्रा रोगाश्च वातजाः",
+      "student_meaning": "Loss of sleep is addressed through nasal therapy, lightening measures and management of excessive kapha; emotional factors are also mentioned."
+    },
+    {
+      "verse_number": 65,
+      "sanskrit": "यथाकालमतो निद्रां रात्रौ सेवेत सात्म्यतः। असात्म्याज्जागरादर्धं प्रातः स्वप्यादभुक्तवान्",
+      "student_meaning": "Sleep deprivation is associated with body ache, head heaviness, yawning, fatigue, dizziness, indigestion and other vata-type complaints."
+    },
+    {
+      "verse_number": 66,
+      "sanskrit": "शीलयेन्मन्दनिद्रस्तु क्षीरमद्यरसान् दधि। अभ्यङ्गोद्वर्तनस्नानमूर्धकर्णाक्षितर्पणम्",
+      "student_meaning": "Regular night sleep at an appropriate time is advised; after an unaccustomed night of wakefulness, partial morning sleep is described."
+    },
+    {
+      "verse_number": 67,
+      "sanskrit": "कान्ताबाहुलताश्लेषो निर्वृतिः कृतकृत्यता। मनोऽनुकूला विषयाः कामं निद्रासुखप्रदाः",
+      "student_meaning": "For deficient sleep, the text lists milk, fermented drinks, meat soup, curd, massage, bathing and head/ear/eye care."
+    },
+    {
+      "verse_number": 68,
+      "sanskrit": "ब्रह्मचर्यरतेर्ग्राम्यसुखनिःस्पृहचेतसः। निद्रा सन्तोषतृप्तस्य स्वं काले नातिवर्तते",
+      "student_meaning": "Relaxation, emotional satisfaction and pleasant sensory experiences are described as supportive of sleep."
+    },
+    {
+      "verse_number": 69,
+      "sanskrit": "ग्राम्यधर्मे त्यजेन्नारीमनुत्तानां रजस्वलाम्। अप्रियामप्रियाचारां दुष्टसङ्कीर्णमेहनाम्",
+      "student_meaning": "Contentment, disciplined conduct and freedom from excessive worldly craving are described as supporting timely sleep."
+    },
+    {
+      "verse_number": 70,
+      "sanskrit": "अतिस्थूलकृशां सूतां गर्भिणीमन्ययोषितम्। वर्णिनीमन्ययोनिं च गुरुदेवनृपालयम्",
+      "student_meaning": "Traditional sexual-conduct restrictions are listed for circumstances considered inappropriate in the classical text; these are historical norms."
+    },
+    {
+      "verse_number": 71,
+      "sanskrit": "चैत्यश्मशानायतनचत्वराम्बुचतुष्पथम्। पर्वाण्यनङ्गं दिवसं शिरोहृदयताडनम्",
+      "student_meaning": "Additional traditional restrictions concerning partner, setting and circumstance are listed; they should be understood in historical context."
+    },
+    {
+      "verse_number": 72,
+      "sanskrit": "अत्याशितोऽधृतिःक्षुद्वान् दुःस्थिताङ्गः पिपासितः। बालो वृद्धोऽन्यवेगार्तस्त्यजेद्रोगी च मैथुनम्",
+      "student_meaning": "Certain locations, occasions and practices are described as unsuitable for sexual activity in the classical social framework."
+    },
+    {
+      "verse_number": 73,
+      "sanskrit": "सेवेत कामतः कामं तृप्तो वाजीकृतां हिमे। त्र्यहाद्वसन्तशरदोः पक्षाद्वर्षानिदाघयोः",
+      "student_meaning": "Excess food, thirst, fatigue, age, illness, unmet natural urges and poor physical condition are listed as reasons to avoid intercourse."
+    },
+    {
+      "verse_number": 74,
+      "sanskrit": "भ्रमक्लमोरुदौर्बल्यबलधात्विन्द्रियक्षयाः। अपर्वमरणं च स्यादन्यथा गच्छतः स्त्रियम्",
+      "student_meaning": "Seasonal intervals and moderation are described for sexual activity, reflecting the classical regimen framework."
+    },
+    {
+      "verse_number": 75,
+      "sanskrit": "स्मृतिमेधायुरारोग्यपुष्टीन्द्रिययशोबलैः। अधिका मन्दजरसो भवन्ति स्त्रीषु संयताः",
+      "student_meaning": "Excessive or improperly timed intercourse is said to cause fatigue, weakness and depletion in the classical account."
+    },
+    {
+      "verse_number": 76,
+      "sanskrit": "स्नानानुलेपनहिमानिलखण्डखाद्यशीताम्बुदुग्धरसयूषसुराप्रसन्नाः। सेवेत चानु शयनं विरतौ रतस्य तस्यैवमाशु वपुषः पुनरेति धाम",
+      "student_meaning": "Moderation is associated in the text with memory, intellect, longevity, health, nourishment, sense strength and reputation."
+    },
+    {
+      "verse_number": 77,
+      "sanskrit": "श्रुतचरितसमृद्धे कर्मदक्षे दयालौ भिषजि निरनुबन्धं देहरक्षां निवेश्य। भवति विपुलतेजःस्वास्थ्यकीर्तिप्रभावः स्वकुशलफलभोगी भूमिपालश्चिरायुः",
+      "student_meaning": "After intercourse, bathing, cooling measures, nourishing foods/drinks and sleep are described as restoring strength."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Royal Food Protection and Poison Indicators",
+      "verse_range": "1-18",
+      "focus": "Royal physician, protection of food and drink, and classical signs of poisoned food."
+    },
+    {
+      "title": "External and Internal Poisoning Signs",
+      "verse_range": "19-29",
+      "focus": "Classical signs and traditional responses to contact or ingestion of poison."
+    },
+    {
+      "title": "Viruddha Ahara",
+      "verse_range": "30-51",
+      "focus": "Incompatible food combinations, habituation and gradual dietary adjustment."
+    },
+    {
+      "title": "Ahara, Nidra and Day Sleep",
+      "verse_range": "52-68",
+      "focus": "Three supports of the body, sleep physiology in the classical framework, indications and contraindications."
+    },
+    {
+      "title": "Brahmacharya and Maithuna Vidhi",
+      "verse_range": "69-76",
+      "focus": "Classical sexual-conduct rules, moderation, seasonal intervals and post-coital regimen."
+    },
+    {
+      "title": "Phala and Chapter Conclusion",
+      "verse_range": "77-77",
+      "focus": "Benefits of continuous body protection under a competent physician."
+    }
+  ],
+  "learning_outcomes": [
+    "Explain the classical purpose of Annaraksha and the role of the royal physician.",
+    "Identify textual signs of poisoned food and drink.",
+    "Describe the chapter's classification of symptoms following different forms of poison exposure.",
+    "Explain the concept of Viruddha Ahara with important classical examples.",
+    "Discuss habituation and gradual dietary change in the classical framework.",
+    "Explain the role of Ahara, Nidra and Brahmacharya in maintaining the body.",
+    "Discuss indications and contraindications for day sleep and the classical management of disturbed sleep.",
+    "Explain the chapter's classical rules on sexual conduct and seasonal moderation.",
+    "Distinguish historical toxicology and social-regimen prescriptions from modern clinical guidance."
+  ],
+  "key_terms": [
+    "Annaraksha",
+    "Pranacharya",
+    "Visha",
+    "Vishakta Anna",
+    "Viruddha Ahara",
+    "Satmya",
+    "Asatmya",
+    "Ahara",
+    "Nidra",
+    "Divasvapna",
+    "Ratri Jagarana",
+    "Brahmacharya",
+    "Maithuna",
+    "Ritucharya"
+  ],
+  "exam_focus": [
+    "Signs of poisoned food and drink.",
+    "Classical management of poison exposure.",
+    "Important examples of Viruddha Ahara.",
+    "Concept of Satmya and gradual dietary change.",
+    "Physiological significance and rules of Nidra in the chapter.",
+    "Indications and contraindications of Divasvapna.",
+    "Classical rules of Maithuna and seasonal moderation.",
+    "Role of the physician in protection of the king's health."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 77,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "source_text": {
+    "primary": "E-Bharatisampat proof-read Vagbhata Samhita, Sutra Sthana Chapter 7",
+    "cross_check": [
+      "University of Hyderabad SHMT proof-read corpus",
+      "Ayana Ayurveda",
+      "Siva.sh"
+    ],
+    "verification_note": "Chapter 7 starts at verse 1 and ends at verse 77; the next chapter begins immediately after the chapter colophon. Text was normalized only for obvious spacing/OCR presentation while preserving the Sanskrit verse sequence."
+  },
+  "student_support": {
+    "revision_summary": [
+      "Memorize the major poison indicators in verses 3-18.",
+      "Prepare a table of high-yield Viruddha Ahara combinations from verses 30-45.",
+      "Revise Satmya, gradual dietary change and the three supports of the body.",
+      "Compare appropriate and inappropriate daytime sleep situations.",
+      "Revise the concluding regimen and the chapter's physician-centered protection principle."
+    ]
+  }
+}
