@@ -322,11 +322,11 @@ class handler(BaseHTTPRequestHandler):
             path = path[4:] or "/"
         if path == "/content/padartha":
         node_id = str(query.get("node_id") or "").strip()
-        if not re.fullmatch(r"y1-pv[12]-[0-9]+", node_id):
+        if not re.fullmatch(r"y1-pv(?:-[0-9]+|[12]-[0-9]+)", node_id):
             self._reply(400, {"error": {"code": "invalid_node_id"}})
             return
         candidates = [PADARTHA_ROOT / f"{node_id}.md"]
-        if node_id == "y1-pv1-1":
+        if node_id == "y1-pv-1":
             candidates.append(PADARTHA_ROOT / "01-ayurveda-nirupana.md")
         target = next((p for p in candidates if p.is_file()), None)
         if target is None:
