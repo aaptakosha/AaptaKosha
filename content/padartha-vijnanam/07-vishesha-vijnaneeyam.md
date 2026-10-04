@@ -6,7 +6,7 @@
 
 **Vishesha (विशेष)** is the principle of particularity, differentiation or distinguishing specificity. In Padartha Vijnanam it is studied both as a philosophical category and as a practical Ayurvedic principle.
 
-The official NCISM first-professional curriculum identifies **Topic 7: Vishesha Vijnaneeyam** and requires students to explain Vishesha according to Ayurveda and Darshana. The chapter below develops that core requirement into a complete study unit with clinical application, examination preparation and contemporary explanatory links. citeturn2search0
+The official NCISM first-professional curriculum identifies **Topic 7: Vishesha Vijnaneeyam** and requires students to explain Vishesha according to Ayurveda and Darshana. The chapter below develops that core requirement into a complete study unit with clinical application, examination preparation and contemporary explanatory links.
 
 ---
 
@@ -939,7 +939,7 @@ The principle is powerful but must be individualized. Agni, Bala, Prakriti, Kala
 
 ## NCISM alignment
 
-This chapter addresses **Topic 7 — Vishesha Vijnaneeyam** in the official NCISM first-professional BAMS Padartha Vijnanam curriculum. The curriculum explicitly requires learners to explain Vishesha according to **Ayurveda and Darshana**. citeturn2search0
+This chapter addresses **Topic 7 — Vishesha Vijnaneeyam** in the official NCISM first-professional BAMS Padartha Vijnanam curriculum. The curriculum explicitly requires learners to explain Vishesha according to **Ayurveda and Darshana**.
 
 ## Classical-study direction
 
