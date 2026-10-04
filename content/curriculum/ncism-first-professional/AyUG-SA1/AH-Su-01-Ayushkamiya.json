@@ -13,8 +13,8 @@
     "syllabus": "AyUG-SA1, Table 2, Ashtanga Hridaya Sutrasthana 1",
     "official_source": "https://www.ncismindia.org/Ay%20UG-SA1-1.pdf"
   },
-  "status": "content_in_progress",
-  "scope_note": "NCISM-aligned original teaching content. It is not a replacement for a critical edition, source Sanskrit text, or published commentary.",
+  "status": "content_complete_student_layer",
+  "scope_note": "Complete NCISM-aligned student study layer for Ayushkamiya Adhyaya: source Sanskrit verses 1-48, original student meanings, conceptual sections, learning outcomes, examination support and revision structure. It is not a replacement for a critical edition or published commentary.",
   "learning_outcomes": [
     "Explain the purpose and scope of the Ayushkamiya Adhyaya.",
     "Identify the basic concepts of dosha, dhatu and mala and relate them to health and disease.",
@@ -160,8 +160,336 @@
   ],
   "content_quality": {
     "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 48,
     "original_explanatory_prose": true,
+    "student_meanings_original": true,
     "modern_translation_claim": false,
     "commentary_grouping_preserved": true
+  },
+  "verse_count": 48,
+  "source_text": {
+    "source_type": "Classical Sanskrit chapter text",
+    "source_locator": "Ashtanga Hridaya Sutrasthana 1, verses 1-48",
+    "text_verified_against": [
+      "SivaShakti/Siva.sh online Sanskrit text"
+    ],
+    "note": "The Sanskrit layer is provided as the source-text study layer. Student meanings are original explanatory summaries, not a verbatim published translation."
+  },
+  "verses": [
+    {
+      "number": "1",
+      "sanskrit": "रागादिरोगान् सततानुषक्तानशेषकायप्रसृतानशेषान् । औत्सुक्यमोहारतिदाञ्जघान योऽपूर्ववैद्याय नमोऽस्तु तस्मै ॥१॥",
+      "student_meaning": "Invocation to the physician who destroys the pervasive afflictions beginning with attachment, delusion and discontent."
+    },
+    {
+      "number": "2",
+      "sanskrit": "आयुः कामयमानेन धर्मार्थसुखसाधनम् । आयुर्वेदोपदेशेषु विधेयः परमादरः॥२॥",
+      "student_meaning": "A person desiring long life should study and follow Ayurveda with the highest respect because longevity supports the pursuit of dharma, artha and sukha."
+    },
+    {
+      "number": "3",
+      "sanskrit": "ब्रह्मा स्मृत्वाऽऽयुषो वेदं प्रजापतिमजिग्रहत्। सोऽश्विनौ तौ सहस्राक्षं सोऽत्रिपुत्रादिकान्मुनीन् ॥३॥",
+      "student_meaning": "The traditional transmission of Ayurveda is described from Brahma through Prajapati, the Ashvins, Indra and the sages."
+    },
+    {
+      "number": "4",
+      "sanskrit": "तेऽग्निवेशादिकांस्ते तु पृथक् तन्त्राणि तेनिरे । तेभ्योऽतिविप्रकीर्णेभ्यः प्रायः सारतरोच्चयः ॥४॥",
+      "student_meaning": "Earlier teachers composed separate treatises; the present work gathers the important essence from widely dispersed teachings."
+    },
+    {
+      "number": "5",
+      "sanskrit": "क्रियतेऽष्टाङ्गहृदयं नातिसंक्षेपविस्तरम् । कायबालग्रहोर्ध्वाङ्गशल्यदंष्ट्राजरावृषान् ॥५॥",
+      "student_meaning": "Ashtanga Hridaya presents Ayurveda in a balanced concise form and encompasses its eight major branches."
+    },
+    {
+      "number": "6",
+      "sanskrit": "अष्टावङ्गानि तस्याहुश्चिकित्सा येषु संश्रिता। वायुः पित्तं कफश्चेति त्रयो दोषाः समासतः ॥६॥",
+      "student_meaning": "The eight branches are the fields of Ayurvedic practice; Vata, Pitta and Kapha are the three principal doshas."
+    },
+    {
+      "number": "7",
+      "sanskrit": "विकृताविकृता देहं घ्नन्ति ते वर्तयन्ति च । ते व्यापिनोऽपि हृन्नाभ्योरधोमध्योर्ध्वसंश्रयाः ॥७॥",
+      "student_meaning": "Doshas in disturbed and undisturbed states respectively damage or support the body; although pervasive, they have characteristic regional predominance."
+    },
+    {
+      "number": "8",
+      "sanskrit": "वयोहोरात्रिभुक्तानां तेऽन्तमध्यादिगाः क्रमात् । तैर्भवेद्विषमस्तीक्ष्णो मन्दश्चाग्निः समैः समः ॥८॥",
+      "student_meaning": "Doshas show sequential predominance across age, day/night and digestion, and their state relates to the four patterns of agni: vishama, tikshna, manda and sama."
+    },
+    {
+      "number": "9",
+      "sanskrit": "कोष्ठः क्रूरो मृदुर्मध्यो मध्यः स्यात्तैः समैरपि । शुक्रार्तवस्थैर्जन्मादौ विषेणेव विषक्रिमेः ॥९॥",
+      "student_meaning": "Koshtha is described as krura, mridu or madhyama in relation to doshic predominance; constitutional characteristics are also discussed in relation to conception."
+    },
+    {
+      "number": "10",
+      "sanskrit": "तैश्च तिस्रः प्रकृतयो हीनमध्योत्तमाः पृथक् । समधातुः समस्तासु श्रेष्ठा, निन्द्या द्विदोषजाः ॥१० ॥",
+      "student_meaning": "Three broad single-dosha constitutional patterns are described, while balanced constitution is regarded as the most favourable and dual-dosha combinations are discussed as less ideal in this classical framework."
+    },
+    {
+      "number": "11",
+      "sanskrit": "तत्र रूक्षो लघुः शीतः खरः सूक्ष्मश्चलोऽनिलः । पित्तं सस्नेहतीक्ष्णोष्णं लघु विस्त्रं सरं द्रवम् ॥११॥",
+      "student_meaning": "Vata is characterized by dryness, lightness, coldness, roughness, subtlety and mobility; Pitta by slight unctuousness, sharpness, heat, lightness, spreading and liquidity."
+    },
+    {
+      "number": "12",
+      "sanskrit": "स्निग्धः शीतो गुरुर्मन्दः श्लक्ष्णो मृत्स्नः स्थिरः कफः । संसर्गः सन्निपातश्च तद्द्द्वित्रिक्षयकोपतः ॥१२॥",
+      "student_meaning": "Kapha is unctuous, cold, heavy, slow, smooth, slimy and stable; simultaneous involvement of two or three doshas is termed samsarga or sannipata."
+    },
+    {
+      "number": "13",
+      "sanskrit": "रसासृङ्गांसमेदोऽस्थिमज्जशुक्राणि धातवः । सप्त दूष्याः-मला मूत्रशकृत्स्वेदादयोऽपि च ॥१३ ॥",
+      "student_meaning": "The seven dhatus are rasa, rakta, mamsa, medas, asthi, majja and shukra; mutra, shakrit and sveda are principal malas and serve as dushya in disease."
+    },
+    {
+      "number": "14",
+      "sanskrit": "वृद्धिः समानैः सर्वेषां विपरीतैर्विपर्ययः । रसाःस्वाद्वम्ललवणतिक्तोषणकषायकाः ॥१४ ॥",
+      "student_meaning": "Like qualities increase corresponding factors and opposite qualities decrease them; six tastes are sweet, sour, salty, bitter, pungent and astringent."
+    },
+    {
+      "number": "15",
+      "sanskrit": "षड् द्रव्यमाश्रितास्ते च यथापूर्वं बलावहाः । तत्राद्या मारुतं घ्नन्ति त्रयस्तिक्तादयः कफम् ॥१५॥",
+      "student_meaning": "The six tastes occur in substances and have graded effects; the first three pacify Vata, while bitter, pungent and astringent are grouped as Kapha-pacifying tastes."
+    },
+    {
+      "number": "16",
+      "sanskrit": "कषायतिक्तमधुराः पित्तमन्ये तु कुर्वते । शमनं कोपनं स्वस्थहितं द्रव्यमिति त्रिधा ॥१६॥",
+      "student_meaning": "Taste combinations influence doshas; substances may be considered as dosha-pacifying, dosha-provoking or beneficial for the healthy."
+    },
+    {
+      "number": "17",
+      "sanskrit": "उष्णशीतगुणोत्कर्षात्तत्र वीर्यं द्विधा स्मृतम् । त्रिधा विपाको द्रव्यस्य स्वाद्वम्लकटुकात्मकः ॥१७॥",
+      "student_meaning": "Virya is broadly twofold, ushna and shita; vipaka is classically described as madhura, amla or katu."
+    },
+    {
+      "number": "18",
+      "sanskrit": "गुरुमन्दहिमस्निग्धश्लक्ष्णसान्द्रमृदुस्थिराः । गुणाः ससूक्ष्मविशदा विंशतिः सविपर्ययाः ॥१८॥",
+      "student_meaning": "The twenty gurvadi qualities are taught as ten opposing pairs, providing a framework for understanding the qualities and actions of substances."
+    },
+    {
+      "number": "19",
+      "sanskrit": "कालार्थकर्मणां योगो हीनमिथ्यातिमात्रकः । सम्यग्योगश्च विज्ञेयो रोगारोग्यैककारणम् ॥१९॥",
+      "student_meaning": "Improper, deficient or excessive interaction with time, sense objects and actions causes disease; proper use supports health."
+    },
+    {
+      "number": "20",
+      "sanskrit": "रोगस्तु दोषवैषम्यं दोषसाम्यमरोगता । निजागन्तुविभागेन तत्र रोगा द्विधा स्मृताः ॥२०॥",
+      "student_meaning": "Dosha imbalance is disease and dosha equilibrium is health; diseases are broadly divided into nija and agantu according to origin."
+    },
+    {
+      "number": "21",
+      "sanskrit": "तेषां कायमनोभेदादधिष्ठानमपि द्विधा । रजस्तमश्च मनसो द्वौ च दोषावुदाहृतौ ॥२१॥",
+      "student_meaning": "Disease has two principal loci, body and mind; rajas and tamas are described as the two mental doshas."
+    },
+    {
+      "number": "22",
+      "sanskrit": "दर्शनस्पर्शनप्रश्नैः परीक्षेत च रोगिणम् । रोगं निदानप्राग्रूपलक्षणोपशयाप्तिभिः ॥२२॥",
+      "student_meaning": "The patient is examined through observation, touch and questioning; disease is examined through nidana, purvarupa, rupa, upashaya and samprapti."
+    },
+    {
+      "number": "23",
+      "sanskrit": "भूमिदेहप्रभेदेन देशमाहुरिह द्विधा । जाङ्गलं वातभूयिष्ठमनूपं तु कफोल्बणम् ॥२३॥",
+      "student_meaning": "Desha is considered in relation to land and body; jangala is Vata-predominant and anupa is Kapha-predominant."
+    },
+    {
+      "number": "24",
+      "sanskrit": "साधारणं सममलं त्रिधा भूदेशमादिशेत् । क्षणादिर्व्याध्यवस्था च कालो भेषजयोगकृत् ॥२४॥",
+      "student_meaning": "Bhumi desha is also discussed as jangala, anupa and sadharana; kala includes ordinary time and disease-stage considerations relevant to treatment."
+    },
+    {
+      "number": "25",
+      "sanskrit": "शोधनं शमनं चेति समासादौषधं द्विधा । शरीरजानां दोषाणां क्रमेण परमौषधम् ॥२५॥",
+      "student_meaning": "Therapeutic measures are broadly divided into shodhana and shamana, with selection determined by the doshic condition and clinical context."
+    },
+    {
+      "number": "26",
+      "sanskrit": "बस्तिर्विरेको वमनं तथा तैलं घृतं मधु । धीधैर्यात्मादिविज्ञानं मनोदोषौषधं परम् ॥२६॥",
+      "student_meaning": "Classical dosha-specific therapeutic principles are stated, while mental disturbance is addressed through wisdom, steadiness and knowledge of the self and circumstances."
+    },
+    {
+      "number": "27",
+      "sanskrit": "भिषग्द्रव्याण्युपस्थाता रोगी पादचतुष्टयम् । चिकित्सितस्य निर्दिष्टं, प्रत्येकं तच्चतुर्गुणम् ॥२७॥",
+      "student_meaning": "The four limbs of treatment are physician, therapeutic substance, attendant and patient; each has four desirable qualities."
+    },
+    {
+      "number": "28",
+      "sanskrit": "दक्षस्तीर्थात्तशास्त्रार्थो दृष्टकर्मा शुचिर्भिषक् । बहुकल्पं बहुगुणं सम्पन्नं योग्यमौषधम् ॥२८॥",
+      "student_meaning": "The physician should be skilled, learned, experienced and clean; the medicine should be versatile, well endowed with useful qualities, properly prepared and suitable."
+    },
+    {
+      "number": "29",
+      "sanskrit": "अनुरक्तः शुचिर्दक्षो बुद्धिमान् परिचारकः । आढ्यो रोगी भिषग्वश्यो ज्ञापकः सत्त्ववानपि ॥२९॥",
+      "student_meaning": "The attendant should be caring, clean, capable and intelligent; the patient should be adequately resourced, cooperative, able to communicate and sufficiently strong."
+    },
+    {
+      "number": "30",
+      "sanskrit": "सर्वौषधक्षमे देहे यूनः पुंसो जितात्मनः । अमर्मगो ऽल्पहेत्वग्ररूपरूपोऽनुपद्रवः ॥३०॥",
+      "student_meaning": "Favourable prognostic features include adequate tolerance, youth, self-control, absence of vital-site involvement, mild causation and manifestations, and absence of complications."
+    },
+    {
+      "number": "31",
+      "sanskrit": "अतुल्यदृष्यदेशर्तुप्रकृतिः पादसम्पदि । ग्रहेष्वनुगुणेष्वेकदोषमार्गो नवः सुखः ॥३१॥",
+      "student_meaning": "A readily curable disease is associated with favourable disease factors, compatible patient and environment, complete therapeutic support, single-dosha involvement, single pathway and recent onset."
+    },
+    {
+      "number": "32",
+      "sanskrit": "शस्त्रादिसाधनः कृच्छ्रः सङ्करे च ततो गदः । शेषत्वादायुषो याप्यः पथ्याभ्यासाद्विपर्यये ॥३२॥",
+      "student_meaning": "Difficult disease may require complex measures; yapya disease is maintained rather than fully eliminated and depends on remaining lifespan and continued wholesome regimen."
+    },
+    {
+      "number": "33",
+      "sanskrit": "अनुपक्रम एव स्यात्स्थितोऽत्यन्तविपर्यये । औत्सुक्यमोहारतिकृद् दृष्टरिष्टोऽक्षनाशनः ॥३३॥",
+      "student_meaning": "A disease with strongly unfavourable features, severe disturbance, ominous signs and loss of sensory function is classified among conditions not suitable for curative treatment."
+    },
+    {
+      "number": "34",
+      "sanskrit": "त्यजेदात भिषग्भूपैर्द्विष्टं तेषां द्विषं द्विषम् । हीनोपकरणं व्यग्रमविधेयं गतायुषम् ॥३४॥",
+      "student_meaning": "The text discusses circumstances in which a physician may decline treatment, including lack of necessary resources, inability to cooperate and situations indicating extremely poor prognosis."
+    },
+    {
+      "number": "35",
+      "sanskrit": "चण्डं शोकातुरं भीरुं कृतघ्नं वैद्यमानिनम् । तन्त्रस्यास्य परं चातो वक्ष्यतेऽध्यायसङ्ग्रहः ॥३५॥",
+      "student_meaning": "Further difficult patient characteristics are listed, followed by a summary of the chapters of the treatise."
+    },
+    {
+      "number": "36",
+      "sanskrit": "आयुष्कामदिनवहारोगानुत्पादनद्रवाः । अन्नज्ञानान्नसंरक्षामात्राद्रव्यरसाश्रयाः ॥३६॥",
+      "student_meaning": "The opening group of Sutrasthana chapters is summarized, beginning with Ayushkamiya, Dinacharya, Ritucharya and Roganutpadaniya."
+    },
+    {
+      "number": "37",
+      "sanskrit": "दोषादिज्ञानतद्भेदतच्चिकित्साद्व्युपक्रमाः । शुद्ध्यादिस्नेहनस्वेदरेकास्थापननावनम् ॥३७॥",
+      "student_meaning": "The summary continues through chapters on doshas, their types and treatment, purification, oleation, sudation, emesis, purgation, basti and nasya."
+    },
+    {
+      "number": "38",
+      "sanskrit": "धूमगण्डूषदृक्सेकतृप्तियन्त्रकशस्त्रकम् । शिराविधिः शल्यविधिः शस्त्रक्षाराग्निकर्मिकौ ॥३८॥",
+      "student_meaning": "The Sutrasthana summary continues through chapters on dhumapana, oral and eye procedures, instruments, surgery, venesection, foreign-body removal and cautery."
+    },
+    {
+      "number": "39",
+      "sanskrit": "सूत्रस्थानमिमेऽध्यायास्त्रिंशत्शारीरमुच्यते । गर्भावक्रान्तितद्व्यापदङ्गमर्मविभागिकम् ॥३९॥",
+      "student_meaning": "The text transitions from the thirty Sutrasthana chapters to Sharira Sthana and identifies its principal subjects."
+    },
+    {
+      "number": "40",
+      "sanskrit": "विकृतिर्दूतजं षष्ठम्निदानं सार्वरोगिकम् । ज्वरासृक्श्वासयक्ष्मादिमदाद्यर्शोऽतिसारिणाम् ॥४०॥",
+      "student_meaning": "The chapter list proceeds to Sharira subjects and then Nidana Sthana, including general and disease-specific diagnostic chapters."
+    },
+    {
+      "number": "41",
+      "sanskrit": "मूत्राघातप्रमेहाणां विद्रध्याद्युदरस्य च । पाण्डुकुष्ठानिलार्तानां वाताम्रस्य च षोडश ॥४१॥",
+      "student_meaning": "The Nidana Sthana summary continues with urinary, metabolic, abdominal, skin, Vata and related disorders."
+    },
+    {
+      "number": "42",
+      "sanskrit": "चिकित्सितं ज्वरे रक्ते कासे श्वासे च यक्ष्मणि । वमौ मदात्ययेऽर्शःसु, विशि द्वौ द्वौ च मूत्रिते ॥४२॥",
+      "student_meaning": "The text then summarizes the major therapeutic chapters dealing with fever, bleeding disorders, cough, dyspnoea, wasting, vomiting, intoxication, piles, diarrhoea and related conditions."
+    },
+    {
+      "number": "43",
+      "sanskrit": "विद्रधौ गुल्मजठरपाण्डुशोफविसर्पिषु । कुष्ठश्वित्रानिलव्याधिवातास्रेषु चिकित्सितम् ॥४३॥",
+      "student_meaning": "Further Chikitsita chapters address abscess, abdominal masses, abdominal enlargement, pandu, oedema, visarpa, skin disease, Vata disorders and vatashonita."
+    },
+    {
+      "number": "44",
+      "sanskrit": "—कल्पसिद्धिरतः परम् । कल्पो वमेर्विरेकस्य तत्सिद्धिर्बस्तिकल्पना ॥४४॥",
+      "student_meaning": "Kalpa and Siddhi Sthana are summarized, covering emetic and purgative preparations, their complications and basti formulations."
+    },
+    {
+      "number": "45",
+      "sanskrit": "सिद्धिर्बस्त्यापदां षष्ठो द्रव्यकल्पः- अत उत्तरम् । बालोपचारे तद्व्याधौ तद्ग्रहे, द्वौ च भूतगे ॥४५॥",
+      "student_meaning": "The summary includes management of basti complications, pharmaceutics and the beginning of Uttaratantra subjects concerning children and related disorders."
+    },
+    {
+      "number": "46",
+      "sanskrit": "उन्मादेऽथ स्मृतिभ्रंशे, द्वौ द्वौ वर्त्मसु सन्धिषु । दृक्तमोलिङ्गनाशेषु त्रयो, द्वौ द्वौ च सर्वगे ॥४६॥",
+      "student_meaning": "Uttaratantra subjects continue through mental disorders and multiple eye-disease diagnostic and therapeutic chapters."
+    },
+    {
+      "number": "47",
+      "sanskrit": "कर्णनासामुखशिरोव्रणे, भङ्गे भगन्दरे । ग्रन्थ्यादौ क्षुद्ररोगेषु गुह्यरोगे पृथग्द्वयम् ॥४७॥",
+      "student_meaning": "The summary continues with ear, nose, mouth, head, wounds, fractures, fistula, tumours, minor diseases and genital disorders."
+    },
+    {
+      "number": "48",
+      "sanskrit": "विषे भुजङ्गे कीटेषु मूषकेषु रसायने । चत्वारिंशोऽनपत्यानामध्यायो बीजपोषणः ॥४८॥",
+      "student_meaning": "The final summary names poisoning-related chapters and concludes with Rasayana and Vajikarana subjects, completing the overview of the treatise."
+    }
+  ],
+  "student_support": {
+    "concept_map": [
+      "Purpose of Ayurveda and Ayushkamiya (1-5)",
+      "Eight branches, dosha, agni, koshtha and prakriti (6-10)",
+      "Dosha qualities, dhatu, mala and rasa (11-16)",
+      "Virya, vipaka, guna and proper/ improper use of time, senses and actions (17-19)",
+      "Disease, mind, examination, desha and kala (20-24)",
+      "Shodhana, shamana and mental management (25-26)",
+      "Chikitsa Chatushpada and qualities of physician, medicine, attendant and patient (27-29)",
+      "Prognosis and sadhyasadhyata (30-35)",
+      "Adhyaya-sangraha / organization of Ashtanga Hridaya (36-48)"
+    ],
+    "must_memorize": [
+      "Eight branches of Ayurveda",
+      "Three doshas and their principal qualities",
+      "Seven dhatus and principal malas",
+      "Six rasas",
+      "Twenty gurvadi gunas",
+      "Two broad viryas and three vipakas",
+      "Nija and agantu roga",
+      "Roga and atura pariksha framework",
+      "Desha and kala classifications introduced here",
+      "Shodhana and shamana",
+      "Chikitsa Chatushpada and four qualities of each limb",
+      "Broad categories of sadhya, yapya and asadhya/prognostic reasoning",
+      "Sutrasthana chapter sequence summarized in verses 36-38"
+    ],
+    "exam_questions": {
+      "long_answer": [
+        "Explain the eight branches of Ayurveda and their significance.",
+        "Describe the three doshas, their qualities and major sites as taught in Ayushkamiya Adhyaya.",
+        "Explain the concepts of dhatu, mala, rasa, virya, vipaka and guna.",
+        "Explain roga and arogya and describe the examination of the patient and disease.",
+        "Describe Chikitsa Chatushpada and the desirable qualities of physician, medicine, attendant and patient.",
+        "Explain the principles of sadhyasadhyata and factors influencing prognosis."
+      ],
+      "short_answer": [
+        "Define Ayushkamiya Adhyaya.",
+        "Enumerate the eight branches of Ayurveda.",
+        "Name the three doshas and their principal qualities.",
+        "Enumerate seven dhatus and three principal malas.",
+        "Name the six rasas.",
+        "Define virya and vipaka.",
+        "Differentiate nija and agantu roga.",
+        "Name the three methods of patient examination mentioned in the chapter.",
+        "Define desha and kala in the context of assessment.",
+        "Enumerate the four limbs of treatment."
+      ],
+      "viva": [
+        "What is the purpose of studying Ayurveda according to verse 2?",
+        "What are the eight branches?",
+        "What is the relationship between dosha state and health/disease?",
+        "What is the difference between roga pariksha and atura pariksha?",
+        "What are the four limbs of treatment?"
+      ],
+      "mcq_topics": [
+        "Verse-to-concept identification",
+        "Enumeration of dosha, dhatu, mala and rasa",
+        "Gurvadi guna pairs",
+        "Roga classification",
+        "Examination methods",
+        "Chikitsa Chatushpada",
+        "Prognostic categories",
+        "Chapter sequence in verses 36-48"
+      ]
+    },
+    "revision_summary": [
+      "Ayushkamiya establishes the conceptual foundation for studying Ayurveda.",
+      "Verses 6-19 build the basic framework of dosha, agni, koshtha, prakriti, dhatu, mala, rasa, guna, virya, vipaka and proper use of time, senses and actions.",
+      "Verses 20-26 connect disease, examination, desha, kala and therapeutic principles.",
+      "Verses 27-35 establish Chikitsa Chatushpada and prognosis.",
+      "Verses 36-48 provide the structural overview of the Ashtanga Hridaya."
+    ]
   }
 }
