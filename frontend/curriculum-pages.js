@@ -3,6 +3,23 @@ const SUBJECT_FALLBACK={
 2:[["AyUG-RB","Rasashastra evam Bhaishajyakalpana"],["AyUG-AT","Agada Tantra evam Vidhi Vaidyaka"],["AyUG-SA2","Samhita Adhyayan-2"],["AyUG-DG","Dravyaguna Vijnana"],["AyUG-RN","Roga Nidan evam Vikriti Vijnana"],["AyUG-SW","Swasthavritta evam Yoga"]],
 3:[["AyUG-KC","Kayachikitsa"],["AyUG-PK","Panchakarma & Upakarma"],["AyUG-ST","Shalya Tantra"],["AyUG-SL","Shalakya Tantra"],["AyUG-PS","Prasuti Tantra evam Stree Roga"],["AyUG-KB","Kaumarabhritya"],["AyUG-SA3","Samhita Adhyayan-3"],["AyUG-EM","Atyaikachikitsa / Emergency Medicine"],["AyUG-RM","Research Methodology and Medical Statistics"]]
 };
+const AH_CHAPTERS=[
+["y1-sa1-2","AH.Su.1","Ayushkamiya Adhyaya"],
+["y1-sa1-3","AH.Su.2","Dinacharya Adhyaya"],
+["y1-sa1-4","AH.Su.3","Ritucharya Adhyaya"],
+["y1-sa1-5","AH.Su.4","Roganutpadaniya Adhyaya"],
+["y1-sa1-6","AH.Su.5","Dravadravya Vijnaniya Adhyaya"],
+["y1-sa1-7","AH.Su.6","Annasvarupa Vijnaniya Adhyaya"],
+["y1-sa1-8","AH.Su.7","Annaraksha Adhyaya"],
+["y1-sa1-9","AH.Su.8","Matrashitiya Adhyaya"],
+["y1-sa1-10","AH.Su.9","Dravyadi Vijnaniya Adhyaya"],
+["y1-sa1-11","AH.Su.10","Rasabhediya Adhyaya"],
+["y1-sa1-12","AH.Su.11","Doshadi Vijnaniya Adhyaya"],
+["y1-sa1-13","AH.Su.12","Doshabhediya Adhyaya"],
+["y1-sa1-14","AH.Su.13","Doshopakramaniya Adhyaya"],
+["y1-sa1-15","AH.Su.14","Dvividhopakramaniya Adhyaya"],
+["y1-sa1-16","AH.Su.15","Shodhanadigana Sangraha Adhyaya"]
+];
 const YEARS={
 1:{label:"First Professional",note:"Foundation sciences, Sanskrit, Padartha and classical-text study",curriculum_id:"bams_ncism_1"},
 2:{label:"Second Professional",note:"Pharmacology, pathology, toxicology, preventive care and Samhita study",curriculum_id:"bams_ncism_2"},
