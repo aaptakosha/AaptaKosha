@@ -4,11 +4,11 @@
   const p=new URLSearchParams(location.search),requested=p.get("assessment_id"),chapterId=p.get("chapter")||"charaka.sutra.01";
   const assessmentIdForChapter=id=>{const m=/^charaka\.sutra\.(\d{2})$/.exec(id||"");return m?(m[1]==="01"?"charaka.sutra.01.ncism-revision":id+".revision"):null};
   const chapterAssessmentId=assessmentIdForChapter(chapterId);
-  let assessmentId=requested||chapterAssessmentId||"demo-dravyaguna-3";
-  const chapterAssessment=Boolean(requested||chapterAssessmentId);
+  let assessmentId=requested||chapterAssessmentId||"charaka.sutra.01.ncism-revision";
+  const chapterAssessment=Boolean(requested||chapterAssessmentId||!requested);
   const chapterNumber=id=>{const m=/^charaka\.sutra\.(\d{2})$/.exec(id||"");return m?Number(m[1]):null};
   async function load(){
-    if(!chapterAssessment&&!requested){title.textContent="Dravyaguna · Chapter 3 Assessment";intro.textContent="Check your understanding of Classification of Drugs with focused revision and recall.";count.textContent="2";time.textContent="5 min";badge.textContent="Practice assessment";return}
+    if(!chapterAssessment&&!requested){chapterId="charaka.sutra.01";assessmentId="charaka.sutra.01.ncism-revision";}
     try{
       const d=await window.AaptaKoshaApi.request("/assessments?curriculum_ref=AyUG-SA1");
       const found=(d.data?.assessments||[]).find(x=>x.assessment_id===assessmentId);
