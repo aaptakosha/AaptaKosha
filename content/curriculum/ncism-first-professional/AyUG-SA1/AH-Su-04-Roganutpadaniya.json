@@ -1,0 +1,393 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-4",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.4",
+  "chapter_title": "Roganutpadaniya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "source_basis": {
+    "authority": "NCISM",
+    "syllabus": "AyUG-SA1, Ashtanga Hridaya Sutrasthana 1-15",
+    "chapter_sequence": "Sutrasthana 4",
+    "primary_source": "Ashtanga Hridaya Sutrasthana 4"
+  },
+  "status": "content_complete_student_layer",
+  "scope_note": "Complete NCISM-aligned student study layer: all 36 numbered Sanskrit verses with original verse-wise student meanings, conceptual organization, exam preparation and revision support. Historical prescriptions are contextualized rather than presented as modern medical advice.",
+  "learning_outcomes": [
+    "Explain Adharaneeya Vega and the classical consequences of suppressing natural urges.",
+    "Enumerate the natural urges and explain selected disorders and management principles associated with their suppression.",
+    "Explain Dharaneeya Vega with special reference to restraint of harmful mental impulses such as lobha, irshya, dvesha, matsarya and raga.",
+    "Explain the classical rationale and importance of Shodhana in relation to accumulated Dosha and seasonal disease prevention.",
+    "Explain Hita-Ahara-Vihara and the characteristics of an Arogya-preserving lifestyle.",
+    "Identify Agantuja disorders and distinguish the chapter's classical categories from modern biomedical disease classification.",
+    "Recite and explain important shlokas from Roganutpadaniya Adhyaya."
+  ],
+  "sections": [
+    {
+      "id": "01-adharaniya-vega",
+      "title": "1. Adharaneeya Vega: Natural Urges Not to Be Suppressed (Verses 1-8)",
+      "content": [
+        "Enumeration of natural urges.",
+        "Consequences of suppressing flatus, stool, urine and eructation.",
+        "Classical treatment principles including varti, abhyanga, avagaha, svedana and basti.",
+        "Classical Avapeedaka ghrita description."
+      ]
+    },
+    {
+      "id": "02-remaining-natural-urges",
+      "title": "2. Suppression of Sneezing, Thirst, Hunger, Sleep, Cough, Exertional Breath, Yawning and Tears (Verses 9-16)",
+      "content": [
+        "Clinical features attributed to suppression of individual urges.",
+        "Classical management principles.",
+        "Vata-dominant interpretation of several urge-suppression disorders.",
+        "Historical therapeutic instructions are presented as textual study material, not self-treatment advice."
+      ]
+    },
+    {
+      "id": "03-vomiting-semen",
+      "title": "3. Suppression of Vomiting and Seminal Urge (Verses 17-21)",
+      "content": [
+        "Classical consequences attributed to suppression of vomiting.",
+        "Therapeutic measures described in the text.",
+        "Consequences and treatment references associated with suppression of the seminal urge.",
+        "Historically specific sexual and therapeutic prescriptions are contextualized."
+      ]
+    },
+    {
+      "id": "04-general-principles",
+      "title": "4. General Principles of Vega Management (Verses 22-24)",
+      "content": [
+        "Diseases arising from improper induction or suppression of urges.",
+        "Vata-anulomana as a general therapeutic principle.",
+        "Mental impulses that should be restrained and the role of self-control."
+      ]
+    },
+    {
+      "id": "05-shodhana",
+      "title": "5. Shodhana and Post-treatment Rebuilding (Verses 25-30)",
+      "content": [
+        "Timely purification of accumulated Dosha and Mala.",
+        "Difference between langhana-pachana and samshodhana.",
+        "Rasayana and Vrishya after appropriate preparation.",
+        "Brihmana with pathya foods and supportive procedures.",
+        "Traditional outcomes of successful restoration."
+      ]
+    },
+    {
+      "id": "06-agantuja-prevention",
+      "title": "6. Agantuja Disorders and Prevention (Verses 31-36)",
+      "content": [
+        "Classical definition of Agantuja disorders.",
+        "Prevention through avoidance of Prajnaparadha, Indriyopashama, Smriti and Sadvrtta.",
+        "Historical ritual and supernatural disease concepts are identified as classical context.",
+        "Ritusodhana and seasonal prevention.",
+        "Hita-ahara-vihara and the qualities of an Arogya-preserving person."
+      ]
+    }
+  ],
+  "key_terms": [
+    "Adharaneeya Vega",
+    "Dharaneeya Vega",
+    "Vega-dharana",
+    "Vega-udirana",
+    "Anulomana",
+    "Varti",
+    "Avagaha",
+    "Svedana",
+    "Bastikarma",
+    "Avapeedaka",
+    "Prajnaparadha",
+    "Indriyopashama",
+    "Smriti",
+    "Desha-Kala-Atma Jnana",
+    "Sadvrtta",
+    "Shodhana",
+    "Langhana",
+    "Pachana",
+    "Rasayana",
+    "Vrishya",
+    "Brihmana",
+    "Agantuja Roga",
+    "Ritusodhana",
+    "Hita-Ahara-Vihara"
+  ],
+  "exam_focus": [
+    "Enumerate the Adharaneeya Vegas in verse 1.",
+    "Explain the consequences and classical treatment of Adhovata, Purisha and Mutra Vega Dharana.",
+    "Explain the management principles for suppression of Kshavathu, Trut, Kshudha and Nidra.",
+    "Discuss Kasa and Shramashvasa Vega Dharana.",
+    "Explain Vamana Vega Dharana and the treatment described in the text.",
+    "Explain Shukra Vega Dharana with appropriate historical context.",
+    "Explain Vega-udirana and Vega-dharana in verse 22.",
+    "Explain Dharaneeya mental impulses in verse 24.",
+    "Explain the importance of timely Shodhana in verses 25-27.",
+    "Discuss post-treatment Brihmana and supportive regimen in verses 28-30.",
+    "Define Agantuja Roga and explain preventive measures in verses 31-34.",
+    "Explain Ritusodhana and Hita-Ahara-Vihara in verses 35-36."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 36,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "verse_count": 36,
+  "source_text": {
+    "source_type": "Classical Sanskrit chapter text",
+    "source_locator": "Ashtanga Hridaya Sutrasthana 4, verses 1-36",
+    "text_sources": [
+      "Wikisource, Ashtanga Hridaya Sutrasthana Chapter 4",
+      "Siva.sh, Astanga Hrudaya Sutra Sthana Chapter 4",
+      "NCISM AyUG-SA1 curriculum"
+    ],
+    "verification_note": "All 36 numbered verses were checked against the classical chapter structure. Student meanings are original explanatory summaries, not copied translations. Historically specific ritual/supernatural and sexual prescriptions are explicitly contextualized."
+  },
+  "student_support": {
+    "concept_map": [
+      "Verses 1-8: Adharaneeya Vega and initial treatment principles",
+      "Verses 9-16: suppression of sneezing, thirst, hunger, sleep, cough, exertional breath, yawning and tears",
+      "Verses 17-21: suppression of vomiting and seminal urge",
+      "Verses 22-24: general principles of urge management and restraint of harmful mental impulses",
+      "Verses 25-30: Shodhana, Rasayana/Vrishya and Brihmana",
+      "Verses 31-36: Agantuja disorders, prevention, Ritusodhana and Hita-Ahara-Vihara"
+    ],
+    "must_memorize": [
+      "Thirteen Adharaneeya Vegas in verse 1",
+      "Major consequences and treatment principles for urge suppression",
+      "Vega-udirana and Vega-dharana distinction",
+      "Dharaneeya mental impulses in verse 24",
+      "Importance of timely Shodhana in verses 25-26",
+      "Rasayana/Vrishya timing in verse 27",
+      "Brihmana foods in verse 28",
+      "Agantuja Roga definition in verse 31",
+      "Prevention principles in verse 32",
+      "Ritusodhana principle in verse 35",
+      "Hita-Ahara-Vihara and Arogya characteristics in verse 36"
+    ],
+    "exam_questions": {
+      "long_answer": [
+        "Explain Adharaneeya Vega and discuss the consequences and management of suppression of natural urges according to Roganutpadaniya Adhyaya.",
+        "Discuss the principles of Shodhana, Rasayana and Brihmana described in Roganutpadaniya Adhyaya.",
+        "Explain prevention according to verses 31-36, including Prajnaparadha, Indriyopashama, Ritusodhana and Hita-Ahara-Vihara."
+      ],
+      "short_answer": [
+        "Enumerate the Adharaneeya Vegas.",
+        "What are the effects of Adhovata Vega Dharana?",
+        "What is Avapeedaka?",
+        "What are the effects of Kshavathu Vega Dharana?",
+        "What is Vega-udirana?",
+        "Name the Dharaneeya mental impulses.",
+        "Why is timely Shodhana advised?",
+        "What is Agantuja Roga?",
+        "What is Ritusodhana?",
+        "State the characteristics of an Arogya person in verse 36."
+      ],
+      "viva": [
+        "Why should natural urges not be suppressed?",
+        "What is the general role of Vata-anulomana?",
+        "Differentiate Adharaneeya and Dharaneeya Vega.",
+        "Why is Shodhana described as a preventive measure?",
+        "What is Prajnaparadha?",
+        "What does Hita-Ahara-Vihara mean in the concluding verse?"
+      ]
+    },
+    "revision_summary": [
+      "Natural bodily urges are not to be forcibly suppressed; their suppression is linked with characteristic disorders in the classical text.",
+      "Mental impulses such as greed, envy, hatred, jealousy and attachment are to be restrained.",
+      "Timely Shodhana is presented as a method for managing accumulated Dosha, followed by Rasayana/Vrishya when appropriate and Brihmana when depleted.",
+      "Agantuja disorders are classically linked to external, traumatic and emotional causes; prevention includes avoiding Prajnaparadha and following Sadvrtta.",
+      "Ritusodhana and Hita-Ahara-Vihara complete the chapter's preventive-health framework."
+    ]
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "वेगान्न धारयेद्वातविण्मूत्रक्षवतृट्क्षुधाम् । निद्राकासश्रमश्वासजृम्भाश्रुच्छर्दिरेतसाम् ॥१॥",
+      "student_meaning": "वात, मल, मूत्र, छींक, प्यास, भूख, निद्रा, खाँसी, श्रमजन्य श्वास, जंभाई, आँसू, वमन और शुक्र के स्वाभाविक वेगों को बलपूर्वक नहीं रोकना चाहिए।"
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "अधोवातस्य रोधेन गुल्मोदावर्तरुक्क्लमाः । वातमूत्रशकृत्सङ्गदृष्ट्यग्निवधहृद्गदाः ॥२॥",
+      "student_meaning": "अधोवात को रोकने से उदरगुल्म, उदावर्त, पीड़ा और क्लांति के साथ वात, मूत्र तथा मल का अवरोध, दृष्टि और अग्नि की हानि तथा हृदयसम्बन्धी विकार उत्पन्न हो सकते हैं।"
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "शकृतः पिण्डिकोद्वेष्टप्रतिश्यायशिरोरुजः । ऊर्ध्ववायुः परीकर्तो हृदयस्योपरोधनम् ॥३॥",
+      "student_meaning": "मलवेग को रोकने से पिंडली में ऐंठन, प्रतिश्याय, सिरदर्द, ऊर्ध्वगामी वात, गुदप्रदेश में परिकर्तन-जैसी पीड़ा और हृदयप्रदेश में अवरोध की अनुभूति बताई गई है।"
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "मुखेन विट्प्रवृत्तिश्च पूर्वोक्ताश्चामयाः स्मृताः । अङ्गभङ्गाश्मरीबस्तिमेढ्रवङ्क्षणवेदनाः ॥४॥",
+      "student_meaning": "मलवेग के दमन में मुख से मल-प्रवृत्ति जैसी विकृति और पूर्वोक्त लक्षणों का उल्लेख है; मूत्रवेग के दमन से शरीर-पीड़ा, अश्मरी तथा बस्ति, मेढ्र और वंक्षण में वेदना हो सकती है।"
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "मूत्रस्य रोधात्पूर्वे च प्रायो रोगास्तदौषधम् । वर्त्यभ्यङ्गावगाहाश्च स्वेदनं बस्तिकर्म च ॥५॥",
+      "student_meaning": "मूत्रवेग के दमन में पूर्वोक्त विकार भी हो सकते हैं। इनके उपचार में वर्ति, अभ्यंग, अवगाह, स्वेदन और बस्तिकर्म जैसे शास्त्रीय उपाय बताए गए हैं।"
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "अन्नपानं च विड्भेदि विड्रोधोत्थेषु यक्ष्मसु । मूत्रजेषु तु पाने च प्राग्भक्तं शस्यते घृतम् ॥६॥",
+      "student_meaning": "मलावरोध या मलभेद से जुड़े विकारों में उपयुक्त अन्न-पान और संबंधित उपचार बताए गए हैं; मूत्रजन्य विकारों में भोजन से पहले घृतपान का निर्देश मिलता है।"
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "जीर्णान्तिकं चोत्तमया मात्रया योजनाद्वयम् । अवपीडकमेतच्च संज्ञितं धारणात्पुनः ॥७॥",
+      "student_meaning": "भोजन के पच जाने पर उत्तम मात्रा में तथा अगले भोजन से पूर्व घृत का सेवन करने की इस द्विवार प्रक्रिया को अवपीडक कहा गया है।"
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "उद्गारस्यारुचिः कम्पो विबन्धो हृदयोरसोः । आध्मानकासहिध्माश्च हिध्मावत्तत्र भेषजम् ॥८॥",
+      "student_meaning": "उद्गार के वेग को रोकने से अरुचि, कंप, विबन्ध, हृदय और उरःप्रदेश में असुविधा, आध्मान, कास और हिध्मा हो सकते हैं; हिध्मा के लिए वर्णित उपचार अपनाया जाता है।"
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "शिरोर्तीन्द्रियदौर्बल्यमन्यास्तम्भार्दितं क्षुतेः । तीक्ष्णधूमाञ्जनाघ्राणनावनार्कविलोकनैः ॥९॥",
+      "student_meaning": "छींक रोकने से सिरदर्द, इन्द्रिय-दौर्बल्य, मन्यास्तम्भ और अर्दित जैसे विकार बताए गए हैं। छींक को प्रवर्तित करने के लिए तीक्ष्ण धूम, अंजन, घ्राण, नस्य और सूर्य-दर्शन का उल्लेख है।"
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "प्रवर्तयेत्क्षुतिं सक्तां स्नेहस्वेदौ च शीलयेत् । शोषाङ्गसादबाधिर्यसम्मोहभ्रमहृद्गदाः ॥१०॥",
+      "student_meaning": "अवरुद्ध छींक को प्रवर्तित कर तथा स्नेहन और स्वेदन का प्रयोग करने की बात कही गई है; तृष्णावेग के दमन से मुखशोष, अंगसाद, बधिरता, सम्मोह, भ्रम और हृद्विकार हो सकते हैं।"
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "तृष्णाया निग्रहात्तत्र शीतः सर्वो विधिर्हितः । अङ्गभङ्गारुचिग्लानिकार्श्यशूलभ्रमाः क्षुधः ॥११॥",
+      "student_meaning": "तृष्णा रोकने पर शीतप्रधान उपाय हितकर बताए गए हैं। भूख के वेग को रोकने से अंगभंग, अरुचि, ग्लानि, कार्श्य, शूल और भ्रम जैसे लक्षण बताए गए हैं।"
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "तत्र योज्यं लघु स्निग्धमुष्णमल्पं च भोजनम् । निद्राया मोहमूर्धाक्षिगौरवालस्यजृम्भिकाः ॥१२॥",
+      "student_meaning": "क्षुधा-सम्बन्धी स्थिति में लघु, स्निग्ध, उष्ण और अल्प भोजन का निर्देश है। निद्रा के वेग को रोकने से मोह, सिर-आँखों में गौरव, आलस्य और जृम्भा हो सकती है।"
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "अङ्गमर्दश्च तत्रेष्टः स्वप्नः संवाहनानि च । कासस्य रोधात्तद्वृद्धिः श्वासारुचिहृदामयाः ॥१३॥",
+      "student_meaning": "निद्रावेग-दमन में पर्याप्त निद्रा और संवाहन उपयोगी बताए गए हैं। कास को रोकने से कास की वृद्धि, श्वास, अरुचि और हृद्विकार हो सकते हैं।"
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "शोषो हिध्मा च कार्योऽत्र कासहा सुतरां विधिः । गुल्महृद्रोगसम्मोहाः श्रमश्वासाद्विधारितात् ॥१४॥",
+      "student_meaning": "कासवेग-दमन से शोष और हिध्मा भी हो सकते हैं, इसलिए कासहर उपाय प्रमुख है। श्रमजन्य श्वास के वेग को रोकने से गुल्म, हृद्रोग और सम्मोह बताए गए हैं।"
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "हितं विश्रमणं तत्र वातघ्नश्च क्रियाक्रमः । जृम्भायाः क्षववद्रोगाः सर्वश्चानिलजिद्विधिः ॥१५॥",
+      "student_meaning": "श्रमजन्य श्वास को रोकने पर विश्राम और वातशामक उपचार हितकर हैं। जंभाई रोकने से छींक-दमन जैसे विकार और अन्य वातप्रधान विकार हो सकते हैं; वातशामक चिकित्सा की जाती है।"
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "पीनसाक्षिशिरोहृद्रुङ्मन्यास्तम्भारुचिभ्रमाः । सगुल्मा बाष्पतस्तत्र स्वप्नो मद्यं प्रियाः कथाः ॥१६॥",
+      "student_meaning": "आँसू रोकने से पीनस, नेत्र व सिर की पीड़ा, हृदयसम्बन्धी असुविधा, मन्यास्तम्भ, अरुचि, भ्रम और गुल्म जैसे विकार बताए गए हैं। ऐसे में निद्रा, मद्य और प्रिय कथाओं का उल्लेख उपचार-संदर्भ में है।"
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "विसर्पकोठकुष्ठाक्षिकण्डूपाण्ड्वामयज्वराः । सकासश्वासहृल्लासव्यङ्गश्वयथवो वमेः ॥१७॥",
+      "student_meaning": "वमन के स्वाभाविक वेग को रोकने से विसर्प, कोठ, कुष्ठ, नेत्रकण्डू, पाण्डु, ज्वर, कास, श्वास, हृल्लास, व्यंग और शोथ जैसे विकार बताए गए हैं।"
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "गण्डूषधूमानाहारा रूक्षं भुक्त्वा तदुद्वमः । व्यायामः स्रुतिरस्रस्य शस्तं चात्र विरेचनम् ॥१८॥",
+      "student_meaning": "वमन के दमन में गण्डूष, धूम, आहार तथा रूक्ष भोजन के बाद उद्वमन, व्यायाम, रक्तस्राव और विरेचन जैसे शास्त्रीय उपायों का उल्लेख है। इन्हें आधुनिक स्व-उपचार निर्देश न मानकर ग्रंथीय चिकित्सा-संदर्भ के रूप में पढ़ना चाहिए।"
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "सक्षारलवणं तैलमभ्यङ्गार्थं च शस्यते । शुक्रात्तत्स्रवणं गुह्यवेदनाश्वयथुज्वराः ॥१९॥",
+      "student_meaning": "शुक्रवेग को रोकने के प्रसंग में क्षार-लवणयुक्त तैल से अभ्यंग का उल्लेख है। इसके दमन से शुक्रस्राव में विकृति, गुह्यप्रदेश की वेदना, शोथ और ज्वर बताए गए हैं।"
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "हृद्व्यथामूत्रसङ्गाङ्गभङ्गवृद्ध्यश्मषण्ढताः ताम्रचूडसुराशालिबस्त्यभ्यङ्गावगाहनम् ॥२०॥",
+      "student_meaning": "शुक्रवेग-दमन से हृद्व्यथा, मूत्रसंग, अंगभंग, वृद्धि, अश्मरी और शण्डत्व जैसे विकारों का उल्लेख है। ताम्रचूड, सुरा, शालि तथा बस्ति, अभ्यंग और अवगाह जैसे उपचारात्मक संदर्भ दिए गए हैं।"
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "बस्तिशुद्धिकरैः सिद्धं भजेत्क्षीरं प्रियाः स्त्रियः । तृट्शूलार्तं त्यजेत् क्षीणं विड्वमं वेगरोधिनम् ॥२१॥",
+      "student_meaning": "शुक्रदमन के उपचार-संदर्भ में बस्तिशोधनकारी योगों से सिद्ध क्षीर और मैथुन-संदर्भित निर्देश दिए गए हैं। तृष्णा या शूल से पीड़ित, क्षीण व्यक्ति तथा मलवमन कराने वाले उपायों को अनुचित परिस्थितियों में त्यागने की बात कही गई है।"
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "रोगाः सर्वेऽपि जायन्ते वेगोदीरणधारणैः । निर्दिष्टं साधनं तत्र भूयिष्ठं ये तु तान् प्रति ॥२२॥",
+      "student_meaning": "स्वाभाविक वेगों को अनुचित रूप से उत्पन्न करना या रोकना अनेक रोगों का कारण हो सकता है। उनके लिए आवश्यक उपचारों का अधिकांश वर्णन इसी अध्याय में किया गया है।"
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "ततश्चानेकधा प्रायः पवनो यत्प्रकुप्यति । अन्नपानौषधं तस्य युञ्जीतातोऽनुलोमनम् ॥२३॥",
+      "student_meaning": "वेगों के विकारों में वात अनेक प्रकार से कुपित होता है; इसलिए उसके अनुलोमन के लिए उपयुक्त अन्न, पान और औषध का प्रयोग करना चाहिए।"
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "धारयेत्तु सदा वेगान् हितैषी प्रेत्य चेह च । लोभेर्ष्याद्वेषमात्सर्यरागादीनां जितेन्द्रियः ॥२४॥",
+      "student_meaning": "यहाँ शारीरिक प्राकृतिक वेगों के विपरीत मानसिक आवेगों—लोभ, ईर्ष्या, द्वेष, मत्सर और राग आदि—को संयमित रखने की शिक्षा दी गई है। इन्द्रियनिग्रह को इस जीवन और परलोक दोनों के हित से जोड़ा गया है।"
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "यतेत च यथाकालं मलानां शोधनं प्रति । अत्यर्थसञ्चितास्ते हि क्रुद्धाः स्युर्जीवितच्छिदः ॥२५॥",
+      "student_meaning": "वात-पित्त-कफ तथा शारीरिक मल आदि के उचित समय पर शोधन का प्रयास करना चाहिए, क्योंकि अत्यधिक संचित होकर कुपित हुए दोष जीवन के लिए गंभीर हानि का कारण माने गए हैं।"
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "दोषाः कदाचित्कुप्यन्ति जिता लङ्घनपाचनैः । ये तु संशोधनैः शुद्धा न तेषां पुनरुद्भवः ॥२६॥",
+      "student_meaning": "कुछ कुपित दोष लंघन और पाचन से नियंत्रित हो सकते हैं; जो दोष उचित संशोधन से शुद्ध किए जाते हैं, उनके पुनः उद्भव की संभावना कम बताई गई है। यह शास्त्रीय शोधन-सिद्धान्त है।"
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "यथाक्रमं यथायोगमत ऊर्ध्वं प्रयोजयेत् । रसायनानि सिद्धानि वृष्ययोगांश्च कालवित् ॥२७॥",
+      "student_meaning": "उचित क्रम, पात्रता और समय को जानकर रसायन तथा वृष्य योगों का प्रयोग करना चाहिए। यह उपचार योग्य व्यक्ति और उचित काल के चयन पर बल देता है।"
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "भेषजक्षपिते पथ्यमाहारैर्बृंहणं क्रमात् । शालिषष्टिकगोधूममुद्गमांसघृतादिभिः ॥२८॥",
+      "student_meaning": "औषधोपचार से क्षीण हुए शरीर में क्रमशः पथ्य आहार द्वारा बृंहण करना चाहिए; शालि, षष्टिक, गोधूम, मुद्ग, मांस और घृत आदि का उल्लेख है।"
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "हृद्यदीपनभैषज्यसंयोगाद्रुचिपक्तिदैः । साभ्यङ्गोद्वर्तनस्नाननिरूहस्नेहवस्तिभिः ॥२९॥",
+      "student_meaning": "रुचि और पाचन को समर्थ करने वाले हृद्य-दीपन औषध-संयोग तथा अभ्यंग, उद्वर्तन, स्नान, निरूह और स्नेहबस्ति जैसे शास्त्रीय उपायों से पुनर्बलन का क्रम बताया गया है।"
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "तथा स लभते शर्म सर्वपावकपाटवम् । धीवर्णेन्द्रियवैमल्यं वृषतां दैर्घ्यमायुषः ॥३०॥",
+      "student_meaning": "उचित पुनर्बलन से सुख, अग्नि की कार्यक्षमता, बुद्धि, वर्ण और इन्द्रियों की निर्मलता तथा बल और आयु की वृद्धि जैसे पारंपरिक फल बताए गए हैं।"
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "ये भूतविषवाय्वग्निक्षतभङ्गादिसम्भवाः । रागद्वेषभयाद्याश्च ते स्युरागन्तवो गदाः ॥३१॥",
+      "student_meaning": "भूत, विष, बाह्य वायु, अग्नि, चोट, भंग आदि से तथा राग, द्वेष और भय जैसे कारणों से उत्पन्न रोगों को आगन्तुक रोग कहा गया है।"
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "त्यागः प्रज्ञापराधानामिन्द्रियोपशमः स्मृतिः । देशकालात्मविज्ञानं सद्वृत्तस्यानुवर्तनम् ॥३२॥",
+      "student_meaning": "आगन्तुक तथा मानसिक विकारों की रोकथाम में प्रज्ञापराध का त्याग, इन्द्रियों का संयम, स्मृति, देश-काल-आत्मज्ञान और सद्वृत्त का पालन प्रमुख बताए गए हैं।"
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "अथर्वविहिता शान्तिः प्रतिकूलग्रहार्चनम् । भूताद्यस्पर्शनोपायो निर्दिष्टश्च पृथक्पृथक् ॥३३॥",
+      "student_meaning": "पारंपरिक आगन्तुक-रोग अवधारणा में अथर्ववेदोक्त शान्ति, प्रतिकूल ग्रहों की पूजा तथा भूतादि के स्पर्श से बचने के उपाय बताए गए हैं। इन्हें ऐतिहासिक शास्त्रीय अवधारणाओं के रूप में पढ़ना चाहिए, आधुनिक रोगविज्ञान के प्रत्यक्ष प्रमाण के रूप में नहीं।"
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "अनुत्पत्त्यै समासेन विधिरेषः प्रदर्शितः । निजागन्तुविकाराणामुत्पन्नानां च शान्तये ॥३४॥",
+      "student_meaning": "इस अध्याय में संक्षेप से ऐसा स्वास्थ्य-विधान प्रस्तुत किया गया है जो निज और आगन्तुक विकारों की उत्पत्ति रोकने तथा उत्पन्न विकारों की शान्ति—दोनों उद्देश्यों को संबोधित करता है।"
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "शीतोद्भवं दोषचयं वसन्ते विशोधयन् ग्रीष्मजमभ्रकाले । घनात्यये वार्षिकमाशु सम्यक् प्राप्नोति रोगानृतुजान्न जातु ॥३५॥",
+      "student_meaning": "ऋतु-अनुकूल शोधन द्वारा शीत ऋतु में संचित दोषों को वसन्त में और ग्रीष्म में संचित दोषों को वर्षाकाल में उचित प्रकार से शुद्ध करने का निर्देश है, जिससे ऋतुजन्य रोगों से बचाव हो।"
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "नित्यं हिताहारविहारसेवी समीक्ष्यकारी विषयेष्वसक्तः । दाता समः सत्यपरः क्षमावानाप्तोपसेवी च भवत्यरोगः ॥३६॥",
+      "student_meaning": "जो व्यक्ति नित्य हितकर आहार-विहार का सेवन करता है, विचारपूर्वक कर्म करता है, विषयों में आसक्त नहीं रहता, दानी, समभावी, सत्यनिष्ठ, क्षमाशील और आप्तजनों का अनुसरण करने वाला है, वह अरोग रहने वाला बताया गया है।"
+    }
+  ]
+}
