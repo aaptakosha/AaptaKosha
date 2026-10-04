@@ -8,9 +8,9 @@
 
 The official NCISM syllabus lists **Topic 6 — Upamana Pramana** with:
 - **6.1 Lakshana**
-- **6.2 Application in therapeutics and research**. citeturn0search0
+- **6.2 Application in therapeutics and research**.
 
-The NCISM practical outcomes additionally require discussion of Upamana Pramana, practical/real-life examples, and identification of examples from Ashtanga Ayurveda. citeturn0search1
+The NCISM practical outcomes additionally require discussion of Upamana Pramana, practical/real-life examples, and identification of examples from Ashtanga Ayurveda.
 
 ---
 
@@ -461,7 +461,7 @@ Examples:
 
 # 24. Upamana in Ashtanga Ayurveda
 
-The NCISM practical outcome specifically asks students to identify examples of Upamana from **Ashtanga**. citeturn0search1
+The NCISM practical outcome specifically asks students to identify examples of Upamana from **Ashtanga**.
 
 A useful classroom method is to collect examples under the eight branches:
 
@@ -659,7 +659,7 @@ Potential problems:
 10. Dravyaguna provides important educational applications.
 11. Clinical diagnosis should not rest on superficial similarity alone.
 12. NCISM requires practical application in therapeutics and research.
-13. NCISM practical teaching also asks for real-life examples and examples from Ashtanga Ayurveda. citeturn0search1
+13. NCISM practical teaching also asks for real-life examples and examples from Ashtanga Ayurveda.
 14. Modern scientific comparisons are useful analogies, not proof of equivalence.
 
 ---
@@ -748,7 +748,7 @@ Recognition and learning of unfamiliar structures, substances and signs.
 No.
 
 **Q9. What practical outcome does NCISM require?**  
-Application in therapeutics and research, with practical examples. citeturn0search0turn0search1
+Application in therapeutics and research, with practical examples.
 
 ---
 
@@ -888,7 +888,7 @@ For each of the eight branches of Ayurveda:
 6. explain the knowledge gained;
 7. verify the passage in the prescribed edition.
 
-This directly supports the NCISM practical outcome concerning identification of Upamana examples from Ashtanga. citeturn0search1
+This directly supports the NCISM practical outcome concerning identification of Upamana examples from Ashtanga.
 
 ---
 
@@ -1048,7 +1048,7 @@ Upamana is a classical Pramana centred on comparison and similarity. In the stan
 
 The important point is that Upamana is **not simply any act of comparing two things**. Its classical epistemological structure must be understood.
 
-In Ayurveda, comparison has substantial educational value in recognizing plants, anatomical structures, clinical signs and other unfamiliar objects. It can also support therapeutic learning and research, as explicitly required by NCISM. citeturn0search0turn0search1
+In Ayurveda, comparison has substantial educational value in recognizing plants, anatomical structures, clinical signs and other unfamiliar objects. It can also support therapeutic learning and research, as explicitly required by NCISM.
 
 However, similarity must not be mistaken for complete identity or therapeutic equivalence. In clinical practice and research, comparison should be followed by appropriate verification.
 
@@ -1064,12 +1064,12 @@ This chapter addresses **Paper II, Topic 6 — Upamana Pramana**.
 
 The official NCISM syllabus specifies:
 - **6.1 Lakshana**
-- **6.2 Application in therapeutics and research**. citeturn0search0
+- **6.2 Application in therapeutics and research**.
 
 The official practical outcomes also include:
 - discussion of Upamana Pramana;
 - illustration through practical and real-life examples;
-- identification of Upamana examples from Ashtanga Ayurveda. citeturn0search1
+- identification of Upamana examples from Ashtanga Ayurveda.
 
 ## Classical-study direction
 
