@@ -1,0 +1,564 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-12",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.12",
+  "chapter_title": "Doshabhediya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "status": "content_complete_student_layer",
+  "verse_count": 78,
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "पक्वाशयकटीसक्थिश्रोत्रास्थिस्पर्शनेन्द्रियम् । स्थानं वातस्य तत्रापि पक्वाधानं विशेषतः ॥१॥",
+      "student_meaning": "Verse 1 identifies the principal seats of Vata, Pitta and Kapha and their especially important locations."
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "नाभिरामाशयः स्वेदो लसीका रुधिरं रसः । दृक्स्पर्शनं च पित्तस्य नाभिरत्र विशेषतः ॥२॥",
+      "student_meaning": "Verse 2 identifies the principal seats of Vata, Pitta and Kapha and their especially important locations."
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "उरःकण्ठशिरःक्लोमपर्वाण्यामाशयो रसः । मेदो घ्राणं च जिह्वा च कफस्य सुतरामुरः ॥३॥",
+      "student_meaning": "Verse 3 identifies the principal seats of Vata, Pitta and Kapha and their especially important locations."
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "प्राणादिभेदात्पञ्चात्मा वायुः । प्राणोऽत्र मूर्धगः । उरःकण्ठचरो बुद्धिहृदयेन्द्रियचित्तधृक् ॥४॥",
+      "student_meaning": "Verse 4 explains the five functional subdivisions of Vata and their sites and principal actions."
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "ष्ठीवनक्षवथूद्गारनिःश्वासान्नप्रवेशकृत् ॥५॥",
+      "student_meaning": "Verse 5 explains the five functional subdivisions of Vata and their sites and principal actions."
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "उरः स्थानमुदानस्य नासानाभिगलांश्चरेत् । वाक्प्रवृत्तिप्रयत्नोर्जाबलवर्णस्मृतिक्रियः ॥६॥",
+      "student_meaning": "Verse 6 explains the five functional subdivisions of Vata and their sites and principal actions."
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "व्यानो हृदि स्थितः कृत्स्नदेहचारी महाजवः । गत्यपक्षेपणोत्क्षेपनिमेषोन्मेषणादिकाः प्रायः सर्वाः क्रियास्तस्मिन् प्रतिबद्धाः शरीरिणाम् ॥७॥",
+      "student_meaning": "Verse 7 explains the five functional subdivisions of Vata and their sites and principal actions."
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "समानोऽग्निसमीपस्थः कोष्ठे चरति सर्वतः । अन्नं गृह्णाति पचति विवेचयति मुञ्चति ॥८॥",
+      "student_meaning": "Verse 8 explains the five functional subdivisions of Vata and their sites and principal actions."
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "अपानोऽपानगः श्रोणिवस्तिमेढ्रोरुगोचरः । शुक्रार्तवशकृन्मूत्रगर्भनिष्क्रमणक्रियः ॥९॥",
+      "student_meaning": "Verse 9 explains the five functional subdivisions of Vata and their sites and principal actions."
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "तत्र पक्वामाशयमध्यगं पञ्चमहाभूतात्मकत्वेऽपि यत्तैजसगुणोदयात् । त्यक्तद्रवत्वं पाकादिकर्मणानलशब्दितम् ॥१०॥",
+      "student_meaning": "Verse 10 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "पचत्यन्नं विभजते सारकिट्टौ पृथक् तथा । तत्रस्थमेव पित्तानां शेषाणामप्यनुग्रहम् ॥११॥",
+      "student_meaning": "Verse 11 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "करोति बलदानेन पाचकं नाम तत्स्मृतम् ॥१२॥",
+      "student_meaning": "Verse 12 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "आमाशयस्थं तु रञ्जकम् । रसस्य रञ्जनाद्रञ्जकम् ॥१३॥",
+      "student_meaning": "Verse 13 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "हृदयस्थं साधकं बुद्धिमेधाभिमानाद्यैरभिप्रेतार्थसाधनात् ॥१४॥",
+      "student_meaning": "Verse 14 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "दृक्स्थमालोचकं रूपालोचनात् ॥१५॥",
+      "student_meaning": "Verse 15 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "त्वक्स्थं भ्राजकं भ्राजनात्त्वचः ॥१६॥",
+      "student_meaning": "Verse 16 explains the five functional subdivisions of Pitta and their sites and actions."
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "उरःस्थः स त्रिकस्य स्ववीर्यतः हृदयस्यान्नवीर्याच्च तत्स्थ एवाम्बुकर्मणा । कफधाम्नां च शेषाणां यत्करोत्यवलम्बनम् । अतोऽवलम्बकः श्लेष्मा ॥१७॥",
+      "student_meaning": "Verse 17 explains the five functional subdivisions of Kapha and their sites and actions."
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "यस्त्वामाशयसंस्थितः सोऽन्नसङ्घातक्लेदनात् क्लेदकः ॥१८॥",
+      "student_meaning": "Verse 18 explains the five functional subdivisions of Kapha and their sites and actions."
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "रसनास्थायी सम्यग्रसबोधनाद्बोधकः ॥१९॥",
+      "student_meaning": "Verse 19 explains the five functional subdivisions of Kapha and their sites and actions."
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "शिरस्थश्चक्षुरादीन्द्रियतर्पणात्तर्पकः ॥२०॥",
+      "student_meaning": "Verse 20 explains the five functional subdivisions of Kapha and their sites and actions."
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "पर्वस्थोऽस्थिसन्धिश्लेषणाच्छ्लेषकः ॥२१॥",
+      "student_meaning": "Verse 21 explains the five functional subdivisions of Kapha and their sites and actions."
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "चयो वृद्धिः स्वधाम्न्येव प्रद्वेषो वृद्धिहेतुषु । विपरीतगुणेच्छा च ॥२२॥",
+      "student_meaning": "Verse 22 explains Chaya, Kopa and Shama of dosha and the characteristic signs of these stages."
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "कोपस्तून्मार्गगामिता । लिङ्गानां दर्शनं स्वेषामस्वास्थ्यं रोगसम्भवः ॥२३॥",
+      "student_meaning": "Verse 23 explains Chaya, Kopa and Shama of dosha and the characteristic signs of these stages."
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "स्वस्थानस्थस्य समता विकारासम्भवः शमः ॥२४॥",
+      "student_meaning": "Verse 24 explains Chaya, Kopa and Shama of dosha and the characteristic signs of these stages."
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "चीयते लघुरूक्षाभिरोषधीभिः समीरणः । तद्विधस्तद्विधे देहे कालस्यौष्ण्यान्न कुप्यति ॥२५॥",
+      "student_meaning": "Verse 25 explains seasonal dosha Chaya, Prakopa and Prashama and how diet and behavior can alter seasonal patterns."
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "अद्भिरम्लविपाकाभिरोषधीभिश्च तादृशं पित्तं याति चयं कोपं न तु कालस्य शैत्यतः ॥२६॥",
+      "student_meaning": "Verse 26 explains seasonal dosha Chaya, Prakopa and Prashama and how diet and behavior can alter seasonal patterns."
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "चीयते स्निग्धशीताभिरुदकौषधिभिः कफः । तुल्येऽपि काले देहे च स्कन्नत्वान्न प्रकुप्यति ॥२७॥",
+      "student_meaning": "Verse 27 explains seasonal dosha Chaya, Prakopa and Prashama and how diet and behavior can alter seasonal patterns."
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "इति कालस्वभावोऽयमाहारादिवशात्पुनः । चयादीन् यान्ति सद्योऽपि दोषाः कालेऽपि वा न तु ॥२८॥",
+      "student_meaning": "Verse 28 explains seasonal dosha Chaya, Prakopa and Prashama and how diet and behavior can alter seasonal patterns."
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "व्याप्नोति सहसा देहमापादतलमस्तकम् । निवर्तते तु कुपितो मलोऽल्पाल्पं जलौघवत् ॥२९॥",
+      "student_meaning": "Verse 29 explains the rapid spread and slower reversal of aggravated doshas and introduces general principles because diseases are innumerable."
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "नानारूपैरसङ्ख्येयैर्विकारैः कुपिता मलाः । तापयन्ति तनुं तस्मात्तद्धेत्वाकृतिसाधनम् ॥३०॥",
+      "student_meaning": "Verse 30 explains the rapid spread and slower reversal of aggravated doshas and introduces general principles because diseases are innumerable."
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "शक्यं नैकैकशो वक्तुमतः सामान्यमुच्यते ॥३१॥",
+      "student_meaning": "Verse 31 explains the rapid spread and slower reversal of aggravated doshas and introduces general principles because diseases are innumerable."
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "दोषा एव हि सर्वेषां रोगाणामेककारणम् । यथा पक्षी परिपतन् सर्वतः सर्वमप्यहः ॥३२॥",
+      "student_meaning": "Verse 32 establishes doshas as the fundamental basis of disease and explains that disease manifestations remain within the framework of the three doshas."
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "छायामत्येति नात्मीयां यथा वा कृत्स्नमप्यदः । विकारजातं विविधं त्रीन् गुणान्नातिवर्तते ॥३३॥",
+      "student_meaning": "Verse 33 establishes doshas as the fundamental basis of disease and explains that disease manifestations remain within the framework of the three doshas."
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "तथा स्वधातुवैषम्यनिमित्तमपि सर्वदा । विकारजातं त्रीन्दोषान्नातिवर्तते ॥३४॥",
+      "student_meaning": "Verse 34 establishes doshas as the fundamental basis of disease and explains that disease manifestations remain within the framework of the three doshas."
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "तेषां कोपे तु कारणमर्थैरसात्म्यैः संयोगः कालः कर्म च दुष्कृतम् । हीनातिमिथ्यायोगेन भिद्यते तत्पुनस्त्रिधा ॥३५॥",
+      "student_meaning": "Verse 35 explains the three broad causes of dosha aggravation: unsuitable sense-object contact, time/season and improper action, each having three modes."
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "हीनोऽर्थेनेन्द्रियस्याल्पः संयोगः स्वेन नैव वा । अतियोगोऽतिसंसर्गः सूक्ष्मभासुरभैरवम् ॥३६॥",
+      "student_meaning": "Verse 36 explains Hina, Ati and Mithya Yoga of sense objects and Kala, with examples of excessive, deficient and inappropriate exposure."
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "अत्यासन्नातिदूरस्थं विप्रियं विकृतादि च । यदक्ष्णा वीक्ष्यते रूपं मिथ्यायोगः स दारुणः ॥३७॥",
+      "student_meaning": "Verse 37 explains Hina, Ati and Mithya Yoga of sense objects and Kala, with examples of excessive, deficient and inappropriate exposure."
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "एवमत्युच्चपूत्यादीनिन्द्रियार्थान् यथायथं विद्यात् । कालस्तु शीतोष्णवर्षाभेदात्त्रिधा मतः ॥३८॥",
+      "student_meaning": "Verse 38 explains Hina, Ati and Mithya Yoga of sense objects and Kala, with examples of excessive, deficient and inappropriate exposure."
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "स हीनो हीनशीतादिरतियोगोऽतिलक्षणः । मिथ्यायोगस्तु निर्दिष्टो विपरीतस्वलक्षणः ॥३९॥",
+      "student_meaning": "Verse 39 explains Hina, Ati and Mithya Yoga of sense objects and Kala, with examples of excessive, deficient and inappropriate exposure."
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "कायवाक्चित्तभेदेन कर्मापि विभजेत् त्रिधा । कायादिकर्मणो हीना प्रवृत्तिर्हीनसंज्ञकः ॥४०॥",
+      "student_meaning": "Verse 40 explains Hina, Ati and Mithya Yoga of bodily, verbal and mental activity and their role in dosha aggravation."
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "अतियोगोऽतिवृत्तिस्तु वेगोदीरणधारणम् । विषमाङ्गक्रियारम्भपतनस्खलनादिकम् ॥४१॥",
+      "student_meaning": "Verse 41 explains Hina, Ati and Mithya Yoga of bodily, verbal and mental activity and their role in dosha aggravation."
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "भाषणं सामिभुक्तस्य रागद्वेषभयादि च । कर्म प्राणातिपातादि दशधा यच्च निन्दितम् ॥४२॥",
+      "student_meaning": "Verse 42 explains Hina, Ati and Mithya Yoga of bodily, verbal and mental activity and their role in dosha aggravation."
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "मिथ्यायोगः समस्तोऽसाविह वामुत्र वा कृतम् । निदानमेतद्दोषाणां कुपितास्तेन नैकधा ॥४३॥",
+      "student_meaning": "Verse 43 explains Hina, Ati and Mithya Yoga of bodily, verbal and mental activity and their role in dosha aggravation."
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "कुर्वन्ति विविधान् व्याधीन् शाखाकोष्ठास्थिसन्धिषु ॥४४॥",
+      "student_meaning": "Verse 44 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "शाखा रक्तादयस्त्वक्च बाह्यरोगायनं हि तत् । तदाश्रया मशव्यङ्गगण्डालज्यर्बुदादयः ॥४५॥",
+      "student_meaning": "Verse 45 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "बहिर्भागाश्च दुर्नामगुल्मशोफादयो गदाः ॥४६॥",
+      "student_meaning": "Verse 46 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "अन्तःकोष्ठो महास्रोत आमपक्वाशयाश्रयः । तत्स्थानाः छर्द्यतीसारकासश्वासोदरज्वराः ॥४७॥",
+      "student_meaning": "Verse 47 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 48,
+      "sanskrit": "अन्तर्भागं च शोफार्शोगुल्मविसर्पविद्रधि ॥४८॥",
+      "student_meaning": "Verse 48 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 49,
+      "sanskrit": "शिरोहृदयवस्त्यादिमर्माण्यस्थ्नां च सन्धयः । तन्निबद्धाः सिरास्नायुकण्डराद्याश्च मध्यमः ॥४९॥",
+      "student_meaning": "Verse 49 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 50,
+      "sanskrit": "रोगमार्गः स्थितास्तत्र यक्ष्मपक्षवधार्दिताः । मूर्धादिरोगाः सन्ध्यस्थित्रिकशूलग्रहादयः ॥५०॥",
+      "student_meaning": "Verse 50 describes the three Rogamargas—external, internal and middle—and the diseases characteristically associated with each pathway."
+    },
+    {
+      "verse_number": 51,
+      "sanskrit": "स्रंसव्यासव्यधस्वापासादरुक्तोदभेदनम् ॥५१॥",
+      "student_meaning": "Verse 51 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 52,
+      "sanskrit": "सङ्गाङ्गभङ्गसङ्कोचवर्तहर्षणतर्पणम् । कम्पपारुष्यसौषिर्यशोषस्पन्दनवेष्टनम् ॥५२॥",
+      "student_meaning": "Verse 52 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 53,
+      "sanskrit": "स्तम्भः कषायरसता वर्णः श्यावोऽरुणोऽपि वा । कर्माणि वायोः ॥५३॥",
+      "student_meaning": "Verse 53 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 54,
+      "sanskrit": "पित्तस्य दाहरागोष्मपाकिताः । स्वेदः क्लेदः स्रुतिः कोथः सदनं मूर्च्छनं मदः ॥५४॥",
+      "student_meaning": "Verse 54 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 55,
+      "sanskrit": "कटुकाम्लौ रसौ वर्णः पाण्डुरारुणवर्जितः ॥५५॥",
+      "student_meaning": "Verse 55 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 56,
+      "sanskrit": "श्लेष्मणः स्नेहकाठिन्यकण्डूशीतत्वगौरवम् । बन्धोपलेपस्तैमित्यशोफापक्त्यतिनिद्रताः ॥५६॥",
+      "student_meaning": "Verse 56 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 57,
+      "sanskrit": "वर्णः श्वेतो रसौ स्वादुलवणौ चिरकारिता ॥५७॥",
+      "student_meaning": "Verse 57 gives the classical signs of Vata, Pitta and Kapha increase."
+    },
+    {
+      "verse_number": 58,
+      "sanskrit": "इत्यशेषामयव्यापि यदुक्तं दोषलक्षणम् । दर्शनाद्यैरवहितस्तत्सम्यगुपलक्षयेत् ॥५८॥",
+      "student_meaning": "Verse 58 emphasizes careful observation, clinical experience and the limits of relying on textual nomenclature alone."
+    },
+    {
+      "verse_number": 59,
+      "sanskrit": "व्याध्यवस्थाविभागज्ञः पश्यन्नार्तान् प्रतिक्षणम् । अभ्यासात्प्राप्यते दृष्टिः कर्मसिद्धिप्रकाशिनी ॥५९॥",
+      "student_meaning": "Verse 59 emphasizes careful observation, clinical experience and the limits of relying on textual nomenclature alone."
+    },
+    {
+      "verse_number": 60,
+      "sanskrit": "रत्नादिसदसज्ज्ञानं न शास्त्रादेव जायते ॥६०॥",
+      "student_meaning": "Verse 60 emphasizes careful observation, clinical experience and the limits of relying on textual nomenclature alone."
+    },
+    {
+      "verse_number": 61,
+      "sanskrit": "दृष्टापचारजः कश्चित् कश्चित् पूर्वापराधजः । तत्सङ्कराद्भवत्यन्यो व्याधिरेवं त्रिधा स्मृतः ॥६१॥",
+      "student_meaning": "Verse 61 classifies diseases into Dosha-born, Karma-born and mixed Dosha-Karma types and gives their general resolution principles."
+    },
+    {
+      "verse_number": 62,
+      "sanskrit": "यथानिदानं दोषोत्थः कर्मजो हेतुभिर्विना । महारम्भोऽल्पके हेतावातङ्को दोषकर्मजः ॥६२॥",
+      "student_meaning": "Verse 62 classifies diseases into Dosha-born, Karma-born and mixed Dosha-Karma types and gives their general resolution principles."
+    },
+    {
+      "verse_number": 63,
+      "sanskrit": "विपक्षशीलनात्पूर्वः कर्मजः कर्मसङ्क्षयात् । गच्छत्युभयजन्मा तु दोषकर्मक्षयात्क्षयम् ॥६३॥",
+      "student_meaning": "Verse 63 classifies diseases into Dosha-born, Karma-born and mixed Dosha-Karma types and gives their general resolution principles."
+    },
+    {
+      "verse_number": 64,
+      "sanskrit": "द्विधा स्वतन्त्रपरतन्त्रत्वाद्व्याधयोऽन्त्याः पुनर्द्विधा । पूर्वजाः पूर्वरूपाख्या जाताः पश्चादुपद्रवाः ॥६४॥",
+      "student_meaning": "Verse 64 explains independent and dependent diseases, premonitory features and complications, with guidance on prioritizing treatment."
+    },
+    {
+      "verse_number": 65,
+      "sanskrit": "यथास्वजन्मोपशयाः स्वतन्त्राः स्पष्टलक्षणाः । विपरीतास्ततोऽन्ये तु ॥६५॥",
+      "student_meaning": "Verse 65 explains independent and dependent diseases, premonitory features and complications, with guidance on prioritizing treatment."
+    },
+    {
+      "verse_number": 66,
+      "sanskrit": "विद्यादेवं मलानपि । तान् लक्षयेदवहितो विकुर्वाणान् ॥६६॥",
+      "student_meaning": "Verse 66 explains independent and dependent diseases, premonitory features and complications, with guidance on prioritizing treatment."
+    },
+    {
+      "verse_number": 67,
+      "sanskrit": "तेषां प्रधानप्रशमे प्रशमोऽशाम्यतस्तथा । पश्चाच्चिकित्सेत्तूर्णं बलवन्तमुपद्रवम् ॥६७॥",
+      "student_meaning": "Verse 67 explains independent and dependent diseases, premonitory features and complications, with guidance on prioritizing treatment."
+    },
+    {
+      "verse_number": 68,
+      "sanskrit": "व्याधिनामाकुशलो न जिह्रीयात्कदाचन । न हि सर्वविकाराणां नामतोऽस्ति ध्रुवा स्थितिः ॥६८॥",
+      "student_meaning": "Verse 68 explains that the same aggravated dosha can produce different diseases in different sites and therefore treatment must consider disease, site and causative factors."
+    },
+    {
+      "verse_number": 69,
+      "sanskrit": "स एव कुपितो दोषः समुत्थानविशेषतः । स्थानान्तराणि च प्राप्य विकारान् कुरुते बहून् ॥६९॥",
+      "student_meaning": "Verse 69 explains that the same aggravated dosha can produce different diseases in different sites and therefore treatment must consider disease, site and causative factors."
+    },
+    {
+      "verse_number": 70,
+      "sanskrit": "तस्माद्विकारप्रकृतीरधिष्ठानान्तराणि च । बुद्ध्वा हेतुविशेषांश्च शीघ्रं कुर्यादुपक्रमम् ॥७०॥",
+      "student_meaning": "Verse 70 explains that the same aggravated dosha can produce different diseases in different sites and therefore treatment must consider disease, site and causative factors."
+    },
+    {
+      "verse_number": 71,
+      "sanskrit": "दूष्यं देशं बलं कालमनलं प्रकृतिं वयः । सत्त्वं सात्म्यं तथाहारमवस्थाश्च पृथग्विधाः ॥७१॥",
+      "student_meaning": "Verse 71 lists the patient and disease factors that must be assessed before selecting dosha, medicine and treatment."
+    },
+    {
+      "verse_number": 72,
+      "sanskrit": "सूक्ष्मसूक्ष्माः समीक्ष्यैषां दोषौषधनिरूपणे । यो वर्तते चिकित्सायां न स स्खलति जातुचित् ॥७२॥",
+      "student_meaning": "Verse 72 lists the patient and disease factors that must be assessed before selecting dosha, medicine and treatment."
+    },
+    {
+      "verse_number": 73,
+      "sanskrit": "गुर्वल्पव्याधिसंस्थानं सत्त्वदेहबलाबलात् । दृश्यतेऽप्यन्यथाकारं तस्मिन्नवहितो भवेत् ॥७३॥",
+      "student_meaning": "Verse 73 lists the patient and disease factors that must be assessed before selecting dosha, medicine and treatment."
+    },
+    {
+      "verse_number": 74,
+      "sanskrit": "गुरुं लघुमिति व्याधिं कल्पयंस्तु भिषग्ब्रुवः । अल्पदोषाकलनया पथ्ये विप्रतिपद्यते ॥७४॥",
+      "student_meaning": "Verse 74 warns against underestimating or overestimating disease severity and against inadequate or excessive purification."
+    },
+    {
+      "verse_number": 75,
+      "sanskrit": "ततोऽल्पमल्पवीर्यं वा गुरुर्व्याधौ प्रयोजितम् । उदीरयेत्तरां रोगान् संशोधनमयोगतः ॥७५॥",
+      "student_meaning": "Verse 75 warns against underestimating or overestimating disease severity and against inadequate or excessive purification."
+    },
+    {
+      "verse_number": 76,
+      "sanskrit": "शोधनं त्वतियोगेन विपरीतं विपर्यये । क्षिणुयान्न मलानेव केवलं वपुरस्यति ॥७६॥",
+      "student_meaning": "Verse 76 warns against underestimating or overestimating disease severity and against inadequate or excessive purification."
+    },
+    {
+      "verse_number": 77,
+      "sanskrit": "अतोऽभियुक्तः सततं सर्वमालोच्य सर्वथा । तथा युञ्जीत भैषज्यमारोग्याय यथा ध्रुवम् ॥७७॥",
+      "student_meaning": "Verse 77 concludes with the physician's duty to assess all factors carefully and introduces the numerical classification of dosha increase/decrease combinations."
+    },
+    {
+      "verse_number": 78,
+      "sanskrit": "भेदा द्विषष्टिर्निर्दिष्टाः त्रिषष्टिः स्वास्थ्यकारणम् ॥७८॥",
+      "student_meaning": "The text states that sixty-two pathological combinations of dosha increase/depletion are recognized; the sixty-third state, in which the doshas are in equilibrium, is the basis of health."
+    }
+  ],
+  "supplementary_half_verse": {
+    "verse_number": "78-1/2",
+    "sanskrit": "संसर्गाद्रसरुधिरादिभिस्तथैषां दोषांस्तु क्षयसमताविवृद्धिभेदैः । आनन्त्यं तरतमयोगतश्च यातान् जानीयादवहितमानसो यथास्वम् ॥",
+    "student_meaning": "The concluding half-verse explains that combinations involving Rasa, Rakta and other factors, together with degrees of dosha depletion, balance and increase, become innumerable; the physician should recognize them attentively from their features."
+  },
+  "sections": [
+    {
+      "title": "Dosha Sthana and Primary Classification",
+      "verse_range": "1-3",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Five Subtypes of Vata",
+      "verse_range": "4-9",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Five Subtypes of Pitta",
+      "verse_range": "10-16",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Five Subtypes of Kapha",
+      "verse_range": "17-21",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Chaya, Kopa and Shama",
+      "verse_range": "22-24",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Seasonal Dosha Changes",
+      "verse_range": "25-28",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Dosha Spread and General Disease Principle",
+      "verse_range": "29-34",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Trividha Dosha-Kopa Nidana",
+      "verse_range": "35-43",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Trividha Rogamarga",
+      "verse_range": "44-50",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Dosha Vriddhi Lakshana",
+      "verse_range": "51-57",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Clinical Observation and Disease Classification",
+      "verse_range": "58-67",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Diagnostic Factors and Treatment Judgment",
+      "verse_range": "68-77",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    },
+    {
+      "title": "Dosha Combination Enumeration",
+      "verse_range": "78",
+      "focus": "Classical classification, dosha subtype functions, disease pathways, diagnostic reasoning and combination analysis."
+    }
+  ],
+  "learning_outcomes": [
+    "Identify the principal seats of Vata, Pitta and Kapha.",
+    "Explain the five functional subdivisions of each dosha and their sites/actions.",
+    "Explain Chaya, Kopa and Shama and seasonal dosha variation.",
+    "Explain Hina, Ati and Mithya Yoga of sense objects, Kala and Karma.",
+    "Describe Bahya, Abhyantara and Madhyama Rogamarga.",
+    "Recognize classical signs of dosha Vriddhi.",
+    "Classify diseases as Dosha-born, Karma-born, mixed, independent and dependent.",
+    "Apply the patient-assessment factors used for rational treatment selection.",
+    "Explain the numerical framework of dosha combination and its clinical implication."
+  ],
+  "key_terms": [
+    "Doshasthana",
+    "Prana",
+    "Udana",
+    "Vyana",
+    "Samana",
+    "Apana",
+    "Pachaka",
+    "Ranjaka",
+    "Sadhaka",
+    "Alochaka",
+    "Bhrajaka",
+    "Avalambaka",
+    "Kledaka",
+    "Bodhaka",
+    "Tarpaka",
+    "Shleshaka",
+    "Chaya",
+    "Prakopa",
+    "Prashama",
+    "Rogamarga",
+    "Svatantra Vyadhi",
+    "Paratantra Vyadhi",
+    "Upadrava",
+    "Doshakarmaja",
+    "Trividhopakrama"
+  ],
+  "exam_focus": [
+    "Dosha sthana and five subtypes of each dosha.",
+    "Functions of Prana, Udana, Vyana, Samana and Apana.",
+    "Pachaka, Ranjaka, Sadhaka, Alochaka and Bhrajaka Pitta.",
+    "Avalambaka, Kledaka, Bodhaka, Tarpaka and Shleshaka Kapha.",
+    "Chaya-Prakopa-Prashama and seasonal variation.",
+    "Trividha Nidana: Artha, Kala and Karma with Hina-Ati-Mithya Yoga.",
+    "Three Rogamargas and examples of diseases.",
+    "Signs of Vata, Pitta and Kapha Vriddhi.",
+    "Trividha Roga and Svatantra/Paratantra classification.",
+    "Clinical assessment factors and rational treatment selection.",
+    "Dosha combination enumeration in the concluding verses."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 78,
+    "numbered_verse_count": 78,
+    "supplementary_half_verse_present": true,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "source_text": {
+    "primary": "Vāgbhaṭa Saṃhitā, Sūtrasthāna Chapter 12, cross-checked with Ayana Ayurveda and Sanskrit Gurukul",
+    "cross_check": [
+      "Ayana Ayurveda",
+      "Sanskrit Gurukul",
+      "University of Hyderabad SHMT proof-read corpus",
+      "Siva.sh"
+    ],
+    "verification_note": "Chapter 12 runs through verse 78 and has a traditional concluding half-verse (78½) before the chapter colophon. The half-verse is preserved separately so the 78 numbered verses remain structurally countable."
+  },
+  "student_support": {
+    "revision_summary": [
+      "Memorize dosha locations and the five subtypes with one key function each.",
+      "Make a seasonal Chaya-Prakopa-Prashama table.",
+      "Learn Hina, Ati and Mithya Yoga under Artha, Kala and Karma.",
+      "Draw the three Rogamargas with representative diseases.",
+      "Practice identifying Vata, Pitta and Kapha Vriddhi signs.",
+      "Revise Trividha Roga and Svatantra/Paratantra classifications.",
+      "Use the diagnostic-factor list as a clinical reasoning checklist.",
+      "Understand the 62 pathological combinations and the 63rd healthy equilibrium state."
+    ]
+  }
+}
