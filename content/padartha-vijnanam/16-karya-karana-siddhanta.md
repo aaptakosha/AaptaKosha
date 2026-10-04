@@ -873,7 +873,67 @@ A temporal association between a food, behaviour or exposure and a symptom shoul
 
 ---
 
-# 45. Contemporary causal reasoning
+# 45. Charakokta Dashvidha Parikshya Bhava
+
+**Dashvidha Parikshya Bhava** is Charaka's tenfold set of factors to be examined before initiating an action. It is explicitly included in the NCISM learning objectives under Karya–Karana Siddhanta and should be studied as an applied form of causal and purposeful planning. citeturn0search0
+
+The ten factors are:
+
+| Factor | Core meaning / application |
+|---|---|
+| **Karana** | The doer, chief agent or cause/reason relevant to accomplishment of the action |
+| **Karana (instrument)** | The instrument or means used for accomplishing the action |
+| **Karyayoni** | Source/origin from which the action or effect arises |
+| **Karya** | The action/effect to be accomplished |
+| **Karyaphala** | The fruit or outcome expected from the action |
+| **Anubandha** | Subsequent consequence or continuing result |
+| **Desha** | Place, habitat or setting in which the action occurs |
+| **Kala** | Time/season or temporal circumstance |
+| **Pravritti** | Initiation or undertaking of the action |
+| **Upaya** | The method, strategy or means adopted to accomplish it |
+
+A published review of Charaka's formulation describes these ten factors as a structured method of investigation that supports proper planning and helps avoid aimless intellectual activity. citeturn0search0
+
+### Clinical interpretation
+
+Before treatment, the physician should examine:
+
+- **Karana** — the responsible agent and causal/reasoning basis;
+- **instrument** — appropriate therapeutic tools, including Bheshaja;
+- **Karyayoni** — the source or condition from which the therapeutic problem/action arises;
+- **Karya** — the desired therapeutic action or state;
+- **Karyaphala** — expected clinical outcome;
+- **Anubandha** — subsequent or longer-term consequences;
+- **Desha** — patient and environmental setting;
+- **Kala** — appropriate time/season;
+- **Pravritti** — whether and how treatment is initiated;
+- **Upaya** — the practical strategy used.
+
+### Research application
+
+The same framework can structure an Ayurvedic research plan:
+
+**Researcher → methods/instruments → research problem → objectives → expected outcomes → longer-term implications → study setting → time → implementation → strategy**
+
+This is a useful modern application, but the classical concept should not be declared identical to any single modern research-design framework.
+
+### Relation to Karya–Karana
+
+Dashvidha Parikshya Bhava extends causal reasoning beyond simply asking **“What is the cause?”** It asks the learner to examine the **agent, instruments, origin, action, outcome, consequences, place, time, initiation and means** before acting.
+
+It is therefore useful for:
+
+- clinical decision-making;
+- treatment planning;
+- prevention;
+- research planning;
+- structured problem solving.
+
+### Exam-ready answer
+
+**Charakokta Dashvidha Parikshya Bhava are ten factors to be examined before undertaking an action: Karana, Karana (instrument), Karyayoni, Karya, Karyaphala, Anubandha, Desha, Kala, Pravritti and Upaya. They provide a structured method for planning action and understanding cause-effect relationships in clinical and other organized activities.**
+
+# 47. Contemporary causal reasoning
 
 Modern causal science asks questions such as:
 
@@ -890,7 +950,7 @@ These questions enrich causal reasoning but should not be retroactively projecte
 
 ---
 
-# 46. Causation versus association
+# 47. Causation versus association
 
 | Feature | Association | Causation |
 |---|---|---|
@@ -902,7 +962,7 @@ These questions enrich causal reasoning but should not be retroactively projecte
 
 ---
 
-# 47. Causal chain in clinical reasoning
+# 48. Causal chain in clinical reasoning
 
 A useful working model:
 
@@ -936,7 +996,7 @@ This encourages the learner to identify where intervention can act.
 
 ---
 
-# 48. Contemporary example — infection
+# 49. Contemporary example — infection
 
 A simplified modern model:
 
@@ -969,7 +1029,7 @@ Causation can be conditional and multifactorial.
 
 ---
 
-# 49. Contemporary example — lifestyle disease
+# 50. Contemporary example — lifestyle disease
 
 Consider metabolic disease.
 
@@ -990,7 +1050,7 @@ This illustrates why causal reasoning must be patient-specific.
 
 ---
 
-# 50. Contemporary example — therapeutic intervention
+# 51. Contemporary example — therapeutic intervention
 
 Suppose a treatment is associated with improvement.
 
@@ -1008,7 +1068,7 @@ This is modern causal analysis.
 
 ---
 
-# 51. Karya–Karana and research design
+# 52. Karya–Karana and research design
 
 A research question should identify:
 
@@ -1041,7 +1101,7 @@ This framework can be applied to:
 
 ---
 
-# 52. Karya–Karana and evidence
+# 53. Karya–Karana and evidence
 
 A causal claim becomes stronger when multiple lines of evidence converge.
 
@@ -1060,7 +1120,7 @@ No single criterion should be treated as a universal proof of causation in every
 
 ---
 
-# 53. Causal reasoning in therapeutics
+# 54. Causal reasoning in therapeutics
 
 Before prescribing, ask:
 
@@ -1077,7 +1137,7 @@ This converts Karya–Karana from abstract philosophy into clinical reasoning.
 
 ---
 
-# 54. Clinical case 1 — Nidana Parivarjana
+# 55. Clinical case 1 — Nidana Parivarjana
 
 ### Case
 
@@ -1098,7 +1158,7 @@ A patient repeatedly develops symptoms after a particular dietary and behavioura
 
 ---
 
-# 55. Clinical case 2 — Multifactorial disease
+# 56. Clinical case 2 — Multifactorial disease
 
 ### Case
 
@@ -1132,7 +1192,7 @@ This is more appropriate for complex disorders.
 
 ---
 
-# 56. Clinical case 3 — Therapeutic response
+# 57. Clinical case 3 — Therapeutic response
 
 A patient improves after receiving a treatment.
 
@@ -1155,7 +1215,7 @@ Causal attribution requires appropriate evaluation.
 
 ---
 
-# 57. Common misconceptions
+# 58. Common misconceptions
 
 ### Misconception 1
 **Every preceding event is a cause.**
@@ -1199,7 +1259,7 @@ Causal attribution requires appropriate evaluation.
 
 ---
 
-# 58. High-yield examination points
+# 59. High-yield examination points
 
 1. Karya = effect; Karana = cause.
 2. Karya–Karana Bhava is the relation between effect and cause.
@@ -1224,7 +1284,7 @@ Causal attribution requires appropriate evaluation.
 
 ---
 
-# 59. Exam-ready definitions
+# 60. Exam-ready definitions
 
 ### Karya
 
@@ -1256,7 +1316,7 @@ Causal attribution requires appropriate evaluation.
 
 ---
 
-# 60. Short-answer questions
+# 61. Short-answer questions
 
 1. Define Karya.
 2. Define Karana.
@@ -1284,7 +1344,7 @@ Causal attribution requires appropriate evaluation.
 
 ---
 
-# 61. Long-answer questions
+# 62. Long-answer questions
 
 ### LAQ 1
 Define Karya and Karana and explain their relationship with suitable examples.
@@ -1312,7 +1372,7 @@ Discuss cause-effect relationship and causality in contemporary science and comp
 
 ---
 
-# 62. Viva questions
+# 63. Viva questions
 
 **Q1. What is Karya?**  
 Effect or manifested outcome.
@@ -1355,7 +1415,7 @@ No.
 
 ---
 
-# 63. MCQs
+# 64. MCQs
 
 ### 1. Karya means:
 A. Cause  
@@ -1455,7 +1515,7 @@ D. Considered a clinical Dosha
 
 ---
 
-# 64. Practical record format
+# 65. Practical record format
 
 | Component | Observation/record |
 |---|---|
@@ -1475,7 +1535,7 @@ D. Considered a clinical Dosha
 
 ---
 
-# 65. Practical exercise — causal map
+# 66. Practical exercise — causal map
 
 Choose one common clinical condition.
 
@@ -1513,7 +1573,7 @@ Then identify:
 
 ---
 
-# 66. Practical exercise — theory comparison
+# 67. Practical exercise — theory comparison
 
 Take the example of milk changing into curd.
 
@@ -1530,7 +1590,7 @@ The student should understand that different Darshanas explain the same broad ph
 
 ---
 
-# 67. Practical exercise — correlation versus causation
+# 68. Practical exercise — correlation versus causation
 
 Find a published Ayurvedic clinical study.
 
@@ -1549,7 +1609,7 @@ This develops contemporary causal reasoning without equating it with classical K
 
 ---
 
-# 68. Integrated concept map
+# 69. Integrated concept map
 
 **KARYA–KARANA SIDDHANTA**
 
@@ -1594,7 +1654,7 @@ This develops contemporary causal reasoning without equating it with classical K
 
 ---
 
-# 69. Rapid revision
+# 70. Rapid revision
 
 ### Basic
 
@@ -1646,7 +1706,7 @@ This develops contemporary causal reasoning without equating it with classical K
 
 ---
 
-# 70. Summary
+# 71. Summary
 
 Karya–Karana Siddhanta is the systematic study of effect and cause. It is essential to understanding how events, processes and outcomes are related.
 
