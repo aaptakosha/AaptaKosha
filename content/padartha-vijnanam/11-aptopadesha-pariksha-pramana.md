@@ -12,7 +12,7 @@ The official NCISM curriculum requires study of:
 - Shabdavritti — Abhidha, Lakshana, Vyanjana and Tatparyakhya;
 - Shaktigrahahetu;
 - Vakya and the causes of sentence-meaning cognition — Akanksha, Yogyata and Sannidhi;
-- importance of Aptopadesha in health maintenance, disease prevention, diagnosis, therapeutics and research. citeturn2search0turn2search1
+- importance of Aptopadesha in health maintenance, disease prevention, diagnosis, therapeutics and research.
 
 ---
 
@@ -204,7 +204,7 @@ The syllabus requires study of:
 3. **Vyanjana**
 4. **Tatparyakhya**
 
-These should be understood as distinct mechanisms/functions discussed in the relevant linguistic-philosophical traditions. citeturn2search0
+These should be understood as distinct mechanisms/functions discussed in the relevant linguistic-philosophical traditions.
 
 ---
 
@@ -427,7 +427,7 @@ The NCISM syllabus specifically requires:
 - **Yogyata**
 - **Sannidhi**
 
-These are important conditions for understanding sentence meaning. citeturn2search0turn2search1
+These are important conditions for understanding sentence meaning.
 
 ---
 
@@ -1230,7 +1230,7 @@ The official curriculum specifies:
 - Shaktigrahahetu;
 - Vakya characteristics;
 - Akanksha, Yogyata and Sannidhi;
-- significance of Aptopadesha in health, prevention, diagnosis, therapeutics and research. citeturn2search0turn2search1
+- significance of Aptopadesha in health, prevention, diagnosis, therapeutics and research.
 
 ## Classical-study direction
 
