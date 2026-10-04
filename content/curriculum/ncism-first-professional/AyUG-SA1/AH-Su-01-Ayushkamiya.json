@@ -14,7 +14,7 @@
     "official_source": "https://www.ncismindia.org/Ay%20UG-SA1-1.pdf"
   },
   "status": "content_complete_student_layer",
-  "scope_note": "Complete NCISM-aligned student study layer for Ayushkamiya Adhyaya: source Sanskrit verses 1-48, original student meanings, conceptual sections, learning outcomes, examination support and revision structure. It is not a replacement for a critical edition or published commentary.",
+  "scope_note": "Complete NCISM-aligned student study layer for Ayushkamiya Adhyaya: verified source Sanskrit verses 1-48, original student meanings, conceptual sections, learning outcomes, examination support and revision structure. Sanskrit source text is preserved as the classical study layer; explanatory meanings are original educational prose.",
   "learning_outcomes": [
     "Explain the purpose and scope of the Ayushkamiya Adhyaya.",
     "Identify the basic concepts of dosha, dhatu and mala and relate them to health and disease.",
@@ -165,14 +165,16 @@
     "original_explanatory_prose": true,
     "student_meanings_original": true,
     "modern_translation_claim": false,
-    "commentary_grouping_preserved": true
+    "commentary_grouping_preserved": true,
+    "classical_sanskrit_verified": true
   },
   "verse_count": 48,
   "source_text": {
     "source_type": "Classical Sanskrit chapter text",
     "source_locator": "Ashtanga Hridaya Sutrasthana 1, verses 1-48",
     "text_verified_against": [
-      "SivaShakti/Siva.sh online Sanskrit text"
+      "Wikisource Sanskrit text of Ashtanga Hridaya Sutrasthana Chapter 1",
+      "Siva.sh Ashtanga Hrudaya Sutrasthana Chapter 1"
     ],
     "note": "The Sanskrit layer is provided as the source-text study layer. Student meanings are original explanatory summaries, not a verbatim published translation."
   },
@@ -204,7 +206,7 @@
     },
     {
       "number": "6",
-      "sanskrit": "अष्टावङ्गानि तस्याहुश्चिकित्सा येषु संश्रिता। वायुः पित्तं कफश्चेति त्रयो दोषाः समासतः ॥६॥",
+      "sanskrit": "अष्टावङ्गानि तस्याहुश्चिकित्सा येषु संश्रिता । वायुः पित्तं कफश्चेति त्रयो दोषाः समासतः ॥६॥",
       "student_meaning": "The eight branches are the fields of Ayurvedic practice; Vata, Pitta and Kapha are the three principal doshas."
     },
     {
@@ -214,7 +216,7 @@
     },
     {
       "number": "8",
-      "sanskrit": "वयोहोरात्रिभुक्तानां तेऽन्तमध्यादिगाः क्रमात् । तैर्भवेद्विषमस्तीक्ष्णो मन्दश्चाग्निः समैः समः ॥८॥",
+      "sanskrit": "वयोऽहोरात्रिभुक्तानां तेऽन्तमध्यादिगाः क्रमात् । तैर्भवेद्विषमस्तीक्ष्णो मन्दश्चाग्निः समैः समः ॥८॥",
       "student_meaning": "Doshas show sequential predominance across age, day/night and digestion, and their state relates to the four patterns of agni: vishama, tikshna, manda and sama."
     },
     {
@@ -224,27 +226,27 @@
     },
     {
       "number": "10",
-      "sanskrit": "तैश्च तिस्रः प्रकृतयो हीनमध्योत्तमाः पृथक् । समधातुः समस्तासु श्रेष्ठा, निन्द्या द्विदोषजाः ॥१० ॥",
+      "sanskrit": "तैश्च तिस्रः प्रकृतयो हीनमध्योत्तमाः पृथक् । समधातुः समस्तासु श्रेष्ठा निन्द्या द्विदोषजाः ॥१०॥",
       "student_meaning": "Three broad single-dosha constitutional patterns are described, while balanced constitution is regarded as the most favourable and dual-dosha combinations are discussed as less ideal in this classical framework."
     },
     {
       "number": "11",
-      "sanskrit": "तत्र रूक्षो लघुः शीतः खरः सूक्ष्मश्चलोऽनिलः । पित्तं सस्नेहतीक्ष्णोष्णं लघु विस्त्रं सरं द्रवम् ॥११॥",
+      "sanskrit": "तत्र रूक्षो लघुः शीतः खरः सूक्ष्मश्चलोऽनिलः । पित्तं सस्नेहतीक्ष्णोष्णं लघु विस्रं सरं द्रवम् ॥११॥",
       "student_meaning": "Vata is characterized by dryness, lightness, coldness, roughness, subtlety and mobility; Pitta by slight unctuousness, sharpness, heat, lightness, spreading and liquidity."
     },
     {
       "number": "12",
-      "sanskrit": "स्निग्धः शीतो गुरुर्मन्दः श्लक्ष्णो मृत्स्नः स्थिरः कफः । संसर्गः सन्निपातश्च तद्द्द्वित्रिक्षयकोपतः ॥१२॥",
+      "sanskrit": "स्निग्धः शीतो गुरुर्मन्दः श्लक्ष्णो मृत्स्नः स्थिरः कफः । संसर्गः सन्निपातश्च तद्द्वित्रिक्षयकोपतः ॥१२॥",
       "student_meaning": "Kapha is unctuous, cold, heavy, slow, smooth, slimy and stable; simultaneous involvement of two or three doshas is termed samsarga or sannipata."
     },
     {
       "number": "13",
-      "sanskrit": "रसासृङ्गांसमेदोऽस्थिमज्जशुक्राणि धातवः । सप्त दूष्याः-मला मूत्रशकृत्स्वेदादयोऽपि च ॥१३ ॥",
+      "sanskrit": "रसासृङ्मांसमेदोऽस्थिमज्जशुक्राणि धातवः । सप्त दूष्या मला मूत्रशकृत्स्वेदादयोऽपि च ॥१३॥",
       "student_meaning": "The seven dhatus are rasa, rakta, mamsa, medas, asthi, majja and shukra; mutra, shakrit and sveda are principal malas and serve as dushya in disease."
     },
     {
       "number": "14",
-      "sanskrit": "वृद्धिः समानैः सर्वेषां विपरीतैर्विपर्ययः । रसाःस्वाद्वम्ललवणतिक्तोषणकषायकाः ॥१४ ॥",
+      "sanskrit": "वृद्धिः समानैः सर्वेषां विपरीतैर्विपर्ययः । रसाः स्वाद्वम्ललवणतिक्तोषणकषायकाः ॥१४॥",
       "student_meaning": "Like qualities increase corresponding factors and opposite qualities decrease them; six tastes are sweet, sour, salty, bitter, pungent and astringent."
     },
     {
@@ -309,7 +311,7 @@
     },
     {
       "number": "27",
-      "sanskrit": "भिषग्द्रव्याण्युपस्थाता रोगी पादचतुष्टयम् । चिकित्सितस्य निर्दिष्टं, प्रत्येकं तच्चतुर्गुणम् ॥२७॥",
+      "sanskrit": "भिषग्द्रव्याण्युपस्थाता रोगी पादचतुष्टयम् । चिकित्सितस्य निर्दिष्टं प्रत्येकं तच्चतुर्गुणम् ॥२७॥",
       "student_meaning": "The four limbs of treatment are physician, therapeutic substance, attendant and patient; each has four desirable qualities."
     },
     {
@@ -324,7 +326,7 @@
     },
     {
       "number": "30",
-      "sanskrit": "सर्वौषधक्षमे देहे यूनः पुंसो जितात्मनः । अमर्मगो ऽल्पहेत्वग्ररूपरूपोऽनुपद्रवः ॥३०॥",
+      "sanskrit": "सर्वौषधक्षमेदेहे यूनः पुंसो जितात्मनः । अमर्मगोऽल्पहेत्वग्ररूपरूपोऽनुपद्रवः ॥३०॥",
       "student_meaning": "Favourable prognostic features include adequate tolerance, youth, self-control, absence of vital-site involvement, mild causation and manifestations, and absence of complications."
     },
     {
@@ -339,22 +341,22 @@
     },
     {
       "number": "33",
-      "sanskrit": "अनुपक्रम एव स्यात्स्थितोऽत्यन्तविपर्यये । औत्सुक्यमोहारतिकृद् दृष्टरिष्टोऽक्षनाशनः ॥३३॥",
+      "sanskrit": "अनुपक्रम एव स्यात्स्थितोऽत्यन्तविपर्यये । औत्सुक्यमोहारतिकृद्दृष्टरिष्टोऽक्षनाशनः ॥३३॥",
       "student_meaning": "A disease with strongly unfavourable features, severe disturbance, ominous signs and loss of sensory function is classified among conditions not suitable for curative treatment."
     },
     {
       "number": "34",
-      "sanskrit": "त्यजेदात भिषग्भूपैर्द्विष्टं तेषां द्विषं द्विषम् । हीनोपकरणं व्यग्रमविधेयं गतायुषम् ॥३४॥",
+      "sanskrit": "त्यजेदातुरं भिषग्भूपैर्द्विष्टं तेषां द्विषं द्विषम् । हीनोपकरणं व्यग्रमविधेयं गतायुषम् ॥३४॥",
       "student_meaning": "The text discusses circumstances in which a physician may decline treatment, including lack of necessary resources, inability to cooperate and situations indicating extremely poor prognosis."
     },
     {
       "number": "35",
-      "sanskrit": "चण्डं शोकातुरं भीरुं कृतघ्नं वैद्यमानिनम् । तन्त्रस्यास्य परं चातो वक्ष्यतेऽध्यायसङ्ग्रहः ॥३५॥",
+      "sanskrit": "चण्डं शोकातुरं भीरुं कृतघ्नं वैद्यमानिनम् । तन्त्रस्यास्य परं चातो वक्ष्यतेऽध्यायसंग्रहः ॥३५॥",
       "student_meaning": "Further difficult patient characteristics are listed, followed by a summary of the chapters of the treatise."
     },
     {
       "number": "36",
-      "sanskrit": "आयुष्कामदिनवहारोगानुत्पादनद्रवाः । अन्नज्ञानान्नसंरक्षामात्राद्रव्यरसाश्रयाः ॥३६॥",
+      "sanskrit": "आयुष्कामदिनर्त्वीहारोगानुत्पादनद्रवाः । अन्नज्ञानान्नसंरक्षामात्राद्रव्यरसाश्रयाः ॥३६॥",
       "student_meaning": "The opening group of Sutrasthana chapters is summarized, beginning with Ayushkamiya, Dinacharya, Ritucharya and Roganutpadaniya."
     },
     {
@@ -364,27 +366,27 @@
     },
     {
       "number": "38",
-      "sanskrit": "धूमगण्डूषदृक्सेकतृप्तियन्त्रकशस्त्रकम् । शिराविधिः शल्यविधिः शस्त्रक्षाराग्निकर्मिकौ ॥३८॥",
+      "sanskrit": "धूमगण्डूषदृक्सेकतृप्तियन्त्रकशस्त्रकम् । सिराविधिः शल्यविधिः शस्त्रक्षाराग्निकर्मिकौ ॥३८॥",
       "student_meaning": "The Sutrasthana summary continues through chapters on dhumapana, oral and eye procedures, instruments, surgery, venesection, foreign-body removal and cautery."
     },
     {
       "number": "39",
-      "sanskrit": "सूत्रस्थानमिमेऽध्यायास्त्रिंशत्शारीरमुच्यते । गर्भावक्रान्तितद्व्यापदङ्गमर्मविभागिकम् ॥३९॥",
+      "sanskrit": "सूत्रस्थानमिमेऽध्यायास्त्रिंशच्छारीरमुच्यते । गर्भावक्रान्तितद्व्यापदङ्गमर्मविभागिकम् ॥३९॥",
       "student_meaning": "The text transitions from the thirty Sutrasthana chapters to Sharira Sthana and identifies its principal subjects."
     },
     {
       "number": "40",
-      "sanskrit": "विकृतिर्दूतजं षष्ठम्निदानं सार्वरोगिकम् । ज्वरासृक्श्वासयक्ष्मादिमदाद्यर्शोऽतिसारिणाम् ॥४०॥",
+      "sanskrit": "विकृतिर्दूतजं षष्ठं निदानं सार्वरोगिकम् । ज्वरासृक्श्वासयक्ष्मादिमदाद्यर्शोऽतिसारिणाम् ॥४०॥",
       "student_meaning": "The chapter list proceeds to Sharira subjects and then Nidana Sthana, including general and disease-specific diagnostic chapters."
     },
     {
       "number": "41",
-      "sanskrit": "मूत्राघातप्रमेहाणां विद्रध्याद्युदरस्य च । पाण्डुकुष्ठानिलार्तानां वाताम्रस्य च षोडश ॥४१॥",
+      "sanskrit": "मूत्राघातप्रमेहाणां विद्रध्याद्युदरस्य च । पाण्डुकुष्ठानिलार्तानां वातास्रस्य च षोडश ॥४१॥",
       "student_meaning": "The Nidana Sthana summary continues with urinary, metabolic, abdominal, skin, Vata and related disorders."
     },
     {
       "number": "42",
-      "sanskrit": "चिकित्सितं ज्वरे रक्ते कासे श्वासे च यक्ष्मणि । वमौ मदात्ययेऽर्शःसु, विशि द्वौ द्वौ च मूत्रिते ॥४२॥",
+      "sanskrit": "चिकित्सितं ज्वरे रक्ते कासे श्वासे च यक्ष्मणि । वमौ मदात्ययेऽर्शःसु विषि द्वौ द्वौ च मूत्रिते ॥४२॥",
       "student_meaning": "The text then summarizes the major therapeutic chapters dealing with fever, bleeding disorders, cough, dyspnoea, wasting, vomiting, intoxication, piles, diarrhoea and related conditions."
     },
     {
@@ -394,22 +396,22 @@
     },
     {
       "number": "44",
-      "sanskrit": "—कल्पसिद्धिरतः परम् । कल्पो वमेर्विरेकस्य तत्सिद्धिर्बस्तिकल्पना ॥४४॥",
+      "sanskrit": "द्वाविंशतिरिमेऽध्यायाः कल्पसिद्धिरतः परम् । कल्पो वमेर् विरेकस्य तत्सिद्धिर्वस्तिकल्पना ॥४४॥",
       "student_meaning": "Kalpa and Siddhi Sthana are summarized, covering emetic and purgative preparations, their complications and basti formulations."
     },
     {
       "number": "45",
-      "sanskrit": "सिद्धिर्बस्त्यापदां षष्ठो द्रव्यकल्पः- अत उत्तरम् । बालोपचारे तद्व्याधौ तद्ग्रहे, द्वौ च भूतगे ॥४५॥",
+      "sanskrit": "सिद्धिर्वस्त्यापदां षष्ठो द्रव्यकल्पोऽत उत्तरम् । बालोपचारे तद्व्याधौ तद्ग्रहे द्वौ च भूतगे ॥४५॥",
       "student_meaning": "The summary includes management of basti complications, pharmaceutics and the beginning of Uttaratantra subjects concerning children and related disorders."
     },
     {
       "number": "46",
-      "sanskrit": "उन्मादेऽथ स्मृतिभ्रंशे, द्वौ द्वौ वर्त्मसु सन्धिषु । दृक्तमोलिङ्गनाशेषु त्रयो, द्वौ द्वौ च सर्वगे ॥४६॥",
+      "sanskrit": "उन्मादेऽथ स्मृतिभ्रंशे द्वौ द्वौ वर्त्मसु सन्धिषु । दृक्तमोलिङ्गनाशेषु त्रयो द्वौ द्वौ च सर्वगे ॥४६॥",
       "student_meaning": "Uttaratantra subjects continue through mental disorders and multiple eye-disease diagnostic and therapeutic chapters."
     },
     {
       "number": "47",
-      "sanskrit": "कर्णनासामुखशिरोव्रणे, भङ्गे भगन्दरे । ग्रन्थ्यादौ क्षुद्ररोगेषु गुह्यरोगे पृथग्द्वयम् ॥४७॥",
+      "sanskrit": "कर्णनासामुखशिरोव्रणे भङ्गे भगन्दरे । ग्रन्थ्यादौ क्षुद्ररोगेषु गुह्यरोगे पृथग्द्वयम् ॥४७॥",
       "student_meaning": "The summary continues with ear, nose, mouth, head, wounds, fractures, fistula, tumours, minor diseases and genital disorders."
     },
     {
