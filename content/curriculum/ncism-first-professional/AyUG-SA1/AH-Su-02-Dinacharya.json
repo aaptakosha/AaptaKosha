@@ -1,0 +1,150 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-2",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.2",
+  "chapter_title": "Dinacharya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "source_basis": {
+    "authority": "NCISM",
+    "syllabus": "AyUG-SA1, Ashtanga Hridaya Sutrasthana 1-15",
+    "chapter_sequence": "Sutrasthana 2",
+    "primary_source": "Ashtanga Hridaya Sutrasthana 2"
+  },
+  "status": "content_in_progress",
+  "scope_note": "NCISM-aligned original teaching content. Classical practices are presented for academic study and should not be treated as individualized medical advice.",
+  "learning_outcomes": [
+    "Explain the purpose of Dinacharya in preservation of health.",
+    "Describe the major morning cleansing and personal-care practices taught in the chapter.",
+    "Explain the Ayurvedic rationale and broad indications/contraindications of abhyanga and vyayama.",
+    "Explain the role of snana and appropriate daily conduct.",
+    "Understand Sadvritta as a component of preventive and promotive health."
+  ],
+  "sections": [
+    {
+      "id": "01-purpose",
+      "title": "1. Dinacharya: Purpose and Principle",
+      "content": [
+        "Dinacharya means daily regimen. The chapter presents a structured sequence of bodily care, activity and conduct intended to support health and preserve longevity.",
+        "The regimen is individualized according to prakriti, age, strength, season, locality, occupation and disease status. Classical instructions should therefore be understood as principles rather than mechanically identical rules for every person."
+      ]
+    },
+    {
+      "id": "02-pratarutthana",
+      "title": "2. Pratarutthana and Morning Routine",
+      "content": [
+        "The chapter begins with rising in brahma muhurta for a healthy person, followed by attending to natural urges and cleansing.",
+        "The educational point is not simply an early waking time; it is the establishment of a disciplined beginning to the day, with attention to elimination, hygiene and readiness for activity.",
+        "Daily practices should be adapted when sleep deprivation, illness, age, work schedule or other circumstances make the classical timing unsuitable."
+      ]
+    },
+    {
+      "id": "03-dantadhavana",
+      "title": "3. Dantadhavana and Oral Hygiene",
+      "content": [
+        "Dantadhavana refers to cleansing the teeth. Classical teaching discusses suitable plant materials and emphasizes selection according to their qualities and the person's condition.",
+        "For modern study, distinguish the classical pharmacological rationale from contemporary oral-hygiene standards. The chapter is important for understanding preventive hygiene within the Ayurvedic framework."
+      ]
+    },
+    {
+      "id": "04-jihva-netra-mukha",
+      "title": "4. Jihva Nirlekhana, Gandusha/Kavala and Sense Care",
+      "content": [
+        "The chapter includes cleansing and care of the tongue and mouth, together with practices intended to maintain the functional health of the oral cavity and sense organs.",
+        "Students should learn the distinction between gandusha and kavala as classical oral procedures and understand that their application depends on suitability rather than routine imitation.",
+        "Netra-related care is presented as part of daily personal hygiene. Any contemporary eye condition requires appropriate professional evaluation rather than self-treatment."
+      ]
+    },
+    {
+      "id": "05-nasya-tambula",
+      "title": "5. Nasal and Oral Daily Practices",
+      "content": [
+        "Classical daily-regimen teaching includes selected nasal and oral practices. These illustrate the Ayurvedic principle that preventive care may involve localized maintenance of sense organs and channels.",
+        "The student should focus on indications, purpose, suitability and the relationship of these practices to dosha and season, rather than memorizing procedures without context."
+      ]
+    },
+    {
+      "id": "06-abhayanga",
+      "title": "6. Abhyanga",
+      "content": [
+        "Abhyanga is oil massage. The chapter emphasizes its value for the body, skin and functional strength and gives special importance to regular oil application, including the head and feet.",
+        "Its classical rationale includes mitigation of dryness and support of strength, stability and relaxation. Selection of oil, timing and extent are considered according to the person's condition.",
+        "Students should know broad contraindication principles such as situations involving acute digestive disturbance or conditions in which heavy/oily intervention is unsuitable."
+      ]
+    },
+    {
+      "id": "07-vyayama",
+      "title": "7. Vyayama",
+      "content": [
+        "Vyayama means physical exercise. It is described as an activity that produces appropriate exertion and supports bodily lightness, strength and functional capacity.",
+        "Exercise should be proportionate to bala, age, season, diet, habitual activity and disease status. Excessive exertion is specifically cautioned against.",
+        "The classical stopping principle is important: exercise should not be continued indiscriminately after signs of excessive exertion appear."
+      ]
+    },
+    {
+      "id": "08-udvartana",
+      "title": "8. Udvartana",
+      "content": [
+        "Udvartana is dry powder application/rubbing over the body. It is described as supporting lightness and cleanliness and is traditionally associated with management of excess unctuousness and heaviness.",
+        "The choice of material and intensity should be adapted to the individual; excessive rubbing may aggravate dryness or irritation."
+      ]
+    },
+    {
+      "id": "09-snaha",
+      "title": "9. Snana",
+      "content": [
+        "Snana, bathing, completes an important part of the personal daily regimen. Classical teaching considers water temperature, body part and individual condition.",
+        "The head and body are not treated as interchangeable in classical bathing instructions. Students should learn the principle of appropriate temperature and method rather than applying one rule universally."
+      ]
+    },
+    {
+      "id": "10-sadvritta",
+      "title": "10. Sadvritta: Ethical and Social Conduct",
+      "content": [
+        "Dinacharya extends beyond physical hygiene into Sadvritta—wholesome conduct. The chapter discusses truthful, restrained and socially responsible behaviour, appropriate speech, relationships and emotional composure.",
+        "Sadvritta demonstrates the Ayurvedic concept that health includes behavioural and mental discipline. Conduct is therefore taught as part of preventive health rather than as a separate moral subject.",
+        "For examination, remember the broad domains: speech, social interaction, self-control, respect, cleanliness, emotional balance and avoidance of harmful conduct."
+      ]
+    },
+    {
+      "id": "11-application",
+      "title": "11. Applying Dinacharya in First-Professional Study",
+      "content": [
+        "A useful way to study the chapter is to map each practice to four questions: what is the practice, what is its intended benefit, for whom is it suitable, and when should it be avoided or modified?",
+        "This approach preserves the classical logic while preventing rote memorization of isolated procedures.",
+        "Dinacharya is a preventive framework; it should not be confused with disease-specific treatment."
+      ]
+    }
+  ],
+  "key_terms": [
+    "Dinacharya",
+    "Brahma Muhurta",
+    "Dantadhavana",
+    "Jihva Nirlekhana",
+    "Gandusha",
+    "Kavala",
+    "Abhyanga",
+    "Vyayama",
+    "Udvartana",
+    "Snana",
+    "Sadvritta"
+  ],
+  "exam_focus": [
+    "Definition and purpose of Dinacharya.",
+    "Brahma muhurta and principles of beginning the day.",
+    "Dantadhavana and classical oral hygiene concepts.",
+    "Gandusha and kavala: basic distinction and purpose.",
+    "Abhyanga: benefits, suitability and broad contraindication principles.",
+    "Vyayama: benefits, appropriate dose and signs of over-exertion.",
+    "Udvartana and snana.",
+    "Sadvritta and its role in preventive health."
+  ],
+  "content_quality": {
+    "source_verified_structure": true,
+    "original_explanatory_prose": true,
+    "modern_translation_claim": false
+  }
+}
