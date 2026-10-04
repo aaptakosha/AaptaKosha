@@ -6,7 +6,7 @@
 
 **Yukti** is a distinctive Ayurvedic method of rational understanding in which multiple known factors are appropriately combined to arrive at knowledge of an expected or practical outcome. It is especially important in Ayurveda because clinical decisions rarely depend on a single isolated observation.
 
-The official NCISM AyUG-PV curriculum lists **Topic 5 — Yukti Pariksha/Pramana** and specifically requires students to **describe Yukti** and **compare Yukti as an independent Pariksha with Yukti as a part of Anumana**. citeturn2search0
+The official NCISM AyUG-PV curriculum lists **Topic 5 — Yukti Pariksha/Pramana** and specifically requires students to **describe Yukti** and **compare Yukti as an independent Pariksha with Yukti as a part of Anumana**.
 
 ---
 
@@ -144,7 +144,7 @@ The student must understand two related presentations:
 1. **Yukti as an independent Pariksha/means of examination in Ayurveda**
 2. **Yukti as part of or an aid to inferential reasoning**
 
-This distinction is explicitly highlighted in the NCISM learning outcomes. citeturn2search0
+This distinction is explicitly highlighted in the NCISM learning outcomes.
 
 ---
 
@@ -781,7 +781,7 @@ A clinician should identify:
 3. It is especially useful for multifactorial outcomes.
 4. The classical seed-soil-water-season example illustrates its logic.
 5. NCISM specifically asks students to describe Yukti.
-6. NCISM also requires comparison of Yukti as an independent Pariksha and as part of Anumana. citeturn2search0
+6. NCISM also requires comparison of Yukti as an independent Pariksha and as part of Anumana.
 7. Yukti is not random guesswork.
 8. Yukti is not identical to Pratyaksha.
 9. Yukti is not simply reducible to Anumana.
@@ -1131,7 +1131,7 @@ Yukti is a distinctive Ayurvedic approach to rational understanding through the 
 
 The classical agricultural example — involving seed, suitable land, water and season leading to growth — illustrates the basic logic of Yukti: **multiple necessary conditions combine to produce an expected result**.
 
-Yukti should not be confused with guessing or unsupported intuition. It also should not be simply equated with Anumana. In Ayurveda, Yukti can be discussed as an independent Pariksha while also functioning as an aid within inferential reasoning. This distinction is specifically emphasized in the NCISM curriculum. citeturn2search0
+Yukti should not be confused with guessing or unsupported intuition. It also should not be simply equated with Anumana. In Ayurveda, Yukti can be discussed as an independent Pariksha while also functioning as an aid within inferential reasoning. This distinction is specifically emphasized in the NCISM curriculum.
 
 Clinically, Yukti is valuable in:
 
@@ -1157,7 +1157,7 @@ This chapter addresses **Paper II, Topic 5 — Yukti Pariksha/Pramana**.
 
 The official NCISM learning outcomes specify:
 - **Describe Yukti**
-- **Compare Yukti as an independent Pariksha and as a part of Anumana**. citeturn2search0
+- **Compare Yukti as an independent Pariksha and as a part of Anumana**.
 
 ## Classical-study direction
 
