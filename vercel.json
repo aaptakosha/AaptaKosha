@@ -12,9 +12,16 @@
     "api/content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**/chapter.json,content/samhita/**/adhyaya-*.json}",
       "includeFiles": "content/samhita/**"
+    },
+    "api/curriculum_content.py": {
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
     }
   },
   "rewrites": [
+    {
+      "source": "/api/curriculum/content",
+      "destination": "/api/curriculum_content.py"
+    },
     {
       "source": "/api/samhita-ai",
       "destination": "/api/samhita-ai.py"
