@@ -203,8 +203,13 @@ class handler(BaseHTTPRequestHandler):
             result = _generate(self, action, text, target)
             _reply(self, 200, {"data": {"action": action, "language": target, "text": result}})
         except HTTPError as exc:
-            detail = exc.read().decode("utf-8", errors="replace")[:500]
-            _reply(self, 502, {"error": {"code": "ai_gateway_error", "detail": detail}})
+            exc.read()
+            if exc.code in {401, 403}:
+                _reply(self, 503, {"error": {"code": "ai_gateway_auth", "message": "AI Gateway authentication/authorization failed"}})
+            elif exc.code == 404:
+                _reply(self, 503, {"error": {"code": "ai_gateway_model", "message": "Configured AI Gateway model is unavailable"}})
+            else:
+                _reply(self, 502, {"error": {"code": "ai_gateway_error", "message": "AI Gateway request failed", "gateway_status": exc.code}})
         except (URLError, TimeoutError):
             _reply(self, 504, {"error": {"code": "ai_gateway_timeout"}})
         except PermissionError as exc:
