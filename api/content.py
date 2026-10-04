@@ -334,6 +334,8 @@ class handler(BaseHTTPRequestHandler):
             candidates.append(PADARTHA_ROOT / "03-dravya-vijnaneeyam.md")
         if node_id == "y1-pv-4":
             candidates.append(PADARTHA_ROOT / "04-guna-vijnaneeyam.md")
+        if node_id == "y1-pv-5":
+            candidates.append(PADARTHA_ROOT / "05-karma-vijnaneeyam.md")
         target = next((p for p in candidates if p.is_file()), None)
         if target is None:
             self._reply(404, {"error": {"code": "content_not_found"}})
