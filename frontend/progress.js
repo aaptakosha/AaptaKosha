@@ -103,11 +103,11 @@
       const points = document.querySelector("[data-score-points]");
       if (points) points.replaceChildren();
       document.querySelectorAll("[data-study-bars] i").forEach((bar) => { bar.style.height = "0%"; });
-      if (state && (authenticated || window.AAPTAKOSHA_API_BASE)) {
+      if (state) {
         window.AaptaKoshaUi?.status(
           state,
-          error.message || "Unable to load progress.",
-          "error"
+          authenticated ? (error.message || "Unable to load progress.") : "Sign in to sync your learning progress.",
+          authenticated ? "error" : "info"
         );
       }
     });
