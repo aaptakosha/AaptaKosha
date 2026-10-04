@@ -249,9 +249,8 @@ class handler(BaseHTTPRequestHandler):
                 cursor = DATABASE_CONNECTION.cursor()
                 cursor.execute("SELECT 1")
                 cursor.fetchone()
-                cursor.execute("SELECT COUNT(*) FROM assessments")
-                assessment_count = cursor.fetchone()[0]
                 configured = identity_provider is not None and IDENTITY_ERROR is None
+                assessment_count = None
                 healthy = (not REQUIRE_IDENTITY) and IDENTITY_ERROR is None or (REQUIRE_IDENTITY and configured)
                 self._reply(200 if healthy else 503, json.dumps({
                     "status": "ok" if healthy else "degraded",
