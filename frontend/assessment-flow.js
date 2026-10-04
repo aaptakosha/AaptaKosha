@@ -62,6 +62,7 @@
     }
 
     throw new Error("Unable to submit this assessment because the assessment service is unavailable.");
+  }
 
   async function result(id) {
     await window.AaptaKoshaSessionReady;
