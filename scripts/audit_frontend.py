@@ -73,6 +73,17 @@ def resolve_target(source: Path, href: str) -> Path | None:
     return target
 
 errors: list[str] = []
+index = ROOT / "index.html"
+if index.exists():
+    index_text = index.read_text(encoding="utf-8")
+    required_mobile_routes = ["./curriculum.html", "./samhita.html", "./practice.html", "./more.html"]
+    bottom_nav_start = index_text.find('<nav class="bottom-nav"')
+    bottom_nav_end = index_text.find("</nav>", bottom_nav_start)
+    bottom_nav = index_text[bottom_nav_start:bottom_nav_end] if bottom_nav_start >= 0 else ""
+    for route in required_mobile_routes:
+        if route not in bottom_nav:
+            errors.append(f"index.html -> mobile navigation missing {route}")
+
 for html in HTML_FILES:
     parser = AuditParser(html)
     parser.feed(html.read_text(encoding="utf-8"))
