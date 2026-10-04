@@ -19,6 +19,7 @@ class AuditParser(HTMLParser):
         self.nav_hrefs: list[str] = []
         self.current_anchor: dict[str, str] | None = None
         self.anchor_text = ""
+        self.anchor_hidden_depth = 0
         self.raw_glyph_anchors: list[tuple[int, str]] = []
 
     def handle_starttag(self, tag, attrs):
@@ -35,16 +36,19 @@ class AuditParser(HTMLParser):
             self.labels.append(data)
         elif tag == "nav":
             self.nav_depth += 1
+        elif self.current_anchor is not None and data.get("aria-hidden") == "true":
+            self.anchor_hidden_depth += 1
         elif tag == "script" and data.get("src"):
             self.links.append(data["src"])
 
     def handle_endtag(self, tag):
         if tag == "a" and self.current_anchor is not None:
             text = self.anchor_text.strip()
-            if any(g in text for g in GLYPHS) and "aria-hidden" not in text:
+            if self.anchor_hidden_depth == 0 and any(g in text for g in GLYPHS):
                 self.raw_glyph_anchors.append((self.getpos()[0], text))
             self.current_anchor = None
             self.anchor_text = ""
+            self.anchor_hidden_depth = 0
         elif tag == "nav":
             self.nav_depth = max(0, self.nav_depth - 1)
 
