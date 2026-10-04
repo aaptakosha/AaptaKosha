@@ -23,8 +23,8 @@ function unitMatches(v,i){return unitItems(state.chapter.learning_units[i]).some
 const TIKA_CONFIG={
   charaka:[["tika_hi","चक्रपाणि — आयुर्वेददीपिका"]],
   sushruta:[["tika_hi","डल्हण — निबन्धसंग्रह"]],
-  "ashtanga-hridaya":[["tika_sarvangasundara_hi","सर्वाङ्गसुन्दरी"],["tika_sarvangasundari_hi","सर्वाङ्गसुन्दरी"],["tika_ayurvedarasayana_hi","आयुर्वेदरसायन"]],
-  "ashtanga.hridaya":[["tika_sarvangasundara_hi","सर्वाङ्गसुन्दरी"],["tika_sarvangasundari_hi","सर्वाङ्गसुन्दरी"],["tika_ayurvedarasayana_hi","आयुर्वेदरसायन"]],
+  "ashtanga-hridaya":[["tika_sarvangasundara_hi","सर्वाङ्गसुन्दरी — संक्षिप्त तात्पर्य"],["tika_sarvangasundari_hi","सर्वाङ्गसुन्दरी — टीका अनुवाद"],["tika_ayurvedarasayana_hi","आयुर्वेदरसायन — टीका अनुवाद"]],
+  "ashtanga.hridaya":[["tika_sarvangasundara_hi","सर्वाङ्गसुन्दरी — संक्षिप्त तात्पर्य"],["tika_sarvangasundari_hi","सर्वाङ्गसुन्दरी — टीका अनुवाद"],["tika_ayurvedarasayana_hi","आयुर्वेदरसायन — टीका अनुवाद"]],
   sarangadhara:[["tika_hi","दीपिका / गूढार्थदीपिका"]],
   sharangadhara:[["tika_hi","दीपिका / गूढार्थदीपिका"]]
 };
@@ -70,7 +70,7 @@ function render(){
     const audioLabel=(v.audio?.url&&v.audio.type==="recording")?"🎧 Audio":"🔊 Read";
     const audioSrc=v.audio?.url?' data-audio-src="'+esc(v.audio.url)+'"':"";
     const controls=isSamhitaPilot()?'<div class="pilot-controls" data-pilot-controls="'+esc(itemId(v))+'"><div class="pilot-row"><label>भाषा <select data-ai-lang="'+esc(itemId(v))+'">'+PILOT_LANGUAGES.map(([code,label])=>'<option value="'+code+'">'+label+'</option>').join("")+'</select></label><button type="button" class="pilot-action" data-ai-action="translate" data-ai-item="'+esc(itemId(v))+'">🌐 अनुवाद</button><button type="button" class="pilot-action meaning" data-ai-action="meaning" data-ai-item="'+esc(itemId(v))+'">💡 Generate Meaning</button></div><div class="pilot-output" data-ai-output="'+esc(itemId(v))+'" hidden></div></div>':"";
-    return '<article id="item-'+esc(itemId(v))+'" class="verse-card '+(recite?"recite":"")+'"><div class="verse-head"><span class="verse-number">'+itemKind+" "+esc(itemLabel(v))+'</span>'+(recite?'<span class="recite-badge">NCISM Recitation</span>':"")+reciteButton+'<button class="audio" data-audio="'+esc(v.sanskrit_original)+'"'+audioSrc+'>'+audioLabel+'</button></div><div class="section-label">'+esc(v.section||v.type||"")+'</div><div class="sanskrit">'+esc(v.sanskrit_original).replace(/\n/g,"<br>")+'</div>'+controls+'<div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi)+'</p></div><div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi)+'</p></div><div class="tika-stack">'+tikaEntries(v).map(([label,value])=>'<details><summary>'+esc(label)+' — टीका अनुवाद</summary><p>'+esc(value)+'</p></details>').join("")+'</div></article>';
+    return '<article id="item-'+esc(itemId(v))+'" class="verse-card '+(recite?"recite":"")+'"><div class="verse-head"><span class="verse-number">'+itemKind+" "+esc(itemLabel(v))+'</span>'+(recite?'<span class="recite-badge">NCISM Recitation</span>':"")+reciteButton+'<button class="audio" data-audio="'+esc(v.sanskrit_original)+'"'+audioSrc+'>'+audioLabel+'</button></div><div class="section-label">'+esc(v.section||v.type||"")+'</div><div class="sanskrit">'+esc(v.sanskrit_original).replace(/\n/g,"<br>")+'</div>'+controls+'<div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi)+'</p></div>'+(String(v.explanation_hi||"").trim()&&String(v.explanation_hi||"").trim()!==String(v.translation_hi||"").trim()?'<div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi)+'</p></div>':"")+'<div class="tika-stack">'+tikaEntries(v).map(([label,value])=>'<details><summary>'+esc(label)+' — टीका अनुवाद</summary><p>'+esc(value)+'</p></details>').join("")+'</div></article>';
   }).join("");
   grid.innerHTML=renderStudyAids()+(cards||'<div class="empty">इस mode/search के लिए कोई श्लोक या अंश नहीं मिला।</div>');
 }
