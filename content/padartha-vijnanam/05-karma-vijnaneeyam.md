@@ -8,7 +8,7 @@
 
 ## NCISM syllabus scope
 
-NCISM places Karma Vijnaneeyam as Topic 5 of AyUG-PV. The prescribed scope is: introduction to Karma according to Darshana and Ayurveda; classification of Karma; practical application of Karma; and principles/examples from contemporary sciences that enhance understanding of Karma. The curriculum also specifies learning outcomes covering definitions according to various Darshanas and Ayurveda, comparison of Karma Lakshana in Charaka Samhita and Darshana, types of Karma, and production/destruction of Laukika Karma with an example. citeturn0search13turn0search12
+NCISM places Karma Vijnaneeyam as Topic 5 of AyUG-PV. The prescribed scope is: introduction to Karma according to Darshana and Ayurveda; classification of Karma; practical application of Karma; and principles/examples from contemporary sciences that enhance understanding of Karma. The curriculum also specifies learning outcomes covering definitions according to various Darshanas and Ayurveda, comparison of Karma Lakshana in Charaka Samhita and Darshana, types of Karma, and production/destruction of Laukika Karma with an example.
 
 ---
 
@@ -573,7 +573,7 @@ Do **not** answer Vamana, Virechana, Basti, etc.
 
 # 27. Practical identification of Karma
 
-NCISM includes practical application of Karma. citeturn0search12
+NCISM includes practical application of Karma.
 
 ### Exercise 1 — physical movement
 
@@ -609,7 +609,7 @@ Always state that the clinical use depends on indication and assessment.
 
 # 28. Contemporary science and Karma
 
-NCISM specifically asks for contemporary-science principles/examples that enhance understanding of Karma. citeturn0search13
+NCISM specifically asks for contemporary-science principles/examples that enhance understanding of Karma.
 
 These examples are **analogies**, not proof that classical Karma and modern mechanics are identical.
 
@@ -1105,6 +1105,6 @@ Contemporary mechanics, physiology and movement science can help visualize selec
 
 ## NCISM alignment
 
-This chapter covers Topic 5 of AyUG-PV: introduction of Karma according to Darshana and Ayurveda, classification, practical application, and contemporary-science principles/examples. It also addresses the stated learning outcomes concerning Karma Lakshana, comparison of Charaka and Darshana perspectives, types of Karma, and production/destruction of Laukika Karma. citeturn0search12turn0search13
+This chapter covers Topic 5 of AyUG-PV: introduction of Karma according to Darshana and Ayurveda, classification, practical application, and contemporary-science principles/examples. It also addresses the stated learning outcomes concerning Karma Lakshana, comparison of Charaka and Darshana perspectives, types of Karma, and production/destruction of Laukika Karma.
 
 **Next:** Chapter 6 — Samanya Vijnaneeyam.
