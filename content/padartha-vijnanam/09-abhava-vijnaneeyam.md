@@ -6,7 +6,7 @@
 
 **Abhava (अभाव)** means absence, non-existence or negation. In Padartha Vijnanam it is a major philosophical topic because different Darshanas debate whether absence should be accepted as an independent Padartha.
 
-The official NCISM curriculum requires students to study **Abhava according to Darshana and Ayurveda, its classification, practical application, and contemporary examples that enhance understanding of the concept**. NCISM also expects students to understand supportive and contradictory views regarding acceptance of Abhava as a Padartha and the Ayurvedic position. citeturn2search1turn2search2
+The official NCISM curriculum requires students to study **Abhava according to Darshana and Ayurveda, its classification, practical application, and contemporary examples that enhance understanding of the concept**. NCISM also expects students to understand supportive and contradictory views regarding acceptance of Abhava as a Padartha and the Ayurvedic position.
 
 ---
 
@@ -91,7 +91,7 @@ In the developed Nyaya–Vaisheshika framework, Abhava is separately discussed.
 
 # 4. Philosophical debate about Abhava
 
-NCISM specifically expects discussion of both **supportive and contradictory views** regarding acceptance of Abhava as a Padartha. citeturn2search1
+NCISM specifically expects discussion of both **supportive and contradictory views** regarding acceptance of Abhava as a Padartha.
 
 ## 4.1 Arguments supporting Abhava as a Padartha
 
@@ -393,7 +393,7 @@ These clinical usages may involve different mechanisms and should not automatica
 
 # 18. Ayurvedic relevance
 
-NCISM specifically requires students to explain the **view of Ayurveda about Abhava**. citeturn2search1
+NCISM specifically requires students to explain the **view of Ayurveda about Abhava**.
 
 Ayurvedic reasoning frequently requires recognizing:
 
@@ -670,7 +670,7 @@ This is a useful practical record format.
 
 # 31. Contemporary science analogies
 
-NCISM requires contemporary principles/examples that enhance understanding of Abhava. citeturn2search2
+NCISM requires contemporary principles/examples that enhance understanding of Abhava.
 
 These are explanatory analogies rather than proof of the philosophical theory.
 
@@ -1078,7 +1078,7 @@ NCISM specifies:
 - practical application;
 - contemporary scientific principles/examples that enhance understanding.
 
-The NCISM learning outcomes additionally require students to define Abhava, discuss supportive and contradictory views regarding its acceptance as a Padartha, and explain the Ayurvedic view of Abhava. citeturn2search1turn2search2
+The NCISM learning outcomes additionally require students to define Abhava, discuss supportive and contradictory views regarding its acceptance as a Padartha, and explain the Ayurvedic view of Abhava.
 
 ## Classical-study direction
 
