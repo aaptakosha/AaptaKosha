@@ -209,14 +209,26 @@ def _static_content_url(content_id: str) -> str | None:
 
 
 def _load_remote_content(content_id: str):
-    url = _static_content_url(content_id)
-    if not url:
-        return None
-    try:
-        with urllib.request.urlopen(url, timeout=5) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except (OSError, ValueError, TypeError):
-        return None
+    urls = []
+    primary = _static_content_url(content_id)
+    if primary:
+        urls.append(primary)
+    for entry in _content_registry():
+        if entry.get("content_id") == content_id:
+            rel = str(entry.get("path") or "").lstrip("/")
+            if rel:
+                commit = os.environ.get("VERCEL_GIT_COMMIT_SHA") or "main"
+                fallback = f"https://raw.githubusercontent.com/aaptakosha/AaptaKosha/{commit}/{rel}"
+                if fallback not in urls:
+                    urls.append(fallback)
+            break
+    for url in urls:
+        try:
+            with urllib.request.urlopen(url, timeout=5) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (OSError, ValueError, TypeError, urllib.error.URLError):
+            continue
+    return None
 
 
 def load_content(content_id: str):
