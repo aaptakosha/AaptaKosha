@@ -1,0 +1,270 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-9",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.9",
+  "chapter_title": "Dravyadi Vijnaniya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "status": "content_complete_student_layer",
+  "verse_count": 29,
+  "verse_count_notes": "28 numbered verses plus the traditional concluding half-verse (28½); represented as 29 text units so the closing half-verse is retained explicitly.",
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "द्रव्यमेव रसादीनां श्रेष्ठं ते हि तदाश्रयाः । पञ्चभूतात्मकं तत्तु क्ष्मामधिष्ठाय जायते ॥१॥",
+      "student_meaning": "Verse 1 establishes the primacy of dravya, its Panchamahabhuta basis, and why substances have multiple elemental and doshic associations."
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "अम्बुयोन्यग्निपवननभसां समवायतः । तन्निर्वृत्तिर्विशेषश्च व्यपदेशस्तु भूयसा ॥२॥",
+      "student_meaning": "Verse 2 establishes the primacy of dravya, its Panchamahabhuta basis, and why substances have multiple elemental and doshic associations."
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "तस्मान्नैकरसं द्रव्यं भूतसङ्घातसम्भवात् । नैकदोषास्ततो रोगास्तत्र व्यक्तो रसः स्मृतः ॥३॥",
+      "student_meaning": "Verse 3 establishes the primacy of dravya, its Panchamahabhuta basis, and why substances have multiple elemental and doshic associations."
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "तन्नैकभूतजं द्रव्यमव्यक्तोऽनुरसः किञ्चिदन्ते व्यक्तोऽपि चेष्यते । गुर्वादयो गुणा द्रव्ये पृथिव्यादौ रसाश्रये ॥४॥",
+      "student_meaning": "Verse 4 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "रसेषु व्यपदिश्यन्ते साहचर्योपचारतः । तत्र द्रव्यं गुरुस्थूलस्थिरगन्धगुणोल्बणम् ॥५॥",
+      "student_meaning": "Verse 5 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "पार्थिवं गौरवस्थैर्यसङ्घातोपचयावहम् । द्रवशीतगुरुस्निग्धमन्दसान्द्ररसोल्बणम् ॥६॥",
+      "student_meaning": "Verse 6 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "आप्यं स्नेहनविष्यन्दक्लेदप्रह्लादबन्धकृत् । रूक्षतीक्ष्णोष्णविशदरूपगुणोल्बणम् ॥७॥",
+      "student_meaning": "Verse 7 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "आग्नेयं दाहभावर्णप्रकाशपवनात्मकम् । वायव्यं रूक्षविशदलघुस्पर्शगुणोल्बणम् ॥८॥",
+      "student_meaning": "Verse 8 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "रौक्ष्यलाघववैशद्यविचारग्लानिकारकम् । नाभसं सूक्ष्मविशदलघुशब्दगुणोल्बणम् ॥९॥",
+      "student_meaning": "Verse 9 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "सौषिर्यलाघवकरं जगत्येवनौषधम् । न किञ्चिद्विद्यते द्रव्यं वशान्नानार्थयोगयोः ॥१०॥",
+      "student_meaning": "Verse 10 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "द्रव्यमूर्ध्वगतं तत्र प्रायोऽग्निपवनोत्कटम् । अधोगामि च भूयिष्ठं भूमितोयगुणाधिकम् ॥११॥",
+      "student_meaning": "Verse 11 explains the elemental predominance and characteristic qualities, actions and movement of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "इति द्रव्यं रसान्भेदैरुत्तरत्रोपदेक्ष्यते । वीर्यं पुनर्वदन्त्येके गुरुस्निग्धं हिमं मृदु ॥१२॥",
+      "student_meaning": "Verse 12 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "लघु रूक्षोष्णतीक्ष्णं च तद्वदेवाष्टधा मतम् । चरकस्त्वाह वीर्यं तत्क्रियते येन या क्रिया ॥१३॥",
+      "student_meaning": "Verse 13 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "नावीर्यं कुरुते किञ्चित्सर्वा वीर्यकृता हि सा । गुर्वादिष्वेव वीर्याख्या तेनान्वर्थेति वर्ण्यते ॥१४॥",
+      "student_meaning": "Verse 14 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "समग्रगुणसारेषु शक्त्युत्कर्षविवर्तिषु । व्यवहाराय मुख्यत्वाद्बह्वग्रग्रहणादपि ॥१५॥",
+      "student_meaning": "Verse 15 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "अतश्च विपरीतत्वात्सम्भवन्त्यपि नैव सा । विवक्ष्यते रसाद्येषु वीर्यं गुर्वादयो ह्यतः ॥१६॥",
+      "student_meaning": "Verse 16 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "उष्णं शीतं द्विधैवान्ये वीर्यमाचक्षतेऽपि च । नानात्मकमपि द्रव्यमग्नीषोमौ महाबलौ ॥१७॥",
+      "student_meaning": "Verse 17 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "व्यक्ताव्यक्तं जगदिव नातिक्रामति जातुचित् । तत्रोष्णं भ्रमतृड्ग्लानिस्वेददाहाशुपाकिताः ॥१८॥",
+      "student_meaning": "Verse 18 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "शमं च वातकफयोः करोति शिशिरं पुनः । ह्लादनं जीवनं स्तम्भं प्रसादं रक्तपित्तयोः ॥१९॥",
+      "student_meaning": "Verse 19 explains virya, competing classical definitions, the eightfold quality-based interpretation, and the two principal expressions of virya as ushna and shita."
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "जाठरेणाग्निना योगाद्यदुदेति रसान्तरम् । रसानां परिणामान्ते स विपाक इति स्मृतः ॥२०॥",
+      "student_meaning": "Verse 20 defines vipaka as the final post-digestive transformation and explains its principal threefold classification."
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "स्वादुः पटुश्च मधुरमम्लोऽम्लं पच्यते रसः । तिक्तोषणकषायाणां विपाकः प्रायशः कटुः ॥२१॥",
+      "student_meaning": "Verse 21 defines vipaka as the final post-digestive transformation and explains its principal threefold classification."
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "रसैरसौ तुल्यफलस्तत्र द्रव्यं शुभाशुभम् । किञ्चिद्रसेन कुरुते कर्म पाकेन चापरम् ॥२२॥",
+      "student_meaning": "Verse 22 explains how rasa, vipaka, virya and prabhava contribute to the action of a substance and the hierarchy of their relative strength."
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "गुणान्तरेण वीर्येण प्रभावेणैव किञ्चन । यद्यद्द्रव्ये रसादीनां बलवत्त्वेन वर्तते ॥२३॥",
+      "student_meaning": "Verse 23 explains how rasa, vipaka, virya and prabhava contribute to the action of a substance and the hierarchy of their relative strength."
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "अभिभूयेतरांस्तत्तत्कारणत्वं प्रपद्यते । विरुद्धगुणसंयोगे भूयसाल्पं हि जीयते ॥२४॥",
+      "student_meaning": "Verse 24 explains how rasa, vipaka, virya and prabhava contribute to the action of a substance and the hierarchy of their relative strength."
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "रसं विपाकस्तौ वीर्यं प्रभावस्तान्यपोहति । बलसाम्ये रसादीनामिति नैसर्गिकं बलम् ॥२५॥",
+      "student_meaning": "Verse 25 explains how rasa, vipaka, virya and prabhava contribute to the action of a substance and the hierarchy of their relative strength."
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "रसादिसाम्ये यत्कर्म विशिष्टं तत्प्रभावजम् । दन्ती रसाद्यैस्तुल्यापि चित्रकस्य विरेचनी ॥२६॥",
+      "student_meaning": "Verse 26 defines prabhava and gives classical examples where a substance acts differently despite similarity in rasa and related factors."
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "मधुकस्य च मृद्वीका घृतं क्षीरस्य दीपनम् । इति सामान्यतः कर्म द्रव्यादीनां पुनश्च तत् ॥२७॥",
+      "student_meaning": "Verse 27 defines prabhava and gives classical examples where a substance acts differently despite similarity in rasa and related factors."
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "विचित्रप्रत्ययारब्धद्रव्यभेदेन भिद्यते । स्वादुर्गुरुश्च गोधूमो वातजिद्वातकृद्यवः ॥२८॥",
+      "student_meaning": "Verse 28 introduces the distinction of substances formed from different causal elemental combinations and gives wheat and barley as the first example."
+    },
+    {
+      "verse_number": "28-1/2",
+      "sanskrit": "उष्णा मत्स्याः पयः शीतं कटुः सिंहो न शूकरः ॥२८-१/२॥",
+      "student_meaning": "The concluding half-verse contrasts fish, milk, lion and boar to demonstrate how different causal formations can produce actions that do not follow merely from shared taste or heaviness."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Dravya and Panchamahabhuta",
+      "verse_range": "1-3",
+      "focus": "Primacy of dravya, elemental composition and plurality of rasa/dosha associations."
+    },
+    {
+      "title": "Mahabhuta-based Dravya Characteristics",
+      "verse_range": "4-11",
+      "focus": "Guna and action patterns of parthiva, apya, agneya, vayavya and nabhasa substances."
+    },
+    {
+      "title": "Virya",
+      "verse_range": "12-19",
+      "focus": "Definitions, eightfold interpretation, ushna-shita classification and characteristic actions."
+    },
+    {
+      "title": "Vipaka",
+      "verse_range": "20-21",
+      "focus": "Post-digestive transformation and principal vipaka categories."
+    },
+    {
+      "title": "Dravya Karma and Relative Strength",
+      "verse_range": "22-25",
+      "focus": "Rasa, vipaka, virya and prabhava as determinants of action and their natural hierarchy."
+    },
+    {
+      "title": "Prabhava",
+      "verse_range": "26-27",
+      "focus": "Specific action beyond ordinary rasa-virya-vipaka expectations."
+    },
+    {
+      "title": "Vichitra Pratyayarabdha Dravya",
+      "verse_range": "28-28½",
+      "focus": "How different causal elemental combinations produce distinctive properties and actions."
+    }
+  ],
+  "learning_outcomes": [
+    "Define dravya and explain why rasa, guna, virya, vipaka and prabhava are described as dependent on it.",
+    "Explain the Panchamahabhuta basis of dravya.",
+    "Describe the characteristic qualities and actions associated with the five mahabhutas.",
+    "Explain the classical definitions and types of virya.",
+    "Define vipaka and explain its threefold classification.",
+    "Differentiate rasa, vipaka, virya and prabhava as determinants of dravya action.",
+    "Explain the natural hierarchy of strength among rasa, vipaka, virya and prabhava.",
+    "Define prabhava and explain its classical examples.",
+    "Explain the concept of vichitra-pratyayarabdha dravya using the chapter's examples."
+  ],
+  "key_terms": [
+    "Dravya",
+    "Panchamahabhuta",
+    "Parthiva",
+    "Apya",
+    "Agneya",
+    "Vayavya",
+    "Nabhasi",
+    "Guna",
+    "Virya",
+    "Ushna Virya",
+    "Shita Virya",
+    "Vipaka",
+    "Madhura Vipaka",
+    "Amla Vipaka",
+    "Katu Vipaka",
+    "Prabhava",
+    "Rasa",
+    "Vichitra Pratyayarabdha"
+  ],
+  "exam_focus": [
+    "Primacy of dravya and Panchamahabhuta composition.",
+    "Mahabhuta-wise guna and karma.",
+    "Virya definitions and twofold classification.",
+    "Vipaka definition and three types.",
+    "Relative strength of rasa, vipaka, virya and prabhava.",
+    "Prabhava definition with Danti–Chitraka and Madhuka–Mridvika examples.",
+    "Vichitra-pratyayarabdha dravya and the final examples."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": true,
+    "numbered_verse_count": 28,
+    "supplementary_half_verse_present": true,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "source_text": {
+    "primary": "Vāgbhaṭa Saṃhitā, Sūtrasthāna Chapter 9, TransLiteral and Wikisource",
+    "cross_check": [
+      "Ayana Ayurveda",
+      "Devwani Sanskrit text",
+      "The Vyasa"
+    ],
+    "verification_note": "Chapter 9 begins with the dravya definition and ends with verse 28 plus the traditional concluding half-verse. The next chapter is Rasabhediya. Text sequence and endpoint were cross-checked across independent classical-text presentations."
+  },
+  "student_support": {
+    "revision_summary": [
+      "Memorize the Panchamahabhuta-wise characteristic qualities.",
+      "Compare the competing classical definitions of virya.",
+      "Learn the threefold vipaka classification.",
+      "Remember the hierarchy rasa → vipaka → virya → prabhava when strengths are comparable.",
+      "Revise prabhava examples and the final vichitra-pratyayarabdha examples."
+    ]
+  }
+}
