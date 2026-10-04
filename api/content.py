@@ -193,13 +193,18 @@ def _canonical_id(content_id: str) -> str | None:
 
 
 def _static_content_url(content_id: str) -> str | None:
-    """Return the same-deployment static URL for a chapter payload on Vercel."""
+    """Return a stable public URL for a chapter payload without bundling all content into the function."""
     for entry in _content_registry():
-        if entry.get("content_id") == content_id:
-            rel = str(entry.get("path") or "").lstrip("/")
-            host = os.environ.get("VERCEL_URL") or os.environ.get("VERCEL_PROJECT_PRODUCTION_URL")
-            if host and rel:
-                return f"https://{host}/{rel}"
+        if entry.get("content_id") != content_id:
+            continue
+        rel = str(entry.get("path") or "").lstrip("/")
+        if not rel:
+            return None
+        host = os.environ.get("VERCEL_URL") or os.environ.get("VERCEL_PROJECT_PRODUCTION_URL")
+        if host:
+            return f"https://{host}/{rel}"
+        commit = os.environ.get("VERCEL_GIT_COMMIT_SHA") or "main"
+        return f"https://raw.githubusercontent.com/aaptakosha/AaptaKosha/{commit}/{rel}"
     return None
 
 
