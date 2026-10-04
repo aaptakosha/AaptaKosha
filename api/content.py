@@ -11,6 +11,7 @@ from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMHITA_ROOT = ROOT / "content" / "samhita"
+PADARTHA_ROOT = ROOT / "content" / "padartha-vijnanam"
 SAMHITA_REGISTRY = ROOT / "content" / "samhita-registry.json"
 _CONTENT_INDEX_CACHE: dict[str, Path] | None = None
 _CONTENT_REGISTRY_CACHE: list[dict] | None = None
@@ -319,7 +320,27 @@ class handler(BaseHTTPRequestHandler):
             path = "/" + route.lstrip("/")
         if path.startswith("/api"):
             path = path[4:] or "/"
-        if path != "/content/samhita":
+        if path == "/content/padartha":
+        node_id = str(query.get("node_id") or "").strip()
+        if not re.fullmatch(r"y1-pv[12]-[0-9]+", node_id):
+            self._reply(400, {"error": {"code": "invalid_node_id"}})
+            return
+        candidates = [PADARTHA_ROOT / f"{node_id}.md"]
+        if node_id == "y1-pv1-1":
+            candidates.append(PADARTHA_ROOT / "01-ayurveda-nirupana.md")
+        target = next((p for p in candidates if p.is_file()), None)
+        if target is None:
+            self._reply(404, {"error": {"code": "content_not_found"}})
+            return
+        try:
+            target.resolve().relative_to(PADARTHA_ROOT.resolve())
+            markdown = target.read_text(encoding="utf-8")
+        except (OSError, ValueError):
+            self._reply(404, {"error": {"code": "content_not_found"}})
+            return
+        self._reply(200, {"data": {"node_id": node_id, "content_type": "markdown", "content": markdown}})
+        return
+    if path != "/content/samhita":
             self._reply(404, {"error": {"code": "route_not_found"}})
             return
         if query.get("catalog") == "1":
