@@ -220,3 +220,4 @@ class handler(BaseHTTPRequestHandler):
             _reply(self, 400, {"error": {"code": "invalid_request"}})
         except Exception:
             _reply(self, 500, {"error": {"code": "internal_error"}})
+# Production AI Gateway credentials are supplied through Vercel environment variables.
