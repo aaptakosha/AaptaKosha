@@ -1,0 +1,12 @@
+{
+  "name": "AaptaKosha",
+  "short_name": "AaptaKosha",
+  "description": "NCISM-aligned BAMS learning and Samhita study platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#24483d",
+  "lang": "en",
+  "categories": ["education", "medical"]
+}
