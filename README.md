@@ -25,6 +25,8 @@ AaptaKosha is an extensible knowledge and learning platform designed around the 
 
 **Phase 8 — Authenticated Learner Experience Integration: In progress**
 
+The current production hardening includes clean Samhita study routes, PWA/offline content caching, accessibility regression checks, and open-source contribution governance.
+
 Phases 0–7 are complete. Phase 8 connects the existing student-facing surfaces to the authenticated durable application APIs, with a shared learner session/bootstrap boundary, reusable API client, continuous study-to-assessment-to-progress journey, and browser/integration verification.
 
 See `docs/architecture/phase-8-authenticated-learner-experience.md`.
