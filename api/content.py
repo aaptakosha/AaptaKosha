@@ -370,7 +370,7 @@ class handler(BaseHTTPRequestHandler):
                 return
             self._reply(200, {"data": {"node_id": node_id, "content_type": "markdown", "content": markdown}})
             return
-    if path != "/content/samhita":
+        if path != "/content/samhita":
             self._reply(404, {"error": {"code": "route_not_found"}})
             return
         if query.get("catalog") == "1":
