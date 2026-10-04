@@ -6,7 +6,7 @@
 
 **Anumana** is inferential knowledge obtained from a known sign or reason through an established relation. It is indispensable when the object or fact to be known is not directly available to perception.
 
-The official NCISM AyUG-PV curriculum requires study of the **Lakshana of Anumana**, Anumiti, Paramarsha, Vyapti, Hetu, Sadhya, Paksha and Drishtanta; types of Anumana according to Charaka and Nyaya; characteristics and types of Vyapti; Lakshana and types of Hetu, Ahetu and Hetvabhasa; Tarka; and practical application in physiology, diagnosis, therapeutics and research. citeturn0search0turn0search1
+The official NCISM AyUG-PV curriculum requires study of the **Lakshana of Anumana**, Anumiti, Paramarsha, Vyapti, Hetu, Sadhya, Paksha and Drishtanta; types of Anumana according to Charaka and Nyaya; characteristics and types of Vyapti; Lakshana and types of Hetu, Ahetu and Hetvabhasa; Tarka; and practical application in physiology, diagnosis, therapeutics and research.
 
 ---
 
@@ -299,7 +299,7 @@ The hill has fire
 
 # 15. Types of Anumana — overview
 
-The curriculum requires types according to **Charaka** and **Nyaya Darshana**. citeturn0search0
+The curriculum requires types according to **Charaka** and **Nyaya Darshana**.
 
 These classifications should be kept distinct because different systems use different organizing principles.
 
@@ -1434,7 +1434,7 @@ The official syllabus specifies:
 - Lakshana and types of Hetu;
 - Ahetu and Hetvabhasa;
 - Tarka;
-- practical application in physiological, diagnostic, therapeutic and research settings. citeturn0search0turn0search1
+- practical application in physiological, diagnostic, therapeutic and research settings.
 
 ## Classical-study direction
 
