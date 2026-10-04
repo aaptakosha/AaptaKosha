@@ -783,7 +783,7 @@ Cross-read the relevant introductory and philosophical discussions in the prescr
 
 ## NCISM alignment
 
-This chapter corresponds to **Paper I, Topic 2 — Padartha and Darshana Nirupana** of AyUG-PV. NCISM's examination table lists it in Term I and permits MCQ, SAQ and LAQ assessment. citeturn2search0
+This chapter corresponds to **Paper I, Topic 2 — Padartha and Darshana Nirupana** of AyUG-PV. NCISM's examination table lists it in Term I and permits MCQ, SAQ and LAQ assessment.
 
 ### Next unit
 
