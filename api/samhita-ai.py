@@ -95,10 +95,12 @@ def _rate_limit(user_id: str) -> int | None:
 
 
 def _gateway_token(handler: BaseHTTPRequestHandler) -> str:
+    # Prefer the deployment's own short-lived OIDC credential. Do not trust a
+    # browser-supplied header for gateway authentication.
     return (
-        handler.headers.get("x-vercel-oidc-token")
+        os.environ.get("VERCEL_OIDC_TOKEN")
         or os.environ.get("AI_GATEWAY_API_KEY")
-        or os.environ.get("VERCEL_OIDC_TOKEN")
+        or os.environ.get("VERCEL_AI_GATEWAY_KEY")
         or ""
     )
 
