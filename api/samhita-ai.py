@@ -94,15 +94,25 @@ def _rate_limit(user_id: str) -> int | None:
     return None
 
 
+def _gateway_tokens(handler: BaseHTTPRequestHandler) -> list[str]:
+    """Return configured Gateway credentials in a safe fallback order.
+    
+    Explicit API keys are preferred. Vercel also provides a short-lived
+    VERCEL_OIDC_TOKEN to deployed apps. If one credential is stale or denied,
+    the request can retry with the next configured credential.
+    """
+    values = [
+        os.environ.get("AI_GATEWAY_API_KEY", "").strip(),
+        os.environ.get("VERCEL_AI_GATEWAY_KEY", "").strip(),
+        os.environ.get("VERCEL_OIDC_TOKEN", "").strip(),
+    ]
+    return list(dict.fromkeys(value for value in values if value))
+
+
 def _gateway_token(handler: BaseHTTPRequestHandler) -> str:
-    # Prefer the deployment's own short-lived OIDC credential. Do not trust a
-    # browser-supplied header for gateway authentication.
-    return (
-        os.environ.get("VERCEL_OIDC_TOKEN")
-        or os.environ.get("AI_GATEWAY_API_KEY")
-        or os.environ.get("VERCEL_AI_GATEWAY_KEY")
-        or ""
-    )
+    """Backward-compatible single-token helper."""
+    tokens = _gateway_tokens(handler)
+    return tokens[0] if tokens else ""
 
 
 def _generate(handler: BaseHTTPRequestHandler, action: str, text: str, target: str):
@@ -114,7 +124,7 @@ def _generate(handler: BaseHTTPRequestHandler, action: str, text: str, target: s
             "Preserve technical Ayurvedic terms when a precise equivalent is uncertain, "
             "do not invent commentary, and return only the translation."
         )
-        prompt = f"Translate this Sanskrit Ayurveda passage into {language}:\n\n{text}"
+        prompt = f"Translate this Sanskrit Ayurveda passage into {language}:\\n\\n{text}"
     else:
         system = (
             "You are an Ayurveda education assistant. Give a short, student-friendly meaning "
@@ -122,10 +132,10 @@ def _generate(handler: BaseHTTPRequestHandler, action: str, text: str, target: s
             "verse, do not add medical advice, and clearly distinguish simple meaning from "
             "the original text. Return only the meaning."
         )
-        prompt = f"Give the simple meaning of this Sanskrit Ayurveda verse in {language}:\n\n{text}"
+        prompt = f"Give the simple meaning of this Sanskrit Ayurveda verse in {language}:\\n\\n{text}"
 
-    token = _gateway_token(handler)
-    if not token:
+    tokens = _gateway_tokens(handler)
+    if not tokens:
         raise RuntimeError("AI Gateway authentication is not configured")
 
     body = json.dumps(
@@ -141,21 +151,35 @@ def _generate(handler: BaseHTTPRequestHandler, action: str, text: str, target: s
         ensure_ascii=False,
     ).encode("utf-8")
 
-    req = urllib.request.Request(
-        GATEWAY,
-        data=body,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=25) as response:
-        payload = json.loads(response.read().decode("utf-8"))
-    result = payload.get("choices", [{}])[0].get("message", {}).get("content", "")
-    if not isinstance(result, str) or not result.strip():
-        raise RuntimeError("AI Gateway returned no text")
-    return result.strip()
+    last_auth_error: HTTPError | None = None
+    for token in tokens:
+        req = urllib.request.Request(
+            GATEWAY,
+            data=body,
+            headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=25) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            result = payload.get("choices", [{}])[0].get("message", {}).get("content", "")
+            if not isinstance(result, str) or not result.strip():
+                raise RuntimeError("AI Gateway returned no text")
+            return result.strip()
+        except HTTPError as exc:
+            if exc.code in {401, 403} and token != tokens[-1]:
+                exc.read()
+                last_auth_error = exc
+                continue
+            raise
+
+    if last_auth_error is not None:
+        raise last_auth_error
+    raise RuntimeError("AI Gateway request failed")
+
 
 
 class handler(BaseHTTPRequestHandler):
