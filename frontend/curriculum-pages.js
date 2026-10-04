@@ -40,10 +40,15 @@ async function renderSubject(){
 }
 function mdInline(s){return esc(s).replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>').replace(/\\*([^*]+)\\*/g,'<em>$1</em>').replace(/\`([^\`]+)\`/g,'<code>$1</code>')}
 function mdHtml(md){
- const lines=String(md||'').replace(/\\r/g,'').split('\\n');let out='',code=false,buf=[];
- for(const line of lines){
-  if(line.trim().startsWith('\\`\\`\\`')){if(code){out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';buf=[];code=false}else code=true;continue}
-  if(code){buf.push(line);continue}
+ const lines=String(md||'').replace(/\\r/g,'').split('\\n');let out='',code=false,buf=[],i=0;
+ while(i<lines.length){
+  const line=lines[i];
+  if(line.trim().startsWith('\\`\\`\\`')){if(code){out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';buf=[];code=false}else code=true;i++;continue}
+  if(code){buf.push(line);i++;continue}
+  if(line.trim().startsWith('|')&&i+1<lines.length&&/^\\s*\\|?\\s*:?-+:?\\s*(\\|\\s*:?-+:?\\s*)+\\|?\\s*$/.test(lines[i+1])){
+   const rows=[];while(i<lines.length&&lines[i].trim().startsWith('|')){const cells=lines[i].trim().replace(/^\\|/,'').replace(/\\|$/,'').split('|').map(x=>x.trim());if(!/^\\s*:?-+:?\\s*$/.test(cells[0]))rows.push(cells);i++}
+   if(rows.length){out+='<div class="table-wrap"><table><thead><tr>'+rows[0].map(x=>'<th>'+mdInline(x)+'</th>').join('')+'</tr></thead><tbody>'+rows.slice(1).map(row=>'<tr>'+row.map(x=>'<td>'+mdInline(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>'}continue;
+  }
   if(/^### /.test(line))out+='<h3>'+mdInline(line.slice(4))+'</h3>';
   else if(/^## /.test(line))out+='<h2>'+mdInline(line.slice(3))+'</h2>';
   else if(/^# /.test(line))out+='<h1>'+mdInline(line.slice(2))+'</h1>';
@@ -52,6 +57,7 @@ function mdHtml(md){
   else if(/^\\d+\\. /.test(line))out+='<li>'+mdInline(line.replace(/^\\d+\\. /,''))+'</li>';
   else if(line.trim()==='')out+='<br>';
   else out+='<p>'+mdInline(line)+'</p>';
+  i++;
  }
  if(code)out+='<pre><code>'+esc(buf.join('\\n'))+'</code></pre>';return out;
 }
