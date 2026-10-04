@@ -5,6 +5,7 @@ import json
 import os
 import re
 import urllib.request
+import urllib.error
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
