@@ -1,0 +1,167 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-1",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.1",
+  "chapter_title": "Ayushkamiya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "source_basis": {
+    "authority": "National Commission for Indian System of Medicine (NCISM)",
+    "syllabus": "AyUG-SA1, Table 2, Ashtanga Hridaya Sutrasthana 1",
+    "official_source": "https://www.ncismindia.org/Ay%20UG-SA1-1.pdf"
+  },
+  "status": "content_in_progress",
+  "scope_note": "NCISM-aligned original teaching content. It is not a replacement for a critical edition, source Sanskrit text, or published commentary.",
+  "learning_outcomes": [
+    "Explain the purpose and scope of the Ayushkamiya Adhyaya.",
+    "Identify the basic concepts of dosha, dhatu and mala and relate them to health and disease.",
+    "Explain agni and koshtha at an introductory first-professional level.",
+    "Differentiate rasa, guna, virya, vipaka and prabhava as Ayurvedic pharmacodynamic concepts.",
+    "Describe the Ayurvedic concepts of health, disease, patient assessment, desha and kala.",
+    "Explain the four limbs of treatment and the broad classification of chikitsa.",
+    "Apply the basic idea of sadhyasadhyata (prognosis) to clinical reasoning."
+  ],
+  "sections": [
+    {
+      "id": "01-introduction",
+      "title": "1. Ashtanga Hridaya Parichaya",
+      "content": [
+        "Ashtanga Hridaya is a major classical Ayurvedic compendium attributed to Vagbhata. It presents the principal domains of Ayurveda in a comparatively concise and systematic form.",
+        "The opening chapter is Ayushkamiya Adhyaya, concerned with the aims of life, preservation of health and the foundations required for rational Ayurvedic practice.",
+        "For first-professional study, the chapter should be read as a conceptual foundation: it connects the physician's purpose, the definition of health and disease, assessment of the patient, therapeutic planning and prognosis."
+      ]
+    },
+    {
+      "id": "02-dosha-dhatu-mala",
+      "title": "2. Dosha–Dhatu–Mala Parichaya",
+      "content": [
+        "Dosha, dhatu and mala are three foundational functional categories used to understand the state of the body.",
+        "Dosha are the principal regulatory factors—Vata, Pitta and Kapha. In a state of equilibrium they support normal physiological activity; disturbance of their normal state is associated with disease.",
+        "Dhatu are the seven structural and functional tissue principles: rasa, rakta, mamsa, meda, asthi, majja and shukra. Their normal nourishment and function contribute to bodily integrity.",
+        "Mala are waste products whose normal formation and elimination are necessary for physiological balance. The principal bodily malas are purisha, mutra and sveda.",
+        "The student should avoid treating these categories as isolated entities. Ayurvedic assessment considers their state, interaction, site, quantity/quality and relation to agni and srotas."
+      ]
+    },
+    {
+      "id": "03-agni-koshtha",
+      "title": "3. Agni and Koshtha",
+      "content": [
+        "Agni denotes the transformative capacity responsible for digestion and metabolism. Its state is central to Ayurvedic assessment because impaired or excessive digestive-metabolic activity can influence nourishment, waste formation and disease processes.",
+        "At first-professional level, distinguish the broad concepts of jatharagni, bhutagni and dhatvagni without reducing agni to a single modern physiological process.",
+        "Koshtha describes the functional nature of the alimentary tract with respect to bowel tendency and evacuation. It is clinically relevant when considering diet, medicines, procedures and patient response.",
+        "Agni and koshtha are assessed together with ahara, bala, prakriti, dosha and disease context rather than as independent labels."
+      ]
+    },
+    {
+      "id": "04-rasa-guna-virya-vipaka-prabhava",
+      "title": "4. Rasa, Guna, Virya, Vipaka and Prabhava",
+      "content": [
+        "Rasa is the primary taste classification used in Ayurveda and is traditionally described through six tastes: madhura, amla, lavana, katu, tikta and kashaya.",
+        "Guna refers to qualities used to describe substances and their actions. The twenty commonly taught gurvadi qualities are understood through paired opposites such as guru–laghu, snigdha–ruksha and ushna–shita.",
+        "Virya denotes the principal potency through which a substance produces action; ushna and shita are the two broad virya categories commonly taught.",
+        "Vipaka refers to the post-digestive effect of a substance, classically discussed through madhura, amla and katu categories.",
+        "Prabhava denotes a specific or distinctive action that cannot be adequately explained only from the other known attributes.",
+        "These concepts are used together to reason about the expected action of a dravya. They should not be memorised as disconnected definitions."
+      ]
+    },
+    {
+      "id": "05-roga-arogya",
+      "title": "5. Roga and Arogya",
+      "content": [
+        "Arogya is the state of health; roga denotes a pathological state. Ayurvedic understanding of health is functional and holistic rather than limited to the absence of a named disease.",
+        "Health is assessed through the normal state and coordination of dosha, agni, dhatu, mala and related functions, together with mental and experiential well-being.",
+        "Disease assessment requires attention to dosha, dushya, srotas, site, cause, stage, strength and the patient's capacity to tolerate and respond to intervention."
+      ]
+    },
+    {
+      "id": "06-roga-atura-pariksha",
+      "title": "6. Roga–Atura Pariksha",
+      "content": [
+        "Roga pariksha concerns examination of the disease, while atura pariksha concerns examination of the patient.",
+        "The practical aim is to establish what is affected, why it is affected, how advanced the process is, what the patient's strength is and what therapeutic options are appropriate.",
+        "At first-professional level, students should understand examination as a structured reasoning process rather than a list of isolated observations."
+      ]
+    },
+    {
+      "id": "07-desha-kala",
+      "title": "7. Desha and Kala",
+      "content": [
+        "Desha refers to place or habitat and may be considered in relation to the patient, disease and medicinal substance. Environmental and geographic context can influence dosha, diet, exposure and treatment response.",
+        "Kala refers to time. It includes seasonal and temporal considerations and the stage or duration of a disease process.",
+        "Clinical decisions should therefore be contextual: the same presentation may require different consideration depending on place, season, age, stage and other patient factors."
+      ]
+    },
+    {
+      "id": "08-chikitsa",
+      "title": "8. Chikitsa Bheda",
+      "content": [
+        "Chikitsa is the planned therapeutic response to a disease with the objective of restoring or supporting normal function and preventing further morbidity.",
+        "At introductory level, students should understand the broad distinction between shamana-oriented and shodhana-oriented approaches and recognise that treatment selection depends on dosha, dushya, disease stage, strength, agni, season and suitability.",
+        "Therapy is not chosen from the disease name alone. Ayurvedic chikitsa is individualised according to the patient's and disease's characteristics."
+      ]
+    },
+    {
+      "id": "09-pada-chatushtaya",
+      "title": "9. Pada Chatushtaya",
+      "content": [
+        "The four limbs of treatment are bhishak (physician), dravya (therapeutic substance), upasthata/paricharaka (attendant) and rogi (patient).",
+        "The framework emphasises that successful treatment depends on the competence and suitability of all four components, not on the medicine alone.",
+        "For examination purposes, learn the four members, their desirable qualities and their interdependence."
+      ]
+    },
+    {
+      "id": "10-sadhyasadhyata",
+      "title": "10. Vyadhi Sadhyasadhyatva",
+      "content": [
+        "Sadhyasadhyata is the assessment of prognosis and treatability of a disease.",
+        "The broad categories taught at introductory level include curable conditions (sadhya) and conditions with increasing therapeutic difficulty or limited curability. Prognosis depends on factors such as disease stage, strength, chronicity, dosha involvement, affected tissues and the presence of complications.",
+        "Prognosis is clinically important because it guides the physician in selecting an appropriate therapeutic objective, estimating effort and communicating realistic expectations."
+      ]
+    }
+  ],
+  "key_terms": [
+    "Ayushkamiya",
+    "Ashtanga Hridaya",
+    "Vata",
+    "Pitta",
+    "Kapha",
+    "Dosha",
+    "Dhatu",
+    "Mala",
+    "Agni",
+    "Koshtha",
+    "Rasa",
+    "Guna",
+    "Virya",
+    "Vipaka",
+    "Prabhava",
+    "Roga",
+    "Arogya",
+    "Roga Pariksha",
+    "Atura Pariksha",
+    "Desha",
+    "Kala",
+    "Chikitsa",
+    "Pada Chatushtaya",
+    "Sadhyasadhyata"
+  ],
+  "exam_focus": [
+    "Definitions and introductory significance of Ashtanga Hridaya and Ayushkamiya Adhyaya.",
+    "Dosha–dhatu–mala: enumeration and basic functions.",
+    "Agni and koshtha: definitions and clinical relevance.",
+    "Rasa, guna, virya, vipaka and prabhava: definitions and distinctions.",
+    "Roga and arogya; principles of roga and atura pariksha.",
+    "Desha and kala in assessment.",
+    "Broad chikitsa bheda and the four limbs of treatment.",
+    "Concept and importance of sadhyasadhyata."
+  ],
+  "content_quality": {
+    "source_verified_structure": true,
+    "original_explanatory_prose": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true
+  }
+}
