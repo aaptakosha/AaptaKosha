@@ -8,7 +8,7 @@
 
 ## NCISM syllabus scope
 
-This chapter follows the NCISM Guna Vijnaneeyam unit: etymological derivation, classification and enumeration of Guna according to different Darshanas and Charaka; Lakshana and classification of Sartha Guna, Gurvadi Guna, Paradi Guna and Adhyatma Guna (41 Guna); Gunapradhanyata; practical/clinical application of each Guna; and principles/examples from contemporary sciences that help understanding the concept of Guna. The official NCISM curriculum identifies Guna Vijnaneeyam as Topic 4 of AyUG-PV. citeturn2search16turn2search22
+This chapter follows the NCISM Guna Vijnaneeyam unit: etymological derivation, classification and enumeration of Guna according to different Darshanas and Charaka; Lakshana and classification of Sartha Guna, Gurvadi Guna, Paradi Guna and Adhyatma Guna (41 Guna); Gunapradhanyata; practical/clinical application of each Guna; and principles/examples from contemporary sciences that help understanding the concept of Guna. The official NCISM curriculum identifies Guna Vijnaneeyam as Topic 4 of AyUG-PV.
 
 ## 1. Learning objectives
 
@@ -743,7 +743,7 @@ The procedure, material, dose and indication determine the actual therapeutic ef
 
 # 20. Practical identification of Guna
 
-NCISM practical learning expects students to identify Gunas in actual Dravyas and relate them to Ayurvedic application. citeturn2search4turn2search10
+NCISM practical learning expects students to identify Gunas in actual Dravyas and relate them to Ayurvedic application.
 
 ### Practical exercise A — five Sartha Gunas
 
@@ -788,7 +788,7 @@ Create real-life situations illustrating:
 
 # 21. Contemporary science: how to use it correctly
 
-NCISM specifically asks students to discuss principles and examples from contemporary sciences that enhance understanding of Guna. citeturn2search0turn2search19
+NCISM specifically asks students to discuss principles and examples from contemporary sciences that enhance understanding of Guna.
 
 These comparisons should be used as **learning analogies**, not as claims that modern science has experimentally proven the classical Guna theory.
 
@@ -1269,6 +1269,6 @@ Contemporary science can provide useful analogies for selected concepts, but cla
 
 ## NCISM alignment
 
-This chapter covers the five syllabus components of **Guna Vijnaneeyam**: derivation/classification and enumeration according to Darshana and Charaka; Sartha, Gurvadi, Paradi and Adhyatma Guna (41); Gunapradhanyata; practical/clinical application; and contemporary-science examples that enhance conceptual understanding. citeturn2search16turn2search0
+This chapter covers the five syllabus components of **Guna Vijnaneeyam**: derivation/classification and enumeration according to Darshana and Charaka; Sartha, Gurvadi, Paradi and Adhyatma Guna (41); Gunapradhanyata; practical/clinical application; and contemporary-science examples that enhance conceptual understanding.
 
 **Next:** Chapter 5 — Karma Vijnaneeyam.
