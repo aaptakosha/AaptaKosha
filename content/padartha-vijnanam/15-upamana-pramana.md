@@ -395,7 +395,37 @@ However, the final therapeutic decision requires appropriate clinical reasoning.
 
 ---
 
-# 21. Upamana in Bhaishajya Kalpana
+# 21. NCISM application focus — Sharir and diagnostics
+
+The NCISM scope for Upamana Pramana includes application in **Sharir, diagnostics, therapeutics and research**. Comparison is especially useful when a learner is first introduced to an unfamiliar anatomical structure, physiological process or clinical finding.
+
+### Sharir
+
+In **Rachana Sharira**, comparison may help identify the shape, position, relations or surface features of an anatomical structure when the reference comparison is clear and verified.
+
+In **Kriya Sharira**, comparison may be used as an explanatory aid for processes such as flow, exchange, filtration or regulation.
+
+The comparison remains an educational aid; exact anatomical and physiological facts must be learned from prescribed sources and practical observation.
+
+### Diagnostics
+
+In **Roganidana**, comparison may help the student recognize whether a present finding resembles a previously described clinical feature. The learner should compare relevant characteristics rather than rely on superficial resemblance.
+
+A safe diagnostic sequence is:
+
+**History → direct examination → relevant comparison → differential consideration → appropriate investigation → clinical conclusion**
+
+Upamana therefore supports recognition, but it does not by itself establish a diagnosis. Diagnostic conclusions should be integrated with appropriate Pramana and clinical evidence.
+
+### Examination point
+
+When asked for applications of Upamana, remember:
+
+**Sharir + Diagnostics + Therapeutics + Research**
+
+This prevents limiting Upamana only to philosophical or therapeutic examples.
+
+# 23. Upamana in Bhaishajya Kalpana
 
 Students may encounter formulations that resemble familiar dosage forms.
 
@@ -411,7 +441,7 @@ But actual pharmaceutical identity must be established by the prescribed technic
 
 ---
 
-# 22. Upamana in Shalakya and clinical examination
+# 23. Upamana in Shalakya and clinical examination
 
 Clinical examination often teaches recognition through comparison.
 
@@ -429,7 +459,7 @@ Examples:
 
 ---
 
-# 23. Upamana in Ashtanga Ayurveda
+# 24. Upamana in Ashtanga Ayurveda
 
 The NCISM practical outcome specifically asks students to identify examples of Upamana from **Ashtanga**. citeturn0search1
 
@@ -455,7 +485,7 @@ For each branch, students can record:
 
 ---
 
-# 24. Practical Ashtanga example-record format
+# 25. Practical Ashtanga example-record format
 
 | Branch | Classical description | Known comparison | Similarity | Knowledge gained | Source |
 |---|---|---|---|---|---|
@@ -474,7 +504,7 @@ The exact classical examples should be filled from the institution's prescribed 
 
 ---
 
-# 25. Upamana in research
+# 26. Upamana in research
 
 Comparison is fundamental to research, but modern scientific comparison is not automatically identical to classical Upamana.
 
@@ -498,7 +528,7 @@ They may be compared pedagogically, but should not be declared identical.
 
 ---
 
-# 26. Upamana and pattern recognition
+# 27. Upamana and pattern recognition
 
 Modern clinical education frequently develops pattern recognition.
 
@@ -516,7 +546,7 @@ The exact epistemic structure matters.
 
 ---
 
-# 27. Upamana and artificial intelligence
+# 28. Upamana and artificial intelligence
 
 AI systems frequently use similarity or pattern matching.
 
@@ -544,7 +574,7 @@ Its validity depends on:
 
 ---
 
-# 28. Appropriate versus inappropriate comparison
+# 29. Appropriate versus inappropriate comparison
 
 ### Appropriate
 
@@ -562,7 +592,7 @@ A person sees superficial resemblance and assumes:
 
 ---
 
-# 29. Clinical safety and Upamana
+# 30. Clinical safety and Upamana
 
 Comparison can cause dangerous errors when the reference is poor.
 
@@ -581,7 +611,7 @@ Potential problems:
 
 ---
 
-# 30. Common misconceptions
+# 31. Common misconceptions
 
 ### Misconception 1
 **Upamana means any comparison.**
@@ -615,7 +645,7 @@ Potential problems:
 
 ---
 
-# 31. High-yield examination points
+# 32. High-yield examination points
 
 1. Upamana is a Pramana accepted as distinct by relevant philosophical schools.
 2. Its central idea is comparison/similarity in generating specific knowledge.
@@ -634,7 +664,7 @@ Potential problems:
 
 ---
 
-# 32. Exam-ready definitions
+# 33. Exam-ready definitions
 
 ### Upamana
 
@@ -650,7 +680,7 @@ Potential problems:
 
 ---
 
-# 33. Short-answer questions
+# 34. Short-answer questions
 
 1. Define Upamana.
 2. Explain the Lakshana of Upamana.
@@ -669,7 +699,7 @@ Potential problems:
 
 ---
 
-# 34. Long-answer questions
+# 35. Long-answer questions
 
 ### LAQ 1
 Define Upamana and explain its classical example in detail.
@@ -691,7 +721,7 @@ Describe how Upamana can be identified and demonstrated through examples from As
 
 ---
 
-# 35. Viva questions
+# 36. Viva questions
 
 **Q1. What is Upamana?**  
 A Pramana involving comparison/similarity in generating specific knowledge.
@@ -722,7 +752,7 @@ Application in therapeutics and research, with practical examples. citetur
 
 ---
 
-# 36. MCQs
+# 37. MCQs
 
 ### 1. Upamana primarily involves:
 A. Absence  
@@ -790,7 +820,7 @@ D. Only history
 
 ---
 
-# 37. Practical record format
+# 38. Practical record format
 
 | Item | Record |
 |---|---|
@@ -807,7 +837,7 @@ D. Only history
 
 ---
 
-# 38. Practical exercise — Dravyaguna
+# 39. Practical exercise — Dravyaguna
 
 Select a medicinal plant specimen.
 
@@ -827,7 +857,7 @@ Comparison can aid identification, but botanical and pharmacognostic verificatio
 
 ---
 
-# 39. Practical exercise — clinical recognition
+# 40. Practical exercise — clinical recognition
 
 Choose one clinical finding that is commonly taught through comparison.
 
@@ -846,7 +876,7 @@ Record:
 
 ---
 
-# 40. Ashtanga practical assignment
+# 41. Ashtanga practical assignment
 
 For each of the eight branches of Ayurveda:
 
@@ -862,7 +892,7 @@ This directly supports the NCISM practical outcome concerning identification of 
 
 ---
 
-# 41. Research application exercise
+# 42. Research application exercise
 
 ### Question
 
@@ -890,7 +920,7 @@ The similarity may generate a hypothesis or support further investigation, but e
 
 ---
 
-# 42. Integrated clinical case
+# 43. Integrated clinical case
 
 ### Case
 
@@ -925,7 +955,7 @@ The student should verify the identity using:
 
 ---
 
-# 43. Integrated concept map
+# 44. Integrated concept map
 
 **UPAMANA**
 
@@ -975,7 +1005,7 @@ The student should verify the identity using:
 
 ---
 
-# 44. Rapid revision sheet
+# 45. Rapid revision sheet
 
 **UPAMANA = COMPARISON-BASED PRAMANA**
 
@@ -1012,7 +1042,7 @@ The student should verify the identity using:
 
 ---
 
-# 45. Summary
+# 46. Summary
 
 Upamana is a classical Pramana centred on comparison and similarity. In the standard Nyaya-style example, a person who knows a cow is told that gavaya resembles a cow. On later encountering the unfamiliar animal and recognizing the relevant similarity, the person acquires knowledge of the relation between the word and the object.
 
