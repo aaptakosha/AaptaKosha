@@ -17,6 +17,8 @@ class AuditParser(HTMLParser):
         self.labels: list[dict[str, str]] = []
         self.nav_depth = 0
         self.nav_hrefs: list[str] = []
+        self.nav_groups: list[list[str]] = []
+        self.current_nav: list[str] | None = None
         self.current_anchor: dict[str, str] | None = None
         self.anchor_text = ""
         self.anchor_hidden_depth = 0
@@ -28,6 +30,8 @@ class AuditParser(HTMLParser):
             self.links.append(data["href"])
             if self.nav_depth:
                 self.nav_hrefs.append(data["href"])
+                if self.current_nav is not None:
+                    self.current_nav.append(data["href"])
             self.current_anchor = data
             self.anchor_text = ""
         elif tag == "input":
@@ -36,6 +40,7 @@ class AuditParser(HTMLParser):
             self.labels.append(data)
         elif tag == "nav":
             self.nav_depth += 1
+            self.current_nav = []
         elif self.current_anchor is not None and data.get("aria-hidden") == "true":
             self.anchor_hidden_depth += 1
         elif tag == "script" and data.get("src"):
@@ -50,6 +55,9 @@ class AuditParser(HTMLParser):
             self.anchor_text = ""
             self.anchor_hidden_depth = 0
         elif tag == "nav":
+            if self.current_nav is not None:
+                self.nav_groups.append(self.current_nav)
+            self.current_nav = None
             self.nav_depth = max(0, self.nav_depth - 1)
 
     def handle_data(self, data):
@@ -102,9 +110,10 @@ for html in HTML_FILES:
             errors.append(f"{html.relative_to(ROOT)}:{line} -> navigation icon text must be wrapped in aria-hidden span: {text!r}")
 
     # Catch accidental duplicate navigation destinations on the same nav.
-    duplicates = {href for href in parser.nav_hrefs if parser.nav_hrefs.count(href) > 1}
-    for href in sorted(duplicates):
-        errors.append(f"{html.relative_to(ROOT)} -> duplicate navigation href {href}")
+    for group in parser.nav_groups:
+        duplicates = {href for href in group if group.count(href) > 1}
+        for href in sorted(duplicates):
+            errors.append(f"{html.relative_to(ROOT)} -> duplicate navigation href in one nav group: {href}")
 
 if errors:
     print("\n".join(errors))
