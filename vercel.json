@@ -9,11 +9,18 @@
     "api/catalog.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/**}"
     },
+    "api/content.py": {
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/**}"
+    },
     "api/curriculum_content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
     }
   },
   "rewrites": [
+    {
+      "source": "/api/content/:path*",
+      "destination": "/api/content.py?route=content/:path*"
+    },
     {
       "source": "/api/curriculum/content",
       "destination": "/api/curriculum_content.py"
