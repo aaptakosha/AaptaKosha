@@ -1,0 +1,512 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-2",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.2",
+  "chapter_title": "Dinacharya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "source_basis": {
+    "authority": "NCISM",
+    "syllabus": "AyUG-SA1, Ashtanga Hridaya Sutrasthana 1-15",
+    "chapter_sequence": "Sutrasthana 2",
+    "primary_source": "Ashtanga Hridaya Sutrasthana 2"
+  },
+  "status": "content_complete_student_layer",
+  "scope_note": "Complete NCISM-aligned student study layer for Dinacharya Adhyaya: all 48 numbered Sanskrit verses with original verse-wise student meanings, traditional supplementary text preserved, conceptual organization, exam preparation and revision support. Historical practices and culturally specific instructions are contextualized rather than presented as modern medical advice.",
+  "learning_outcomes": [
+    "Define Dinacharya and explain its place in Swasthavritta.",
+    "Explain the classical sequence of morning regimen from Pratarutthana through Dantadhavana, Anjana and related practices.",
+    "Describe Abhyanga, its classical benefits, special sites and contraindications.",
+    "Explain Vyayama, its benefits, appropriate dose, seasonal variation and hazards of over-exertion.",
+    "Explain Udvartana and Snana with their classical indications and precautions.",
+    "Enumerate and explain the ten harmful actions described in the Sadvritta section.",
+    "Explain the principles of appropriate speech, social conduct, sensory moderation, personal hygiene and environmental safety.",
+    "Explain the fivefold summary of Sadvritta and the role of daily self-review.",
+    "Distinguish historical classical prescriptions from modern clinical and public-health practice."
+  ],
+  "sections": [
+    {
+      "id": "01-pratarutthana-dantadhavana",
+      "title": "1. Pratarutthana and Dantadhavana (Verses 1-4)",
+      "content": [
+        "Brahma Muhurta and the classical purpose of beginning the day with disciplined routine.",
+        "Classical tooth-cleaning materials, taste profile, twig dimensions and technique.",
+        "Contraindications to mechanical tooth-cleaning in specified clinical conditions."
+      ]
+    },
+    {
+      "id": "02-anjana-tambula",
+      "title": "2. Anjana, Navana, Gandusha, Dhuma and Tambula (Verses 5-7)",
+      "content": [
+        "Classical eye-care concepts and the role of Sauviranjana and Rasanjana.",
+        "Sequence of morning head and sense-organ practices.",
+        "Tambula and its classical contraindications; distinction from modern tobacco-containing products."
+      ]
+    },
+    {
+      "id": "03-abhyanga",
+      "title": "3. Abhyanga (Verses 8-9)",
+      "content": [
+        "Daily oil massage and its classical benefits.",
+        "Special importance of head, ears and feet.",
+        "Contraindications and situations requiring modification."
+      ]
+    },
+    {
+      "id": "04-vyayama-udvartana",
+      "title": "4. Vyayama and Udvartana (Verses 10-15)",
+      "content": [
+        "Benefits of exercise.",
+        "Half-strength principle and seasonal variation.",
+        "Contraindications and hazards of over-exercise.",
+        "Udvartana and its classical effects on kapha, medas, body firmness and skin."
+      ]
+    },
+    {
+      "id": "05-snana",
+      "title": "5. Snana (Verses 16-18)",
+      "content": [
+        "Benefits of bathing.",
+        "Classical distinction between warm-water use for body and head.",
+        "Situations in which bathing is contraindicated or should be modified."
+      ]
+    },
+    {
+      "id": "06-sadvritta-foundations",
+      "title": "6. Sadvritta: Foundations (Verses 19-25)",
+      "content": [
+        "Food after digestion and management of natural urges.",
+        "Dharma as the ethical foundation of happiness.",
+        "Kalyana-mitra and avoidance of harmful company.",
+        "Ten harmful actions of body, speech and mind.",
+        "Compassion, respect, helpfulness and equanimity."
+      ]
+    },
+    {
+      "id": "07-sadvritta-daily-conduct",
+      "title": "7. Sadvritta: Speech, Social, Environmental and Personal Conduct (Verses 26-44)",
+      "content": [
+        "Qualities of appropriate speech.",
+        "Moderation in trust and social interaction.",
+        "Sense restraint and the middle path.",
+        "Personal cleanliness, dress and travel safety.",
+        "Environmental hazards, posture, rest and historically contextualized social prescriptions."
+      ]
+    },
+    {
+      "id": "08-integration",
+      "title": "8. Integration, Sadvritta Summary and Phala-shruti (Verses 45-48)",
+      "content": [
+        "Learning from the world through critical observation.",
+        "Five-fold summary of Sadvritta.",
+        "Daily self-review through Sannihita-smriti.",
+        "Traditional fruits and conclusion of the chapter."
+      ]
+    }
+  ],
+  "key_terms": [
+    "Dinacharya",
+    "Brahma Muhurta",
+    "Dantadhavana",
+    "Anjana",
+    "Rasanjana",
+    "Sauviranjana",
+    "Navana",
+    "Gandusha",
+    "Dhuma",
+    "Tambula",
+    "Abhyanga",
+    "Vyayama",
+    "Ardha-shakti",
+    "Udvartana",
+    "Snana",
+    "Sadvritta",
+    "Dharma",
+    "Kalyana-mitra",
+    "Trivarga",
+    "Pararadhana",
+    "Sannihita-smriti",
+    "Phala-shruti"
+  ],
+  "exam_focus": [
+    "Define Dinacharya and explain Pratarutthana.",
+    "Dantadhavana: suitable classical materials, characteristics and contraindications.",
+    "Anjana, Rasanjana, Navana, Gandusha, Dhuma and Tambula.",
+    "Abhyanga: benefits, special sites and contraindications.",
+    "Vyayama: benefits, half-strength principle, seasonal variation, contraindications and complications of excess.",
+    "Udvartana and Snana: benefits and contraindications.",
+    "Ten harmful actions (papa karma) of body, speech and mind in verses 21-22.",
+    "Qualities of appropriate speech in verse 26.",
+    "Moderation of senses and Trivarga in verses 29-30.",
+    "Personal hygiene, travel and environmental safety teachings in verses 31-44.",
+    "Fivefold summary of Sadvritta in verse 46 and daily review in verse 47.",
+    "Phala-shruti of verse 48."
+  ],
+  "content_quality": {
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 48,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "classical_sanskrit_verified": true,
+    "supplementary_text_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "verse_count": 48,
+  "source_text": {
+    "source_type": "Classical Sanskrit chapter text",
+    "source_locator": "Ashtanga Hridaya Sutrasthana 2, verses 1-48",
+    "text_sources": [
+      "Wikisource, Ashtanga Hridaya Sutrasthana Chapter 2",
+      "Ayana Ayurveda, Ashtanga Hrudayam Sutrasthanam Dinacaryadhyayah",
+      "Siva.sh, Astanga Hrudaya Sutra Sthana Chapter 2"
+    ],
+    "verification_note": "The 48 numbered verses were checked against the classical chapter text. Traditional supplementary markers 5.1+1, 38+1 and 47+1 are preserved separately rather than silently discarded. Student meanings are original explanatory summaries, not copied translations."
+  },
+  "student_support": {
+    "concept_map": [
+      "Verses 1-4: waking and oral hygiene",
+      "Verses 5-7: eye care, nasal/oral practices and tambula",
+      "Verses 8-9: abhyanga",
+      "Verses 10-14: vyayama and over-exertion",
+      "Verse 15: udvartana",
+      "Verses 16-18: snana",
+      "Verses 19-25: foundational Sadvritta",
+      "Verses 26-44: speech, social conduct, cleanliness, travel and hazard avoidance",
+      "Verses 45-48: integration, Sadvritta summary, self-review and phala-shruti"
+    ],
+    "must_memorize": [
+      "Classical sequence of Dinacharya practices",
+      "Dantadhavana materials and contraindications",
+      "Anjana-related practices and their classical purpose",
+      "Abhyanga benefits, special sites and contraindications",
+      "Vyayama benefits, half-strength principle and complications of over-exercise",
+      "Udvartana benefits",
+      "Snana benefits, warm-water rule and contraindications",
+      "Ten harmful actions in verses 21-22",
+      "Qualities of appropriate speech",
+      "Trivarga and middle-path principle",
+      "Fivefold Sadvritta summary of verse 46",
+      "Daily self-review of verse 47",
+      "Traditional fruits of verse 48"
+    ],
+    "exam_questions": {
+      "long_answer": [
+        "Explain Dinacharya according to Ashtanga Hridaya with special reference to Pratarutthana, Dantadhavana, Anjana, Abhyanga, Vyayama, Udvartana and Snana.",
+        "Describe Abhyanga and Vyayama with their benefits, indications/contraindications and appropriate use.",
+        "Explain the concept of Sadvritta and discuss the ten harmful actions described in verses 21-22.",
+        "Describe the principles of speech, social conduct, sensory moderation and personal hygiene taught in Dinacharya Adhyaya.",
+        "Explain the fivefold summary of Sadvritta and the role of Sannihita-smriti."
+      ],
+      "short_answer": [
+        "Define Dinacharya.",
+        "What is Brahma Muhurta?",
+        "Enumerate classical Dantadhavana materials.",
+        "List the contraindications of Dantadhavana.",
+        "Name the special sites of Abhyanga.",
+        "What are the benefits of Vyayama?",
+        "Explain Ardha-shakti in Vyayama.",
+        "List complications of Ati-vyayama.",
+        "What is Udvartana?",
+        "Enumerate contraindications of Snana.",
+        "Enumerate the ten harmful actions of verses 21-22.",
+        "State the qualities of appropriate speech in verse 26.",
+        "What is Trivarga?",
+        "What is Sannihita-smriti?"
+      ],
+      "viva": [
+        "Why is Dinacharya placed immediately after Ayushkamiya?",
+        "What is the classical rationale for waking at Brahma Muhurta?",
+        "Why are head, ears and feet emphasized in Abhyanga?",
+        "What is the half-strength principle of Vyayama?",
+        "What does Sadvritta add to physical daily regimen?",
+        "What is the practical meaning of Sannihita-smriti?"
+      ],
+      "mcq_topics": [
+        "Verse-to-practice identification",
+        "Benefits and contraindications of Abhyanga",
+        "Vyayama dose and complications",
+        "Dantadhavana and Anjana",
+        "Ten harmful actions",
+        "Speech qualities",
+        "Trivarga and moderation",
+        "Sadvritta summary and phala-shruti"
+      ]
+    },
+    "revision_summary": [
+      "Dinacharya integrates physical hygiene, exercise, bathing and behavioural discipline.",
+      "Verses 1-18 establish the bodily daily regimen.",
+      "Verses 19-44 expand the concept into Sadvritta: food discipline, ethical conduct, speech, relationships, hygiene and safety.",
+      "Verse 46 compresses Sadvritta into five principles; verse 47 adds daily self-review.",
+      "Verse 48 gives the traditional phala-shruti and closes the chapter."
+    ]
+  },
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "ब्राह्मे मुहूर्त उत्तिष्ठेत्स्वस्थो रक्षार्थमायुषः । शरीरचिन्तां निर्वर्त्य कृतशौचविधिस्ततः ॥१॥",
+      "student_meaning": "स्वस्थ व्यक्ति आयु की रक्षा के लिए ब्राह्ममुहूर्त में उठे, शरीर की स्थिति पर विचार करे और शौच आदि की प्रक्रिया पूरी करे।"
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "अर्कन्यग्रोधखदिरकरञ्जककुभादिजम् । प्रातर्भुक्त्वा च मृद्वग्रं कषायकटुतिक्तकम् ॥२॥",
+      "student_meaning": "उपयुक्त औषधीय वृक्षों की टहनी से दन्तधावन करे; उसका अग्रभाग कोमल हो और रस कषाय, कटु तथा तिक्त हो।"
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "कनीन्यग्रसमस्थौल्यं प्रगुणं द्वादशाङ्गुलम् । भक्षयेद्दन्तपवनं दन्तमांसान्यबाधयन् ॥३॥",
+      "student_meaning": "दन्तकाष्ठ कनिष्ठिका के अग्रभाग जितना मोटा, सीधा और बारह अंगुल लंबा हो; दाँत और मसूड़ों को चोट न पहुँचे।"
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "भक्षयेद्दन्तधवनं नाद्यादजीर्णवमथुश्वासकासज्वरार्दिती । तृष्णास्यपाकहृन्नेत्रशिरःकर्णामयी च तत् ॥४॥",
+      "student_meaning": "अजीर्ण, उल्टी, श्वास-कास, ज्वर, अर्दित, अत्यधिक तृष्णा, मुखपाक तथा हृदय, नेत्र, शिर और कर्ण के रोगों में दन्तधावन वर्जित है।"
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "सौवीरमञ्जनं नित्यं हितमक्ष्णोस्ततो भजेत् । चक्षुस्तेजोमयं तस्य विशेषाच्छ्लेष्मतो भयम् ॥५॥",
+      "student_meaning": "दन्तधावन के बाद नेत्रों के लिए सौवीर अंजन के नित्य प्रयोग का निर्देश है और विशेषतः कफ से नेत्र की रक्षा पर बल है।"
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "योजयेत्सप्तरात्रेऽस्मात्स्रावणार्थं रसाञ्जनम् । ततो नावनगण्डूषधूमताम्बूलभाग्भवेत् ॥६॥",
+      "student_meaning": "सप्त रात्रि के अंतराल पर स्रावण के लिए रसाञ्जन तथा उसके बाद नावन, गण्डूष, धूम और ताम्बूल का क्रम बताया गया है।"
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "ताम्बूलं क्षतपित्तास्ररूक्षोत्कुपितचक्षुषाम् । विषमूर्छामदार्तानामपथ्यं शोषिणामपि ॥७॥",
+      "student_meaning": "क्षत, पित्त-रक्त विकार, रूक्षता, नेत्र-विकार, विष, मूर्च्छा, मद और शोष जैसी स्थितियों में ताम्बूल अपथ्य है।"
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "अभ्यङ्गमाचरेन्नित्यं स जराश्रमवातहा । दृष्टिप्रसादपुष्ट्यायुःस्वप्नसुत्वक्त्वदार्ढ्यकृत् ॥८॥",
+      "student_meaning": "नित्य अभ्यंग जरा, श्रम और वात को कम करने तथा दृष्टि, पुष्टि, आयु, निद्रा, त्वचा और शरीर की दृढ़ता के लिए हितकर बताया गया है।"
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "शिरःश्रवणपादेषु तं विशेषेण शीलयेत् । वर्ज्योऽभ्यङ्गः कफग्रस्तकृतसंशुद्ध्यजीर्णिभिः ॥९॥",
+      "student_meaning": "अभ्यंग का विशेष अभ्यास सिर, कान और पैरों में किया जाए; कफग्रस्त, हाल में शोधन कर चुके और अजीर्ण व्यक्ति में इसे वर्जित किया गया है।"
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "लाघवं कर्मसामर्थ्यं दीप्तोऽग्निर्मेदसः क्षयः । विभक्तघनगात्रत्वं व्यायामादुपजायते ॥१०॥",
+      "student_meaning": "व्यायाम से लाघव, कर्म-सामर्थ्य, अग्निदीप्ति, मेदक्षय और सुगठित दृढ़ अंग प्राप्त होते हैं।"
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "वातपित्तामयी बालो वृद्धोऽजीर्णो च तं त्यजेत् । अर्धशक्त्या निषेव्यस्तु बलिभिः स्निग्धभोजिभिः ॥११॥",
+      "student_meaning": "वात-पित्त विकार, बाल्य, वृद्धावस्था या अजीर्ण में व्यायाम छोड़ें; बलवान और स्निग्ध आहार लेने वाला व्यक्ति आधी शक्ति तक व्यायाम करे।"
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "शीतकाले वसन्ते च मन्दमेव ततोऽन्यदा । तं कृत्वानुसुखं देहं मर्दयेच्च समन्ततः ॥१२॥",
+      "student_meaning": "शीतकाल और वसंत में निर्धारित मात्रा में तथा अन्य ऋतुओं में मंद व्यायाम करें; बाद में शरीर का सुखपूर्वक सर्वांग मर्दन करें।"
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "तृष्णा क्षयः प्रतमको रक्तपित्तं श्रमः क्लमः । अतिव्यायामतः कासो ज्वरश्छर्दिश्च जायते ॥१३॥",
+      "student_meaning": "अतिव्यायाम से तृष्णा, क्षय, प्रतमक, रक्तपित्त, श्रम, क्लम तथा कास, ज्वर और छर्दि जैसी समस्याएँ हो सकती हैं।"
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "व्यायामजागराध्वस्त्रीहास्यभाष्यादिसाहसम् । गजं सिंह इवाकर्षन् भजन्नतिविनश्यति ॥१४॥",
+      "student_meaning": "व्यायाम, अतिजागरण, अधिक यात्रा, मैथुन, हास्य, अधिक बोलना और अन्य साहसिक अतिरेक में बल से अधिक प्रवृत्ति विनाशकारी हो सकती है।"
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "उद्वर्तनं कफहरं मेदसः प्रविलायनम् । स्थिरीकरणमङ्गानां त्वक्प्रसादकरं परम् ॥१५॥",
+      "student_meaning": "उद्वर्तन कफ को कम करने, मेद घटाने, अंगों को दृढ़ करने और त्वचा की प्रसन्नता बढ़ाने वाला बताया गया है।"
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "दीपनं वृष्यमायुष्यं स्नानमूर्जाबलप्रदम् । कण्डूमलश्रमस्वेदतन्द्रातृड्दाहपाप्मजित् ॥१६॥",
+      "student_meaning": "स्नान को अग्निदीपक, वृष्य, आयुष्यकर, ऊर्जा-बलदायक तथा कण्डू, मल, श्रम, स्वेद, तन्द्रा, तृष्णा, दाह और पाप्मा को दूर करने वाला कहा गया है।"
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "उष्णाम्बुनाधःकायस्य परिषेको बलावहः । तेनैव तूत्तमाङ्गस्य बलहृत्केशचक्षुषाम् ॥१७॥",
+      "student_meaning": "गर्म जल से अधोभाग का परिषेक बलवर्धक है, पर उसी गर्म जल से सिर का परिषेक केश और नेत्रों के लिए बलहारी माना गया है।"
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "स्नानमर्दितनेत्रास्यकर्णरोगातिसारिषु । आध्मानपीनसाजीर्णभुक्तवत्सु च गर्हितम् ॥१८॥",
+      "student_meaning": "अर्दित, नेत्र-मुख-कर्ण रोग, अतिसार, आध्मान, पीनस, अजीर्ण और भोजन के तुरंत बाद स्नान निषिद्ध/गर्हित है।"
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "जीर्णे हितं मितं चाद्यान्न वेगानीरयेद्बलात् । न वेगितोऽन्यकार्यः स्यान्नाजित्वा साध्यमामयम् ॥१९॥",
+      "student_meaning": "पूर्व आहार पचने पर हितकर और मित आहार लें; प्राकृतिक वेगों को बलपूर्वक न चलाएँ और उत्पन्न वेग को रोककर दूसरे कार्य में न लगें; साध्य रोग की उपेक्षा न करें।"
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "सुखार्थाः सर्वभूतानां मताः सर्वाः प्रवृत्तयः । सुखं च न विना धर्मात्तस्माद्धर्मपरो भवेत् ॥२०॥",
+      "student_meaning": "सभी प्राणियों की प्रवृत्तियाँ सुख के लिए हैं और स्थायी सुख धर्म के बिना नहीं; इसलिए धर्मप्रधान आचरण करना चाहिए।"
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "भक्त्या कल्याणमित्राणि सेवेतेतरदूरगः । हिंसास्तेयान्यथाकामं पैशुन्यं परुषानृते ॥२१॥",
+      "student_meaning": "कल्याणकारी मित्रों की श्रद्धापूर्वक संगति करें और अहितकारी संगति से दूर रहें; हिंसा, चोरी, अनुचित काम, चुगली, कठोर वचन और असत्य से बचें।"
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "संभिन्नालापं व्यापादमभिध्यां दृग्विपर्ययम् । पापं कर्मेति दशधा कायवाङ्मानसैस्त्यजेत् ॥२२॥",
+      "student_meaning": "असंबद्ध प्रलाप, दूसरों के अहित की इच्छा, परवस्तु की लालसा और सत्य-दृष्टि के विपरीत विचार सहित दस पापकर्मों को शरीर, वाणी और मन से त्यागना चाहिए।"
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "अवृत्तिव्याधिशोकार्ताननुवर्तेत शक्तितः । आत्मवत्सततं पश्येदपि कीटपिपीलिकम् ॥२३॥",
+      "student_meaning": "जीविका-विहीन, रोग या शोक से पीड़ित लोगों की सामर्थ्य अनुसार सहायता करें और कीट-पिपीलिका तक को अपने समान समझें।"
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "अर्चयेद्देवगोविप्रवृद्धवैद्यनृपातिथीन् । विमुखान्नार्थिनः कुर्यान्नावमन्येत नाक्षिपेत् ॥२४॥",
+      "student_meaning": "देव, गौ, विप्र, वृद्ध, वैद्य, शासक और अतिथि का सम्मान करें; याचक को अपमानित या तिरस्कृत न करें।"
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "उपकारप्रधानः स्यादपकारपरेऽप्यरौ । संपद्विपत्स्वेकमना हेतावीर्ष्येत्फले न तु ॥२५॥",
+      "student_meaning": "शत्रु भी अपकार करे तो भी उपकारप्रधान रहें; संपत्ति और विपत्ति में समचित्त रहें और साधन में प्रेरणा रखें, फल में ईर्ष्या नहीं।"
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "काले हितं मितं ब्रूयादविसंवादि पेशलम् । पूर्वाभिभाषी सुमुखः सुशीलः करुणामृदुः ॥२६॥",
+      "student_meaning": "उचित समय पर हितकर, मित, सत्य और मधुर वचन बोलें; स्वयं पहले अभिवादन करें, प्रसन्नमुख, सुशील, करुणामय और मृदु रहें।"
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "नैकः सुखी न सर्वत्र विश्रब्धो न च शङ्कितः । न कञ्चिदात्मनः शत्रुं नात्मानं कस्यचिद्रिपुम् ॥२७॥",
+      "student_meaning": "सुख को अकेले न भोगें; हर व्यक्ति पर अंधविश्वास या हर व्यक्ति पर संदेह न करें; अपनी और दूसरों की शत्रुता को अनावश्यक रूप से प्रकट न करें।"
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "प्रकाशयेन्नापमानं न च निःस्नेहतां प्रभोः । जनस्याशयमालक्ष्य यो यथा परितुष्यति ॥२८॥",
+      "student_meaning": "अपना अपमान या स्वामी/अधिकारी की उदासीनता सार्वजनिक न करें; व्यक्ति की प्रवृत्ति और प्रसन्न होने के ढंग को समझकर व्यवहार करें।"
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "तं तथैवानुवर्तेत पराराधनपण्डितः । न पीडयेदिन्द्रियाणि न चैतान्यतिलालयेत् ॥२९॥",
+      "student_meaning": "दूसरों की संतुष्टि के अनुरूप विवेकपूर्ण व्यवहार करें; इन्द्रियों को न कष्ट दें और न ही अतिशय लाड़-प्यार करें।"
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "त्रिवर्गशून्यं नारम्भं भजेत्तं चाविरोधयन् । अनुयायात्प्रतिपदं सर्वधर्मेषु मध्यमाम् ॥३०॥",
+      "student_meaning": "धर्म, अर्थ और काम से रहित या इनके परस्पर विरोध वाला कार्य न अपनाएँ; सभी आचरणों में मध्यम मार्ग अपनाएँ।"
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "नीचरोमनखश्मश्रुर्निर्मलाङ्घ्रिमलायनः । स्नानशीलः सुसुरभिः सुवेषोऽनुल्बणोज्ज्वलः ॥३१॥",
+      "student_meaning": "रोम, नख और श्मश्रु व्यवस्थित रखें; पैर और शरीर स्वच्छ रखें, स्नानशील, सुगंधित, स्वच्छ और मर्यादित वेश धारण करें।"
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "धारयेत्सततं रत्नसिद्धमन्त्रमहौषधीः । सातपत्रपदत्राणो विचरेद्युगमात्रदृक् ॥३२॥",
+      "student_meaning": "परंपरा में रत्न, सिद्ध मंत्र और महौषधि धारण का उल्लेख है; बाहर चलते समय छत्र-पादत्राण रखें और आगे सीमित दूरी तक देखकर चलें।"
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "निशि चात्ययिके कार्ये दण्डी मौली सहायवान् । चैत्यपूज्यध्वजाशस्तच्छायाभस्मतुषाशुचीन् ॥३३॥",
+      "student_meaning": "रात्रि में अत्यावश्यक कार्य हो तो दण्ड, सिर का आवरण और सहायक सहित चलें; विशिष्ट/पूजनीय स्थानों और भस्म, तुष तथा अशुचि जैसे स्थलों के प्रति सावधान रहें।"
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "नाक्रामेच्छर्करालोष्टबलिस्नानभुवो न च । नदीं तरेन्न बाहुभ्यां नाग्निस्कन्धमभिव्रजेत् ॥३४॥",
+      "student_meaning": "कंकड़, मिट्टी के ढेले, बलि या स्नान के स्थानों पर पैर न रखें; नदी को केवल बाहुओं के बल तैरकर पार न करें और बड़ी अग्निराशि की ओर न जाएँ।"
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "संदिग्धनावं वृक्षं च नारोहेद्दुष्टयानवत् । नासंवृतमुखः कुर्यात्क्षुतिहास्यविजृम्भणम् ॥३५॥",
+      "student_meaning": "संदिग्ध नाव, असुरक्षित वृक्ष या दोषपूर्ण वाहन पर न चढ़ें; छींक, हँसी और जम्हाई जैसी क्रियाएँ खुले मुँह से न करें।"
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "नासिकां न विकुष्णीयान्नाकस्माद्विलिखेद्भुवम् । नाङ्गैश्चेष्टेत विगुणं नासीतोत्कटकश्चिरम् ॥३६॥",
+      "student_meaning": "नाक या अन्य शरीर-छिद्रों को अनावश्यक रूप से न कुरेदें, बिना कारण भूमि न खरोंचें, अशिष्ट शारीरिक चेष्टाएँ न करें और लंबे समय तक उत्कट आसन में न बैठें।"
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "देहवाक्चेतसां चेष्टाः प्राक्श्रमाद्विनिवर्तयेत् । नोर्ध्वजानुश्चिरं तिष्ठेन्नक्तं सेवेत न द्रुमम् ॥३७॥",
+      "student_meaning": "शरीर, वाणी और मन की गतिविधियाँ अत्यधिक थकान से पहले रोकें; लंबे समय तक घुटने उठाकर न रहें और रात में वृक्ष के नीचे न ठहरें।"
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "तथा चत्वरचैत्यान्तश्चतुष्पथसुरालयान् । सूनाटवीशून्यगृहश्मशानानि दिवापि न ॥३८॥",
+      "student_meaning": "रात में चत्वर, चैत्य-समीप, चौराहा और देवालय से बचें; वधस्थान, निर्जन वन, सूना घर और श्मशान से दिन में भी दूर रहें।"
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "सर्वथेक्षेत नादित्यं न भारं शिरसा वहेत् । नेक्षेत प्रततं सूक्ष्मं दीप्तामेध्याप्रियाणि च ॥३९॥",
+      "student_meaning": "सूर्य को अनुचित रूप से न देखें, सिर पर भारी भार न रखें और अत्यधिक देर तक सूक्ष्म, बहुत चमकीली, अशुचि या अप्रिय वस्तुओं को न देखें।"
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "मद्यविक्रयसंधानदानादानानि नाचरेत् । पुरोवातातपरजस्तुषारपरुषानिलान् ॥४०॥",
+      "student_meaning": "मद्य के विक्रय, निर्माण, दान या अनुचित ग्रहण से बचें; प्रतिकूल हवा, तीव्र धूप, धूल, तुषार और कठोर हवा से भी बचें।"
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "अनृजुः क्षवथूद्गारकासस्वप्नान्नमैथुनम् । कूलच्छायां नृपद्विष्टं व्यालदंष्ट्रिविषाणिनः ॥४१॥",
+      "student_meaning": "अनुचित/अशिष्ट व्यवहार तथा अनुचित छींक, डकार, खाँसी, निद्रा-भोजन-मैथुन, नदी-कूल की छाया और हिंसक पशु/जोखिमयुक्त व्यक्तियों से जुड़े प्रसंगों से बचने का निर्देश है।"
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "हीनानार्यातिनिपुणसेवां विग्रहमुत्तमैः । सन्ध्यास्वभ्यवहारस्त्रीस्वप्नाध्ययनचिन्तनम् ॥४२॥",
+      "student_meaning": "अवांछनीय संगति/सेवा, शक्तिशाली व्यक्तियों से अनावश्यक विवाद तथा संध्या समय भोजन, मैथुन, निद्रा, अध्ययन और गहन चिंतन से बचने का निर्देश है।"
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "शत्रुसत्त्रगणाकीर्णगणिकापणिकाशनम् । गात्रवक्त्रनखैर्वाद्यं हस्तकेशावधूननम् ॥४३॥",
+      "student_meaning": "अनुचित भीड़/स्थान और संदिग्ध भोजन से बचें; शरीर, मुख या नखों से वाद्य बजाने और हाथों से बाल झाड़ने जैसी आदतों से बचें।"
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "तोयाग्निपूज्यमध्येन यानं धूमं शवाश्रयम् । मद्यातिसक्तिं विश्रम्भस्वातन्त्र्ये स्त्रीषु च त्यजेत् ॥४४॥",
+      "student_meaning": "जल, अग्नि या पूजनीय व्यक्तियों के बीच से होकर न गुजरें; शव से उठने वाले धुएँ, मद्य में अति-आसक्ति और अनुचित स्वच्छंदता से बचें।"
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "आचार्यः सर्वचेष्टासु लोक एव हि धीमतः । अनुकुर्यात्तमेवातो लौकिकेऽर्थे परीक्षकः ॥४५॥",
+      "student_meaning": "बुद्धिमान के लिए लोक व्यवहार का शिक्षक है; इसलिए लौकिक आचरण में निरीक्षण और विवेक के साथ उपयोगी व्यवहार से सीखना चाहिए।"
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "आर्द्रसन्तानता त्यागः कायवाक्चेतसां दमः । स्वार्थबुद्धिः परार्थेषु पर्याप्तमिति सद्व्रतम् ॥४६॥",
+      "student_meaning": "सद्व्रत का सार करुणामय चित्त, त्याग/दान, शरीर-वाणी-मन का संयम, दूसरों के हित में अपने हित जैसा भाव और पर्याप्तता है।"
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "नक्तंदिनानि मे यान्ति कथम्भूतस्य सम्प्रति । दुःखभाङ्न भवत्येवं नित्यं सन्निहितस्मृतिः ॥४७॥",
+      "student_meaning": "नित्य आत्मस्मृति से विचार करें कि मेरे दिन-रात कैसे बीत रहे हैं और वर्तमान में मैं किस स्थिति में हूँ; ऐसी सजगता दुःख से बचाने वाली मानी गई है।"
+    },
+    {
+      "verse_number": 48,
+      "sanskrit": "इत्याचारः समासेन यं प्राप्नोति समाचरन् । आयुरारोग्यमैश्वर्यं यशो लोकांश्च शाश्वतान् ॥४८॥",
+      "student_meaning": "इस आचार का पालन करने वाला परंपरागत फलस्वरूप दीर्घायु, आरोग्य, ऐश्वर्य, यश और शाश्वत लोकों की प्राप्ति करता है।"
+    }
+  ],
+  "supplementary_verses": [
+    {
+      "marker": "5.1+1",
+      "after_verse": 5,
+      "sanskrit": "भुक्तवांश्च शिरःस्नातः श्रान्तः छर्दननावनैः । रात्रौ जागरितश्चापि नाञ्ज्याज्ज्वरित एव च ॥ ५.१+१ ॥",
+      "note": "परंपरागत पाठ में अंजन के निषेध से संबंधित यह अर्ध/पूरक पाठांश भी मिलता है।"
+    },
+    {
+      "marker": "38+1",
+      "after_verse": 38,
+      "sanskrit": "असंमार्जितमादर्शमनुपस्कृतकामिनीम् । रजस्वलां च नेक्षेत सदा प्रातरमङ्गलम् ॥ ३८+१ ॥",
+      "note": "परंपरागत पाठ में प्रातःकालीन दर्शन-संबंधी यह पूरक पाठांश मिलता है।"
+    },
+    {
+      "marker": "47+1",
+      "after_verse": 47,
+      "sanskrit": "एवं कृत्स्नदिनं नीत्वा रात्रौ यामे गृहे गते । देवानृषीन् गुरून् स्मृत्वा ततः शयनमाचरेत् ॥ ४७+१ ॥",
+      "note": "परंपरागत पाठ में रात्रि के अंत/शयन से संबंधित यह पूरक पाठांश मिलता है।"
+    }
+  ]
+}
