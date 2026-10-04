@@ -1,0 +1,395 @@
+{
+  "content_id": "ncism.y1.ayug-sa1.ah-su-8",
+  "curriculum_id": "bams_ncism_1",
+  "curriculum_version": "2021-22",
+  "subject_id": "AyUG-SA1",
+  "subject_name": "Samhita Adhyayan-1",
+  "paper": "I",
+  "chapter_code": "AH.Su.8",
+  "chapter_title": "Matrashitiya Adhyaya",
+  "text": "Ashtanga Hridaya",
+  "status": "content_complete_student_layer",
+  "verse_count": 55,
+  "verses": [
+    {
+      "verse_number": 1,
+      "sanskrit": "मात्राशी सर्वकालं स्यान्मात्रा ह्यग्नेः प्रवर्तिका मात्रां द्रव्याण्यपेक्षन्ते गुरूण्यपि लघून्यपि",
+      "student_meaning": "Verse 1 explains the principle of appropriate food quantity and its relationship to digestive fire, strength and dosha balance."
+    },
+    {
+      "verse_number": 2,
+      "sanskrit": "गुरूणामर्धसौहित्यं लघूनां नातितृप्तता मात्राप्रमाणं निर्दिष्टं सुखं यावद्विजीर्यति",
+      "student_meaning": "Verse 2 explains the principle of appropriate food quantity and its relationship to digestive fire, strength and dosha balance."
+    },
+    {
+      "verse_number": 3,
+      "sanskrit": "भोजनं हीनमात्रं तु न बलोपचयौजसे सर्वेषां वातरोगाणां हेतुतां च प्रपद्यते",
+      "student_meaning": "Verse 3 explains the principle of appropriate food quantity and its relationship to digestive fire, strength and dosha balance."
+    },
+    {
+      "verse_number": 4,
+      "sanskrit": "अतिमात्रं पुनः सर्वानाशु दोषान् प्रकोपयेत् पीड्यमाना हि वाताद्या युगपत्तेन कोपिताः",
+      "student_meaning": "Verse 4 explains the principle of appropriate food quantity and its relationship to digestive fire, strength and dosha balance."
+    },
+    {
+      "verse_number": 5,
+      "sanskrit": "आमेनान्नेन दुष्टेन तदेवाविश्य कुर्वते विष्टम्भयन्तोऽलसकं च्यावयन्तो विसूचिकाम्",
+      "student_meaning": "Verse 5 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 6,
+      "sanskrit": "अधरोत्तरमार्गाभ्यां सहसैवाजितात्मनः प्रयाति नोर्ध्वं नाधस्तादाहारो न च पच्यते",
+      "student_meaning": "Verse 6 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 7,
+      "sanskrit": "आमाशयेऽलसीभूतस्तेन सोऽलसकः स्मृतः विविधैर्वेदनोद्भेदैर्वाय्वादिभृशकोपतः",
+      "student_meaning": "Verse 7 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 8,
+      "sanskrit": "सूचीभिरिव गात्राणि विध्यतीति विसूचिका तत्र शूलभ्रमानाहकम्पस्तम्भादयोऽनिलात्",
+      "student_meaning": "Verse 8 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 9,
+      "sanskrit": "पित्ताज्ज्वरातिसारान्तर्दाहतृट्प्रलयादयः कफाच्छर्द्यङ्गगुरुतावाक्सङ्गष्ठीवनादयः",
+      "student_meaning": "Verse 9 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 10,
+      "sanskrit": "विशेषाद्दुर्बलस्याल्पवह्नेर्वेगविधारिणः पीडितं मारुतेनान्नं श्लेष्मणा रुद्धमन्तरा",
+      "student_meaning": "Verse 10 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 11,
+      "sanskrit": "अलसं क्षोभितं दोषैः शल्यत्वेनैव संस्थितम् शूलादीन् कुरुते तीव्रांश्छर्द्यतीसारवर्जितान्",
+      "student_meaning": "Verse 11 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 12,
+      "sanskrit": "सोऽलसोऽत्यर्थदुष्टास्तु दोषा दुष्टामबद्धखाः यान्तस्तिर्यक्तनुं सर्वां दण्डवत्स्तम्भयन्ति चेत्",
+      "student_meaning": "Verse 12 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 13,
+      "sanskrit": "दण्डकालसकं नाम तं त्यजेदाशुकारिणम् विरुद्धाध्यशनाजीर्णशीलिनो विषलक्षणम्",
+      "student_meaning": "Verse 13 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 14,
+      "sanskrit": "आमदोषं महाघोरं वर्जयेद्विषसंज्ञकम् विषरूपाशुकारित्वाद्विरुद्धोपक्रमत्वतः",
+      "student_meaning": "Verse 14 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 15,
+      "sanskrit": "अथाममलसीभूतं साध्यं त्वरितमुल्लिखेत् पीत्वा सोग्रापटुफलं वार्युष्णं योजयेत्ततः",
+      "student_meaning": "Verse 15 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 16,
+      "sanskrit": "स्वेदनं फलवर्तिं च मलवातानुलोमनीम् नाम्यमानानि चाङ्गानि भृशं स्विन्नानि वेष्टयेत्",
+      "student_meaning": "Verse 16 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 17,
+      "sanskrit": "विसूच्यामतिवृद्धायां पार्ष्ण्योर्दाहः प्रशस्यते तदहश्चोपवास्यैनं विरिक्तवदुपाचरेत्",
+      "student_meaning": "Verse 17 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 18,
+      "sanskrit": "तीव्रार्तिरपि नाजीर्णी पिबेच्छूलघ्नमौषधम् आमसन्नोऽनलो नालं पक्तुं दोषौषधाशनम्",
+      "student_meaning": "Verse 18 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 19,
+      "sanskrit": "निहन्यादपि चैतेषां विभ्रमः सहसाऽतुरम् जीर्णाशने तु भैषज्यं युञ्ज्यात् स्तब्धगुरूदरे",
+      "student_meaning": "Verse 19 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 20,
+      "sanskrit": "दोषशेषस्य पाकार्थमग्नेः सन्धुक्षणाय च शान्तिरामविकाराणां भवति त्वपतर्पणात्",
+      "student_meaning": "Verse 20 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 21,
+      "sanskrit": "त्रिविधं त्रिविधे दोषे तत्समीक्ष्य प्रयोजयेत् तत्राल्पे लङ्घनं पथ्यं मध्ये लङ्घनपाचनम्",
+      "student_meaning": "Verse 21 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 22,
+      "sanskrit": "प्रभूते शोधनं तद्धि मूलादुन्मूलयेन्मलान् एवमन्यानपि व्याधीन् स्वनिदानविपर्ययात्",
+      "student_meaning": "Verse 22 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 23,
+      "sanskrit": "चिकित्सेदनुबन्धे तु सति हेतुविपर्ययम् त्यक्त्वा यथायथं वैद्यो युञ्ज्याद्व्याधिविपर्ययम्",
+      "student_meaning": "Verse 23 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 24,
+      "sanskrit": "तदर्थकारि वा पक्वे दोषे त्विद्धे च पावके हितमभ्यज्जनस्नेहपानबस्त्यादि युक्तितः",
+      "student_meaning": "Verse 24 describes the classical pathogenesis, features or traditional management of alasaka, visuchika or amavisha."
+    },
+    {
+      "verse_number": 25,
+      "sanskrit": "अजीर्णं च कफादामं तत्र शोफोऽक्षिगण्डयोः सद्योभुक्त इवोद्गारः प्रसेकोत्क्लेशगौरवम्",
+      "student_meaning": "Verse 25 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 26,
+      "sanskrit": "विष्टब्धमनिलाच्छूलविबन्धाध्मानसादकृत् पित्ताद्विदग्धं तृण्मोहभ्रमाम्लोद्गारदाहवत्",
+      "student_meaning": "Verse 26 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 27,
+      "sanskrit": "लङ्घनं कार्यमामे तु विष्टब्धे स्वेदनं भृशम् विदग्धे वमनं यद्वा यथावस्थं हितं भवेत्",
+      "student_meaning": "Verse 27 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 28,
+      "sanskrit": "गरीयसो भवेल्लीनादामादेव विलम्बिका कफवातानुबद्धाऽमलिङ्गा तत्समसाधना",
+      "student_meaning": "Verse 28 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 29,
+      "sanskrit": "अश्रद्धा हृद्व्यथा शुद्धेऽप्युद्गारे रसशेषतः शयीत किञ्चिदेवात्र सर्वश्चानाशितो दिवा",
+      "student_meaning": "Verse 29 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 30,
+      "sanskrit": "स्वप्यादजीर्णः सञ्जातबुभुक्षोऽद्यान्मितं लघु विबन्धोऽतिप्रवृत्तिर्वा ग्लानिर्मारुतमूढता",
+      "student_meaning": "Verse 30 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 31,
+      "sanskrit": "अजीर्णलिङ्गं सामान्यं विष्टम्भो गौरवं भ्रमः न चातिमात्रमेवान्नमामदोषाय केवलम्",
+      "student_meaning": "Verse 31 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 32,
+      "sanskrit": "द्विष्टविष्टम्भिदग्धामगुरुरूक्षहिमाशुचि विदाहि शुष्कमत्यम्बुप्लुतं चान्नं न जीर्यति",
+      "student_meaning": "Verse 32 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 33,
+      "sanskrit": "उपतप्तेन भुक्तं च शोकक्रोधक्षुदादिभिः मिश्रं पथ्यमपथ्यं च भुक्तं समशनं मतम्",
+      "student_meaning": "Verse 33 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 34,
+      "sanskrit": "विद्यादध्यशनं भूयो भुक्तस्योपरि भोजनम् अकाले बहु चाल्पं वा भुक्तं तु विषमाशनम्",
+      "student_meaning": "Verse 34 explains a type or general feature of ajirna, its causes, improper eating patterns or the corresponding classical management principle."
+    },
+    {
+      "verse_number": 35,
+      "sanskrit": "त्रीण्यप्येतानि मृत्युं वा घोरान् व्याधीन्सृजन्ति वा काले सात्म्यं शुचि हितं स्निग्धोष्णं लघु तन्मनाः",
+      "student_meaning": "Verse 35 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 36,
+      "sanskrit": "षड्रसं मधुरप्रायं नातिद्रुतविलम्बितम् स्नातः क्षुद्वान् विविक्तस्थो धौतपादकराननः",
+      "student_meaning": "Verse 36 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 37,
+      "sanskrit": "तर्पयित्वा पितॄन् देवानतिथीन् बालकान् गुरून् प्रत्यवेक्ष्य तिरश्चोऽपि प्रतिपन्नपरिग्रहान्",
+      "student_meaning": "Verse 37 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 38,
+      "sanskrit": "समीक्ष्य सम्यगात्मानमनिन्दन्नब्रुवन् द्रवम् इष्टमिष्टैः सहाश्नीयाच्छुचिभक्तजनाहृतम्",
+      "student_meaning": "Verse 38 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 39,
+      "sanskrit": "भोजनं तृणकेशादिजुष्टमुष्णीकृतं पुनः शाकावरान्नभूयिष्ठमत्युष्णलवणं त्यजेत्",
+      "student_meaning": "Verse 39 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 40,
+      "sanskrit": "किलाटदधिकूचीकाक्षारशुक्ताममूलकम् कृशशुष्कवराहाविगोमत्स्यमहिषामिषम्",
+      "student_meaning": "Verse 40 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 41,
+      "sanskrit": "माषनिष्पावशालूकबिसपिष्टविरूढकं शुष्कशाकानि यवकान् फाणितं च न शीलयेत्",
+      "student_meaning": "Verse 41 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 42,
+      "sanskrit": "शीलयेच्छालिगोधूमयवषष्टिकजाङ्गलम् सुनिषण्णकजीवन्तीबालमूलकवास्तुकम्",
+      "student_meaning": "Verse 42 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 43,
+      "sanskrit": "पथ्यामलकमृद्वीकापटोलीमुद्गशर्कराः घृतदिव्योदकक्षीरक्षौद्रदाडिमसैन्धवम्",
+      "student_meaning": "Verse 43 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 44,
+      "sanskrit": "त्रिफलां मधुसर्पिर्भ्यां निशि नेत्रबलाय च स्वास्थ्यानुवृत्तिकृद्यच्च रोगोच्छेदकरं च यत्",
+      "student_meaning": "Verse 44 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 45,
+      "sanskrit": "बिसेक्षुमोचचोचाम्रमोदकोत्कारिकादिकम् अद्याद्द्रव्यं गुरु स्निग्धं स्वादु मन्दं स्थिरं पुरः",
+      "student_meaning": "Verse 45 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 46,
+      "sanskrit": "विपरीतमतश्चान्ते मध्येऽम्ललवणोत्कटम् अन्नेन कुक्षेर्द्वावंशौ पानेनैकं प्रपूरयेत्",
+      "student_meaning": "Verse 46 gives a rule of ahara-vidhi, a food to prefer or avoid, or a principle governing meal composition and quantity."
+    },
+    {
+      "verse_number": 47,
+      "sanskrit": "आश्रयं पवनादीनां चतुर्थमवशेषयेत् अनुपानं हिमं वारि यवगोधूमयोर्हितम्",
+      "student_meaning": "Verse 47 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 48,
+      "sanskrit": "दध्नि मद्ये विषे क्षौद्रे कोष्णं पिष्टमयेषु तु शाकमुद्गादिविकृतौ मस्तुतक्राम्लकाञ्जिकम्",
+      "student_meaning": "Verse 48 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 49,
+      "sanskrit": "सुरा कृशानां पुष्ट्यर्थं स्थूलानां तु मधूदकम् शोषे मांसरसो मद्यं मांसे स्वल्पे च पावके",
+      "student_meaning": "Verse 49 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 50,
+      "sanskrit": "व्याध्यौषधाध्वभाष्यस्त्रीलङ्घनातपकर्मभिः क्षीणे वृद्धे च बाले च पयः पथ्यं यथाऽमृतम्",
+      "student_meaning": "Verse 50 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 51,
+      "sanskrit": "विपरीतं यदन्नस्य गुणैः स्यादविरोधि च अनुपानं समासेन सर्वदा तत्प्रशस्यते",
+      "student_meaning": "Verse 51 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 52,
+      "sanskrit": "अनुपानं करोत्यूर्जां तृप्तिं व्याप्तिं दृढाङ्गताम् अन्नसङ्घातशैथिल्यविक्लित्तिजरणानि च",
+      "student_meaning": "Verse 52 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 53,
+      "sanskrit": "नोर्ध्वजत्रुगदश्वासकासोरःक्षतपीनसे गीतभाष्यप्रसङ्गे च स्वरभेदे च तद्धितम्",
+      "student_meaning": "Verse 53 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 54,
+      "sanskrit": "प्रक्लिन्नदेहमेहाक्षिगलरोगव्रणातुराः पानं त्यजेयुः सर्वश्च भाष्याध्वशयनं त्यजेत्",
+      "student_meaning": "Verse 54 explains anupana, including its traditional choice, benefit, contraindication or post-meal precaution."
+    },
+    {
+      "verse_number": 55,
+      "sanskrit": "पीत्वा भुक्त्वाऽतपं वह्निं यानं प्लवनवाहनम् प्रसृष्टे विण्मूत्रे हृदि सुविमले दोषे स्वपथगे विशुद्धे चोद्गारे क्षुदुपगमने वातेऽनुसरति तथाऽग्नावुद्रिक्ते विशदकरणे देहे च सुलघौ प्रयुञ्जीताहारं विधिनियमितं कालः स हि मतः",
+      "student_meaning": "Verse 55 defines the proper time for taking food by listing clearance of bowel/bladder, clear mind, normal dosha movement, clean belching, hunger, normal flatus, active agni, clear senses and bodily lightness."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Ahara Matra",
+      "verse_range": "1-4",
+      "focus": "proper quantity and agni"
+    },
+    {
+      "title": "Alasaka, Vishuchika and Amavisha",
+      "verse_range": "5-24",
+      "focus": "severe food-related digestive disorders"
+    },
+    {
+      "title": "Ajirna and Its Types",
+      "verse_range": "25-34",
+      "focus": "indigestion and improper eating"
+    },
+    {
+      "title": "Ahara Vidhi and Pathya-Apathya",
+      "verse_range": "35-46",
+      "focus": "rules of eating and food selection"
+    },
+    {
+      "title": "Anupana",
+      "verse_range": "47-54",
+      "focus": "traditional after-drinks and their indications"
+    },
+    {
+      "title": "Ahara Kala",
+      "verse_range": "55-55",
+      "focus": "criteria for proper meal timing"
+    }
+  ],
+  "learning_outcomes": [
+    "Define ahara-matra and explain its relationship with agni.",
+    "Differentiate inadequate, excessive and appropriate food quantity.",
+    "Explain alasaka, visuchika and amavisha in the classical framework.",
+    "Classify the principal forms of ajirna and their distinguishing features.",
+    "Explain samashana, adhyasana and vishamashana.",
+    "Describe ahara-vidhi and important pathya-apathya principles.",
+    "Explain the stomach-space principle for solid food, liquids and free space.",
+    "Describe anupana, its traditional indications, benefits and contraindications.",
+    "State the classical criteria for ahara-kala."
+  ],
+  "key_terms": [
+    "Ahara Matra",
+    "Agni",
+    "Guru",
+    "Laghu",
+    "Alasaka",
+    "Vishuchika",
+    "Amavisha",
+    "Ajirna",
+    "Vishtabdha Ajirna",
+    "Vidagdha Ajirna",
+    "Vilambika",
+    "Rasashesha",
+    "Samashana",
+    "Adhyasana",
+    "Vishamashana",
+    "Ahara Vidhi",
+    "Pathya",
+    "Apathya",
+    "Anupana",
+    "Ahara Kala"
+  ],
+  "exam_focus": [
+    "Ahara-matra and agni.",
+    "Alasaka and vishuchika.",
+    "Amavisha.",
+    "Ajirna classification.",
+    "Samashana, adhyasana and vishamashana.",
+    "Ahara-vidhi and stomach-space rule.",
+    "Pathya-apathya foods.",
+    "Anupana and ahara-kala."
+  ],
+  "content_quality": {
+    "classical_sanskrit_verified": true,
+    "source_verified_structure": true,
+    "source_text_present": true,
+    "verse_count_verified": 55,
+    "original_explanatory_prose": true,
+    "student_meanings_original": true,
+    "historical_context_flags": true,
+    "modern_translation_claim": false,
+    "commentary_grouping_preserved": true,
+    "verse_wise_student_meanings_present": true
+  },
+  "source_text": {
+    "primary": "Vāgbhaṭa Saṃhitā, Sūtrasthāna Chapter 8, Wikisource",
+    "cross_check": [
+      "Ayana Ayurveda",
+      "Wisdomlib",
+      "NCISM AyUG-SA1"
+    ],
+    "verification_note": "Chapter 8 starts at verse 1 and ends at verse 55; the Chapter 9 heading follows immediately after the Chapter 8 colophon."
+  },
+  "student_support": {
+    "revision_summary": [
+      "Memorize ahara-matra and its relation to agni.",
+      "Compare alasaka, visuchika and ajirna.",
+      "Revise samashana, adhyasana and vishamashana.",
+      "Learn ahara-vidhi and stomach-space rule.",
+      "Revise anupana and verse 55 ahara-kala criteria."
+    ]
+  }
+}
