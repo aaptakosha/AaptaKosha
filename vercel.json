@@ -18,6 +18,14 @@
   },
   "rewrites": [
     {
+      "source": "/samhita/:text/:section/:chapter",
+      "destination": "/samhita-study.html?chapter=:text.:section.:chapter"
+    },
+    {
+      "source": "/samhita/:text/:section",
+      "destination": "/samhita.html?text=:text&section=:section"
+    },
+    {
       "source": "/api/content/:path*",
       "destination": "/api/content.py?route=content/:path*"
     },
