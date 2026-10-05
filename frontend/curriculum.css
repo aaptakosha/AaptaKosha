@@ -99,3 +99,5 @@
 .samhita-verse-sanskrit{color:#123c32}
 .samhita-verse-no{color:#8d6c2d}
 
+
+.published-state{margin:18px 0;padding:18px;border:1px solid #dfe9e1;border-radius:14px;background:#f8fbf8;display:flex;flex-direction:column;gap:5px;color:#52685c}.published-state strong{color:#245d43;font-size:14px}.published-state span{font-size:12px;line-height:1.7}
