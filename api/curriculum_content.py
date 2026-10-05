@@ -74,6 +74,18 @@ def _markdown_path(subject: str, node_id: str):
     return path
 
 
+def _structured_payload(subject: str, node_id: str, code: str):
+    if subject == "AyUG-KS" and node_id == "y1-ks-1":
+        path = (ROOT / "content/kriya-sharir/01-sharir.json").resolve()
+        try:
+            path.relative_to(ROOT.resolve())
+            with path.open(encoding="utf-8") as fh:
+                return {"node_id":node_id,"node_code":code,"content_type":"structured","content":json.load(fh),"source_path":str(path.relative_to(ROOT))}
+        except (OSError, ValueError, TypeError, json.JSONDecodeError):
+            return None
+    return None
+
+
 def _markdown_payload(subject: str, node_id: str, code: str):
     path = _markdown_path(subject, node_id)
     if path is None or not path.is_file():
@@ -96,6 +108,9 @@ def load_content(subject_id: str, node_code: str, node_id: str = ""):
     node_id = _safe(node_id)
     if not subject or not code:
         return None
+    structured = _structured_payload(subject, node_id or "", code)
+    if structured is not None:
+        return structured
     markdown = _markdown_payload(subject, node_id or "", code)
     if markdown is not None:
         return markdown
