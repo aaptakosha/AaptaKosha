@@ -48,7 +48,14 @@ def _sqlite_repo():
     connection = sqlite3.connect(str(DB_PATH), check_same_thread=False)
     repo = SQLiteCatalogRepository(connection)
     for migration in CATALOG_MIGRATIONS:
-        repo.apply_migrations(ROOT / "migrations" / migration)
+        try:
+            repo.apply_migrations(ROOT / "migrations" / migration)
+        except (sqlite3.DatabaseError, OSError) as exc:
+            # Never take the whole published catalogue offline because a new
+            # content migration is invalid. The migration is atomic, so the
+            # failure cannot erase/partially replace older content. Log it and
+            # continue serving the last valid catalogue snapshot.
+            print(f"[curriculum] skipped invalid migration {migration}: {exc}", file=sys.stderr)
     return connection, repo
 
 def _get_apis():
