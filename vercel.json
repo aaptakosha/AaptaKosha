@@ -10,6 +10,7 @@
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/**}"
     },
     "api/content.py": {
+      "includeFiles": "{content/samhita/**,content/samhita-registry.json}",
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**}"
     },
     "api/curriculum_content.py": {
