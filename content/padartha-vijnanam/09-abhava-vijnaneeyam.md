@@ -1083,3 +1083,28 @@ The NCISM learning outcomes additionally require students to define Abhava, disc
 ## Classical-study direction
 
 For formal examination preparation, students should study the prescribed Darshana text and the corresponding Ayurvedic Padartha discussion, using their institution's prescribed edition for exact Sanskrit terminology, quotations and classification wording.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** Chapter 9 — Abhava Vijnaneeyam.
+
+
+---
+
+## References and Further Reading
+
+1. **NCISM — AyUG-PV Padartha Vijnanam syllabus**, First Professional BAMS, applicable topic/paper.
+2. **Charaka Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+3. **Sushruta Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+4. **Ashtanga Hridaya**, relevant foundational discussions, read in the prescribed edition/commentary.
+5. The institution's prescribed **Padartha Vijnanam / Darshana** textbook and commentary should be used for exact technical definitions and school-specific interpretations.
+
+**Source-use rule:** Where a classical statement is quoted, verify the wording against the prescribed edition before memorisation.
