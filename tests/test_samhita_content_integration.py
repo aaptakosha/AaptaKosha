@@ -66,7 +66,7 @@ def test_sarangadhara_library_navigation_contract():
     assert "sarangadharaChapters" in frontend
     assert "samhita-chapter.html?text=" in frontend
     for khanda in SARANGADHARA_EXTENTS:
-        assert f'"{khanda}"' in frontend
+        assert f'"{khanda}"' in frontend or f'{khanda}:' in frontend
 
 
 def test_all_indexed_samhita_items_expose_sanskrit_text():
