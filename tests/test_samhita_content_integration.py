@@ -75,6 +75,7 @@ def test_all_indexed_samhita_items_expose_sanskrit_text():
     assert entries
     for entry in entries:
         content = load_content(entry["content_id"])
+        assert content is not None, entry["content_id"]
         items = content.get("verses") or content.get("passages") or []
         if not items:
             # Some chapters are deliberately metadata-only while controlled source transcription is pending.
