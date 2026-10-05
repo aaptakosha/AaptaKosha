@@ -45,6 +45,14 @@ function samhitaContentId(subjectId,nodeCode,nodeId){
  const byCode={"AH.Su.1":"ashtanga.hridaya.sutra.01","AH.Su.2":"ashtanga.hridaya.sutra.02","AH.Su.3":"ashtanga.hridaya.sutra.03","AH.Su.4":"ashtanga.hridaya.sutra.04","AH.Su.5":"ashtanga.hridaya.sutra.05","AH.Su.6":"ashtanga.hridaya.sutra.06","AH.Su.7":"ashtanga.hridaya.sutra.07","AH.Su.8":"ashtanga.hridaya.sutra.08","AH.Su.9":"ashtanga.hridaya.sutra.09","AH.Su.10":"ashtanga.hridaya.sutra.10","AH.Su.11":"ashtanga.hridaya.sutra.11","AH.Su.12":"ashtanga.hridaya.sutra.12","AH.Su.13":"ashtanga.hridaya.sutra.13","AH.Su.14":"ashtanga.hridaya.sutra.14","AH.Su.15":"ashtanga.hridaya.sutra.15","Ch.Su.1":"charaka.sutra.01","Ch.Su.2":"charaka.sutra.02","Ch.Su.3":"charaka.sutra.03","Ch.Su.4":"charaka.sutra.04","Ch.Su.5":"charaka.sutra.05","Ch.Su.6":"charaka.sutra.06","Ch.Su.7":"charaka.sutra.07","Ch.Su.8":"charaka.sutra.08","Ch.Su.9":"charaka.sutra.09","Ch.Su.10":"charaka.sutra.10","Ch.Su.11":"charaka.sutra.11","Ch.Su.12":"charaka.sutra.12"};
  return byNode[nodeId]||byCode[nodeCode]||null;
 }
+async function fetchPadarthaContent(nodeId){
+ if(!nodeId)return null;
+ try{
+  const r=await fetch("/api/content/padartha?node_id="+encodeURIComponent(nodeId),{credentials:"same-origin"});
+  if(!r.ok)return null;
+  const d=await r.json(); return d.data||null;
+ }catch{return null}
+}
 async function fetchSamhitaContent(contentId){
  if(!contentId)return null;try{const r=await fetch("/api/content/samhita?content_id="+encodeURIComponent(contentId),{credentials:"same-origin"});if(!r.ok)return null;const d=await r.json();return d.data||null;}catch{return null}
 }
@@ -134,7 +142,9 @@ async function renderChapter(){
  const nodeCode=qs.get("node_code")||"1";
  let lesson=null;
  let samhitaPayload=null;
+ let padarthaPayload=null;
  const samhitaId=samhitaContentId(sid,nodeCode,nodeId);
+ if(sid==="AyUG-PV") padarthaPayload=await fetchPadarthaContent(nodeId);
  if(samhitaId)samhitaPayload=await fetchSamhitaContent(samhitaId);
  if(nodeCode){
    try{
@@ -143,12 +153,13 @@ async function renderChapter(){
      const r=await fetch(u);if(r.ok)lesson=(await r.json()).data||null;
    }catch{}
  }
+ const padarthaHtml=padarthaPayload?'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">Universal Study Content · Standard '+esc(padarthaPayload.content_standard_version||"2.0")+'</span><h2>'+esc(name)+'</h2><p>All required learning components are schema-validated before publication.</p></div><div class="markdown-content">'+renderMarkdown(padarthaPayload.content||"")+"</div></div>":"";
  const lessonHtml=lesson?(lesson.content_type==="structured"
    ?renderStructuredLesson(lesson.content||{},name)
    :'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">Published study content</span><h2>'+esc(name)+'</h2><p>यह अध्याय repository में प्रकाशित अध्ययन सामग्री से सीधे लोड किया गया है।</p></div><div class="markdown-content">'+renderMarkdown(lesson.content||"")+'</div></div>'):'';
  const topicsHtml='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
  const samhitaHtml=renderSamhitaOriginalLayer(samhitaPayload,samhitaId,name);
- const body=samhitaHtml+lessonHtml+topicsHtml;
+ const body=padarthaHtml+samhitaHtml+lessonHtml+topicsHtml;
  page.innerHTML=shell(name,samhitaPayload?'मूल श्लोक, हिन्दी अर्थ और अध्ययन सामग्री एक ही अध्याय पेज पर उपलब्ध हैं.':(lesson?'Read the NCISM-aligned lesson, then review the chapter topics.':'Study the topics contained in this chapter.'),[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
  bindStructuredLesson();
 }
