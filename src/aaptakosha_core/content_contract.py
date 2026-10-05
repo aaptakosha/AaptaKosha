@@ -35,6 +35,13 @@ def validate_markdown(markdown: str, *, require_source_text: bool=False) -> Cont
  warnings=[]
  if "```" not in text: warnings.append("no fenced visual/diagram block found; add one when the topic benefits from a visual")
  return ContentValidation(not errors,components,tuple(errors),tuple(warnings))
+def validate_structured_payload(payload: Mapping[str, object]) -> ContentValidation:
+    """Validate the component contract used by the interactive lesson renderer."""
+    required = ("tables","conceptMap","mindMap","diagram","mcqs","flashcards","exam_zone","quick_revision","active_recall")
+    components = {key: bool(payload.get(key)) for key in required}
+    errors = [f"missing required structured component: {key}" for key, present in components.items() if not present]
+    return ContentValidation(not errors, components, tuple(errors), ())
+
 def assert_publishable(markdown: str, *, require_source_text: bool=False) -> None:
  result=validate_markdown(markdown,require_source_text=require_source_text)
  if not result.valid: raise ValueError("content publication blocked: "+"; ".join(result.errors))
