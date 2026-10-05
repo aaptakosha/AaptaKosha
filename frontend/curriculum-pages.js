@@ -150,6 +150,7 @@ async function renderChapter(){
  const samhitaHtml=renderSamhitaOriginalLayer(samhitaPayload,samhitaId,name);
  const body=samhitaHtml+lessonHtml+topicsHtml;
  page.innerHTML=shell(name,samhitaPayload?'मूल श्लोक, हिन्दी अर्थ और अध्ययन सामग्री एक ही अध्याय पेज पर उपलब्ध हैं.':(lesson?'Read the NCISM-aligned lesson, then review the chapter topics.':'Study the topics contained in this chapter.'),[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
+ bindStructuredLesson();
 }
 const file=location.pathname.split('/').pop();if(file==='subject.html')renderSubject();else if(file==='chapter.html')renderChapter();else renderYear();
  bindStructuredLesson();
