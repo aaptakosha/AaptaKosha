@@ -104,7 +104,7 @@ function renderStructuredLesson(d,name){
   ["diagram","आरेख"],["mcq","बहुविकल्पीय प्रश्न"],["flash","स्मरण-पत्र"],["exam","परीक्षा-विभाग"],["recall","सक्रिय-स्मरण"],["revision","शीघ्र-पुनरावृत्ति"]
  ];
  const tabbar='<div class="study-tabs" role="tablist">'+tabs.map((t,i)=>'<button type="button" class="study-tab'+(i===0?' active':'')+'" data-study-tab="'+t[0]+'" role="tab">'+t[1]+'</button>').join('')+'</div>';
- const notes='<section class="study-section active" data-study-section="notes"><div class="study-callout"><strong>अध्ययन-दृष्टि</strong><p>'+esc2(d.terminology_note||"")+'</p></div><div class="markdown-content">'+renderMarkdown(document.querySelector(".legacy-lesson-source")?.textContent||"")+'</div></section>';
+ const notes='<section class="study-section active" data-study-section="notes"><div class="study-callout"><strong>अध्ययन-दृष्टि</strong><p>'+esc2(d.terminology_note||"")+'</p></div><div class="markdown-content">'+renderMarkdown(d.notes_markdown||"")+'</div></section>';
  const map=d.conceptMap||{};
  const mapHtml='<section class="study-section" data-study-section="map"><div class="concept-map"><div class="concept-center">'+esc2(map.center||"शरीर")+'</div><div class="concept-branches">'+(map.branches||[]).map(b=>'<div class="concept-branch"><h3>'+esc2(b.label)+'</h3>'+(b.items||[]).map(x=>'<span>'+esc2(x)+'</span>').join('')).join('')+'</div><div class="relation-strip">'+(map.relations||[]).map(x=>'<div>'+esc2(x)+'</div>').join('')+'</div></div></section>';
  const mind=d.mindMap||{};
