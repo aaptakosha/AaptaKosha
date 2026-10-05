@@ -70,6 +70,28 @@ async function renderSubject(){
  const body='<div class="page-list">'+chapters.map(n=>'<a class="content-card" href="./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)+'&node_id='+encodeURIComponent(n.node_id)+'&node_code='+encodeURIComponent(n.code||'')+'&chapter_name='+encodeURIComponent(n.name)+'"><span class="card-code">'+esc(n.code||n.node_type||'Chapter')+'</span><div><h2>'+esc(n.name)+'</h2><p>Open chapter and its topics</p></div><b>→</b></a>').join('')+(chapters.length?'':'<div class="empty-state">No chapters have been published for this subject yet.</div>')+'</div>';
  page.innerHTML=shell(name,'Chapters and learning units for this subject.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[name,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)]],body,'./year'+year+'.html');
 }
+function renderMarkdown(md){
+ const lines=String(md||"").replace(/\r/g,"").split("\n"),out=[];let inList=false,inTable=false;
+ const inline=x=>esc(x).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\*(.+?)\*/g,"<em>$1</em>").replace(/\`([^\`]+)\`/g,"<code>$1</code>").replace(/\[([^\]]+)\]\((https?:\\/\\/[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+ const closeList=()=>{if(inList){out.push("</ul>");inList=false}};
+ for(let i=0;i<lines.length;i++){
+  const line=lines[i],trim=line.trim();
+  if(!trim){closeList();if(inTable){out.push("</tbody></table></div>");inTable=false}continue}
+  if(/^\|.*\|$/.test(trim)){
+   const cells=trim.replace(/^\||\|$/g,"").split("|").map(x=>x.trim());
+   if(!inTable){out.push("<div class=\"markdown-table-wrap\"><table class=\"markdown-table\"><thead><tr>"+cells.map(c=>"<th>"+inline(c)+"</th>").join("")+"</tr></thead><tbody>");inTable=true;continue}
+   if(cells.every(c=>/^:?-{3,}:?$/.test(c)))continue;
+   out.push("<tr>"+cells.map(c=>"<td>"+inline(c)+"</td>").join("")+"</tr>");continue;
+  }else if(inTable){out.push("</tbody></table></div>");inTable=false}
+  const h=trim.match(/^(#{1,4})\s+(.*)$/);if(h){closeList();out.push("<h"+h[1].length+">"+inline(h[2])+"</h"+h[1].length+">");continue}
+  const li=trim.match(/^[-*]\s+(.*)$/);if(li){if(!inList){out.push("<ul>");inList=true}out.push("<li>"+inline(li[1])+"</li>");continue}
+  const ol=trim.match(/^\d+[.)]\s+(.*)$/);if(ol){closeList();out.push("<ol><li>"+inline(ol[1])+"</li></ol>");continue}
+  if(/^>\s?/.test(trim)){closeList();out.push("<blockquote>"+inline(trim.replace(/^>\s?/,""))+"</blockquote>");continue}
+  closeList();out.push("<p>"+inline(trim)+"</p>");
+ }
+ closeList();if(inTable)out.push("</tbody></table></div>");
+ return out.join("");
+}
 async function renderChapter(){
  const year=Number(qs.get("year")),cid=qs.get("curriculum_id"),sid=qs.get("subject_id"),sname=qs.get("subject_name")||sid,nodeId=qs.get("node_id"),name=qs.get("chapter_name")||"Chapter";
  if(!year||!cid||!sid||!nodeId){location.href='./curriculum.html';return}
@@ -83,11 +105,13 @@ async function renderChapter(){
  if(nodeCode){
    try{
      const u=new URL("/api/curriculum/content",location.origin);
-     u.searchParams.set("subject_id",sid);u.searchParams.set("node_code",nodeCode);
+     u.searchParams.set("subject_id",sid);u.searchParams.set("node_code",nodeCode);u.searchParams.set("node_id",nodeId);
      const r=await fetch(u);if(r.ok)lesson=(await r.json()).data||null;
    }catch{}
  }
- const lessonHtml=lesson?'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">NCISM-aligned study content</span><h2>'+esc(lesson.chapter_title||name)+'</h2><p>'+esc(lesson.scope_note||'')+'</p></div><div class="topic-list">'+(lesson.learning_outcomes?.length?'<article class="topic-item"><span>LO</span><div><h3>Learning outcomes</h3><ul>'+lesson.learning_outcomes.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+(lesson.sections||[]).map(sec=>'<article class="topic-item"><span>'+esc(sec.id?.split("-")[0]||'')+'</span><div><h3>'+esc(sec.title||'')+'</h3>'+(sec.content||[]).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div></article>').join('')+(lesson.exam_focus?.length?'<article class="topic-item"><span>EX</span><div><h3>Exam focus</h3><ul>'+lesson.exam_focus.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+'</div></div>':'';
+ const lessonHtml=lesson?(lesson.content_type==="markdown"
+   ?'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">Published study content</span><h2>'+esc(name)+'</h2><p>यह अध्याय repository में प्रकाशित अध्ययन सामग्री से सीधे लोड किया गया है।</p></div><div class="markdown-content">'+renderMarkdown(lesson.content||"")+'</div></div>'
+   :'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">NCISM-aligned study content</span><h2>'+esc(lesson.chapter_title||name)+'</h2><p>'+esc(lesson.scope_note||'')+'</p></div><div class="topic-list">'+(lesson.learning_outcomes?.length?'<article class="topic-item"><span>LO</span><div><h3>Learning outcomes</h3><ul>'+lesson.learning_outcomes.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+(lesson.sections||[]).map(sec=>'<article class="topic-item"><span>'+esc(sec.id?.split("-")[0]||'')+'</span><div><h3>'+esc(sec.title||'')+'</h3>'+(sec.content||[]).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div></article>').join('')+(lesson.exam_focus?.length?'<article class="topic-item"><span>EX</span><div><h3>Exam focus</h3><ul>'+lesson.exam_focus.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+'</div></div>'):'';
  const topicsHtml='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
  const samhitaHtml=renderSamhitaOriginalLayer(samhitaPayload,samhitaId,name);
  const body=samhitaHtml+lessonHtml+topicsHtml;
