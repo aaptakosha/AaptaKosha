@@ -944,3 +944,53 @@ This chapter addresses **Topic 7 — Vishesha Vijnaneeyam** in the official NCIS
 ## Classical-study direction
 
 Students should read the prescribed classical discussions of Vishesha in the relevant Darshana text and the Ayurvedic discussion of Samanya–Vishesha in the prescribed Samhita. Exact Sanskrit quotations should be checked against the edition prescribed by the institution before formal recitation or examination use.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What should you be able to do regarding: **define Vishesha and explain its etymological meaning;**?
+
+**A:** define Vishesha and explain its etymological meaning;
+
+### Card 2
+**Q:** What should you be able to do regarding: **explain Vishesha as a Padartha in Darshana;**?
+
+**A:** explain Vishesha as a Padartha in Darshana;
+
+### Card 3
+**Q:** What should you be able to do regarding: **describe the Vaisheshika understanding of Vishesha;**?
+
+**A:** describe the Vaisheshika understanding of Vishesha;
+
+### Card 4
+**Q:** What should you be able to do regarding: **explain the Ayurvedic concept of Vishesha;**?
+
+**A:** explain the Ayurvedic concept of Vishesha;
+
+### Card 5
+**Q:** What should you be able to do regarding: **distinguish Vishesha from Samanya;**?
+
+**A:** distinguish Vishesha from Samanya;
+
+### Card 6
+**Q:** What should you be able to do regarding: **explain the relationship between Vishesha and Kshaya/Hrasa;**?
+
+**A:** explain the relationship between Vishesha and Kshaya/Hrasa;
+
+
+---
+
+## References and Further Reading
+
+1. **NCISM — AyUG-PV Padartha Vijnanam syllabus**, First Professional BAMS, applicable topic/paper.
+2. **Charaka Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+3. **Sushruta Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+4. **Ashtanga Hridaya**, relevant foundational discussions, read in the prescribed edition/commentary.
+5. The institution's prescribed **Padartha Vijnanam / Darshana** textbook and commentary should be used for exact technical definitions and school-specific interpretations.
+
+**Source-use rule:** Where a classical statement is quoted, verify the wording against the prescribed edition before memorisation.
