@@ -131,7 +131,7 @@ async function renderChapter(){
  if(!year||!cid||!sid||!nodeId){location.href='./curriculum.html';return}
  document.title=name+' — AaptaKosha';
  let topics=[];try{topics=await apiNodes(cid,sid,nodeId)}catch{}
- const nodeCode=qs.get("node_code")||"";
+ const nodeCode=qs.get("node_code")||"1";
  let lesson=null;
  let samhitaPayload=null;
  const samhitaId=samhitaContentId(sid,nodeCode,nodeId);
