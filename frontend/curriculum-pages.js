@@ -76,7 +76,7 @@ async function renderSubject(){
 }
 function renderMarkdown(md){
  const lines=String(md||"").replace(/\r/g,"").split("\n"),out=[];let inList=false,inTable=false;
- const inline=x=>esc(x).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\*(.+?)\*/g,"<em>$1</em>").replace(/\`([^\`]+)\`/g,"<code>$1</code>").replace(/\[([^\]]+)\]\((https?:\\/\\/[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+ const inline=x=>esc(x).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\*(.+?)\*/g,"<em>$1</em>").replace(/\`([^\`]+)\`/g,"<code>$1</code>").replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
  const closeList=()=>{if(inList){out.push("</ul>");inList=false}};
  for(let i=0;i<lines.length;i++){
   const line=lines[i],trim=line.trim();
