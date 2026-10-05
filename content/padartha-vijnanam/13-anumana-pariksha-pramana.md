@@ -1439,3 +1439,29 @@ The official syllabus specifies:
 ## Classical-study direction
 
 Exact Sanskrit definitions, classifications and examples can differ in detail among Darshana texts and prescribed editions. Students should therefore use the institution's prescribed **Nyaya/Tarka and Charaka** primary texts for exact quotation and recitation while using this chapter as the structured NCISM learning framework.
+
+
+---
+
+## Flashcards
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** anumana pariksha pramana.
+
+### Card 2
+**Q:** Which definitions, classifications and Ayurvedic applications should be recalled?
+
+**A:** Recall the definitions, classifications, significance and applications presented in the chapter.
+
+
+---
+
+## References and Further Reading
+
+1. NCISM — AyUG-PV Padartha Vijnanam syllabus.
+2. Charaka Samhita, relevant foundational discussions, prescribed edition/commentary.
+3. Sushruta Samhita, relevant foundational discussions, prescribed edition/commentary.
+4. Ashtanga Hridaya, relevant foundational discussions, prescribed edition/commentary.
+5. Institution-prescribed Padartha Vijnanam/Darshana textbook and commentary.
