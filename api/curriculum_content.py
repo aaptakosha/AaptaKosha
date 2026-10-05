@@ -80,7 +80,7 @@ def _structured_payload(subject: str, node_id: str, code: str):
         try:
             path.relative_to(ROOT.resolve())
             with path.open(encoding="utf-8") as fh:
-                return {"node_id":node_id,"node_code":code,"content_type":"structured","content":json.load(fh),"source_path":str(path.relative_to(ROOT))}
+                return {"node_id":node_id,"node_code":code,"content_type":"structured","content":json.load(fh),"notes_markdown":(ROOT / "content/kriya-sharir/01-sharir.md").read_text(encoding="utf-8"),"source_path":str(path.relative_to(ROOT))}
         except (OSError, ValueError, TypeError, json.JSONDecodeError):
             return None
     return None
