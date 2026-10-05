@@ -42,6 +42,9 @@ def _markdown_path(subject: str, node_id: str):
             "y1-pv2-6": "content/padartha-vijnanam/15-upamana-pramana.md",
             "y1-pv2-7": "content/padartha-vijnanam/16-karya-karana-siddhanta.md",
         },
+        "AyUG-KS": {
+            "y1-ks-1": "content/kriya-sharir/01-sharir.md",
+        },
         "AyUG-SN-AI": {
             "y1-snai1-1": "content/sanskrit/01-varnamala-uccharana.md",
             "y1-snai1-2": "content/sanskrit/02-samjna-avyaya.md",
@@ -96,7 +99,6 @@ def load_content(subject_id: str, node_code: str, node_id: str = ""):
     markdown = _markdown_payload(subject, node_id or "", code)
     if markdown is not None:
         return markdown
-    # Current file convention: AH.Su.1 -> AH-Su-01-*.json
     if subject == "AyUG-SA1" and code == "AH.Su.1":
         path = CONTENT_ROOT / subject / "AH-Su-01-Ayushkamiya.json"
     elif subject == "AyUG-SA1" and code == "AH.Su.2":
@@ -156,11 +158,7 @@ class handler(BaseHTTPRequestHandler):
         if path != "/curriculum/content":
             self._reply(404, {"error": {"code": "route_not_found"}})
             return
-        content = load_content(
-            query.get("subject_id", ""),
-            query.get("node_code", ""),
-            query.get("node_id", ""),
-        )
+        content = load_content(query.get("subject_id", ""), query.get("node_code", ""), query.get("node_id", ""))
         if content is None:
             self._reply(404, {"error": {"code": "content_not_found"}})
             return
@@ -172,5 +170,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Headers", "Authorization, Content-Type")
         self.end_headers()
 
-    def do_POST(self):
+    def do_POST(self, _request=None):
         self._reply(405, {"error": {"code": "method_not_allowed"}})
