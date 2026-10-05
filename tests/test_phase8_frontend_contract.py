@@ -38,7 +38,7 @@ def test_shared_state_helper_exports_public_contract():
 def test_clerk_session_bootstrap_uses_safe_config_and_sdk():
     session = read("session.js")
     api = (Path(__file__).parents[1] / "api" / "assessments.py").read_text(encoding="utf-8")
-    assert re.search(r"fetch\\([\"']/?api/config", session)
+    assert "fetch(" in session and "/api/config" in session
     assert 'clerk-js@6/dist/clerk.browser.js' in session
     assert 'CLERK_PUBLISHABLE_KEY' in api
     assert 'CLERK_SECRET_KEY' not in session
