@@ -95,6 +95,10 @@ def _parse_legacy_sanskrit(text: str) -> list[dict]:
 
 def _range_for_number(value, number: int):
     import re as _re
+    try:
+        numeric_number = int(number)
+    except (TypeError, ValueError):
+        return ""
     entries = value if isinstance(value, list) else (list(value.values()) if isinstance(value, dict) else [])
     for entry in entries:
         if not isinstance(entry, dict):
@@ -109,7 +113,7 @@ def _range_for_number(value, number: int):
             digits = str(raw).translate(str.maketrans("०१२३४५६७८९", "0123456789"))
             nums = [int(x) for x in _re.findall(r"\d+", digits)]
             start, end = (nums[0], nums[1]) if len(nums) >= 2 else (None, None)
-        if start is not None and end is not None and int(start) <= number <= int(end):
+        if start is not None and end is not None and int(start) <= numeric_number <= int(end):
             return entry.get("text", "")
     return ""
 
