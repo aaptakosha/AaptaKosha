@@ -9,10 +9,12 @@ import urllib.error
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+from aaptakosha_core.content_contract import validate_markdown, CONTENT_STANDARD_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
 SAMHITA_ROOT = ROOT / "content" / "samhita"
 PADARTHA_ROOT = ROOT / "content" / "padartha-vijnanam"
+PADARTHA_FILES = {f"y1-pv-{i}": f"{i:02d}-{name}.md" for i, name in enumerate(["ayurveda-nirupana","padartha-darshana-nirupana","dravya-vijnaneeyam","guna-vijnaneeyam","karma-vijnaneeyam","samanya-vijnaneeyam","vishesha-vijnaneeyam","samavaya-vijnaneeyam","abhava-vijnaneeyam","pariksha-vijnaneeyam","aptopadesha-pariksha-pramana","pratyaksha-pariksha-pramana","anumana-pariksha-pramana","yukti-pariksha-pramana","upamana-pramana","karya-karana-siddhanta"], 1)}
 SAMHITA_REGISTRY = ROOT / "content" / "samhita-registry.json"
 _CONTENT_INDEX_CACHE: dict[str, Path] | None = None
 _CONTENT_REGISTRY_CACHE: list[dict] | None = None
@@ -349,53 +351,24 @@ class handler(BaseHTTPRequestHandler):
             path = path[4:] or "/"
         if path == "/content/padartha":
             node_id = str(query.get("node_id") or "").strip()
-            if not re.fullmatch(r"y1-pv(?:-[0-9]+|[12]-[0-9]+)", node_id):
-                self._reply(400, {"error": {"code": "invalid_node_id"}})
-                return
-            candidates = [PADARTHA_ROOT / f"{node_id}.md"]
-            if node_id == "y1-pv-1":
-                candidates.append(PADARTHA_ROOT / "01-ayurveda-nirupana.md")
-            if node_id == "y1-pv-2":
-                candidates.append(PADARTHA_ROOT / "02-padartha-darshana-nirupana.md")
-            if node_id == "y1-pv-3":
-                candidates.append(PADARTHA_ROOT / "03-dravya-vijnaneeyam.md")
-            if node_id == "y1-pv-4":
-                candidates.append(PADARTHA_ROOT / "04-guna-vijnaneeyam.md")
-            if node_id == "y1-pv-5":
-                candidates.append(PADARTHA_ROOT / "05-karma-vijnaneeyam.md")
-            if node_id == "y1-pv-6":
-                candidates.append(PADARTHA_ROOT / "06-samanya-vijnaneeyam.md")
-            if node_id == "y1-pv-7":
-                candidates.append(PADARTHA_ROOT / "07-vishesha-vijnaneeyam.md")
-            if node_id == "y1-pv-8":
-                candidates.append(PADARTHA_ROOT / "08-samavaya-vijnaneeyam.md")
-            if node_id == "y1-pv-9":
-                candidates.append(PADARTHA_ROOT / "09-abhava-vijnaneeyam.md")
-            if node_id == "y1-pv-10":
-                candidates.append(PADARTHA_ROOT / "10-pariksha-vijnaneeyam.md")
-            if node_id == "y1-pv-11":
-                candidates.append(PADARTHA_ROOT / "11-aptopadesha-pariksha-pramana.md")
-            if node_id == "y1-pv-12":
-                candidates.append(PADARTHA_ROOT / "12-pratyaksha-pariksha-pramana.md")
-            if node_id == "y1-pv-13":
-                candidates.append(PADARTHA_ROOT / "13-anumana-pariksha-pramana.md")
-            if node_id == "y1-pv-14":
-                candidates.append(PADARTHA_ROOT / "14-yukti-pariksha-pramana.md")
-            if node_id == "y1-pv-15":
-                candidates.append(PADARTHA_ROOT / "15-upamana-pramana.md")
-            if node_id == "y1-pv-16":
-                candidates.append(PADARTHA_ROOT / "16-karya-karana-siddhanta.md")
-            target = next((p for p in candidates if p.is_file()), None)
-            if target is None:
-                self._reply(404, {"error": {"code": "content_not_found"}})
-                return
+            filename = PADARTHA_FILES.get(node_id)
+            if not filename:
+                self._reply(400, {"error": {"code": "invalid_node_id"}}); return
+            target = (PADARTHA_ROOT / filename).resolve()
             try:
-                target.resolve().relative_to(PADARTHA_ROOT.resolve())
+                target.relative_to(PADARTHA_ROOT.resolve())
                 markdown = target.read_text(encoding="utf-8")
             except (OSError, ValueError):
-                self._reply(404, {"error": {"code": "content_not_found"}})
-                return
-            self._reply(200, {"data": {"node_id": node_id, "content_type": "markdown", "content": markdown}})
+                self._reply(404, {"error": {"code": "content_not_found"}}); return
+            validation = validate_markdown(markdown)
+            if not validation.valid:
+                self._reply(409, {"error": {"code": "content_schema_validation_failed",
+                    "standard_version": CONTENT_STANDARD_VERSION, "node_id": node_id,
+                    "errors": list(validation.errors), "components": dict(validation.components)}}); return
+            self._reply(200, {"data": {"node_id": node_id, "content_type": "markdown",
+                "content_standard_version": CONTENT_STANDARD_VERSION,
+                "components": dict(validation.components), "warnings": list(validation.warnings),
+                "content": markdown}})
             return
         if path != "/content/samhita":
             self._reply(404, {"error": {"code": "route_not_found"}})
