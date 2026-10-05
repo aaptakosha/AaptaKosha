@@ -42,6 +42,7 @@ CATALOG_MIGRATIONS = (
     "040_third_professional_source_locator_cleanup.sql", "041_curriculum_data_quality_normalization.sql",
     "042_second_professional_swasthavritta_topic_layout.sql",
     "043_first_professional_chapter_content_progress.sql",
+    "044_first_professional_content_visibility.sql",
 )
 
 def _sqlite_repo():
