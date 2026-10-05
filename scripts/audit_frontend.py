@@ -23,6 +23,7 @@ class AuditParser(HTMLParser):
         self.anchor_text = ""
         self.anchor_hidden_depth = 0
         self.raw_glyph_anchors: list[tuple[int, str]] = []
+        self.label_depth = 0
 
     def handle_starttag(self, tag, attrs):
         data = dict(attrs)
@@ -35,9 +36,11 @@ class AuditParser(HTMLParser):
             self.current_anchor = data
             self.anchor_text = ""
         elif tag == "input":
-            self.inputs.append((data, self.getpos()[0]))
+            if self.label_depth == 0:
+                self.inputs.append((data, self.getpos()[0]))
         elif tag == "label":
             self.labels.append(data)
+            self.label_depth += 1
         elif tag == "nav":
             self.nav_depth += 1
             self.current_nav = []
@@ -49,11 +52,14 @@ class AuditParser(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "a" and self.current_anchor is not None:
             text = self.anchor_text.strip()
-            if self.anchor_hidden_depth == 0 and any(g in text for g in GLYPHS):
+            meaningful = "".join(ch for ch in text if ch not in GLYPHS and not ch.isspace())
+            if self.anchor_hidden_depth == 0 and any(g in text for g in GLYPHS) and not meaningful:
                 self.raw_glyph_anchors.append((self.getpos()[0], text))
             self.current_anchor = None
             self.anchor_text = ""
             self.anchor_hidden_depth = 0
+        elif tag == "label":
+            self.label_depth = max(0, self.label_depth - 1)
         elif tag == "nav":
             if self.current_nav is not None:
                 self.nav_groups.append(self.current_nav)
