@@ -1,0 +1,62 @@
+name: Content preservation guard
+
+on:
+  pull_request:
+    paths:
+      - "content/**"
+      - "migrations/**"
+      - "api/**"
+      - "src/**"
+      - "frontend/**"
+  push:
+    branches: ["main"]
+    paths:
+      - "content/**"
+      - "migrations/**"
+      - "api/**"
+      - "src/**"
+
+jobs:
+  preserve-existing-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Block deletion or rename of published content
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+            HEAD="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+            HEAD="${{ github.sha }}"
+          fi
+
+          if [[ "$BASE" =~ ^0+$ ]]; then
+            exit 0
+          fi
+
+          bad="$(git diff --name-status "$BASE" "$HEAD" -- content/ | awk '$1 ~ /^(D|R|C)/ {print}')"
+          if [[ -n "$bad" ]]; then
+            echo "Published content is append-only. Deletion/rename/copy changes are blocked:"
+            echo "$bad"
+            exit 1
+          fi
+
+      - name: Block destructive curriculum SQL
+        shell: bash
+        run: |
+          if grep -RniE '(^|[^-])(DROP[[:space:]]+TABLE|DELETE[[:space:]]+FROM|TRUNCATE[[:space:]]+TABLE|REPLACE[[:space:]]+INTO)' migrations/; then
+            echo "Destructive SQL is not allowed in curriculum migrations."
+            echo "Add new rows with INSERT OR IGNORE/ON CONFLICT and use additive updates."
+            exit 1
+          fi
+
+      - name: Check repository content paths
+        run: |
+          test -d content
+          test -d migrations
+          echo "Content preservation guard passed."
