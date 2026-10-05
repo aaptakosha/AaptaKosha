@@ -39,16 +39,44 @@
         <button class="icon-button notification" aria-label="Notifications">♧</button>
         <button class="profile" id="authButton" aria-label="Sign in"><span class="avatar">AK</span><span class="profile-copy"><strong id="authButtonLabel">Sign in</strong><small id="authButtonSub">Sync your learning</small></span><span aria-hidden="true" aria-hidden="true">⌄</span></button>
       </header>
-      <section class="hero">
-        <div class="hero-copy"><p class="eyebrow">Your learning journey</p><h1><span id="greeting">Good morning</span>, Student <span aria-hidden="true">🌿</span></h1><p>Small steps every day bring you closer to your goals.</p><p data-auth-state aria-live="polite">Sign in to sync your learning progress.</p></div>
-        <div class="hero-art" aria-hidden="true"><span aria-hidden="true">☘</span><span aria-hidden="true">◒</span><span aria-hidden="true">❋</span></div>
-        <div class="hero-cards">
-          <article class="continue-card"><div class="course-icon" aria-hidden="true">❋</div><div class="card-content"><span class="label">Continue learning</span><strong>Charaka Samhita · Sūtrasthāna 1</strong><small>Classical text study</small><div class="progress-row"><div class="progress" role="progressbar" aria-label="Dravyaguna Chapter 3 progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><i style="width:0%"></i></div><span>—</span></div></div><a class="primary" href="./samhita-study.html?chapter=charaka.sutra.01">Continue <span>→</span></a></article>
-          <article class="mini-stat"><span class="stat-icon" aria-hidden="true">🔥</span><small>Current streak</small><strong data-streak>—</strong><span>Sign in to sync</span></article>
-          <article class="mini-stat goal"><span class="stat-icon" aria-hidden="true">◎</span><small>Weekly goal</small><strong data-weekly-goal>—</strong><span>Sign in to sync</span></article>
-        </div>
-      </section>
-      <section class="quick-grid" aria-label="Quick actions">
+      <section class="hero ak-hero">
+  <div class="ak-hero-noise" aria-hidden="true"></div>
+  <div class="hero-copy ak-hero-copy">
+    <p class="eyebrow">AAPTAKOSHA · BAMS KNOWLEDGE SYSTEM</p>
+    <h1><span id="greeting">Good morning</span>, <span class="ak-gradient-text">Student.</span></h1>
+    <h2>Learn Ayurveda.<br><em>Understand it.</em></h2>
+    <p class="ak-hero-lede">One connected learning system for your NCISM curriculum, Samhitas, concepts, practice and revision.</p>
+    <div class="ak-hero-actions">
+      <a class="primary ak-primary" href="./learn.html">Start learning <span>→</span></a>
+      <a class="ak-secondary" href="./curriculum.html">Explore curriculum</a>
+    </div>
+    <p class="ak-auth-line" data-auth-state aria-live="polite">Sign in to sync your learning progress.</p>
+  </div>
+  <div class="hero-art ak-hero-art" aria-hidden="true">
+    <div class="ak-orbit ak-orbit-one"></div><div class="ak-orbit ak-orbit-two"></div>
+    <span class="ak-symbol ak-symbol-one">अ</span><span class="ak-symbol ak-symbol-two">ॐ</span><span class="ak-symbol ak-symbol-three">✦</span>
+    <div class="ak-hero-core"><strong>ज्ञान</strong><small>connected knowledge</small></div>
+  </div>
+  <div class="hero-cards ak-hero-cards">
+    <article class="continue-card ak-continue">
+      <div class="course-icon" aria-hidden="true">❋</div>
+      <div class="card-content"><span class="label">Continue learning</span><strong>Charaka Samhita · Sūtrasthāna 1</strong><small>Classical text study</small><div class="progress-row"><div class="progress" role="progressbar" aria-label="Current learning progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><i style="width:0%"></i></div><span>—</span></div></div>
+      <a class="primary" href="./samhita-study.html?chapter=charaka.sutra.01">Continue <span>→</span></a>
+    </article>
+    <article class="mini-stat"><span class="stat-icon" aria-hidden="true">🔥</span><small>Current streak</small><strong data-streak>—</strong><span>Sign in to sync</span></article>
+    <article class="mini-stat goal"><span class="stat-icon" aria-hidden="true">◎</span><small>Weekly goal</small><strong data-weekly-goal>—</strong><span>Sign in to sync</span></article>
+  </div>
+</section>
+<section class="ak-story-strip" aria-label="AaptaKosha learning system">
+  <div><span class="eyebrow">ONE SYSTEM · MANY WAYS TO LEARN</span><h2>Your BAMS journey, connected.</h2></div>
+  <div class="ak-story-items">
+    <a href="./learn.html"><strong>Understand</strong><span>Concept-first learning</span></a>
+    <a href="./learn.html"><strong>Visualise</strong><span>Diagrams & relationships</span></a>
+    <a href="./practice.html"><strong>Practise</strong><span>MCQs & assessments</span></a>
+    <a href="./notes.html"><strong>Remember</strong><span>Notes & revision</span></a>
+  </div>
+</section>
+<section class="quick-grid" aria-label="Quick actions">
         <a class="quick-card" href="./curriculum.html"><span>▣</span><div><strong>BAMS Curriculum</strong><small>Explore all 3 professional years</small></div><b>→</b></a><a class="quick-card" href="./samhita.html"><span aria-hidden="true">❋</span><div><strong>Samhita Library</strong><small>Find classical texts easily</small></div><b>→</b></a>
         <a class="quick-card" href="./practice.html"><span aria-hidden="true">◇</span><div><strong>Practice</strong><small>Improve your skills</small></div><b>→</b></a>
         <a class="quick-card" href="./assessment.html"><span aria-hidden="true">▤</span><div><strong>Assessments</strong><small>Test your knowledge</small></div><b>→</b></a>
