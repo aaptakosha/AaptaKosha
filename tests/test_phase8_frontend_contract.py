@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 ROOT = Path(__file__).parents[1] / "frontend"
 
@@ -37,7 +38,7 @@ def test_shared_state_helper_exports_public_contract():
 def test_clerk_session_bootstrap_uses_safe_config_and_sdk():
     session = read("session.js")
     api = (Path(__file__).parents[1] / "api" / "assessments.py").read_text(encoding="utf-8")
-    assert 'fetch("/api/config"' in session
+    assert re.search(r"fetch\\([\"']/?api/config", session)
     assert 'clerk-js@6/dist/clerk.browser.js' in session
     assert 'CLERK_PUBLISHABLE_KEY' in api
     assert 'CLERK_SECRET_KEY' not in session
@@ -53,7 +54,7 @@ def test_authenticated_flows_do_not_accept_browser_selected_learner_ids():
     assert '"/progress"' in progress
     assert '"/progress?subject_id=' not in progress
     assert 'window.AAPTAKOSHA_API_BASE || (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)' in flow
-    assert 'subjectId: clerk.user ? clerk.user.id : null' in session
+    assert re.search(r"subjectId\\s*:\\s*clerk\\??\\.user\\??\\.id\\s*\\|\\|\\s*null", session)
     assert 'authenticated || window.AAPTAKOSHA_API_BASE' in progress
     assert 'window.AaptaKoshaUi?.status' in progress
 
