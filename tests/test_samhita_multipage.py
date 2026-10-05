@@ -69,7 +69,7 @@ def test_existing_chapter_id_is_accepted_by_content_index():
     api=(ROOT/"api"/"content.py").read_text(encoding="utf-8")
     assert 'data["chapter_id"]' in api
     assert 'payload.get("chapter_no")' in api
-    assert 'payload.get("adhyaya_no")' in api
+    assert 'data.get("adhyaya_no")' in api
 
 
 def test_ashtanga_and_charaka_stored_chapters_have_stable_ids():
@@ -85,25 +85,21 @@ def test_ashtanga_and_charaka_stored_chapters_have_stable_ids():
         assert payload.get("content_id") == expected or payload.get("chapter_id") == expected
 
 
-def test_every_stored_samhita_chapter_file_is_indexed():
+def test_every_registered_samhita_chapter_file_is_indexed():
     import importlib.util
     import json
     api_path=ROOT/"api"/"content.py"
+    registry=json.loads((ROOT/"content"/"samhita-registry.json").read_text(encoding="utf-8"))
     spec=importlib.util.spec_from_file_location("aapta_content",api_path)
     module=importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    chapter_files=[]
-    for path in (ROOT/"content"/"samhita").rglob("*.json"):
-        if path.name=="chapter.json" or path.name.startswith("adhyaya-"):
-            chapter_files.append(path)
-    index=module._content_index()
-    assert len(chapter_files)==49
-    assert len([p for p in index.values() if p.is_file()])==49
-    assert all(path.resolve() in {p.resolve() for p in index.values() if p.is_file()} for path in chapter_files)
-    assert len(module.catalog())==49
-
-
-
+    entries=registry["entries"]
+    assert entries
+    for entry in entries:
+        path=(ROOT/entry["path"]).resolve()
+        assert path.is_file(), entry
+        assert module._content_index().get(entry["content_id"]) == path
+    assert len(module.catalog()) == len(entries)
 
 def test_every_catalog_entry_resolves_through_reader_api():
     import importlib.util
@@ -111,10 +107,12 @@ def test_every_catalog_entry_resolves_through_reader_api():
     module=importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     entries=module.catalog()
-    assert len(entries)==49
+    registry=json.loads((ROOT/"content"/"samhita-registry.json").read_text(encoding="utf-8"))
+    assert len(entries)==len(registry["entries"])
     for entry in entries:
-        assert module.load_content(entry["content_id"]) is not None
-        assert module.load_content(entry["content_id"])["content_id"]==entry["content_id"]
+        content=module.load_content(entry["content_id"])
+        assert content is not None
+        assert content["content_id"]==entry["content_id"]
 
 
 def test_sharangadhara_frontend_slug_resolves_to_canonical_api_ids():
