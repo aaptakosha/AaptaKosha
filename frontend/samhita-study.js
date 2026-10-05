@@ -97,7 +97,7 @@ function renderFallback(){
   const items=Array.isArray(state.items)?state.items:[];
   const units=Array.isArray(state.chapter?.learning_units)?state.chapter.learning_units:[];
   if(unitList) unitList.innerHTML=units.map((u,i)=>'<button class="unit-card" data-unit="'+i+'"><span class="unit-number">'+String(i+1).padStart(2,"0")+'</span><span class="unit-copy"><strong>'+esc(u.title_hi||u.title||("Unit "+(i+1)))+'</strong></span></button>').join("");
-  if(grid) grid.innerHTML=items.map(v=>'<article class="verse-card"><div class="verse-number">श्लोक '+esc(itemLabel(v))+'</div><div class="sanskrit">'+esc(v.sanskrit_original||v.text||"").replace(/\\n/g,"<br>")+'</div><div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi||"")+'</p></div><div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi||"")+'</p></div></article>').join("");
+  if(grid) grid.innerHTML=items.map(v=>'<article class="verse-card"><div class="verse-number">श्लोक '+esc(itemLabel(v))+'</div><div class="sanskrit">'+esc(v.sanskrit_original||v.text||"").replace(/\n/g,"<br>")+'</div><div class="panel"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation_hi||"")+'</p></div><div class="panel"><strong>व्याख्या</strong><p>'+esc(v.explanation_hi||"")+'</p></div></article>').join("");
 }
 function renderAll(){try{renderMetrics();render()}catch(e){console.error("Samhita render error",e);renderFallback()}}
 function speak(t,src){if(src){const a=new Audio(src);a.play().catch(()=>speakTts(t));return}speakTts(t)}
