@@ -57,3 +57,16 @@ a{transition:transform .25s ease,opacity .25s ease,box-shadow .25s ease}
 .study-journey{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.study-journey span{padding:7px 10px;border:1px solid #d9e5d8;border-radius:999px;background:#fff;font-size:10px;color:#456356}.study-journey i{font-style:normal;color:#9aa9a1}
 .study-focus-card{display:flex;flex-direction:column;justify-content:space-between;background:#123c32!important;color:#fff!important}.study-focus-card .eyebrow{color:#b9d4b7}.study-focus-card p{color:#d3e0da}.study-focus-card strong{font-size:28px;line-height:1.05;display:block;margin-top:8px}
 @media(max-width:800px){.samhita-study-story{grid-template-columns:1fr}}
+
+
+/* AAPTAKOSHA STORY SYSTEM — secondary navigation surface */
+.main-content>.hero:not(.ak-hero){
+  position:relative;overflow:hidden;border:0;border-radius:28px;
+  background:linear-gradient(135deg,#123c32 0%,#173f35 60%,#f1eee5 60.1%,#f7f4ed 100%);
+  color:#fff;box-shadow:0 24px 60px rgba(18,60,50,.14);
+}
+.main-content>.hero:not(.ak-hero) .eyebrow{color:#c9d9c5}
+.main-content>.hero:not(.ak-hero) h1{color:#fff;font-size:clamp(38px,5vw,64px);letter-spacing:-.055em}
+.main-content>.hero:not(.ak-hero) p{color:#d4dfd8}
+.main-content>.hero:not(.ak-hero) .quick-card{border-color:rgba(18,60,50,.11);border-radius:18px}
+
