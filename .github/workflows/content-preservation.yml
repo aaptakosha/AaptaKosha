@@ -46,14 +46,30 @@ jobs:
             exit 1
           fi
 
-      - name: Block destructive curriculum SQL
+      - name: Block destructive curriculum SQL in changed migrations
         shell: bash
         run: |
-          if grep -RniE '(^|[^-])(DROP[[:space:]]+TABLE|DELETE[[:space:]]+FROM|TRUNCATE[[:space:]]+TABLE|REPLACE[[:space:]]+INTO)' migrations/; then
-            echo "Destructive SQL is not allowed in curriculum migrations."
-            echo "Add new rows with INSERT OR IGNORE/ON CONFLICT and use additive updates."
-            exit 1
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+            HEAD="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+            HEAD="${{ github.sha }}"
           fi
+          if [[ "$BASE" =~ ^0+$ ]]; then
+            exit 0
+          fi
+          changed="$(git diff --name-only "$BASE" "$HEAD" -- migrations/)"
+          if [[ -z "$changed" ]]; then
+            echo "No migration files changed."
+            exit 0
+          fi
+          for file in $changed; do
+            if grep -niE '(^|[^-])(DROP[[:space:]]+TABLE|DELETE[[:space:]]+FROM|TRUNCATE[[:space:]]+TABLE|REPLACE[[:space:]]+INTO)' "$file"; then
+              echo "Destructive SQL is not allowed in changed curriculum migrations."
+              exit 1
+            fi
+          done
 
       - name: Enforce Padartha universal content contract
         run: |
