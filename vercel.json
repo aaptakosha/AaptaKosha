@@ -10,7 +10,7 @@
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/**}"
     },
     "api/content.py": {
-      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**}"
     },
     "api/curriculum_content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
