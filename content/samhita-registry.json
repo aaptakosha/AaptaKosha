@@ -344,6 +344,27 @@
             "name_en": "Vṛnda Cikitsā",
             "kind": "chikitsa-compendium",
             "status": "planned"
+          },
+          {
+            "id": "ayurveda-sangraha",
+            "name": "आयुर्वेदसंग्रह",
+            "name_en": "Āyurveda Saṅgraha",
+            "kind": "compendium",
+            "status": "planned"
+          },
+          {
+            "id": "ayurveda-sara-sangraha",
+            "name": "आयुर्वेदसारसंग्रह",
+            "name_en": "Āyurveda Sāra Saṅgraha",
+            "kind": "compendium",
+            "status": "planned"
+          },
+          {
+            "id": "vaidya-chikitsa-sara",
+            "name": "वैद्यकचिकित्सासार",
+            "name_en": "Vaidyaka Cikitsā Sāra",
+            "kind": "chikitsa-compendium",
+            "status": "planned"
           }
         ]
       },
@@ -398,6 +419,13 @@
             "id": "dravyaguna-nighantu",
             "name": "द्रव्यगुण निघण्टु",
             "name_en": "Dravyaguṇa Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "raj-nighantu",
+            "name": "राजनिघण्टु",
+            "name_en": "Rāja Nighaṇṭu",
             "kind": "nighantu",
             "status": "planned"
           }
@@ -483,6 +511,48 @@
             "name": "योगरत्नसंग्रह",
             "name_en": "Yogaratnasaṅgraha",
             "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "rasamanjari",
+            "name": "रसमञ्जरी",
+            "name_en": "Rasamañjarī",
+            "kind": "rasashastra",
+            "status": "planned"
+          },
+          {
+            "id": "rasamrita",
+            "name": "रसामृत",
+            "name_en": "Rasāmṛta",
+            "kind": "rasashastra",
+            "status": "planned"
+          },
+          {
+            "id": "rasayoga-sagara",
+            "name": "रसयोगसागर",
+            "name_en": "Rasayoga Sāgara",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "rasayoga-sangraha",
+            "name": "रसयोगसंग्रह",
+            "name_en": "Rasayoga Saṅgraha",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "siddha-yoga-sangraha",
+            "name": "सिद्धयोगसंग्रह",
+            "name_en": "Siddha Yoga Saṅgraha",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "rasa-pradipika",
+            "name": "रसप्रदीपिका",
+            "name_en": "Rasapradīpikā",
+            "kind": "rasashastra",
             "status": "planned"
           }
         ]
