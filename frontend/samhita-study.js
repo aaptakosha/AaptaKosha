@@ -131,7 +131,7 @@ async function init(){
   const sourceItems=Array.isArray(state.chapter.verses)?state.chapter.verses:Array.isArray(state.chapter.passages)?state.chapter.passages:legacyTextToItems(state.chapter.sanskrit_text||"");
   state.items=sourceItems.map((v,i)=>{
     const rawNo=v.verse_no??v.passage_no??i+1,numericNo=Number(rawNo),n=Number.isFinite(numericNo)?numericNo:rawNo;
-    return {...v,verse_no:n,verse_id:v.verse_id||"legacy-"+String(n).padStart(2,"0"),sanskrit_original:v.sanskrit_original||v.text||v.sanskrit||v.sanskrit_text||"",translation_hi:v.translation_hi||legacyRangeText(state.chapter.hindi_translation,n),explanation_hi:v.explanation_hi||"",tika_hi:v.tika_hi||legacyRangeText(state.chapter.commentary_mapping,n),_index:i};
+    return {...v,verse_no:n,verse_id:v.verse_id||"legacy-"+String(n).padStart(2,"0"),sanskrit_original:v.sanskrit_original||v.text||v.sanskrit||v.sanskrit_text||"",translation_hi:v.translation_hi||v.hindi_translation||v.student_meaning||v.meaning_hi||legacyRangeText(state.chapter.hindi_translation,n),explanation_hi:v.explanation_hi||v.hindi_explanation||v.student_explanation_hi||v.explanation||legacyRangeText(state.chapter.hindi_learning_summary,n),tika_hi:v.tika_hi||legacyRangeText(state.chapter.commentary_mapping,n),_index:i};
   });
   updateStudySeo("");
   document.querySelector("#chapterTitle").textContent=state.chapter.title_hi||state.chapter.title;
