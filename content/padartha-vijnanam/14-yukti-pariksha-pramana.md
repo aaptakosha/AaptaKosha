@@ -1162,3 +1162,29 @@ The official NCISM learning outcomes specify:
 ## Classical-study direction
 
 Students should study the exact Sanskrit definitions, classical examples and prescribed verses from the institution's recommended **Charaka Samhita** and Darshana texts. This chapter provides the structured NCISM learning framework and practical application without treating modern scientific analogies as proof of philosophical equivalence.
+
+
+---
+
+## Flashcards
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** yukti pariksha pramana.
+
+### Card 2
+**Q:** Which definitions, classifications and Ayurvedic applications should be recalled?
+
+**A:** Recall the definitions, classifications, significance and applications presented in the chapter.
+
+
+---
+
+## References and Further Reading
+
+1. NCISM — AyUG-PV Padartha Vijnanam syllabus.
+2. Charaka Samhita, relevant foundational discussions, prescribed edition/commentary.
+3. Sushruta Samhita, relevant foundational discussions, prescribed edition/commentary.
+4. Ashtanga Hridaya, relevant foundational discussions, prescribed edition/commentary.
+5. Institution-prescribed Padartha Vijnanam/Darshana textbook and commentary.
