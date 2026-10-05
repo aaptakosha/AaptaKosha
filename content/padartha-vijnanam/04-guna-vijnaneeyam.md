@@ -1272,3 +1272,53 @@ Contemporary science can provide useful analogies for selected concepts, but cla
 This chapter covers the five syllabus components of **Guna Vijnaneeyam**: derivation/classification and enumeration according to Darshana and Charaka; Sartha, Gurvadi, Paradi and Adhyatma Guna (41); Gunapradhanyata; practical/clinical application; and contemporary-science examples that enhance conceptual understanding.
 
 **Next:** Chapter 5 — Karma Vijnaneeyam.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What should you be able to do regarding: **Derive and define the term Guna.**?
+
+**A:** Derive and define the term Guna.
+
+### Card 2
+**Q:** What should you be able to do regarding: **Explain Guna as a Padartha and its relation with Dravya and Karma.**?
+
+**A:** Explain Guna as a Padartha and its relation with Dravya and Karma.
+
+### Card 3
+**Q:** What should you be able to do regarding: **Compare the classification and enumeration of Guna in Vaisheshika and Charaka.**?
+
+**A:** Compare the classification and enumeration of Guna in Vaisheshika and Charaka.
+
+### Card 4
+**Q:** What should you be able to do regarding: **Explain the five Sartha/Indriyartha Gunas.**?
+
+**A:** Explain the five Sartha/Indriyartha Gunas.
+
+### Card 5
+**Q:** What should you be able to do regarding: **Define and apply all twenty Gurvadi Gunas.**?
+
+**A:** Define and apply all twenty Gurvadi Gunas.
+
+### Card 6
+**Q:** What should you be able to do regarding: **Explain the ten Paradi Gunas.**?
+
+**A:** Explain the ten Paradi Gunas.
+
+
+---
+
+## References and Further Reading
+
+1. **NCISM — AyUG-PV Padartha Vijnanam syllabus**, First Professional BAMS, applicable topic/paper.
+2. **Charaka Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+3. **Sushruta Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+4. **Ashtanga Hridaya**, relevant foundational discussions, read in the prescribed edition/commentary.
+5. The institution's prescribed **Padartha Vijnanam / Darshana** textbook and commentary should be used for exact technical definitions and school-specific interpretations.
+
+**Source-use rule:** Where a classical statement is quoted, verify the wording against the prescribed edition before memorisation.
