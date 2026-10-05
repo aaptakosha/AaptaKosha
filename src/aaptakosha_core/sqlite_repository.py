@@ -31,9 +31,30 @@ class SQLiteCatalogRepository:
             self.connection.close()
 
     def apply_migrations(self, migration_path: str | Path) -> None:
+        """Apply one migration atomically.
+
+        Curriculum publishing is append-only: a bad new migration must never
+        partially apply and leave the existing catalogue in a broken state.
+        sqlite3.executescript() can commit statements before a later statement
+        fails, so migrations are split into complete SQL statements and executed
+        inside one transaction. Any failure rolls back the whole migration.
+        """
         sql = Path(migration_path).read_text(encoding="utf-8")
-        with self.connection:
-            self.connection.executescript(sql)
+        statement = ""
+        try:
+            with self.connection:
+                for line in sql.splitlines(keepends=True):
+                    statement += line
+                    if sqlite3.complete_statement(statement):
+                        candidate = statement.strip()
+                        statement = ""
+                        if candidate:
+                            self.connection.execute(candidate)
+                if statement.strip():
+                    self.connection.execute(statement)
+        except sqlite3.DatabaseError:
+            self.connection.rollback()
+            raise
 
     def get_curriculum(self, curriculum_id: str, version: str | None = None) -> Curriculum | None:
         if version is None:
