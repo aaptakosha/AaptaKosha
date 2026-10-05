@@ -37,9 +37,13 @@ async function apiNodes(curriculumId,subjectId,parentNodeId){
 async function subjects(year){
  const y=YEARS[year];try{const r=await fetch('/api/catalog/'+y.curriculum_id+'?version=2021-22');if(!r.ok)throw 0;const b=await r.json();return (b.data?.subjects||[]).map(s=>[s.subject_id,s.name||s.subject_id]);}catch{return SUBJECT_FALLBACK[year]||[]}
 }
-function samhitaContentId(subjectId,nodeCode){
- const map={"AH.Su.1":"ashtanga.hridaya.sutra.01","AH.Su.2":"ashtanga.hridaya.sutra.02","AH.Su.3":"ashtanga.hridaya.sutra.03","AH.Su.4":"ashtanga.hridaya.sutra.04","AH.Su.5":"ashtanga.hridaya.sutra.05","AH.Su.6":"ashtanga.hridaya.sutra.06","AH.Su.7":"ashtanga.hridaya.sutra.07","AH.Su.8":"ashtanga.hridaya.sutra.08","AH.Su.9":"ashtanga.hridaya.sutra.09","AH.Su.10":"ashtanga.hridaya.sutra.10","AH.Su.11":"ashtanga.hridaya.sutra.11","AH.Su.12":"ashtanga.hridaya.sutra.12","AH.Su.13":"ashtanga.hridaya.sutra.13","AH.Su.14":"ashtanga.hridaya.sutra.14","AH.Su.15":"ashtanga.hridaya.sutra.15"};
- return subjectId==="AyUG-SA1"?(map[nodeCode]||null):null;
+function samhitaContentId(subjectId,nodeCode,nodeId){
+ if(subjectId!=="AyUG-SA1")return null;
+ const byNode={
+   "y1-sa1-2":"ashtanga.hridaya.sutra.01","y1-sa1-3":"ashtanga.hridaya.sutra.02","y1-sa1-4":"ashtanga.hridaya.sutra.03","y1-sa1-5":"ashtanga.hridaya.sutra.04","y1-sa1-6":"ashtanga.hridaya.sutra.05","y1-sa1-7":"ashtanga.hridaya.sutra.06","y1-sa1-8":"ashtanga.hridaya.sutra.07","y1-sa1-9":"ashtanga.hridaya.sutra.08","y1-sa1-10":"ashtanga.hridaya.sutra.09","y1-sa1-11":"ashtanga.hridaya.sutra.10","y1-sa1-12":"ashtanga.hridaya.sutra.11","y1-sa1-13":"ashtanga.hridaya.sutra.12","y1-sa1-14":"ashtanga.hridaya.sutra.13","y1-sa1-15":"ashtanga.hridaya.sutra.14","y1-sa1-16":"ashtanga.hridaya.sutra.15","y1-sa1-17":"charaka.sutra.01","y1-sa1-18":"charaka.sutra.02","y1-sa1-19":"charaka.sutra.03","y1-sa1-20":"charaka.sutra.04","y1-sa1-21":"charaka.sutra.05","y1-sa1-22":"charaka.sutra.06","y1-sa1-23":"charaka.sutra.07","y1-sa1-24":"charaka.sutra.08","y1-sa1-25":"charaka.sutra.09","y1-sa1-26":"charaka.sutra.10","y1-sa1-27":"charaka.sutra.11","y1-sa1-28":"charaka.sutra.12"
+ };
+ const byCode={"AH.Su.1":"ashtanga.hridaya.sutra.01","AH.Su.2":"ashtanga.hridaya.sutra.02","AH.Su.3":"ashtanga.hridaya.sutra.03","AH.Su.4":"ashtanga.hridaya.sutra.04","AH.Su.5":"ashtanga.hridaya.sutra.05","AH.Su.6":"ashtanga.hridaya.sutra.06","AH.Su.7":"ashtanga.hridaya.sutra.07","AH.Su.8":"ashtanga.hridaya.sutra.08","AH.Su.9":"ashtanga.hridaya.sutra.09","AH.Su.10":"ashtanga.hridaya.sutra.10","AH.Su.11":"ashtanga.hridaya.sutra.11","AH.Su.12":"ashtanga.hridaya.sutra.12","AH.Su.13":"ashtanga.hridaya.sutra.13","AH.Su.14":"ashtanga.hridaya.sutra.14","AH.Su.15":"ashtanga.hridaya.sutra.15","Ch.Su.1":"charaka.sutra.01","Ch.Su.2":"charaka.sutra.02","Ch.Su.3":"charaka.sutra.03","Ch.Su.4":"charaka.sutra.04","Ch.Su.5":"charaka.sutra.05","Ch.Su.6":"charaka.sutra.06","Ch.Su.7":"charaka.sutra.07","Ch.Su.8":"charaka.sutra.08","Ch.Su.9":"charaka.sutra.09","Ch.Su.10":"charaka.sutra.10","Ch.Su.11":"charaka.sutra.11","Ch.Su.12":"charaka.sutra.12"};
+ return byNode[nodeId]||byCode[nodeCode]||null;
 }
 async function fetchSamhitaContent(contentId){
  if(!contentId)return null;try{const r=await fetch("/api/content/samhita?content_id="+encodeURIComponent(contentId),{credentials:"same-origin"});if(!r.ok)return null;const d=await r.json();return d.data||null;}catch{return null}
@@ -100,7 +104,7 @@ async function renderChapter(){
  const nodeCode=qs.get("node_code")||"";
  let lesson=null;
  let samhitaPayload=null;
- const samhitaId=samhitaContentId(sid,nodeCode);
+ const samhitaId=samhitaContentId(sid,nodeCode,nodeId);
  if(samhitaId)samhitaPayload=await fetchSamhitaContent(samhitaId);
  if(nodeCode){
    try{
