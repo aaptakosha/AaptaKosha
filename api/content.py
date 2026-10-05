@@ -255,7 +255,7 @@ def load_content(content_id: str):
     path = _content_index().get(canonical)
     if path is not None and path.is_file():
         try:
-            path.resolve().relative_to(SAMHITA_ROOT.resolve())
+            path.resolve().relative_to((ROOT / "content").resolve())
             with path.open(encoding="utf-8") as fh:
                 return _normalize_payload(json.load(fh), canonical)
         except (OSError, ValueError, TypeError):
