@@ -200,6 +200,50 @@
     {
       "content_id": "madhava.nidana.03",
       "path": "content/samhita/madhava-nidana/nidana-sthana/adhyaya-03.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.05",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-05-DravadravyaVijnaniya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.06",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-06-AnnasvarupaVijnaniya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.07",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-07-Annaraksha.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.08",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-08-Matrashitiya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.09",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-09-DravyadiVijnaniya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.10",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-10-Rasabhediya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.11",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-11-DoshadiVijnaniya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.12",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-12-Doshabhediya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.13",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-13-Doshopakramaniya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.14",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-14-Dvividhopakramaniya.json"
+    },
+    {
+      "content_id": "ashtanga.hridaya.sutra.15",
+      "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-15-ShodhanadiganaSangraha.json"
     }
   ]
 }
