@@ -1186,3 +1186,28 @@ The official course learning outcomes also identify Pramana Shastra/epistemology
 ## Classical-study direction
 
 For exact Sanskrit quotations, technical classifications and examination-specific wording, students should use the prescribed editions of the relevant Darshana and Ayurvedic texts alongside this chapter. The chapter is structured as a student-learning resource aligned to the NCISM topic rather than as a replacement for the prescribed primary texts.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** Chapter 10 — Pariksha Vijnaneeyam.
+
+
+---
+
+## References and Further Reading
+
+1. **NCISM — AyUG-PV Padartha Vijnanam syllabus**, First Professional BAMS, applicable topic/paper.
+2. **Charaka Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+3. **Sushruta Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+4. **Ashtanga Hridaya**, relevant foundational discussions, read in the prescribed edition/commentary.
+5. The institution's prescribed **Padartha Vijnanam / Darshana** textbook and commentary should be used for exact technical definitions and school-specific interpretations.
+
+**Source-use rule:** Where a classical statement is quoted, verify the wording against the prescribed edition before memorisation.
