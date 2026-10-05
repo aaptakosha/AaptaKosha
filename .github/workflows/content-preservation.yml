@@ -76,6 +76,22 @@ jobs:
           python -m pip install --quiet pytest
           pytest -q tests/test_content_contract_padartha.py
 
+      - name: Enforce semantic preservation of existing content
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+          fi
+          if [[ "$BASE" =~ ^0+$ ]]; then
+            echo "No previous revision available; skipping preservation comparison."
+            exit 0
+          fi
+          rm -rf /tmp/aaptakosha-base
+          mkdir -p /tmp/aaptakosha-base
+          git archive "$BASE" content | tar -x -C /tmp/aaptakosha-base
+          PYTHONPATH=src python -c "from aaptakosha_core.content_preservation import assert_content_preserved; assert_content_preserved('/tmp/aaptakosha-base', '.')"
       - name: Check repository content paths
         run: |
           test -d content
