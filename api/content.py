@@ -146,8 +146,17 @@ def _normalize_payload(payload: dict, content_id: str) -> dict:
         item["verse_no"] = number
         item["verse_id"] = item.get("verse_id") or (f"legacy-{int(number):02d}" if str(number).isdigit() else f"legacy-{number}")
         item["sanskrit_original"] = item.get("sanskrit_original") or item.get("text") or item.get("sanskrit") or item.get("sanskrit_text") or ""
-        item["translation_hi"] = item.get("translation_hi") or _range_for_number(data.get("hindi_translation"), number)
-        item["explanation_hi"] = item.get("explanation_hi") or _range_for_number(data.get("hindi_learning_summary"), number)
+        item["translation_hi"] = (
+            item.get("translation_hi")
+            or item.get("student_meaning")
+            or item.get("meaning_hi")
+            or _range_for_number(data.get("hindi_translation"), number)
+        )
+        item["explanation_hi"] = (
+            item.get("explanation_hi")
+            or item.get("student_explanation_hi")
+            or _range_for_number(data.get("hindi_learning_summary"), number)
+        )
         verses.append(item)
     units = []
     for i, unit in enumerate(data.get("learning_units") or [], 1):
