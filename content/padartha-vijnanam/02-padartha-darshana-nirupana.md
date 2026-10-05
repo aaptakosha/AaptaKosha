@@ -790,3 +790,40 @@ This chapter corresponds to **Paper I, Topic 2 — Padartha and Darshana Nirupan
 **Chapter 3 — Dravya Vijnaneeyam**
 
 It will cover Dravya Lakshana and classification, Panchamahabhuta, creation theories, Akasha, Vayu, Agni, Jala and Prithvi, Kala, Dik, Atma, Purusha, Manas, Deha-Prakriti, Triguna/Manas-Prakriti, Tamas as the tenth Dravya and the practical application of these concepts.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What should you be able to do regarding: **Explain the meaning and scope of Padartha.**?
+
+**A:** Explain the meaning and scope of Padartha.
+
+### Card 2
+**Q:** What should you be able to do regarding: **Explain the relationship between Padartha Vijnanam and Darshana.**?
+
+**A:** Explain the relationship between Padartha Vijnanam and Darshana.
+
+### Card 3
+**Q:** What should you be able to do regarding: **Describe the six classical Astika Darshanas.**?
+
+**A:** Describe the six classical Astika Darshanas.
+
+### Card 4
+**Q:** What should you be able to do regarding: **Explain the principal concepts of Nyaya, Vaisheshika, Sankhya and Yoga relevant to Ayurveda.**?
+
+**A:** Explain the principal concepts of Nyaya, Vaisheshika, Sankhya and Yoga relevant to Ayurveda.
+
+### Card 5
+**Q:** What should you be able to do regarding: **Explain the seven-fold Padartha classification of Vaisheshika.**?
+
+**A:** Explain the seven-fold Padartha classification of Vaisheshika.
+
+### Card 6
+**Q:** What should you be able to do regarding: **Explain the six Karana-Padarthas emphasi**?
+
+**A:** Explain the six Karana-Padarthas emphasi
