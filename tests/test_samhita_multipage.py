@@ -102,6 +102,7 @@ def test_every_registered_samhita_chapter_file_is_indexed():
     assert len(module.catalog()) == len(entries)
 
 def test_every_catalog_entry_resolves_through_reader_api():
+    import json
     import importlib.util
     spec=importlib.util.spec_from_file_location("aapta_content",ROOT/"api"/"content.py")
     module=importlib.util.module_from_spec(spec)
