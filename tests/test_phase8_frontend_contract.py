@@ -54,7 +54,7 @@ def test_authenticated_flows_do_not_accept_browser_selected_learner_ids():
     assert '"/progress"' in progress
     assert '"/progress?subject_id=' not in progress
     assert 'window.AAPTAKOSHA_API_BASE || (window.AaptaKoshaSession && window.AaptaKoshaSession.authenticated)' in flow
-    assert re.search(r"subjectId\\s*:\\s*clerk\\??\\.user\\??\\.id\\s*\\|\\|\\s*null", session)
+    assert re.search(r"subjectId\s*:\s*clerk\??\.user\??\.id\s*\|\|\s*null", session)
     assert 'authenticated || window.AAPTAKOSHA_API_BASE' in progress
     assert 'window.AaptaKoshaUi?.status' in progress
 
