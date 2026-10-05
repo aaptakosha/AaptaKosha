@@ -10,6 +10,7 @@ import re
 from http.server import BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+from aaptakosha_core.content_contract import validate_markdown, CONTENT_STANDARD_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_ROOT = ROOT / "content" / "curriculum" / "ncism-first-professional"
@@ -91,12 +92,21 @@ def _markdown_payload(subject: str, node_id: str, code: str):
     if path is None or not path.is_file():
         return None
     try:
+        markdown = path.read_text(encoding="utf-8")
+        if subject == "AyUG-PV":
+            validation = validate_markdown(markdown)
+            if not validation.valid:
+                return {"_schema_error": list(validation.errors), "_components": dict(validation.components)}
+            return {
+                "node_id": node_id, "node_code": code, "content_type": "markdown",
+                "content_standard_version": CONTENT_STANDARD_VERSION,
+                "components": dict(validation.components),
+                "warnings": list(validation.warnings),
+                "content": markdown, "source_path": str(path.relative_to(ROOT)),
+            }
         return {
-            "node_id": node_id,
-            "node_code": code,
-            "content_type": "markdown",
-            "content": path.read_text(encoding="utf-8"),
-            "source_path": str(path.relative_to(ROOT)),
+            "node_id": node_id, "node_code": code, "content_type": "markdown",
+            "content": markdown, "source_path": str(path.relative_to(ROOT)),
         }
     except (OSError, UnicodeError):
         return None
@@ -175,8 +185,11 @@ class handler(BaseHTTPRequestHandler):
             return
         content = load_content(query.get("subject_id", ""), query.get("node_code", ""), query.get("node_id", ""))
         if content is None:
-            self._reply(404, {"error": {"code": "content_not_found"}})
-            return
+            self._reply(404, {"error": {"code": "content_not_found"}}); return
+        if isinstance(content, dict) and "_schema_error" in content:
+            self._reply(409, {"error": {"code": "content_schema_validation_failed",
+                "standard_version": CONTENT_STANDARD_VERSION,
+                "errors": content["_schema_error"], "components": content.get("_components", {})}}); return
         self._reply(200, {"data": content})
 
     def do_OPTIONS(self):
