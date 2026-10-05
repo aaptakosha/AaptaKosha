@@ -96,6 +96,36 @@ function renderMarkdown(md){
  closeList();if(inTable)out.push("</tbody></table></div>");
  return out.join("");
 }
+
+function renderStructuredLesson(d,name){
+ const esc2=esc;
+ const tabs=[
+  ["notes","अध्ययन-नोट्स"],["map","संकल्पना-मानचित्र"],["mind","मनःचित्र"],["tables","तुलनात्मक सारणियाँ"],
+  ["diagram","आरेख"],["mcq","बहुविकल्पीय प्रश्न"],["flash","स्मरण-पत्र"],["exam","परीक्षा-विभाग"],["recall","सक्रिय-स्मरण"],["revision","शीघ्र-पुनरावृत्ति"]
+ ];
+ const tabbar='<div class="study-tabs" role="tablist">'+tabs.map((t,i)=>'<button type="button" class="study-tab'+(i===0?' active':'')+'" data-study-tab="'+t[0]+'" role="tab">'+t[1]+'</button>').join('')+'</div>';
+ const notes='<section class="study-section active" data-study-section="notes"><div class="study-callout"><strong>अध्ययन-दृष्टि</strong><p>'+esc2(d.terminology_note||"")+'</p></div><div class="markdown-content">'+renderMarkdown(document.querySelector(".legacy-lesson-source")?.textContent||"")+'</div></section>';
+ const map=d.conceptMap||{};
+ const mapHtml='<section class="study-section" data-study-section="map"><div class="concept-map"><div class="concept-center">'+esc2(map.center||"शरीर")+'</div><div class="concept-branches">'+(map.branches||[]).map(b=>'<div class="concept-branch"><h3>'+esc2(b.label)+'</h3>'+(b.items||[]).map(x=>'<span>'+esc2(x)+'</span>').join('')).join('')+'</div><div class="relation-strip">'+(map.relations||[]).map(x=>'<div>'+esc2(x)+'</div>').join('')+'</div></div></section>';
+ const mind=d.mindMap||{};
+ const mindHtml='<section class="study-section" data-study-section="mind"><div class="mindmap"><div class="mind-root">'+esc2(mind.root||"शरीर")+'</div><div class="mind-branches">'+(mind.nodes||[]).map(n=>'<div class="mind-branch"><h3>'+esc2(n.label)+'</h3>'+(n.children||[]).map(x=>'<span>'+esc2(x)+'</span>').join('')).join('')+'</div></div></section>';
+ const tables='<section class="study-section" data-study-section="tables">'+(d.tables||[]).map(t=>'<div class="visual-table-card"><h3>'+esc2(t.title)+'</h3><div class="markdown-table-wrap"><table class="markdown-table"><thead><tr>'+t.headers.map(h=>'<th>'+esc2(h)+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(row=>'<tr>'+row.map(x=>'<td>'+esc2(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div></div>').join('')+'</section>';
+ const dg=d.diagram||{};
+ const diagram='<section class="study-section" data-study-section="diagram"><div class="dosha-diagram"><h3>'+esc2(dg.title||"पञ्चमहाभूत → त्रिदोष")+'</h3>'+(dg.nodes||[]).map(n=>'<div class="flow-row"><div class="element-pair">'+n.from.map(x=>'<span>'+esc2(x)+'</span>').join('<b> + </b>')+'</div><div class="flow-arrow">→</div><div class="dosha-node">'+esc2(n.to)+'</div></div>').join('')+'</div></section>';
+ const mcq='<section class="study-section" data-study-section="mcq"><div class="mcq-list">'+(d.mcqs||[]).map((m,i)=>'<article class="mcq-card"><div class="mcq-number">प्रश्न '+(i+1)+'</div><h3>'+esc2(m.q)+'</h3><div class="mcq-options">'+m.options.map((o,j)=>'<button type="button" class="mcq-option" data-correct="'+(j===m.answer)+'">'+String.fromCharCode(65+j)+'. '+esc2(o)+'</button>').join('')+'</div><button type="button" class="reveal-answer">उत्तर देखें</button><div class="mcq-answer" hidden><strong>सही उत्तर:</strong> '+String.fromCharCode(65+m.answer)+'. '+esc2(m.options[m.answer])+'<p>'+esc2(m.explanation||"")+'</p></div></article>').join('')+'</div></section>';
+ const flash='<section class="study-section" data-study-section="flash"><div class="flash-grid">'+(d.flashcards||[]).map((f,i)=>'<button type="button" class="flashcard" aria-expanded="false"><span class="flash-q">'+esc2(f.q)+'</span><span class="flash-a">'+esc2(f.a)+'</span><small>स्पर्श करें — उत्तर देखें</small></button>').join('')+'</div></section>';
+ const ex=d.exam_zone||{};
+ const exam='<section class="study-section" data-study-section="exam"><div class="exam-grid"><div><h3>दीर्घोत्तरीय प्रश्न</h3><ol>'+ex.laq.map(x=>'<li>'+esc2(x)+'</li>').join('')+'</ol></div><div><h3>लघूत्तरीय प्रश्न</h3><ol>'+ex.saq.map(x=>'<li>'+esc2(x)+'</li>').join('')+'</ol></div><div><h3>मौखिक परीक्षा</h3><ol>'+ex.viva.map(x=>'<li>'+esc2(x)+'</li>').join('')+'</ol></div></div></section>';
+ const recall='<section class="study-section" data-study-section="recall"><div class="recall-list">'+(d.active_recall||[]).map((x,i)=>'<div><span>'+String(i+1).padStart(2,"0")+'</span><p>'+esc2(x)+'</p></div>').join('')+'</div></section>';
+ const revision='<section class="study-section" data-study-section="revision"><div class="revision-grid">'+(d.quick_revision||[]).map(x=>'<div><strong>'+esc2(x[0])+'</strong><span>'+esc2(x[1])+'</span></div>').join('')+'</div></section>';
+ return '<div class="structured-lesson"><div class="structured-heading"><span class="eyebrow">प्रकाशित अध्ययन-सामग्री</span><h2>'+esc2(d.chapter_title||name)+'</h2><p>'+esc2(d.chapter_subtitle||"")+'</p></div>'+tabbar+notes+mapHtml+mindHtml+tables+diagram+mcq+flash+exam+recall+revision+'</div>';
+}
+function bindStructuredLesson(){
+ document.querySelectorAll(".study-tab").forEach(btn=>btn.addEventListener("click",()=>{const key=btn.dataset.studyTab;document.querySelectorAll(".study-tab").forEach(x=>x.classList.toggle("active",x===btn));document.querySelectorAll(".study-section").forEach(x=>x.classList.toggle("active",x.dataset.studySection===key));}));
+ document.querySelectorAll(".reveal-answer").forEach(btn=>btn.addEventListener("click",()=>{const box=btn.parentElement.querySelector(".mcq-answer");box.hidden=!box.hidden;btn.textContent=box.hidden?"उत्तर देखें":"उत्तर छिपाएँ";}));
+ document.querySelectorAll(".mcq-option").forEach(btn=>btn.addEventListener("click",()=>{const card=btn.closest(".mcq-card");card.querySelectorAll(".mcq-option").forEach(x=>x.classList.remove("selected"));btn.classList.add("selected");}));
+ document.querySelectorAll(".flashcard").forEach(card=>card.addEventListener("click",()=>{const open=card.getAttribute("aria-expanded")==="true";card.setAttribute("aria-expanded",String(!open));}));
+}
 async function renderChapter(){
  const year=Number(qs.get("year")),cid=qs.get("curriculum_id"),sid=qs.get("subject_id"),sname=qs.get("subject_name")||sid,nodeId=qs.get("node_id"),name=qs.get("chapter_name")||"Chapter";
  if(!year||!cid||!sid||!nodeId){location.href='./curriculum.html';return}
@@ -113,9 +143,9 @@ async function renderChapter(){
      const r=await fetch(u);if(r.ok)lesson=(await r.json()).data||null;
    }catch{}
  }
- const lessonHtml=lesson?(lesson.content_type==="markdown"
-   ?'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">Published study content</span><h2>'+esc(name)+'</h2><p>यह अध्याय repository में प्रकाशित अध्ययन सामग्री से सीधे लोड किया गया है।</p></div><div class="markdown-content">'+renderMarkdown(lesson.content||"")+'</div></div>'
-   :'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">NCISM-aligned study content</span><h2>'+esc(lesson.chapter_title||name)+'</h2><p>'+esc(lesson.scope_note||'')+'</p></div><div class="topic-list">'+(lesson.learning_outcomes?.length?'<article class="topic-item"><span>LO</span><div><h3>Learning outcomes</h3><ul>'+lesson.learning_outcomes.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+(lesson.sections||[]).map(sec=>'<article class="topic-item"><span>'+esc(sec.id?.split("-")[0]||'')+'</span><div><h3>'+esc(sec.title||'')+'</h3>'+(sec.content||[]).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div></article>').join('')+(lesson.exam_focus?.length?'<article class="topic-item"><span>EX</span><div><h3>Exam focus</h3><ul>'+lesson.exam_focus.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+'</div></div>'):'';
+ const lessonHtml=lesson?(lesson.content_type==="structured"
+   ?renderStructuredLesson(lesson.content||{},name)
+   :'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">Published study content</span><h2>'+esc(name)+'</h2><p>यह अध्याय repository में प्रकाशित अध्ययन सामग्री से सीधे लोड किया गया है।</p></div><div class="markdown-content">'+renderMarkdown(lesson.content||"")+'</div></div>'):'';
  const topicsHtml='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
  const samhitaHtml=renderSamhitaOriginalLayer(samhitaPayload,samhitaId,name);
  const body=samhitaHtml+lessonHtml+topicsHtml;
