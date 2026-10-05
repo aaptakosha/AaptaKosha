@@ -1235,3 +1235,29 @@ The official curriculum specifies:
 ## Classical-study direction
 
 Exact Sanskrit definitions, examples and classifications should be learned from the prescribed Darshana and Ayurvedic texts/editions used by the institution. This chapter is structured as a complete NCISM-aligned learning resource and should be used alongside those primary sources.
+
+
+---
+
+## Flashcards
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** aptopadesha pariksha pramana.
+
+### Card 2
+**Q:** Which definitions, classifications and Ayurvedic applications should be recalled?
+
+**A:** Recall the definitions, classifications, significance and applications presented in the chapter.
+
+
+---
+
+## References and Further Reading
+
+1. NCISM — AyUG-PV Padartha Vijnanam syllabus.
+2. Charaka Samhita, relevant foundational discussions, prescribed edition/commentary.
+3. Sushruta Samhita, relevant foundational discussions, prescribed edition/commentary.
+4. Ashtanga Hridaya, relevant foundational discussions, prescribed edition/commentary.
+5. Institution-prescribed Padartha Vijnanam/Darshana textbook and commentary.
