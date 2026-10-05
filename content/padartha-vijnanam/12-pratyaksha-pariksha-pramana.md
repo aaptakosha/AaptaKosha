@@ -1505,3 +1505,29 @@ NCISM explicitly requires:
 ## Classical-study direction
 
 Exact Sanskrit definitions, philosophical debates and prescribed examples should be studied from the institution's recommended Darshana and Ayurvedic primary texts. This chapter is structured as a complete NCISM-aligned learning resource and should be read alongside those primary sources.
+
+
+---
+
+## Flashcards
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** pratyaksha pariksha pramana.
+
+### Card 2
+**Q:** Which definitions, classifications and Ayurvedic applications should be recalled?
+
+**A:** Recall the definitions, classifications, significance and applications presented in the chapter.
+
+
+---
+
+## References and Further Reading
+
+1. NCISM — AyUG-PV Padartha Vijnanam syllabus.
+2. Charaka Samhita, relevant foundational discussions, prescribed edition/commentary.
+3. Sushruta Samhita, relevant foundational discussions, prescribed edition/commentary.
+4. Ashtanga Hridaya, relevant foundational discussions, prescribed edition/commentary.
+5. Institution-prescribed Padartha Vijnanam/Darshana textbook and commentary.
