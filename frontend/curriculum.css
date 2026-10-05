@@ -16,3 +16,14 @@
 .samhita-verse-translation strong{color:#355b48}
 .samhita-verse-translation p{margin:3px 0}
 @media(max-width:700px){.samhita-verse-sanskrit{font-size:18px;line-height:1.85}.samhita-verse-card{padding:14px}}
+
+.markdown-content{padding:18px 22px 24px;color:#30473b;line-height:1.8;font-size:14px}
+.markdown-content h1,.markdown-content h2,.markdown-content h3,.markdown-content h4{color:#183c2d;line-height:1.3;margin:20px 0 10px}
+.markdown-content h1{font-size:28px}.markdown-content h2{font-size:22px}.markdown-content h3{font-size:18px}.markdown-content p{margin:9px 0}
+.markdown-content ul,.markdown-content ol{padding-left:24px;margin:8px 0}.markdown-content li{margin:5px 0}
+.markdown-content blockquote{margin:12px 0;padding:10px 14px;border-left:4px solid #2b6a4c;background:#f5faf6;border-radius:8px}
+.markdown-content code{background:#eef3ef;padding:2px 5px;border-radius:5px}
+.markdown-table-wrap{overflow-x:auto;margin:14px 0}.markdown-table{width:100%;border-collapse:collapse;min-width:520px}
+.markdown-table th,.markdown-table td{border:1px solid #dfe8e1;padding:9px;text-align:left;vertical-align:top}
+.markdown-table th{background:#f1f7f2;color:#234b38}
+.markdown-content a{color:#216548;font-weight:700}
