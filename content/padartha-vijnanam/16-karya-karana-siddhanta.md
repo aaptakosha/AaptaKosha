@@ -1736,3 +1736,29 @@ The course learning outcomes explicitly require students to **analyse and apply 
 ## Classical-study direction
 
 Exact Sanskrit Lakshana, school-specific arguments, and technical examples should be checked against the institution's prescribed **Tarka/Nyaya, Samkhya, Vedanta, Buddhist and Jain Darshana texts and Ayurvedic Samhitas**. This chapter provides the NCISM-aligned conceptual and examination framework while keeping philosophical doctrines distinct from modern scientific analogies.
+
+
+---
+
+## Flashcards
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** karya karana siddhanta.
+
+### Card 2
+**Q:** Which definitions, classifications and Ayurvedic applications should be recalled?
+
+**A:** Recall the definitions, classifications, significance and applications presented in the chapter.
+
+
+---
+
+## References and Further Reading
+
+1. NCISM — AyUG-PV Padartha Vijnanam syllabus.
+2. Charaka Samhita, relevant foundational discussions, prescribed edition/commentary.
+3. Sushruta Samhita, relevant foundational discussions, prescribed edition/commentary.
+4. Ashtanga Hridaya, relevant foundational discussions, prescribed edition/commentary.
+5. Institution-prescribed Padartha Vijnanam/Darshana textbook and commentary.
