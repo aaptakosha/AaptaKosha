@@ -99,6 +99,28 @@ UPDATE curriculum_nodes SET code='Ch.Su.9', node_type='chapter' WHERE node_id='y
 UPDATE curriculum_nodes SET code='Ch.Su.10', node_type='chapter' WHERE node_id='y1-sa1-26' AND subject_id='AyUG-SA1';
 UPDATE curriculum_nodes SET code='Ch.Su.11', node_type='chapter' WHERE node_id='y1-sa1-27' AND subject_id='AyUG-SA1';
 UPDATE curriculum_nodes SET code='Ch.Su.12', node_type='chapter' WHERE node_id='y1-sa1-28' AND subject_id='AyUG-SA1';
+INSERT INTO curriculum_nodes (node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,sort_order)
+VALUES
+('y1-snai1-1','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','1','संस्कृतवर्णानाम् परिचयः','AaptaKosha published student content','content/sanskrit/01-varnamala-uccharana.md',1,10),
+('y1-snai1-2','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','2','संज्ञा-प्रकरणम्','AaptaKosha published student content','content/sanskrit/02-samjna-avyaya.md',1,20),
+('y1-snai1-3','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','3','उपसर्गाः','AaptaKosha published student content','content/sanskrit/08-upasarga-pratyaya.md',2,30),
+('y1-snai1-4','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','4','अव्ययम्','AaptaKosha published student content','content/sanskrit/02-samjna-avyaya.md',1,40),
+('y1-snai1-5','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','5','कारक-प्रकरणम् तथा वाच्यप्रयोगः','AaptaKosha published student content','content/sanskrit/05-karaka-vibhakti.md',2,50),
+('y1-snai1-6','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','6','सन्धि','AaptaKosha published student content','content/sanskrit/06-sandhi.md',2,60),
+('y1-snai1-7','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','7','समास-प्रकरणम्','AaptaKosha published student content','content/sanskrit/07-samasa.md',2,70),
+('y1-snai1-8','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','8','शब्दरूपाणि','AaptaKosha published student content','content/sanskrit/03-shabdarupa-sarvanama.md',2,80),
+('y1-snai1-9','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','9','धातुरूपाणि','AaptaKosha published student content','content/sanskrit/04-dhaturupa.md',2,90),
+('y1-snai1-10','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','10','प्रत्ययाः','AaptaKosha published student content','content/sanskrit/08-upasarga-pratyaya.md',3,100),
+('y1-snai1-11','bams_ncism_1','2021-22','AyUG-SN-AI','y1-sn-ai-paper1','unit','11','विशेषण-विशेष्यम्','NCISM syllabus node; detailed lesson pending','',3,110)
+ON CONFLICT (node_id) DO NOTHING;
+INSERT INTO curriculum_nodes (node_id,curriculum_id,curriculum_version,subject_id,parent_node_id,node_type,code,name,source_reference,source_locator,term,sort_order)
+VALUES
+('y1-snai2-a1','bams_ncism_1','2021-22','AyUG-SN-AI','y1-snai2-a','unit','1','निरुक्ति तथा पर्यायपदानि','AaptaKosha published student content','content/sanskrit/paper-2/part-a/01-nirukti-paryaya.md',1,10),
+('y1-snai2-a2','bams_ncism_1','2021-22','AyUG-SN-AI','y1-snai2-a','unit','2','परिभाषापदानि','AaptaKosha published student content','content/sanskrit/paper-2/part-a/02-paribhasha.md',1,20),
+('y1-snai2-a3','bams_ncism_1','2021-22','AyUG-SN-AI','y1-snai2-a','unit','3','अष्टाङ्गहृदयम् — prescribed selected chapters','AaptaKosha published student content','content/sanskrit/paper-2/part-a/03-ashtanga-hridaya.md',2,30),
+('y1-snai2-a4','bams_ncism_1','2021-22','AyUG-SN-AI','y1-snai2-a','unit','4','आयुर्वेद सुभाषित','AaptaKosha published student content','content/sanskrit/paper-2/part-a/04-ayurveda-subhashita.md',2,40),
+('y1-snai2-a5','bams_ncism_1','2021-22','AyUG-SN-AI','y1-snai2-a','unit','5','पञ्चतन्त्रम् — prescribed stories','AaptaKosha published student content','content/sanskrit/paper-2/part-a/05-panchatantra.md',2,50)
+ON CONFLICT (node_id) DO NOTHING;
 """;
 
 
