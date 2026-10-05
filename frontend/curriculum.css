@@ -57,3 +57,45 @@
 .revision-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.revision-grid>div{padding:12px;border-radius:11px;background:#f4f8f5;border:1px solid #e1e9e3}.revision-grid strong{display:block;color:#245d43}.revision-grid span{font-size:12px;color:#596c61}
 @media(max-width:800px){.concept-branches{grid-template-columns:repeat(2,minmax(0,1fr))}.mind-branches{grid-template-columns:repeat(2,minmax(0,1fr))}.exam-grid{grid-template-columns:1fr}.flash-grid,.revision-grid{grid-template-columns:1fr}.flow-row{grid-template-columns:1fr}.element-pair{justify-content:center}.flow-arrow{text-align:center;transform:rotate(90deg)}.dosha-node{max-width:180px;margin:auto}}
 @media(max-width:520px){.study-section{padding:15px}.concept-branches,.mind-branches{grid-template-columns:1fr}.structured-heading{padding:18px}.structured-heading h2{font-size:21px}}
+
+
+/* AAPTAKOSHA STORY SYSTEM — curriculum surfaces */
+.curriculum-hero,.page-heading{
+  position:relative;overflow:hidden;border:0!important;border-radius:28px!important;
+  background:linear-gradient(135deg,#123c32 0%,#173f35 57%,#f1eee5 57.1%,#f7f4ed 100%)!important;
+  color:#fff;box-shadow:0 24px 60px rgba(18,60,50,.14);
+}
+.curriculum-hero{padding:clamp(30px,5vw,58px)!important;min-height:250px}
+.curriculum-hero:after,.page-heading:after{content:"✦";position:absolute;right:7%;top:12%;font-size:150px;line-height:1;color:#b6924a;opacity:.12}
+.curriculum-hero .eyebrow,.page-heading .eyebrow{color:#c9d9c5}
+.curriculum-hero h1,.page-heading h1{color:#fff!important;font-size:clamp(36px,5vw,64px)!important;letter-spacing:-.055em}
+.curriculum-hero p,.page-heading p{color:#d4dfd8!important;max-width:620px}
+.library-cta{position:relative;z-index:1;background:#b6924a!important;color:#142f29!important;border-radius:999px!important;padding:12px 18px!important}
+.year-grid{gap:16px}
+.year-card,.content-card,.topic-panel{
+  border:1px solid rgba(18,60,50,.12)!important;border-radius:20px!important;
+  box-shadow:0 10px 35px rgba(18,60,50,.055)!important;
+}
+.year-card{padding:24px;background:#fff}
+.year-link:hover,.content-card:hover{transform:translateY(-4px);box-shadow:0 18px 42px rgba(18,60,50,.10)!important}
+.year-number{background:#edf1e8!important;color:#123c32!important}
+.year-open,.card-code{color:#8d6c2d!important}
+.content-card{padding:20px 22px;background:#fff}
+.topic-panel-heading,.hierarchy{background:#f3f1e8!important}
+.topic-panel-heading{border-bottom-color:rgba(18,60,50,.10)!important}
+.topic-panel-heading h2,.content-card h2,.topic-item h3{color:#123c32!important}
+.status i{background:#b6924a!important}
+.chapter-content{color:#344b42}
+.chapter-content h1,.chapter-content h2,.chapter-content h3{color:#123c32}
+.chapter-content blockquote{border-left-color:#b6924a;background:#f5f2e9}
+.structured-lesson{border-radius:24px;border-color:rgba(18,60,50,.12);box-shadow:0 18px 48px rgba(18,60,50,.07)}
+.structured-heading{background:linear-gradient(135deg,#123c32,#1b463b)!important;color:#fff}
+.structured-heading h2,.structured-heading p{color:#fff!important}
+.study-tabs{background:#f7f4ed}
+.study-tab.active{background:#123c32;border-color:#123c32}
+.concept-center,.mind-root,.dosha-node{background:#123c32}
+.relation-strip div{background:#eee8d8;color:#6f5525}
+.samhita-verse-card{border-radius:16px;border:1px solid rgba(18,60,50,.08);box-shadow:0 8px 24px rgba(18,60,50,.04)}
+.samhita-verse-sanskrit{color:#123c32}
+.samhita-verse-no{color:#8d6c2d}
+
