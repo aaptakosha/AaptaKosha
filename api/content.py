@@ -52,8 +52,9 @@ def _content_index() -> dict[str, Path]:
         if not _CONTENT_ID.fullmatch(content_id) or not path_value:
             continue
         path = (ROOT / path_value).resolve()
+        content_root = (ROOT / "content").resolve()
         try:
-            path.relative_to(SAMHITA_ROOT.resolve())
+            path.relative_to(content_root)
         except ValueError:
             continue
         if content_id in index:
