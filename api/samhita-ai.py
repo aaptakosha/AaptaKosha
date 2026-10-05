@@ -16,7 +16,7 @@ from urllib.error import HTTPError, URLError
 
 GATEWAY = "https://ai-gateway.vercel.sh/v1/chat/completions"
 MODEL = "google/gemini-3.1-flash-lite"
-PILOT_CONTENT_ID = "ashtanga.hridaya.sutra.01"
+CONTENT_PREFIX = "ashtanga.hridaya."
 MAX_INPUT_CHARS = 6000
 RATE_LIMIT_MAX = 10
 RATE_LIMIT_WINDOW_SECONDS = 600
@@ -83,7 +83,7 @@ def _require_user(handler: BaseHTTPRequestHandler) -> str:
 
 
 def _rate_limit(user_id: str) -> int | None:
-    """Small per-user pilot guard; durable rate limiting can be added before broad rollout."""
+    """Small per-user guard; durable rate limiting can be added before broad rollout."""
     now = time.time()
     recent = [t for t in _RATE_LIMIT.get(user_id, []) if now - t < RATE_LIMIT_WINDOW_SECONDS]
     if len(recent) >= RATE_LIMIT_MAX:
@@ -201,8 +201,8 @@ class handler(BaseHTTPRequestHandler):
             target = str(body.get("target", "hi")).strip()
             content_id = str(body.get("content_id", "")).strip()
 
-            if content_id != PILOT_CONTENT_ID:
-                _reply(self, 403, {"error": {"code": "pilot_scope_required"}})
+            if not content_id.startswith(CONTENT_PREFIX):
+                _reply(self, 403, {"error": {"code": "ashtanga_scope_required"}})
                 return
             if action not in {"translate", "meaning"}:
                 _reply(self, 400, {"error": {"code": "invalid_action"}})
