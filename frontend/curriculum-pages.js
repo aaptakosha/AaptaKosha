@@ -37,7 +37,19 @@ async function apiNodes(curriculumId,subjectId,parentNodeId){
 async function subjects(year){
  const y=YEARS[year];try{const r=await fetch('/api/catalog/'+y.curriculum_id+'?version=2021-22');if(!r.ok)throw 0;const b=await r.json();return (b.data?.subjects||[]).map(s=>[s.subject_id,s.name||s.subject_id]);}catch{return SUBJECT_FALLBACK[year]||[]}
 }
-function subjectUrl(year,id,name,cid){return './subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)}
+function samhitaContentId(subjectId,nodeCode){
+ const map={"AH.Su.1":"ashtanga.hridaya.sutra.01","AH.Su.2":"ashtanga.hridaya.sutra.02","AH.Su.3":"ashtanga.hridaya.sutra.03","AH.Su.4":"ashtanga.hridaya.sutra.04","AH.Su.5":"ashtanga.hridaya.sutra.05","AH.Su.6":"ashtanga.hridaya.sutra.06","AH.Su.7":"ashtanga.hridaya.sutra.07","AH.Su.8":"ashtanga.hridaya.sutra.08","AH.Su.9":"ashtanga.hridaya.sutra.09","AH.Su.10":"ashtanga.hridaya.sutra.10","AH.Su.11":"ashtanga.hridaya.sutra.11","AH.Su.12":"ashtanga.hridaya.sutra.12","AH.Su.13":"ashtanga.hridaya.sutra.13","AH.Su.14":"ashtanga.hridaya.sutra.14","AH.Su.15":"ashtanga.hridaya.sutra.15"};
+ return subjectId==="AyUG-SA1"?(map[nodeCode]||null):null;
+}
+async function fetchSamhitaContent(contentId){
+ if(!contentId)return null;try{const r=await fetch("/api/content/samhita?content_id="+encodeURIComponent(contentId),{credentials:"same-origin"});if(!r.ok)return null;const d=await r.json();return d.data||null;}catch{return null}
+}
+function samhitaVerseItems(payload){
+ if(!payload)return [];const raw=Array.isArray(payload.verses)?payload.verses:(Array.isArray(payload.passages)?payload.passages:[]);return raw.map((v,i)=>({id:v.verse_id||v.passage_id||("verse-"+(i+1)),no:v.verse_no??v.passage_no??(i+1),type:v.type||"verse",sanskrit:v.sanskrit_original||v.text||v.sanskrit||v.sanskrit_text||"",translation:v.translation_hi||v.hindi_translation||"",explanation:v.explanation_hi||v.hindi_explanation||""})).filter(v=>String(v.sanskrit).trim());
+}
+function renderSamhitaOriginalLayer(payload,contentId,name){
+ const items=samhitaVerseItems(payload);if(!items.length)return "";const studyUrl="./samhita-study.html?chapter="+encodeURIComponent(contentId);return '<section class="topic-panel samhita-original-layer"><div class="topic-panel-heading"><span class="eyebrow">मूल संहिता पाठ</span><h2>श्लोक — '+esc(payload.title_hi||name)+'</h2><p>प्रमाणित संस्कृत मूलपाठ को अध्याय के साथ सीधे पढ़ें।</p><a class="chapter-study-link" href="'+studyUrl+'">पूर्ण Samhita Study खोलें →</a></div><div class="samhita-verse-list">'+items.map(v=>'<article class="samhita-verse-card"><div class="samhita-verse-no">'+esc(String(v.type).toLowerCase()==="prose"?"गद्य":"श्लोक")+" "+esc(v.no)+'</div><div class="samhita-verse-sanskrit">'+esc(v.sanskrit).replace(/\\n/g,"<br>")+"</div>"+(v.translation?'<div class="samhita-verse-translation"><strong>हिन्दी अर्थ</strong><p>'+esc(v.translation)+'</p></div>':"")+(v.explanation?'<div class="samhita-verse-translation"><strong>व्याख्या</strong><p>'+esc(v.explanation)+'</p></div>':"")+"</article>").join("")+"</div></section>";
+}function subjectUrl(year,id,name,cid){return './subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(id)+'&subject_name='+encodeURIComponent(name)}
 async function renderYear(){
  const year=yearFromPath(),y=YEARS[year];if(!y){location.href='./curriculum.html';return}
  document.title=y.label+' — AaptaKosha';let list=await subjects(year);
@@ -65,6 +77,9 @@ async function renderChapter(){
  let topics=[];try{topics=await apiNodes(cid,sid,nodeId)}catch{}
  const nodeCode=qs.get("node_code")||"";
  let lesson=null;
+ let samhitaPayload=null;
+ const samhitaId=samhitaContentId(sid,nodeCode);
+ if(samhitaId)samhitaPayload=await fetchSamhitaContent(samhitaId);
  if(nodeCode){
    try{
      const u=new URL("/api/curriculum/content",location.origin);
@@ -74,7 +89,8 @@ async function renderChapter(){
  }
  const lessonHtml=lesson?'<div class="topic-panel lesson-content"><div class="topic-panel-heading"><span class="eyebrow">NCISM-aligned study content</span><h2>'+esc(lesson.chapter_title||name)+'</h2><p>'+esc(lesson.scope_note||'')+'</p></div><div class="topic-list">'+(lesson.learning_outcomes?.length?'<article class="topic-item"><span>LO</span><div><h3>Learning outcomes</h3><ul>'+lesson.learning_outcomes.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+(lesson.sections||[]).map(sec=>'<article class="topic-item"><span>'+esc(sec.id?.split("-")[0]||'')+'</span><div><h3>'+esc(sec.title||'')+'</h3>'+(sec.content||[]).map(p=>'<p>'+esc(p)+'</p>').join('')+'</div></article>').join('')+(lesson.exam_focus?.length?'<article class="topic-item"><span>EX</span><div><h3>Exam focus</h3><ul>'+lesson.exam_focus.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div></article>':'')+'</div></div>':'';
  const topicsHtml='<div class="topic-panel"><div class="topic-panel-heading"><span class="eyebrow">Chapter topics</span><h2>'+esc(name)+'</h2></div><div class="topic-list">'+topics.map(n=>'<article class="topic-item"><span>'+esc(n.code||'')+'</span><div><h3>'+esc(n.name)+'</h3><p>'+esc(n.node_type||'Topic')+'</p></div></article>').join('')+(topics.length?'':'<div class="empty-state">No topics have been published under this chapter yet.</div>')+'</div></div>';
- const body=lessonHtml+topicsHtml;
- page.innerHTML=shell(name,lesson?'Read the NCISM-aligned lesson, then review the chapter topics.':'Study the topics contained in this chapter.',[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
+ const samhitaHtml=renderSamhitaOriginalLayer(samhitaPayload,samhitaId,name);
+ const body=samhitaHtml+lessonHtml+topicsHtml;
+ page.innerHTML=shell(name,samhitaPayload?'मूल श्लोक, हिन्दी अर्थ और अध्ययन सामग्री एक ही अध्याय पेज पर उपलब्ध हैं.':(lesson?'Read the NCISM-aligned lesson, then review the chapter topics.':'Study the topics contained in this chapter.'),[['Curriculum','./curriculum.html'],[YEARS[year]?.label,'./year'+year+'.html'],[sname,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)],[name,'./chapter.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname)+'&node_id='+encodeURIComponent(nodeId)+'&chapter_name='+encodeURIComponent(name)]],body,'./subject.html?year='+year+'&curriculum_id='+encodeURIComponent(cid)+'&subject_id='+encodeURIComponent(sid)+'&subject_name='+encodeURIComponent(sname));
 }
 const file=location.pathname.split('/').pop();if(file==='subject.html')renderSubject();else if(file==='chapter.html')renderChapter();else renderYear();
