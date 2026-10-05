@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "entries": [
     {
       "content_id": "ashtanga.hridaya.sutra.01",
@@ -245,5 +245,332 @@
       "content_id": "ashtanga.hridaya.sutra.15",
       "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-15-ShodhanadiganaSangraha.json"
     }
-  ]
+  ],
+  "library_sources": {
+    "policy": "Indexed source metadata only; a book is not presented as fully digitized until chapter/source data is verified.",
+    "categories": [
+      {
+        "id": "brihat-trayi",
+        "label": "Bṛhat Trayī",
+        "priority": 1,
+        "books": [
+          {
+            "id": "charaka-samhita",
+            "name": "चरकसंहिता",
+            "name_en": "Charaka Saṃhitā",
+            "kind": "samhita",
+            "status": "partial"
+          },
+          {
+            "id": "sushruta-samhita",
+            "name": "सुश्रुतसंहिता",
+            "name_en": "Suśruta Saṃhitā",
+            "kind": "samhita",
+            "status": "planned"
+          },
+          {
+            "id": "ashtanga-hridaya",
+            "name": "अष्टाङ्गहृदय",
+            "name_en": "Aṣṭāṅga Hṛdaya",
+            "kind": "samhita",
+            "status": "partial"
+          }
+        ]
+      },
+      {
+        "id": "major-classics",
+        "label": "Major classical compendia",
+        "priority": 2,
+        "books": [
+          {
+            "id": "ashtanga-sangraha",
+            "name": "अष्टाङ्गसंग्रह",
+            "name_en": "Aṣṭāṅga Saṅgraha",
+            "kind": "samhita",
+            "status": "planned"
+          },
+          {
+            "id": "bhela-samhita",
+            "name": "भेलसंहिता",
+            "name_en": "Bhela Saṃhitā",
+            "kind": "samhita",
+            "status": "planned"
+          },
+          {
+            "id": "kashyapa-samhita",
+            "name": "काश्यपसंहिता",
+            "name_en": "Kāśyapa Saṃhitā",
+            "kind": "samhita",
+            "status": "planned"
+          },
+          {
+            "id": "madhava-nidana",
+            "name": "माधवनिदान",
+            "name_en": "Mādhava Nidāna",
+            "kind": "nidana",
+            "status": "partial"
+          },
+          {
+            "id": "sharangadhara-samhita",
+            "name": "शार्ङ्गधरसंहिता",
+            "name_en": "Śārṅgadhara Saṃhitā",
+            "kind": "samhita",
+            "status": "partial"
+          },
+          {
+            "id": "bhavaprakasha",
+            "name": "भावप्रकाश",
+            "name_en": "Bhāvaprakāśa",
+            "kind": "compendium",
+            "status": "planned"
+          },
+          {
+            "id": "chakradatta",
+            "name": "चक्रदत्त",
+            "name_en": "Cakradatta",
+            "kind": "chikitsa-compendium",
+            "status": "planned"
+          },
+          {
+            "id": "gadanigraha",
+            "name": "गदनिग्रह",
+            "name_en": "Gadanigraha",
+            "kind": "chikitsa-compendium",
+            "status": "planned"
+          },
+          {
+            "id": "vrinda-chikitsa",
+            "name": "वृन्दचिकित्सा",
+            "name_en": "Vṛnda Cikitsā",
+            "kind": "chikitsa-compendium",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "id": "nighantu-dravyaguna",
+        "label": "Nighaṇṭu & Dravyaguṇa",
+        "priority": 3,
+        "books": [
+          {
+            "id": "dhanvantari-nighantu",
+            "name": "धन्वन्तरि निघण्टु",
+            "name_en": "Dhanvantari Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "kaideva-nighantu",
+            "name": "कैदेव निघण्टु",
+            "name_en": "Kaiyadeva Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "madanapala-nighantu",
+            "name": "मदनपाल निघण्टु",
+            "name_en": "Madanapāla Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "bhavaprakasha-nighantu",
+            "name": "भावप्रकाश निघण्टु",
+            "name_en": "Bhāvaprakāśa Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "shodhala-nighantu",
+            "name": "शोधल निघण्टु",
+            "name_en": "Śodhala Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "nighantu-ratnakara",
+            "name": "निघण्टुरत्नाकर",
+            "name_en": "Nighaṇṭu Ratnākara",
+            "kind": "nighantu",
+            "status": "planned"
+          },
+          {
+            "id": "dravyaguna-nighantu",
+            "name": "द्रव्यगुण निघण्टु",
+            "name_en": "Dravyaguṇa Nighaṇṭu",
+            "kind": "nighantu",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "id": "rasashastra-bhaishajya",
+        "label": "Rasāśāstra & Bhaishajya",
+        "priority": 4,
+        "books": [
+          {
+            "id": "ayurveda-prakasha",
+            "name": "आयुर्वेदप्रकाश",
+            "name_en": "Āyurveda Prakāśa",
+            "kind": "rasashastra",
+            "status": "planned"
+          },
+          {
+            "id": "rasaratna-samucchaya",
+            "name": "रसरत्नसमुच्चय",
+            "name_en": "Rasaratna Samuccaya",
+            "kind": "rasashastra",
+            "status": "planned"
+          },
+          {
+            "id": "rasatarangini",
+            "name": "रसतरङ्गिणी",
+            "name_en": "Rasataraṅgiṇī",
+            "kind": "rasashastra",
+            "status": "planned"
+          },
+          {
+            "id": "rasendra-sara-sangraha",
+            "name": "रसेन्द्रसारसंग्रह",
+            "name_en": "Rasendra Sāra Saṅgraha",
+            "kind": "rasashastra",
+            "status": "planned"
+          },
+          {
+            "id": "rasayoga-ratnakara",
+            "name": "रसयोगरत्नाकर",
+            "name_en": "Rasayoga Ratnākara",
+            "kind": "bhaishajya",
+            "status": "planned"
+          },
+          {
+            "id": "bhaishajya-ratnavali",
+            "name": "भैषज्यरत्नावली",
+            "name_en": "Bhaiṣajya Ratnāvalī",
+            "kind": "bhaishajya",
+            "status": "planned"
+          },
+          {
+            "id": "brihat-bhaishajya-ratnakara",
+            "name": "बृहत् भैषज्यरत्नाकर",
+            "name_en": "Bṛhat Bhaiṣajya Ratnākara",
+            "kind": "bhaishajya",
+            "status": "planned"
+          },
+          {
+            "id": "sahasrayoga",
+            "name": "सहस्रयोग",
+            "name_en": "Sahasrayoga",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "siddha-bhaishajya-manimala",
+            "name": "सिद्धभैषज्यमणिमाला",
+            "name_en": "Siddha Bhaiṣajya Maṇimālā",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "yoga-ratnakara",
+            "name": "योगरत्नाकर",
+            "name_en": "Yogaratnākara",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "yoga-ratna-sangraha",
+            "name": "योगरत्नसंग्रह",
+            "name_en": "Yogaratnasaṅgraha",
+            "kind": "formulary",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "id": "specialty-practical",
+        "label": "Specialty & practical classics",
+        "priority": 5,
+        "books": [
+          {
+            "id": "bhojana-kutuhala",
+            "name": "भोजनकुतूहलम्",
+            "name_en": "Bhojana Kutūhala",
+            "kind": "ahara",
+            "status": "planned"
+          },
+          {
+            "id": "kshemakutuhala",
+            "name": "क्षेमकुतूहल",
+            "name_en": "Kṣemakutūhala",
+            "kind": "ahara",
+            "status": "planned"
+          },
+          {
+            "id": "haramekhala",
+            "name": "हरमेखला",
+            "name_en": "Haramekhalā",
+            "kind": "specialty",
+            "status": "planned"
+          },
+          {
+            "id": "vasavarajiyam",
+            "name": "वासवराजीयम्",
+            "name_en": "Vāsavarājīyam",
+            "kind": "specialty",
+            "status": "planned"
+          },
+          {
+            "id": "ayurveda-chintamani",
+            "name": "आयुर्वेदचिन्तामणि",
+            "name_en": "Āyurveda Cintāmaṇi",
+            "kind": "compendium",
+            "status": "planned"
+          },
+          {
+            "id": "vaidya-chintamani",
+            "name": "वैद्यचिन्तामणि",
+            "name_en": "Vaidya Cintāmaṇi",
+            "kind": "chikitsa-compendium",
+            "status": "planned"
+          },
+          {
+            "id": "yoga-chintamani",
+            "name": "योगचिन्तामणि",
+            "name_en": "Yoga Cintāmaṇi",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "yoga-tarangini",
+            "name": "योगतरङ्गिणी",
+            "name_en": "Yogataraṅgiṇī",
+            "kind": "formulary",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "id": "official-reference",
+        "label": "Official / modern reference",
+        "priority": 6,
+        "books": [
+          {
+            "id": "ayurvedic-formulary-of-india",
+            "name": "आयुर्वेदिक फॉर्मुलरी ऑफ इंडिया",
+            "name_en": "Ayurvedic Formulary of India",
+            "kind": "official-formulary",
+            "status": "planned"
+          },
+          {
+            "id": "ayurvedic-pharmacopoeia-of-india",
+            "name": "आयुर्वेदिक फार्माकोपिया ऑफ इंडिया",
+            "name_en": "Ayurvedic Pharmacopoeia of India",
+            "kind": "official-pharmacopoeia",
+            "status": "planned"
+          }
+        ]
+      }
+    ]
+  }
 }
