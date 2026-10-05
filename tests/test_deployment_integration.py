@@ -8,6 +8,11 @@ def test_vercel_exposes_catalog_function_and_route():
     assert "api/catalog.py" in cfg["functions"]
     assert any(item.get("source") == "/api/catalog/:path*" for item in cfg["rewrites"])
 
+def test_samhita_payloads_are_bundled_with_content_api():
+    cfg = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
+    excluded = cfg["functions"]["api/content.py"].get("excludeFiles", "")
+    assert "content/samhita/**" not in excluded
+
 def test_reader_and_assessment_support_all_completed_charaka_chapters():
     reader = (ROOT / "frontend" / "samhita-study.js").read_text(encoding="utf-8")
     assessment = (ROOT / "frontend" / "assessment.js").read_text(encoding="utf-8")
@@ -41,7 +46,6 @@ def test_curriculum_entrypoint_uses_year_pages():
     assert 'year2.html?curriculum_id=' in script
     assert 'year3.html?curriculum_id=' in script
 def test_vercel_routes_curriculum_hierarchy_to_catalog_handler():
-    import json
     config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))
     routes = {r["source"]: r["destination"] for r in config["rewrites"]}
     assert routes["/api/curriculum/:path*"] == "/api/catalog.py?route=curriculum/:path*"
