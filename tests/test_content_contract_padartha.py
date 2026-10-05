@@ -16,8 +16,8 @@ def test_all_padartha_chapters_pass_universal_contract():
         assert result.valid, (path.name, result.errors)
 
 def test_padartha_curriculum_api_maps_all_16_nodes():
-    source = (ROOT / "api" / "curriculum_content.py").read_text(encoding="utf-8")
+    source = (ROOT / "api" / "content.py").read_text(encoding="utf-8")
     for i in range(1, 17):
-        assert f'"y1-pv-{i}"' in source or f'"y1-pv1-{i}"' in source or i in (1,2)
+        assert f'"y1-pv-{i}"' in source
     assert 'CONTENT_STANDARD_VERSION' in source
     assert 'content_schema_validation_failed' in source
