@@ -16,8 +16,12 @@ def test_all_padartha_chapters_pass_universal_contract():
         assert result.valid, (path.name, result.errors)
 
 def test_padartha_curriculum_api_maps_all_16_nodes():
-    source = (ROOT / "api" / "content.py").read_text(encoding="utf-8")
-    for i in range(1, 17):
-        assert f'"y1-pv-{i}"' in source
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("aaptakosha_content", ROOT / "api" / "content.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    assert len(module.PADARTHA_FILES) == 16
+    assert set(module.PADARTHA_FILES) == {f"y1-pv-{i}" for i in range(1,17)}
+    source = (ROOT / "api" / "curriculum_content.py").read_text(encoding="utf-8")
     assert 'CONTENT_STANDARD_VERSION' in source
     assert 'content_schema_validation_failed' in source
