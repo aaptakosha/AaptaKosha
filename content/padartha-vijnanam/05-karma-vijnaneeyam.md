@@ -1108,3 +1108,53 @@ Contemporary mechanics, physiology and movement science can help visualize selec
 This chapter covers Topic 5 of AyUG-PV: introduction of Karma according to Darshana and Ayurveda, classification, practical application, and contemporary-science principles/examples. It also addresses the stated learning outcomes concerning Karma Lakshana, comparison of Charaka and Darshana perspectives, types of Karma, and production/destruction of Laukika Karma.
 
 **Next:** Chapter 6 — Samanya Vijnaneeyam.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What should you be able to do regarding: **Define Karma as a Padartha.**?
+
+**A:** Define Karma as a Padartha.
+
+### Card 2
+**Q:** What should you be able to do regarding: **Explain the derivation and Lakshana of Karma.**?
+
+**A:** Explain the derivation and Lakshana of Karma.
+
+### Card 3
+**Q:** What should you be able to do regarding: **Describe Karma according to Vaisheshika and other relevant Darshanas.**?
+
+**A:** Describe Karma according to Vaisheshika and other relevant Darshanas.
+
+### Card 4
+**Q:** What should you be able to do regarding: **Explain Karma according to Ayurveda and Charaka.**?
+
+**A:** Explain Karma according to Ayurveda and Charaka.
+
+### Card 5
+**Q:** What should you be able to do regarding: **Distinguish Karma from Dravya and Guna.**?
+
+**A:** Distinguish Karma from Dravya and Guna.
+
+### Card 6
+**Q:** What should you be able to do regarding: **Enumerate and explain the five classical Vaisheshika Karmas.**?
+
+**A:** Enumerate and explain the five classical Vaisheshika Karmas.
+
+
+---
+
+## References and Further Reading
+
+1. **NCISM — AyUG-PV Padartha Vijnanam syllabus**, First Professional BAMS, applicable topic/paper.
+2. **Charaka Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+3. **Sushruta Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+4. **Ashtanga Hridaya**, relevant foundational discussions, read in the prescribed edition/commentary.
+5. The institution's prescribed **Padartha Vijnanam / Darshana** textbook and commentary should be used for exact technical definitions and school-specific interpretations.
+
+**Source-use rule:** Where a classical statement is quoted, verify the wording against the prescribed edition before memorisation.
