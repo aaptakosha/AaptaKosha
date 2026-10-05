@@ -1,5 +1,5 @@
 (function(){
-  function isHome(){const p=window.location.pathname.replace(/\\/+$/,'')||'/';return p==='/'||p==='/index.html';}
+  function isHome(){const p=window.location.pathname.replace(/\/+$/,'')||'/';return p==='/'||p==='/index.html';}
   function mount(){
     // The homepage owns its profile/sign-in control; every other page gets the shared control.
     if(isHome()) return;
