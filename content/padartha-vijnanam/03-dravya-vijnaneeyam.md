@@ -339,3 +339,94 @@ Cross-reference the Dravya discussions in the prescribed editions/commentaries o
 This chapter corresponds to the Dravya Vijnaneeyam section of Paper I of AyUG-PV and is designed to support MCQ, SAQ, LAQ and viva preparation.
 
 **Next:** Chapter 4 — Guna Vijnaneeyam, including the classification of Guna, Vaisheshika Gunas, Charaka's Guna framework, Gurvadi Guna, Paradiguna, Adhyatma Guna, the 41 Gunas specified in the curriculum, relationships and clinical application.
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What should you be able to do regarding: **Define Dravya and explain its philosophical and Ayurvedic significance.**?
+
+**A:** Define Dravya and explain its philosophical and Ayurvedic significance.
+
+### Card 2
+**Q:** What should you be able to do regarding: **Explain the relationship between Dravya, Guna and Karma.**?
+
+**A:** Explain the relationship between Dravya, Guna and Karma.
+
+### Card 3
+**Q:** What should you be able to do regarding: **Describe major classifications of Dravya.**?
+
+**A:** Describe major classifications of Dravya.
+
+### Card 4
+**Q:** What should you be able to do regarding: **Explain Panchamahabhuta and the characteristics of Akasha, Vayu, Agni, Jala and Prithvi.**?
+
+**A:** Explain Panchamahabhuta and the characteristics of Akasha, Vayu, Agni, Jala and Prithvi.
+
+### Card 5
+**Q:** What should you be able to do regarding: **Explain creation/evolution frameworks relevant to Ayurveda.**?
+
+**A:** Explain creation/evolution frameworks relevant to Ayurveda.
+
+### Card 6
+**Q:** What should you be able to do regarding: **Explain Kala, Dik, Atma, Purusha and Manas as Dravyas.**?
+
+**A:** Explain Kala, Dik, Atma, Purusha and Manas as Dravyas.
+
+
+---
+
+## References and Further Reading
+
+1. **NCISM — AyUG-PV Padartha Vijnanam syllabus**, First Professional BAMS, applicable topic/paper.
+2. **Charaka Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+3. **Sushruta Samhita**, relevant foundational discussions, read in the prescribed edition/commentary.
+4. **Ashtanga Hridaya**, relevant foundational discussions, read in the prescribed edition/commentary.
+5. The institution's prescribed **Padartha Vijnanam / Darshana** textbook and commentary should be used for exact technical definitions and school-specific interpretations.
+
+**Source-use rule:** Where a classical statement is quoted, verify the wording against the prescribed edition before memorisation.
+
+
+---
+
+## Definition and Core Concepts
+
+**Dravya (द्रव्य)** is the substantive or ontological category that serves as the substratum in which **Guna** and **Karma** reside and which participates in **Samavaya** according to the relevant Ayurvedic and Vaiśeṣika framework. Its study is foundational for understanding the relationship among substance, qualities and action in Padartha Vijnanam.
+
+### Key relation
+
+**Dravya → substratum | Guna → quality | Karma → action**
+
+The exact classifications and technical definitions should be learned from the prescribed classical source and commentary.
+
+## MCQs
+
+**1. In the Padartha framework, Dravya is primarily understood as:**
+
+A. A quality only  
+B. A substantive/substratum  
+C. An absence only  
+D. A sensory organ only
+
+**Answer:** B — Dravya is the substantive category/substratum in the relevant Padartha framework.
+
+**2. Which two categories are classically related to Dravya as its qualities and actions?**
+
+A. Guna and Karma  
+B. Rasa and Vipaka  
+C. Dosha and Mala  
+D. Hetu and Linga
+
+**Answer:** A — Guna and Karma are studied in relation to Dravya.
+
+**3. Why is Dravya important in Padartha Vijnanam?**
+
+A. It replaces all other Padarthas  
+B. It provides the substantive basis for analysing qualities and actions  
+C. It refers only to disease  
+D. It is synonymous with Pramana
+
+**Answer:** B.
