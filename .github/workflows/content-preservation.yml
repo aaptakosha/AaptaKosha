@@ -55,6 +55,11 @@ jobs:
             exit 1
           fi
 
+      - name: Enforce Padartha universal content contract
+        run: |
+          python -m pip install --quiet pytest
+          pytest -q tests/test_content_contract_padartha.py
+
       - name: Check repository content paths
         run: |
           test -d content
