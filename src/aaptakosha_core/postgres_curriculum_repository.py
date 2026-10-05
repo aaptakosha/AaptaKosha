@@ -72,6 +72,36 @@ CREATE TABLE IF NOT EXISTS classical_text_tags (
 """
 
 
+_FIRST_PROFESSIONAL_CONTENT_PATCH = """
+UPDATE curriculum_nodes SET code='AH.Su.2', node_type='chapter' WHERE node_id='y1-sa1-3' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.3', node_type='chapter' WHERE node_id='y1-sa1-4' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.4', node_type='chapter' WHERE node_id='y1-sa1-5' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.5', node_type='chapter' WHERE node_id='y1-sa1-6' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.6', node_type='chapter' WHERE node_id='y1-sa1-7' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.7', node_type='chapter' WHERE node_id='y1-sa1-8' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.8', node_type='chapter' WHERE node_id='y1-sa1-9' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.9', node_type='chapter' WHERE node_id='y1-sa1-10' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.10', node_type='chapter' WHERE node_id='y1-sa1-11' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.11', node_type='chapter' WHERE node_id='y1-sa1-12' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.12', node_type='chapter' WHERE node_id='y1-sa1-13' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.13', node_type='chapter' WHERE node_id='y1-sa1-14' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.14', node_type='chapter' WHERE node_id='y1-sa1-15' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='AH.Su.15', node_type='chapter' WHERE node_id='y1-sa1-16' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.1', node_type='chapter' WHERE node_id='y1-sa1-17' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.2', node_type='chapter' WHERE node_id='y1-sa1-18' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.3', node_type='chapter' WHERE node_id='y1-sa1-19' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.4', node_type='chapter' WHERE node_id='y1-sa1-20' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.5', node_type='chapter' WHERE node_id='y1-sa1-21' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.6', node_type='chapter' WHERE node_id='y1-sa1-22' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.7', node_type='chapter' WHERE node_id='y1-sa1-23' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.8', node_type='chapter' WHERE node_id='y1-sa1-24' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.9', node_type='chapter' WHERE node_id='y1-sa1-25' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.10', node_type='chapter' WHERE node_id='y1-sa1-26' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.11', node_type='chapter' WHERE node_id='y1-sa1-27' AND subject_id='AyUG-SA1';
+UPDATE curriculum_nodes SET code='Ch.Su.12', node_type='chapter' WHERE node_id='y1-sa1-28' AND subject_id='AyUG-SA1';
+""";
+
+
 class PostgresCurriculumRepository:
     """Durable PostgreSQL repository for curriculum metadata and hierarchy."""
 
@@ -81,6 +111,7 @@ class PostgresCurriculumRepository:
     def apply_migrations(self) -> None:
         with self.connection.cursor() as cursor:
             cursor.execute(_SCHEMA)
+            cursor.execute(_FIRST_PROFESSIONAL_CONTENT_PATCH)
         self.connection.commit()
 
     def list_curricula(self) -> Tuple[Curriculum, ...]:
