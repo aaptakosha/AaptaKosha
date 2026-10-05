@@ -575,3 +575,40 @@ This chapter corresponds to **Paper I, Topic 1 — Ayurveda Nirupana** of AyUG-P
 **Chapter 2 — Padartha and Darshana Nirupana**
 
 It will cover the Padartha concept, Darshana, the six classical systems, relevant Ayurveda–Darshana relationships, Padartha classifications, Bhava/Abhava and Charaka's Karana-Padartha framework.
+
+
+---
+
+## Flashcards
+
+Use these as active-recall prompts before attempting the examination questions.
+
+### Card 1
+**Q:** What should you be able to do regarding: **Define Ayu (आयु) and explain its constituent components.**?
+
+**A:** Define Ayu (आयु) and explain its constituent components.
+
+### Card 2
+**Q:** What should you be able to do regarding: **Explain the relationship among Sharira, Indriya, Sattva/Manas and Atma in the Ayurvedic conception of life.**?
+
+**A:** Explain the relationship among Sharira, Indriya, Sattva/Manas and Atma in the Ayurvedic conception of life.
+
+### Card 3
+**Q:** What should you be able to do regarding: **Define Ayurveda and explain the scope and purpose of the science.**?
+
+**A:** Define Ayurveda and explain the scope and purpose of the science.
+
+### Card 4
+**Q:** What should you be able to do regarding: **Explain the principal aims of Ayurveda: Swasthasya Swasthya Rakshana and Aturasya Vikara Prashamana.**?
+
+**A:** Explain the principal aims of Ayurveda: Swasthasya Swasthya Rakshana and Aturasya Vikara Prashamana.
+
+### Card 5
+**Q:** What should you be able to do regarding: **Explain the meaning and educational importance of Siddhanta.**?
+
+**A:** Explain the meaning and educational importance of Siddhanta.
+
+### Card 6
+**Q:** What should you be able to do regarding: **Distinguish basic categories of Ayurvedic principles from later interpretive theories.**?
+
+**A:** Distinguish basic categories of Ayurvedic principles from later interpretive theories.
