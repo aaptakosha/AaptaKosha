@@ -1074,3 +1074,29 @@ The official practical outcomes also include:
 ## Classical-study direction
 
 Students should verify the exact Sanskrit Lakshana, technical terminology and classical examples from the institution's prescribed **Nyaya/Tarka and Ayurvedic texts**. This chapter provides the complete NCISM-oriented learning framework while clearly separating classical epistemology from modern analogies.
+
+
+---
+
+## Flashcards
+
+### Card 1
+**Q:** What is the central focus of this chapter?
+
+**A:** upamana pramana.
+
+### Card 2
+**Q:** Which definitions, classifications and Ayurvedic applications should be recalled?
+
+**A:** Recall the definitions, classifications, significance and applications presented in the chapter.
+
+
+---
+
+## References and Further Reading
+
+1. NCISM — AyUG-PV Padartha Vijnanam syllabus.
+2. Charaka Samhita, relevant foundational discussions, prescribed edition/commentary.
+3. Sushruta Samhita, relevant foundational discussions, prescribed edition/commentary.
+4. Ashtanga Hridaya, relevant foundational discussions, prescribed edition/commentary.
+5. Institution-prescribed Padartha Vijnanam/Darshana textbook and commentary.
