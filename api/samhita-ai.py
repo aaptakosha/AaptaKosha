@@ -119,12 +119,12 @@ def _gateway_token(handler: BaseHTTPRequestHandler) -> str:
     return tokens[0] if tokens else ""
 
 
-def _generate(handler: BaseHTTPRequestHandler, action: str, text: str, target: str):
+def _generate(handler: BaseHTTPRequestHandler, action: str, text: str, target: str, source_kind: str = "Sanskrit verse"):
     language = LANGUAGES[target]
     if action == "translate":
         system = (
-            "You are a careful classical Sanskrit translator for an Ayurveda education site. "
-            "Translate the supplied Sanskrit faithfully into the requested language. "
+            ("You are a careful translator of classical Sanskrit Ayurveda ṭīkā/commentary. " if source_kind == "Tika" else "You are a careful classical Sanskrit translator for an Ayurveda education site. ")
+            "Translate the supplied ṭīkā/commentary faithfully into the requested language. " if source_kind == "Tika" else "Translate the supplied Sanskrit faithfully into the requested language. "
             "Preserve technical Ayurvedic terms when a precise equivalent is uncertain, "
             "do not invent commentary, and return only the translation."
         )
@@ -204,6 +204,7 @@ class handler(BaseHTTPRequestHandler):
             text = str(body.get("text", "")).strip()
             target = str(body.get("target", "hi")).strip()
             content_id = str(body.get("content_id", "")).strip()
+            source_kind = str(body.get("source_kind", "Sanskrit verse")).strip() or "Sanskrit verse"
 
             if not content_id.startswith(CONTENT_PREFIX):
                 _reply(self, 403, {"error": {"code": "ashtanga_scope_required"}})
@@ -228,12 +229,12 @@ class handler(BaseHTTPRequestHandler):
                 self.wfile.write(json.dumps({"error": {"code": "rate_limited"}}, separators=(",", ":")).encode("utf-8"))
                 return
 
-            result = _generate(self, action, text, target)
+            result = _generate(self, action, text, target, source_kind)
             _reply(self, 200, {"data": {"action": action, "language": target, "text": result}})
         except HTTPError as exc:
-            exc.read()
+            gateway_body = exc.read().decode("utf-8", "replace")[:1000]
             if exc.code in {401, 403}:
-                _reply(self, 503, {"error": {"code": "ai_gateway_auth", "message": "AI Gateway authentication/authorization failed"}})
+                _reply(self, 503, {"error": {"code": "ai_gateway_auth", "message": "AI Gateway authentication/authorization failed", "gateway_status": exc.code, "gateway_detail": gateway_body}})
             elif exc.code == 404:
                 _reply(self, 503, {"error": {"code": "ai_gateway_model", "message": "Configured AI Gateway model is unavailable"}})
             else:
