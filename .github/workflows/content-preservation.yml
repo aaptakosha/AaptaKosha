@@ -73,7 +73,8 @@ jobs:
 
       - name: Enforce Padartha universal content contract
         run: |
-          python -m pip install --quiet pytest
+          python -m pip install --quiet --upgrade pip
+          python -m pip install --quiet -e ".[test]"
           pytest -q tests/test_content_contract_padartha.py
 
       - name: Enforce semantic preservation of existing content
