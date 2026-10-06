@@ -5,6 +5,9 @@ import json
 import os
 import sqlite3
 import sys
+import time
+import urllib.request
+from urllib.error import HTTPError, URLError
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
@@ -55,6 +58,156 @@ IDENTITY_PROVIDER = None
 IDENTITY_ERROR = None
 
 REQUIRE_IDENTITY = bool(os.environ.get("VERCEL")) or os.environ.get("AAPTOKOSHA_REQUIRE_IDENTITY", "").strip().lower() in {"1", "true", "yes"}
+
+AI_GATEWAY = "https://ai-gateway.vercel.sh/v1/chat/completions"
+AI_MODEL = "google/gemini-3.1-flash-lite"
+AI_CONTENT_PREFIX = "ashtanga.hridaya."
+AI_MAX_INPUT_CHARS = 6000
+AI_RATE_LIMIT_MAX = 10
+AI_RATE_LIMIT_WINDOW_SECONDS = 600
+AI_RATE_LIMIT: dict[str, list[float]] = {}
+AI_LANGUAGES = {
+    "hi": "Hindi", "en": "English", "mr": "Marathi", "ta": "Tamil",
+    "te": "Telugu", "kn": "Kannada", "ml": "Malayalam", "bo": "Tibetan",
+}
+
+
+def _gateway_tokens() -> list[str]:
+    values = [
+        os.environ.get("VERCEL_OIDC_TOKEN", "").strip(),
+        os.environ.get("VERCEL_AI_GATEWAY_KEY", "").strip(),
+        os.environ.get("AI_GATEWAY_API_KEY", "").strip(),
+    ]
+    return list(dict.fromkeys(value for value in values if value))
+
+
+def _generate_samhita_ai(action: str, text: str, target: str, source_kind: str) -> str:
+    language = AI_LANGUAGES[target]
+    if action == "translate":
+        if source_kind == "Tika":
+            system = (
+                "You are a careful translator of classical Sanskrit Ayurveda tika/commentary. "
+                "Translate the supplied commentary faithfully into the requested language. "
+                "Preserve technical Ayurvedic terms when a precise equivalent is uncertain, "
+                "do not invent commentary, and return only the translation."
+            )
+        else:
+            system = (
+                "You are a careful classical Sanskrit translator for an Ayurveda education site. "
+                "Translate the supplied Sanskrit faithfully into the requested language. "
+                "Preserve technical Ayurvedic terms when a precise equivalent is uncertain, "
+                "do not invent commentary, and return only the translation."
+            )
+        prompt = f"Translate this Sanskrit Ayurveda passage into {language}:\\n\\n{text}"
+    else:
+        system = (
+            "You are an Ayurveda education assistant. Give a short, student-friendly meaning "
+            "of the supplied Sanskrit verse in the requested language. Stay grounded in the "
+            "verse, do not add medical advice, and return only the meaning."
+        )
+        prompt = f"Give the simple meaning of this Sanskrit Ayurveda verse in {language}:\\n\\n{text}"
+
+    tokens = _gateway_tokens()
+    if not tokens:
+        raise RuntimeError("AI Gateway authentication is not configured")
+
+    body = json.dumps({
+        "model": AI_MODEL,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": prompt},
+        ],
+        "max_tokens": 700 if action == "meaning" else 500,
+        "stream": False,
+    }, ensure_ascii=False).encode("utf-8")
+
+    last_auth_error = None
+    for token in tokens:
+        req = urllib.request.Request(
+            AI_GATEWAY,
+            data=body,
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=25) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            result = payload.get("choices", [{}])[0].get("message", {}).get("content", "")
+            if not isinstance(result, str) or not result.strip():
+                raise RuntimeError("AI Gateway returned no text")
+            return result.strip()
+        except HTTPError as exc:
+            if exc.code in {401, 403} and token != tokens[-1]:
+                exc.read()
+                last_auth_error = exc
+                continue
+            raise
+    if last_auth_error is not None:
+        raise last_auth_error
+    raise RuntimeError("AI Gateway request failed")
+
+
+def _handle_samhita_ai(handler, body, principal):
+    if principal is None:
+        handler._reply(401, json.dumps({"error": {"code": "authentication_invalid"}}))
+        return
+
+    action = str(body.get("action", "")).strip()
+    text = str(body.get("text", "")).strip()
+    target = str(body.get("target", "hi")).strip()
+    content_id = str(body.get("content_id", "")).strip()
+    source_kind = str(body.get("source_kind", "Sanskrit verse")).strip() or "Sanskrit verse"
+
+    if not content_id.startswith(AI_CONTENT_PREFIX):
+        handler._reply(403, json.dumps({"error": {"code": "ashtanga_scope_required"}}))
+        return
+    if action not in {"translate", "meaning"}:
+        handler._reply(400, json.dumps({"error": {"code": "invalid_action"}}))
+        return
+    if not text or len(text) > AI_MAX_INPUT_CHARS:
+        handler._reply(400, json.dumps({"error": {"code": "invalid_text"}}))
+        return
+    if target not in AI_LANGUAGES:
+        handler._reply(400, json.dumps({"error": {"code": "unsupported_language"}}))
+        return
+
+    now = time.time()
+    recent = [t for t in AI_RATE_LIMIT.get(principal.subject_id, []) if now - t < AI_RATE_LIMIT_WINDOW_SECONDS]
+    if len(recent) >= AI_RATE_LIMIT_MAX:
+        retry_after = max(1, int(AI_RATE_LIMIT_WINDOW_SECONDS - (now - recent[0])))
+        AI_RATE_LIMIT[principal.subject_id] = recent
+        handler.send_response(429)
+        handler.send_header("Content-Type", "application/json; charset=utf-8")
+        handler.send_header("Retry-After", str(retry_after))
+        handler.end_headers()
+        handler.wfile.write(json.dumps({"error": {"code": "rate_limited"}}, separators=(",", ":")).encode("utf-8"))
+        return
+    recent.append(now)
+    AI_RATE_LIMIT[principal.subject_id] = recent
+
+    try:
+        result = _generate_samhita_ai(action, text, target, source_kind)
+        handler._reply(200, json.dumps({"data": {"action": action, "language": target, "text": result}}, ensure_ascii=False))
+    except HTTPError as exc:
+        gateway_body = exc.read().decode("utf-8", "replace")[:1000]
+        if exc.code in {401, 403}:
+            handler._reply(503, json.dumps({"error": {
+                "code": "ai_gateway_auth",
+                "message": "AI Gateway authentication/authorization failed",
+                "gateway_status": exc.code,
+                "gateway_detail": gateway_body,
+            }, "ensure_ascii": False}))
+        elif exc.code == 404:
+            handler._reply(503, json.dumps({"error": {"code": "ai_gateway_model", "message": "Configured AI Gateway model is unavailable"}}))
+        else:
+            handler._reply(502, json.dumps({"error": {"code": "ai_gateway_error", "gateway_status": exc.code}}))
+    except (URLError, TimeoutError):
+        handler._reply(504, json.dumps({"error": {"code": "ai_gateway_timeout"}}))
+    except RuntimeError as exc:
+        handler._reply(503, json.dumps({"error": {"code": "ai_unavailable", "message": str(exc)}}))
+    except Exception:
+        handler._reply(500, json.dumps({"error": {"code": "internal_error"}}))
+
 
 
 def _seed_demo(service: AssessmentService, repo) -> None:
