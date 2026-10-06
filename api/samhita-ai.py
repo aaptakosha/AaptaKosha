@@ -101,10 +101,14 @@ def _gateway_tokens(handler: BaseHTTPRequestHandler) -> list[str]:
     VERCEL_OIDC_TOKEN to deployed apps. If one credential is stale or denied,
     the request can retry with the next configured credential.
     """
+    # On Vercel, OIDC is the deployment-native credential and must win over
+    # any stale project-level API key. A present AI_GATEWAY_API_KEY takes
+    # precedence in the SDK, so using it first can turn an otherwise healthy
+    # deployment into a 401/403 access_denied failure.
     values = [
-        os.environ.get("AI_GATEWAY_API_KEY", "").strip(),
-        os.environ.get("VERCEL_AI_GATEWAY_KEY", "").strip(),
         os.environ.get("VERCEL_OIDC_TOKEN", "").strip(),
+        os.environ.get("VERCEL_AI_GATEWAY_KEY", "").strip(),
+        os.environ.get("AI_GATEWAY_API_KEY", "").strip(),
     ]
     return list(dict.fromkeys(value for value in values if value))
 
