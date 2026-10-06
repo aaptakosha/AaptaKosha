@@ -196,7 +196,7 @@ def _handle_samhita_ai(handler, body, principal):
                 "message": "AI Gateway authentication/authorization failed",
                 "gateway_status": exc.code,
                 "gateway_detail": gateway_body,
-            }, "ensure_ascii": False}))
+            }, ensure_ascii=False))
         elif exc.code == 404:
             handler._reply(503, json.dumps({"error": {"code": "ai_gateway_model", "message": "Configured AI Gateway model is unavailable"}}))
         else:
