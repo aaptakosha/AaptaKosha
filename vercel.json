@@ -15,10 +15,6 @@
     },
     "api/curriculum_content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
-    },
-    "api/samhita_ai.py": {
-      "maxDuration": 60,
-      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**}"
     }
   },
   "rewrites": [
@@ -40,7 +36,7 @@
     },
     {
       "source": "/api/samhita-ai",
-      "destination": "/api/samhita_ai.py"
+      "destination": "/api/assessments.py?route=samhita-ai"
     },
     {
       "source": "/api/curriculum/nodes",
