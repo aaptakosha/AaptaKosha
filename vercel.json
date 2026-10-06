@@ -16,7 +16,7 @@
     "api/curriculum_content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
     },
-    "api/samhita-ai.py": {
+    "api/samhita_ai.py": {
       "maxDuration": 60,
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**}"
     }
@@ -40,7 +40,7 @@
     },
     {
       "source": "/api/samhita-ai",
-      "destination": "/api/samhita-ai.py"
+      "destination": "/api/samhita_ai.py"
     },
     {
       "source": "/api/curriculum/nodes",
