@@ -15,6 +15,10 @@
     },
     "api/curriculum_content.py": {
       "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**,content/samhita/**}"
+    },
+    "api/samhita-ai.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{frontend/**,.github/**,docs/**,tests/**,scripts/**,node_modules/**,.vercel/**}"
     }
   },
   "rewrites": [
