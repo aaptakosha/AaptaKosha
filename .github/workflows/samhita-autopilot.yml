@@ -13,6 +13,7 @@ on:
       - "scripts/samhita_source_ingest.py"
       - "scripts/samhita_sushruta_ingest.py"
       - "scripts/samhita_commentary_ingest.py"
+      - "scripts/samhita_apply_tika.py"
 
 permissions:
   contents: write
@@ -38,6 +39,9 @@ jobs:
 
       - name: Stage explicitly identified historical Tika
         run: python scripts/samhita_commentary_ingest.py --limit 100
+
+      - name: Attach verified historical Tika
+        run: python scripts/samhita_apply_tika.py --limit 1000
 
       - name: Run autonomous library reconciliation
         run: python scripts/samhita_autopilot.py --write-state
