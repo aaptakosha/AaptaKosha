@@ -1,4 +1,5 @@
 name: Samhita Library Autopilot
+# Scheduled source-ingestion runner: executes hourly and on pipeline changes.
 
 on:
   schedule:
