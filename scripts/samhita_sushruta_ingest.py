@@ -37,21 +37,18 @@ def html_text(raw):
 
 def parse_chapters(raw):
     lines=html_text(raw)
-    plain=" ".join(lines)
-    matches=list(END.finditer(plain))
+    stream="\\n".join(lines)
+    matches=list(END.finditer(stream))
     chapters={}
     previous=0
     for m in matches:
         digits=''.join(str(DIG.index(c)) if c in DIG else c for c in m.group(1))
         num=int(digits)
-        if num>46:
-            previous=m.end(); continue
-        segment=plain[previous:m.end()]
-        titles=re.findall(r"[^.]{0,120}अध्यायः",segment)
-        title=titles[-1].strip() if titles else f"अध्याय {devan(num)}"
-        # Remove the heading itself from the passage stream.
-        body=segment
-        chapters[num]=(title,body.split(),m.group(0))
+        segment=stream[previous:m.end()]
+        if num<=46:
+            titles=re.findall(r"[^\\n]{0,120}अध्यायः",segment)
+            title=titles[-1].strip() if titles else f"अध्याय {devan(num)}"
+            chapters[num]=(title,segment.splitlines(),m.group(0))
         previous=m.end()
     return chapters
 
