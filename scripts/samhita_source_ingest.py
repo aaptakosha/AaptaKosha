@@ -59,7 +59,7 @@ class TextParser(HTMLParser):
 
 def now(): return datetime.now(timezone.utc).isoformat()
 
-def get(url, timeout=30):
+def get(url, timeout=12):
     req=Request(url, headers={"User-Agent":"AaptaKosha-Samhita-Autopilot/1.0 (+source-verification)"})
     ctx=ssl.create_default_context()
     with urlopen(req, timeout=timeout, context=ctx) as r:
@@ -134,6 +134,17 @@ def main():
     items=[]
     configured={x.get("book_id"):x for x in catalog.get("sources",[])}
 
+    # Process only a bounded batch per run. This prevents discovery/network latency from
+    # blocking the whole workflow and lets the hourly runner advance the queue safely.
+    missing_priority=[]
+    for b in books:
+        cfg=configured.get(b["id"],{})
+        if not cfg.get("urls"):
+            missing_priority.append(b)
+        else:
+            missing_priority.append(b)
+    books = missing_priority[:max(1, args.limit)]
+
     # Prioritize partial/planned books; configured URLs are tried before discovery.
     for b in books:
         bid=b["id"]
@@ -142,8 +153,9 @@ def main():
         if args.discover and not urls:
             q=f'site:ebharatisampat.in "{b.get("name_en",bid)}" Ayurveda'
             urls += discover(q)
-            q2=f'site:ayanaayurveda.com "{b.get("name_en",bid)}" commentary'
-            urls += discover(q2)
+            if not urls:
+                q2=f'site:ayanaayurveda.com "{b.get("name_en",bid)}" commentary'
+                urls += discover(q2)
         urls=list(dict.fromkeys(u for u in urls if allowed(u)))
         if not urls:
             items.append({"book_id":bid,"name":b.get("name_en"),"status":"source_not_found"})
