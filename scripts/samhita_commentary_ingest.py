@@ -43,7 +43,8 @@ def parse(url,raw):
     chapter_number=None
     for line in L[:40]:
         m=re.match(r"(?:#\\s*)?([०-९0-9]{1,3})\\.\\s+", line)
-        if m:\n            chapter_number=num(m.group(1)); break
+        if m:
+            chapter_number=num(m.group(1)); break
     if not DAL.search(whole): return None
     blocks=[]; current=None; collecting=False; buf=[]
     for line in L:
