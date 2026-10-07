@@ -9,6 +9,13 @@
         "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/vedotpattyadhyayah/?commentary=show",
         "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/"
       ]
+    },
+    {
+      "book_id": "charaka-samhita",
+      "urls": [
+        "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy"
+      ],
+      "source_notes": "E-Bharatisampat Unicode Charaka Saṃhitā stream; primary-text acquisition seed."
     }
   ]
 }
