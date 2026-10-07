@@ -68,8 +68,20 @@ jobs:
           fi
           git commit -m "chore: reconcile Samhita library automation state"
           for attempt in 1 2 3; do
-            if git push; then exit 0; fi
-            git pull --rebase origin main || true
+            git fetch origin main
+            if git push origin HEAD:main; then exit 0; fi
+            git reset --hard origin/main
+            python scripts/samhita_source_ingest.py --discover --limit 3
+            python scripts/samhita_sushruta_ingest.py --max-chapters 46
+            python scripts/samhita_commentary_ingest.py --limit 100
+            python scripts/samhita_apply_tika.py --limit 1000
+            python scripts/samhita_autopilot.py --write-state
+            if git diff --name-status -- content/ | grep -E '(^|\\s)(D|R|C)\\s'; then
+              echo "Autopilot attempted a destructive content change."
+              exit 1
+            fi
+            git add content/.automation/samhita-autopilot-state.json content/.automation/source-verification-queue.json content/.automation/source-catalog.json content/.automation/tika-verification-queue.json content/.automation/source-discovery-cursor.json content/samhita/
+            git diff --cached --quiet || git commit -m "chore: reconcile Samhita library automation state"
           done
           echo "Unable to push after retries."
           exit 1
