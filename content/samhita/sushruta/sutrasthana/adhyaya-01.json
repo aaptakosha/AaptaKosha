@@ -1,0 +1,121 @@
+{
+  "chapter_id": "sushruta.sutra.01",
+  "title": "वेदोत्पत्त्यध्यायः",
+  "title_hi": "वेदोत्पत्त्यध्याय",
+  "sthana": "सूत्रस्थान",
+  "adhyaya_no": 1,
+  "passage_count": 10,
+  "verse_count": 3,
+  "source_metadata": [
+    {
+      "source": "e-Bharatisampat / Sushrutasamhita",
+      "locator": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
+      "role": "primary Sanskrit text and chapter sequence"
+    },
+    {
+      "source": "Ayana Ayurveda",
+      "locator": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/vedotpattyadhyayah/?commentary=show",
+      "role": "commentary cross-check and Dalhana commentary source"
+    }
+  ],
+  "content_status": "partial_source_ingest",
+  "passages": [
+    {
+      "passage_id": "sushruta.sutra.01.01",
+      "passage_no": "1",
+      "type": "verse",
+      "sanskrit_original": "अथातो वेदोत्पत्तिमध्यायं व्याख्यास्यामः",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 1",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.02",
+      "passage_no": "2",
+      "type": "verse",
+      "sanskrit_original": "यथोवाच भगवान् धन्वन्तरिः",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 2",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.03",
+      "passage_no": "3",
+      "type": "verse",
+      "sanskrit_original": "अथ खलु भगवन्तममरवरमृषिगणपरिवृतमाश्रमस्थं काशिराजं दिवोदासं धन्वन्तरिमौपधेनववैतरणौरभ्रपौष्कलावतकरवीर्य गोपुररक्षितसुश्रुतप्रभृतय ऊचुः",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 3",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.04",
+      "passage_no": "4",
+      "type": "prose",
+      "sanskrit_original": "भगवन् शारीरमानसागन्तुभिर्व्याधिभिर्विविधवेदनाभिघातोपद्रुतान् सनाथानप्यनाथवद्विचेष्टमानान् विक्रोशतश्च मानवानभिसमीक्ष्यमनसि नः पीडा भवति तेषां सुखैषिणां रोगोपशमार्थमात्मनश्च प्राणयात्रार्थं प्रजाहितहेतोरायुर्वेदं श्रोतुमिच्छाम इहोपदिश्यमानम् अत्रायत्तमैहिकमा मुष्मिकं च श्रेयः तद्भगवन्तमुपपन्नाः स्मः शिष्यत्वेनेति",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 4",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.05",
+      "passage_no": "5",
+      "type": "prose",
+      "sanskrit_original": "तानुवाच भगवान् स्वागतं वः सर्व एवामीमांस्या अध्याप्याश्च भवन्तो वत्साः",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 5",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.06",
+      "passage_no": "6",
+      "type": "prose",
+      "sanskrit_original": "इह खल्वायुर्वेदं नामोपाङ्गमथर्ववेदस्यानुत्पाद्यैवपरजाः श्लोकशत सहस्रमध्यायसहस्रं च कृतवान् स्वयम्भूः ततोऽल्पायुष्ट्वमल्पमेध स्त्वं चालोक्य नराणां भूयोऽष्टधा प्रणीतवान्",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 6",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.07",
+      "passage_no": "7",
+      "type": "prose",
+      "sanskrit_original": "यद्यथा शल्यं शालाक्यं कायचिकित्सा भूतविद्या कौमारभृत्यम् अगदतन्त्रं रसायनतन्त्रं वाजीकरणतन्त्रमिति",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 7",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.08",
+      "passage_no": "8",
+      "type": "prose",
+      "sanskrit_original": "अथास्य प्रत्यङ्गलक्षणसमासः तत्र शल्यं नाम विविधतृणकाष्ठपाषाणपांशुलोहलोष्टासथिबालनख पूयास्रावदुष्टव्रणान्तर्गर्भ शल्योद्धरणार्थं यन्त्रशस्त्रक्षाराग्निप्रणिधानव्रणविनिश्चयार्थं च",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 8",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.09",
+      "passage_no": "9",
+      "type": "prose",
+      "sanskrit_original": "शालाक्यं नामोर्ध्वजत्रुगतानां श्रवणनयनवदनघ्राणादिसंश्रितानां व्याधीनामुपशमनार्थम्",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 9",
+      "verification_status": "source_matched"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.10",
+      "passage_no": "10",
+      "type": "prose",
+      "sanskrit_original": "कायचिकित्सा नाम सर्वाङ्गसंश्रितानां व्याधीनां ज्वररक्तपित्तशोषोन्मादापस्मारकुष्ठमेहातिसारादीनामुपशमनार्थम्",
+      "source_locator": "e-Bharati, Sūtra Sthāna 1, passage 10",
+      "verification_status": "source_matched"
+    }
+  ],
+  "tika": [
+    {
+      "passage_id": "sushruta.sutra.01.01",
+      "commentary": "Dalhaṇa, Nibandhasaṅgraha — commentary is available from the Ayana source and is queued for full source-faithful ingestion; no generated substitute is used.",
+      "status": "source_available_pending_full_ingest"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.02",
+      "commentary": "Dalhaṇa, Nibandhasaṅgraha — commentary is available from the Ayana source and is queued for full source-faithful ingestion; no generated substitute is used.",
+      "status": "source_available_pending_full_ingest"
+    },
+    {
+      "passage_id": "sushruta.sutra.01.03",
+      "commentary": "Dalhaṇa, Nibandhasaṅgraha — commentary is available from the Ayana source and is queued for full source-faithful ingestion; no generated substitute is used.",
+      "status": "source_available_pending_full_ingest"
+    }
+  ]
+}
