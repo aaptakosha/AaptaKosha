@@ -12,6 +12,7 @@ on:
       - "scripts/samhita_autopilot.py"
       - "scripts/samhita_source_ingest.py"
       - "scripts/samhita_sushruta_ingest.py"
+      - "scripts/samhita_commentary_ingest.py"
 
 permissions:
   contents: write
@@ -35,6 +36,9 @@ jobs:
       - name: Ingest verified Sushruta primary text chapters
         run: python scripts/samhita_sushruta_ingest.py --max-chapters 46
 
+      - name: Stage explicitly identified historical Tika
+        run: python scripts/samhita_commentary_ingest.py --limit 100
+
       - name: Run autonomous library reconciliation
         run: python scripts/samhita_autopilot.py --write-state
 
@@ -51,7 +55,7 @@ jobs:
         run: |
           git config user.name "AaptaKosha Autopilot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/.automation/samhita-autopilot-state.json content/.automation/source-verification-queue.json content/.automation/source-catalog.json
+          git add content/.automation/samhita-autopilot-state.json content/.automation/source-verification-queue.json content/.automation/source-catalog.json content/.automation/tika-verification-queue.json
           if git diff --cached --quiet; then
             echo "No state change."
             exit 0
