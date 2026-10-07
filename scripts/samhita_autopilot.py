@@ -41,6 +41,8 @@ def inspect_file(path):
     except Exception as exc:
         return {"parse_error": str(exc), "verses": 0, "sanskrit": 0, "tika": 0}
     verses = obj.get("verses") or obj.get("passages") or []
+    if not isinstance(verses, list):
+        verses = []
     sanskrit = 0
     tika = 0
     for v in verses:
@@ -78,6 +80,7 @@ def build_report(reg):
     queue = []
     for b in books:
         key = b["id"].replace("-samhita", "").replace("-nidana", "").replace("-", "_")
+        key = key.replace("_samhita", "")
         match = next((v for k, v in by_book.items() if k == key or k.replace("_","-") == b["id"]), None)
         if match:
             status = "complete_candidate" if match["verses"] and match["sanskrit"] == match["verses"] else "partial"
