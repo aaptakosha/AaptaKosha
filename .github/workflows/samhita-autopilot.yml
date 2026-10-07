@@ -14,6 +14,7 @@ on:
       - "scripts/samhita_sushruta_ingest.py"
       - "scripts/samhita_commentary_ingest.py"
       - "scripts/samhita_apply_tika.py"
+      - ".github/workflows/samhita-autopilot.yml"
 
 permissions:
   contents: write
@@ -65,4 +66,9 @@ jobs:
             exit 0
           fi
           git commit -m "chore: reconcile Samhita library automation state"
-          git push
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin main || true
+          done
+          echo "Unable to push after retries."
+          exit 1
