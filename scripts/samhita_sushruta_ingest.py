@@ -28,46 +28,39 @@ def fetch():
     with urlopen(req,timeout=60,context=ssl.create_default_context()) as r:
         raw=r.read()
         return raw.decode("utf-8","replace")
-class P:
-    from html.parser import HTMLParser
-    def __init__(self):
-        self.p=[]; self.skip=0
-    def parse(self,s):
-        p=self.HTMLParser()
-        p.handle_starttag=lambda t,a: self._start(t)
-        p.handle_endtag=lambda t: self._end(t)
-        p.handle_data=lambda d: self._data(d)
-        p.feed(s); return self.p
-    def _start(self,t):
-        if t in {"script","style","noscript","svg"}: self.skip+=1
-    def _end(self,t):
-        if t in {"script","style","noscript","svg"} and self.skip: self.skip-=1
-    def _data(self,d):
-        if not self.skip and d.strip(): self.p.append(re.sub(r"\s+"," ",d).strip())
+def html_text(raw):
+    import html
+    text = re.sub(r"<(script|style|noscript|svg)\\b[^>]*>.*?</\\1>", "\\n", raw, flags=re.I|re.S)
+    text = re.sub(r"<[^>]+>", "\\n", text)
+    text = html.unescape(text)
+    return [re.sub(r"\\s+", " ", x).strip() for x in text.splitlines() if x.strip()]
+
 def parse_chapters(raw):
-    lines=P().parse(raw)
-    chapters={}; current=None; buf=[]
-    # e-Bharatisampat emits the chapter stream as short Devanagari heading lines.
-    # Use those headings as boundaries; colophons remain the preferred exact boundary.
+    lines=html_text(raw)
+    chapters={}
+    current_num=None
+    current_title=None
+    buf=[]
     for line in lines:
         em=END.search(line)
-        if em and current:
-            num=int(''.join(str(DIG.index(c)) if c in DIG else c for c in em.group(1)))
-            if num <= 46:
-                chapters[num]=(current[1],buf[:],line)
-            current=None; buf=[]
+        if em:
+            digits=''.join(str(DIG.index(c)) if c in DIG else c for c in em.group(1))
+            num=int(digits)
+            if current_num is not None and current_num <= 46:
+                chapters[num]=(current_title or f"अध्याय {devan(num)}",buf[:],line)
+            current_num=None; current_title=None; buf=[]
             continue
-        is_header=bool(DEV.search(line) and "अध्यायः" in line and len(line) <= 90)
-        if is_header and not line.startswith("इति "):
-            if current:
-                inferred=current[0]
-                if inferred <= 46 and buf:
-                    chapters[inferred]=(current[1],buf[:], "")
-            current=(len(chapters)+1,line); buf=[]; continue
-        if current:
+        if DEV.search(line) and "अध्यायः" in line and len(line) <= 120:
+            if current_num is not None and current_num <= 46 and buf:
+                chapters.setdefault(current_num,(current_title or f"अध्याय {devan(current_num)}",buf[:],""))
+            current_num = (max(chapters.keys()) + 1) if chapters else 1
+            current_title=line
+            buf=[]
+            continue
+        if current_num is not None:
             buf.append(line)
-    if current and current[0] <= 46 and buf:
-        chapters[current[0]]=(current[1],buf[:],"")
+    if current_num is not None and current_num <= 46 and buf:
+        chapters.setdefault(current_num,(current_title or f"अध्याय {devan(current_num)}",buf[:],""))
     return chapters
 
 def split_passages(lines):
