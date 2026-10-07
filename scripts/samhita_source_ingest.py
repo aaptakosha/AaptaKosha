@@ -25,6 +25,7 @@ REGISTRY = ROOT / "content" / "samhita-registry.json"
 AUTO = ROOT / "content" / ".automation"
 QUEUE = AUTO / "source-verification-queue.json"
 SOURCES = AUTO / "source-catalog.json"
+CURSOR = AUTO / "source-discovery-cursor.json"
 
 ALLOWED_HOSTS = {
     "www.ebharatisampat.in",
@@ -131,6 +132,11 @@ def main():
     AUTO.mkdir(parents=True,exist_ok=True)
     books=load_books()
     catalog=load_catalog()
+    cursor=0
+    if CURSOR.exists():
+        try: cursor=int(json.loads(CURSOR.read_text(encoding="utf-8")).get("next_index",0))
+        except Exception: cursor=0
+    if books: cursor=cursor % len(books)
     items=[]
     configured={x.get("book_id"):x for x in catalog.get("sources",[])}
 
@@ -143,7 +149,9 @@ def main():
             missing_priority.append(b)
         else:
             missing_priority.append(b)
-    books = missing_priority[:max(1, args.limit)]
+    batch_size=max(1, args.limit)
+    ordered=missing_priority[cursor:]+missing_priority[:cursor] if missing_priority else []
+    books=ordered[:batch_size]
 
     # Prioritize partial/planned books; configured URLs are tried before discovery.
     for b in books:
@@ -169,6 +177,8 @@ def main():
         else:
             items.append({"book_id":bid,"name":b.get("name_en"),"status":"verification_required","sources":recs})
 
+    if missing_priority:
+        CURSOR.write_text(json.dumps({"schema_version":1,"next_index":(cursor+batch_size) % len(missing_priority),"updated_at":now()},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     QUEUE.write_text(json.dumps({
         "schema_version":1,"generated_at":now(),
         "policy":"No generated Sanskrit/Tika. Source-backed artifacts only.",
