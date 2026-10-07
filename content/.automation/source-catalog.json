@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "policy": "Only allowlisted public sources. URLs are discovery seeds; extracted text remains source-provenance tagged and requires verification before publication.",
+  "sources": [
+    {
+      "book_id": "sushruta-samhita",
+      "urls": [
+        "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
+        "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/vedotpattyadhyayah/?commentary=show"
+      ]
+    }
+  ]
+}
