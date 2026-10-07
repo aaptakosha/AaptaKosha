@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T10:49:11.070795+00:00",
+  "generated_at": "2026-10-07T10:49:41.194578+00:00",
   "registry_version": 3,
   "book_count": 54,
   "counts": {
-    "partial": 3,
-    "missing_source_content": 51
+    "complete_candidate": 2,
+    "missing_source_content": 51,
+    "partial": 1
   },
   "queue": [
     {
@@ -18,10 +19,10 @@
         "files": 12,
         "verses": 725,
         "sanskrit": 725,
-        "tika": 0,
+        "tika": 725,
         "source_backed": 12
       },
-      "queue_status": "partial"
+      "queue_status": "complete_candidate"
     },
     {
       "id": "sushruta-samhita",
@@ -42,10 +43,10 @@
         "files": 4,
         "verses": 150,
         "sanskrit": 150,
-        "tika": 0,
+        "tika": 337,
         "source_backed": 2
       },
-      "queue_status": "partial"
+      "queue_status": "complete_candidate"
     },
     {
       "id": "ashtanga-sangraha",
@@ -84,7 +85,7 @@
         "files": 2,
         "verses": 45,
         "sanskrit": 45,
-        "tika": 0,
+        "tika": 21,
         "source_backed": 2
       },
       "queue_status": "partial"
@@ -513,5 +514,5 @@
       "queue_status": "missing_source_content"
     }
   ],
-  "fingerprint": "4cc5047bfd8c809c4ce5a29d59f6a67933d35950ac1cfb098f4fbf6319f3d6c5"
+  "fingerprint": "d20f776b732853e33b6eb15e62ad5cb6f01646ee961799659bab032f2bab8b2d"
 }
