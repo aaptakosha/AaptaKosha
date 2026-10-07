@@ -32,31 +32,34 @@ def fetch(url):
     with urlopen(req,timeout=60,context=ssl.create_default_context()) as r:
         return r.read().decode("utf-8","replace")
 
+def plain_text(raw):
+    import html
+    text=re.sub(r"<(script|style|noscript|svg)\\b[^>]*>.*?</\\1>","\\n",raw,flags=re.I|re.S)
+    text=re.sub(r"<[^>]+>"," ",text)
+    text=html.unescape(text)
+    return re.sub(r"\\s+"," "," ".join(text.splitlines())).strip()
+
 def parse(url,raw):
-    p=P(); p.feed(raw); L=p.lines
-    if not DAL.search("\n".join(L)): return None
+    text=plain_text(raw)
+    if not DAL.search(text): return None
     chapter_number=1 if "vedotpattyadhyayah" in url else None
-    blocks=[]; current=None; collecting=False; buf=[]
-    def flush():
-        nonlocal buf
-        if current is not None:
-            text=" ".join(x for x in buf if DEV.search(x))
-            if len(text)>10: blocks.append({"verse_number":current,"tika_sanskrit":text})
-        buf=[]
-    for line in L:
-        m=ANCHOR.search(line)
-        if m:
-            flush(); current=num(m.group(2)); collecting=False; continue
-        if current is None: continue
-        if line in {"Show commentary","Hide commentary"}:
-            collecting=True; buf=[]; continue
-        if line.startswith("Meaning of the commentary") or line.startswith("Key terms"):
-            if line.startswith("Meaning of the commentary"): flush()
-            collecting=False; continue
-        if line.startswith("Meaning of the śloka"):
-            collecting=False; continue
-        if collecting and DEV.search(line): buf.append(line)
-    flush()
+    blocks=[]
+    matches=list(ANCHOR.finditer(text))
+    for i,m in enumerate(matches):
+        current=num(m.group(2))
+        segment=text[m.end(): matches[i+1].start() if i+1<len(matches) else len(text)]
+        # Ayana renders the authentic commentary between the commentary toggle
+        # and its English explanatory section. Never ingest the English meaning.
+        toggle=re.search(r"\\b(?:Hide commentary|Show commentary)\\b",segment)
+        if not toggle: continue
+        body=segment[toggle.end():]
+        stop=re.search(r"\\bMeaning of the commentary\\b|\\bKey terms\\b",body)
+        if stop: body=body[:stop.start()]
+        # Remove UI/audio labels and keep only Devanagari source text.
+        parts=[x.strip() for x in re.split(r"\\s+",body) if DEV.search(x)]
+        tika=" ".join(parts)
+        if len(tika)>10:
+            blocks.append({"verse_number":current,"tika_sanskrit":tika})
     return {"url":url,"commentator":"Dalhaṇa","chapter_number":chapter_number,"blocks":blocks}
 
 def main():
