@@ -1,0 +1,13 @@
+# AaptaKosha — Codex MCP configuration
+#
+# Keep STITCH_API_KEY in the local environment. Never commit the key.
+# After cloning/trusting this repository, Codex can use Stitch through
+# the official remote MCP endpoint.
+
+[mcp_servers.stitch]
+url = "https://stitch.googleapis.com/mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+
+[mcp_servers.stitch.env_http_headers]
+X-Goog-Api-Key = "STITCH_API_KEY"
