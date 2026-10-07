@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T18:40:58.308356+00:00",
+  "generated_at": "2026-10-07T18:44:26.144886+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -17,8 +17,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-07T18:40:57.128711+00:00",
-          "content_sha256": "07cc99e595cb82750ff515b592831c0aa0d5e0800a72f21515cf1e29fb1a3430",
+          "retrieved_at": "2026-10-07T18:44:24.943995+00:00",
+          "content_sha256": "c22e7d3c90d765cafd6a742a00610b4ba96a92f8e35d3e6cf725a7a91b37004f",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -137,7 +137,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-07T18:40:58.016908+00:00",
+          "retrieved_at": "2026-10-07T18:44:25.856460+00:00",
           "content_sha256": "5594fbdf5f87a23dcf71f20abed45f4328a7b7a2103b73f7e07b75b8cd38358a",
           "sanskrit_lines": 6,
           "commentators_detected": [],
