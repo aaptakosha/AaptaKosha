@@ -49,8 +49,7 @@ def inspect_file(path):
         text = v.get("sanskrit_original") or v.get("sanskrit") or ""
         if text and DEVANAGARI.search(text):
             sanskrit += 1
-        if any(k in v for k in TIKA_KEYS):
-            tika += sum(1 for k in TIKA_KEYS if v.get(k))
+        tika += sum(1 for k, value in v.items() if value and any(k.startswith(prefix) for prefix in TIKA_KEYS))
     return {
         "verses": len(verses),
         "sanskrit": sanskrit,
