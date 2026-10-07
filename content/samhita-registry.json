@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "entries": [
     {
       "content_id": "ashtanga.hridaya.sutra.01",
@@ -363,6 +363,34 @@
             "id": "vaidya-chikitsa-sara",
             "name": "वैद्यकचिकित्सासार",
             "name_en": "Vaidyaka Cikitsā Sāra",
+            "kind": "chikitsa-compendium",
+            "status": "planned"
+          },
+          {
+            "id": "abhinava-chintamani",
+            "name": "अभिनवचिन्तामणि",
+            "name_en": "Abhinava Cintāmaṇi",
+            "kind": "compendium",
+            "status": "planned"
+          },
+          {
+            "id": "arka-prakasha",
+            "name": "अर्कप्रकाश",
+            "name_en": "Arka Prakāśa",
+            "kind": "formulary",
+            "status": "planned"
+          },
+          {
+            "id": "arogya-kalpadruma",
+            "name": "आरोग्यकल्पद्रुम",
+            "name_en": "Ārogya Kalpadruma",
+            "kind": "compendium",
+            "status": "planned"
+          },
+          {
+            "id": "ayurbhishak",
+            "name": "आयुर्भिषक",
+            "name_en": "Āyurbhiṣak",
             "kind": "chikitsa-compendium",
             "status": "planned"
           }
