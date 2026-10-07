@@ -2,10 +2,8 @@ name: Samhita Library Autopilot
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "7 * * * *"
   workflow_dispatch:
-  issues:
-    types: [opened]
   push:
     branches: ["main"]
     paths:
@@ -20,7 +18,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency:
   group: samhita-autopilot
@@ -28,15 +25,8 @@ concurrency:
 
 jobs:
   reconcile:
-    if: github.event_name != 'issues' || startsWith(github.event.issue.title, '[AUTOPILOT]')
     runs-on: ubuntu-latest
     steps:
-      - name: Close one-shot trigger issue
-        if: github.event_name == 'issues'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh issue close ${{ github.event.issue.number }} --reason completed --comment "Samhita Autopilot run started."
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -70,7 +60,7 @@ jobs:
         run: |
           git config user.name "AaptaKosha Autopilot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/.automation/samhita-autopilot-state.json content/.automation/source-verification-queue.json content/.automation/source-catalog.json content/.automation/tika-verification-queue.json
+          git add content/.automation/samhita-autopilot-state.json content/.automation/source-verification-queue.json content/.automation/source-catalog.json content/.automation/tika-verification-queue.json content/samhita/
           if git diff --cached --quiet; then
             echo "No state change."
             exit 0
