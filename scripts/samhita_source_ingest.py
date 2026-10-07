@@ -90,6 +90,7 @@ def source_records(url, title_hint=""):
     sans=[x for x in text.splitlines() if DEV.search(x)]
     named=sorted(set(COMMENTARY.findall(text)))
     digest=hashlib.sha256(body.encode("utf-8")).hexdigest()
+    linked=list(dict.fromkeys(urljoin(final,h) for h in p.links if allowed(urljoin(final,h))))[:100]
     return [{
         "url":final,
         "host":urlparse(final).hostname,
@@ -98,6 +99,7 @@ def source_records(url, title_hint=""):
         "content_sha256":digest,
         "sanskrit_lines":len(sans),
         "commentators_detected":named,
+        "linked_urls":linked,
         "status":"source_found" if sans else "no_sanskrit_detected",
         "text_sample":sans[:80],
     }]
