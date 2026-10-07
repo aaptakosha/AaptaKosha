@@ -10,6 +10,8 @@ on:
       - "content/samhita-registry.json"
       - "content/samhita/**"
       - "scripts/samhita_autopilot.py"
+      - "scripts/samhita_source_ingest.py"
+      - "scripts/samhita_sushruta_ingest.py"
 
 permissions:
   contents: write
@@ -29,6 +31,9 @@ jobs:
 
       - name: Run autonomous source acquisition
         run: python scripts/samhita_source_ingest.py --discover --limit 3
+
+      - name: Ingest verified Sushruta primary text chapters
+        run: python scripts/samhita_sushruta_ingest.py --max-chapters 46
 
       - name: Run autonomous library reconciliation
         run: python scripts/samhita_autopilot.py --write-state
