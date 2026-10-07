@@ -244,6 +244,13 @@
     {
       "content_id": "ashtanga.hridaya.sutra.15",
       "path": "content/curriculum/ncism-first-professional/AyUG-SA1/AH-Su-15-ShodhanadiganaSangraha.json"
+    },
+    {
+      "id": "sushruta.sutra.01.autopilot-pilot",
+      "path": "content/samhita/sushruta/sutrasthana/adhyaya-01.json",
+      "type": "samhita_chapter",
+      "status": "partial_source_ingest",
+      "source_policy": "e-Bharati primary Sanskrit; Ayana/Dalhana commentary source; full Tika only after source-faithful ingestion"
     }
   ],
   "library_sources": {
