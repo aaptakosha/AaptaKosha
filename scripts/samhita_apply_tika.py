@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 QUEUE=ROOT/"content/.automation/tika-verification-queue.json"
 OUT=ROOT/"content/samhita/sushruta/sutrasthana"
-def main():
+AUTOPILOT_VERSION="2026-10-07-source-ingestion-v1"\n\ndef main():
     ap=argparse.ArgumentParser(); ap.add_argument("--limit",type=int,default=1000); args=ap.parse_args()
     if not QUEUE.exists(): print(json.dumps({"status":"no_queue"})); return
     q=json.loads(QUEUE.read_text(encoding="utf-8"))
