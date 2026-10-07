@@ -27,6 +27,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Run autonomous source acquisition
+        run: python scripts/samhita_source_ingest.py --discover --limit 3
+
       - name: Run autonomous library reconciliation
         run: python scripts/samhita_autopilot.py --write-state
 
@@ -38,12 +41,12 @@ jobs:
             exit 1
           fi
 
-      - name: Commit automation state
+      - name: Commit automation state and source queue
         shell: bash
         run: |
           git config user.name "AaptaKosha Autopilot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/.automation/samhita-autopilot-state.json
+          git add content/.automation/samhita-autopilot-state.json content/.automation/source-verification-queue.json content/.automation/source-catalog.json
           if git diff --cached --quiet; then
             echo "No state change."
             exit 0
