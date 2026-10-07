@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T19:23:04.175901+00:00",
+  "generated_at": "2026-10-07T20:22:51.325869+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
-      "book_id": "ayurveda-sangraha",
-      "name": "Āyurveda Saṅgraha",
+      "book_id": "abhinava-chintamani",
+      "name": "Abhinava Cintāmaṇi",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurveda-sara-sangraha",
-      "name": "Āyurveda Sāra Saṅgraha",
+      "book_id": "arka-prakasha",
+      "name": "Arka Prakāśa",
       "status": "source_not_found"
     },
     {
-      "book_id": "vaidya-chikitsa-sara",
-      "name": "Vaidyaka Cikitsā Sāra",
+      "book_id": "arogya-kalpadruma",
+      "name": "Ārogya Kalpadruma",
       "status": "source_not_found"
     }
   ]
