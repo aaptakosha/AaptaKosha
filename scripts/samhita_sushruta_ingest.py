@@ -47,21 +47,29 @@ class P:
 def parse_chapters(raw):
     lines=P().parse(raw)
     chapters={}; current=None; buf=[]
+    # e-Bharatisampat emits the chapter stream as short Devanagari heading lines.
+    # Use those headings as boundaries; colophons remain the preferred exact boundary.
     for line in lines:
-        m=HEAD.match(line)
-        if m:
-            # Only treat chapter headers as boundaries when the text looks like a named chapter.
-            current=(len(chapters)+1,m.group(1)); buf=[]; continue
-        if current:
-            em=END.search(line)
-            if em:
-                num=int(''.join(str(DIG.index(c)) if c in DIG else c for c in em.group(1)))
-                if num != current[0]:
-                    current=(num,current[1])
+        em=END.search(line)
+        if em and current:
+            num=int(''.join(str(DIG.index(c)) if c in DIG else c for c in em.group(1)))
+            if num <= 46:
                 chapters[num]=(current[1],buf[:],line)
-                current=None; buf=[]; continue
+            current=None; buf=[]
+            continue
+        is_header=bool(DEV.search(line) and "अध्यायः" in line and len(line) <= 90)
+        if is_header and not line.startswith("इति "):
+            if current:
+                inferred=current[0]
+                if inferred <= 46 and buf:
+                    chapters[inferred]=(current[1],buf[:], "")
+            current=(len(chapters)+1,line); buf=[]; continue
+        if current:
             buf.append(line)
+    if current and current[0] <= 46 and buf:
+        chapters[current[0]]=(current[1],buf[:],"")
     return chapters
+
 def split_passages(lines):
     out=[]; acc=[]
     for line in lines:
