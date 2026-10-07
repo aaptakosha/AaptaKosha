@@ -60,7 +60,11 @@ def inspect_file(path):
     }
 
 def book_key(path):
-    parts = path.relative_to(ROOT / "content" / "samhita").parts
+    base = ROOT / "content" / "samhita"
+    try:
+        parts = path.relative_to(base).parts
+    except ValueError:
+        return None
     return parts[0] if parts else None
 
 def build_report(reg):
@@ -68,6 +72,8 @@ def build_report(reg):
     by_book = {}
     for e, p in files:
         key = book_key(p)
+        if key is None:
+            continue
         info = inspect_file(p)
         b = by_book.setdefault(key, {"files": 0, "verses": 0, "sanskrit": 0, "tika": 0, "source_backed": 0})
         b["files"] += 1
