@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-07T10:49:11.070795+00:00",
+  "registry_version": 3,
+  "book_count": 54,
+  "counts": {
+    "partial": 3,
+    "missing_source_content": 51
+  },
+  "queue": [
+    {
+      "id": "charaka-samhita",
+      "name": "चरकसंहिता",
+      "name_en": "Charaka Saṃhitā",
+      "kind": "samhita",
+      "status": "partial",
+      "observed": {
+        "files": 12,
+        "verses": 725,
+        "sanskrit": 725,
+        "tika": 0,
+        "source_backed": 12
+      },
+      "queue_status": "partial"
+    },
+    {
+      "id": "sushruta-samhita",
+      "name": "सुश्रुतसंहिता",
+      "name_en": "Suśruta Saṃhitā",
+      "kind": "samhita",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ashtanga-hridaya",
+      "name": "अष्टाङ्गहृदय",
+      "name_en": "Aṣṭāṅga Hṛdaya",
+      "kind": "samhita",
+      "status": "partial",
+      "observed": {
+        "files": 4,
+        "verses": 150,
+        "sanskrit": 150,
+        "tika": 0,
+        "source_backed": 2
+      },
+      "queue_status": "partial"
+    },
+    {
+      "id": "ashtanga-sangraha",
+      "name": "अष्टाङ्गसंग्रह",
+      "name_en": "Aṣṭāṅga Saṅgraha",
+      "kind": "samhita",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "bhela-samhita",
+      "name": "भेलसंहिता",
+      "name_en": "Bhela Saṃhitā",
+      "kind": "samhita",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "kashyapa-samhita",
+      "name": "काश्यपसंहिता",
+      "name_en": "Kāśyapa Saṃhitā",
+      "kind": "samhita",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "madhava-nidana",
+      "name": "माधवनिदान",
+      "name_en": "Mādhava Nidāna",
+      "kind": "nidana",
+      "status": "partial",
+      "observed": {
+        "files": 2,
+        "verses": 45,
+        "sanskrit": 45,
+        "tika": 0,
+        "source_backed": 2
+      },
+      "queue_status": "partial"
+    },
+    {
+      "id": "sharangadhara-samhita",
+      "name": "शार्ङ्गधरसंहिता",
+      "name_en": "Śārṅgadhara Saṃhitā",
+      "kind": "samhita",
+      "status": "partial",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "bhavaprakasha",
+      "name": "भावप्रकाश",
+      "name_en": "Bhāvaprakāśa",
+      "kind": "compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "chakradatta",
+      "name": "चक्रदत्त",
+      "name_en": "Cakradatta",
+      "kind": "chikitsa-compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "gadanigraha",
+      "name": "गदनिग्रह",
+      "name_en": "Gadanigraha",
+      "kind": "chikitsa-compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "vrinda-chikitsa",
+      "name": "वृन्दचिकित्सा",
+      "name_en": "Vṛnda Cikitsā",
+      "kind": "chikitsa-compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurveda-sangraha",
+      "name": "आयुर्वेदसंग्रह",
+      "name_en": "Āyurveda Saṅgraha",
+      "kind": "compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurveda-sara-sangraha",
+      "name": "आयुर्वेदसारसंग्रह",
+      "name_en": "Āyurveda Sāra Saṅgraha",
+      "kind": "compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "vaidya-chikitsa-sara",
+      "name": "वैद्यकचिकित्सासार",
+      "name_en": "Vaidyaka Cikitsā Sāra",
+      "kind": "chikitsa-compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "abhinava-chintamani",
+      "name": "अभिनवचिन्तामणि",
+      "name_en": "Abhinava Cintāmaṇi",
+      "kind": "compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "arka-prakasha",
+      "name": "अर्कप्रकाश",
+      "name_en": "Arka Prakāśa",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "arogya-kalpadruma",
+      "name": "आरोग्यकल्पद्रुम",
+      "name_en": "Ārogya Kalpadruma",
+      "kind": "compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurbhishak",
+      "name": "आयुर्भिषक",
+      "name_en": "Āyurbhiṣak",
+      "kind": "chikitsa-compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "dhanvantari-nighantu",
+      "name": "धन्वन्तरि निघण्टु",
+      "name_en": "Dhanvantari Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "kaideva-nighantu",
+      "name": "कैदेव निघण्टु",
+      "name_en": "Kaiyadeva Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "madanapala-nighantu",
+      "name": "मदनपाल निघण्टु",
+      "name_en": "Madanapāla Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "bhavaprakasha-nighantu",
+      "name": "भावप्रकाश निघण्टु",
+      "name_en": "Bhāvaprakāśa Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "shodhala-nighantu",
+      "name": "शोधल निघण्टु",
+      "name_en": "Śodhala Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "nighantu-ratnakara",
+      "name": "निघण्टुरत्नाकर",
+      "name_en": "Nighaṇṭu Ratnākara",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "dravyaguna-nighantu",
+      "name": "द्रव्यगुण निघण्टु",
+      "name_en": "Dravyaguṇa Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "raj-nighantu",
+      "name": "राजनिघण्टु",
+      "name_en": "Rāja Nighaṇṭu",
+      "kind": "nighantu",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurveda-prakasha",
+      "name": "आयुर्वेदप्रकाश",
+      "name_en": "Āyurveda Prakāśa",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasaratna-samucchaya",
+      "name": "रसरत्नसमुच्चय",
+      "name_en": "Rasaratna Samuccaya",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasatarangini",
+      "name": "रसतरङ्गिणी",
+      "name_en": "Rasataraṅgiṇī",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasendra-sara-sangraha",
+      "name": "रसेन्द्रसारसंग्रह",
+      "name_en": "Rasendra Sāra Saṅgraha",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasayoga-ratnakara",
+      "name": "रसयोगरत्नाकर",
+      "name_en": "Rasayoga Ratnākara",
+      "kind": "bhaishajya",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "bhaishajya-ratnavali",
+      "name": "भैषज्यरत्नावली",
+      "name_en": "Bhaiṣajya Ratnāvalī",
+      "kind": "bhaishajya",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "brihat-bhaishajya-ratnakara",
+      "name": "बृहत् भैषज्यरत्नाकर",
+      "name_en": "Bṛhat Bhaiṣajya Ratnākara",
+      "kind": "bhaishajya",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "sahasrayoga",
+      "name": "सहस्रयोग",
+      "name_en": "Sahasrayoga",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "siddha-bhaishajya-manimala",
+      "name": "सिद्धभैषज्यमणिमाला",
+      "name_en": "Siddha Bhaiṣajya Maṇimālā",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "yoga-ratnakara",
+      "name": "योगरत्नाकर",
+      "name_en": "Yogaratnākara",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "yoga-ratna-sangraha",
+      "name": "योगरत्नसंग्रह",
+      "name_en": "Yogaratnasaṅgraha",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasamanjari",
+      "name": "रसमञ्जरी",
+      "name_en": "Rasamañjarī",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasamrita",
+      "name": "रसामृत",
+      "name_en": "Rasāmṛta",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasayoga-sagara",
+      "name": "रसयोगसागर",
+      "name_en": "Rasayoga Sāgara",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasayoga-sangraha",
+      "name": "रसयोगसंग्रह",
+      "name_en": "Rasayoga Saṅgraha",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "siddha-yoga-sangraha",
+      "name": "सिद्धयोगसंग्रह",
+      "name_en": "Siddha Yoga Saṅgraha",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "rasa-pradipika",
+      "name": "रसप्रदीपिका",
+      "name_en": "Rasapradīpikā",
+      "kind": "rasashastra",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "bhojana-kutuhala",
+      "name": "भोजनकुतूहलम्",
+      "name_en": "Bhojana Kutūhala",
+      "kind": "ahara",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "kshemakutuhala",
+      "name": "क्षेमकुतूहल",
+      "name_en": "Kṣemakutūhala",
+      "kind": "ahara",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "haramekhala",
+      "name": "हरमेखला",
+      "name_en": "Haramekhalā",
+      "kind": "specialty",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "vasavarajiyam",
+      "name": "वासवराजीयम्",
+      "name_en": "Vāsavarājīyam",
+      "kind": "specialty",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurveda-chintamani",
+      "name": "आयुर्वेदचिन्तामणि",
+      "name_en": "Āyurveda Cintāmaṇi",
+      "kind": "compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "vaidya-chintamani",
+      "name": "वैद्यचिन्तामणि",
+      "name_en": "Vaidya Cintāmaṇi",
+      "kind": "chikitsa-compendium",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "yoga-chintamani",
+      "name": "योगचिन्तामणि",
+      "name_en": "Yoga Cintāmaṇi",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "yoga-tarangini",
+      "name": "योगतरङ्गिणी",
+      "name_en": "Yogataraṅgiṇī",
+      "kind": "formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurvedic-formulary-of-india",
+      "name": "आयुर्वेदिक फॉर्मुलरी ऑफ इंडिया",
+      "name_en": "Ayurvedic Formulary of India",
+      "kind": "official-formulary",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    },
+    {
+      "id": "ayurvedic-pharmacopoeia-of-india",
+      "name": "आयुर्वेदिक फार्माकोपिया ऑफ इंडिया",
+      "name_en": "Ayurvedic Pharmacopoeia of India",
+      "kind": "official-pharmacopoeia",
+      "status": "planned",
+      "observed": null,
+      "queue_status": "missing_source_content"
+    }
+  ],
+  "fingerprint": "4cc5047bfd8c809c4ce5a29d59f6a67933d35950ac1cfb098f4fbf6319f3d6c5"
+}
