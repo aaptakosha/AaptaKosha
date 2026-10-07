@@ -40,6 +40,10 @@ def fetch(url):
 def parse(url,raw):
     lines=P(); lines.feed(raw); L=lines.lines
     whole="\n".join(L)
+    chapter_number=None
+    for line in L[:40]:
+        m=re.match(r"(?:#\\s*)?([०-९0-9]{1,3})\\.\\s+", line)
+        if m:\n            chapter_number=num(m.group(1)); break
     if not DAL.search(whole): return None
     blocks=[]; current=None; collecting=False; buf=[]
     for line in L:
@@ -56,7 +60,7 @@ def parse(url,raw):
             # English/educational prose is rejected by DEV check; source commentary is Sanskrit.
             buf.append(line)
     if current and buf: blocks.append((current," ".join(x for x in buf if DEV.search(x))))
-    return {"url":url,"commentator":"Dalhaṇa","blocks":[{"verse_number":n,"tika_sanskrit":t} for n,t in blocks if len(t)>10]}
+    return {"url":url,"commentator":"Dalhaṇa","chapter_number":chapter_number,"blocks":[{"verse_number":n,"tika_sanskrit":t} for n,t in blocks if len(t)>10]}
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--limit",type=int,default=100); args=ap.parse_args()
     if not QUEUE.exists(): print(json.dumps({"status":"no_queue"})); return
