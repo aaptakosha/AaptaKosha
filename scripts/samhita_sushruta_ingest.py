@@ -37,30 +37,22 @@ def html_text(raw):
 
 def parse_chapters(raw):
     lines=html_text(raw)
+    plain=" ".join(lines)
+    matches=list(END.finditer(plain))
     chapters={}
-    current_num=None
-    current_title=None
-    buf=[]
-    for line in lines:
-        em=END.search(line)
-        if em:
-            digits=''.join(str(DIG.index(c)) if c in DIG else c for c in em.group(1))
-            num=int(digits)
-            if current_num is not None and current_num <= 46:
-                chapters[num]=(current_title or f"अध्याय {devan(num)}",buf[:],line)
-            current_num=None; current_title=None; buf=[]
-            continue
-        if DEV.search(line) and "अध्यायः" in line and len(line) <= 120:
-            if current_num is not None and current_num <= 46 and buf:
-                chapters.setdefault(current_num,(current_title or f"अध्याय {devan(current_num)}",buf[:],""))
-            current_num = (max(chapters.keys()) + 1) if chapters else 1
-            current_title=line
-            buf=[]
-            continue
-        if current_num is not None:
-            buf.append(line)
-    if current_num is not None and current_num <= 46 and buf:
-        chapters.setdefault(current_num,(current_title or f"अध्याय {devan(current_num)}",buf[:],""))
+    previous=0
+    for m in matches:
+        digits=''.join(str(DIG.index(c)) if c in DIG else c for c in m.group(1))
+        num=int(digits)
+        if num>46:
+            previous=m.end(); continue
+        segment=plain[previous:m.end()]
+        titles=re.findall(r"[^.]{0,120}अध्यायः",segment)
+        title=titles[-1].strip() if titles else f"अध्याय {devan(num)}"
+        # Remove the heading itself from the passage stream.
+        body=segment
+        chapters[num]=(title,body.split(),m.group(0))
+        previous=m.end()
     return chapters
 
 def split_passages(lines):
