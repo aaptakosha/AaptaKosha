@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T10:49:41.194578+00:00",
+  "generated_at": "2026-10-07T10:54:53.425006+00:00",
   "registry_version": 3,
   "book_count": 54,
   "counts": {
     "complete_candidate": 2,
-    "missing_source_content": 51,
-    "partial": 1
+    "partial": 2,
+    "missing_source_content": 50
   },
   "queue": [
     {
@@ -30,8 +30,14 @@
       "name_en": "Suśruta Saṃhitā",
       "kind": "samhita",
       "status": "planned",
-      "observed": null,
-      "queue_status": "missing_source_content"
+      "observed": {
+        "files": 1,
+        "verses": 10,
+        "sanskrit": 10,
+        "tika": 0,
+        "source_backed": 1
+      },
+      "queue_status": "partial"
     },
     {
       "id": "ashtanga-hridaya",
@@ -514,5 +520,5 @@
       "queue_status": "missing_source_content"
     }
   ],
-  "fingerprint": "d20f776b732853e33b6eb15e62ad5cb6f01646ee961799659bab032f2bab8b2d"
+  "fingerprint": "7303bfa686296fd8bdef0a46bb07b20d0c136b063ca44dc2ffe99a7b52b19525"
 }
