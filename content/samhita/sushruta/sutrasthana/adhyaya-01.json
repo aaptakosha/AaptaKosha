@@ -117,5 +117,6 @@
       "commentary": "Dalhaṇa, Nibandhasaṅgraha — commentary is available from the Ayana source and is queued for full source-faithful ingestion; no generated substitute is used.",
       "status": "source_available_pending_full_ingest"
     }
-  ]
+  ],
+  "automation_trigger": "source-ingestion-autopilot-v1"
 }
