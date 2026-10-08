@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T02:21:12.647944+00:00",
+  "generated_at": "2026-10-08T03:22:58.229525+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
-      "book_id": "brihat-bhaishajya-ratnakara",
-      "name": "Bṛhat Bhaiṣajya Ratnākara",
+      "book_id": "yoga-ratnakara",
+      "name": "Yogaratnākara",
       "status": "source_not_found"
     },
     {
-      "book_id": "sahasrayoga",
-      "name": "Sahasrayoga",
+      "book_id": "yoga-ratna-sangraha",
+      "name": "Yogaratnasaṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "siddha-bhaishajya-manimala",
-      "name": "Siddha Bhaiṣajya Maṇimālā",
+      "book_id": "rasamanjari",
+      "name": "Rasamañjarī",
       "status": "source_not_found"
     }
   ]
