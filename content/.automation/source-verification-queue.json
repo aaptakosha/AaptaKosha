@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T07:24:32.022931+00:00",
+  "generated_at": "2026-10-08T08:24:31.806623+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
-      "book_id": "ayurveda-chintamani",
-      "name": "Āyurveda Cintāmaṇi",
+      "book_id": "yoga-tarangini",
+      "name": "Yogataraṅgiṇī",
       "status": "source_not_found"
     },
     {
-      "book_id": "vaidya-chintamani",
-      "name": "Vaidya Cintāmaṇi",
+      "book_id": "ayurvedic-formulary-of-india",
+      "name": "Ayurvedic Formulary of India",
       "status": "source_not_found"
     },
     {
-      "book_id": "yoga-chintamani",
-      "name": "Yoga Cintāmaṇi",
+      "book_id": "ayurvedic-pharmacopoeia-of-india",
+      "name": "Ayurvedic Pharmacopoeia of India",
       "status": "source_not_found"
     }
   ]
