@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T12:29:48.748297+00:00",
+  "generated_at": "2026-10-08T13:26:25.740701+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
-      "book_id": "chakradatta",
-      "name": "Cakradatta",
+      "book_id": "ayurveda-sangraha",
+      "name": "Āyurveda Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "gadanigraha",
-      "name": "Gadanigraha",
+      "book_id": "ayurveda-sara-sangraha",
+      "name": "Āyurveda Sāra Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "vrinda-chikitsa",
-      "name": "Vṛnda Cikitsā",
+      "book_id": "vaidya-chikitsa-sara",
+      "name": "Vaidyaka Cikitsā Sāra",
       "status": "source_not_found"
     }
   ]
