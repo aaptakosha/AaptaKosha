@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T03:22:58.229525+00:00",
+  "generated_at": "2026-10-08T04:23:21.711060+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
-      "book_id": "yoga-ratnakara",
-      "name": "Yogaratnākara",
+      "book_id": "rasamrita",
+      "name": "Rasāmṛta",
       "status": "source_not_found"
     },
     {
-      "book_id": "yoga-ratna-sangraha",
-      "name": "Yogaratnasaṅgraha",
+      "book_id": "rasayoga-sagara",
+      "name": "Rasayoga Sāgara",
       "status": "source_not_found"
     },
     {
-      "book_id": "rasamanjari",
-      "name": "Rasamañjarī",
+      "book_id": "rasayoga-sangraha",
+      "name": "Rasayoga Saṅgraha",
       "status": "source_not_found"
     }
   ]
