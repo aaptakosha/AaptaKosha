@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T11:23:46.264405+00:00",
+  "generated_at": "2026-10-08T12:29:48.748297+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
-      "book_id": "madhava-nidana",
-      "name": "Mādhava Nidāna",
+      "book_id": "chakradatta",
+      "name": "Cakradatta",
       "status": "source_not_found"
     },
     {
-      "book_id": "sharangadhara-samhita",
-      "name": "Śārṅgadhara Saṃhitā",
+      "book_id": "gadanigraha",
+      "name": "Gadanigraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhavaprakasha",
-      "name": "Bhāvaprakāśa",
+      "book_id": "vrinda-chikitsa",
+      "name": "Vṛnda Cikitsā",
       "status": "source_not_found"
     }
   ]
