@@ -140,21 +140,17 @@ def main():
     items=[]
     configured={x.get("book_id"):x for x in catalog.get("sources",[])}
 
-    # Process only a bounded batch per run. This prevents discovery/network latency from
-    # blocking the whole workflow and lets the hourly runner advance the queue safely.
-    missing_priority=[]
-    for b in books:
-        cfg=configured.get(b["id"],{})
-        if not cfg.get("urls"):
-            missing_priority.append(b)
-        else:
-            missing_priority.append(b)
+    # Configured source books are "hot" sources: they must be revalidated every
+    # cycle so ingestion/commentary never starves merely because the discovery cursor
+    # has moved on. Discovery for the remaining registry is still bounded/rotating.
+    configured_books=[b for b in books if configured.get(b["id"],{}).get("urls")]
+    discover_books=[b for b in books if not configured.get(b["id"],{}).get("urls")]
     batch_size=max(1, args.limit)
-    ordered=missing_priority[cursor:]+missing_priority[:cursor] if missing_priority else []
-    books=ordered[:batch_size]
+    ordered=discover_books[cursor:]+discover_books[:cursor] if discover_books else []
+    selected=configured_books + ordered[:batch_size]
 
-    # Prioritize partial/planned books; configured URLs are tried before discovery.
-    for b in books:
+    # Configured URLs are always tried first; new discovery remains bounded.
+    for b in selected:
         bid=b["id"]
         cfg=configured.get(bid,{})
         urls=list(cfg.get("urls",[]))
@@ -177,8 +173,8 @@ def main():
         else:
             items.append({"book_id":bid,"name":b.get("name_en"),"status":"verification_required","sources":recs})
 
-    if missing_priority:
-        CURSOR.write_text(json.dumps({"schema_version":1,"next_index":(cursor+batch_size) % len(missing_priority),"updated_at":now()},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    if discover_books:
+        CURSOR.write_text(json.dumps({"schema_version":1,"next_index":(cursor+batch_size) % len(discover_books),"updated_at":now()},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     QUEUE.write_text(json.dumps({
         "schema_version":1,"generated_at":now(),
         "policy":"No generated Sanskrit/Tika. Source-backed artifacts only.",
