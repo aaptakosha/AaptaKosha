@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T00:35:01.545234+00:00",
+  "generated_at": "2026-10-09T01:23:24.127240+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-09T00:34:55.666804+00:00",
-          "content_sha256": "7aeb0e43a2a8c6cdd03c3a4a5d0eb442ad38a6a452616666b62197d897d07eca",
+          "retrieved_at": "2026-10-09T01:23:19.702600+00:00",
+          "content_sha256": "10bad173a487871f521263008fcc830946c7f6f664f0cd660aaafe8cb46e7344",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T00:34:59.481201+00:00",
-          "content_sha256": "09b4db92625a11244acca563877a0fca38269793adb4ac35aa20be755b8ad030",
+          "retrieved_at": "2026-10-09T01:23:23.104693+00:00",
+          "content_sha256": "cb72699ff043a0bd23256eb1398f76e1ab2159bc43c6826368e3f354f0adbcd5",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T00:35:00.421500+00:00",
+          "retrieved_at": "2026-10-09T01:23:23.562017+00:00",
           "content_sha256": "c197fb21be496fc07a26a975a346f728ef678efac6f3409ffe1a46cccf1c6065",
           "sanskrit_lines": 6,
           "commentators_detected": [],
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "vasavarajiyam",
-      "name": "Vāsavarājīyam",
+      "book_id": "yoga-chintamani",
+      "name": "Yoga Cintāmaṇi",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurveda-chintamani",
-      "name": "Āyurveda Cintāmaṇi",
+      "book_id": "yoga-tarangini",
+      "name": "Yogataraṅgiṇī",
       "status": "source_not_found"
     },
     {
-      "book_id": "vaidya-chintamani",
-      "name": "Vaidya Cintāmaṇi",
+      "book_id": "ayurvedic-formulary-of-india",
+      "name": "Ayurvedic Formulary of India",
       "status": "source_not_found"
     }
   ]
