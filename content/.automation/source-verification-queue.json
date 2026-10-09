@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T17:21:03.957189+00:00",
+  "generated_at": "2026-10-09T18:25:06.238035+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-09T17:20:58.269853+00:00",
-          "content_sha256": "b328e7517c7d5b64e5fa3b90c62951df06015754f74cc6111d7f2e9c5401d965",
+          "retrieved_at": "2026-10-09T18:25:01.530040+00:00",
+          "content_sha256": "06d0236981e7908a0d0193826c8c04abeedca4831b4f810266c84228ef705dbb",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T17:21:02.009877+00:00",
-          "content_sha256": "0d20984d0033ea59162fb00252907c7e981beababbac87392187aa337fab840a",
+          "retrieved_at": "2026-10-09T18:25:05.116100+00:00",
+          "content_sha256": "0ee13d0499bb3e1a117de41d1de6e1a951211f909778ad392413bc3754265626",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T17:21:02.802168+00:00",
-          "content_sha256": "c197fb21be496fc07a26a975a346f728ef678efac6f3409ffe1a46cccf1c6065",
+          "retrieved_at": "2026-10-09T18:25:05.628155+00:00",
+          "content_sha256": "4ebfd4aa0f9b08ed63dcf84b2a396cd68c9d55e13c906e8889e281d8c29456f9",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "haramekhala",
-      "name": "Haramekhalā",
+      "book_id": "vaidya-chintamani",
+      "name": "Vaidya Cintāmaṇi",
       "status": "source_not_found"
     },
     {
-      "book_id": "vasavarajiyam",
-      "name": "Vāsavarājīyam",
+      "book_id": "yoga-chintamani",
+      "name": "Yoga Cintāmaṇi",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurveda-chintamani",
-      "name": "Āyurveda Cintāmaṇi",
+      "book_id": "yoga-tarangini",
+      "name": "Yogataraṅgiṇī",
       "status": "source_not_found"
     }
   ]
