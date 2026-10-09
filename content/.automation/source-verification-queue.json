@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T19:20:52.554631+00:00",
+  "generated_at": "2026-10-09T20:21:22.547490+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-09T19:20:48.377132+00:00",
-          "content_sha256": "5e514d2c5a2b77562973501fca8073a708ae1602e297d8d9791958930be4b214",
+          "retrieved_at": "2026-10-09T20:21:16.788986+00:00",
+          "content_sha256": "b2d1c99a4cee7c573cfa3c1e4aea51ecc060b62df8e6049c606d351d33709c05",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T19:20:51.692031+00:00",
-          "content_sha256": "70c042cc496d16af35a5a4df6ce862eadb85305e401e4d5ab1255d7771096622",
+          "retrieved_at": "2026-10-09T20:21:20.745406+00:00",
+          "content_sha256": "8a04dc1e65079c57513564d6c01b578d5e4684795ac35555f981df83ff0b2e29",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -260,18 +260,18 @@
       ]
     },
     {
-      "book_id": "ayurvedic-formulary-of-india",
-      "name": "Ayurvedic Formulary of India",
+      "book_id": "ashtanga-sangraha",
+      "name": "Aṣṭāṅga Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurvedic-pharmacopoeia-of-india",
-      "name": "Ayurvedic Pharmacopoeia of India",
+      "book_id": "bhela-samhita",
+      "name": "Bhela Saṃhitā",
       "status": "source_not_found"
     },
     {
-      "book_id": "ashtanga-hridaya",
-      "name": "Aṣṭāṅga Hṛdaya",
+      "book_id": "kashyapa-samhita",
+      "name": "Kāśyapa Saṃhitā",
       "status": "source_not_found"
     }
   ]
