@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T02:21:24.166705+00:00",
+  "generated_at": "2026-10-09T03:23:36.344649+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-09T02:21:18.167149+00:00",
-          "content_sha256": "4dd8949467bd9d6ab0c6837422c7949cf2e031e1789c48d648ece4a0c4d2cfbf",
+          "retrieved_at": "2026-10-09T03:23:29.941095+00:00",
+          "content_sha256": "c73a8133708f8800598017405c789d14788b48ffed3d32062ce9d78c24a47f1f",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T02:21:22.086967+00:00",
-          "content_sha256": "efaef0ec1e035246dfe74618f38f74f078958db69376042267820dfb28fdbcb5",
+          "retrieved_at": "2026-10-09T03:23:33.750637+00:00",
+          "content_sha256": "ec75574c8a036f1c3babde68f4d3bba9265158ef65472c1f132c456a1940d133",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T02:21:23.015954+00:00",
-          "content_sha256": "c197fb21be496fc07a26a975a346f728ef678efac6f3409ffe1a46cccf1c6065",
+          "retrieved_at": "2026-10-09T03:23:34.742515+00:00",
+          "content_sha256": "84586c949ca5882e96ed92cb67e95a15fb3828796a28782ca3030fb9b3759807",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "ayurvedic-pharmacopoeia-of-india",
-      "name": "Ayurvedic Pharmacopoeia of India",
+      "book_id": "bhela-samhita",
+      "name": "Bhela Saṃhitā",
       "status": "source_not_found"
     },
     {
-      "book_id": "ashtanga-hridaya",
-      "name": "Aṣṭāṅga Hṛdaya",
+      "book_id": "kashyapa-samhita",
+      "name": "Kāśyapa Saṃhitā",
       "status": "source_not_found"
     },
     {
-      "book_id": "ashtanga-sangraha",
-      "name": "Aṣṭāṅga Saṅgraha",
+      "book_id": "madhava-nidana",
+      "name": "Mādhava Nidāna",
       "status": "source_not_found"
     }
   ]
