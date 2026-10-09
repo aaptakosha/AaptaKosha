@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T18:25:06.238035+00:00",
+  "generated_at": "2026-10-09T19:20:52.554631+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-09T18:25:01.530040+00:00",
-          "content_sha256": "06d0236981e7908a0d0193826c8c04abeedca4831b4f810266c84228ef705dbb",
+          "retrieved_at": "2026-10-09T19:20:48.377132+00:00",
+          "content_sha256": "5e514d2c5a2b77562973501fca8073a708ae1602e297d8d9791958930be4b214",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T18:25:05.116100+00:00",
-          "content_sha256": "0ee13d0499bb3e1a117de41d1de6e1a951211f909778ad392413bc3754265626",
+          "retrieved_at": "2026-10-09T19:20:51.692031+00:00",
+          "content_sha256": "70c042cc496d16af35a5a4df6ce862eadb85305e401e4d5ab1255d7771096622",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -256,73 +256,22 @@
             "प्रागभिहितं सविंशमध्यायशतं पञ्चसु स्थानेषु तत्र सूत्रस्थानमध्यायाः षट्चत्वारिंशत्षोडश निदानानि दश शारीराणि चत्वारिंशच्चिकित्सितानि अष्टौ कल्पाः तदुत्तरं षट्षष्टिः ३",
             "वेदोत्पत्तिः शिष्य नयस्तथाऽध्ययनदानिकः"
           ]
-        },
-        {
-          "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
-          "host": "www.ayanaayurveda.com",
-          "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T18:25:05.628155+00:00",
-          "content_sha256": "4ebfd4aa0f9b08ed63dcf84b2a396cd68c9d55e13c906e8889e281d8c29456f9",
-          "sanskrit_lines": 6,
-          "commentators_detected": [],
-          "linked_urls": [
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/#main-content",
-            "https://www.ayanaayurveda.com/learn/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/",
-            "https://www.ayanaayurveda.com/learn/mcq/",
-            "https://www.ayanaayurveda.com/learn/notes/",
-            "https://www.ayanaayurveda.com/blog/",
-            "https://www.ayanaayurveda.com/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/nidanasthanam/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sharirasthanam/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/cikitsasthanam/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/kalpasthanam/",
-            "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/uttaratantram/",
-            "https://www.ayanaayurveda.com/about/",
-            "https://www.ayanaayurveda.com/about/#about-the-doctor",
-            "https://www.ayanaayurveda.com/editorial-policy/",
-            "https://www.ayanaayurveda.com/medical-disclaimer/",
-            "https://www.ayanaayurveda.com/teleconsultation-policy/",
-            "https://www.ayanaayurveda.com/treatments/",
-            "https://www.ayanaayurveda.com/appointments/book/",
-            "https://www.ayanaayurveda.com/faq/",
-            "https://www.ayanaayurveda.com/feedback/",
-            "https://www.ayanaayurveda.com/blog/how-pmos-affects-skin-hair-face/",
-            "https://www.ayanaayurveda.com/privacy-policy/",
-            "https://www.ayanaayurveda.com/terms/",
-            "https://www.ayanaayurveda.com/cookie-policy/",
-            "https://www.ayanaayurveda.com/accessibility/",
-            "https://www.ayanaayurveda.com/corrections-policy/",
-            "https://www.ayanaayurveda.com/cancellation-refund-policy/",
-            "https://www.ayanaayurveda.com/patient-rights-responsibilities/",
-            "https://www.ayanaayurveda.com/consent-for-online-consultation/"
-          ],
-          "status": "source_found",
-          "text_sample": [
-            "सूत्रस्थानम्",
-            "निदानस्थानम्",
-            "शारीरस्थानम्",
-            "चिकित्सास्थानम्",
-            "कल्पस्थानम्",
-            "उत्तरतन्त्रम्"
-          ]
         }
       ]
     },
     {
-      "book_id": "vaidya-chintamani",
-      "name": "Vaidya Cintāmaṇi",
+      "book_id": "ayurvedic-formulary-of-india",
+      "name": "Ayurvedic Formulary of India",
       "status": "source_not_found"
     },
     {
-      "book_id": "yoga-chintamani",
-      "name": "Yoga Cintāmaṇi",
+      "book_id": "ayurvedic-pharmacopoeia-of-india",
+      "name": "Ayurvedic Pharmacopoeia of India",
       "status": "source_not_found"
     },
     {
-      "book_id": "yoga-tarangini",
-      "name": "Yogataraṅgiṇī",
+      "book_id": "ashtanga-hridaya",
+      "name": "Aṣṭāṅga Hṛdaya",
       "status": "source_not_found"
     }
   ]
