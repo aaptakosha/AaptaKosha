@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T19:19:46.332117+00:00",
+  "generated_at": "2026-10-10T20:20:28.047840+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-10T19:19:40.995535+00:00",
-          "content_sha256": "cb866bb7d6057425af48e5b94ecd0cc371609c5d2f7762d4d7064cdf935ece92",
+          "retrieved_at": "2026-10-10T20:20:23.567167+00:00",
+          "content_sha256": "d4046691a0c2975b71570f6593f02a68646a216f762409383bfe7f9478ba61e8",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-10T19:19:44.594041+00:00",
-          "content_sha256": "2c110f27fabc53e75f426f36d11c6a7bdd17432ffb2571b0fa3c83a036dad122",
+          "retrieved_at": "2026-10-10T20:20:26.885418+00:00",
+          "content_sha256": "b13d445c45f6f573261b3b1c83e306e67ac25eabbb7ce960575eea018819c1e8",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-10T19:19:45.131850+00:00",
-          "content_sha256": "aa1d07770674d84a697a872c0c3c8bac203d8228c6f04c1b8decab817740cf49",
+          "retrieved_at": "2026-10-10T20:20:27.515816+00:00",
+          "content_sha256": "20cb48a162c51dec4e2f72820705df67ea1a4b773e1f7b13f012e1a093222c06",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "kaideva-nighantu",
-      "name": "Kaiyadeva Nighaṇṭu",
+      "book_id": "shodhala-nighantu",
+      "name": "Śodhala Nighaṇṭu",
       "status": "source_not_found"
     },
     {
-      "book_id": "madanapala-nighantu",
-      "name": "Madanapāla Nighaṇṭu",
+      "book_id": "nighantu-ratnakara",
+      "name": "Nighaṇṭu Ratnākara",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhavaprakasha-nighantu",
-      "name": "Bhāvaprakāśa Nighaṇṭu",
+      "book_id": "dravyaguna-nighantu",
+      "name": "Dravyaguṇa Nighaṇṭu",
       "status": "source_not_found"
     }
   ]
