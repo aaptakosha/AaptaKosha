@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T12:25:19.181354+00:00",
+  "generated_at": "2026-10-10T13:21:05.355556+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-10T12:25:15.310242+00:00",
-          "content_sha256": "759a6b0a6f31c530092a900f3ede1a162a00d2e8731f336fff442fce3d3cd623",
+          "retrieved_at": "2026-10-10T13:21:00.732039+00:00",
+          "content_sha256": "8b6f43fdb69a091637cc8d6e8c7a08ee0bef5a13c77d5b5a876a1edd2c82a654",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-10T12:25:18.552655+00:00",
-          "content_sha256": "4ec2302526b264d17f01d1492b9c259311ef1a3eefab252da4b32648bd2bd4c6",
+          "retrieved_at": "2026-10-10T13:21:04.163205+00:00",
+          "content_sha256": "bbaf97d73b7fcaab14fe5b628fc262c788356f3e8e9061002a04811c57ed2005",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-10T12:25:18.766468+00:00",
+          "retrieved_at": "2026-10-10T13:21:04.665119+00:00",
           "content_sha256": "54b70700963ac95164a922b434c61cce3f80a02061a557170c15a03b7941f7ee",
           "sanskrit_lines": 6,
           "commentators_detected": [],
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "yoga-tarangini",
-      "name": "Yogataraṅgiṇī",
+      "book_id": "ashtanga-hridaya",
+      "name": "Aṣṭāṅga Hṛdaya",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurvedic-formulary-of-india",
-      "name": "Ayurvedic Formulary of India",
+      "book_id": "ashtanga-sangraha",
+      "name": "Aṣṭāṅga Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurvedic-pharmacopoeia-of-india",
-      "name": "Ayurvedic Pharmacopoeia of India",
+      "book_id": "bhela-samhita",
+      "name": "Bhela Saṃhitā",
       "status": "source_not_found"
     }
   ]
