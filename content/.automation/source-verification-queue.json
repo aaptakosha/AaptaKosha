@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T23:20:54.705796+00:00",
+  "generated_at": "2026-10-10T00:33:04.147241+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-09T23:20:49.287084+00:00",
-          "content_sha256": "3a2d3c33bf95809a8a03315f1b73a48687b15c75f441cd13cdf0f0eaa417ffc9",
+          "retrieved_at": "2026-10-10T00:32:57.793787+00:00",
+          "content_sha256": "a11fde6ead111467ceb217899e4cb488800569cb51c942b12bd657743c00c8e0",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-09T23:20:52.704511+00:00",
-          "content_sha256": "4c191aa01ea519cf2d360d161843f169ca8674322913a0127f83bd960f75d22b",
+          "retrieved_at": "2026-10-10T00:33:02.398876+00:00",
+          "content_sha256": "80b732812d03cbaaeb45bfdb5bb551ce5967f84449e3fa75fa89e950bd327901",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -260,18 +260,18 @@
       ]
     },
     {
-      "book_id": "ayurveda-sangraha",
-      "name": "Āyurveda Saṅgraha",
+      "book_id": "abhinava-chintamani",
+      "name": "Abhinava Cintāmaṇi",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurveda-sara-sangraha",
-      "name": "Āyurveda Sāra Saṅgraha",
+      "book_id": "arka-prakasha",
+      "name": "Arka Prakāśa",
       "status": "source_not_found"
     },
     {
-      "book_id": "vaidya-chikitsa-sara",
-      "name": "Vaidyaka Cikitsā Sāra",
+      "book_id": "arogya-kalpadruma",
+      "name": "Ārogya Kalpadruma",
       "status": "source_not_found"
     }
   ]
