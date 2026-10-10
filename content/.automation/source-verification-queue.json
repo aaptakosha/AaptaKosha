@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T13:21:05.355556+00:00",
+  "generated_at": "2026-10-10T14:19:55.291333+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-10T13:21:00.732039+00:00",
-          "content_sha256": "8b6f43fdb69a091637cc8d6e8c7a08ee0bef5a13c77d5b5a876a1edd2c82a654",
+          "retrieved_at": "2026-10-10T14:19:51.250638+00:00",
+          "content_sha256": "585efbee1ba3ea6af8f8a0320062828787696132865df5c3f6b255437e4965dd",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-10T13:21:04.163205+00:00",
-          "content_sha256": "bbaf97d73b7fcaab14fe5b628fc262c788356f3e8e9061002a04811c57ed2005",
+          "retrieved_at": "2026-10-10T14:19:54.511136+00:00",
+          "content_sha256": "f7c6797d8304354c23ba04352e13ddf98828c539ae26fef6ac4fea9081d2e83b",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-10T13:21:04.665119+00:00",
-          "content_sha256": "54b70700963ac95164a922b434c61cce3f80a02061a557170c15a03b7941f7ee",
+          "retrieved_at": "2026-10-10T14:19:54.829060+00:00",
+          "content_sha256": "8299782bf330716eac114d462ec26a12f5ce641f86586212fd06981f07837e43",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "ashtanga-hridaya",
-      "name": "Aṣṭāṅga Hṛdaya",
+      "book_id": "kashyapa-samhita",
+      "name": "Kāśyapa Saṃhitā",
       "status": "source_not_found"
     },
     {
-      "book_id": "ashtanga-sangraha",
-      "name": "Aṣṭāṅga Saṅgraha",
+      "book_id": "madhava-nidana",
+      "name": "Mādhava Nidāna",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhela-samhita",
-      "name": "Bhela Saṃhitā",
+      "book_id": "sharangadhara-samhita",
+      "name": "Śārṅgadhara Saṃhitā",
       "status": "source_not_found"
     }
   ]
