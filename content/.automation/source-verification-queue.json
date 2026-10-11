@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T16:21:46.911911+00:00",
+  "generated_at": "2026-10-11T17:20:36.754061+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-11T16:21:41.183341+00:00",
-          "content_sha256": "9b7fb0c10a1cdbd656612d54e5f9d4860631783fe05f7e5dfa68a0a34631cab8",
+          "retrieved_at": "2026-10-11T17:20:31.233783+00:00",
+          "content_sha256": "29ce575fdb04ead7e650b0484c534d7a49e1c899e10ca0a605e636a190cbd9f2",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T16:21:44.847684+00:00",
-          "content_sha256": "afcd728505919cab3bd2da36b496b3aec07f88dc3abcfdbe806a8272d106a092",
+          "retrieved_at": "2026-10-11T17:20:34.939517+00:00",
+          "content_sha256": "0539fa645b4f3a78cb2bdc46da840bd61302a9e02cb884535b0935919f170534",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T16:21:45.730754+00:00",
+          "retrieved_at": "2026-10-11T17:20:35.785073+00:00",
           "content_sha256": "ee3274799f75cfed46a54cb0b47920897a84c876f8785163e5212e2a9a12ccb0",
           "sanskrit_lines": 6,
           "commentators_detected": [],
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "rasayoga-ratnakara",
-      "name": "Rasayoga Ratnākara",
+      "book_id": "sahasrayoga",
+      "name": "Sahasrayoga",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhaishajya-ratnavali",
-      "name": "Bhaiṣajya Ratnāvalī",
+      "book_id": "siddha-bhaishajya-manimala",
+      "name": "Siddha Bhaiṣajya Maṇimālā",
       "status": "source_not_found"
     },
     {
-      "book_id": "brihat-bhaishajya-ratnakara",
-      "name": "Bṛhat Bhaiṣajya Ratnākara",
+      "book_id": "yoga-ratnakara",
+      "name": "Yogaratnākara",
       "status": "source_not_found"
     }
   ]
