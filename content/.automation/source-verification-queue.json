@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T15:20:36.945569+00:00",
+  "generated_at": "2026-10-11T16:21:46.911911+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-11T15:20:31.960798+00:00",
-          "content_sha256": "b6a1f9b03e431fa85f5021754326ce7886caf1d9c9234e13a56ffd38b203212c",
+          "retrieved_at": "2026-10-11T16:21:41.183341+00:00",
+          "content_sha256": "9b7fb0c10a1cdbd656612d54e5f9d4860631783fe05f7e5dfa68a0a34631cab8",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T15:20:35.816950+00:00",
-          "content_sha256": "052851fd61cc426ea9c9b3db66463c145d6fa77ca3b993371e313aab92453e41",
+          "retrieved_at": "2026-10-11T16:21:44.847684+00:00",
+          "content_sha256": "afcd728505919cab3bd2da36b496b3aec07f88dc3abcfdbe806a8272d106a092",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T15:20:36.337147+00:00",
-          "content_sha256": "34720384912d2cae3c95d95bb66eb95c879aa9fdd0e5bb23d1a15a57f0e0bba3",
+          "retrieved_at": "2026-10-11T16:21:45.730754+00:00",
+          "content_sha256": "ee3274799f75cfed46a54cb0b47920897a84c876f8785163e5212e2a9a12ccb0",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "rasaratna-samucchaya",
-      "name": "Rasaratna Samuccaya",
+      "book_id": "rasayoga-ratnakara",
+      "name": "Rasayoga Ratnākara",
       "status": "source_not_found"
     },
     {
-      "book_id": "rasatarangini",
-      "name": "Rasataraṅgiṇī",
+      "book_id": "bhaishajya-ratnavali",
+      "name": "Bhaiṣajya Ratnāvalī",
       "status": "source_not_found"
     },
     {
-      "book_id": "rasendra-sara-sangraha",
-      "name": "Rasendra Sāra Saṅgraha",
+      "book_id": "brihat-bhaishajya-ratnakara",
+      "name": "Bṛhat Bhaiṣajya Ratnākara",
       "status": "source_not_found"
     }
   ]
