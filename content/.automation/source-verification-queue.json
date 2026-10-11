@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T10:21:24.716025+00:00",
+  "generated_at": "2026-10-11T11:20:37.214640+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-11T10:21:20.268111+00:00",
-          "content_sha256": "a4076b5c047a5388fdc91472981d26f1c434dfc30836a5620ea705a9b663cae9",
+          "retrieved_at": "2026-10-11T11:20:32.609023+00:00",
+          "content_sha256": "53e6d8e6d6c1802d0f834a60e07e52f98457b5bc1c857a2a7497d16540be3dbf",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T10:21:23.547079+00:00",
-          "content_sha256": "cb9d23b9d8066d78b3593848076b440bb554d32ced6e904a3f0966097817c71e",
+          "retrieved_at": "2026-10-11T11:20:36.152632+00:00",
+          "content_sha256": "d4be7c3dcddce56d6d317b921b77e38c315e3f9fee9f7395d107c8b4d200fba0",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T10:21:24.200159+00:00",
-          "content_sha256": "36bd970c3deb8ec8a5f49a80939870d49627c17623dc8fb1ce04ef4a627fe60e",
+          "retrieved_at": "2026-10-11T11:20:36.669650+00:00",
+          "content_sha256": "de68393d12d07e3ec8d94b5f5a8de188697a6da759b21e017dedc13f647cab08",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "ayurveda-sara-sangraha",
-      "name": "Āyurveda Sāra Saṅgraha",
+      "book_id": "arka-prakasha",
+      "name": "Arka Prakāśa",
       "status": "source_not_found"
     },
     {
-      "book_id": "vaidya-chikitsa-sara",
-      "name": "Vaidyaka Cikitsā Sāra",
+      "book_id": "arogya-kalpadruma",
+      "name": "Ārogya Kalpadruma",
       "status": "source_not_found"
     },
     {
-      "book_id": "abhinava-chintamani",
-      "name": "Abhinava Cintāmaṇi",
+      "book_id": "ayurbhishak",
+      "name": "Āyurbhiṣak",
       "status": "source_not_found"
     }
   ]
