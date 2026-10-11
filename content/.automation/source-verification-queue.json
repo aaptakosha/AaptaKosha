@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T20:20:50.258590+00:00",
+  "generated_at": "2026-10-11T21:21:14.094126+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-11T20:20:46.261510+00:00",
-          "content_sha256": "599205c2267afec4cb1492b06c05544ff9e55fafb7933e56c4623a5b9ba98c23",
+          "retrieved_at": "2026-10-11T21:21:08.467408+00:00",
+          "content_sha256": "200421fabaabe7a1230e1105eed738f59863c1c06356a14c0b8cd91d69f4b0d6",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T20:20:49.582791+00:00",
-          "content_sha256": "513218236bad4a915650575e6c91da3ef943fde25de7c307a50c7fbc33a27a46",
+          "retrieved_at": "2026-10-11T21:21:12.137121+00:00",
+          "content_sha256": "509321050d636a6efa0bf9ec7fec3ac0e95bb3c02c21349898bb736eb9821cf4",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T20:20:49.804790+00:00",
+          "retrieved_at": "2026-10-11T21:21:12.971738+00:00",
           "content_sha256": "e9e1cedc68dc32c3ae5821f44f6fc863e716d4db96192846dd32887e2190a598",
           "sanskrit_lines": 6,
           "commentators_detected": [],
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "rasa-pradipika",
-      "name": "Rasapradīpikā",
+      "book_id": "haramekhala",
+      "name": "Haramekhalā",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhojana-kutuhala",
-      "name": "Bhojana Kutūhala",
+      "book_id": "vasavarajiyam",
+      "name": "Vāsavarājīyam",
       "status": "source_not_found"
     },
     {
-      "book_id": "kshemakutuhala",
-      "name": "Kṣemakutūhala",
+      "book_id": "ayurveda-chintamani",
+      "name": "Āyurveda Cintāmaṇi",
       "status": "source_not_found"
     }
   ]
