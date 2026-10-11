@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T01:20:56.206693+00:00",
+  "generated_at": "2026-10-11T02:21:13.806429+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-11T01:20:52.226777+00:00",
-          "content_sha256": "062063234a9e6aa1c2ec096c88478007e81e44d24fb4a49ac1e8d564570715ff",
+          "retrieved_at": "2026-10-11T02:21:09.075511+00:00",
+          "content_sha256": "6b9ce659f26d73a6a01f9eb9c25420bacd792b49b6d820f32906e03a7deacd0e",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T01:20:55.425756+00:00",
-          "content_sha256": "3e1db5cadf44ea0730daf956d381d1c75f3aaa03bfa4e26d266383841c1d3648",
+          "retrieved_at": "2026-10-11T02:21:12.725712+00:00",
+          "content_sha256": "e99c31e01205a5b187f9a2e65b4a087b0b69b508bf9cfd489cb34b146fc39f42",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-11T01:20:55.821155+00:00",
-          "content_sha256": "5594fbdf5f87a23dcf71f20abed45f4328a7b7a2103b73f7e07b75b8cd38358a",
+          "retrieved_at": "2026-10-11T02:21:13.319968+00:00",
+          "content_sha256": "3ea2492a37128d253b2cd443f13791e13cdabefdc126df215ae260c76d04cb40",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "rasamanjari",
-      "name": "Rasamañjarī",
+      "book_id": "rasayoga-sangraha",
+      "name": "Rasayoga Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "rasamrita",
-      "name": "Rasāmṛta",
+      "book_id": "siddha-yoga-sangraha",
+      "name": "Siddha Yoga Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "rasayoga-sagara",
-      "name": "Rasayoga Sāgara",
+      "book_id": "rasa-pradipika",
+      "name": "Rasapradīpikā",
       "status": "source_not_found"
     }
   ]
