@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T02:23:34.626382+00:00",
+  "generated_at": "2026-10-12T03:24:38.875557+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-12T02:23:30.129759+00:00",
-          "content_sha256": "6f6bc2c30f4a39d34783b80314f277e85b4729f9e31ba1d5ce4366efbc8eae21",
+          "retrieved_at": "2026-10-12T03:24:33.494808+00:00",
+          "content_sha256": "eb182f7cf8cde65db983735c627580057571075ba4bc4fdeecea1cb07e5ee370",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-12T02:23:33.505950+00:00",
-          "content_sha256": "a9a639f069fea27303b91ae2fc0c4cbf80247fd9e5219ec25bb1f1d927c5dbd4",
+          "retrieved_at": "2026-10-12T03:24:37.281032+00:00",
+          "content_sha256": "d1960d2df5ce5e6df444b618f58fc60bd478c3a4606bf09b9076dec9d29025a8",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-12T02:23:33.993006+00:00",
-          "content_sha256": "8299782bf330716eac114d462ec26a12f5ce641f86586212fd06981f07837e43",
+          "retrieved_at": "2026-10-12T03:24:38.317394+00:00",
+          "content_sha256": "65bb04ff3c28b08f1f32e3de26f4866e9406572bdd729cb7e88f8cafe7ada2a2",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "chakradatta",
-      "name": "Cakradatta",
+      "book_id": "ayurveda-sangraha",
+      "name": "Āyurveda Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "gadanigraha",
-      "name": "Gadanigraha",
+      "book_id": "ayurveda-sara-sangraha",
+      "name": "Āyurveda Sāra Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "vrinda-chikitsa",
-      "name": "Vṛnda Cikitsā",
+      "book_id": "vaidya-chikitsa-sara",
+      "name": "Vaidyaka Cikitsā Sāra",
       "status": "source_not_found"
     }
   ]
