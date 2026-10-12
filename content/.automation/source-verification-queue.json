@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T01:24:27.282189+00:00",
+  "generated_at": "2026-10-12T02:23:34.626382+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-12T01:24:22.999070+00:00",
-          "content_sha256": "f41f40f311209df2541a15d3f7d1bb288b3fe427a1f46d74f704be65c3538443",
+          "retrieved_at": "2026-10-12T02:23:30.129759+00:00",
+          "content_sha256": "6f6bc2c30f4a39d34783b80314f277e85b4729f9e31ba1d5ce4366efbc8eae21",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-12T01:24:26.117991+00:00",
-          "content_sha256": "8edbc5643284782a9de16ae8e9ea3391e31f7ca60077c9cacdca47a2f81e51e0",
+          "retrieved_at": "2026-10-12T02:23:33.505950+00:00",
+          "content_sha256": "a9a639f069fea27303b91ae2fc0c4cbf80247fd9e5219ec25bb1f1d927c5dbd4",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-12T01:24:26.695098+00:00",
+          "retrieved_at": "2026-10-12T02:23:33.993006+00:00",
           "content_sha256": "8299782bf330716eac114d462ec26a12f5ce641f86586212fd06981f07837e43",
           "sanskrit_lines": 6,
           "commentators_detected": [],
@@ -311,18 +311,18 @@
       ]
     },
     {
-      "book_id": "madhava-nidana",
-      "name": "Mādhava Nidāna",
+      "book_id": "chakradatta",
+      "name": "Cakradatta",
       "status": "source_not_found"
     },
     {
-      "book_id": "sharangadhara-samhita",
-      "name": "Śārṅgadhara Saṃhitā",
+      "book_id": "gadanigraha",
+      "name": "Gadanigraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhavaprakasha",
-      "name": "Bhāvaprakāśa",
+      "book_id": "vrinda-chikitsa",
+      "name": "Vṛnda Cikitsā",
       "status": "source_not_found"
     }
   ]
