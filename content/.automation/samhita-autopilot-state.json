@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T23:20:49.257151+00:00",
+  "generated_at": "2026-10-12T00:34:02.726971+00:00",
   "registry_version": 3,
   "book_count": 54,
   "counts": {
@@ -520,5 +520,5 @@
       "queue_status": "missing_source_content"
     }
   ],
-  "fingerprint": "1e7375cc77c4f081e8d6bb366286dea00160ca367d0de28cd48bddab8b09bc07"
+  "fingerprint": "6e2a1cc0e19cb1397d485a32e1c7cc91503ccfff5ab08dfdf171fb1137ef2db0"
 }
