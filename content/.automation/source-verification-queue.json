@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:32:26.561682+00:00",
+  "generated_at": "2026-10-15T18:37:55.943808+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-15T17:32:18.497493+00:00",
-          "content_sha256": "c185639ad354399976d9c03bdde5a817437d32e1a3f20ca98629c0bb4b0423a2",
+          "retrieved_at": "2026-10-15T18:37:51.097447+00:00",
+          "content_sha256": "23cbf155a448923a690a792427f393367978005ac29f19cc4cc6089dd3c2ffb5",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-15T17:32:24.538025+00:00",
-          "content_sha256": "b1ad400e6f02b55d6267ada89145a2ee03cc084da4ad80a4fffb0da291c5a491",
+          "retrieved_at": "2026-10-15T18:37:54.591525+00:00",
+          "content_sha256": "9c588e3cac8ad1f8216c5e23d197b489e2ea998abb37df6a5395d53a63cbcf27",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/vedotpattyadhyayah/?commentary=show",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-15T17:32:25.280447+00:00",
+          "retrieved_at": "2026-10-15T18:37:55.053467+00:00",
           "content_sha256": "fb027e8123f08d37e8671f042a9323274c41c6026fd1bd85ca86eb443a2813d4",
           "sanskrit_lines": 264,
           "commentators_detected": [
@@ -447,8 +447,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-15T17:32:25.449899+00:00",
-          "content_sha256": "28d01771a0cd9b75961a57b126139671a8af8dc44667bd2a94e27200ddbda69e",
+          "retrieved_at": "2026-10-15T18:37:55.152866+00:00",
+          "content_sha256": "c2edb2d8b3f5123bdfffbb01e23dc871d77099050771bf5681ef7a49c3c0514f",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -497,18 +497,18 @@
       ]
     },
     {
-      "book_id": "gadanigraha",
-      "name": "Gadanigraha",
+      "book_id": "ayurveda-sara-sangraha",
+      "name": "Āyurveda Sāra Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "vrinda-chikitsa",
-      "name": "Vṛnda Cikitsā",
+      "book_id": "vaidya-chikitsa-sara",
+      "name": "Vaidyaka Cikitsā Sāra",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurveda-sangraha",
-      "name": "Āyurveda Saṅgraha",
+      "book_id": "abhinava-chintamani",
+      "name": "Abhinava Cintāmaṇi",
       "status": "source_not_found"
     }
   ]
