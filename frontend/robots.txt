@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /notes.html
+Disallow: /progress.html
+Disallow: /settings.html
+Disallow: /notifications.html
+Disallow: /planner.html
+Disallow: /assessment-results.html
+Disallow: /sign-in.html
+
+Sitemap: https://aapta-kosha.vercel.app/sitemap.xml
