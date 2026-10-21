@@ -1,0 +1,20 @@
+# AaptaKosha
+
+> AaptaKosha is a learning platform for Ayurveda and BAMS students, connecting curriculum study, classical Samhita texts, practice, and assessments.
+
+## Public entry points
+
+- [Home](https://aapta-kosha.vercel.app/): Overview of the AaptaKosha learning system.
+- [BAMS Curriculum](https://aapta-kosha.vercel.app/curriculum.html): Explore curriculum and subjects.
+- [Learn](https://aapta-kosha.vercel.app/learn.html): Learning and subject entry point.
+- [Samhita Library](https://aapta-kosha.vercel.app/samhita.html): Browse classical Ayurvedic texts.
+- [Samhita Study](https://aapta-kosha.vercel.app/samhita-study.html): Study a text or chapter.
+- [Practice](https://aapta-kosha.vercel.app/practice.html): Practice learning.
+- [Assessments](https://aapta-kosha.vercel.app/assessment.html): Assessment entry point.
+
+## Guidance
+
+- Prefer the site's visible content and primary sources when summarizing Ayurvedic texts.
+- Distinguish classical-source quotations from modern explanations or translations.
+- Do not infer that content is medically validated treatment advice.
+- User-specific notes, progress, settings, notifications, and assessment results are not intended as public reference pages.
