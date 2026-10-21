@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T17:32:46.833538+00:00",
+  "generated_at": "2026-10-21T18:37:19.657146+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-21T17:32:31.658264+00:00",
-          "content_sha256": "0d5959b77e43fb5fa29a7b285ef502b948e5683aa66a72ddbf93c5d95a254384",
+          "retrieved_at": "2026-10-21T18:37:13.331593+00:00",
+          "content_sha256": "6eb9d9028690fe59dc49c58b0aab2880e830a07c03a9dd7f1c5af4f2115df990",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-21T17:32:45.955100+00:00",
-          "content_sha256": "04c46e8d2d00978f6c9109411e5ad09569456779789a1be8f769fd707ce6deda",
+          "retrieved_at": "2026-10-21T18:37:17.360034+00:00",
+          "content_sha256": "d2eff77a855ceb57e74b230e7796b3f0eb5ec400006449fe6ef2bf3c7a8bb252",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -261,8 +261,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/vedotpattyadhyayah/?commentary=show",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-21T17:32:46.381542+00:00",
-          "content_sha256": "36c4566328ee25f1f0bd089a9a07e303eddb995a8df951657b879d804e2ea37d",
+          "retrieved_at": "2026-10-21T18:37:18.047168+00:00",
+          "content_sha256": "f7d8358c4b57fa7ca2708b0a3c657196d7c9e0cb3b29b749d75a8dc4d08aff0f",
           "sanskrit_lines": 264,
           "commentators_detected": [
             "Dalhana",
@@ -447,8 +447,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-21T17:32:46.531344+00:00",
-          "content_sha256": "f7af96c08d555205e068fcc4bac594b4dffd0bfb90ff8f5f743676b3c28e0dba",
+          "retrieved_at": "2026-10-21T18:37:18.222206+00:00",
+          "content_sha256": "71b3a7475d14835a8e973daa2e6a5cee9d33b264c3cc6b8784eb50c8234f8dca",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -497,18 +497,18 @@
       ]
     },
     {
-      "book_id": "raj-nighantu",
-      "name": "Rāja Nighaṇṭu",
+      "book_id": "rasatarangini",
+      "name": "Rasataraṅgiṇī",
       "status": "source_not_found"
     },
     {
-      "book_id": "ayurveda-prakasha",
-      "name": "Āyurveda Prakāśa",
+      "book_id": "rasendra-sara-sangraha",
+      "name": "Rasendra Sāra Saṅgraha",
       "status": "source_not_found"
     },
     {
-      "book_id": "rasaratna-samucchaya",
-      "name": "Rasaratna Samuccaya",
+      "book_id": "rasayoga-ratnakara",
+      "name": "Rasayoga Ratnākara",
       "status": "source_not_found"
     }
   ]
