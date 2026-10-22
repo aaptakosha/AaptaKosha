@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T16:37:08.282113+00:00",
+  "generated_at": "2026-10-22T17:32:24.500238+00:00",
   "policy": "No generated Sanskrit/Tika. Source-backed artifacts only.",
   "items": [
     {
@@ -12,8 +12,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
           "host": "www.ebharatisampat.in",
           "title": "Charaka Saṃhitā",
-          "retrieved_at": "2026-10-22T16:37:02.634674+00:00",
-          "content_sha256": "478c0de30d5ce9dfe81aacc21cadc988e3c780f3155d789494ede618ca58e6d1",
+          "retrieved_at": "2026-10-22T17:32:20.906173+00:00",
+          "content_sha256": "b21f953d2adb5da2d91bae14424a02e5925e98fe05a2fc37e3b9dd5b10328596",
           "sanskrit_lines": 13775,
           "commentators_detected": [
             "जीवक"
@@ -24,7 +24,7 @@
             "https://ebharatisampat.in/",
             "https://www.ebharatisampat.in/",
             "https://www.ebharatisampat.in/about",
-            "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy",
+            "https://www.ebharatisampat.in/read_chapter.php?bookid=MjQ2MTI3NDY1NjQwMTQy#",
             "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
             "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
             "https://www.ebharatisampat.in/contributors",
@@ -141,8 +141,8 @@
           "url": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
           "host": "www.ebharatisampat.in",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-22T16:37:06.237148+00:00",
-          "content_sha256": "e29c448d7587816628a53bfa0d459b8730ef7835454f9a5fdf63ce02f69623ba",
+          "retrieved_at": "2026-10-22T17:32:23.871646+00:00",
+          "content_sha256": "2b4a4f325541fb12ed78fa3fbf8695f0c8a2c2cfdc2022da82e428ad0448ba45",
           "sanskrit_lines": 15899,
           "commentators_detected": [
             "जीवक"
@@ -153,7 +153,7 @@
             "https://ebharatisampat.in/",
             "https://www.ebharatisampat.in/",
             "https://www.ebharatisampat.in/about",
-            "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy",
+            "https://www.ebharatisampat.in/read_chapter.php?bookid=ODEwMTY2NDM1NDE4MTQy#",
             "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
             "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
             "https://www.ebharatisampat.in/contributors",
@@ -261,7 +261,7 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/sutrasthanam/vedotpattyadhyayah/?commentary=show",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-22T16:37:06.922432+00:00",
+          "retrieved_at": "2026-10-22T17:32:24.089541+00:00",
           "content_sha256": "fb027e8123f08d37e8671f042a9323274c41c6026fd1bd85ca86eb443a2813d4",
           "sanskrit_lines": 264,
           "commentators_detected": [
@@ -447,8 +447,8 @@
           "url": "https://www.ayanaayurveda.com/learn/classical-texts/sushruta-samhita/",
           "host": "www.ayanaayurveda.com",
           "title": "Suśruta Saṃhitā",
-          "retrieved_at": "2026-10-22T16:37:07.077196+00:00",
-          "content_sha256": "0d15afe2f9170fc14f295a7ad6d8add1c6eb3a918043c9b0dabe9ea50d0ce686",
+          "retrieved_at": "2026-10-22T17:32:24.172750+00:00",
+          "content_sha256": "5594fbdf5f87a23dcf71f20abed45f4328a7b7a2103b73f7e07b75b8cd38358a",
           "sanskrit_lines": 6,
           "commentators_detected": [],
           "linked_urls": [
@@ -497,18 +497,18 @@
       ]
     },
     {
-      "book_id": "rasa-pradipika",
-      "name": "Rasapradīpikā",
+      "book_id": "haramekhala",
+      "name": "Haramekhalā",
       "status": "source_not_found"
     },
     {
-      "book_id": "bhojana-kutuhala",
-      "name": "Bhojana Kutūhala",
+      "book_id": "vasavarajiyam",
+      "name": "Vāsavarājīyam",
       "status": "source_not_found"
     },
     {
-      "book_id": "kshemakutuhala",
-      "name": "Kṣemakutūhala",
+      "book_id": "ayurveda-chintamani",
+      "name": "Āyurveda Cintāmaṇi",
       "status": "source_not_found"
     }
   ]
